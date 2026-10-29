@@ -390,6 +390,8 @@ function ferries() {
 
 function roads() {
   const box = document.getElementById("roads");
+  // HAK-ov link je na vrhu da se na mobitelu vidi bez listanja unutar okvira.
+  box.append(el("p", {}, el("a", { href: "https://m.hak.hr/stanje.asp?id=1", target: "_blank", rel: "noopener" }, el("b", {}, "Stanje na cestama (HAK) →"))));
   const since = Date.now() - 36 * 3600 * 1000;
   const re = /paški most|paškog mosta|masleni|\bA1\b|autocest|zatvoren|obilazn|promet|regulacij/i;
   const hits = DATA.articles.filter(a => new Date(a.date) > since && re.test(a.title)).slice(0, 3);
@@ -400,7 +402,6 @@ function roads() {
   } else {
     box.append(el("p", { class: "small" }, "Nema novih vijesti o prometu u zadnjih 36 sati."));
   }
-  box.append(el("p", { class: "small" }, el("a", { href: "https://m.hak.hr/stanje.asp?id=1", target: "_blank", rel: "noopener" }, "Stanje na cestama, tekstualno izvješće (HAK) →")));
 }
 
 // --- Vremenska prognoza (Open-Meteo, bez ključa) ---
