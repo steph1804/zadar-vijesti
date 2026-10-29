@@ -25,6 +25,8 @@ Popis je u `feeds.json`. Za svaki portal:
 
 - `kind` (neobavezno) – `"info"` znači da se ne prikazuje među vijestima nego u okviru (npr. Jadrolinija → Trajekti)
 - `topic` (neobavezno) – tema koja se dodjeljuje svim člancima portala (npr. Sport023 → `"Sport"`)
+- `scope` (neobavezno) – `"national"` za nacionalne portale: prikazuju se samo članci kojima je Zadar
+  ili jasno zadarsko mjesto u naslovu ili uvodu (dvosmislena mjesta iz `places.txt`, označena s `?`, ne računaju se)
 - `local_only` (neobavezno) – `false` isključuje strogi filtar mjesta za taj portal
 
 Ako portal ima oba filtra, članak prolazi ako zadovoljava bilo koji. Bez filtra uzima se sve.

@@ -93,5 +93,118 @@
     ],
     "kind": "info",
     "note": "Prikazuje se u okviru Trajekti, ne među vijestima."
+  },
+  {
+    "name": "Index.hr",
+    "site": "https://www.index.hr/",
+    "feeds": [
+      "https://www.index.hr/rss"
+    ],
+    "scope": "national"
+  },
+  {
+    "name": "Jutarnji list",
+    "site": "https://www.jutarnji.hr/",
+    "feeds": [
+      "https://www.jutarnji.hr/feed"
+    ],
+    "scope": "national"
+  },
+  {
+    "name": "Večernji list",
+    "site": "https://www.vecernji.hr/",
+    "feeds": [
+      "https://www.vecernji.hr/feeds/latest"
+    ],
+    "scope": "national"
+  },
+  {
+    "name": "tportal",
+    "site": "https://www.tportal.hr/",
+    "feeds": [
+      "https://www.tportal.hr/rss-najnovije.xml"
+    ],
+    "scope": "national"
+  },
+  {
+    "name": "N1",
+    "site": "https://n1info.hr/",
+    "feeds": [
+      "https://n1info.hr/feed/"
+    ],
+    "scope": "national"
+  },
+  {
+    "name": "Net.hr",
+    "site": "https://net.hr/",
+    "feeds": [
+      "http://net.hr/najnovije/rss.xml"
+    ],
+    "scope": "national"
+  },
+  {
+    "name": "Telegram",
+    "site": "https://www.telegram.hr/",
+    "feeds": [
+      "https://www.telegram.hr/feed/"
+    ],
+    "scope": "national"
+  },
+  {
+    "name": "Novi list",
+    "site": "https://www.novilist.hr/",
+    "feeds": [
+      "https://www.novilist.hr/feed/"
+    ],
+    "scope": "national"
+  },
+  {
+    "name": "HRT",
+    "site": "https://vijesti.hrt.hr/",
+    "feeds": [
+      "https://feed.hrt.hr/vijesti/page.xml"
+    ],
+    "scope": "national"
+  },
+  {
+    "name": "Dnevnik.hr",
+    "site": "https://dnevnik.hr/",
+    "feeds": [
+      "https://dnevnik.hr/assets/feed/articles/"
+    ],
+    "scope": "national"
+  },
+  {
+    "name": "Morski.hr",
+    "site": "https://www.morski.hr/",
+    "feeds": [
+      "https://www.morski.hr/rss/"
+    ],
+    "scope": "national"
+  },
+  {
+    "name": "Dalmacija Danas",
+    "site": "https://www.dalmacijadanas.hr/",
+    "feeds": [
+      "https://www.dalmacijadanas.hr/feed/"
+    ],
+    "scope": "national"
+  },
+  {
+    "name": "Poslovni dnevnik",
+    "site": "https://www.poslovni.hr/",
+    "feeds": [
+      "https://www.poslovni.hr/feed"
+    ],
+    "scope": "national"
+  },
+  {
+    "name": "Sportklub",
+    "site": "https://sportklub.hr/",
+    "feeds": [
+      "https://sportklub.hr/feed/"
+    ],
+    "scope": "national",
+    "topic": "Sport"
   }
 ]
