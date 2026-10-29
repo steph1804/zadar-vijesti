@@ -149,6 +149,19 @@ vrgad\w*
 
 [ljudi]
 # Stanovnici mjesta i poznati ljudi iz županije (gradonačelnik, župan...).
+# Pridjevi (zadarski je u odjeljku [zadar]; ostali koji nisu pokriveni imenom mjesta):
+gračačk\w*
+ražanačk\w*
+posedarsk\w*
+zemuničk\w*
+pašk\w*
+silbansk\w*
+olibsk\w*
+molatsk\w*
+?prečk\w*
+?privlačk\w*
+?novigradsk\w*
+?starigradsk\w*
 benkovčan\w*
 biograđan\w*
 obrovčan\w*
