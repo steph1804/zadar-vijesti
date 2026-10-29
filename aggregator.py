@@ -209,17 +209,35 @@ def og_image(url):
     return None
 
 
-_FACES = None
+FACE_MODEL = os.path.join(ROOT, "models", "face_detection_yunet_2023mar.onnx")
+_FACES = {}
 _FACES_LOCK = threading.Lock()
 
 
-def face_focus(url):
-    """Okomiti položaj lica na slici u postocima (0 = vrh), da ih rezanje na kartici ne odreže.
+def _detect_faces(cv2, img):
+    """Pravokutnici lica (x, y, w, h). YuNet (neuronska mreža) prepoznaje i lica iz profila,
+    sa strane i u polusjeni; Haar je rezerva ako model nije dostupan."""
+    h, w = img.shape[:2]
+    if os.path.exists(FACE_MODEL):
+        if "yunet" not in _FACES:
+            _FACES["yunet"] = cv2.FaceDetectorYN.create(FACE_MODEL, "", (w, h), 0.75, 0.3, 50)
+        det = _FACES["yunet"]
+        det.setInputSize((w, h))
+        _, found = det.detect(img)
+        return [] if found is None else [tuple(f[:4]) for f in found]
+    if "haar" not in _FACES:
+        _FACES["haar"] = cv2.CascadeClassifier(cv2.data.haarcascades + "haarcascade_frontalface_default.xml")
+    gray = cv2.cvtColor(img, cv2.COLOR_BGR2GRAY)
+    return list(_FACES["haar"].detectMultiScale(gray, scaleFactor=1.1, minNeighbors=6,
+                                                minSize=(max(24, min(h, w) // 20),) * 2))
+
+
+def face_box(url):
+    """Područje s licima na slici, [vrh, dno, lijevo, desno] u postocima, da ga kartica ne odreže.
 
     Treba opencv-python-headless; bez njega (ili ako lica nema) vraća None i stranica
-    koristi zadani položaj. Ako je lica više, uzima se sredina između najvišeg i najnižeg.
+    koristi zadani položaj. Sitna lica u pozadini (manja od pola najvećeg) se zanemaruju.
     """
-    global _FACES
     try:
         import cv2
         import numpy as np
@@ -229,21 +247,27 @@ def face_focus(url):
         data, _ = fetch(url, 30)
     except Exception:
         return None
-    img = cv2.imdecode(np.frombuffer(data, np.uint8), cv2.IMREAD_GRAYSCALE)
+    img = cv2.imdecode(np.frombuffer(data, np.uint8), cv2.IMREAD_COLOR)
     if img is None:
         return None
-    h = img.shape[0]
-    side = min(img.shape[:2])
+    if img.shape[1] > 1200:
+        k = 1200 / img.shape[1]
+        img = cv2.resize(img, None, fx=k, fy=k, interpolation=cv2.INTER_AREA)
+    h, w = img.shape[:2]
     with _FACES_LOCK:
-        if _FACES is None:
-            _FACES = cv2.CascadeClassifier(cv2.data.haarcascades + "haarcascade_frontalface_default.xml")
-        faces = _FACES.detectMultiScale(img, scaleFactor=1.1, minNeighbors=6,
-                                        minSize=(max(24, side // 20),) * 2)
-    if len(faces) == 0:
+        faces = _detect_faces(cv2, img)
+    faces = [f for f in faces if f[3] >= h * 0.04]
+    if not faces:
         return None
-    top = min(y for x, y, w, fh in faces)
-    bottom = max(y + fh for x, y, w, fh in faces)
-    return round(100 * (top + bottom) / 2 / h)
+    biggest = max(f[3] for f in faces)
+    faces = [f for f in faces if f[3] >= biggest / 2]
+    # Malo prostora iznad (kosa) i ispod (brada) samog okvira lica.
+    top = max(0, min(f[1] - 0.15 * f[3] for f in faces))
+    bottom = min(h, max(f[1] + 1.1 * f[3] for f in faces))
+    left = max(0, min(f[0] for f in faces))
+    right = min(w, max(f[0] + f[2] for f in faces))
+    return [round(100 * float(v) / size, 1)
+            for v, size in ((top, h), (bottom, h), (left, w), (right, w))]
 
 
 FLIGHTS_URL = "https://www.zadar-airport.hr/wp-content/themes/hello-elementor-child/current-flights.json"
@@ -477,25 +501,27 @@ def main():
         for i, img in zip(missing, pool.map(lambda i: og_image(i["link"]), missing)):
             i["image"] = img
 
-        # Položaj lica računamo samo jednom po slici (staro se čuva u predmemoriji).
-        todo = []
-        for i in fresh:
-            old = cache.get(i["link"])
-            if old and old.get("image") == i["image"] and "focus" in old:
-                i["focus"] = old["focus"]
-            elif i["image"]:
-                todo.append(i)
-        for i, focus in zip(todo, pool.map(lambda i: face_focus(i["image"]), todo)):
-            i["focus"] = focus
-
     for i in fresh:
         i.pop("categories", None)
         i.pop("text", None)
+        old = cache.get(i["link"])
+        if old and old.get("face_img") == i["image"]:
+            i["face"], i["face_img"] = old.get("face"), old["face_img"]
         cache[i["link"]] = i
     enabled = {s["name"] for s in sources if s.get("kind") != "info"}
     cache = {k: a for k, a in cache.items() if a["source"] in enabled and is_local(a)
              and not is_media(a["link"])}
     articles = sorted(cache.values(), key=lambda a: a["date"], reverse=True)[:MAX_TOTAL]
+
+    # Položaj lica računamo jednom po slici; čuva se u predmemoriji dok se slika ne promijeni.
+    todo = []
+    for a in articles:
+        a.pop("focus", None)
+        if a.get("image") and a.get("face_img") != a["image"]:
+            todo.append(a)
+    with concurrent.futures.ThreadPoolExecutor(max_workers=8) as pool:
+        for a, face in zip(todo, pool.map(lambda a: face_box(a["image"]), todo)):
+            a["face"], a["face_img"] = face, a["image"]
 
     os.makedirs(os.path.dirname(CACHE_FILE), exist_ok=True)
     with open(CACHE_FILE, "w", encoding="utf-8") as f:

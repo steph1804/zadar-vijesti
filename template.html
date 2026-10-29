@@ -265,13 +265,36 @@ function nav() {
   }
 }
 
+// Rezanje slike tako da prepoznata lica budu u sredini kadra (i cijela, ako stanu).
+// Bez prepoznatih lica: gornja trećina, gdje su lica najčešće.
+function frame(img) {
+  const bw = img.clientWidth, bh = img.clientHeight, iw = img.naturalWidth, ih = img.naturalHeight;
+  if (!img.dataset.face || !iw || !bw || !bh) { img.style.objectPosition = "50% 30%"; return; }
+  const [t, b, l, r] = img.dataset.face.split(",").map(Number);
+  const scale = Math.max(bw / iw, bh / ih);
+  const axis = (from, to, shown, full) => {
+    const extra = full - shown;
+    if (extra <= 0) return 50;
+    const a = from / 100 * full, z = to / 100 * full;
+    // Ako lica ne stanu cijela, prednost ima gornji dio (oči), ne brada.
+    let off = z - a > shown ? a : (a + z) / 2 - shown / 2;
+    return Math.min(Math.max(off, 0), extra) / extra * 100;
+  };
+  img.style.objectPosition = `${axis(l, r, bw, iw * scale)}% ${axis(t, b, bh, ih * scale)}%`;
+}
+let resizeTimer;
+addEventListener("resize", () => {
+  clearTimeout(resizeTimer);
+  resizeTimer = setTimeout(() => document.querySelectorAll("article img").forEach(frame), 150);
+});
+
 function card(a, lead) {
   const link = { href: a.link, target: "_blank", rel: "noopener" };
   const c = el("article", { class: lead ? "lead" : null });
   if (a.image) {
     const img = el("img", { src: a.image, alt: "", loading: lead ? "eager" : "lazy", referrerpolicy: "no-referrer" });
-    // Lica (ako su prepoznata) ostaju u kadru; inače gornja trećina, gdje su lica najčešće.
-    img.style.objectPosition = `50% ${a.focus ?? 30}%`;
+    img.dataset.face = a.face ? a.face.join(",") : "";
+    img.onload = () => frame(img);
     img.onerror = () => img.parentElement.remove();
     c.append(el("a", { ...link, class: "img", tabindex: "-1", "aria-hidden": "true" }, img));
   }
