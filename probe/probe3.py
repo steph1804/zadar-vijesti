@@ -3,8 +3,8 @@ try:
     import json, os, urllib.request, concurrent.futures as cf
     os.makedirs("models", exist_ok=True)
     m = "models/face_detection_yunet_2023mar.onnx"
-    urllib.request.urlretrieve("https://github.com/opencv/opencv_zoo/raw/main/models/face_detection_yunet/face_detection_yunet_2023mar.onnx", m)
-    import aggregator as A
+    os.path.exists(m) or urllib.request.urlretrieve("https://github.com/opencv/opencv_zoo/raw/main/models/face_detection_yunet/face_detection_yunet_2023mar.onnx", m)
+    import sys; sys.path.insert(0, "."); import aggregator as A
     arts = [a for a in json.load(open("data/articles.json")) if a.get("image")][:120]
     with cf.ThreadPoolExecutor(8) as p:
         yu = list(p.map(lambda a: A.face_box(a["image"]), arts))
