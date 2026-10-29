@@ -12,7 +12,7 @@
 <meta property="og:description" content="{{DESC}}">
 <meta property="og:url" content="{{URL}}">
 <meta property="og:image" content="{{SITE}}icon-512.png">
-<meta name="theme-color" content="#0a3d62">
+<meta name="theme-color" content="#1968b3">
 <link rel="manifest" href="{{BASE}}manifest.webmanifest">
 <link rel="icon" type="image/png" href="{{BASE}}favicon.png">
 <link rel="apple-touch-icon" href="{{BASE}}apple-touch-icon.png">
@@ -23,7 +23,7 @@
 <style>
   :root {
     --bg: #f3f5f7; --card: #ffffff; --text: #0f1d2b; --muted: #5b6b7a; --line: #e1e6eb;
-    --accent: #0a5c8a; --coral: #e4572e; --chip: #e7ecf0; --chip-on: #0a3d62; --chip-on-text: #fff;
+    --accent: #1968b3; --coral: #e4572e; --chip: #e7ecf0; --chip-on: #1968b3; --chip-on-text: #fff;
     --bar: rgba(255,255,255,.86); --shadow: 0 1px 2px rgba(15,29,43,.06), 0 4px 16px rgba(15,29,43,.05);
     --warn-bg: #fff1e8; --warn: #a33a12;
     color-scheme: light;
@@ -339,7 +339,7 @@ function setupTheme() {
   const dark = () => (document.documentElement.dataset.theme || (matchMedia("(prefers-color-scheme: dark)").matches ? "dark" : "light")) === "dark";
   const paint = () => {
     btn.innerHTML = dark() ? ICONS.light : ICONS.dark;
-    document.querySelector('meta[name="theme-color"]').content = dark() ? "#0b141c" : "#0a3d62";
+    document.querySelector('meta[name="theme-color"]').content = dark() ? "#0b141c" : "#1968b3";
   };
   btn.onclick = () => {
     const t = dark() ? "light" : "dark";
