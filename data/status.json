@@ -1,0 +1,73 @@
+{
+ "updated": "2026-10-29T07:53:09.588932+00:00",
+ "sources": [
+  {
+   "name": "057info",
+   "count": 0,
+   "ok": false,
+   "feed": null,
+   "errors": [
+    "https://www.057info.hr/rss: HTTP Error 403: Forbidden",
+    "https://www.057info.hr/feed/: HTTP Error 403: Forbidden"
+   ]
+  },
+  {
+   "name": "Antena Zadar",
+   "count": 8,
+   "ok": true,
+   "feed": null,
+   "errors": []
+  },
+  {
+   "name": "Zadarski list",
+   "count": 7,
+   "ok": true,
+   "feed": null,
+   "errors": []
+  },
+  {
+   "name": "Zadarski.hr",
+   "count": 0,
+   "ok": false,
+   "feed": null,
+   "errors": []
+  },
+  {
+   "name": "Znet",
+   "count": 5,
+   "ok": true,
+   "feed": null,
+   "errors": []
+  },
+  {
+   "name": "023 portal",
+   "count": 0,
+   "ok": false,
+   "feed": null,
+   "errors": [
+    "https://023portal.hr/feed/: <urlopen error [Errno -2] Name or service not known>",
+    "https://www.023portal.hr/feed/: <urlopen error [Errno -2] Name or service not known>"
+   ]
+  },
+  {
+   "name": "eZadar",
+   "count": 0,
+   "ok": false,
+   "feed": null,
+   "errors": [
+    "https://www.ezadar.hr/feed/: <urlopen error timed out>",
+    "https://www.ezadar.hr/rss: <urlopen error timed out>"
+   ]
+  },
+  {
+   "name": "Radio Zadar",
+   "count": 0,
+   "ok": false,
+   "feed": null,
+   "errors": [
+    "https://radio.hrt.hr/radio-zadar/rss: HTTP Error 404: Not Found",
+    "https://radio.hrt.hr/rss/radio-zadar: HTTP Error 404: Not Found"
+   ]
+  }
+ ]
+}
