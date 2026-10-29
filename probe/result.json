@@ -1,14 +1,95 @@
 {
- "https://zadar.events/": {
-  "error": "<HTTPError 403: 'Forbidden'>"
+ "https://www.grad-zadar.hr/": {
+  "status": 200,
+  "final": "https://www.grad-zadar.hr/",
+  "rss_links": [
+   "https://www.grad-zadar.hr/rss/vijesti-s-pocetne-stranice-0.xml"
+  ],
+  "feeds": [],
+  "items": []
  },
- "https://zadar.events/feed/": {
-  "error": "<HTTPError 403: 'Forbidden'>"
+ "https://www.grad-zadar.hr/feed/": {
+  "error": "<HTTPError 404: 'Not Found'>"
  },
- "https://www.zadar.events/feed/": {
-  "error": "URLError(SSLCertVerificationError(1, \"[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid for 'www.zadar.events'. (_ssl.c:1081)\"))"
+ "https://www.zadarska-zupanija.hr/": {
+  "status": 200,
+  "final": "https://www.zadarska-zupanija.hr/",
+  "rss_links": [],
+  "feeds": [],
+  "items": []
  },
- "https://zadar.events/rss": {
-  "error": "<HTTPError 403: 'Forbidden'>"
+ "https://www.zadarska-zupanija.hr/feed/": {
+  "error": "<HTTPError 404: 'Not Found'>"
+ },
+ "https://zadarska-policija.gov.hr/": {
+  "status": 200,
+  "final": "https://zadarska-policija.gov.hr/",
+  "rss_links": [],
+  "feeds": [],
+  "items": []
+ },
+ "https://zadarska-policija.gov.hr/rss": {
+  "error": "<HTTPError 404: 'Not Found'>"
+ },
+ "https://www.port-authority-zadar.hr/": {
+  "status": 200,
+  "final": "https://www.port-authority-zadar.hr/",
+  "rss_links": [
+   "https://www.port-authority-zadar.hr/comments/feed/",
+   "https://www.port-authority-zadar.hr/feed/",
+   "https://www.port-authority-zadar.hr/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fwww.port-authority-zadar.hr%2F&#038;format=xml",
+   "https://www.port-authority-zadar.hr/xmlrpc.php?rsd"
+  ],
+  "feeds": [
+   "<link rel=\"alternate\" type=\"application/rss+xml\" title=\"Lučka uprava Zadar &raquo; Kanal\" href=\"https://www.port-authority-zadar.hr/feed/\" />",
+   "<link rel=\"alternate\" type=\"application/rss+xml\" title=\"Lučka uprava Zadar &raquo; Kanal komentara\" href=\"https://www.port-authority-zadar.hr/comments/feed/\" />"
+  ],
+  "items": []
+ },
+ "https://www.jadrolinija.hr/": {
+  "status": 200,
+  "final": "https://www.jadrolinija.hr/",
+  "rss_links": [
+   "https://www.jadrolinija.hr/feeds/vijesti"
+  ],
+  "feeds": [],
+  "items": []
+ },
+ "https://www.jadrolinija.hr/hr/obavijesti": {
+  "status": 200,
+  "final": "https://www.jadrolinija.hr/hr/obavijesti",
+  "rss_links": [
+   "https://www.jadrolinija.hr/feeds/vijesti"
+  ],
+  "feeds": [],
+  "items": []
+ },
+ "https://zadar.travel/": {
+  "status": 200,
+  "final": "https://zadar.travel/",
+  "rss_links": [],
+  "feeds": [],
+  "items": []
+ },
+ "https://www.hak.hr/": {
+  "status": 200,
+  "final": "https://www.hak.hr/",
+  "rss_links": [],
+  "feeds": [],
+  "items": []
+ },
+ "https://www.hak.hr/info/stanje-na-cestama/": {
+  "status": 200,
+  "final": "https://www.hak.hr/info/stanje-na-cestama/",
+  "rss_links": [],
+  "feeds": [],
+  "items": []
+ },
+ "https://zadar.hr/": {
+  "status": 200,
+  "final": "https://www.zadar.hr/",
+  "rss_links": [],
+  "feeds": [],
+  "items": []
  }
 }
