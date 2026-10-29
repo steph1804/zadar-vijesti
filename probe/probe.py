@@ -1,6 +1,6 @@
 import re, urllib.request, json
 UA = "Mozilla/5.0 (compatible; LokalniAgregator/1.0; +https://github.com/steph1804/zadar-vijesti)"
-URLS = ['https://www.grad-zadar.hr/', 'https://www.grad-zadar.hr/feed/', 'https://www.zadarska-zupanija.hr/', 'https://www.zadarska-zupanija.hr/feed/', 'https://zadarska-policija.gov.hr/', 'https://zadarska-policija.gov.hr/rss', 'https://www.port-authority-zadar.hr/', 'https://www.jadrolinija.hr/', 'https://www.jadrolinija.hr/hr/obavijesti', 'https://zadar.travel/', 'https://www.hak.hr/', 'https://www.hak.hr/info/stanje-na-cestama/', 'https://zadar.hr/']
+URLS = ['https://www.grad-zadar.hr/rss/vijesti-s-pocetne-stranice-0.xml', 'https://www.port-authority-zadar.hr/feed/', 'https://www.jadrolinija.hr/feeds/vijesti']
 out = {}
 for u in URLS:
     r = {}
@@ -14,7 +14,7 @@ for u in URLS:
         items = re.findall(r"<item>(.*?)</item>", body, re.S)
         r["items"] = [{"title": (re.findall(r"<title>(.*?)</title>", i, re.S) or [""])[0][:90],
                        "link": (re.findall(r"<link>(.*?)</link>", i) or [""])[0],
-                       "cats": re.findall(r"<category><!\[CDATA\[(.*?)\]\]></category>", i),
+                       "cats": re.findall(r"<category>(?:<!\[CDATA\[)?(.*?)(?:\]\]>)?</category>", i),"desc": (re.findall(r"<description>(.*?)</description>", i, re.S) or [""])[0][:200],"date": (re.findall(r"<pubDate>(.*?)</pubDate>", i) or [""])[0],
                        "img": bool(re.search(r"<img|<enclosure|<media:", i))} for i in items]
     except Exception as e:
         r["error"] = repr(e)[:300]
