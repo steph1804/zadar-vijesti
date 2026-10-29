@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-29T17:37:15.435400+00:00",
+ "updated": "2026-10-29T17:45:27.441350+00:00",
  "sources": [
   {
    "name": "Antena Zadar",
@@ -117,8 +117,8 @@
   },
   {
    "name": "Telegram",
-   "count": 0,
-   "ok": false,
+   "count": 1,
+   "ok": true,
    "feed": null,
    "errors": []
   },
