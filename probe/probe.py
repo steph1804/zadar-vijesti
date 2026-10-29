@@ -1,16 +1,18 @@
-import re, urllib.request, urllib.parse, json
+import re, urllib.request, json
 UA = "Mozilla/5.0 (compatible; LokalniAgregator/1.0; +https://github.com/steph1804/zadar-vijesti)"
-out = {}
 def get(u):
     r = urllib.request.urlopen(urllib.request.Request(u, headers={"User-Agent": UA}), timeout=40)
-    return r.status, r.geturl(), r.headers.get("content-type"), r.read(1500000).decode("utf-8", "replace")
-for u in ["https://www.zadar-airport.hr/", "https://www.zadar-airport.hr/hr/letovi/dolasci", "https://www.zadar-airport.hr/robots.txt"]:
-    try:
-        s, f, ct, b = get(u)
-        out[u] = {"status": s, "final": f, "type": ct, "title": (re.findall(r"<title[^>]*>([^<]*)", b) or [""])[0][:100],
-                  "links": sorted(set(h for h in re.findall(r'href=["\']([^"\'#]+)', b) if re.search(r"let|flight|dolas|odlas|arriv|depart|timetable|raspored", h, re.I)))[:40],
-                  "api": sorted(set(re.findall(r'["\']([^"\']*(?:api|json|ajax|flights?)[^"\']*)["\']', b)))[:30],
-                  "body": b[:1500] if "robots" in u else ""}
-    except Exception as e:
-        out[u] = {"error": repr(e)[:200]}
+    return r.read(2000000).decode("utf-8", "replace")
+out = {}
+b = get("https://www.zadar-airport.hr/pregled-letova/?sekcija=putnici")
+text = re.sub(r"\s+", " ", re.sub(r"<(script|style)[^>]*>.*?</\1>", " ", b, flags=re.S))
+i = text.find("flight")
+out["page_has_flightno"] = re.findall(r"\b[A-Z0-9]{2}\s?\d{3,4}\b", re.sub(r"<[^>]+>", " ", text))[:30]
+out["page_text"] = re.sub(r"<[^>]+>", " ", text)
+out["page_text"] = re.sub(r"\s+", " ", out["page_text"])[:4000]
+out["scripts_vars"] = re.findall(r"var \w+ = \{[^;]{0,600}", b)[:10]
+for js in ["https://www.zadar-airport.hr/wp-content/themes/hello-elementor-child/assets/js/current-flights-view.js?ver=1786601153",
+           "https://www.zadar-airport.hr/wp-content/themes/hello-elementor-child/assets/js/flights.js?ver=1773234846"]:
+    s = get(js)
+    out[js] = {"actions": sorted(set(re.findall(r"action['\"]?\s*[:=]\s*['\"]([\w-]+)", s))), "urls": sorted(set(re.findall(r"['\"`](https?://[^'\"`]+|/[\w\-/]+\.(?:json|php)[^'\"`]*)['\"`]", s)))[:20], "head": s[:1500]}
 json.dump(out, open("probe/result.json", "w"), ensure_ascii=False, indent=1)
