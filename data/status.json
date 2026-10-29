@@ -1,9 +1,9 @@
 {
- "updated": "2026-10-29T08:19:21.608657+00:00",
+ "updated": "2026-10-29T08:30:41.951548+00:00",
  "sources": [
   {
    "name": "Antena Zadar",
-   "count": 8,
+   "count": 7,
    "ok": true,
    "feed": null,
    "errors": []
@@ -39,6 +39,27 @@
   {
    "name": "Sport023",
    "count": 10,
+   "ok": true,
+   "feed": null,
+   "errors": []
+  },
+  {
+   "name": "Grad Zadar",
+   "count": 6,
+   "ok": true,
+   "feed": null,
+   "errors": []
+  },
+  {
+   "name": "Lučka uprava Zadar",
+   "count": 6,
+   "ok": true,
+   "feed": null,
+   "errors": []
+  },
+  {
+   "name": "Jadrolinija",
+   "count": 1,
    "ok": true,
    "feed": null,
    "errors": []
