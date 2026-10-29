@@ -266,8 +266,8 @@ def face_box(url):
     bottom = min(h, max(f[1] + 1.1 * f[3] for f in faces))
     left = max(0, min(f[0] for f in faces))
     right = min(w, max(f[0] + f[2] for f in faces))
-    return [round(100 * top / h, 1), round(100 * bottom / h, 1),
-            round(100 * left / w, 1), round(100 * right / w, 1)]
+    return [round(100 * float(v) / size, 1)
+            for v, size in ((top, h), (bottom, h), (left, w), (right, w))]
 
 
 FLIGHTS_URL = "https://www.zadar-airport.hr/wp-content/themes/hello-elementor-child/current-flights.json"
