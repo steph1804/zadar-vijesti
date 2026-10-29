@@ -1,0 +1,77 @@
+[
+  {
+    "name": "057info",
+    "site": "https://www.057info.hr/",
+    "feeds": [
+      "https://www.057info.hr/rss",
+      "https://www.057info.hr/feed/"
+    ]
+  },
+  {
+    "name": "Antena Zadar",
+    "site": "https://www.antenazadar.hr/",
+    "feeds": [
+      "https://www.antenazadar.hr/feed/"
+    ],
+    "categories": [
+      "Zadar",
+      "Županija",
+      "Zadarska županija"
+    ]
+  },
+  {
+    "name": "Zadarski list",
+    "site": "https://zadarskilist.novilist.hr/",
+    "feeds": [
+      "https://zadarskilist.novilist.hr/feed/"
+    ],
+    "link_contains": [
+      "/zadar-zupanija/"
+    ]
+  },
+  {
+    "name": "Zadarski.hr",
+    "site": "https://slobodnadalmacija.hr/zadar",
+    "feeds": [
+      "https://www.zadarski.hr/feed",
+      "https://slobodnadalmacija.hr/feed"
+    ],
+    "link_contains": [
+      "slobodnadalmacija.hr/zadar"
+    ]
+  },
+  {
+    "name": "Znet",
+    "site": "https://www.znet.hr/",
+    "feeds": [
+      "https://www.znet.hr/feed/"
+    ],
+    "categories": [
+      "ZADAR / ŽUPANIJA"
+    ]
+  },
+  {
+    "name": "023 portal",
+    "site": "https://023portal.hr/",
+    "feeds": [
+      "https://023portal.hr/feed/",
+      "https://www.023portal.hr/feed/"
+    ]
+  },
+  {
+    "name": "eZadar",
+    "site": "https://www.ezadar.hr/",
+    "feeds": [
+      "https://www.ezadar.hr/feed/",
+      "https://www.ezadar.hr/rss"
+    ]
+  },
+  {
+    "name": "Radio Zadar",
+    "site": "https://radio.hrt.hr/radio-zadar",
+    "feeds": [
+      "https://radio.hrt.hr/radio-zadar/rss",
+      "https://radio.hrt.hr/rss/radio-zadar"
+    ]
+  }
+]

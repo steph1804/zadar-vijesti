@@ -1,0 +1,109 @@
+<!doctype html>
+<html lang="hr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Zadarske vijesti</title>
+<meta name="description" content="Najnovije vijesti sa zadarskih lokalnih portala na jednom mjestu.">
+<style>
+  :root {
+    --bg: #f6f5f2; --card: #ffffff; --text: #1d1d1b; --muted: #6b6a66;
+    --line: #e4e2dc; --accent: #0b5c8f; --chip: #ecebe6; --chip-on: #0b5c8f; --chip-on-text: #fff;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --bg: #141413; --card: #1e1e1c; --text: #ecebe6; --muted: #a09e97;
+      --line: #2e2d2a; --accent: #6cb4e6; --chip: #2a2927; --chip-on: #6cb4e6; --chip-on-text: #0d1b26;
+    }
+  }
+  * { box-sizing: border-box; }
+  body { margin: 0; background: var(--bg); color: var(--text);
+         font: 16px/1.5 system-ui, -apple-system, "Segoe UI", Roboto, sans-serif; }
+  header { max-width: 1180px; margin: 0 auto; padding: 28px 16px 8px; }
+  h1 { margin: 0; font-size: 1.8rem; letter-spacing: -0.02em; }
+  .sub { color: var(--muted); margin: 4px 0 16px; font-size: .95rem; }
+  .chips { display: flex; flex-wrap: wrap; gap: 8px; }
+  .chip { border: 0; background: var(--chip); color: var(--text); padding: 6px 12px;
+          border-radius: 999px; font: inherit; font-size: .9rem; cursor: pointer; }
+  .chip[aria-pressed="true"] { background: var(--chip-on); color: var(--chip-on-text); }
+  .chip .n { opacity: .65; margin-left: 4px; }
+  main { max-width: 1180px; margin: 0 auto; padding: 16px; display: grid; gap: 16px;
+         grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); }
+  article { background: var(--card); border: 1px solid var(--line); border-radius: 10px;
+            overflow: hidden; display: flex; flex-direction: column; }
+  article a.img { display: block; aspect-ratio: 16 / 9; background: var(--chip); }
+  article img { width: 100%; height: 100%; object-fit: cover; display: block; }
+  .body { padding: 12px 14px 14px; display: flex; flex-direction: column; gap: 6px; flex: 1; }
+  .meta { color: var(--muted); font-size: .8rem; display: flex; gap: 8px; }
+  .meta b { color: var(--accent); font-weight: 600; }
+  h2 { font-size: 1.05rem; line-height: 1.3; margin: 0; }
+  h2 a { color: inherit; text-decoration: none; }
+  h2 a:hover { text-decoration: underline; }
+  p { margin: 0; color: var(--muted); font-size: .93rem; }
+  .more { margin-top: auto; padding-top: 6px; font-size: .85rem; color: var(--accent); text-decoration: none; }
+  .empty { grid-column: 1 / -1; text-align: center; color: var(--muted); padding: 48px 0; }
+  footer { max-width: 1180px; margin: 0 auto; padding: 8px 16px 32px; color: var(--muted); font-size: .8rem; }
+</style>
+</head>
+<body>
+<header>
+  <h1>Zadarske vijesti</h1>
+  <div class="sub" id="sub"></div>
+  <div class="chips" id="chips"></div>
+</header>
+<main id="list"></main>
+<footer>Sadržaj pripada izvornim portalima. Ovdje su prikazani samo naslovi, slike i kratki uvodi, a klik vodi na izvorni članak.</footer>
+<script>
+const DATA = /*DATA*/null;
+const fmt = new Intl.DateTimeFormat("hr-HR", { day: "numeric", month: "numeric", hour: "2-digit", minute: "2-digit" });
+let active = "Sve";
+
+function el(tag, attrs = {}, ...kids) {
+  const e = document.createElement(tag);
+  for (const [k, v] of Object.entries(attrs)) if (v != null) e.setAttribute(k, v);
+  for (const k of kids) e.append(k);
+  return e;
+}
+
+function chips() {
+  const box = document.getElementById("chips");
+  box.textContent = "";
+  const counts = {};
+  for (const a of DATA.articles) counts[a.source] = (counts[a.source] || 0) + 1;
+  for (const name of ["Sve", ...DATA.sources]) {
+    const n = name === "Sve" ? DATA.articles.length : (counts[name] || 0);
+    const b = el("button", { class: "chip", "aria-pressed": String(name === active) }, name, el("span", { class: "n" }, String(n)));
+    b.onclick = () => { active = name; chips(); list(); };
+    box.append(b);
+  }
+}
+
+function list() {
+  const main = document.getElementById("list");
+  main.textContent = "";
+  const items = DATA.articles.filter(a => active === "Sve" || a.source === active);
+  if (!items.length) { main.append(el("div", { class: "empty" }, "Trenutno nema članaka s ovog portala.")); return; }
+  for (const a of items) {
+    const link = { href: a.link, target: "_blank", rel: "noopener" };
+    const card = el("article");
+    if (a.image) {
+      const img = el("img", { src: a.image, alt: "", loading: "lazy", referrerpolicy: "no-referrer" });
+      img.onerror = () => img.parentElement.remove();
+      card.append(el("a", { ...link, class: "img", tabindex: "-1", "aria-hidden": "true" }, img));
+    }
+    card.append(el("div", { class: "body" },
+      el("div", { class: "meta" }, el("b", {}, a.source), el("span", {}, fmt.format(new Date(a.date)))),
+      el("h2", {}, el("a", link, a.title)),
+      a.summary ? el("p", {}, a.summary) : "",
+      el("a", { ...link, class: "more" }, `Pročitaj na ${a.source} →`)));
+    main.append(card);
+  }
+}
+
+document.getElementById("sub").textContent =
+  `Najnovije s lokalnih portala · ažurirano ${fmt.format(new Date(DATA.updated))}`;
+chips();
+list();
+</script>
+</body>
+</html>
