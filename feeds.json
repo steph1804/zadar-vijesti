@@ -66,9 +66,10 @@
       "https://www.nasiskolji.hr/feed/"
     ],
     "topic": "Otoci",
-    "timeout": 90,
+    "timeout": 120,
     "local_only": false,
-    "note": "Portal otoka Ugljana i Pašmana; spor poslužitelj, pa duži timeout."
+    "note": "Portal otoka Ugljana i Pašmana; spor poslužitelj, pa duži timeout.",
+    "retries": 3
   },
   {
     "name": "Grad Zadar",

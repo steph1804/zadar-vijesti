@@ -11,6 +11,7 @@ import json
 import os
 import re
 import sys
+import time
 import urllib.parse
 import urllib.request
 import xml.etree.ElementTree as ET
@@ -42,6 +43,17 @@ def fetch(url, timeout=TIMEOUT):
     req = urllib.request.Request(url, headers={"User-Agent": USER_AGENT})
     with urllib.request.urlopen(req, timeout=timeout) as r:
         return r.read(), r.geturl()
+
+
+def fetch_retry(url, timeout, attempts):
+    """Za spore portale: ponovi zahtjev ako istekne vrijeme ili veza pukne."""
+    for n in range(attempts):
+        try:
+            return fetch(url, timeout)
+        except (TimeoutError, OSError) as e:
+            if n == attempts - 1 or getattr(e, "code", None):
+                raise
+            time.sleep(10)
 
 
 class _TextAndImg(HTMLParser):
@@ -219,7 +231,7 @@ def load_source(src):
             continue
         tried.add(url)
         try:
-            data, final = fetch(url, src.get("timeout", TIMEOUT))
+            data, final = fetch_retry(url, src.get("timeout", TIMEOUT), src.get("retries", 1))
             items = parse_feed(data, final)
             if items:
                 break
