@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-29T08:44:18.253868+00:00",
+ "updated": "2026-10-29T08:48:07.164119+00:00",
  "sources": [
   {
    "name": "Antena Zadar",
@@ -16,7 +16,7 @@
    "errors": []
   },
   {
-   "name": "Zadarski.hr",
+   "name": "Slobodna Dalmacija/Zadar",
    "count": 30,
    "ok": true,
    "feed": null,
