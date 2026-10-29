@@ -1,182 +1,102 @@
 {
- "https://www.grad-zadar.hr/rss/vijesti-s-pocetne-stranice-0.xml": {
+ "https://www.jadrolinija.hr/": {
   "status": 200,
-  "final": "https://www.grad-zadar.hr/rss/vijesti-s-pocetne-stranice-0.xml",
-  "rss_links": [
-   "https://www.grad-zadar.hr/rss/info.xml"
+  "final": "https://www.jadrolinija.hr/",
+  "hrefs": [
+   "https://hr.linkedin.com/company/jadrolinija",
+   "https://twitter.com/Jadrolinija_cro",
+   "https://www.facebook.com/jadrolinija.official",
+   "https://www.instagram.com/jadrolinija/",
+   "https://www.jadrolinija.hr",
+   "https://www.jadrolinija.hr/css/base.min.css?v=1781103227",
+   "https://www.jadrolinija.hr/css/grid.min.css?v=1704381820",
+   "https://www.jadrolinija.hr/en",
+   "https://www.jadrolinija.hr/feeds/vijesti",
+   "https://www.jadrolinija.hr/hr",
+   "https://www.jadrolinija.hr/hr/cesta-pitanja",
+   "https://www.jadrolinija.hr/hr/flota-kategorije",
+   "https://www.jadrolinija.hr/hr/kontakti",
+   "https://www.jadrolinija.hr/hr/magazin",
+   "https://www.jadrolinija.hr/hr/novost/cyscroms-–-kiberneticka-sigurnost-u-hrvatskom-pomorskom-prometu",
+   "https://www.jadrolinija.hr/hr/novost/informacija-za-medije--zadar-6-srpnja-2026-godine--jadrolinija-predstavila-najbrzu-morsku-vezu-izmedju-hrvatske-i-italije",
+   "https://www.jadrolinija.hr/hr/novost/informacije-za-linije-s-rezervacijom",
+   "https://www.jadrolinija.hr/hr/novost/jadrolinija-obiljezila-drugu-godisnjicu-tragedije-na-brodu-lastovo",
+   "https://www.jadrolinija.hr/hr/novost/linije-u-prekidu-29102026",
+   "https://www.jadrolinija.hr/hr/novost/linije-u-prekidu_2",
+   "https://www.jadrolinija.hr/hr/novost/nova-brzobrodska-linija-kraljevica-–-crikvenica-–-senj-–-baska-krk-–-lopar-rab-–-rab-rab-–-lun-pag-je-krenula-s-prometovanjem",
+   "https://www.jadrolinija.hr/hr/novost/obavijest-za-putnike-na-trajektnoj-liniji-635-split---stari-grad---split_2",
+   "https://www.jadrolinija.hr/hr/novost/prava-putnika_2",
+   "https://www.jadrolinija.hr/hr/novost/prva-sezona-brzobrodske-linije-zadar-–-ancona-produzena-do-6-rujna",
+   "https://www.jadrolinija.hr/hr/novost/s-jadrolinijom-u-velu-luku-na-koncert-godine",
+   "https://www.jadrolinija.hr/hr/novost/vase-misljenje-nam-je-vazno",
+   "https://www.jadrolinija.hr/hr/novosti",
+   "https://www.jadrolinija.hr/hr/obavijesti-za-putnike",
+   "https://www.jadrolinija.hr/hr/obavijesti/stanje-u-prometu/",
+   "https://www.jadrolinija.hr/hr/osobe-s-invaliditeom",
+   "https://www.jadrolinija.hr/hr/otocne-kartice",
+   "https://www.jadrolinija.hr/hr/prepaid-kartice",
+   "https://www.jadrolinija.hr/hr/pretrazite-kupite-kartu",
+   "https://www.jadrolinija.hr/hr/prodaja-i-zakup",
+   "https://www.jadrolinija.hr/hr/prodajna-mjesta",
+   "https://www.jadrolinija.hr/hr/profil/politika-zastite-osobnih-podataka",
+   "https://www.jadrolinija.hr/hr/putovanja",
+   "https://www.jadrolinija.hr/hr/putovanja/medunarodne_linije",
+   "https://www.jadrolinija.hr/hr/suveniri-i-darovi",
+   "https://www.jadrolinija.hr/hr/tvrtka-b2b",
+   "https://www.jadrolinija.hr/hr/tvrtka-odrzivo-poslovanje",
+   "https://www.jadrolinija.hr/hr/tvrtka-povijest",
+   "https://www.jadrolinija.hr/hr/tvrtka-press",
+   "https://www.jadrolinija.hr/hr/tvrtka-profil",
+   "https://www.jadrolinija.hr/hr/tvrtka-zaposljavanja",
+   "https://www.youtube.com/@jadrolinija2447/featured"
   ],
-  "feeds": [],
-  "items": [
-   {
-    "title": "<![CDATA[Odabran projektant druge faze ITS-a: priprema proširenja sustava za protočniji pr",
-    "link": "https://www.grad-zadar.hr/vijest/opce-vijesti-28/odabran-projektant-druge-faze-itsa-priprema-prosirenja-sustava-za-protocniji-promet-u-zadru-10072.html",
-    "cats": [],
-    "desc": "<![CDATA[Druga faza ITS-a predviđa proširenje na 27 novih lokacija i naprednije upravljanje gradskim prometom.]]>",
-    "date": "Thu, 29 Oct 2026 08:05:00 +0100",
-    "img": true
-   },
-   {
-    "title": "<![CDATA[Ravnice dobivaju uređeno parkiralište s gotovo 400 mjesta: odabran izvođač radova",
-    "link": "https://www.grad-zadar.hr/vijest/opce-vijesti-28/ravnice-dobivaju-uredeno-parkiraliste-s-gotovo-400-mjesta-odabran-izvodac-radova-10070.html",
-    "cats": [],
-    "desc": "<![CDATA[Odabrana ponuda vrijedna je 333 tisuće eura bez PDV-a.]]>",
-    "date": "Wed, 28 Oct 2026 09:47:00 +0100",
-    "img": true
-   },
-   {
-    "title": "<![CDATA[Održan Kolegij gradonačelnika: ulaganja u igrališta na Sinjoretovu i Puntamici te",
-    "link": "https://www.grad-zadar.hr/vijest/opce-vijesti-28/odrzan-kolegij-gradonacelnika-ulaganja-u-igralista-na-sinjoretovu-i-puntamici-te-arheoloska-istrazivanja-uz-crkvu-sv-marije-10069.html",
-    "cats": [],
-    "desc": "<![CDATA[U Maloj vijećnici Grada Zadra gradonačelnik Šime Erlić održao je redovni Kolegij sa suradnicima.]]>",
-    "date": "Tue, 27 Oct 2026 14:30:00 +0100",
-    "img": true
-   },
-   {
-    "title": "<![CDATA[Dio Puta Nina zatvara se 29. i 30. listopada zbog betoniranja i asfaltiranja novo",
-    "link": "https://www.grad-zadar.hr/vijest/obavijesti--informacija-29/dio-puta-nina-zatvara-se-29-i-30-listopada-zbog-betoniranja-i-asfaltiranja-novog-rotora-10068.html",
-    "cats": [],
-    "desc": "<![CDATA[Od četvrtka u 7 sati do petka u 18 sati promet će se odvijati obilaznim pravcima.]]>",
-    "date": "Tue, 27 Oct 2026 13:54:00 +0100",
-    "img": true
-   },
-   {
-    "title": "<![CDATA[Postavljaju se zaštitne ograde u Parku Vladimira Nazora]]>",
-    "link": "https://www.grad-zadar.hr/vijest/opce-vijesti-28/postavljaju-se-zastitne-ograde-u-parku-vladimira-nazora-10063.html",
-    "cats": [],
-    "desc": "<![CDATA[Zaštitne ograde postavit će se u Parku Vladimira Nazora i u Perivoju kraljice Jelene Madijevke ]]>",
-    "date": "Mon, 26 Oct 2026 08:10:00 +0100",
-    "img": true
-   },
-   {
-    "title": "<![CDATA[Četrdeset godina MIOC-a: Generacije učenika okupile se na proslavi]]>",
-    "link": "https://www.grad-zadar.hr/vijest/opce-vijesti-28/cetrdeset-godina-mioca-generacije-ucenika-okupile-se-na-proslavi-10062.html",
-    "cats": [],
-    "desc": "<![CDATA[Gimnazija Franje Petrića Zadar svečano je obilježila 40. obljetnicu djelovanja. ]]>",
-    "date": "Fri, 23 Oct 2026 13:29:00 +0200",
-    "img": true
-   },
-   {
-    "title": "<![CDATA[Objavljena javna nabava za obnovu svlačionica na pomoćnom nogometnom igralištu St",
-    "link": "https://www.grad-zadar.hr/vijest/opce-vijesti-28/objavljena-javna-nabava-za-obnovu-svlacionica-na-pomocnom-nogometnom-igralistu-stanovi-10061.html",
-    "cats": [],
-    "desc": "<![CDATA[Planirane su nove svlačionice s kupaonicama, prostor za suce i prateći sadržaji za svakodnevno korištenje igrališta.]]>",
-    "date": "Fri, 23 Oct 2026 12:48:00 +0200",
-    "img": true
-   },
-   {
-    "title": "<![CDATA[Predložen novi ustroj gradske uprave Zadra]]>",
-    "link": "https://www.grad-zadar.hr/vijest/opce-vijesti-28/predlozen-novi-ustroj-gradske-uprave-zadra-10059.html",
-    "cats": [],
-    "desc": "<![CDATA[Predloženim promjenama zadržava se postojećih 12 upravnih odjela i Služba za unutarnju reviziju. ]]>",
-    "date": "Fri, 23 Oct 2026 10:00:00 +0200",
-    "img": true
-   },
-   {
-    "title": "<![CDATA[Pred Gradskim vijećem socijalne mjere, nova pravila za poslovne prostore i reorga",
-    "link": "https://www.grad-zadar.hr/vijest/opce-vijesti-28/pred-gradskim-vijecem-socijalne-mjere-nova-pravila-za-poslovne-prostore-i-reorganizacija-uprave-10058.html",
-    "cats": [],
-    "desc": "<![CDATA[14. Sjednica Gradskog vijeća održat će se u petak, 30. listopada 2026. godine s početkom u 9 sati. ]]>",
-    "date": "Fri, 23 Oct 2026 09:52:00 +0200",
-    "img": true
-   },
-   {
-    "title": "<![CDATA[\"Kada smo dovoljni?\": Održan panel u okviru Mjeseca mentalnog zdravlja ]]>",
-    "link": "https://www.grad-zadar.hr/vijest/opce-vijesti-28/kada-smo-dovoljni-odrzan-panel-u-okviru-mjeseca-mentalnog-zdravlja-10055.html",
-    "cats": [],
-    "desc": "<![CDATA[Panel je održan sinoć u Kazalištu lutaka Zadar. ]]>",
-    "date": "Fri, 23 Oct 2026 09:21:00 +0200",
-    "img": true
-   }
-  ]
+  "zadar_text": []
  },
- "https://www.port-authority-zadar.hr/feed/": {
-  "status": 200,
-  "final": "https://www.port-authority-zadar.hr/feed/",
-  "rss_links": [
-   "https://www.port-authority-zadar.hr/feed/"
-  ],
-  "feeds": [],
-  "items": [
-   {
-    "title": "Statistika prometa kruzera: podaci do 30. rujna 2026.",
-    "link": "https://www.port-authority-zadar.hr/statistika-prometa-kruzera-podaci-do-30-rujna-2026/",
-    "cats": [
-     "Uncategorized"
-    ],
-    "desc": "<![CDATA[Lučka uprava Zadar je u prvih 9 mjeseci 2026. Godine na područjima kojim upravlja realizirala ukupno 191 dolazak kruzerskih brodova sa 221.197 putnika. Navedeni podatak <a href=\"https://www.p",
-    "date": "Mon, 19 Oct 2026 12:04:56 +0000",
-    "img": true
-   },
-   {
-    "title": "Savjetovanje s javnošću o nacrtu prijedloga PRAVILNIKA O PROVEDBI POSTUPAKA JEDNOSTAVNE NA",
-    "link": "https://www.port-authority-zadar.hr/savjetovanje-s-javnoscu-o-nacrtu-prijedloga-pravilnika-o-provedbi-postupaka-jednostavne-nabave-lucke-uprave-zadar/",
-    "cats": [
-     "Uncategorized"
-    ],
-    "desc": "<![CDATA[TRAJANJE SAVJETOVANJA: 07.07.2026.g. &#8211; 06.08.2026. g.]]>",
-    "date": "Mon, 06 Jul 2026 08:29:50 +0000",
-    "img": false
-   },
-   {
-    "title": "Slobodna Dalmacija &#8211; Zadar visoko podignuo ljestvicu domaćinstva na Danima hrvatskih",
-    "link": "https://www.port-authority-zadar.hr/slobodna-dalmacija-zadar-visoko-podignuo-ljestvicu-domacinstva-na-danima-hrvatskih-luka-zeljeznica-kljuc-punog-razvoja-gazenice/",
-    "cats": [
-     "Uncategorized"
-    ],
-    "desc": "<![CDATA[U Zadru su održani &#8220;Dani hrvatskih luka 2026.&#8220;, nacionalna konferencija koja je okupila predstavnike hrvatskih lučkih uprava, stručnjake iz pomorskog sektora, donositelje odluka i",
-    "date": "Sat, 04 Apr 2026 12:44:07 +0000",
-    "img": false
-   },
-   {
-    "title": "Najava drugog izdanja konferencije „Dani hrvatskih luka“,  Zadar, 26. i 27. ožujak 2026.",
-    "link": "https://www.port-authority-zadar.hr/najava-drugog-izdanja-konferencije-dani-hrvatskih-luka-zadar-26-i-27-ozujak-2026/",
-    "cats": [
-     "Uncategorized"
-    ],
-    "desc": "<![CDATA[Drugo izdanje nacionalne i stručne konferencije „Dani hrvatskih luka“ održat će se 26. i 27. ožujka 2026. godine u Zadru, u suvremenom ambijentu hotela Hyatt Regency Zadar. ]]>",
-    "date": "Tue, 10 Feb 2026 10:20:35 +0000",
-    "img": false
-   },
-   {
-    "title": "Promet kruzera 2025",
-    "link": "https://www.port-authority-zadar.hr/promet-kruzera-2025/",
-    "cats": [
-     "Uncategorized"
-    ],
-    "desc": "<![CDATA[U nastavku kratak prikaz preliminarnih statističkih pokazatelja o realizaciji kruzera za 2025. godinu (podaci do 30.11.2025) na području Lučke uprave Zadar, te usporedba s prethodnim <a href=",
-    "date": "Wed, 10 Dec 2025 14:40:30 +0000",
-    "img": true
-   },
-   {
-    "title": "RASKID UGOVORA O PRVENSTVENOJ KONCESIJI ZA OBAVLJANJE LUČKIH DJELATNOSTI I KORIŠTENJE OBJE",
-    "link": "https://www.port-authority-zadar.hr/raskid-ugovora-o-prvenstvenoj-koncesiji-za-obavljanje-luckih-djelatnosti-i-koristenje-objekata-lucke-podgradnje-infrastrukture-i-lucke-nadgradnje-suprastrukture-na-luckom-podrucju-luke-zadar-tere/",
-    "cats": [
-     "Uncategorized"
-    ],
-    "desc": "<![CDATA[&#160;&#160;&#160;&#160;&#160;&#160; Upravno vijeće Lučke uprave Zadar na svojoj 112. sjednici održanoj 24. listopada 2025. godine donijelo je Odluku br. 651/2025 o jednostranom raskidu Ugovo",
-    "date": "Fri, 07 Nov 2025 13:26:21 +0000",
-    "img": false
-   }
-  ]
+ "https://www.jadrolinija.hr/hr/red-plovidbe": {
+  "error": "<HTTPError 404: 'Not Found'>"
  },
- "https://www.jadrolinija.hr/feeds/vijesti": {
+ "https://www.jadrolinija.hr/hr/obavijesti": {
   "status": 200,
-  "final": "https://www.jadrolinija.hr/feeds/vijesti",
-  "rss_links": [
-   "https://www.jadrolinija.hr/feeds/vijesti"
+  "final": "https://www.jadrolinija.hr/hr/obavijesti",
+  "hrefs": [
+   "https://hr.linkedin.com/company/jadrolinija",
+   "https://twitter.com/Jadrolinija_cro",
+   "https://www.facebook.com/jadrolinija.official",
+   "https://www.instagram.com/jadrolinija/",
+   "https://www.jadrolinija.hr",
+   "https://www.jadrolinija.hr/css/base.min.css?v=1781103227",
+   "https://www.jadrolinija.hr/css/grid.min.css?v=1704381820",
+   "https://www.jadrolinija.hr/en",
+   "https://www.jadrolinija.hr/feeds/vijesti",
+   "https://www.jadrolinija.hr/hr",
+   "https://www.jadrolinija.hr/hr/cesta-pitanja",
+   "https://www.jadrolinija.hr/hr/flota-kategorije",
+   "https://www.jadrolinija.hr/hr/kontakti",
+   "https://www.jadrolinija.hr/hr/magazin",
+   "https://www.jadrolinija.hr/hr/novost/informacije-za-linije-s-rezervacijom",
+   "https://www.jadrolinija.hr/hr/novost/linije-u-prekidu_2",
+   "https://www.jadrolinija.hr/hr/novost/obavijest-za-putnike-na-trajektnoj-liniji-635-split---stari-grad---split_2",
+   "https://www.jadrolinija.hr/hr/novost/prava-putnika_2",
+   "https://www.jadrolinija.hr/hr/novost/vase-misljenje-nam-je-vazno",
+   "https://www.jadrolinija.hr/hr/novosti",
+   "https://www.jadrolinija.hr/hr/obavijesti-za-putnike",
+   "https://www.jadrolinija.hr/hr/osobe-s-invaliditeom",
+   "https://www.jadrolinija.hr/hr/otocne-kartice",
+   "https://www.jadrolinija.hr/hr/prepaid-kartice",
+   "https://www.jadrolinija.hr/hr/pretrazite-kupite-kartu",
+   "https://www.jadrolinija.hr/hr/prodaja-i-zakup",
+   "https://www.jadrolinija.hr/hr/prodajna-mjesta",
+   "https://www.jadrolinija.hr/hr/profil/politika-zastite-osobnih-podataka",
+   "https://www.jadrolinija.hr/hr/putovanja",
+   "https://www.jadrolinija.hr/hr/suveniri-i-darovi",
+   "https://www.jadrolinija.hr/hr/tvrtka-b2b",
+   "https://www.jadrolinija.hr/hr/tvrtka-odrzivo-poslovanje",
+   "https://www.jadrolinija.hr/hr/tvrtka-povijest",
+   "https://www.jadrolinija.hr/hr/tvrtka-press",
+   "https://www.jadrolinija.hr/hr/tvrtka-profil",
+   "https://www.jadrolinija.hr/hr/tvrtka-zaposljavanja",
+   "https://www.youtube.com/@jadrolinija2447/featured"
   ],
-  "feeds": [],
-  "items": [
-   {
-    "title": "Linije u prekidu 29.10.2026.",
-    "link": "https://www.jadrolinija.hr/news-single/linije-u-prekidu-29102026",
-    "cats": [
-     "Obavijesti"
-    ],
-    "desc": "Red plovidbe u četvrtak , 29.10.",
-    "date": "Thu, 29 Oct 2026 08:35:00 Z",
-    "img": false
-   }
-  ]
+  "zadar_text": []
  }
 }
