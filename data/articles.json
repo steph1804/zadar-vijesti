@@ -1,5 +1,44 @@
 [
  {
+  "title": "Poplava u Centru za mlade, skandal u Zavodu za hitnu i velika ulaganja u zadarske luke",
+  "link": "https://zadarskilist.novilist.hr/zadar-zupanija/poplava-u-centru-za-mlade-skandal-u-zavodu-za-hitnu-i-velika-ulaganja-u-zadarske-luke/",
+  "date": "2026-10-29T20:30:00+00:00",
+  "summary": "Donosimo pet vijesti koje su obilježile četvrtak u Zadru i županiji: Novi skandal u Zavodu za hitnu, nepokretni pacijent ostao bez sanitetskog prijevoza Novi slučaj iz Zavoda za hitnu medicinu Zadarske županije otvorio je pitanja o organizaciji sanitetskog prijevoza i dostupnosti zdravstvene skrbi za najranjivije…",
+  "image": "https://zadarskilist.novilist.hr/wp-content/uploads/2026/10/12466931.jpg",
+  "source": "Zadarski list",
+  "topics": [
+   "Zadar",
+   "Županija"
+  ],
+  "source_url": "https://zadarskilist.novilist.hr/",
+  "face": [
+   31.9,
+   41.2,
+   19.2,
+   73.3
+  ],
+  "face_img": "https://zadarskilist.novilist.hr/wp-content/uploads/2026/10/12466931.jpg"
+ },
+ {
+  "title": "Bačić gradonačenicima: “Nužno je povećati komunalni doprinos, ali ne na štetu krajnjih kupaca”",
+  "link": "https://www.novilist.hr/novosti/bacic-gradonacenicima-nuzno-je-povecati-komunalni-doprinos-ali-ne-na-stetu-krajnjih-kupaca/",
+  "date": "2026-10-29T20:28:39+00:00",
+  "summary": "ZADAR – Potpredsjednik Vlade i ministar prostornog uređenja, graditeljstva i državne imovine Branko Bačić poručio je u četvrtak kako je zbog inflacije i troškova gradnje nužno povećati komunalne doprinose, no to se ne smije preliti na krajnje kupce  Objava Bačić gradonačenicima: “Nužno je povećati komunalni doprinos,…",
+  "image": "https://www.novilist.hr/wp-content/uploads/2026/07/HN20260728853478-717x478.jpg",
+  "source": "Novi list",
+  "topics": [
+   "Zadar"
+  ],
+  "source_url": "https://www.novilist.hr/",
+  "face": [
+   9.0,
+   55.9,
+   39.1,
+   57.5
+  ],
+  "face_img": "https://www.novilist.hr/wp-content/uploads/2026/07/HN20260728853478-717x478.jpg"
+ },
+ {
   "title": "[XXL FOTO]  Održana konferencija Zadarskog lista, pogledajte tko je sve bio!",
   "link": "https://zadarskilist.novilist.hr/zadar-zupanija/xxl-foto-odrzana-konferencija-zadarskog-lista-pogledajte-tko-je-sve-bio/",
   "date": "2026-10-29T20:00:34+00:00",
@@ -11,7 +50,13 @@
    "Županija"
   ],
   "source_url": "https://zadarskilist.novilist.hr/",
-  "focus": 20
+  "face": [
+   9.2,
+   67.7,
+   10.1,
+   93.6
+  ],
+  "face_img": "https://zadarskilist.novilist.hr/wp-content/uploads/2026/10/12466857-1.jpg"
  },
  {
   "title": "Alarmantno upozorenje dr. Telesmanić Dobrić u Zadru: Rak dojke sve češće pogađa žene mlađe od 40, pa čak i one u dvadesetima",
@@ -24,7 +69,8 @@
    "Zadar"
   ],
   "source_url": "https://023.hr/",
-  "focus": null
+  "face": null,
+  "face_img": "https://023.hr/wp-content/uploads/2026/10/20261029132411_484343.avif"
  },
  {
   "title": "Hoće li masovni turizam progutati zadarske otoke? Čvrljak poručio što ne smijemo izgubiti!",
@@ -39,7 +85,13 @@
    "Otoci"
   ],
   "source_url": "https://zadarskilist.novilist.hr/",
-  "focus": 97
+  "face": [
+   9.8,
+   42.7,
+   10.0,
+   85.8
+  ],
+  "face_img": "https://zadarskilist.novilist.hr/wp-content/uploads/2026/10/12466978.jpg"
  },
  {
   "title": "“48 SATI” U Zadru otvorena 18. Liderova konferencija",
@@ -52,7 +104,13 @@
    "Zadar"
   ],
   "source_url": "https://www.antenazadar.hr/",
-  "focus": null
+  "face": [
+   40.1,
+   47.9,
+   57.4,
+   60.7
+  ],
+  "face_img": "https://www.antenazadar.hr/wp-content/uploads/2026/10/image0000112.jpeg"
  },
  {
   "title": "KONFERENCIJA BLUE ECONOMY / Bilaver: More nije kulisa za turiste, nego resurs koji moramo sačuvati za buduće generacije",
@@ -66,7 +124,13 @@
    "Županija"
   ],
   "source_url": "https://www.znet.hr/",
-  "focus": 77
+  "face": [
+   46.4,
+   82.4,
+   0.9,
+   85.6
+  ],
+  "face_img": "https://www.znet.hr/wp-content/uploads/2026/10/4a76f7db5fd99eaf9c9b046e4bedd786_XL-1000x600.jpg"
  },
  {
   "title": "Nova uhićenja zbog napada na navijače Ajaxa kod Zadra. Sve upućuje na unaprijed pripremljenu sačekušu",
@@ -79,7 +143,8 @@
    "Zadar"
   ],
   "source_url": "https://www.dalmacijadanas.hr/",
-  "focus": 51
+  "face": null,
+  "face_img": "https://www.dalmacijadanas.hr/wp-content/uploads/2025/12/policija-uhicenje.jpg"
  },
  {
   "title": "Zadar i otok Ugljan bit će 2027. domaćini velikog međunarodnog triatlona XTERRA",
@@ -95,7 +160,8 @@
    "Otoci"
   ],
   "source_url": "https://www.nasiskolji.hr/",
-  "focus": 38
+  "face": null,
+  "face_img": "https://www.nasiskolji.hr/wp-content/uploads/2026/10/SIZ_1068_1575x1050.jpg"
  },
  {
   "title": "Što Njemačka dobiva od Europske unije, a što Europa može naučiti od Berlina? Zadarski novinari u srcu njemačke politike",
@@ -108,7 +174,8 @@
    "Zadar"
   ],
   "source_url": "https://slobodnadalmacija.hr/dalmacija/zadar",
-  "focus": null
+  "face": null,
+  "face_img": "https://static.slobodnadalmacija.hr/images/slike/2026/10/29/32757908.jpg"
  },
  {
   "title": "ZADAR IMA SVJETSKE PRVAKЕ Zubatac dao četvoricu reprezentativaca za četvrto uzastopno povijesno zlato!",
@@ -123,7 +190,13 @@
    "Sport"
   ],
   "source_url": "https://sport023.hr/",
-  "focus": 57
+  "face": [
+   26.1,
+   40.4,
+   14.3,
+   90.8
+  ],
+  "face_img": "https://sport023.hr/wp-content/uploads/2026/10/FB_IMG_1793295785604.jpg"
  },
  {
   "title": "Uzgajališta ribe mogla bi se preseliti dalje od obale! Šegarić otkrio što priprema Zadarska županija",
@@ -137,7 +210,13 @@
    "Županija"
   ],
   "source_url": "https://zadarskilist.novilist.hr/",
-  "focus": 25
+  "face": [
+   11.7,
+   46.7,
+   1.8,
+   63.5
+  ],
+  "face_img": "https://zadarskilist.novilist.hr/wp-content/uploads/2026/10/12466981-2.jpg"
  },
  {
   "title": "Napad na Nizozemce kod zadarske zračne luke: Uhićena još trojica, sumnja se na sačekušu",
@@ -150,7 +229,8 @@
    "Zadar"
   ],
   "source_url": "https://n1info.hr/",
-  "focus": 40
+  "face": null,
+  "face_img": "https://n1info.hr/media/images/2026/10/29/1793295933_PXL_200324_111940295.width-1200.jpg"
  },
  {
   "title": "Uhićena još trojica zbog napada na navijače Ajaxa kod Zadra; sve upućuje na sačekušu, policijska istraga se nastavlja",
@@ -163,7 +243,8 @@
    "Zadar"
   ],
   "source_url": "https://slobodnadalmacija.hr/dalmacija/zadar",
-  "focus": null
+  "face": null,
+  "face_img": "https://static.slobodnadalmacija.hr/images/slike/2026/10/29/32758732.jpg"
  },
  {
   "title": "Novi preokret u slučaju huliganske sačekuše kod Zadra. Policija identificirala trojicu osumnjičenih",
@@ -176,7 +257,8 @@
    "Zadar"
   ],
   "source_url": "https://www.telegram.hr/",
-  "focus": null
+  "face": null,
+  "face_img": "https://www.telegram.hr/wp-content/uploads/2025/04/pxl-080425-130957141-1-150x150.jpg"
  },
  {
   "title": "STIŽE XTERRA Grad Zadar i otok Ugljan 2027. postaju domaćini velikog međunarodnog triatlonskog događaja",
@@ -191,7 +273,13 @@
    "Otoci"
   ],
   "source_url": "https://www.antenazadar.hr/",
-  "focus": 32
+  "face": [
+   24.7,
+   39.6,
+   10.3,
+   86.4
+  ],
+  "face_img": "https://www.antenazadar.hr/wp-content/uploads/2026/10/SIZ_1068.jpg"
  },
  {
   "title": "Velika prilika za 150 poduzetnika: Za razvoj poslovanja do 18.000 eura!",
@@ -204,7 +292,13 @@
    "Zadar"
   ],
   "source_url": "https://zadarskilist.novilist.hr/",
-  "focus": 27
+  "face": [
+   15.4,
+   38.1,
+   50.9,
+   59.7
+  ],
+  "face_img": "https://zadarskilist.novilist.hr/wp-content/uploads/2026/10/12466938.jpg"
  },
  {
   "title": "Još trojica uhićena zbog napada na Nizozemce kod zadarske zračne luke",
@@ -217,7 +311,8 @@
    "Zadar"
   ],
   "source_url": "https://www.index.hr/",
-  "focus": null
+  "face": null,
+  "face_img": "https://ip.index.hr/remote/bucket.index.hr/b/index/eff71304-8471-43ec-ab23-12fa22e66f67.png?fb_wtrmrk=vijesti.jpg&width=1200&height=630&mode=crop&format=png"
  },
  {
   "title": "Zadarska županija subvencionira kamate na kredite do 200 tisuća eura! Otvoren javni poziv za poljoprivrednike",
@@ -231,7 +326,8 @@
    "Županija"
   ],
   "source_url": "https://zadarskilist.novilist.hr/",
-  "focus": null
+  "face": null,
+  "face_img": "https://zadarskilist.novilist.hr/wp-content/uploads/2026/10/12179832.jpg"
  },
  {
   "title": "PFAS spojevi nisu utvrđeni u 231 uzorku vode u Lici, na Pagu i Rabu",
@@ -244,7 +340,8 @@
    "Otoci"
   ],
   "source_url": "https://www.novilist.hr/",
-  "focus": null
+  "face": null,
+  "face_img": "https://www.novilist.hr/wp-content/uploads/2026/09/12440140-717x478.jpg"
  },
  {
   "title": "Doznajemo: Uhićene još tri osobe zbog napada na Nizozemce kod zadarske zračne luke",
@@ -257,7 +354,8 @@
    "Zadar"
   ],
   "source_url": "https://net.hr/",
-  "focus": null
+  "face": null,
+  "face_img": "https://net.hr/media/2026/10/29/1624755/H-ddeaa25f-a2cb-453a-a2a8-5a97122f5a2c-1200.webp"
  },
  {
   "title": "Muškarac (75) krampom napao 65-godišnjaka kod Zadra. Određen mu istražni zatvor",
@@ -270,7 +368,13 @@
    "Zadar"
   ],
   "source_url": "https://www.index.hr/",
-  "focus": 65
+  "face": [
+   36.1,
+   44.3,
+   77.9,
+   80.0
+  ],
+  "face_img": "https://ip.index.hr/remote/bucket.index.hr/b/index/592209a0-8733-4d70-84af-20ba80065843.png?fb_wtrmrk=vijesti.jpg&width=1200&height=630&mode=crop&format=png"
  },
  {
   "title": "Zadar domaćin velikog skupa, Erlić predstavio planove koji bi mogli promijeniti grad",
@@ -283,7 +387,13 @@
    "Zadar"
   ],
   "source_url": "https://zadarskilist.novilist.hr/",
-  "focus": null
+  "face": [
+   40.1,
+   47.9,
+   57.4,
+   60.7
+  ],
+  "face_img": "https://zadarskilist.novilist.hr/wp-content/uploads/2026/10/image0000112.jpeg"
  },
  {
   "title": "TEHNOLOGIJOM PROTIV ONEČIŠĆENJA Kako će Zadar uskladiti lučki promet i očuvanje okoliša",
@@ -296,20 +406,22 @@
    "Zadar"
   ],
   "source_url": "https://www.antenazadar.hr/",
-  "focus": 50
+  "face": null,
+  "face_img": "https://www.antenazadar.hr/wp-content/uploads/2024/10/zadar-gazenica-lucka-uprava-zadar-200.000-putnika-2.jpg"
  },
  {
   "title": "HZJZ: PFAS spojevi nisu utvrđeni u 231 uzorku vode u Lici, na Pagu i Rabu",
   "link": "https://www.jutarnji.hr/vijesti/hrvatska/hzjz-pfas-spojevi-nisu-utvrdeni-u-231-uzorku-vode-u-lici-na-pagu-i-rabu-15760547",
   "date": "2026-10-29T15:59:36+00:00",
   "summary": "Ni u jednom od dosad analiziranog 231 uzorka vode iz javne vodoopskrbne mreže na području Ličko-senjske županije te otoka Paga i Raba nisu otkrivene mjerljive količine PFAS spojeva, izvijestio je u četvrtak Hrvatski zavod za javno zdravstvo (HZJZ). Najnovije uzorkovanje provedeno je od 12. do 15. li...",
-  "image": "https://media.jutarnji.hr/images/slike/2026/10/29/f_35452869_1280.jpg?1793305170",
+  "image": "https://media.jutarnji.hr/images/slike/2026/10/29/f_35452869_1280.jpg?1793305839",
   "source": "Jutarnji list",
   "topics": [
    "Otoci"
   ],
   "source_url": "https://www.jutarnji.hr/",
-  "focus": null
+  "face": null,
+  "face_img": "https://media.jutarnji.hr/images/slike/2026/10/29/f_35452869_1280.jpg?1793305839"
  },
  {
   "title": "Novi nalazi vode u Lici, na Pagu i Rabu. PFAS nije otkriven u 231 uzorku",
@@ -322,7 +434,8 @@
    "Otoci"
   ],
   "source_url": "https://www.index.hr/",
-  "focus": null
+  "face": null,
+  "face_img": "https://ip.index.hr/remote/bucket.index.hr/b/index/0f219a01-8048-4604-9c6e-84cf3b512ea7.png?fb_wtrmrk=vijesti.jpg&width=1200&height=630&mode=crop&format=png"
  },
  {
   "title": "PFAS spojeva nema u uzorcima vode u Lici, na Pagu i Rabu",
@@ -335,7 +448,8 @@
    "Otoci"
   ],
   "source_url": "https://vijesti.hrt.hr/",
-  "focus": null
+  "face": null,
+  "face_img": "https://api.hrt.hr/media/70/98/740x438-pxl-060214-7252603-20261029154731.jpg"
  },
  {
   "title": "Zadar i Ugljan postaju domaćini velikog svjetskog sportskog spektakla! Evo što stiže u listopadu 2027.",
@@ -351,7 +465,13 @@
    "Sport"
   ],
   "source_url": "https://zadarskilist.novilist.hr/",
-  "focus": 32
+  "face": [
+   24.7,
+   39.6,
+   10.3,
+   86.4
+  ],
+  "face_img": "https://zadarskilist.novilist.hr/wp-content/uploads/2026/10/SIZ_1068.jpg"
  },
  {
   "title": "ODRŽANA KONFERENCIJA BLUE ECONOMY Erlić: Zadar želimo pozicionirati kao predvodnika plave ekonomije",
@@ -365,7 +485,8 @@
    "Županija"
   ],
   "source_url": "https://www.antenazadar.hr/",
-  "focus": null
+  "face": null,
+  "face_img": "https://www.antenazadar.hr/wp-content/uploads/2026/10/20261029_111246-1.jpg"
  },
  {
   "title": "HZJZ objavio rezultate analiza vode: Evo što su pokazali nalazi iz Like te s Paga i Raba",
@@ -378,7 +499,8 @@
    "Otoci"
   ],
   "source_url": "https://n1info.hr/",
-  "focus": null
+  "face": null,
+  "face_img": "https://n1info.hr/media/images/2026/10/29/1793287349_andres-siimon-KOh8ShapWMw-unsplash.width-1200.jpg"
  },
  {
   "title": "“Tajna čarobnog svjetionika” – nova besplatna radionica za djecu u Privlaci",
@@ -391,7 +513,8 @@
    "Županija"
   ],
   "source_url": "https://023.hr/",
-  "focus": null
+  "face": null,
+  "face_img": "https://023.hr/wp-content/uploads/2026/10/20261014083227_479467-e1793262966975.avif"
  },
  {
   "title": "Gaženica došla do tri milijuna putnika! Kasap upozorio na problem koji sve više pritišće grad",
@@ -404,7 +527,13 @@
    "Zadar"
   ],
   "source_url": "https://zadarskilist.novilist.hr/",
-  "focus": 32
+  "face": [
+   8.2,
+   53.8,
+   0.8,
+   86.4
+  ],
+  "face_img": "https://zadarskilist.novilist.hr/wp-content/uploads/2026/10/12466945.jpg"
  },
  {
   "title": "Filmski festival stiže u Zadar, u Kino Zoni prikazuje se nagrađivani film koji je premijerno prikazan u Cannesu",
@@ -417,7 +546,13 @@
    "Zadar"
   ],
   "source_url": "https://zadarskilist.novilist.hr/",
-  "focus": 68
+  "face": [
+   52.2,
+   81.2,
+   36.9,
+   97.3
+  ],
+  "face_img": "https://zadarskilist.novilist.hr/wp-content/uploads/2026/10/Dua-plakat.jpg"
  },
  {
   "title": "SVI SVETI I DUŠNI DAN / Nadbiskup Zgrablić predvodi mise u katedrali i Službu Riječi na Gradskom groblju",
@@ -430,7 +565,8 @@
    "Zadar"
   ],
   "source_url": "https://www.znet.hr/",
-  "focus": 80
+  "face": null,
+  "face_img": "https://www.znet.hr/wp-content/uploads/2026/10/Svi-sveti-1000x600.jpg"
  },
  {
   "title": "ODABRAN IZVOĐAČ Opremanje dječjih vrtića Smiljevac i Crvene kuće",
@@ -443,7 +579,8 @@
    "Zadar"
   ],
   "source_url": "https://www.antenazadar.hr/",
-  "focus": null
+  "face": null,
+  "face_img": "https://www.antenazadar.hr/wp-content/uploads/2026/10/SIZ_479011.jpg"
  },
  {
   "title": "Zadar postao središte svjetske podvodne arheologije; Ministrica Obuljen Koržinek: “Hrvatski primjer prepoznaje se kao primjer dobre prakse”",
@@ -456,7 +593,8 @@
    "Zadar"
   ],
   "source_url": "https://023.hr/",
-  "focus": null
+  "face": null,
+  "face_img": "https://023.hr/wp-content/uploads/2026/10/20261029093954_757709.avif"
  },
  {
   "title": "Asian Massage Studio u Zadru predstavlja novu uslugu; Od sad je u ponudi i drevna metoda – Cupping!",
@@ -469,7 +607,8 @@
    "Zadar"
   ],
   "source_url": "https://023.hr/",
-  "focus": 53
+  "face": null,
+  "face_img": "https://023.hr/wp-content/uploads/2025/10/20251013140607_338516.webp"
  },
  {
   "title": "“Uspavana” galovačka učiteljica povratkom uznemirila učenike, pa nakon jednog dana otišla na bolovanje",
@@ -483,7 +622,8 @@
    "Županija"
   ],
   "source_url": "https://zadarskilist.novilist.hr/",
-  "focus": null
+  "face": null,
+  "face_img": "https://zadarskilist.novilist.hr/wp-content/uploads/2026/10/12437656.jpg"
  },
  {
   "title": "Zadar ide u Dubrovnik po nove bodove: kvalitetu dokazati na parketu",
@@ -498,7 +638,13 @@
    "Sport"
   ],
   "source_url": "https://kkzadar.hr/novosti/",
-  "focus": 31
+  "face": [
+   6.5,
+   47.8,
+   47.0,
+   98.7
+  ],
+  "face_img": "https://kkzadar.hr/wp-content/uploads/2026/10/kk-zadar-kk-ilirija_251026-13-dreznjak.jpg"
  },
  {
   "title": "Zajedništvo u vjeri daleko od domovine; U crkvi sv. Šime održana dirljiva misa za filipinske vjernike na tagaloškom jeziku",
@@ -511,7 +657,8 @@
    "Zadar"
   ],
   "source_url": "https://023.hr/",
-  "focus": null
+  "face": null,
+  "face_img": "https://023.hr/wp-content/uploads/2026/10/20261029131057_188872.avif"
  },
  {
   "title": "Zadarska onkologinja upozorava: ‘Rak dojke sve češće pogađa mlađe žene, obolijevaju i one u dvadesetima’",
@@ -524,7 +671,13 @@
    "Zadar"
   ],
   "source_url": "https://zadarskilist.novilist.hr/",
-  "focus": 44
+  "face": [
+   24.6,
+   52.6,
+   36.5,
+   48.5
+  ],
+  "face_img": "https://zadarskilist.novilist.hr/wp-content/uploads/2026/10/rak-dojke-4.jpg"
  },
  {
   "title": "ODLUKA JE NA VIJEĆNICIMA Evo koje kandidate Grad Zadar predlaže za porotnike Općinskog suda",
@@ -537,7 +690,8 @@
    "Zadar"
   ],
   "source_url": "https://www.antenazadar.hr/",
-  "focus": null
+  "face": null,
+  "face_img": "https://www.antenazadar.hr/wp-content/uploads/2024/05/opcinski-sud.jpg"
  },
  {
   "title": "Gradonačelnik Erlić na konferenciji Blue Economy: Zadar želimo pozicionirati kao predvodnika plave ekonomije",
@@ -550,7 +704,8 @@
    "Zadar"
   ],
   "source_url": "https://www.grad-zadar.hr/",
-  "focus": null
+  "face": null,
+  "face_img": "https://www.grad-zadar.hr/data/images/image/grad550x325/35317/20261029_111246.jpg"
  },
  {
   "title": "SNAGA JE U ZAJEDNIŠTVU Kako tjelesna aktivnost i podrška pomažu ženama nakon raka dojke",
@@ -563,7 +718,13 @@
    "Zadar"
   ],
   "source_url": "https://www.antenazadar.hr/",
-  "focus": 58
+  "face": [
+   35.6,
+   46.8,
+   13.3,
+   58.6
+  ],
+  "face_img": "https://www.antenazadar.hr/wp-content/uploads/2026/10/rak-dojke-13.jpg"
  },
  {
   "title": "Odabrana tvrtka za opremanje dva nova zadarska vrtića: Posao vrijedan 450.000 eura, evo što će sve dobiti mališani",
@@ -576,7 +737,8 @@
    "Zadar"
   ],
   "source_url": "https://zadarskilist.novilist.hr/",
-  "focus": null
+  "face": null,
+  "face_img": "https://zadarskilist.novilist.hr/wp-content/uploads/2026/10/SIZ_479011.jpg"
  },
  {
   "title": "Sali ostaju bez liječnice, a novi natječaj uznemirio je mještane: ‘Kako je bilo do sada, tako će biti i ubuduće’",
@@ -591,7 +753,8 @@
    "Otoci"
   ],
   "source_url": "https://zadarskilist.novilist.hr/",
-  "focus": 65
+  "face": null,
+  "face_img": "https://zadarskilist.novilist.hr/wp-content/uploads/2024/10/10035930.jpg"
  },
  {
   "title": "Zajednička akcija PU zadarske i Carinske uprave; Nadzirali taksiste, letjele kazne zbog pojasa, opreme i mobitela",
@@ -604,7 +767,8 @@
    "Zadar"
   ],
   "source_url": "https://023.hr/",
-  "focus": null
+  "face": null,
+  "face_img": "https://023.hr/wp-content/uploads/2025/03/20250318095713_119461.webp"
  },
  {
   "title": "Stiže XTERRA: Grad Zadar i otok Ugljan 2027. postaju domaćini velikog međunarodnog triatlonskog događaja",
@@ -618,7 +782,13 @@
    "Otoci"
   ],
   "source_url": "https://www.grad-zadar.hr/",
-  "focus": 33
+  "face": [
+   28.1,
+   44.6,
+   10.4,
+   86.4
+  ],
+  "face_img": "https://www.grad-zadar.hr/data/images/image/grad550x325/35314/SIZ_1068.jpg"
  },
  {
   "title": "INOVACIJA Održana edukativna radionica „Izrada poslovnog plana”",
@@ -632,7 +802,13 @@
    "Županija"
   ],
   "source_url": "https://www.antenazadar.hr/",
-  "focus": 70
+  "face": [
+   59.7,
+   79.4,
+   19.7,
+   28.4
+  ],
+  "face_img": "https://www.antenazadar.hr/wp-content/uploads/2026/10/20261026_110524.jpg"
  },
  {
   "title": "Zadar i Ugljan postaju središte svjetskog off-road triatlona; Sljedeće jeseni stiže nam prestižna XTERRA utrka!",
@@ -647,7 +823,8 @@
    "Sport"
   ],
   "source_url": "https://023.hr/",
-  "focus": null
+  "face": null,
+  "face_img": "https://023.hr/wp-content/uploads/2026/10/20261029121625_482624.avif"
  },
  {
   "title": "KONAČNO POZNAT DATUM Električni autobusi iz Kine u Zadar stižu do 5. prosinca",
@@ -660,7 +837,8 @@
    "Zadar"
   ],
   "source_url": "https://www.antenazadar.hr/",
-  "focus": null
+  "face": null,
+  "face_img": "https://www.antenazadar.hr/wp-content/uploads/2026/10/liburnija-autobusi-FOTO-GRAD-ZD.jpg"
  },
  {
   "title": "DRUŠTVENI I KULTURNI ŽIVOT OTOČANA Oprema se Društveni dom na Molatu i Muzej u Velom Ižu",
@@ -674,7 +852,8 @@
    "Otoci"
   ],
   "source_url": "https://zadarskilist.novilist.hr/",
-  "focus": null
+  "face": null,
+  "face_img": "https://zadarskilist.novilist.hr/wp-content/uploads/2026/10/molat.jpg"
  },
  {
   "title": "Popis je objavljen; Studenac zatvara tri trgovine u Zadarskoj županiji, Uprava zbog pritiska građana ipak spasila dio poslovnica",
@@ -688,7 +867,8 @@
    "Županija"
   ],
   "source_url": "https://023.hr/",
-  "focus": null
+  "face": null,
+  "face_img": "https://023.hr/wp-content/uploads/2025/02/20250201151531_129291-scaled.webp"
  },
  {
   "title": "Radeta prikupio potpise za raspravu o odlagalištu u Diklu: ‘Sada više nema izgovora!’",
@@ -701,7 +881,13 @@
    "Zadar"
   ],
   "source_url": "https://zadarskilist.novilist.hr/",
-  "focus": 49
+  "face": [
+   22.0,
+   53.4,
+   6.4,
+   98.5
+  ],
+  "face_img": "https://zadarskilist.novilist.hr/wp-content/uploads/2026/10/Radeta.jpg"
  },
  {
   "title": "ODABRAN PROJEKTANT Priprema proširenja sustava za protočniji promet u Zadru",
@@ -714,7 +900,8 @@
    "Zadar"
   ],
   "source_url": "https://www.antenazadar.hr/",
-  "focus": null
+  "face": null,
+  "face_img": "https://www.antenazadar.hr/wp-content/uploads/2026/10/IMG-20260921-WA00021.jpg"
  },
  {
   "title": "Perinić na konferenciji Blue Economy: ‘Razvoj ne možemo promatrati samo kroz brojke i investicije. Važno je kakav Jadran ostavljamo budućim generacijama’",
@@ -728,7 +915,13 @@
    "Županija"
   ],
   "source_url": "https://zadarskilist.novilist.hr/",
-  "focus": 22
+  "face": [
+   7.7,
+   35.3,
+   52.9,
+   63.8
+  ],
+  "face_img": "https://zadarskilist.novilist.hr/wp-content/uploads/2026/10/12466856.jpg"
  },
  {
   "title": "Zadarski mališani dobivaju 200 novih mjesta; Izabran izvođač za potpuno opremanje vrtića na Smiljevcu i Crvenim kućama!",
@@ -741,7 +934,8 @@
    "Zadar"
   ],
   "source_url": "https://023.hr/",
-  "focus": null
+  "face": null,
+  "face_img": "https://023.hr/wp-content/uploads/2026/10/20261029114951_370909.avif"
  },
  {
   "title": "ULAGANJA GRADA Priprema se opremanje Društvenog doma na Molatu i Muzeja u Velom Ižu",
@@ -755,7 +949,8 @@
    "Otoci"
   ],
   "source_url": "https://www.antenazadar.hr/",
-  "focus": null
+  "face": null,
+  "face_img": "https://www.antenazadar.hr/wp-content/uploads/2026/10/IMG_911011-e1793268862308.jpeg"
  },
  {
   "title": "U Zadru otvorena 18. Liderova konferencija '48 sati'",
@@ -768,7 +963,13 @@
    "Zadar"
   ],
   "source_url": "https://www.grad-zadar.hr/",
-  "focus": null
+  "face": [
+   50.4,
+   60.5,
+   57.0,
+   60.6
+  ],
+  "face_img": "https://www.grad-zadar.hr/data/images/image/grad550x325/35286/image00001%255B12%255D.jpeg"
  },
  {
   "title": "U Zadar stiže ulaganje od 70 milijuna eura! Mihotić najavio obnovu pruge, Erlić poručio: ‘Želimo biti lideri plavog gospodarstva’",
@@ -782,7 +983,13 @@
    "Županija"
   ],
   "source_url": "https://zadarskilist.novilist.hr/",
-  "focus": 28
+  "face": [
+   19.3,
+   56.4,
+   30.8,
+   100.0
+  ],
+  "face_img": "https://zadarskilist.novilist.hr/wp-content/uploads/2026/10/WhatsApp-Image-2026-10-29-at-11.25.29.jpeg"
  },
  {
   "title": "Bilaver najavio više od 1500 novih komunalnih vezova ‘Za Dražanicu i Maestral osigurano 20 milijuna eura’",
@@ -797,7 +1004,13 @@
    "Otoci"
   ],
   "source_url": "https://zadarskilist.novilist.hr/",
-  "focus": 26
+  "face": [
+   15.1,
+   37.1,
+   40.3,
+   49.5
+  ],
+  "face_img": "https://zadarskilist.novilist.hr/wp-content/uploads/2026/10/WhatsApp-Image-2026-10-29-at-11.21.51.jpeg"
  },
  {
   "title": "Radeta pokrenuo online peticiju: Građani traže raspravu o otpadu na Diklu, u suprotnom najavljuju - prosvjed!",
@@ -810,7 +1023,13 @@
    "Zadar"
   ],
   "source_url": "https://slobodnadalmacija.hr/dalmacija/zadar",
-  "focus": 31
+  "face": [
+   10.8,
+   57.0,
+   36.3,
+   95.8
+  ],
+  "face_img": "https://static.slobodnadalmacija.hr/images/slike/2026/10/29/29501616.jpg"
  },
  {
   "title": "KRIM ISTRAGA Osumnjičen za teško ubojstvo u pokušaju",
@@ -824,7 +1043,8 @@
    "Županija"
   ],
   "source_url": "https://www.antenazadar.hr/",
-  "focus": null
+  "face": null,
+  "face_img": "https://www.antenazadar.hr/wp-content/uploads/2026/01/krim-policija-01.jpg"
  },
  {
   "title": "KAKAV ODAZIV! Na natječaj za višu stručnu suradnicu u odjel pročelnice Tihane Magaš javio se 21 kandidat!",
@@ -837,7 +1057,13 @@
    "Zadar"
   ],
   "source_url": "https://www.antenazadar.hr/",
-  "focus": 34
+  "face": [
+   21.9,
+   46.3,
+   17.1,
+   25.9
+  ],
+  "face_img": "https://www.antenazadar.hr/wp-content/uploads/2026/10/gradska-uprava-magas_01.webp"
  },
  {
   "title": "DRAMA NA BENKOVAČKOM PODRUČJU Svađa prerasla u pokušaj ubojstva, stariji muškarac alatom nasrnuo na 64-godišnjaka!",
@@ -851,7 +1077,8 @@
    "Županija"
   ],
   "source_url": "https://023.hr/",
-  "focus": null
+  "face": null,
+  "face_img": "https://023.hr/wp-content/uploads/2025/06/20250610113356_261861.webp"
  },
  {
   "title": "BENKOVAC / P. Ike Mandić od petka predvodi duhovnu obnovu za hrvatske branitelje",
@@ -865,7 +1092,13 @@
    "Županija"
   ],
   "source_url": "https://www.znet.hr/",
-  "focus": null
+  "face": [
+   90.1,
+   100.0,
+   88.9,
+   94.1
+  ],
+  "face_img": "https://www.znet.hr/wp-content/uploads/2026/10/Duhovna-obnova-za-branitelje-Plakat-1000x600.jpg"
  },
  {
   "title": "Odabrana tvrtka koja će pripremiti prometnu revoluciju na zadarskim cestama, posao vrijedan gotovo 250.000 eura",
@@ -878,7 +1111,8 @@
    "Zadar"
   ],
   "source_url": "https://zadarskilist.novilist.hr/",
-  "focus": null
+  "face": null,
+  "face_img": "https://zadarskilist.novilist.hr/wp-content/uploads/2026/10/4771246.jpg"
  },
  {
   "title": "JEZIVO OTKRIĆE KOD BENKOVCA Iz jame duboke 57 metara izvučeni ostaci 41 žrtve, ministar otkrio stravične detalje likvidacije!",
@@ -892,7 +1126,8 @@
    "Županija"
   ],
   "source_url": "https://023.hr/",
-  "focus": null
+  "face": null,
+  "face_img": "https://023.hr/wp-content/uploads/2026/10/20261029100720_820842.avif"
  },
  {
   "title": "Sukob braće kod Benkovca: 74-godišnjak osumnjičen da je alatom ozlijedio brata, obojica lakše ozlijeđena",
@@ -906,7 +1141,8 @@
    "Županija"
   ],
   "source_url": "https://slobodnadalmacija.hr/dalmacija/zadar",
-  "focus": 29
+  "face": null,
+  "face_img": "https://static.slobodnadalmacija.hr/images/slike/2026/10/29/28781038.jpg"
  },
  {
   "title": "Nakon proglašenja za najbolji Smart City, Zadar ide korak dalje; Kreće projektiranje pametnih semafora na još 27 lokacija",
@@ -919,7 +1155,8 @@
    "Zadar"
   ],
   "source_url": "https://023.hr/",
-  "focus": 41
+  "face": null,
+  "face_img": "https://023.hr/wp-content/uploads/2025/05/20250526114618_631017.webp"
  },
  {
   "title": "Priprema se opremanje Društvenog doma na Molatu i Muzeja u Velom Ižu",
@@ -933,7 +1170,8 @@
    "Otoci"
   ],
   "source_url": "https://www.grad-zadar.hr/",
-  "focus": null
+  "face": null,
+  "face_img": "https://www.grad-zadar.hr/data/images/image/grad550x325/35281/IMG_9110%255B1%255D%255B1%255D.jpeg"
  },
  {
   "title": "Zadarska djeca poslala neočekivanu poruku roditeljima: ‘Kontrolirajte nam mobitele!’",
@@ -947,7 +1185,13 @@
    "Županija"
   ],
   "source_url": "https://zadarskilist.novilist.hr/",
-  "focus": 37
+  "face": [
+   10.0,
+   43.6,
+   18.7,
+   88.6
+  ],
+  "face_img": "https://zadarskilist.novilist.hr/wp-content/uploads/2026/10/3875806.jpg"
  },
  {
   "title": "Odabrana tvrtka za opremanje dječjih vrtića Smiljevac i Crvene kuće",
@@ -960,7 +1204,8 @@
    "Zadar"
   ],
   "source_url": "https://www.grad-zadar.hr/",
-  "focus": null
+  "face": null,
+  "face_img": "https://www.grad-zadar.hr/data/images/image/grad550x325/35282/SIZ_4774.jpg"
  },
  {
   "title": "56 PREKRŠAJA Provedena akcija nadzora taksi vozila i vozača",
@@ -973,7 +1218,8 @@
    "Zadar"
   ],
   "source_url": "https://www.antenazadar.hr/",
-  "focus": null
+  "face": null,
+  "face_img": "https://www.antenazadar.hr/wp-content/uploads/2026/06/policija-presretac.jpg"
  },
  {
   "title": "Erlić o varaždinskom otpadu na Diklu: ‘Na toj temi se “jaše” cijelo vrijeme, a ne može se potvrditi da su bale došle na odlagalište’",
@@ -986,7 +1232,13 @@
    "Zadar"
   ],
   "source_url": "https://zadarskilist.novilist.hr/",
-  "focus": 36
+  "face": [
+   11.9,
+   36.5,
+   59.9,
+   69.4
+  ],
+  "face_img": "https://zadarskilist.novilist.hr/wp-content/uploads/2026/10/12420074.jpg"
  },
  {
   "title": "Lana Bedek pobjednica “Bibinje Open 2026”, Jakov Srečković najuspješniji natjecatelj",
@@ -999,7 +1251,8 @@
    "Županija"
   ],
   "source_url": "https://023.hr/",
-  "focus": null
+  "face": null,
+  "face_img": "https://023.hr/wp-content/uploads/2026/10/20261029092609_629122.avif"
  },
  {
   "title": "Zadranin se vratio nakon devet mjeseci pauze i odmah zatresao mrežu: Bivši Hajdukovac zabio u njemačkom Kupu",
@@ -1012,7 +1265,13 @@
    "Zadar"
   ],
   "source_url": "https://slobodnadalmacija.hr/dalmacija/zadar",
-  "focus": 15
+  "face": [
+   0.3,
+   28.5,
+   44.3,
+   88.6
+  ],
+  "face_img": "https://static.slobodnadalmacija.hr/images/slike/2026/10/29/10840650.jpg"
  },
  {
   "title": "Jeste li znali da zadarsko zaleđe ima svoj Grand Canyon? Jedinstven prizor krije se nadomak Zadra",
@@ -1026,7 +1285,8 @@
    "Županija"
   ],
   "source_url": "https://slobodnadalmacija.hr/dalmacija/zadar",
-  "focus": null
+  "face": null,
+  "face_img": "https://static.slobodnadalmacija.hr/images/slike/2026/10/29/32751680.jpg"
  },
  {
   "title": "Duhovna obnova za hrvatske branitelje u Benkovcu; Trodnevni susret predvodi p. Ike Mandurić",
@@ -1039,7 +1299,14 @@
    "Zadar",
    "Županija"
   ],
-  "source_url": "https://023.hr/"
+  "source_url": "https://023.hr/",
+  "face": [
+   0.0,
+   42.2,
+   50.6,
+   72.7
+  ],
+  "face_img": "https://023.hr/wp-content/uploads/2025/07/20250731095808_623392.webp"
  },
  {
   "title": "Počinje velika rekonstrukcija i dogradnja OŠ Biograd na Moru vrijedna 13,16 milijuna eura!",
@@ -1052,7 +1319,9 @@
    "Zadar",
    "Županija"
   ],
-  "source_url": "https://023.hr/"
+  "source_url": "https://023.hr/",
+  "face": null,
+  "face_img": "https://023.hr/wp-content/uploads/2025/06/20250612082447_992720.webp"
  },
  {
   "title": "Na otoku liječnik nikad nije sasvim slobodan: ‘Naš radni dan ne završava zatvaranjem ordinacije’",
@@ -1065,7 +1334,14 @@
    "Zadar",
    "Otoci"
   ],
-  "source_url": "https://zadarskilist.novilist.hr/"
+  "source_url": "https://zadarskilist.novilist.hr/",
+  "face": [
+   23.1,
+   67.3,
+   65.2,
+   82.7
+  ],
+  "face_img": "https://zadarskilist.novilist.hr/wp-content/uploads/2026/10/Harbour-Rescue-with-Portrait-Inset.png"
  },
  {
   "title": "Svaki dan novi jelovnici i cijene: zadarski restorani se na Marendu 023.hr mogu uključiti besplatno, a do 30. studenoga dobivaju i više",
@@ -1077,7 +1353,9 @@
   "topics": [
    "Zadar"
   ],
-  "source_url": "https://023.hr/"
+  "source_url": "https://023.hr/",
+  "face": null,
+  "face_img": "https://023.hr/wp-content/uploads/2025/12/20251209072945_779015.webp"
  },
  {
   "title": "“DVIJE DJEVOJČICE” Edukacija srednjoškolaca o problematici trgovanja ljudima",
@@ -1090,7 +1368,8 @@
    "Zadar"
   ],
   "source_url": "https://www.antenazadar.hr/",
-  "focus": null
+  "face": null,
+  "face_img": "https://www.antenazadar.hr/wp-content/uploads/2026/10/trgovanje2.jpg"
  },
  {
   "title": "Zadrani, iskoristite priliku! Opća bolnica Zadar omogućit će 40 pretraga za građane, evo kako se prijaviti",
@@ -1102,7 +1381,9 @@
   "topics": [
    "Zadar"
   ],
-  "source_url": "https://zadarskilist.novilist.hr/"
+  "source_url": "https://zadarskilist.novilist.hr/",
+  "face": null,
+  "face_img": "https://zadarskilist.novilist.hr/wp-content/uploads/2024/04/8752403.jpg"
  },
  {
   "title": "CATALEYA CUP 2026. Najveće izdanje dosad okupilo čak 132 ekipe i 2100 mladih nogometaša",
@@ -1117,7 +1398,8 @@
    "Sport"
   ],
   "source_url": "https://sport023.hr/",
-  "focus": null
+  "face": null,
+  "face_img": "https://sport023.hr/wp-content/uploads/2026/10/cataleya-cup-2026.jpg"
  },
  {
   "title": "Odabran projektant druge faze ITS-a: priprema proširenja sustava za protočniji promet u Zadru",
@@ -1130,7 +1412,8 @@
    "Zadar"
   ],
   "source_url": "https://www.grad-zadar.hr/",
-  "focus": null
+  "face": null,
+  "face_img": "https://www.grad-zadar.hr/data/images/image/grad550x325/35275/IMG-20260921-WA0002%255B1%255D.jpg"
  },
  {
   "title": "Jedrenje budućnosti u Zadarskom kanalu: Foil Fight Croatia ponovno u Zadru",
@@ -1145,7 +1428,13 @@
    "Sport"
   ],
   "source_url": "https://sport023.hr/",
-  "focus": null
+  "face": [
+   9.4,
+   27.7,
+   28.1,
+   38.4
+  ],
+  "face_img": "https://sport023.hr/wp-content/uploads/2026/10/Foil-Fight.jpg"
  },
  {
   "title": "CENTAR ZA MLADE Zgradu obnovljenu za nekoliko milijuna eura iznenadila je – poplava?!",
@@ -1157,7 +1446,9 @@
   "topics": [
    "Zadar"
   ],
-  "source_url": "https://zadarskilist.novilist.hr/"
+  "source_url": "https://zadarskilist.novilist.hr/",
+  "face": null,
+  "face_img": "https://zadarskilist.novilist.hr/wp-content/uploads/2026/10/11772165.jpg"
  },
  {
   "title": "Na Jadranu sunčano uz umjerenu buru",
@@ -1169,7 +1460,9 @@
   "topics": [
    "Zadar"
   ],
-  "source_url": "https://zadarskilist.novilist.hr/"
+  "source_url": "https://zadarskilist.novilist.hr/",
+  "face": null,
+  "face_img": "https://zadarskilist.novilist.hr/wp-content/uploads/2024/03/9220366.jpg"
  },
  {
   "title": "NOVI SKANDAL U ZAVODU ZA HITNU Nepokretni pacijent ostao bez sanitetskog prijevoza!",
@@ -1182,7 +1475,14 @@
    "Zadar",
    "Županija"
   ],
-  "source_url": "https://zadarskilist.novilist.hr/"
+  "source_url": "https://zadarskilist.novilist.hr/",
+  "face": [
+   15.0,
+   32.6,
+   21.1,
+   27.9
+  ],
+  "face_img": "https://zadarskilist.novilist.hr/wp-content/uploads/2026/10/Dizajn-bez-naslova-4-1.png"
  },
  {
   "title": "Vjetar zatvorio A1 za kamione i autobuse, Paški most i Masleničku cestu prolaze samo osobni automobili",
@@ -1196,7 +1496,9 @@
    "Županija",
    "Otoci"
   ],
-  "source_url": "https://023.hr/"
+  "source_url": "https://023.hr/",
+  "face": null,
+  "face_img": "https://023.hr/wp-content/uploads/2024/01/bura-autocesta-a1.jpg"
  },
  {
   "title": "Drama na Višnjiku: Zadar 1952 u završnici slavio protiv POŠK-a 1937",
@@ -1211,7 +1513,8 @@
    "Sport"
   ],
   "source_url": "https://sport023.hr/",
-  "focus": 30
+  "face": null,
+  "face_img": "https://sport023.hr/wp-content/uploads/2026/06/toni-galusic-vk-zadar-25.jpg"
  },
  {
   "title": "Opća bolnica Zadar za Europski dan laboratorijske medicine nudi pretrage za 40 građana i razgovor s biokemičarom",
@@ -1223,7 +1526,9 @@
   "topics": [
    "Zadar"
   ],
-  "source_url": "https://023.hr/"
+  "source_url": "https://023.hr/",
+  "face": null,
+  "face_img": "https://023.hr/wp-content/uploads/2026/10/20261029065648_996930.avif"
  },
  {
   "title": "UOČI GRADSKOG VIJEĆA Žuvela od HDZ-a tražio da mu omoguće podnošenje izvješća o – primanju stranaka",
@@ -1235,7 +1540,14 @@
   "topics": [
    "Zadar"
   ],
-  "source_url": "https://www.antenazadar.hr/"
+  "source_url": "https://www.antenazadar.hr/",
+  "face": [
+   15.0,
+   72.8,
+   31.9,
+   54.9
+  ],
+  "face_img": "https://www.antenazadar.hr/wp-content/uploads/2026/03/GV_27_03_2026-012-scaled.jpg"
  },
  {
   "title": "Za Sve svete pad na 13 stupnjeva, a Dušni dan donosi kišu i najhladnija jutra ove jeseni",
@@ -1249,7 +1561,14 @@
    "Županija",
    "Otoci"
   ],
-  "source_url": "https://023.hr/"
+  "source_url": "https://023.hr/",
+  "face": [
+   24.6,
+   34.5,
+   12.7,
+   66.1
+  ],
+  "face_img": "https://023.hr/wp-content/uploads/2024/03/2024-03-20_06-52-43_219706-scaled.webp"
  },
  {
   "title": "Zadarska policija upozorila učenike: Primamljive ponude za posao mogu skrivati opasnost",
@@ -1258,7 +1577,9 @@
   "summary": "Povodom obilježavanja Europskog dana borbe protiv trgovanja ljudima koji se obilježava u listopadu, policijski službenici za prevenciju Ureda načelnika Policijske uprave zadarske održali su edukativna predavanja učenicima završnih razreda Prirodoslovno grafičke škole u Zadru.",
   "image": "https://zadarskilist.novilist.hr/wp-content/uploads/2026/10/ipiccy_image-31.jpg",
   "source": "Zadarski list",
-  "source_url": "https://zadarskilist.novilist.hr/"
+  "source_url": "https://zadarskilist.novilist.hr/",
+  "face": null,
+  "face_img": "https://zadarskilist.novilist.hr/wp-content/uploads/2026/10/ipiccy_image-31.jpg"
  },
  {
   "title": "Čarobna subota za djecu: U Murvici kofer dobrih djela, a u Privlaci svjetionik prijateljstva",
@@ -1267,7 +1588,9 @@
   "summary": "ANA – udruga za pomoć djeci i obiteljima nastavlja s aktivnostima za djecu na području Zadarske županije. U subotu, 31. listopada 2026. godine, u Murvici će biti održana radionica za djecu pod nazivom “Čarobni kofer dobrih djela”.",
   "image": "https://zadarskilist.novilist.hr/wp-content/uploads/2026/10/10725977.jpg",
   "source": "Zadarski list",
-  "source_url": "https://zadarskilist.novilist.hr/"
+  "source_url": "https://zadarskilist.novilist.hr/",
+  "face": null,
+  "face_img": "https://zadarskilist.novilist.hr/wp-content/uploads/2026/10/10725977.jpg"
  },
  {
   "title": "Silovatelje maloljetnice pustio na slobodu pa 25 puta tužio medije jer mu nanose štetu i bol. Ustavni sud sada ga odbio",
@@ -1280,7 +1603,13 @@
    "Zadar"
   ],
   "source_url": "https://slobodnadalmacija.hr/dalmacija/zadar",
-  "focus": null
+  "face": [
+   5.0,
+   43.8,
+   15.8,
+   30.1
+  ],
+  "face_img": "https://static.slobodnadalmacija.hr/images/slike/2026/10/27/32751032.jpg"
  },
  {
   "title": "PRIJAVITE SE! / Laboratorij OB Zadar poziva građane da se prijave za laboratorijske pretrage prema vlastitom izboru",
@@ -1293,7 +1622,8 @@
    "Zadar"
   ],
   "source_url": "https://www.znet.hr/",
-  "focus": null
+  "face": null,
+  "face_img": "https://www.bolnica-zadar.hr/wp-content/uploads/2026/10/lab-day-scaled.png"
  },
  {
   "title": "IZ VODOVODA: U četvrtak bez vode dio Zemunika i četiri ulice u Zadru!",
@@ -1307,7 +1637,8 @@
    "Županija"
   ],
   "source_url": "https://www.znet.hr/",
-  "focus": null
+  "face": null,
+  "face_img": "https://www.znet.hr/wp-content/uploads/2022/05/drainage-pipes-g2e79206cc_1920-1000x600.jpg"
  },
  {
   "title": "Ravnice dobivaju uređeno parkiralište s gotovo 400 mjesta: odabran izvođač radova",
@@ -1321,7 +1652,8 @@
    "Županija"
   ],
   "source_url": "https://www.znet.hr/",
-  "focus": null
+  "face": null,
+  "face_img": "https://www.znet.hr/wp-content/uploads/2026/10/SIZ_9620.jpg"
  },
  {
   "title": "BESPLATNE PRETRAGE I SAVJETOVANJE Opća bolnica Zadar obilježava Europski dan laboratorijske medicine",
@@ -1333,7 +1665,14 @@
   "topics": [
    "Zadar"
   ],
-  "source_url": "https://www.antenazadar.hr/"
+  "source_url": "https://www.antenazadar.hr/",
+  "face": [
+   31.2,
+   65.6,
+   35.0,
+   57.6
+  ],
+  "face_img": "https://www.antenazadar.hr/wp-content/uploads/2026/10/lab-day-9-860x484-1.jpg"
  },
  {
   "title": "RASPORED I NAJAVE Nadbiskup Zgrablić predvodi misna slavlja za Svete svete i predvodi hodočasnike u Šibenik",
@@ -1346,7 +1685,9 @@
    "Zadar",
    "Županija"
   ],
-  "source_url": "https://www.antenazadar.hr/"
+  "source_url": "https://www.antenazadar.hr/",
+  "face": null,
+  "face_img": "https://www.antenazadar.hr/wp-content/uploads/2024/08/katedrala-sv-stosija-FOTO-Linda-Vidovic-2-scaled.jpg"
  },
  {
   "title": "Morske jurilice ponovno u Zadru; Sve je spremno za drugo izdanje atraktivnog Foil Fight Croatia!",
@@ -1359,7 +1700,9 @@
    "Zadar",
    "Sport"
   ],
-  "source_url": "https://023.hr/"
+  "source_url": "https://023.hr/",
+  "face": null,
+  "face_img": "https://023.hr/wp-content/uploads/2026/10/20261028123954_305361.avif"
  },
  {
   "title": "PRVI PUT U HRVATSKOJ Svjetski stručnjaci u Zadru raspravljaju o očuvanju podvodne kulturne baštine",
@@ -1371,7 +1714,14 @@
   "topics": [
    "Zadar"
   ],
-  "source_url": "https://www.antenazadar.hr/"
+  "source_url": "https://www.antenazadar.hr/",
+  "face": [
+   58.4,
+   64.3,
+   7.0,
+   19.2
+  ],
+  "face_img": "https://www.antenazadar.hr/wp-content/uploads/2026/10/arheologija-28-10-8.jpg"
  },
  {
   "title": "BIBINJE Pogledajte program ovogodišnje Tunjade i Lignjade",
@@ -1384,7 +1734,9 @@
    "Zadar",
    "Županija"
   ],
-  "source_url": "https://www.antenazadar.hr/"
+  "source_url": "https://www.antenazadar.hr/",
+  "face": null,
+  "face_img": "https://www.antenazadar.hr/wp-content/uploads/2026/10/860817913_10165165534830342_1275567267692540439_n-1.jpg"
  },
  {
   "title": "Novi zaplet oko vojnih brodova: Država tuži Tomislava Debeljaka",
@@ -1397,7 +1749,13 @@
    "Županija"
   ],
   "source_url": "https://dnevnik.hr/",
-  "focus": 21
+  "face": [
+   16.4,
+   41.9,
+   29.8,
+   73.4
+  ],
+  "face_img": "https://image.dnevnik.hr/media/images/1920x1080/Oct2026/63425269-tomislav-debeljak-i-ivan-anusic.jpg"
  },
  {
   "title": "Arheološka senzacija u srcu Zadra? Pod parkingom kod sv. Marije traže se antički teatar i rimski bedem",
@@ -1406,7 +1764,9 @@
   "summary": "Arheološkom muzeju Zadar Grad Zadar je dao suglasnost za provedbu istraživanja na javnom parkiralištu uz crkvu sv. Marije, na Trgu opatice Čike. Istraživanja bi trebala otkriti više o ostacima građevina pod današnjom površinom parkirališta i pomoći u razumijevanju razvoja tog dijela povijesne jezgre.",
   "image": "https://023.hr/wp-content/uploads/2025/04/20250415095743_135400.webp",
   "source": "023 portal",
-  "source_url": "https://023.hr/"
+  "source_url": "https://023.hr/",
+  "face": null,
+  "face_img": "https://023.hr/wp-content/uploads/2025/04/20250415095743_135400.webp"
  },
  {
   "title": "VODOVOD Sutra bez vode dijelovi Zadra i Donjeg Zemunika",
@@ -1415,7 +1775,9 @@
   "summary": "Zbog planiranih građevinskih radova i radova na vodoopskrbnom sustavu, u četvrtak, 29. listopada 2026. godine, privremeno će biti obustavljena opskrba vodom u dijelovima Zadra te u mjestu Donji Zemunik. Potrošači se mole za razumijevanje, a u nastavku donosimo detaljan raspored i popis ulica koje će ostati bez vode.",
   "image": "https://www.antenazadar.hr/wp-content/uploads/2024/09/ilustacija-FOTO-Linda-Vidovic-17-9-2.jpg",
   "source": "Antena Zadar",
-  "source_url": "https://www.antenazadar.hr/"
+  "source_url": "https://www.antenazadar.hr/",
+  "face": null,
+  "face_img": "https://www.antenazadar.hr/wp-content/uploads/2024/09/ilustacija-FOTO-Linda-Vidovic-17-9-2.jpg"
  },
  {
   "title": "Stipe Modrić o ABA ligi, pojačanjima i mladima: „Od svakog igrača očekujemo više”",
@@ -1430,7 +1792,13 @@
    "Sport"
   ],
   "source_url": "https://sport023.hr/",
-  "focus": 16
+  "face": [
+   4.8,
+   28.4,
+   1.1,
+   59.5
+  ],
+  "face_img": "https://sport023.hr/wp-content/uploads/2026/10/toni-dijan-stipe-modric-kk-zadar-mega-11-10-26.jpg"
  },
  {
   "title": "Aurora Valčić iz Preka pobijedila na manifestaciji „Mali koreograf 2026.”",
@@ -1445,7 +1813,8 @@
    "Otoci"
   ],
   "source_url": "https://www.nasiskolji.hr/",
-  "focus": 27
+  "face": null,
+  "face_img": "https://www.nasiskolji.hr/wp-content/uploads/2026/10/aurora-6.jpeg"
  },
  {
   "title": "Ravnice dobivaju uređeno parkiralište s gotovo 400 mjesta: odabran izvođač radova",
@@ -1458,7 +1827,8 @@
    "Zadar"
   ],
   "source_url": "https://www.grad-zadar.hr/",
-  "focus": null
+  "face": null,
+  "face_img": "https://www.grad-zadar.hr/data/images/image/grad550x325/35269/SIZ_9585.jpg"
  },
  {
   "title": "KK SUKOŠAN NE ODUSTAJE: Deset mjeseci bez koša u dvorani, ali s još većom željom za košarkom!",
@@ -1473,7 +1843,8 @@
    "Sport"
   ],
   "source_url": "https://sport023.hr/",
-  "focus": 78
+  "face": null,
+  "face_img": "https://sport023.hr/wp-content/uploads/2026/10/FB_IMG_1793131195649.jpg"
  },
  {
   "title": "1. ŽNL Abeceda ostala na vrhu, prate ju u stopu Škabrnja i Raštane, prva pobjeda Zemunika",
@@ -1488,7 +1859,13 @@
    "Sport"
   ],
   "source_url": "https://sport023.hr/",
-  "focus": 46
+  "face": [
+   15.6,
+   64.3,
+   14.0,
+   85.4
+  ],
+  "face_img": "https://sport023.hr/wp-content/uploads/2026/10/nsk-zemunik-polaca-10-2026.jpg"
  },
  {
   "title": "ANTE DONĐIVIĆ: “POŠK je ozbiljan suparnik, ali na Višnjiku želimo nova tri boda”",
@@ -1503,7 +1880,13 @@
    "Sport"
   ],
   "source_url": "https://sport023.hr/",
-  "focus": 72
+  "face": [
+   52.5,
+   78.0,
+   4.7,
+   50.8
+  ],
+  "face_img": "https://sport023.hr/wp-content/uploads/2025/11/ante-sime-e1793124616741.jpg"
  },
  {
   "title": "Održan Kolegij gradonačelnika: ulaganja u igrališta na Sinjoretovu i Puntamici te arheološka istraživanja uz crkvu sv. Marije",
@@ -1516,7 +1899,13 @@
    "Zadar"
   ],
   "source_url": "https://www.grad-zadar.hr/",
-  "focus": null
+  "face": [
+   35.1,
+   44.8,
+   33.5,
+   61.9
+  ],
+  "face_img": "https://www.grad-zadar.hr/data/images/image/grad550x325/35261/SIZ_9299.jpg"
  },
  {
   "title": "Zadarska županija povećala sredstva za sport za više od 300 tisuća eura!",
@@ -1532,7 +1921,13 @@
    "Sport"
   ],
   "source_url": "https://sport023.hr/",
-  "focus": null
+  "face": [
+   32.7,
+   40.9,
+   9.0,
+   11.1
+  ],
+  "face_img": "https://sport023.hr/wp-content/uploads/2026/10/SZZZ-1-scaled-e1793098723673.jpeg"
  },
  {
   "title": "OD ZADRA DO SVJETSKOG PRVENSTVA: Sportski put Ivice Žagara!",
@@ -1547,7 +1942,13 @@
    "Sport"
   ],
   "source_url": "https://sport023.hr/",
-  "focus": null
+  "face": [
+   8.2,
+   31.9,
+   45.2,
+   52.0
+  ],
+  "face_img": "https://sport023.hr/wp-content/uploads/2021/03/ivica-zagar-kkoi-e1709405151749.jpg"
  },
  {
   "title": "Od rata u Ukrajini pobjegli u Zadar, iako su daleko od domovine, svoju zemlju predstavljaju u svijetu: ‘Volim kad letim‘",
@@ -1560,7 +1961,13 @@
    "Zadar"
   ],
   "source_url": "https://slobodnadalmacija.hr/dalmacija/zadar",
-  "focus": null
+  "face": [
+   56.0,
+   64.2,
+   16.4,
+   19.5
+  ],
+  "face_img": "https://static.slobodnadalmacija.hr/images/slike/2026/10/27/32744641.png"
  },
  {
   "title": "FUTSAL LIGA ZADAR Kontrol usamljen na vrhu, Varoš ZDC bolja u derbiju od Višnjika!",
@@ -1575,7 +1982,13 @@
    "Sport"
   ],
   "source_url": "https://sport023.hr/",
-  "focus": 39
+  "face": [
+   21.7,
+   33.7,
+   20.7,
+   50.1
+  ],
+  "face_img": "https://sport023.hr/wp-content/uploads/2024/01/zanki-e1704703436930.jpg"
  },
  {
   "title": "Priznanja za 56 darivatelja i gotovo tri tisuće darivanja krvi",
@@ -1591,7 +2004,8 @@
    "Otoci"
   ],
   "source_url": "https://www.nasiskolji.hr/",
-  "focus": 38
+  "face": null,
+  "face_img": "https://www.nasiskolji.hr/wp-content/uploads/2026/10/3A0A9205-1-scaled.jpg"
  },
  {
   "title": "Zadrani se danima opraštaju od omiljene sestre Melhiore. Padaju i zagrljaji i osmijesi i suze. Priča je topla i dirljiva",
@@ -1604,7 +2018,13 @@
    "Zadar"
   ],
   "source_url": "https://slobodnadalmacija.hr/dalmacija/zadar",
-  "focus": 37
+  "face": [
+   0.9,
+   75.1,
+   7.7,
+   68.9
+  ],
+  "face_img": "https://static.slobodnadalmacija.hr/images/slike/2026/10/26/32741207.jpg"
  },
  {
   "title": "Vlasnik BMW-a optužio zadarsku pauk službu: ‘Oštetili ste mi auto, nakrivio se!‘; Slučaj se ovako raspleo",
@@ -1617,7 +2037,13 @@
    "Zadar"
   ],
   "source_url": "https://slobodnadalmacija.hr/dalmacija/zadar",
-  "focus": 39
+  "face": [
+   34.6,
+   42.9,
+   4.6,
+   7.3
+  ],
+  "face_img": "https://static.slobodnadalmacija.hr/images/slike/2026/10/26/32740587.jpg"
  },
  {
   "title": "ModernA okuplja poznata modna imena i otvara temu mentalnog zdravlja",
@@ -1630,7 +2056,13 @@
    "Zadar"
   ],
   "source_url": "https://slobodnadalmacija.hr/dalmacija/zadar",
-  "focus": 26
+  "face": [
+   18.4,
+   32.5,
+   48.3,
+   53.6
+  ],
+  "face_img": "https://static.slobodnadalmacija.hr/images/slike/2026/10/26/32740833.jpg"
  },
  {
   "title": "Općini Preko odobreno postavljanje semafora na tipkalo kod škole u Lukoranu",
@@ -1645,7 +2077,8 @@
    "Otoci"
   ],
   "source_url": "https://www.nasiskolji.hr/",
-  "focus": 41
+  "face": null,
+  "face_img": "https://www.nasiskolji.hr/wp-content/uploads/2026/10/georgi-zvezdov-Q0-PykZb99o-unsplash-1600x1061-1.jpg"
  },
  {
   "title": "Svjetsko prvenstvo u podvodnom ribolovu 2029. održat će se u Ždrelcu na Pašmanu",
@@ -1660,7 +2093,13 @@
    "Otoci"
   ],
   "source_url": "https://slobodnadalmacija.hr/dalmacija/zadar",
-  "focus": 40
+  "face": [
+   32.1,
+   53.4,
+   7.3,
+   87.7
+  ],
+  "face_img": "https://static.slobodnadalmacija.hr/images/slike/2026/10/22/32711217.jpg"
  },
  {
   "title": "NP Krka izgubio spor protiv Vodotornja, mora platiti i 12.500 eura sudskih troškova",
@@ -1673,7 +2112,13 @@
    "Zadar"
   ],
   "source_url": "https://slobodnadalmacija.hr/dalmacija/zadar",
-  "focus": 44
+  "face": [
+   53.8,
+   71.0,
+   82.1,
+   88.7
+  ],
+  "face_img": "https://static.slobodnadalmacija.hr/images/slike/2026/10/22/30209256.jpg"
  },
  {
   "title": "Zadar bi podstanarima plaćao do 40 posto najamnine! O novoj mjeri uskoro odlučuje Gradsko vijeće, evo koji su uvjeti",
@@ -1686,7 +2131,8 @@
    "Zadar"
   ],
   "source_url": "https://slobodnadalmacija.hr/dalmacija/zadar",
-  "focus": null
+  "face": null,
+  "face_img": "https://static.slobodnadalmacija.hr/images/slike/2026/10/26/32705024.jpg"
  },
  {
   "title": "Prodaje se sedam grobnica na Gradskom groblju Zadar: ovo su početne cijene, svemu je prethodio složen postupak",
@@ -1699,7 +2145,8 @@
    "Zadar"
   ],
   "source_url": "https://slobodnadalmacija.hr/dalmacija/zadar",
-  "focus": null
+  "face": null,
+  "face_img": "https://static.slobodnadalmacija.hr/images/slike/2026/10/26/32740068.jpg"
  },
  {
   "title": "Crkva sv. Kuzme i Damjana u Guduću upisana u Registar kulturnih dobara RH",
@@ -1713,7 +2160,8 @@
    "Otoci"
   ],
   "source_url": "https://www.nasiskolji.hr/",
-  "focus": null
+  "face": null,
+  "face_img": "https://www.nasiskolji.hr/wp-content/uploads/2026/10/crkva-sv-kuzme-i-damjana-scaled.jpg"
  },
  {
   "title": "Golijada na županijskim travnjacima! Bibinje zabilo šest, Dalmatinac i Podgradina po osam, Abeceda preuzela vrh",
@@ -1727,7 +2175,13 @@
    "Županija"
   ],
   "source_url": "https://slobodnadalmacija.hr/dalmacija/zadar",
-  "focus": 29
+  "face": [
+   13.8,
+   32.8,
+   16.3,
+   57.0
+  ],
+  "face_img": "https://static.slobodnadalmacija.hr/images/slike/2026/10/26/30505113.jpg"
  },
  {
   "title": "Zadarski vaterpolisti deklasirali Nijemce i izborili prolazak u sljedeću fazu Konferencijskog kupa",
@@ -1741,7 +2195,13 @@
    "Sport"
   ],
   "source_url": "https://slobodnadalmacija.hr/dalmacija/zadar",
-  "focus": 37
+  "face": [
+   31.5,
+   80.8,
+   7.1,
+   93.9
+  ],
+  "face_img": "https://static.slobodnadalmacija.hr/images/slike/2026/10/26/31124695.jpg"
  },
  {
   "title": "Jazine nastavile pobjednički niz, Puntamika pokleknula uz čak 19 pogođenih trica protivničke momčadi",
@@ -1754,7 +2214,13 @@
    "Zadar"
   ],
   "source_url": "https://slobodnadalmacija.hr/dalmacija/zadar",
-  "focus": 34
+  "face": [
+   25.3,
+   37.7,
+   14.5,
+   76.3
+  ],
+  "face_img": "https://static.slobodnadalmacija.hr/images/slike/2026/10/26/32711069.jpg"
  },
  {
   "title": "Pokrenut novi program kreditiranja poljoprivrednika: krediti do 200 tisuća eura uz subvenciju kamatne stope do 2,5 postotnih bodova",
@@ -1768,7 +2234,13 @@
    "Županija"
   ],
   "source_url": "https://slobodnadalmacija.hr/dalmacija/zadar",
-  "focus": 49
+  "face": [
+   8.0,
+   40.6,
+   27.1,
+   81.6
+  ],
+  "face_img": "https://static.slobodnadalmacija.hr/images/slike/2026/10/23/32716428.jpg"
  },
  {
   "title": "Zadar od početka nametnuo ritam, slomio Iliriju i upisao važnu pobjedu uoči paklenog rasporeda",
@@ -1781,7 +2253,13 @@
    "Zadar"
   ],
   "source_url": "https://slobodnadalmacija.hr/dalmacija/zadar",
-  "focus": 36
+  "face": [
+   0.0,
+   71.6,
+   14.5,
+   94.2
+  ],
+  "face_img": "https://static.slobodnadalmacija.hr/images/slike/2026/10/25/32719536.jpg"
  },
  {
   "title": "Izvrsnim drugim poluvremenom Zadar slomio Iliriju i slavio s 25 poena razlike",
@@ -1796,7 +2274,13 @@
    "Sport"
   ],
   "source_url": "https://kkzadar.hr/novosti/",
-  "focus": 29
+  "face": [
+   0.8,
+   28.8,
+   29.7,
+   96.9
+  ],
+  "face_img": "https://kkzadar.hr/wp-content/uploads/2026/10/kk-zadar-kk-ilirija_251026-11-dreznjak.jpg"
  },
  {
   "title": "Kadeti Zadra uvjerljivi protiv Solina, Kolega najbolji strijelac",
@@ -1811,7 +2295,13 @@
    "Sport"
   ],
   "source_url": "https://kkzadar.hr/novosti/",
-  "focus": null
+  "face": [
+   40.4,
+   45.9,
+   93.2,
+   94.8
+  ],
+  "face_img": "https://kkzadar.hr/wp-content/uploads/2026/10/kadeti2.jpg"
  },
  {
   "title": "Obnovljen obalni pojas od Rta Vrulje do Duboke drage, evo kako izgleda virski prsten u novom izdanju",
@@ -1825,7 +2315,8 @@
    "Županija"
   ],
   "source_url": "https://slobodnadalmacija.hr/dalmacija/zadar",
-  "focus": null
+  "face": null,
+  "face_img": "https://static.slobodnadalmacija.hr/images/slike/2026/10/25/32731674.jpg"
  },
  {
   "title": "Ivica Masar, Dragan Zjalić i Bernard Baraka osvojili 10. Crnilo kup",
@@ -1839,7 +2330,8 @@
    "Otoci"
   ],
   "source_url": "https://www.nasiskolji.hr/",
-  "focus": 24
+  "face": null,
+  "face_img": "https://www.nasiskolji.hr/wp-content/uploads/2026/10/1.jpg"
  },
  {
   "title": "Teška nesreća u Zadru! Maloljetnica bez kacige pala s prejakog električnog romobila, završila u bolnici",
@@ -1852,7 +2344,13 @@
    "Zadar"
   ],
   "source_url": "https://slobodnadalmacija.hr/dalmacija/zadar",
-  "focus": 49
+  "face": [
+   8.7,
+   16.8,
+   72.7,
+   76.5
+  ],
+  "face_img": "https://static.slobodnadalmacija.hr/images/slike/2026/10/25/32271812.jpg"
  },
  {
   "title": "Boćari Debeljaka u Super ligi u krcatoj boćarskoj dvorani u Zemuniku Donjem deklasirali Sveti Jakov iz Jadranova",
@@ -1866,7 +2364,13 @@
    "Županija"
   ],
   "source_url": "https://slobodnadalmacija.hr/dalmacija/zadar",
-  "focus": 29
+  "face": [
+   10.2,
+   28.6,
+   5.1,
+   76.8
+  ],
+  "face_img": "https://static.slobodnadalmacija.hr/images/slike/2026/10/25/32731089.jpg"
  },
  {
   "title": "Zadar razbio HV Posedarje u županijskom derbiju! Santini načeo goste, Jurić briljirao na Višnjiku",
@@ -1881,7 +2385,13 @@
    "Otoci"
   ],
   "source_url": "https://slobodnadalmacija.hr/dalmacija/zadar",
-  "focus": 20
+  "face": [
+   8.2,
+   32.3,
+   36.0,
+   94.3
+  ],
+  "face_img": "https://static.slobodnadalmacija.hr/images/slike/2026/10/25/30505110.jpg"
  },
  {
   "title": "Detalji tragedije na A1 kod Rovanjske: Autom probio zaštitnu ogradu i sletio niz strminu, poginuo 77-godišnjak",
@@ -1895,7 +2405,8 @@
    "Županija"
   ],
   "source_url": "https://slobodnadalmacija.hr/dalmacija/zadar",
-  "focus": 13
+  "face": null,
+  "face_img": "https://static.slobodnadalmacija.hr/images/slike/2026/10/25/30285122.jpg"
  },
  {
   "title": "Pred Zadrom je najvažnija utakmica do kraja godine, a Modrić nakon Dinama nije bio zadovoljan angažmanom pojedinaca",
@@ -1908,7 +2419,13 @@
    "Zadar"
   ],
   "source_url": "https://slobodnadalmacija.hr/dalmacija/zadar",
-  "focus": 36
+  "face": [
+   0.0,
+   71.6,
+   14.5,
+   94.2
+  ],
+  "face_img": "https://static.slobodnadalmacija.hr/images/slike/2026/10/24/32719536.jpg"
  },
  {
   "title": "Zadarski pretkadeti pobijedili Šibenčane rezultatom 88:32",
@@ -1924,7 +2441,8 @@
    "Sport"
   ],
   "source_url": "https://kkzadar.hr/novosti/",
-  "focus": null
+  "face": null,
+  "face_img": "https://kkzadar.hr/wp-content/uploads/2026/10/predkadeti2.jpg"
  },
  {
   "title": "Jazine Arbanasi na pogon zadarskih juniora do treće pobjede u Prvoj muškoj ligi",
@@ -1939,7 +2457,13 @@
    "Sport"
   ],
   "source_url": "https://kkzadar.hr/novosti/",
-  "focus": 33
+  "face": [
+   20.8,
+   44.7,
+   4.2,
+   51.3
+  ],
+  "face_img": "https://kkzadar.hr/wp-content/uploads/2026/05/jun-jerak.jpg"
  },
  {
   "title": "Teška prometna nesreća pored Masleničkog mosta. Šesteročlana obitelj sletjela s ceste, jedna osoba preminula",
@@ -1953,7 +2477,8 @@
    "Županija"
   ],
   "source_url": "https://slobodnadalmacija.hr/dalmacija/zadar",
-  "focus": null
+  "face": null,
+  "face_img": "https://static.slobodnadalmacija.hr/images/slike/2026/10/24/32274483.jpg"
  },
  {
   "title": "Modrić protiv „svojih“: Zadar traži drugu pobjedu u AdmiralBet ABA ligi",
@@ -1968,7 +2493,13 @@
    "Sport"
   ],
   "source_url": "https://kkzadar.hr/novosti/",
-  "focus": 17
+  "face": [
+   2.9,
+   29.1,
+   15.6,
+   80.5
+  ],
+  "face_img": "https://kkzadar.hr/wp-content/uploads/2026/10/kk-zadar-kk-dinamo_231026-12-modric-dijan.jpg"
  },
  {
   "title": "Tragedija na A1 kod Rovanjske! Jedan muškarac poginuo, petero ljudi završilo u zadarskoj bolnici",
@@ -1982,7 +2513,8 @@
    "Županija"
   ],
   "source_url": "https://slobodnadalmacija.hr/dalmacija/zadar",
-  "focus": null
+  "face": null,
+  "face_img": "https://static.slobodnadalmacija.hr/images/slike/2026/10/24/32655216.jpg"
  },
  {
   "title": "Teška nesreća na A1 kod Rovanjske: jedna osoba poginula, petero prevezeno u zadarsku bolnicu",
@@ -1996,7 +2528,8 @@
    "Županija"
   ],
   "source_url": "https://slobodnadalmacija.hr/dalmacija/zadar",
-  "focus": null
+  "face": null,
+  "face_img": "https://static.slobodnadalmacija.hr/images/slike/2026/10/24/22565194.jpg"
  },
  {
   "title": "Godinama je propadao na rubu Paga, a sada je spašen! Tajanstveni sunčani sat krije priču koja seže u 19. stoljeće",
@@ -2011,7 +2544,8 @@
    "Otoci"
   ],
   "source_url": "https://slobodnadalmacija.hr/dalmacija/zadar",
-  "focus": null
+  "face": null,
+  "face_img": "https://static.slobodnadalmacija.hr/images/slike/2026/10/24/32722862.jpg"
  },
  {
   "title": "Drama u Petrčanima: vozač (73) oduzeo prednost motociklistu (26), mladić teško ozlijeđen završio u bolnici",
@@ -2024,7 +2558,8 @@
    "Zadar"
   ],
   "source_url": "https://slobodnadalmacija.hr/dalmacija/zadar",
-  "focus": null
+  "face": null,
+  "face_img": "https://static.slobodnadalmacija.hr/images/slike/2026/10/24/31473858.jpg"
  },
  {
   "title": "Policija na Pagu zaustavila 45-godišnjaka, papreno ga kaznila i zabranila mu vožnju na dva mjeseca",
@@ -2038,7 +2573,8 @@
    "Otoci"
   ],
   "source_url": "https://slobodnadalmacija.hr/dalmacija/zadar",
-  "focus": null
+  "face": null,
+  "face_img": "https://static.slobodnadalmacija.hr/images/slike/2026/10/24/32274483.jpg"
  },
  {
   "title": "Glasna poruka iz bivšeg kamenoloma Kukalj: U Benkovcu 6500 tona otpada, Obrovac čeka desetljećima! Gdje su institucije?!",
@@ -2052,7 +2588,8 @@
    "Županija"
   ],
   "source_url": "https://slobodnadalmacija.hr/dalmacija/zadar",
-  "focus": 22
+  "face": null,
+  "face_img": "https://static.slobodnadalmacija.hr/images/slike/2026/10/23/28859730.jpg"
  },
  {
   "title": "Zadar ostaje neporažen u prvenstvu: na Višnjiku pao Dinamo",
@@ -2067,7 +2604,13 @@
    "Sport"
   ],
   "source_url": "https://kkzadar.hr/novosti/",
-  "focus": 41
+  "face": [
+   4.5,
+   37.5,
+   12.2,
+   56.2
+  ],
+  "face_img": "https://kkzadar.hr/wp-content/uploads/2026/10/kk-zadar-kk-dinamo_231026-04-niko-sare7.jpg"
  },
  {
   "title": "Zadar bez prve zvijezde lako slomio Dinamo, a čak polovicu momčadi činili su Zadrani",
@@ -2080,7 +2623,13 @@
    "Zadar"
   ],
   "source_url": "https://slobodnadalmacija.hr/dalmacija/zadar",
-  "focus": 66
+  "face": [
+   25.7,
+   73.5,
+   16.1,
+   51.6
+  ],
+  "face_img": "https://static.slobodnadalmacija.hr/images/slike/2026/10/23/32615308.jpg"
  },
  {
   "title": "40 godina MIOC-a: Iz ovih klupa izašle su generacije uspješnih ljudi, a jedna poruka obilježila je veliku obljetnicu",
@@ -2094,7 +2643,13 @@
    "Županija"
   ],
   "source_url": "https://slobodnadalmacija.hr/dalmacija/zadar",
-  "focus": null
+  "face": [
+   56.8,
+   62.6,
+   92.4,
+   94.6
+  ],
+  "face_img": "https://static.slobodnadalmacija.hr/images/slike/2026/10/23/32718004.jpg"
  },
  {
   "title": "Neki gosti ni eura ne ostave, a građani itekako plaćaju! Buka, smrad, gužve, Zadranima je puna kapa: Sočno sam beštimao!",
@@ -2107,7 +2662,8 @@
    "Zadar"
   ],
   "source_url": "https://slobodnadalmacija.hr/dalmacija/zadar",
-  "focus": null
+  "face": null,
+  "face_img": "https://static.slobodnadalmacija.hr/images/slike/2026/10/23/32718241.gif"
  },
  {
   "title": "Zadar već slovi za najskuplji grad, a stižu novi nameti! Skaču porezi, komunalne usluge... Oporba složna: ‘To je udar‘",
@@ -2120,7 +2676,8 @@
    "Zadar"
   ],
   "source_url": "https://slobodnadalmacija.hr/dalmacija/zadar",
-  "focus": 69
+  "face": null,
+  "face_img": "https://static.slobodnadalmacija.hr/images/slike/2026/10/21/32711170.jpg"
  },
  {
   "title": "Četrdeset godina MIOC-a: Generacije učenika okupile se na proslavi",
@@ -2133,7 +2690,13 @@
    "Zadar"
   ],
   "source_url": "https://www.grad-zadar.hr/",
-  "focus": null
+  "face": [
+   55.2,
+   63.6,
+   9.4,
+   33.2
+  ],
+  "face_img": "https://www.grad-zadar.hr/data/images/image/grad550x325/35153/3A0A8218.jpg"
  },
  {
   "title": "Studenti Održivog razvoja turizma na Ugljanu istražili primjere dobre prakse",
@@ -2148,7 +2711,8 @@
    "Otoci"
   ],
   "source_url": "https://www.nasiskolji.hr/",
-  "focus": null
+  "face": null,
+  "face_img": "https://www.nasiskolji.hr/wp-content/uploads/2026/10/Barkajol1.jpg"
  },
  {
   "title": "Pokrenut novi program kreditiranja poljoprivrednika u Zadarskoj županiji",
@@ -2164,7 +2728,8 @@
    "Otoci"
   ],
   "source_url": "https://www.nasiskolji.hr/",
-  "focus": null
+  "face": null,
+  "face_img": "https://www.nasiskolji.hr/wp-content/uploads/2026/10/untitled-12-of-18-scaled.jpg"
  },
  {
   "title": "Predložen novi ustroj gradske uprave Zadra",
@@ -2176,7 +2741,14 @@
   "topics": [
    "Zadar"
   ],
-  "source_url": "https://www.grad-zadar.hr/"
+  "source_url": "https://www.grad-zadar.hr/",
+  "face": [
+   7.3,
+   27.6,
+   66.5,
+   73.6
+  ],
+  "face_img": "https://www.grad-zadar.hr/data/images/image/grad550x325/35146/SIZ_5963%255B2%255D.jpg"
  },
  {
   "title": "\"Kada smo dovoljni?\": Održan panel u okviru Mjeseca mentalnog zdravlja",
@@ -2188,7 +2760,14 @@
   "topics": [
    "Zadar"
   ],
-  "source_url": "https://www.grad-zadar.hr/"
+  "source_url": "https://www.grad-zadar.hr/",
+  "face": [
+   51.1,
+   60.0,
+   82.0,
+   85.5
+  ],
+  "face_img": "https://www.grad-zadar.hr/data/images/image/grad550x325/35123/SIZ_9221.jpg"
  },
  {
   "title": "Camping Ugljan Resort među najboljima u Dalmaciji, a prepoznali ga i njemački kamperi",
@@ -2202,7 +2781,8 @@
    "Otoci"
   ],
   "source_url": "https://www.nasiskolji.hr/",
-  "focus": 31
+  "face": null,
+  "face_img": "https://www.nasiskolji.hr/wp-content/uploads/2026/10/ugljan-campin-resort.jpg"
  },
  {
   "title": "Zadarska županija dodijelila potpore za sunčane elektrane za 31 kućanstvo",
@@ -2218,7 +2798,8 @@
    "Otoci"
   ],
   "source_url": "https://www.nasiskolji.hr/",
-  "focus": 69
+  "face": null,
+  "face_img": "https://www.nasiskolji.hr/wp-content/uploads/2026/10/untitled-1-of-35-scaled.jpg"
  },
  {
   "title": "Modrić uoči Dinama: Želim maksimalan angažman, kvalitetu treba pokazati na parketu",
@@ -2233,7 +2814,13 @@
    "Sport"
   ],
   "source_url": "https://kkzadar.hr/novosti/",
-  "focus": 24
+  "face": [
+   0.0,
+   34.0,
+   32.7,
+   75.6
+  ],
+  "face_img": "https://kkzadar.hr/wp-content/uploads/2026/03/zadar_dinamo_290326-07.jpg"
  },
  {
   "title": "Jazine osvojile Kup Krešimir Ćosić za regiju Jug i izborile osminu finala",
@@ -2248,7 +2835,13 @@
    "Sport"
   ],
   "source_url": "https://kkzadar.hr/novosti/",
-  "focus": 38
+  "face": [
+   25.4,
+   37.7,
+   14.5,
+   85.5
+  ],
+  "face_img": "https://kkzadar.hr/wp-content/uploads/2026/10/jazinee.jpg"
  },
  {
   "title": "Statistika prometa kruzera: podaci do 30. rujna 2026.",
@@ -2261,7 +2854,8 @@
    "Zadar"
   ],
   "source_url": "https://www.port-authority-zadar.hr/",
-  "focus": null
+  "face": null,
+  "face_img": "https://www.port-authority-zadar.hr/wp-content/uploads/2026/10/image001-1024x448.png"
  },
  {
   "title": "Luka Brajković potpisao prvi profesionalni ugovor s KK Zadar",
@@ -2276,7 +2870,13 @@
    "Sport"
   ],
   "source_url": "https://kkzadar.hr/novosti/",
-  "focus": 23
+  "face": [
+   15.9,
+   42.7,
+   33.4,
+   61.1
+  ],
+  "face_img": "https://kkzadar.hr/wp-content/uploads/2026/10/brajkovic2.jpg"
  },
  {
   "title": "Savjetovanje s javnošću o nacrtu prijedloga PRAVILNIKA O PROVEDBI POSTUPAKA JEDNOSTAVNE NABAVE LUČKE UPRAVE ZADAR",
@@ -2325,7 +2925,8 @@
    "Zadar"
   ],
   "source_url": "https://www.port-authority-zadar.hr/",
-  "focus": null
+  "face": null,
+  "face_img": "https://www.port-authority-zadar.hr/wp-content/uploads/2025/12/image004-1024x526.png"
  },
  {
   "title": "RASKID UGOVORA O PRVENSTVENOJ KONCESIJI ZA OBAVLJANJE LUČKIH DJELATNOSTI I KORIŠTENJE OBJEKATA LUČKE PODGRADNJE (INFRASTRUKTURE) I LUČKE NADGRADNJE (SUPRASTRUKTURE) NA LUČKOM PODRUČJU LUKE ZADAR- TERETNA LUKA",
