@@ -1,17 +1,142 @@
 {
- "https://nasiskolji.hr/": {
-  "error": "URLError(TimeoutError('timed out'))"
+ "https://www.nasiskolji.hr/": {
+  "status": 200,
+  "final": "https://www.nasiskolji.hr/",
+  "hrefs": [
+   "http://www.jadrolinija.hr/",
+   "http://www.liburnija-zadar.hr/",
+   "http://www.zadarska-zupanija.hr/",
+   "https://www.nasiskolji.hr/2025/06/16/u-sredistu-preka-otvoren-prvi-otocni-hotel-grupacije-hilton-u-hrvatskoj/",
+   "https://www.nasiskolji.hr/2026/09/14/do-4-000-eura-za-nabavu-opreme-zadarska-zupanija-otvorila-javni-poziv-malim-poduzetnicima/",
+   "https://www.nasiskolji.hr/2026/09/16/zadarska-zupanija-sufinancira-suncane-elektrane-do-4000-eura-po-kucanstvu/",
+   "https://www.nasiskolji.hr/2026/10/23/zadarska-zupanija-pokrenula-novi-program-kreditiranja-poljoprivrednika/",
+   "mailto:redakcija@nasiskolji.hr",
+   "mailto:urednistvo@nasiskolji.hr"
+  ],
+  "title": "Home page - Naši školji",
+  "feeds": [
+   "<link rel=\"alternate\" type=\"application/rss+xml\" title=\"Naši školji &raquo; Kanal\" href=\"https://www.nasiskolji.hr/feed/\" />",
+   "<link rel=\"alternate\" type=\"application/rss+xml\" title=\"Naši školji &raquo; Kanal komentara\" href=\"https://www.nasiskolji.hr/comments/feed/\" />"
+  ],
+  "items": [],
+  "zadar_text": [
+   [
+    "http://www.zadarska-zupanija.hr/",
+    "Zadarska županija"
+   ],
+   [
+    "https://www.nasiskolji.hr/2026/09/14/do-4-000-eura-za-nabavu-opreme-zadarska-zupanija-otvorila-javni-poziv-malim-poduzetnicima/",
+    "Zadarska županija otvorila Javni poziv: do 4.000 eura za nabavu opreme malim poduzetnicima"
+   ],
+   [
+    "https://www.nasiskolji.hr/2026/09/16/zadarska-zupanija-sufinancira-suncane-elektrane-do-4000-eura-po-kucanstvu/",
+    "Zadarska županija sufinancira sunčane elektrane do 4000 eura po kućanstvu"
+   ],
+   [
+    "https://www.nasiskolji.hr/2026/10/23/zadarska-zupanija-pokrenula-novi-program-kreditiranja-poljoprivrednika/",
+    "Pokrenut novi program kreditiranja poljoprivrednika u Zadarskoj županiji\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t"
+   ]
+  ]
  },
  "https://www.nasiskolji.hr/feed/": {
-  "error": "URLError(TimeoutError('timed out'))"
- },
- "https://nasiskolji.hr/feed/": {
-  "error": "URLError(TimeoutError('timed out'))"
- },
- "https://www.nasi-skolji.hr/": {
-  "error": "URLError(gaierror(-2, 'Name or service not known'))"
- },
- "https://nasiskolji.com/": {
-  "error": "URLError(gaierror(-2, 'Name or service not known'))"
+  "status": 200,
+  "final": "https://www.nasiskolji.hr/feed/",
+  "hrefs": [
+   "https://www.nasiskolji.hr/2026/10/22/zadarska-zupanija-dodijelila-potpore-za-suncane-elektrane-za-31-kucanstvo/",
+   "https://www.nasiskolji.hr/2026/10/23/zadarska-zupanija-pokrenula-novi-program-kreditiranja-poljoprivrednika/"
+  ],
+  "title": "Naši školji",
+  "feeds": [],
+  "items": [
+   [
+    "Aurora Valčić iz Preka pobijedila na manifestaciji „Mali koreograf 2026.”",
+    [
+     "Vijesti",
+     "Istaknuto"
+    ],
+    false
+   ],
+   [
+    "Priznanja za 56 darivatelja i gotovo tri tisuće darivanja krvi",
+    [
+     "Vijesti",
+     "Istaknuto"
+    ],
+    false
+   ],
+   [
+    "Općini Preko odobreno postavljanje semafora na tipkalo kod škole u Lukoranu",
+    [
+     "Vijesti",
+     "Istaknuto"
+    ],
+    false
+   ],
+   [
+    "Crkva sv. Kuzme i Damjana u Guduću upisana u Registar kulturnih dobara RH",
+    [
+     "Kultura",
+     "Istaknuto"
+    ],
+    false
+   ],
+   [
+    "Ivica Masar, Dragan Zjalić i Bernard Baraka osvojili 10. Crnilo kup",
+    [
+     "Vijesti",
+     "Istaknuto"
+    ],
+    false
+   ],
+   [
+    "10. Crnilo kup",
+    [
+     "Fotogalerije"
+    ],
+    false
+   ],
+   [
+    "Studenti Održivog razvoja turizma na Ugljanu istražili primjere dobre prakse",
+    [
+     "Vijesti",
+     "Istaknuto"
+    ],
+    false
+   ],
+   [
+    "Pokrenut novi program kreditiranja poljoprivrednika u Zadarskoj županiji",
+    [
+     "Biznis",
+     "Istaknuto"
+    ],
+    false
+   ],
+   [
+    "Camping Ugljan Resort među najboljima u Dalmaciji, a prepoznali ga i njemački ka",
+    [
+     "Vijesti",
+     "Istaknuto"
+    ],
+    false
+   ],
+   [
+    "Zadarska županija dodijelila potpore za sunčane elektrane za 31 kućanstvo",
+    [
+     "Vijesti",
+     "Istaknuto"
+    ],
+    false
+   ]
+  ],
+  "zadar_text": [
+   [
+    "https://www.nasiskolji.hr/2026/10/22/zadarska-zupanija-dodijelila-potpore-za-suncane-elektrane-za-31-kucanstvo/",
+    "Zadarska županija dodijelila potpore za sunčane elektrane za 31 kućanstvo"
+   ],
+   [
+    "https://www.nasiskolji.hr/2026/10/23/zadarska-zupanija-pokrenula-novi-program-kreditiranja-poljoprivrednika/",
+    "Pokrenut novi program kreditiranja poljoprivrednika u Zadarskoj županiji"
+   ]
+  ]
  }
 }
