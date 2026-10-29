@@ -79,7 +79,7 @@
   </section>
   <div class="tools">
     <input class="search" id="q" type="search" placeholder="Pretraži vijesti…" aria-label="Pretraži vijesti">
-    <select id="source" aria-label="Portal"></select>
+    <select id="source" aria-label="Izvor"></select>
   </div>
   <div class="chips" id="chips" role="group" aria-label="Teme"></div>
 </header>
@@ -168,7 +168,7 @@ function render() { chips(); list(); }
 
 function setupTools() {
   const sel = document.getElementById("source");
-  sel.append(el("option", { value: "" }, "Svi portali"));
+  sel.append(el("option", { value: "" }, "Svi izvori"));
   // U izborniku su samo portali koji trenutno imaju barem jednu vijest.
   const has = new Set(DATA.articles.flatMap(a => [a.source, ...(a.also || []).map(x => x.source)]));
   for (const s of DATA.sources.filter(s => has.has(s))) sel.append(el("option", { value: s }, s));
