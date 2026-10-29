@@ -1,0 +1,188 @@
+# Strogi filtar: članak se prikazuje samo ako spominje Zadar ili mjesto iz Zadarske županije
+# (u naslovu, sažetku, tekstu iz feeda, linku ili rubrikama). Jedan regularni izraz po retku,
+# bez razlike velikih i malih slova; \w* hvata padeže (Benkovac, Benkovca, benkovački...).
+# Odjeljci [zadar], [zupanija] i [otoci] određuju i temu članka na stranici.
+# Redak s ? na početku je dvosmislen (obična riječ ili mjesto i drugdje u Hrvatskoj): vrijedi za
+# lokalne portale, ali ne i za nacionalne, gdje Zadar ili jasno zadarsko mjesto mora biti u naslovu ili uvodu.
+
+[zadar]
+zadar|zadra|zadru|zadrom|zadran\w*|zadrank\w*|zadarč\w*|zadarsk\w*
+petrčan\w*
+diklo|dikl\w*
+?borik\w*
+puntamik\w*
+arbanas\w*
+bokanj\w*
+gaženic\w*
+sinjoretov\w*
+?ravnic\w*
+?jazin\w*
+voštarnic\w*
+višnjik\w*
+?smiljev\w*
+plovanij\w*
+bili brig\w*
+kožin\w*
+?turanj\w*
+?zaton\w*
+belafuž\w*
+kolovar\w*
+foša|foši|fošu
+kalelarg\w*
+morsk\w* orgulj\w*|pozdrav\w* suncu
+sv\.? donat\w*|svet\w* donat\w*
+sv\.? stošij\w*|svet\w* stošij\w*
+?brodaric\w*
+
+[zupanija]
+zadarsk\w* županij\w*|županij\w* zadar\w*|žnl
+benkov\w*
+biograd\w*
+?nin|ninu|ninom|ninsk\w*|ninjan\w*
+obrov\w*
+bibinj\w*
+?galovc\w*|galovac
+gračac|gračc\w*|gračk\w*
+?jasenic\w*
+?lišan\w*
+?novigrad\w*
+pakoštan\w*
+?polača|polači|polaču
+poličnik\w*
+posedarj\w*
+?privlak\w*
+ražanac|ražanc\w*
+?stankovc\w*|stankovci
+?starigrad\w*
+sukošan\w*
+sv\.? filip\w* i jakov\w*|svet\w* filip\w* i jakov\w*|filipjakov\w*
+škabrnj\w*
+?vrsi|vrsima
+zemunik\w*
+maslenic\w*
+rovanjsk\w*
+?seline
+?karin|karinu|karinsk\w*
+tribanj\w*
+ljubač\w*
+?vrana|vrani|vransk\w*
+paklenic\w*
+raštan\w*
+debeljak\w*
+?drage
+sv\.? petr\w* na moru|svet\w* petr\w* na moru
+?poljic\w*
+?rtin\w*
+slivnic\w*
+vinjerac|vinjerc\w*
+pridrag\w*
+paljuv\w*
+?krušev\w*
+smilčić\w*
+islam\w* latinsk\w*|islam\w* grčk\w*
+kakm\w*
+raštević\w*
+kula atlagić\w*|kuli atlagić\w*
+?srb|srbu
+bruvn\w*
+otrić\w*
+korlat\w*
+?biljan\w*
+lepur\w*
+?nadin\w*
+zelengrad\w*
+žegar\w*
+medviđ\w*
+bilišan\w*
+zrmanj\w*
+radovin\w*
+suhovar\w*
+?golubić\w*
+?dračev\w*
+
+[otoci]
+# Samo imena zadarskih otoka i mjesta na njima; opće riječi (otok, otočni) i Paški most ne računaju se.
+pag|paga|pagu|pagom|pažan\w*
+kolan\w*
+povljan\w*
+?vir|viru|virjan\w*
+ugljan\w*
+?kali|kalima|kaljan\w*
+kukljic\w*
+lukoran\w*
+sutomišćic\w*
+?preku
+pašman\w*
+tkon\w*
+dug\w* otok\w*|dugootoč\w*
+?salima|božav\w*
+silb\w*
+olib\w*
+premud\w*
+molat\w*
+?iž|iža|ižu
+?rava|ravi|ravu
+telašćic\w*
+ždrelac|ždrelc\w*
+neviđan\w*
+mrljan\w*
+dobropoljan\w*
+ošljak\w*
+?mandr\w*
+?šimun\w*
+dinjišk\w*
+?vlašić\w*
+?košljun\w*
+rivanj\w*
+sestrunj\w*
+zverinac|zverinc\w*
+brbinj\w*
+žman\w*
+?zaglav\w*
+vel\w* rat\w*
+verunić\w*
+brgulj\w*
+zapuntel\w*
+mal\w* iž\w*|vel\w* iž\w*
+mal\w* rav\w*
+vrgad\w*
+
+[ljudi]
+# Stanovnici mjesta i poznati ljudi iz županije (gradonačelnik, župan...).
+# Pridjevi (zadarski je u odjeljku [zadar]; ostali koji nisu pokriveni imenom mjesta):
+gračačk\w*
+ražanačk\w*
+posedarsk\w*
+zemuničk\w*
+pašk\w*
+silbansk\w*
+olibsk\w*|olipsk\w*
+molatsk\w*
+?prečk\w*
+?privlačk\w*
+?novigradsk\w*
+?starigradsk\w*
+benkovčan\w*
+biograđan\w*
+obrovčan\w*
+?gračan\w*
+pašmanac|pašmanc\w*|pašmank\w*
+bibinjc\w*|bibinjk\w*
+?ižan\w*
+silbljan\w*|silbjan\w*
+olibljan\w*
+kukljičan\w*
+posedarjan\w*
+?privlačan\w*
+zemuničan\w*
+škabrnjan\w*
+?starograđan\w*
+ražančan\w*
+?novigrađan\w*
+pakoštanc\w*
+dugootočan\w*
+šim\w* erlić\w*
+?erlić\w*
+josip\w* bilaver\w*|bilaver\w*
+branko dukić\w*|branka dukića
+božidar\w* longin\w*
