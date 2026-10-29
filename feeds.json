@@ -25,8 +25,15 @@
     "name": "Slobodna Dalmacija/Zadar",
     "site": "https://slobodnadalmacija.hr/dalmacija/zadar",
     "feeds": [
-      "https://slobodnadalmacija.hr/dalmacija/zadar/feed"
-    ]
+      "https://slobodnadalmacija.hr/dalmacija/zadar/feed",
+      "https://www.slobodnadalmacija.hr/feed/category/246",
+      "https://slobodnadalmacija.hr/feed"
+    ],
+    "combine": true,
+    "link_contains": [
+      "/dalmacija/zadar/"
+    ],
+    "note": "Rubrički feed za Zadar kasni danima, pa se spaja s feedom Dalmacije i općim feedom."
   },
   {
     "name": "Znet",

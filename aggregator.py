@@ -284,6 +284,8 @@ def discover_feed(site):
 
 
 def load_source(src):
+    if src.get("combine"):
+        return load_combined(src)
     candidates = list(src.get("feeds", []))
     errors = []
     tried = set()
@@ -307,6 +309,27 @@ def load_source(src):
     else:
         return [], errors
 
+    return finish_items(src, items, errors)
+
+
+def load_combined(src):
+    """Spaja sve feedove portala (npr. kad rubrika kasni, a opći feed je svjež)."""
+    items, errors, seen = [], [], set()
+    for url in src.get("feeds", []):
+        try:
+            data, final = fetch_retry(url, src.get("timeout", TIMEOUT), src.get("retries", 1))
+            for i in parse_feed(data, final):
+                key = strip_tracking(i["link"])
+                if key not in seen:
+                    seen.add(key)
+                    items.append(i)
+        except Exception as e:  # noqa: BLE001
+            errors.append(f"{url}: {e}")
+    items.sort(key=lambda i: i["date"] or "", reverse=True)
+    return finish_items(src, items, errors) if items else ([], errors)
+
+
+def finish_items(src, items, errors):
     if src.get("link_contains") or src.get("categories"):
         items = [i for i in items if wanted(src, i)]
     if src.get("scope") == "national":
