@@ -1,0 +1,200 @@
+{
+ "https://023.hr/": {
+  "status": 200,
+  "final": "https://023.hr/",
+  "type": "text/html; charset=UTF-8",
+  "items": 0,
+  "feeds": [
+   "<link rel=\"alternate\" type=\"application/rss+xml\" title=\"023.hr &raquo; Kanal\" href=\"https://023.hr/feed/\" />"
+  ],
+  "rss_links": [
+   "https://023.hr/feed/"
+  ],
+  "links": [],
+  "title": "023.hr - Najnovije vijesti i informacije iz Zadra i okolice"
+ },
+ "https://www.023.hr/": {
+  "status": 200,
+  "final": "https://023.hr/",
+  "type": "text/html; charset=UTF-8",
+  "items": 0,
+  "feeds": [
+   "<link rel=\"alternate\" type=\"application/rss+xml\" title=\"023.hr &raquo; Kanal\" href=\"https://023.hr/feed/\" />"
+  ],
+  "rss_links": [
+   "https://023.hr/feed/"
+  ],
+  "links": [],
+  "title": "023.hr - Najnovije vijesti i informacije iz Zadra i okolice"
+ },
+ "https://www.023portal.com/": {
+  "error": "URLError(gaierror(-2, 'Name or service not known'))"
+ },
+ "https://www.ezadar.hr/": {
+  "error": "URLError(TimeoutError('timed out'))"
+ },
+ "https://radio.hrt.hr/radio-zadar": {
+  "status": 200,
+  "final": "https://radio.hrt.hr/radio-zadar",
+  "type": "text/html; charset=utf-8",
+  "items": 0,
+  "feeds": [],
+  "rss_links": [
+   "https://o-nama.hrt.hr/rss-i-mobilne-aplikacije/mobilne-aplikacije-6713"
+  ],
+  "links": [],
+  "title": "Radio Zadar - HRT"
+ },
+ "https://slobodnadalmacija.hr/zadar": {
+  "status": 200,
+  "final": "https://slobodnadalmacija.hr/dalmacija/zadar",
+  "type": "text/html; charset=UTF-8",
+  "items": 0,
+  "feeds": [],
+  "rss_links": [
+   "/rss"
+  ],
+  "links": [],
+  "title": "Slobodna Dalmacija - Zadar"
+ },
+ "https://slobodnadalmacija.hr/feed": {
+  "status": 200,
+  "final": "https://slobodnadalmacija.hr/feed",
+  "type": "application/rss+xml; charset=utf-8",
+  "items": 50,
+  "feeds": [],
+  "rss_links": [
+   "https://slobodnadalmacija.hr/feed"
+  ],
+  "links": [
+   "https://slobodnadalmacija.hr/feed",
+   "https://slobodnadalmacija.hr/vijesti/hrvatska/zena-prijavila-lijecnika-i-medicinsku-sestru-za-silovanje-u-bolnici-na-rabu-slucaj-je-dobio-sokantan-obrat-1587280",
+   "https://slobodnadalmacija.hr/sport/vise-od-sporta/zbog-njega-je-mbappe-upao-u-velike-probleme-nije-ovo-ocekivao-strahovao-sam-od-tuzbe-ali-vise-nisam-zabrinut-1587281",
+   "https://slobodnadalmacija.hr/vijesti/hrvatska/ima-li-razloga-za-strah-hrpe-starog-zeljeza-i-metalnog-otpada-uznemirile-jug-dalmacije-ovo-ce-sve-zavrsiti-u-moru-1587279",
+   "https://slobodnadalmacija.hr/auto-moto/velika-novost-za-ljubitelje-peugeota-u-dalmaciji-poznata-splitska-autokuca-postala-ovlasteni-partner-evo-sto-ceka-kupce-1587082",
+   "https://slobodnadalmacija.hr/mozaik/scena/popularna-serija-sram-vraca-se-na-male-ekrane-nova-sezona-donosi-pricu-o-ljubavi-identitetu-i-predrasudama-1587278",
+   "https://slobodnadalmacija.hr/vijesti/svijet/je-li-se-tragedija-mogla-sprijeciti-objavljena-sokantna-snimka-prije-sudara-vlakova-nastavite-normalnom-brzinom-1587277",
+   "https://slobodnadalmacija.hr/split-i-zupanija/split/splitski-vatrogasci-usred-noci-jurili-na-intervenciju-u-kbc-1587276",
+   "https://slobodnadalmacija.hr/dubrovnik/vijesti/turizam-i-gospodarstvo/siri-se-inicijativa-s-malte-koja-zeli-promijeniti-pravila-igre-dosta-je-turizma-od-kojeg-profitiraju-samo-hoteli-1587275",
+   "https://slobodnadalmacija.hr/mozaik/spiza/slano/slana-pita-s-kupusom-i-pancetom-priprema-se-s-kupovnim-tijestom-za-pizzu-nadjev-prilagodite-po-svom-gustu-1587248",
+   "https://slobodnadalmacija.hr/sport/strani-nogomet/liverpool-trazi-nasljednika-za-kapetana-vuskovic-rusi-rekord-cijena-je-paprena-i-hajduk-bi-zaradio-malo-bogatstvo-1587274",
+   "https://slobodnadalmacija.hr/dubrovnik/zupanija/dubrovnik/andro-vidak-koliko-je-sredstava-potrebno-za-dovesti-izvodaca-za-place-doprinose-poreze-prireze-nareske-parizere-1587271",
+   "https://slobodnadalmacija.hr/mozaik/panorama/horoskop-za-cetvrtak-bikovi-trebaju-postupati-oprezno-s-karticama-djevicama-dan-donosi-dvije-dobre-prilike-1587273",
+   "https://slobodnadalmacija.hr/split-i-zupanija/sd-takujin/mnogi-hrvati-bacaju-novac-u-trgovinama-evo-trika-kako-ustedjeti-za-isti-proizvod-mozete-platiti-dvostruko-manje-1587270",
+   "https://slobodnadalmacija.hr/dubrovnik/zupanija/dubrovnik/iznad-vrbice-izgorilo-9-hektara-makije-i-niskog-raslinja-pozariste-i-jutros-cuvaju-vatrogasci-1587269",
+   "https://slobodnadalmacija.hr/split-i-zupanija/obala/kastelima-stizu-kazne-platili-stotine-tisuce-u-obliznjoj-opcini-rat-nacelnik-obmanjuje-tu-je-i-famozna-perilica-1587267",
+   "https://slobodnadalmacija.hr/vijesti/svijet/uciteljica-zavrsila-u-zatvoru-zbog-spolnih-odnosa-s-ucenikom-procurile-i-poruke-svida-li-ti-se-ono-sto-vidis-1587266",
+   "https://slobodnadalmacija.hr/split-i-zupanija/zagora/mi-pokupili-mrtve-na-kola-ka-smeca-niti-znas-tko-je-otac-tko-mater-u-cetinskoj-krajini-i-danas-im-se-stegne-grlo-1587265",
+   "https://slobodnadalmacija.hr/mozaik/zdravlje/strucnjakinja-s-harvarda-upozorava-na-tihu-prijetnju-koja-vreba-gotovo-svakoga-dovoljno-je-samo-nekoliko-minuta-1587264",
+   "https://slobodnadalmacija.hr/sport/strani-nogomet/trener-bayerna-pusten-iz-bolnice-zna-se-uzrok-njegovog-kolapsa-ovo-je-bolest-nema-nikakve-veze-s-pritiskom-1587263",
+   "https://slobodnadalmacija.hr/split-i-zupanija/otoci/otkrivene-pukotine-na-zidinama-u-hvaru-zapocela-hitna-sanacija-ali-se-privremeno-obustavilo-drugi-projekt-1587262",
+   "https://slobodnadalmacija.hr/vijesti/svijet/siri-se-odvratni-parazit-koji-izjeda-zivo-tkivo-do-sada-potvrden-71-slucaj-zaraze-broj-i-dalje-raste-1587261",
+   "https://slobodnadalmacija.hr/sport/strani-nogomet/debakl-milana-na-san-siru-modric-otkrio-kljucni-trenutak-nema-nikakvog-opravdanja-1587260",
+   "https://slobodnadalmacija.hr/mozaik/spiza/spiza-plus/jesu-li-zobene-pahuljice-dobar-izbor-za-dorucak-ili-dizu-secer-u-krvi-ugledna-nutricionistica-rijesila-je-dilemu-1587247",
+   "https://slobodnadalmacija.hr/mozaik/panorama/limuzina-predsjednika-amerike-ima-nekoliko-sustava-naoruzanja-i-svi-su-smrtonosni-zovu-je-bijela-kuca-na-kotacima-1587259",
+   "https://slobodnadalmacija.hr/dalmacija/s-mora-i-kraja/divlje-svinje-sve-blize-kucama-strah-sve-veci-mogu-li-donijeti-opasnu-zarazu-tko-stiti-stanovnike-dalmacije-1587258",
+   "https://slobodnadalmacija.hr/sport/strani-nogomet/city-izborio-cetvrtfinale-liga-kupa-mateo-kovacic-zabio-nakon-godinu-i-pol-dana-a-potom-u-raspucavanju-promasio-penal-1587256",
+   "https://slobodnadalmacija.hr/mozaik/drustvena-mreza/kras-nakon-gotovo-40-godina-trazi-vlasnika-tajanstvenog-albuma-imamo-samo-jedan-trag-ime-pocinje-na-slovo-1587254",
+   "https://slobodnadalmacija.hr/sport/strani-nogomet/inter-pobjedom-zadrzao-vrh-napoli-bolji-od-juriceve-monze-porazi-milana-i-juventusa-1587255",
+   "https://slobodnadalmacija.hr/split-i-zupanija/zagora/sad-stizu-novci-i-za-lokve-i-bunare-puno-se-obecalo-evo-tko-su-sretnici-i-gdje-idu-pare-1587253",
+   "https://slobodnadalmacija.hr/split-i-zupanija/obala/ovo-su-najbolji-medu-nama-jedna-ima-tek-12-godina-sve-rade-nesebicno-i-dzabe-dobili-priznanja-1587252",
+   "https://slobodnadalmacija.hr/mozaik/panorama/dioklecijan-se-vratio-u-split-brojni-splicani-na-svecanoj-premijeri-povijesnog-spektakla-stigli-su-i-glumci-iz-filma-1587251",
+   "https://slobodnadalmacija.hr/sport/strani-nogomet/preokret-bayera-sest-golova-bayerna-tri-hrvatska-nogometasa-upisali-se-medu-strijelce-1587250",
+   "https://slobodnadalmacija.hr/sport/hajduk/hajduk-prvak-bez-poraza-tako-se-pisala-povijest-sestorica-igraca-odigrala-je-svih-18-utakmica-tada-nije-bilo-zamjena-1587249",
+   "https://slobodnadalmacija.hr/vijesti/hrvatska/stize-nam-najavljeni-pad-temperature-oborine-i-prava-zima-vrijeme-ce-biti-kao-u-prosincu-1587246",
+   "https://slobodnadalmacija.hr/mozaik/scena/puna-cakula-splitskih-rokera-stare-snimke-i-fotografije-vratile-ih-u-dane-prvih-bendova-1587245",
+   "https://slobodnadalmacija.hr/split-i-zupanija/zagora/je-li-ovo-sramota-krov-knjiznice-izresetan-kao-u-ratu-i-tako-godinama-opet-se-slijeva-voda-a-vlast-1587244",
+   "https://slobodnadalmacija.hr/sport/vaterpolo/jadran-ipak-nije-mogao-protiv-europskog-prvaka-splicani-se-dobro-drzali-na-punom-poljudu-1587243",
+   "https://slobodnadalmacija.hr/dubrovnik/zupanija/dubrovnik/asfaltira-se-nerazvrstana-cesta-na-bosanci-1587242",
+   "https://slobodnadalmacija.hr/sport/strani-nogomet/mbappe-izazvao-bijes-nacije-nije-pomogla-ni-isprika-real-madrida-necemo-to-prihvatiti-ovo-je-preslo-sve-granice-1587241"
+  ],
+  "title": "Slobodna Dalmacija - Najveće dnevne novine u Dalmaciji"
+ },
+ "https://slobodnadalmacija.hr/feed/zadar": {
+  "error": "<HTTPError 404: 'Not Found'>"
+ },
+ "https://slobodnadalmacija.hr/zadar/feed": {
+  "status": 200,
+  "final": "https://slobodnadalmacija.hr/dalmacija/zadar/feed",
+  "type": "application/rss+xml; charset=utf-8",
+  "items": 50,
+  "feeds": [],
+  "rss_links": [
+   "https://slobodnadalmacija.hr/dalmacija/zadar/feed"
+  ],
+  "links": [
+   "https://slobodnadalmacija.hr/dalmacija/zadar/feed",
+   "https://slobodnadalmacija.hr/dalmacija/zadar/od-rata-u-ukrajini-pobjegli-u-zadar-iako-su-daleko-od-domovine-svoju-zemlju-predstavljaju-u-svijetu-volim-kad-letim-1586873",
+   "https://slobodnadalmacija.hr/dalmacija/zadar/zadrani-se-danima-oprastaju-od-omiljene-sestre-melhiore-padaju-i-zagrljaji-i-osmijesi-i-suze-prica-je-topla-i-dirljiva-1586785",
+   "https://slobodnadalmacija.hr/dalmacija/zadar/zadranin-tuzio-zadarsku-pauk-sluzbu-zbog-ostecenja-bmw-a-spor-zbog-amortizera-zavrsio-na-sudu-1586753",
+   "https://slobodnadalmacija.hr/dalmacija/zadar/moderna-okuplja-poznata-modna-imena-i-otvara-temu-mentalnog-zdravlja-1586762",
+   "https://slobodnadalmacija.hr/dalmacija/zadar/svjetsko-prvenstvo-u-podvodnom-ribolovu-2029-odrzat-ce-se-u-zdrelcu-na-pasmanu-1586269",
+   "https://slobodnadalmacija.hr/dalmacija/zadar/np-krka-izgubio-spor-protiv-vodotornja-mora-platiti-i-12-500-eura-sudskih-troskova-1586736",
+   "https://slobodnadalmacija.hr/dalmacija/zadar/zadar-bi-podstanarima-placao-do-40-posto-najamnine-o-novoj-mjeri-uskoro-odlucuje-gradsko-vijece-evo-koji-su-uvjeti-1586730",
+   "https://slobodnadalmacija.hr/dalmacija/zadar/prodaje-se-sedam-grobnica-na-gradskom-groblju-zadar-ovo-su-pocetne-cijene-svemu-je-prethodio-slozen-postupak-1586709",
+   "https://slobodnadalmacija.hr/dalmacija/zadar/golijada-na-zupanijskim-travnjacima-bibinje-zabilo-sest-dalmatinac-i-podgradina-po-osam-abeceda-preuzela-vrh-1586692",
+   "https://slobodnadalmacija.hr/dalmacija/zadar/zadarski-vaterpolisti-deklasirali-nijemce-i-izborili-prolazak-u-sljedecu-fazu-konferencijskog-kupa-1586686",
+   "https://slobodnadalmacija.hr/dalmacija/zadar/jazine-nastavile-pobjednicki-niz-puntamika-pokleknula-uz-cak-19-pogodenih-trica-protivnicke-momcadi-1586685",
+   "https://slobodnadalmacija.hr/dalmacija/zadar/pokrenut-novi-program-kreditiranja-poljoprivrednika-krediti-do-200-tisuca-eura-uz-subvenciju-kamatne-stope-do-2-5-postotnih-bodova-1586268",
+   "https://slobodnadalmacija.hr/dalmacija/zadar/zadar-od-pocetka-nametnuo-ritam-slomio-iliriju-i-upisao-vaznu-pobjedu-uoci-paklenog-rasporeda-1586623",
+   "https://slobodnadalmacija.hr/dalmacija/zadar/obnovljen-obalni-pojas-od-rta-vrulje-do-duboke-drage-evo-kako-izgleda-virski-prsten-u-novom-izdanju-1586574",
+   "https://slobodnadalmacija.hr/dalmacija/zadar/teska-nesreca-u-zadru-maloljetnica-bez-kacige-pala-s-prejakog-elektricnog-romobila-zavrsila-u-bolnici-1586536",
+   "https://slobodnadalmacija.hr/dalmacija/zadar/bocari-debeljaka-u-super-ligi-u-krcatoj-bocarskoj-dvorani-u-zemuniku-donjem-deklasirali-sveti-jakov-iz-jadranova-1586519",
+   "https://slobodnadalmacija.hr/dalmacija/zadar/zadar-razbio-hv-posedarje-u-zupanijskom-derbiju-santini-naceo-goste-juric-briljirao-na-visnjiku-1586516",
+   "https://slobodnadalmacija.hr/dalmacija/zadar/detalji-tragedije-na-a1-kod-rovanjske-autom-probio-zastitnu-ogradu-i-sletio-niz-strminu-poginuo-77-godisnjak-1586511",
+   "https://slobodnadalmacija.hr/dalmacija/zadar/pred-zadrom-je-najvaznija-utakmica-do-kraja-godine-a-modric-nakon-dinama-nije-bio-zadovoljan-angazmanom-pojedinaca-1586509",
+   "https://slobodnadalmacija.hr/dalmacija/zadar/teska-prometna-nesreca-pored-maslenickog-mosta-sesteroclana-obitelj-sletjela-s-cesta-jedna-osoba-preminula-1586454",
+   "https://slobodnadalmacija.hr/dalmacija/zadar/tragedija-na-a1-kod-rovanjske-jedan-muskarac-poginuo-petero-ljudi-zavrsilo-u-zadarskoj-bolnici-1586384",
+   "https://slobodnadalmacija.hr/dalmacija/zadar/teska-nesreca-na-a1-kod-rovanjske-jedna-osoba-poginula-petero-prevezeno-u-zadarsku-bolnicu-1586385",
+   "https://slobodnadalmacija.hr/dalmacija/zadar/godinama-je-propadao-na-rubu-paga-a-sada-je-spasen-tajanstveni-suncani-sat-krije-pricu-koja-seze-u-19-stoljece-1586382",
+   "https://slobodnadalmacija.hr/dalmacija/zadar/drama-u-petrcanima-vozac-73-oduzeo-prednost-motociklistu-26-mladic-tesko-ozlijeden-zavrsio-u-bolnici-1586376",
+   "https://slobodnadalmacija.hr/dalmacija/zadar/policija-na-pagu-zaustavila-45-godisnjaka-papreno-ga-kaznila-i-zabranila-mu-voznju-na-dva-mjeseca-1586374",
+   "https://slobodnadalmacija.hr/dalmacija/zadar/glasna-poruka-iz-bivseg-kamenoloma-kukalj-u-benkovcu-6500-tona-otpada-obrovac-ceka-desetljecima-gdje-su-institucije-1586331",
+   "https://slobodnadalmacija.hr/dalmacija/zadar/zadar-bez-prve-zvijezde-lako-slomio-dinamo-a-cak-polovicu-momcadi-cinili-su-zadrani-1586324",
+   "https://slobodnadalmacija.hr/dalmacija/zadar/40-godina-mioc-a-iz-ovih-klupa-izasle-su-generacije-uspjesnih-ljudi-a-jedna-poruka-obiljezila-je-veliku-obljetnicu-1586303",
+   "https://slobodnadalmacija.hr/dalmacija/zadar/pet-minuta-trubljenja-i-oblaci-crnog-dima-luksuzni-kruzeri-zadru-donose-smrad-buku-i-turiste-koji-ne-trose-1586286",
+   "https://slobodnadalmacija.hr/dalmacija/zadar/zadar-vec-slovi-za-najskuplji-grad-a-stizu-novi-nameti-skacu-porezi-komunalne-usluge-oporba-slozna-to-je-udar-1586281",
+   "https://slobodnadalmacija.hr/dalmacija/zadar/zadar-iz-maste-umjetne-inteligencije-lucka-uprava-za-vazan-projekt-koristi-fotografiju-grada-koji-ne-postoji-1586263",
+   "https://slobodnadalmacija.hr/dalmacija/zadar/zadarska-zupanija-druga-u-hrvatskoj-po-broju-kupoprodaja-nekretnina-domace-trziste-u-2025-palo-za-13-posto-1586227",
+   "https://slobodnadalmacija.hr/dalmacija/zadar/erlic-predlaze-novi-ustroj-gradske-uprave-postojecih-12-upravnih-odjela-i-sluzba-ostaju-ali-se-mijenja-dosta-toga-1586224",
+   "https://slobodnadalmacija.hr/dalmacija/zadar/pocetna-je-cijena-550-tisuca-eura-ima-li-kupca-za-27-nekretnina-prsutanu-50-tisuca-kvadrata-svi-cekaju-drazbu-1586200",
+   "https://slobodnadalmacija.hr/dalmacija/zadar/povijesna-europska-pobjeda-vaterpolista-zadra-pao-spartak-iz-volgograda-1586190",
+   "https://slobodnadalmacija.hr/dalmacija/zadar/stipe-modric-mislim-da-svaki-igrac-moze-vise-a-pogotovo-amerikanci-jer-su-dovedeni-da-daju-nesto-vise-od-domacih-1586178",
+   "https://slobodnadalmacija.hr/dalmacija/zadar/zadarski-barmen-javio-se-sa-svjetskog-prvenstva-u-macauu-dao-sam-sve-od-sebe-ali-oni-traze-perfekciju-1586077",
+   "https://slobodnadalmacija.hr/dalmacija/zadar/mihajlo-mihajlov-prvi-disident-u-zadru-za-vrijeme-jugoslavije-tko-su-bili-patriotski-kriminalci-1586074",
+   "https://slobodnadalmacija.hr/dalmacija/zadar/zadarska-zupanija-dodjeljuje-100-000-eura-za-suncane-elektrane-potporu-dobilo-31-kucanstvo-imamo-popis-1586066"
+  ],
+  "title": "Zadar"
+ },
+ "https://slobodnadalmacija.hr/rss": {
+  "status": 200,
+  "final": "https://slobodnadalmacija.hr/static/rss-1000725",
+  "type": "text/html; charset=UTF-8",
+  "items": 0,
+  "feeds": [],
+  "rss_links": [
+   "/rss",
+   "https://slobodnadalmacija.hr/feed",
+   "https://slobodnadalmacija.hr/static/rss-1000725",
+   "https://twitter.com/intent/tweet?text=RSS&amp;url=https%3A%2F%2Fslobodnadalmacija.hr%2Fstatic%2Frss-1000725",
+   "https://www.facebook.com/sharer.php?u=https%3A%2F%2Fslobodnadalmacija.hr%2Fstatic%2Frss-1000725",
+   "https://www.slobodnadalmacija.hr/feed/category/119",
+   "https://www.slobodnadalmacija.hr/feed/category/142",
+   "https://www.slobodnadalmacija.hr/feed/category/241",
+   "https://www.slobodnadalmacija.hr/feed/category/242",
+   "https://www.slobodnadalmacija.hr/feed/category/243",
+   "https://www.slobodnadalmacija.hr/feed/category/244",
+   "https://www.slobodnadalmacija.hr/feed/category/245",
+   "https://www.slobodnadalmacija.hr/feed/category/246",
+   "https://www.slobodnadalmacija.hr/feed/category/253",
+   "https://www.slobodnadalmacija.hr/feed/category/254",
+   "https://www.slobodnadalmacija.hr/feed/category/255",
+   "https://www.slobodnadalmacija.hr/feed/category/256",
+   "https://www.slobodnadalmacija.hr/feed/category/258",
+   "https://www.slobodnadalmacija.hr/feed/category/260",
+   "https://www.slobodnadalmacija.hr/feed/category/262"
+  ],
+  "links": [],
+  "title": "Slobodna Dalmacija - RSS"
+ }
+}
