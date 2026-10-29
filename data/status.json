@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-29T18:15:32.921805+00:00",
+ "updated": "2026-10-29T18:29:15.827756+00:00",
  "sources": [
   {
    "name": "Antena Zadar",
@@ -44,6 +44,13 @@
    "errors": []
   },
   {
+   "name": "KK Zadar",
+   "count": 10,
+   "ok": true,
+   "feed": null,
+   "errors": []
+  },
+  {
    "name": "Naši školji",
    "count": 0,
    "ok": false,
@@ -68,7 +75,7 @@
   },
   {
    "name": "Jadrolinija",
-   "count": 1,
+   "count": 2,
    "ok": true,
    "feed": null,
    "errors": []
