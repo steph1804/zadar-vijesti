@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-29T12:11:43.525695+00:00",
+ "updated": "2026-10-29T12:49:31.313105+00:00",
  "sources": [
   {
    "name": "Antena Zadar",
@@ -54,7 +54,7 @@
   },
   {
    "name": "Grad Zadar",
-   "count": 7,
+   "count": 8,
    "ok": true,
    "feed": null,
    "errors": []
