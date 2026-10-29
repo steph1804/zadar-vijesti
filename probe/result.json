@@ -1,164 +1,61 @@
 {
- "https://www.index.hr/rss": {
+ "https://www.zadar-airport.hr/": {
   "status": 200,
-  "final": "https://www.index.hr/rss",
-  "items": 150,
-  "img": 150,
-  "zadar": [
-   "Još trojica uhićena zbog napada na Nizozemce kod zadarske zračne luke",
-   "Muškarac (75) krampom napao 65-godišnjaka kod Zadra. Određen mu istražni zatvor"
-  ]
+  "final": "https://www.zadar-airport.hr/",
+  "type": "text/html; charset=UTF-8",
+  "title": "Naslovnica - Zračna luka Zadar",
+  "links": [
+   "/pregled-letova/?sekcija=putnici",
+   "https://www.zadar-airport.hr/pregled-letova/?sekcija=putnici",
+   "https://www.zadar-airport.hr/red-letenja/?sekcija=putnici",
+   "https://www.zadar-airport.hr/wp-content/themes/hello-elementor-child/flight.css?ver=1793249439",
+   "https://www.zadar-airport.hr/wp-content/themes/hello-elementor-child/flightmap.css?ver=1792573624",
+   "https://www.zadar-airport.hr/wp-content/themes/hello-elementor-child/flights-view.css?ver=1793249439"
+  ],
+  "api": [
+   "ajaxUrl",
+   "ajax_url",
+   "ajaxurl",
+   "application/json",
+   "application/json+oembed",
+   "application/ld+json",
+   "bento-flights-wrapper",
+   "block_ajax_content",
+   "current-flights-view-js-child-js",
+   "flight-container",
+   "flight-css-css",
+   "flight-disclaimer",
+   "flight-disclaimer-title",
+   "flight-disclaimer__title",
+   "flight-map-logic-js",
+   "flight-map-logic-js-extra",
+   "flight-map-style-css",
+   "flight-results-status",
+   "flight-tabs-js-child-js",
+   "flights-data-js",
+   "flights-view-css-css",
+   "https://api.w.org/",
+   "https://www.zadar-airport.hr/wp-admin/admin-ajax.php",
+   "https://www.zadar-airport.hr/wp-content/themes/hello-elementor-child/assets/geo/countries.json?v=1790947596",
+   "https://www.zadar-airport.hr/wp-content/themes/hello-elementor-child/assets/js/current-flights-view.js?ver=1786601153",
+   "https://www.zadar-airport.hr/wp-content/themes/hello-elementor-child/assets/js/flight-tabs.js?ver=1",
+   "https://www.zadar-airport.hr/wp-content/themes/hello-elementor-child/assets/js/flightmap.js?ver=1791272267",
+   "https://www.zadar-airport.hr/wp-content/themes/hello-elementor-child/assets/js/flights.js?ver=1773234846",
+   "https://www.zadar-airport.hr/wp-content/themes/hello-elementor-child/flight.css?ver=1793249439",
+   "https://www.zadar-airport.hr/wp-content/themes/hello-elementor-child/flightmap.css?ver=1792573624"
+  ],
+  "body": ""
  },
- "https://www.24sata.hr/feeds/news.xml": {
-  "error": "<HTTPError 403: 'Forbidden'>"
- },
- "https://www.24sata.hr/feeds/aktualno.xml": {
-  "error": "<HTTPError 403: 'Forbidden'>"
- },
- "https://www.jutarnji.hr/feed": {
-  "status": 200,
-  "final": "https://www.jutarnji.hr/feed",
-  "items": 50,
-  "img": 50,
-  "zadar": [
-   "Matjaž Kek na tragu je Đalovićeva učinka, ali daleko od titule"
-  ]
- },
- "https://www.vecernji.hr/feeds/latest": {
-  "status": 200,
-  "final": "https://www.vecernji.hr/feeds/latest",
-  "items": 20,
-  "img": 20,
-  "zadar": []
- },
- "https://www.tportal.hr/rss": {
-  "status": 200,
-  "final": "https://www.tportal.hr/rss-najnovije.xml",
-  "items": 20,
-  "img": 20,
-  "zadar": []
- },
- "https://n1info.hr/feed/": {
-  "status": 200,
-  "final": "https://n1info.hr/feed/",
-  "items": 50,
-  "img": 50,
-  "zadar": []
- },
- "https://net.hr/feed": {
-  "status": 200,
-  "final": "http://net.hr/najnovije/rss.xml",
-  "items": 50,
-  "img": 50,
-  "zadar": [
-   "Doznajemo: Uhićene još tri osobe zbog napada na Nizozemce kod zadarske zračne luke",
-   "Luka Stojković otkrio koje ekipe zadaju najviše problema: &apos;Znamo što navijači očekuju"
-  ]
- },
- "https://www.telegram.hr/feed/": {
-  "status": 200,
-  "final": "https://www.telegram.hr/feed/",
-  "items": 10,
-  "img": 10,
-  "zadar": []
- },
- "https://www.novilist.hr/feed/": {
-  "status": 200,
-  "final": "https://www.novilist.hr/feed/",
-  "items": 10,
-  "img": 10,
-  "zadar": [
-   "PFAS spojevi nisu utvrđeni u 231 uzorku vode u Lici, na Pagu i Rabu"
-  ]
- },
- "https://dnevnik.hr/assets/feed/articles/": {
-  "status": 200,
-  "final": "https://dnevnik.hr/assets/feed/articles/",
-  "items": 10,
-  "img": 0,
-  "zadar": []
- },
- "https://www.rtl.hr/feeds/vijesti.xml": {
+ "https://www.zadar-airport.hr/hr/letovi/dolasci": {
   "error": "<HTTPError 404: 'Not Found'>"
  },
- "https://www.morski.hr/feed/": {
+ "https://www.zadar-airport.hr/robots.txt": {
   "status": 200,
-  "final": "https://www.morski.hr/rss/",
-  "items": 15,
-  "img": 15,
-  "zadar": [
-   "<![CDATA[Šime Strikoman \"uhvatio\" Pauke: \"Čast, poštenje i zajedništvo\"]]>",
-   "<![CDATA[VIŠKA SABATINA Kušanje mladih vina i okrugli stol o bugavi]]>",
-   "<![CDATA[Na današnji dan 1992. godine održana je smotra postrojbi južnog bojišta u luci Gr"
-  ]
- },
- "https://www.direktno.hr/rss/": {
-  "status": 200,
-  "final": "https://direktno.hr/rss/",
-  "items": 0,
-  "img": 0,
-  "zadar": []
- },
- "https://www.hrt.hr/rss/vijesti": {
-  "status": 200,
-  "final": "https://feed.hrt.hr/vijesti/page.xml",
-  "items": 33,
-  "img": 33,
-  "zadar": []
- },
- "https://vijesti.hrt.hr/rss": {
-  "error": "<HTTPError 404: 'Not Found'>"
- },
- "https://www.glasistre.hr/rss": {
-  "status": 200,
-  "final": "https://www.glasistre.hr/rss.xml",
-  "items": 50,
-  "img": 50,
-  "zadar": [
-   "&quot;Imam plaću 1.200 eura, a oni voze Porschee&quot;: Rasprava o bogatstvu u Hrvatskoj o"
-  ]
- },
- "https://www.dalmacijadanas.hr/feed/": {
-  "status": 200,
-  "final": "https://www.dalmacijadanas.hr/feed/",
-  "items": 10,
-  "img": 10,
-  "zadar": []
- },
- "https://www.dalmatinskiportal.hr/rss": {
-  "error": "<HTTPError 404: 'Not Found'>"
- },
- "https://www.hina.hr/rss": {
-  "error": "<HTTPError 403: 'Forbidden'>"
- },
- "https://www.poslovni.hr/feed": {
-  "status": 200,
-  "final": "https://www.poslovni.hr/feed",
-  "items": 20,
-  "img": 20,
-  "zadar": []
- },
- "https://www.bug.hr/rss": {
-  "status": 200,
-  "final": "https://www.bug.hr/rss",
-  "items": 50,
-  "img": 50,
-  "zadar": [
-   "Videotapr - omogućuje naknadno spremanje najzanimljivijih dijelova snimke",
-   "Discordova velika promjena ugrozit će dominaciju Reddita"
-  ]
- },
- "https://www.sportske.jutarnji.hr/feed": {
-  "error": "URLError(gaierror(-2, 'Name or service not known'))"
- },
- "https://sportklub.n1info.hr/feed/": {
-  "status": 200,
-  "final": "https://sportklub.hr/feed/",
-  "items": 50,
-  "img": 50,
-  "zadar": []
- },
- "https://www.gol.hr/feed": {
-  "error": "<HTTPError 404: 'Not Found'>"
+  "final": "https://www.zadar-airport.hr/robots.txt",
+  "type": "text/plain; charset=utf-8",
+  "title": "",
+  "links": [],
+  "api": [],
+  "body": "# START YOAST BLOCK\n# ---------------------------\nUser-agent: *\nDisallow:\n\nSitemap: https://www.zadar-airport.hr/sitemap_index.xml\n# ---------------------------\n# END YOAST BLOCK"
  }
 }
