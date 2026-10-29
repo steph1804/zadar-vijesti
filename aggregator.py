@@ -511,7 +511,7 @@ def main():
         i.pop("categories", None)
         i.pop("text", None)
         old = cache.get(i["link"])
-        if old and old.get("face_img") == i["image"]:
+        if old and i["image"] and old.get("face_img") == i["image"]:
             i["face"], i["face_img"] = old.get("face"), old["face_img"]
         cache[i["link"]] = i
     enabled = {s["name"] for s in sources if s.get("kind") != "info"}
