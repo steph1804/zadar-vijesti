@@ -1,15 +1,5 @@
 [
   {
-    "name": "057info",
-    "site": "https://www.057info.hr/",
-    "feeds": [
-      "https://www.057info.hr/rss",
-      "https://www.057info.hr/feed/"
-    ],
-    "enabled": false,
-    "note": "Portal odbija automatske zahtjeve (HTTP 403)."
-  },
-  {
     "name": "Antena Zadar",
     "site": "https://www.antenazadar.hr/",
     "feeds": [
@@ -91,25 +81,5 @@
     ],
     "kind": "info",
     "note": "Prikazuje se u okviru Trajekti, ne među vijestima."
-  },
-  {
-    "name": "eZadar",
-    "site": "https://www.ezadar.hr/",
-    "feeds": [
-      "https://www.ezadar.hr/feed/",
-      "https://www.ezadar.hr/rss"
-    ],
-    "enabled": false,
-    "note": "Portal ne odgovara zahtjevima s GitHuba (timeout)."
-  },
-  {
-    "name": "Radio Zadar",
-    "site": "https://radio.hrt.hr/radio-zadar",
-    "feeds": [
-      "https://radio.hrt.hr/radio-zadar/rss",
-      "https://radio.hrt.hr/rss/radio-zadar"
-    ],
-    "enabled": false,
-    "note": "HRT nema RSS za Radio Zadar."
   }
 ]

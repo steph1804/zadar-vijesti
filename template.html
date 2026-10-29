@@ -169,7 +169,9 @@ function render() { chips(); list(); }
 function setupTools() {
   const sel = document.getElementById("source");
   sel.append(el("option", { value: "" }, "Svi portali"));
-  for (const s of DATA.sources) sel.append(el("option", { value: s }, s));
+  // U izborniku su samo portali koji trenutno imaju barem jednu vijest.
+  const has = new Set(DATA.articles.flatMap(a => [a.source, ...(a.also || []).map(x => x.source)]));
+  for (const s of DATA.sources.filter(s => has.has(s))) sel.append(el("option", { value: s }, s));
   sel.onchange = () => { state.source = sel.value; render(); };
   const q = document.getElementById("q");
   q.oninput = () => { state.q = q.value.trim(); render(); };
