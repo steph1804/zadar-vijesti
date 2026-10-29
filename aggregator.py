@@ -257,7 +257,7 @@ def strip_tracking(url):
 
 def main():
     with open(FEEDS_FILE, encoding="utf-8") as f:
-        sources = json.load(f)
+        sources = [s for s in json.load(f) if s.get("enabled", True)]
     try:
         with open(CACHE_FILE, encoding="utf-8") as f:
             cache = {a["link"]: a for a in json.load(f)}

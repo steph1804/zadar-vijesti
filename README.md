@@ -21,6 +21,8 @@ Popis je u `feeds.json`. Za svaki portal:
   (npr. Zadarski list: `["/zadar-zupanija/"]`)
 - `categories` (neobavezno) – popis rubrika iz feeda koje se zadržavaju (npr. Znet: `["ZADAR / ŽUPANIJA"]`)
 
+- `enabled` (neobavezno) – `false` privremeno isključuje portal (razlog piše u `note`)
+
 Ako portal ima oba filtra, članak prolazi ako zadovoljava bilo koji. Bez filtra uzima se sve.
 
 Ako feed nema sliku, skripta je uzima iz `og:image` oznake na stranici članka.

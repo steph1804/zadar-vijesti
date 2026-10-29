@@ -5,7 +5,9 @@
     "feeds": [
       "https://www.057info.hr/rss",
       "https://www.057info.hr/feed/"
-    ]
+    ],
+    "enabled": false,
+    "note": "Portal odbija automatske zahtjeve (HTTP 403)."
   },
   {
     "name": "Antena Zadar",
@@ -31,13 +33,9 @@
   },
   {
     "name": "Zadarski.hr",
-    "site": "https://slobodnadalmacija.hr/zadar",
+    "site": "https://slobodnadalmacija.hr/dalmacija/zadar",
     "feeds": [
-      "https://www.zadarski.hr/feed",
-      "https://slobodnadalmacija.hr/feed"
-    ],
-    "link_contains": [
-      "slobodnadalmacija.hr/zadar"
+      "https://slobodnadalmacija.hr/dalmacija/zadar/feed"
     ]
   },
   {
@@ -52,10 +50,9 @@
   },
   {
     "name": "023 portal",
-    "site": "https://023portal.hr/",
+    "site": "https://023.hr/",
     "feeds": [
-      "https://023portal.hr/feed/",
-      "https://www.023portal.hr/feed/"
+      "https://023.hr/feed/"
     ]
   },
   {
@@ -64,7 +61,9 @@
     "feeds": [
       "https://www.ezadar.hr/feed/",
       "https://www.ezadar.hr/rss"
-    ]
+    ],
+    "enabled": false,
+    "note": "Portal ne odgovara zahtjevima s GitHuba (timeout)."
   },
   {
     "name": "Radio Zadar",
@@ -72,6 +71,8 @@
     "feeds": [
       "https://radio.hrt.hr/radio-zadar/rss",
       "https://radio.hrt.hr/rss/radio-zadar"
-    ]
+    ],
+    "enabled": false,
+    "note": "HRT nema RSS za Radio Zadar."
   }
 ]
