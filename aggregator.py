@@ -10,6 +10,7 @@ import html
 import json
 import os
 import re
+import shutil
 import sys
 import threading
 import time
@@ -534,6 +535,17 @@ def group_duplicates(articles):
     return [g["lead"] for g in groups]
 
 
+# Naslovnica i po jedna stranica za svaku rubriku (vlastiti link za Google i dijeljenje).
+PAGE_SLUGS = {"Zadar": "zadar", "Županija": "zupanija", "Otoci": "otoci", "Sport": "sport"}
+PAGE_DESC = {
+    None: "Najnovije vijesti iz Zadra i Zadarske županije s lokalnih portala na jednom mjestu.",
+    "Zadar": "Najnovije vijesti iz grada Zadra s lokalnih portala na jednom mjestu.",
+    "Županija": "Vijesti iz gradova i općina Zadarske županije na jednom mjestu.",
+    "Otoci": "Vijesti sa zadarskih otoka: Ugljan, Pašman, Dugi otok, Pag, Silba, Olib, Iž i ostali.",
+    "Sport": "Zadarski sport na jednom mjestu: KK Zadar, HNK Zadar i ostali klubovi.",
+}
+
+
 def render(articles, sources, status, now, info=None):
     with open(TEMPLATE, encoding="utf-8") as f:
         tpl = f.read()
@@ -543,14 +555,29 @@ def render(articles, sources, status, now, info=None):
     except FileNotFoundError:
         settings = {}
     payload = json.dumps({"articles": group_duplicates(articles), "topics": TOPICS,
+                          "pages": PAGE_SLUGS,
                           "sources": [s["name"] for s in sources if s.get("kind") != "info"],
                           "info": info or {}, "settings": settings,
                           "status": status, "updated": now}, ensure_ascii=False)
     payload = payload.replace("</", "<\\/")
-    os.makedirs(OUT_DIR, exist_ok=True)
-    with open(os.path.join(OUT_DIR, "index.html"), "w", encoding="utf-8") as f:
-        f.write(tpl.replace("/*DATA*/null", payload))
-    print(f"Spremljeno {len(articles)} članaka u site/index.html", file=sys.stderr)
+    site_url = settings.get("url", "")
+    if os.path.isdir(OUT_DIR):
+        shutil.rmtree(OUT_DIR)
+    shutil.copytree(os.path.join(ROOT, "static"), OUT_DIR)
+    for topic in [None, *TOPICS]:
+        slug = PAGE_SLUGS.get(topic, "")
+        page = (tpl.replace("/*DATA*/null", payload)
+                .replace("/*PAGE*/null", json.dumps(topic, ensure_ascii=False))
+                .replace("{{BASE}}", "../" if slug else "./")
+                .replace("{{TITLE}}", f"{topic} – zadar.click" if topic else "zadar.click – vijesti iz Zadra")
+                .replace("{{DESC}}", PAGE_DESC[topic])
+                .replace("{{URL}}", site_url + (slug + "/" if slug else ""))
+                .replace("{{SITE}}", site_url))
+        out = os.path.join(OUT_DIR, slug) if slug else OUT_DIR
+        os.makedirs(out, exist_ok=True)
+        with open(os.path.join(out, "index.html"), "w", encoding="utf-8") as f:
+            f.write(page)
+    print(f"Spremljeno {len(articles)} članaka u site/", file=sys.stderr)
 
 
 if __name__ == "__main__":
