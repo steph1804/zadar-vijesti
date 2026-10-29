@@ -245,6 +245,30 @@ def face_focus(url):
     return round(100 * (top + bottom) / 2 / h)
 
 
+FLIGHTS_URL = "https://www.zadar-airport.hr/wp-content/themes/hello-elementor-child/current-flights.json"
+
+
+def airport_flights():
+    """Današnji dolasci i odlasci s javnog popisa Zračne luke Zadar (isti koji koristi njihova stranica)."""
+    try:
+        data, _ = fetch(FLIGHTS_URL)
+        rows = json.loads(data)
+    except Exception as e:  # noqa: BLE001
+        print(f"[Zračna luka Zadar] {e}", file=sys.stderr)
+        return None
+    flights = []
+    for r in rows:
+        flights.append({
+            "dir": "dolazak" if r.get("AD") == "ARRIVAL" else "odlazak",
+            "flight": r.get("brlet", ""), "airline": (r.get("operlong") or "").title(),
+            "city": r.get("fromto", ""), "via": r.get("via", ""),
+            "time": r.get("schtime", ""), "est": r.get("esttime", ""), "act": r.get("acttime", ""),
+            "status": r.get("comment", ""), "gate": r.get("gate", ""),
+        })
+    flights.sort(key=lambda f: f["time"])
+    return flights
+
+
 def discover_feed(site):
     """Traži RSS link u zaglavlju naslovnice portala."""
     try:
@@ -444,6 +468,7 @@ def main():
         json.dump(articles, f, ensure_ascii=False, indent=1)
     with open(os.path.join(os.path.dirname(CACHE_FILE), "status.json"), "w", encoding="utf-8") as f:
         json.dump({"updated": now, "sources": status}, f, ensure_ascii=False, indent=1)
+    info["flights"] = airport_flights()
     with open(os.path.join(os.path.dirname(CACHE_FILE), "info.json"), "w", encoding="utf-8") as f:
         json.dump(info, f, ensure_ascii=False, indent=1)
     render(articles, sources, status, now, info)

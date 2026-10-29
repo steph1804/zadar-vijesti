@@ -38,6 +38,8 @@
   .warn { background: var(--warn-bg); color: var(--warn); border-radius: 6px; padding: 4px 8px; margin-top: 6px; font-size: .82rem; }
   .box ul { margin: 0; padding-left: 18px; }
   .box details { margin-top: 6px; }
+  .flights { list-style: none; padding-left: 0 !important; font-size: .85rem; margin-bottom: 6px !important; }
+  .flights .st { color: var(--muted); }
   .box summary { cursor: pointer; color: var(--accent); }
   .box details ul { margin-top: 6px; }
   .box li { margin-bottom: 4px; }
@@ -79,6 +81,7 @@
     <div class="box" id="weather"><h3>Vrijeme u Zadru</h3><p class="small">Učitavam prognozu…</p></div>
     <div class="box" id="ferries"><h3>Trajekti</h3></div>
     <div class="box" id="roads"><h3>Ceste i promet</h3></div>
+    <div class="box" id="flights"><h3>Zračna luka Zadar</h3></div>
     <div class="box" id="events"><h3>Događanja u Zadru</h3>
       <p>Koncerti, izložbe, predstave i ostala događanja u gradu i okolici.</p>
       <p class="small"><a href="https://zadar.events/" target="_blank" rel="noopener">Pogledaj kalendar na zadar.events →</a></p>
@@ -278,6 +281,35 @@ async function weather() {
   }
 }
 
+// --- Letovi (popis Zračne luke Zadar, osvježava se sa stranicom svaki sat) ---
+const FLIGHT_STATUS = { "Landed": "sletio", "Departed": "poletio", "Delayed": "kasni", "Cancelled": "otkazan",
+  "Canceled": "otkazan", "Boarding": "ukrcaj", "Gate closed": "izlaz zatvoren", "Final call": "zadnji poziv",
+  "Check-in": "prijava", "Diverted": "preusmjeren", "Expected": "očekuje se", "Airborne": "u zraku" };
+function flights() {
+  const box = document.getElementById("flights");
+  const all = (DATA.info && DATA.info.flights) || null;
+  const hm = s => s ? s.slice(11, 16) : "";
+  if (!all || !all.length) {
+    box.append(el("p", { class: "small" }, all ? "Danas nema letova na popisu." : "Popis letova trenutno nije dostupan."));
+  }
+  for (const [dir, label] of [["dolazak", "Dolasci"], ["odlazak", "Odlasci"]]) {
+    const list = (all || []).filter(f => f.dir === dir);
+    if (!list.length) continue;
+    box.append(el("p", { class: "small" }, el("b", {}, label)));
+    const ul = el("ul", { class: "flights" });
+    for (const f of list) {
+      const changed = f.est && f.est !== f.time && !f.act ? ` (očekivano ${hm(f.est)})` : "";
+      const st = FLIGHT_STATUS[f.status] || f.status.toLowerCase();
+      const city = f.via ? `${f.city} (međuslijetanje: ${f.via})` : f.city;
+      ul.append(el("li", {}, el("b", {}, hm(f.time)), ` ${city} · ${f.flight}${changed}`,
+        st ? el("span", { class: "st" }, ` · ${st}${f.act ? " " + hm(f.act) : ""}`) : null));
+    }
+    box.append(ul);
+  }
+  box.append(el("p", { class: "small" }, `Stanje u ${fmt.format(new Date(DATA.updated))}. `,
+    el("a", { href: "https://www.zadar-airport.hr/pregled-letova/?sekcija=putnici", target: "_blank", rel: "noopener" }, "Uživo na stranici zračne luke →")));
+}
+
 function analytics() {
   const code = DATA.settings && DATA.settings.goatcounter;
   if (!code) return;
@@ -291,6 +323,7 @@ setupTools();
 render();
 ferries();
 roads();
+flights();
 weather();
 analytics();
 </script>
