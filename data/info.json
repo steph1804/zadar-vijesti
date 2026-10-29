@@ -6,5 +6,67 @@
    "date": "2026-10-29T08:35:00+00:00",
    "summary": "Red plovidbe u četvrtak , 29.10."
   }
+ ],
+ "flights": [
+  {
+   "dir": "dolazak",
+   "flight": "FR1963",
+   "airline": "Ryanair",
+   "city": "Memmingen",
+   "via": "",
+   "time": "2026-10-29T07:15:00",
+   "est": "2026-10-29T08:00:00",
+   "act": "2026-10-29T07:58:00",
+   "status": "Landed",
+   "gate": ""
+  },
+  {
+   "dir": "odlazak",
+   "flight": "FR1962",
+   "airline": "Ryanair",
+   "city": "Memmingen",
+   "via": "",
+   "time": "2026-10-29T07:40:00",
+   "est": "2026-10-29T08:27:00",
+   "act": "2026-10-29T09:58:00",
+   "status": "Departed",
+   "gate": "07"
+  },
+  {
+   "dir": "dolazak",
+   "flight": "OU674",
+   "airline": "Croatia Airlines",
+   "city": "Zagreb",
+   "via": "",
+   "time": "2026-10-29T14:55:00",
+   "est": "2026-10-29T14:55:00",
+   "act": "2026-10-29T15:01:00",
+   "status": "Landed",
+   "gate": ""
+  },
+  {
+   "dir": "odlazak",
+   "flight": "OU674",
+   "airline": "Croatia Airlines",
+   "city": "Zagreb",
+   "via": "Pula",
+   "time": "2026-10-29T15:20:00",
+   "est": "2026-10-29T15:20:00",
+   "act": "2026-10-29T15:32:00",
+   "status": "Departed",
+   "gate": "05"
+  },
+  {
+   "dir": "dolazak",
+   "flight": "OU675",
+   "airline": "Croatia Airlines",
+   "city": "Zagreb",
+   "via": "Pula",
+   "time": "2026-10-29T23:00:00",
+   "est": "2026-10-29T23:00:00",
+   "act": "",
+   "status": "",
+   "gate": ""
+  }
  ]
 }
