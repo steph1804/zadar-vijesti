@@ -1,0 +1,73 @@
+# Strogi filtar: članak se prikazuje samo ako spominje Zadar ili mjesto iz Zadarske županije
+# (u naslovu, sažetku, tekstu iz feeda, linku ili rubrikama). Jedan regularni izraz po retku,
+# bez razlike velikih i malih slova; \w* hvata padeže (Benkovac, Benkovca, benkovački...).
+zadar|zadra|zadru|zadrom|zadran\w*|zadrank\w*|zadarsk\w*|zadarč\w*
+županij\w* zadar\w*|zadarsk\w* županij\w*|žnl
+benkov\w*
+biograd\w*
+nin|ninu|ninom|ninsk\w*|ninjan\w*
+obrov\w*
+pag|pagu|pagom|pašk\w*
+bibinj\w*
+galovc\w*|galovac
+gračac|gračc\w*|gračk\w*
+jasenic\w*
+kali|kalima|kaljan\w*
+kolan\w*
+kukljic\w*
+lišan\w*
+novigrad\w*
+pakoštan\w*
+pašman\w*
+polača|polači|polaču
+poličnik\w*
+posedarj\w*
+povljan\w*
+privlak\w*
+ražanac|ražanc\w*
+stankovc\w*|stankovci
+starigrad\w*
+sukošan\w*
+sv\.? filip\w* i jakov\w*|svet\w* filip\w* i jakov\w*|filipjakov\w*
+škabrnj\w*
+tkon\w*
+vir|viru|virsk\w*
+vrsi|vrsima
+zemunik\w*
+ugljan\w*
+dug\w* otok\w*|dugootoč\w*
+silb\w*
+olib\w*
+premud\w*
+molat\w*
+iž|iža|ižu
+rava|ravi|ravu
+lukoran\w*|kali|kukljica|sutomišćic\w*|poljan\w* na ugljanu
+petrčan\w*
+zaton\w*
+diklo|dikl\w*
+borik\w*
+puntamik\w*
+arbanas\w*
+bokanj\w*
+gaženic\w*
+sinjoretov\w*
+ravnic\w*
+jazin\w*
+voštarnic\w*
+višnjik\w*
+smiljev\w*
+plovanij\w*
+bili brig\w*
+kožin\w*
+turanj\w*
+maslenic\w*
+rovanjsk\w*
+seline
+karin|karinu|karinsk\w*
+tribanj\w*
+ljubač\w*
+vrana|vrani|vransk\w*
+paklenic\w*
+telašćic\w*
+raštan\w*

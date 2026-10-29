@@ -23,7 +23,14 @@ Popis je u `feeds.json`. Za svaki portal:
 
 - `enabled` (neobavezno) – `false` privremeno isključuje portal (razlog piše u `note`)
 
+- `local_only` (neobavezno) – `false` isključuje strogi filtar mjesta za taj portal
+
 Ako portal ima oba filtra, članak prolazi ako zadovoljava bilo koji. Bez filtra uzima se sve.
+
+## Strogi filtar mjesta
+
+Svaki članak mora spominjati Zadar ili mjesto iz Zadarske županije (naslov, tekst iz feeda,
+link ili rubrike). Popis mjesta je u `places.txt` i lako se dopunjuje.
 
 Ako feed nema sliku, skripta je uzima iz `og:image` oznake na stranici članka.
 

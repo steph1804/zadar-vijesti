@@ -22,6 +22,7 @@ FEEDS_FILE = os.path.join(ROOT, "feeds.json")
 CACHE_FILE = os.path.join(ROOT, "data", "articles.json")
 OUT_DIR = os.path.join(ROOT, "site")
 TEMPLATE = os.path.join(ROOT, "template.html")
+PLACES_FILE = os.path.join(ROOT, "places.txt")
 
 USER_AGENT = "Mozilla/5.0 (compatible; LokalniAgregator/1.0)"
 TIMEOUT = 20
@@ -167,6 +168,7 @@ def _item(title, link, date, desc, content, image, base_url, categories):
         "summary": summarize(text),
         "image": urllib.parse.urljoin(base_url, image) if image else None,
         "categories": categories,
+        "text": (desc_text + " " + content_text)[:3000],
     }
 
 
@@ -233,6 +235,8 @@ def load_source(src):
 
     if src.get("link_contains") or src.get("categories"):
         items = [i for i in items if wanted(src, i)]
+    if src.get("local_only", True):
+        items = [i for i in items if is_local(i)]
     items = [i for i in items if i["title"] and i["link"]][:MAX_PER_SOURCE]
     for i in items:
         i["source"] = src["name"]
@@ -247,6 +251,23 @@ def wanted(src, item):
         return True
     allowed = {c.casefold() for c in src.get("categories", [])}
     return any(c.casefold() in allowed for c in item["categories"])
+
+
+def _load_places():
+    with open(PLACES_FILE, encoding="utf-8") as f:
+        pats = [l.split("#")[0].strip() for l in f]
+    return re.compile(r"(?<!\w)(?:%s)(?!\w)" % "|".join(p for p in pats if p), re.I)
+
+
+PLACES = _load_places()
+
+
+def is_local(item):
+    """Spominje li članak Zadar ili neko mjesto iz Zadarske županije."""
+    slug = urllib.parse.unquote(urllib.parse.urlsplit(item["link"]).path).replace("-", " ").replace("/", " ")
+    hay = " ".join([item["title"], item["summary"], item.get("text", ""), slug,
+                    " ".join(item.get("categories", []))])
+    return bool(PLACES.search(hay))
 
 
 def strip_tracking(url):
@@ -289,7 +310,10 @@ def main():
 
     for i in fresh:
         i.pop("categories", None)
+        i.pop("text", None)
         cache[i["link"]] = i
+    enabled = {s["name"] for s in sources}
+    cache = {k: a for k, a in cache.items() if a["source"] in enabled and is_local(a)}
     articles = sorted(cache.values(), key=lambda a: a["date"], reverse=True)[:MAX_TOTAL]
 
     os.makedirs(os.path.dirname(CACHE_FILE), exist_ok=True)

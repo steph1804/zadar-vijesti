@@ -53,6 +53,19 @@
     "site": "https://023.hr/",
     "feeds": [
       "https://023.hr/feed/"
+    ],
+    "categories": [
+      "Zadar",
+      "Županija",
+      "Sport",
+      "Vrijeme"
+    ]
+  },
+  {
+    "name": "Sport023",
+    "site": "https://sport023.hr/",
+    "feeds": [
+      "https://sport023.hr/feed/"
     ]
   },
   {
