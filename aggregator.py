@@ -38,9 +38,9 @@ NS = {
 }
 
 
-def fetch(url):
+def fetch(url, timeout=TIMEOUT):
     req = urllib.request.Request(url, headers={"User-Agent": USER_AGENT})
-    with urllib.request.urlopen(req, timeout=TIMEOUT) as r:
+    with urllib.request.urlopen(req, timeout=timeout) as r:
         return r.read(), r.geturl()
 
 
@@ -183,7 +183,7 @@ _HREF = re.compile(r'href=["\']([^"\']+)["\']', re.I)
 def og_image(url):
     """Slika iz <meta property="og:image"> s same stranice članka."""
     try:
-        data, final = fetch(url)
+        data, final = fetch(url, 60)
     except Exception:
         return None
     page = data[:300_000].decode("utf-8", "replace")
@@ -219,7 +219,7 @@ def load_source(src):
             continue
         tried.add(url)
         try:
-            data, final = fetch(url)
+            data, final = fetch(url, src.get("timeout", TIMEOUT))
             items = parse_feed(data, final)
             if items:
                 break
@@ -240,6 +240,8 @@ def load_source(src):
     items = [i for i in items if i["title"] and i["link"]][:MAX_PER_SOURCE]
     for i in items:
         i["source"] = src["name"]
+        if src.get("topic"):
+            i["source_topic"] = src["topic"]
         i["topics"] = topics(i, src)
         i["source_url"] = src.get("site", "")
         i["link"] = strip_tracking(i["link"])
@@ -301,9 +303,12 @@ def topics(item, src=None):
         found.append("Županija")
     if AREAS["otoci"].search(hay):
         found.append("Otoci")
-    if (src or {}).get("topic") == "Sport" or SPORT.search(_haystack(item, full=False)):
+    if SPORT.search(_haystack(item, full=False)):
         found.append("Sport")
-    return found
+    topic = (src or {}).get("topic") or item.get("source_topic")
+    if topic and topic not in found:
+        found.append(topic)
+    return sorted(found, key=TOPICS.index)
 
 
 def strip_tracking(url):

@@ -60,6 +60,17 @@
     "topic": "Sport"
   },
   {
+    "name": "Naši školji",
+    "site": "https://www.nasiskolji.hr/",
+    "feeds": [
+      "https://www.nasiskolji.hr/feed/"
+    ],
+    "topic": "Otoci",
+    "timeout": 90,
+    "local_only": false,
+    "note": "Portal otoka Ugljana i Pašmana; spor poslužitelj, pa duži timeout."
+  },
+  {
     "name": "Grad Zadar",
     "site": "https://www.grad-zadar.hr/",
     "feeds": [
