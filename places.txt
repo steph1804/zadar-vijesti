@@ -156,7 +156,7 @@ posedarsk\w*
 zemuničk\w*
 pašk\w*
 silbansk\w*
-olibsk\w*
+olibsk\w*|olipsk\w*
 molatsk\w*
 ?prečk\w*
 ?privlačk\w*
