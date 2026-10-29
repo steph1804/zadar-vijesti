@@ -1,22 +1,75 @@
 {
- "https://m.hak.hr/": {
-  "status": 200,
-  "type": "text/html",
-  "len": 5924,
-  "head": " HAK mobile Stanje na cestama Kamere Promet info Radari Cestarina Gorivo Te�aj Popusti Vrijeme Adresar �lanstvo Revija HAK Intranet &nbsp; /* The Modal (background) */ .modal { display: none; /* Hidden by default */ position: fixed; /* Stay in place */ z-index: 1; /* Sit on top */ left: 0; top: 0; width: 100%; /* Full width */ // height: 100%; /* Full height */ overflow: auto; /* Enable scroll if needed */ /* background-color: rgb(0,0,0); /* Fallback color */ /* background-color: rgba(0,0,0,0.4); /* Black w/ opacity */ -webkit-animation-name: fadeIn; /* Fade in the background */ -webkit-animation-duration: 0.4s; animation-name: fadeIn; animation-duration: 0.4s } /* Modal Content */ .modal-content { position: fixed; bottom: 0; background-color: #fefefe; width: 100%; -webkit-animation-name: slideIn; -webkit-animation-duration: 0.4s; animation-name: slideIn; animation-duration: 0.4s } /* The Close Button */ .close { color: white; float: right; font-size: 28px; font-weight: bold; } .close:hover,.close:focus { color: #000; text-decoration: none; cursor: pointer; } .modal-body {padding: 2px 10px; background-color: gray; color: white; } .modal-body a{color: white;} /* Add Animation */ @-webkit-keyframes slideIn { from {bottom: -300px; opacity: 0} to {bottom: 0; opacity: 1} } @keyframes slideIn { from {bottom: -300px; opacity: 0} to {bottom: 0; opacity: 1} } @-webkit-keyframes fadeIn { from {opacity: 0} to {opacity: 1} } @keyframes fadeIn { from {opacity: 0} to {opacity: 1} } .button { background-color: #4CAF50; border: none; color: white; padding: 5px 12px; text-align: center; text-decoration: none; display: inline-block; font-size: 16px; margin: 4px 2px; cursor: pointer; } &times; HAK koristi kola&#269;i&#263;e (eng. cookies) kako bi pru&#382;io bolje korisni&#269;ko iskustvo i funkcionalnost stranica. Vi&#353;e informacija o za&#353;titi privatnosti i kola&#269;i&#263;ima mo&#382;ete pro&#269;itati ovdje . Pregledom stranica pristajete na kori&#353;tenje kola&#269;i&#263;a. Prihvati // Get the modal var modal = document.getElementById('myCookie'); var span = document.getElementById('close'); // When the user clicks on (x), close the modal span.onclick = function() { modal.style.display = \"none\";deleteAllCookies();} //--COOKIE--- function deleteAllCookies(){ var cookies = document.cookie.split(\";\"); for (var i = 0; i ",
-  "title": "HAK mobile"
- },
  "https://m.hak.hr/stanje.asp": {
   "status": 200,
   "type": "text/html",
   "len": 6112,
   "head": " HAK - Stanje na cestama Stanje na cestama 29.10.2026. 12:49:22 Prohodnost cesta Grani�ni prijelazi Pomorski promet �eljezni�ki promet Ograni�enja za teretna vozila Prometna prognoza Karta stanja na cestama Savjeti voza�ima Obaveza zimske opreme Vo�nja po mokrim i skliskim kolnicima Vo�nja zimi, po magli ili poledici Savjeti za sigurnu vo�nju Savjeti MUP-a i HAK-a motociklistima Po�etna /* The Modal (background) */ .modal { display: none; /* Hidden by default */ position: fixed; /* Stay in place */ z-index: 1; /* Sit on top */ left: 0; top: 0; width: 100%; /* Full width */ // height: 100%; /* Full height */ overflow: auto; /* Enable scroll if needed */ /* background-color: rgb(0,0,0); /* Fallback color */ /* background-color: rgba(0,0,0,0.4); /* Black w/ opacity */ -webkit-animation-name: fadeIn; /* Fade in the background */ -webkit-animation-duration: 0.4s; animation-name: fadeIn; animation-duration: 0.4s } /* Modal Content */ .modal-content { position: fixed; bottom: 0; background-color: #fefefe; width: 100%; -webkit-animation-name: slideIn; -webkit-animation-duration: 0.4s; animation-name: slideIn; animation-duration: 0.4s } /* The Close Button */ .close { color: white; float: right; font-size: 28px; font-weight: bold; } .close:hover,.close:focus { color: #000; text-decoration: none; cursor: pointer; } .modal-body {padding: 2px 10px; background-color: gray; color: white; } .modal-body a{color: white;} /* Add Animation */ @-webkit-keyframes slideIn { from {bottom: -300px; opacity: 0} to {bottom: 0; opacity: 1} } @keyframes slideIn { from {bottom: -300px; opacity: 0} to {bottom: 0; opacity: 1} } @-webkit-keyframes fadeIn { from {opacity: 0} to {opacity: 1} } @keyframes fadeIn { from {opacity: 0} to {opacity: 1} } .button { background-color: #4CAF50; border: none; color: white; padding: 5px 12px; text-align: center; text-decoration: none; display: inline-block; font-size: 16px; margin: 4px 2px; cursor: pointer; } &times; HAK koristi kola&#269;i&#263;e (eng. cookies) kako bi pru&#382;io bolje korisni&#269;ko iskustvo i funkcionalnost stranica. Vi&#353;e informacija o za&#353;titi privatnosti i kola&#269;i&#263;ima mo&#382;ete pro&#269;itati ovdje . Pregledom stranica pristajete na kori&#353;tenje kola&#269;i&#263;a. Prihvati // Get the modal var modal = document.getElementById('myCookie'); var span = document.getElementById('close'); // When the user clicks on (x), close the modal span.onclick = function() { modal.style.display = \"none\";deleteAllCookies();}",
+  "links": [
+   [
+    "map.asp?t=8987&g=0",
+    "<img border='0' src='images/btn-satelit.png' width='17' height='17'>"
+   ],
+   [
+    "https://m.hak.hr/stanje.asp?id=1",
+    "Prohodnost cesta"
+   ],
+   [
+    "https://m.hak.hr/stanje.asp?id=2",
+    "Grani�ni prijelazi"
+   ],
+   [
+    "https://m.hak.hr/stanje.asp?id=3",
+    "Pomorski promet"
+   ],
+   [
+    "https://m.hak.hr/stanje.asp?id=4",
+    "�eljezni�ki promet"
+   ],
+   [
+    "https://m.hak.hr/stanje.asp?id=10",
+    "Ograni�enja za teretna vozila"
+   ],
+   [
+    "https://m.hak.hr/stanje.asp?id=11",
+    "Prometna prognoza"
+   ],
+   [
+    "https://m.hak.hr/stanje.asp?id=62",
+    "Karta stanja na cestama"
+   ],
+   [
+    "https://m.hak.hr/stanje.asp?id=50",
+    "Obaveza zimske opreme"
+   ],
+   [
+    "https://m.hak.hr/stanje.asp?id=56",
+    "Vo�nja po mokrim i skliskim kolnicima"
+   ],
+   [
+    "https://m.hak.hr/stanje.asp?id=57",
+    "Vo�nja zimi, po magli ili poledici"
+   ],
+   [
+    "https://m.hak.hr/stanje.asp?id=58",
+    "Savjeti za sigurnu vo�nju"
+   ],
+   [
+    "https://m.hak.hr/stanje.asp?id=61",
+    "Savjeti MUP-a i HAK-a motociklistima"
+   ],
+   [
+    "https://m.hak.hr/",
+    "Po�etna"
+   ],
+   [
+    "//www.hak.hr/hak/zastita-privatnosti/",
+    "<u>ovdje</u>"
+   ],
+   [
+    "javascript:Razumijem()",
+    "Prihvati"
+   ]
+  ],
   "title": "HAK - Stanje na cestama"
- },
- "https://www.hak.hr/info/stanje-na-cestama/tekst": {
-  "error": "<HTTPError 404: 'Not Found'>"
- },
- "https://www.hak.hr/info/prohodnost-cesta/": {
-  "error": "<HTTPError 404: 'Not Found'>"
  }
 }
