@@ -100,7 +100,7 @@ const fold = s => s.toLocaleLowerCase("hr").normalize("NFD").replace(/[̀-ͯ]/g,
 
 function matches(a, ignoreTopic) {
   if (!ignoreTopic && state.topic !== "Sve" && !(a.topics || []).includes(state.topic)) return false;
-  if (state.source && a.source !== state.source && !(a.also || []).some(x => x.source === state.source)) return false;
+  if (state.source && a.source !== state.source) return false;
   if (state.q) {
     const hay = fold(a.title + " " + a.summary + " " + a.source);
     if (!fold(state.q).split(/\s+/).every(w => hay.includes(w))) return false;
@@ -108,10 +108,23 @@ function matches(a, ignoreTopic) {
   return true;
 }
 
+// Kad je odabran portal, spojena kartica prikazuje članak baš s tog portala,
+// a ostali portali idu u "Piše i".
+function visible() {
+  if (!state.source) return DATA.articles;
+  return DATA.articles.map(a => {
+    if (a.source === state.source || !a.also) return a;
+    const own = a.also.find(x => x.source === state.source);
+    if (!own || !own.title) return a;
+    const others = [a, ...a.also.filter(x => x !== own)].map(x => ({ source: x.source, link: x.link }));
+    return { ...own, topics: a.topics, also: others };
+  });
+}
+
 function chips() {
   const box = document.getElementById("chips");
   box.textContent = "";
-  const pool = DATA.articles.filter(a => matches(a, true));
+  const pool = visible().filter(a => matches(a, true));
   for (const name of ["Sve", ...DATA.topics]) {
     const n = name === "Sve" ? pool.length : pool.filter(a => (a.topics || []).includes(name)).length;
     const b = el("button", { class: "chip", "aria-pressed": String(name === state.topic) }, name, el("span", { class: "n" }, String(n)));
@@ -123,7 +136,7 @@ function chips() {
 function list() {
   const main = document.getElementById("list");
   main.textContent = "";
-  const items = DATA.articles.filter(a => matches(a));
+  const items = visible().filter(a => matches(a));
   if (!items.length) { main.append(el("div", { class: "empty" }, "Nema vijesti za odabrane filtre.")); return; }
   for (const a of items) {
     const link = { href: a.link, target: "_blank", rel: "noopener" };

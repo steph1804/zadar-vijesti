@@ -385,7 +385,7 @@ def group_duplicates(articles):
                 continue
             shared = words & g["words"]
             if len(shared) >= 4 and len(shared) / min(len(words), len(g["words"])) >= 0.4:
-                lead["also"].append({"source": a["source"], "link": a["link"]})
+                lead["also"].append({k: a.get(k) for k in ("source", "link", "title", "summary", "image", "date")})
                 lead["topics"] = sorted(set(lead["topics"]) | set(a.get("topics", [])), key=TOPICS.index)
                 g["sources"].add(a["source"])
                 break
