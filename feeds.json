@@ -67,6 +67,16 @@
     "topic": "Sport"
   },
   {
+    "name": "KK Zadar",
+    "site": "https://kkzadar.hr/novosti/",
+    "feeds": [
+      "https://kkzadar.hr/feed/"
+    ],
+    "topic": "Sport",
+    "local_only": false,
+    "note": "Službene vijesti kluba, sve su o Zadru"
+  },
+  {
     "name": "Naši školji",
     "site": "https://www.nasiskolji.hr/",
     "feeds": [
