@@ -1,9 +1,9 @@
 {
- "updated": "2026-10-29T18:29:15.827756+00:00",
+ "updated": "2026-10-29T18:46:54.144551+00:00",
  "sources": [
   {
    "name": "Antena Zadar",
-   "count": 8,
+   "count": 7,
    "ok": true,
    "feed": null,
    "errors": []
@@ -131,8 +131,8 @@
   },
   {
    "name": "Novi list",
-   "count": 1,
-   "ok": true,
+   "count": 0,
+   "ok": false,
    "feed": null,
    "errors": []
   },
@@ -145,8 +145,8 @@
   },
   {
    "name": "Dnevnik.hr",
-   "count": 0,
-   "ok": false,
+   "count": 1,
+   "ok": true,
    "feed": null,
    "errors": []
   },
