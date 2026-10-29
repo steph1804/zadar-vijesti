@@ -11,6 +11,7 @@ import json
 import os
 import re
 import sys
+import threading
 import time
 import urllib.parse
 import urllib.request
@@ -207,6 +208,43 @@ def og_image(url):
     return None
 
 
+_FACES = None
+_FACES_LOCK = threading.Lock()
+
+
+def face_focus(url):
+    """Okomiti položaj lica na slici u postocima (0 = vrh), da ih rezanje na kartici ne odreže.
+
+    Treba opencv-python-headless; bez njega (ili ako lica nema) vraća None i stranica
+    koristi zadani položaj. Ako je lica više, uzima se sredina između najvišeg i najnižeg.
+    """
+    global _FACES
+    try:
+        import cv2
+        import numpy as np
+    except ImportError:
+        return None
+    try:
+        data, _ = fetch(url, 30)
+    except Exception:
+        return None
+    img = cv2.imdecode(np.frombuffer(data, np.uint8), cv2.IMREAD_GRAYSCALE)
+    if img is None:
+        return None
+    h = img.shape[0]
+    side = min(img.shape[:2])
+    with _FACES_LOCK:
+        if _FACES is None:
+            _FACES = cv2.CascadeClassifier(cv2.data.haarcascades + "haarcascade_frontalface_default.xml")
+        faces = _FACES.detectMultiScale(img, scaleFactor=1.1, minNeighbors=6,
+                                        minSize=(max(24, side // 20),) * 2)
+    if len(faces) == 0:
+        return None
+    top = min(y for x, y, w, fh in faces)
+    bottom = max(y + fh for x, y, w, fh in faces)
+    return round(100 * (top + bottom) / 2 / h)
+
+
 def discover_feed(site):
     """Traži RSS link u zaglavlju naslovnice portala."""
     try:
@@ -364,6 +402,17 @@ def main():
         missing = [i for i in fresh if not i["image"]]
         for i, img in zip(missing, pool.map(lambda i: og_image(i["link"]), missing)):
             i["image"] = img
+
+        # Položaj lica računamo samo jednom po slici (staro se čuva u predmemoriji).
+        todo = []
+        for i in fresh:
+            old = cache.get(i["link"])
+            if old and old.get("image") == i["image"] and "focus" in old:
+                i["focus"] = old["focus"]
+            elif i["image"]:
+                todo.append(i)
+        for i, focus in zip(todo, pool.map(lambda i: face_focus(i["image"]), todo)):
+            i["focus"] = focus
 
     for i in fresh:
         i.pop("categories", None)

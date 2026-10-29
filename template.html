@@ -146,6 +146,8 @@ function list() {
     const card = el("article");
     if (a.image) {
       const img = el("img", { src: a.image, alt: "", loading: "lazy", referrerpolicy: "no-referrer" });
+      // Lica (ako su prepoznata) ostaju u kadru; inače gornja trećina, gdje su lica najčešće.
+      img.style.objectPosition = `50% ${a.focus ?? 30}%`;
       img.onerror = () => img.parentElement.remove();
       card.append(el("a", { ...link, class: "img", tabindex: "-1", "aria-hidden": "true" }, img));
     }
