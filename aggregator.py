@@ -371,6 +371,14 @@ def _title_words(a):
     return {w[:6] for w in words if len(w) > 3}
 
 
+def current_topics(a):
+    """Teme po trenutnom places.txt; Sport ostaje ako je dodijeljen pri preuzimanju (rubrika ili portal)."""
+    found = topics(a)
+    if "Sport" in a.get("topics", []) and "Sport" not in found:
+        found.append("Sport")
+    return sorted(found, key=TOPICS.index)
+
+
 def group_duplicates(articles):
     """Isti događaj s više portala spaja u jednu karticu (najnoviji članak + linkovi na ostale)."""
     groups = []
@@ -386,11 +394,11 @@ def group_duplicates(articles):
             shared = words & g["words"]
             if len(shared) >= 4 and len(shared) / min(len(words), len(g["words"])) >= 0.4:
                 lead["also"].append({k: a.get(k) for k in ("source", "link", "title", "summary", "image", "date")})
-                lead["topics"] = sorted(set(lead["topics"]) | set(a.get("topics", [])), key=TOPICS.index)
+                lead["topics"] = sorted(set(lead["topics"]) | set(current_topics(a)), key=TOPICS.index)
                 g["sources"].add(a["source"])
                 break
         else:
-            lead = dict(a, also=[], topics=a.get("topics") or topics(a))
+            lead = dict(a, also=[], topics=current_topics(a))
             groups.append({"lead": lead, "words": words, "sources": {a["source"]}})
     return [g["lead"] for g in groups]
 

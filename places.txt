@@ -60,10 +60,11 @@ paklenic\w*
 raštan\w*
 
 [otoci]
-pag|pagu|pagom|pašk\w*
+# Samo imena zadarskih otoka i mjesta na njima; opće riječi (otok, otočni) i Paški most ne računaju se.
+pag|paga|pagu|pagom|pažan\w*
 kolan\w*
 povljan\w*
-vir|viru|virsk\w*
+vir|viru|virjan\w*
 ugljan\w*
 kali|kalima|kaljan\w*
 kukljic\w*
@@ -81,4 +82,3 @@ molat\w*
 iž|iža|ižu
 rava|ravi|ravu
 telašćic\w*
-otok\w*|otoc\w*|otočn\w*|otočan\w*
