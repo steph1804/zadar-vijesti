@@ -1,20 +1,16 @@
 import re, urllib.request, json
+import urllib.parse
 UA = "Mozilla/5.0 (compatible; LokalniAgregator/1.0; +https://github.com/steph1804/zadar-vijesti)"
 out = {}
-for u in ["https://www.hak.hr/info/stanje-na-cestama/", "https://www.hak.hr/"]:
-    r = {}
-    try:
-        with urllib.request.urlopen(urllib.request.Request(u, headers={"User-Agent": UA}), timeout=40) as resp:
-            body = resp.read(1500000).decode("utf-8", "replace")
-            r["status"], r["final"] = resp.status, resp.geturl()
-        hrefs = re.findall(r'href=["\']([^"\'#]+)["\']', body)
-        r["hrefs"] = [] or sorted(set(h for h in hrefs if re.search(r"stanj|ceste|cesta|prohodn|vijest|info|tekst|promet|bilten", h, re.I)))[:80]
-        r["title"] = (re.findall(r"<title[^>]*>([^<]*)", body) or [""])[0][:100]
-        r["feeds"] = re.findall(r'<link[^>]+application/(?:rss|atom)\+xml[^>]*>', body)[:3]
-        items = re.findall(r"<item>(.*?)</item>", body, re.S)
-        r["items"] = [((re.findall(r"<title>(.*?)</title>", i, re.S) or [""])[0][:80], re.findall(r"<category>(?:<!\[CDATA\[)?(.*?)(?:\]\]>)?</category>", i)[:3], bool(re.search(r"<img|<enclosure|<media:", i))) for i in items]
-        r["zadar_text"] = sorted(set(re.findall(r'href=["\']([^"\']+)["\'][^>]*>\s*([^<]*Zadar[^<]*)<', body)))[:40]
-    except Exception as e:
-        r["error"] = repr(e)[:300]
-    out[u] = r
+u = "https://www.hak.hr/info/stanje-na-cestama/"
+body = urllib.request.urlopen(urllib.request.Request(u, headers={"User-Agent": UA}), timeout=40).read().decode("utf-8", "replace")
+out["len"] = len(body)
+out["scripts"] = re.findall(r'<script[^>]*src=["\']([^"\']+)', body)
+out["ids"] = re.findall(r'id=["\']([^"\']+)', body)[:80]
+out["tabs"] = re.findall(r'(?:href|data-[\w-]+)=["\']([^"\']*(?:tekst|text|karta|map|tab)[^"\']*)["\']', body, re.I)[:40]
+i = body.find("<main"); out["main"] = re.sub(r"\s+", " ", re.sub(r"<[^>]+>", " | ", body[i:i+6000]))[:3000]
+for s in out["scripts"]:
+    if "traffic" in s:
+        js = urllib.request.urlopen(urllib.request.Request(urllib.parse.urljoin(u, s), headers={"User-Agent": UA}), timeout=40).read().decode("utf-8","replace")
+        out.setdefault("api", []).extend(sorted(set(re.findall(r'["\'](/[\w/\-\.]*(?:api|json|stanje|traffic|info)[\w/\-\.?=&]*)["\']', js)))[:40])
 json.dump(out, open("probe/result.json", "w"), ensure_ascii=False, indent=1)
