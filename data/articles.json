@@ -1,5 +1,86 @@
 [
  {
+  "title": "Buran dan od Ražanca do Maslenice",
+  "link": "https://apihrt.akamaized.net/media/09/d4/tvd2-bura-2910-20261029191451.mp4",
+  "date": "2026-10-29T19:14:51+00:00",
+  "summary": "Buran dan od Ražanca do Maslenice",
+  "image": "https://api.hrt.hr/media/09/d4/740x438-t-tvd2-bura-2910-20261029191451.jpg",
+  "source": "HRT",
+  "topics": [
+   "Županija"
+  ],
+  "source_url": "https://vijesti.hrt.hr/",
+  "focus": null
+ },
+ {
+  "title": "Hoće li masovni turizam progutati zadarske otoke? Čvrljak poručio što ne smijemo izgubiti!",
+  "link": "https://zadarskilist.novilist.hr/zadar-zupanija/hoce-li-masovni-turizam-progutati-zadarske-otoke-cvrljak-porucio-sto-ne-smijemo-izgubiti/",
+  "date": "2026-10-29T19:00:33+00:00",
+  "summary": "Dok se turistički uspjeh najčešće mjeri brojem dolazaka, noćenja i plovila u marinama, Zadarska županija pred sobom ima znatno složeniji izazov – kako nastaviti razvijati jednu od svojih najvažnijih gospodarskih djelatnosti, a pritom ne izgubiti upravo ono zbog čega gosti dolaze.",
+  "image": "https://zadarskilist.novilist.hr/wp-content/uploads/2026/10/12466978.jpg",
+  "source": "Zadarski list",
+  "topics": [
+   "Zadar",
+   "Županija",
+   "Otoci"
+  ],
+  "source_url": "https://zadarskilist.novilist.hr/",
+  "focus": 97
+ },
+ {
+  "title": "“48 SATI” U Zadru otvorena 18. Liderova konferencija",
+  "link": "https://www.antenazadar.hr/clanak/2026/10/48-sati-u-zadru-otvorena-18-liderova-konferencija/",
+  "date": "2026-10-29T19:00:18+00:00",
+  "summary": "Konferencija ove godine okuplja rekordnih 500 sudionika, a namijenjena je gradonačelnicima, poduzetnicima i predstavnicima državne vlasti Sinoć je svečano otvorena 18.",
+  "image": "https://www.antenazadar.hr/wp-content/uploads/2026/10/image0000112.jpeg",
+  "source": "Antena Zadar",
+  "topics": [
+   "Zadar"
+  ],
+  "source_url": "https://www.antenazadar.hr/",
+  "focus": null
+ },
+ {
+  "title": "KONFERENCIJA BLUE ECONOMY / Bilaver: More nije kulisa za turiste, nego resurs koji moramo sačuvati za buduće generacije",
+  "link": "https://www.znet.hr/2026/10/29/konferencija-blue-economy-bilaver-more-nije-kulisa-za-turiste-nego-resurs-koji-moramo-sacuvati-za-buduce-generacije/",
+  "date": "2026-10-29T18:58:09+00:00",
+  "summary": "Zadarska županija ima snažan potencijal za daljnji razvoj plavog gospodarstva, osobito u području ribarstva, marikulture, nautike i lučke infrastrukture, ali taj razvoj mora biti održiv i usklađen s potrebama lokalnog stanovništva.",
+  "image": "https://www.znet.hr/wp-content/uploads/2026/10/4a76f7db5fd99eaf9c9b046e4bedd786_XL-1000x600.jpg",
+  "source": "Znet",
+  "topics": [
+   "Zadar",
+   "Županija"
+  ],
+  "source_url": "https://www.znet.hr/",
+  "focus": 77
+ },
+ {
+  "title": "Nova uhićenja zbog napada na navijače Ajaxa kod Zadra. Sve upućuje na unaprijed pripremljenu sačekušu",
+  "link": "https://www.dalmacijadanas.hr/nova-uhicenja-zbog-napada-na-navijace-ajaxa-kod-zadra-sve-upucuje-na-unaprijed-pripremljenu-sacekusu/",
+  "date": "2026-10-29T18:50:21+00:00",
+  "summary": "Policija istražuje",
+  "image": "https://www.dalmacijadanas.hr/wp-content/uploads/2025/12/policija-uhicenje.jpg",
+  "source": "Dalmacija Danas",
+  "topics": [
+   "Zadar"
+  ],
+  "source_url": "https://www.dalmacijadanas.hr/",
+  "focus": 51
+ },
+ {
+  "title": "Što Njemačka dobiva od Europske unije, a što Europa može naučiti od Berlina? Zadarski novinari u srcu njemačke politike",
+  "link": "https://slobodnadalmacija.hr/dalmacija/zadar/sto-njemacka-dobiva-od-europske-unije-a-sto-europa-moze-nauciti-od-berlina-zadarski-novinari-u-srcu-njemacke-politike-1587425",
+  "date": "2026-10-29T18:48:00+00:00",
+  "summary": "Europska unija nisu samo milijuni eura iz fondova, novi vrtići, obnovljene škole i infrastrukturni projekti. Za države članice ona znači i pristup zajedničkom tržištu, gospodarsku povezanost, političku stabilnost i mogućnost zajedničkog odgovora na sve složenije globalne izazove. Upravo je to bila j...",
+  "image": "https://static.slobodnadalmacija.hr/images/slike/2026/10/29/32757908.jpg",
+  "source": "Slobodna Dalmacija/Zadar",
+  "topics": [
+   "Zadar"
+  ],
+  "source_url": "https://slobodnadalmacija.hr/dalmacija/zadar",
+  "focus": null
+ },
+ {
   "title": "ZADAR IMA SVJETSKE PRVAKЕ Zubatac dao četvoricu reprezentativaca za četvrto uzastopno povijesno zlato!",
   "link": "https://sport023.hr/2026/10/29/zadar-ima-svjetske-prvak%d0%b5-zubatac-dao-cetvoricu-reprezentativaca-za-cetvrto-uzastopno-povijesno-zlato/",
   "date": "2026-10-29T18:11:23+00:00",
@@ -192,7 +273,7 @@
   "link": "https://www.jutarnji.hr/vijesti/hrvatska/hzjz-pfas-spojevi-nisu-utvrdeni-u-231-uzorku-vode-u-lici-na-pagu-i-rabu-15760547",
   "date": "2026-10-29T15:59:36+00:00",
   "summary": "Ni u jednom od dosad analiziranog 231 uzorka vode iz javne vodoopskrbne mreže na području Ličko-senjske županije te otoka Paga i Raba nisu otkrivene mjerljive količine PFAS spojeva, izvijestio je u četvrtak Hrvatski zavod za javno zdravstvo (HZJZ). Najnovije uzorkovanje provedeno je od 12. do 15. li...",
-  "image": "https://media.jutarnji.hr/images/slike/2026/10/29/f_35452869_1280.jpg?1793299568",
+  "image": "https://media.jutarnji.hr/images/slike/2026/10/29/f_35452869_1280.jpg?1793303056",
   "source": "Jutarnji list",
   "topics": [
    "Otoci"
