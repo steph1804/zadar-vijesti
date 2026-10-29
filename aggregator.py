@@ -330,6 +330,15 @@ def load_combined(src):
     return finish_items(src, items, errors) if items else ([], errors)
 
 
+# HRT u feed stavlja i samostalne video priloge kojima je link gola .mp4 datoteka
+# (bez stranice članka); njihov poslužitelj takve linkove odbija ("Access Denied").
+_MEDIA = re.compile(r"\.(mp4|m3u8|mp3|mov|webm)(\?|$)", re.I)
+
+
+def is_media(link):
+    return bool(_MEDIA.search(link))
+
+
 def finish_items(src, items, errors):
     if src.get("link_contains") or src.get("categories"):
         items = [i for i in items if wanted(src, i)]
@@ -337,7 +346,7 @@ def finish_items(src, items, errors):
         items = [i for i in items if is_about_zadar(i)]
     elif src.get("local_only", True) and src.get("kind") != "info":
         items = [i for i in items if is_local(i)]
-    items = [i for i in items if i["title"] and i["link"]][:MAX_PER_SOURCE]
+    items = [i for i in items if i["title"] and i["link"] and not is_media(i["link"])][:MAX_PER_SOURCE]
     for i in items:
         i["source"] = src["name"]
         if src.get("topic"):
@@ -484,7 +493,8 @@ def main():
         i.pop("text", None)
         cache[i["link"]] = i
     enabled = {s["name"] for s in sources if s.get("kind") != "info"}
-    cache = {k: a for k, a in cache.items() if a["source"] in enabled and is_local(a)}
+    cache = {k: a for k, a in cache.items() if a["source"] in enabled and is_local(a)
+             and not is_media(a["link"])}
     articles = sorted(cache.values(), key=lambda a: a["date"], reverse=True)[:MAX_TOTAL]
 
     os.makedirs(os.path.dirname(CACHE_FILE), exist_ok=True)
