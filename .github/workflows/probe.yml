@@ -9,7 +9,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-      - run: python3 probe/probe.py
+      - run: python3 probe/probe2.py
       - run: |
           git config user.name github-actions; git config user.email github-actions@users.noreply.github.com
-          git add probe/result.json; git commit -m "probe result"; git push
+          git add probe/result2.json; git commit -m "probe result"; git push
