@@ -1,10 +1,10 @@
 import re, urllib.request, json
 UA = "Mozilla/5.0 (compatible; LokalniAgregator/1.0; +https://github.com/steph1804/zadar-vijesti)"
 out = {}
-for u in ["https://nasiskolji.hr/", "https://www.nasiskolji.hr/feed/", "https://nasiskolji.hr/feed/", "https://www.nasi-skolji.hr/", "https://nasiskolji.com/"]:
+for u in ["https://www.nasiskolji.hr/", "https://www.nasiskolji.hr/feed/"]:
     r = {}
     try:
-        with urllib.request.urlopen(urllib.request.Request(u, headers={"User-Agent": UA}), timeout=40) as resp:
+        with urllib.request.urlopen(urllib.request.Request(u, headers={"User-Agent": UA}), timeout=90) as resp:
             body = resp.read(1500000).decode("utf-8", "replace")
             r["status"], r["final"] = resp.status, resp.geturl()
         hrefs = re.findall(r'href=["\']([^"\'#]+)["\']', body)
