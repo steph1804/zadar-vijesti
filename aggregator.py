@@ -286,8 +286,7 @@ def load_source(src):
     if src.get("link_contains") or src.get("categories"):
         items = [i for i in items if wanted(src, i)]
     if src.get("scope") == "national":
-        # Nacionalni portal: Zadar ili jasno zadarsko mjesto mora biti u naslovu ili uvodu.
-        items = [i for i in items if CERTAIN_PLACES.search(i["title"] + " " + i["summary"])]
+        items = [i for i in items if is_about_zadar(i)]
     elif src.get("local_only", True) and src.get("kind") != "info":
         items = [i for i in items if is_local(i)]
     items = [i for i in items if i["title"] and i["link"]][:MAX_PER_SOURCE]
@@ -324,11 +323,24 @@ def _load_places():
                 current.append(line)
     clean = {name: [p.lstrip("?") for p in pats] for name, pats in sections.items()}
     certain = [p for pats in sections.values() for p in pats if not p.startswith("?")]
+    unsure = [p[1:] for pats in sections.values() for p in pats if p.startswith("?")]
     return {name: _words(pats) for name, pats in clean.items()}, \
-        _words([p for pats in clean.values() for p in pats]), _words(certain)
+        _words([p for pats in clean.values() for p in pats]), _words(certain), _words(unsure)
 
 
-AREAS, PLACES, CERTAIN_PLACES = _load_places()
+AREAS, PLACES, CERTAIN_PLACES, UNSURE_PLACES = _load_places()
+
+
+def is_about_zadar(item):
+    """Za nacionalne portale: Zadar, mjesto iz županije ili osoba odande u naslovu ili uvodu.
+
+    Dvosmisleno ime (Vir, Nin, Novigrad...) u naslovu ili uvodu vrijedi samo ako se
+    negdje u tekstu iz feeda spominje i nešto sigurno zadarsko.
+    """
+    short = item["title"] + " " + item["summary"]
+    if CERTAIN_PLACES.search(short):
+        return True
+    return bool(UNSURE_PLACES.search(short) and CERTAIN_PLACES.search(_haystack(item)))
 SPORT = _words([r"sport\w*", r"nogomet\w*", r"košark\w*", r"vaterpol\w*", r"rukomet\w*",
                 r"odbojk\w*", r"futsal\w*", r"tenis\w*", r"jedr\w*", r"veslač\w*", r"atlet\w*",
                 r"plivač\w*", r"boks\w*", r"žnl", r"hnl", r"aba lig\w*", r"kk", r"hnk", r"nk"])

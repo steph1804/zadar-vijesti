@@ -25,6 +25,14 @@ bili brig\w*
 kožin\w*
 ?turanj\w*
 ?zaton\w*
+belafuž\w*
+kolovar\w*
+foša|foši|fošu
+kalelarg\w*
+morsk\w* orgulj\w*|pozdrav\w* suncu
+sv\.? donat\w*|svet\w* donat\w*
+sv\.? stošij\w*|svet\w* stošij\w*
+?brodaric\w*
 
 [zupanija]
 zadarsk\w* županij\w*|županij\w* zadar\w*|žnl
@@ -60,6 +68,37 @@ ljubač\w*
 ?vrana|vrani|vransk\w*
 paklenic\w*
 raštan\w*
+debeljak\w*
+?drage
+sv\.? petr\w* na moru|svet\w* petr\w* na moru
+?poljic\w*
+?rtin\w*
+slivnic\w*
+vinjerac|vinjerc\w*
+pridrag\w*
+paljuv\w*
+?krušev\w*
+smilčić\w*
+islam\w* latinsk\w*|islam\w* grčk\w*
+kakm\w*
+raštević\w*
+kula atlagić\w*|kuli atlagić\w*
+?srb|srbu
+bruvn\w*
+otrić\w*
+korlat\w*
+?biljan\w*
+lepur\w*
+?nadin\w*
+zelengrad\w*
+žegar\w*
+medviđ\w*
+bilišan\w*
+zrmanj\w*
+radovin\w*
+suhovar\w*
+?golubić\w*
+?dračev\w*
 
 [otoci]
 # Samo imena zadarskih otoka i mjesta na njima; opće riječi (otok, otočni) i Paški most ne računaju se.
@@ -84,3 +123,53 @@ molat\w*
 ?iž|iža|ižu
 ?rava|ravi|ravu
 telašćic\w*
+ždrelac|ždrelc\w*
+neviđan\w*
+mrljan\w*
+dobropoljan\w*
+ošljak\w*
+?mandr\w*
+?šimun\w*
+dinjišk\w*
+?vlašić\w*
+?košljun\w*
+rivanj\w*
+sestrunj\w*
+zverinac|zverinc\w*
+brbinj\w*
+žman\w*
+?zaglav\w*
+vel\w* rat\w*
+verunić\w*
+brgulj\w*
+zapuntel\w*
+mal\w* iž\w*|vel\w* iž\w*
+mal\w* rav\w*
+vrgad\w*
+
+[ljudi]
+# Stanovnici mjesta i poznati ljudi iz županije (gradonačelnik, župan...).
+benkovčan\w*
+biograđan\w*
+obrovčan\w*
+?gračan\w*
+pašmanac|pašmanc\w*|pašmank\w*
+bibinjc\w*|bibinjk\w*
+?ižan\w*
+silbljan\w*|silbjan\w*
+olibljan\w*
+kukljičan\w*
+posedarjan\w*
+?privlačan\w*
+zemuničan\w*
+škabrnjan\w*
+?starograđan\w*
+ražančan\w*
+?novigrađan\w*
+pakoštanc\w*
+dugootočan\w*
+šim\w* erlić\w*
+?erlić\w*
+josip\w* bilaver\w*|bilaver\w*
+branko dukić\w*|branka dukića
+božidar\w* longin\w*
