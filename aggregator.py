@@ -235,11 +235,12 @@ def load_source(src):
 
     if src.get("link_contains") or src.get("categories"):
         items = [i for i in items if wanted(src, i)]
-    if src.get("local_only", True):
+    if src.get("local_only", True) and src.get("kind") != "info":
         items = [i for i in items if is_local(i)]
     items = [i for i in items if i["title"] and i["link"]][:MAX_PER_SOURCE]
     for i in items:
         i["source"] = src["name"]
+        i["topics"] = topics(i, src)
         i["source_url"] = src.get("site", "")
         i["link"] = strip_tracking(i["link"])
     return items, errors
@@ -253,21 +254,56 @@ def wanted(src, item):
     return any(c.casefold() in allowed for c in item["categories"])
 
 
+def _words(pats):
+    return re.compile(r"(?<!\w)(?:%s)(?!\w)" % "|".join(pats), re.I)
+
+
 def _load_places():
+    sections, current = {}, None
     with open(PLACES_FILE, encoding="utf-8") as f:
-        pats = [l.split("#")[0].strip() for l in f]
-    return re.compile(r"(?<!\w)(?:%s)(?!\w)" % "|".join(p for p in pats if p), re.I)
+        for line in f:
+            line = line.split("#")[0].strip()
+            if re.fullmatch(r"\[\w+\]", line):
+                current = sections.setdefault(line[1:-1], [])
+            elif line and current is not None:
+                current.append(line)
+    return {name: _words(pats) for name, pats in sections.items()}, \
+        _words([p for pats in sections.values() for p in pats])
 
 
-PLACES = _load_places()
+AREAS, PLACES = _load_places()
+SPORT = _words([r"sport\w*", r"nogomet\w*", r"košark\w*", r"vaterpol\w*", r"rukomet\w*",
+                r"odbojk\w*", r"futsal\w*", r"tenis\w*", r"jedr\w*", r"veslač\w*", r"atlet\w*",
+                r"plivač\w*", r"boks\w*", r"žnl", r"hnl", r"aba lig\w*", r"kk", r"hnk", r"nk"])
+TOPICS = ["Zadar", "Županija", "Otoci", "Sport"]
+
+
+def _haystack(item, full=True):
+    slug = urllib.parse.unquote(urllib.parse.urlsplit(item["link"]).path).replace("-", " ").replace("/", " ")
+    parts = [item["title"], slug, " ".join(item.get("categories", []))]
+    if full:
+        parts += [item["summary"], item.get("text", "")]
+    return " ".join(parts)
 
 
 def is_local(item):
     """Spominje li članak Zadar ili neko mjesto iz Zadarske županije."""
-    slug = urllib.parse.unquote(urllib.parse.urlsplit(item["link"]).path).replace("-", " ").replace("/", " ")
-    hay = " ".join([item["title"], item["summary"], item.get("text", ""), slug,
-                    " ".join(item.get("categories", []))])
-    return bool(PLACES.search(hay))
+    return bool(PLACES.search(_haystack(item)))
+
+
+def topics(item, src=None):
+    """Teme za filtre na stranici: Zadar, Županija, Otoci, Sport."""
+    hay = _haystack(item)
+    found = []
+    if AREAS["zadar"].search(hay):
+        found.append("Zadar")
+    if AREAS["zupanija"].search(hay):
+        found.append("Županija")
+    if AREAS["otoci"].search(hay):
+        found.append("Otoci")
+    if (src or {}).get("topic") == "Sport" or SPORT.search(_haystack(item, full=False)):
+        found.append("Sport")
+    return found
 
 
 def strip_tracking(url):
@@ -289,13 +325,17 @@ def main():
     status = []
     with concurrent.futures.ThreadPoolExecutor(max_workers=8) as pool:
         results = list(pool.map(load_source, sources))
-        fresh = []
+        fresh, info = [], {}
         for src, (items, errors) in zip(sources, results):
             status.append({"name": src["name"], "count": len(items), "ok": bool(items),
                            "feed": src.get("discovered"), "errors": [] if items else errors})
             for e in errors if not items else []:
                 print(f"[{src['name']}] {e}", file=sys.stderr)
             print(f"[{src['name']}] {len(items)} članaka", file=sys.stderr)
+            if src.get("kind") == "info":
+                info[src["name"]] = [{k: i[k] for k in ("title", "link", "date", "summary")}
+                                     for i in items[:3]]
+                continue
             for i in items:
                 old = cache.get(i["link"])
                 if old and not i["image"]:
@@ -312,7 +352,7 @@ def main():
         i.pop("categories", None)
         i.pop("text", None)
         cache[i["link"]] = i
-    enabled = {s["name"] for s in sources}
+    enabled = {s["name"] for s in sources if s.get("kind") != "info"}
     cache = {k: a for k, a in cache.items() if a["source"] in enabled and is_local(a)}
     articles = sorted(cache.values(), key=lambda a: a["date"], reverse=True)[:MAX_TOTAL]
 
@@ -321,13 +361,51 @@ def main():
         json.dump(articles, f, ensure_ascii=False, indent=1)
     with open(os.path.join(os.path.dirname(CACHE_FILE), "status.json"), "w", encoding="utf-8") as f:
         json.dump({"updated": now, "sources": status}, f, ensure_ascii=False, indent=1)
-    render(articles, sources, status, now)
+    with open(os.path.join(os.path.dirname(CACHE_FILE), "info.json"), "w", encoding="utf-8") as f:
+        json.dump(info, f, ensure_ascii=False, indent=1)
+    render(articles, sources, status, now, info)
 
 
-def render(articles, sources, status, now):
+def _title_words(a):
+    words = re.findall(r"\w+", (a["title"] + " " + " ".join(a["summary"].split()[:20])).casefold())
+    return {w[:6] for w in words if len(w) > 3}
+
+
+def group_duplicates(articles):
+    """Isti događaj s više portala spaja u jednu karticu (najnoviji članak + linkovi na ostale)."""
+    groups = []
+    for a in articles:
+        words = _title_words(a)
+        when = datetime.fromisoformat(a["date"])
+        for g in groups:
+            lead = g["lead"]
+            if a["source"] in g["sources"]:
+                continue
+            if abs((datetime.fromisoformat(lead["date"]) - when).total_seconds()) > 48 * 3600:
+                continue
+            shared = words & g["words"]
+            if len(shared) >= 4 and len(shared) / min(len(words), len(g["words"])) >= 0.4:
+                lead["also"].append({"source": a["source"], "link": a["link"]})
+                lead["topics"] = sorted(set(lead["topics"]) | set(a.get("topics", [])), key=TOPICS.index)
+                g["sources"].add(a["source"])
+                break
+        else:
+            lead = dict(a, also=[], topics=a.get("topics") or topics(a))
+            groups.append({"lead": lead, "words": words, "sources": {a["source"]}})
+    return [g["lead"] for g in groups]
+
+
+def render(articles, sources, status, now, info=None):
     with open(TEMPLATE, encoding="utf-8") as f:
         tpl = f.read()
-    payload = json.dumps({"articles": articles, "sources": [s["name"] for s in sources],
+    try:
+        with open(os.path.join(ROOT, "site.json"), encoding="utf-8") as f:
+            settings = json.load(f)
+    except FileNotFoundError:
+        settings = {}
+    payload = json.dumps({"articles": group_duplicates(articles), "topics": TOPICS,
+                          "sources": [s["name"] for s in sources if s.get("kind") != "info"],
+                          "info": info or {}, "settings": settings,
                           "status": status, "updated": now}, ensure_ascii=False)
     payload = payload.replace("</", "<\\/")
     os.makedirs(OUT_DIR, exist_ok=True)

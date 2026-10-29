@@ -66,7 +66,31 @@
     "site": "https://sport023.hr/",
     "feeds": [
       "https://sport023.hr/feed/"
+    ],
+    "topic": "Sport"
+  },
+  {
+    "name": "Grad Zadar",
+    "site": "https://www.grad-zadar.hr/",
+    "feeds": [
+      "https://www.grad-zadar.hr/rss/vijesti-s-pocetne-stranice-0.xml"
     ]
+  },
+  {
+    "name": "Lučka uprava Zadar",
+    "site": "https://www.port-authority-zadar.hr/",
+    "feeds": [
+      "https://www.port-authority-zadar.hr/feed/"
+    ]
+  },
+  {
+    "name": "Jadrolinija",
+    "site": "https://www.jadrolinija.hr/",
+    "feeds": [
+      "https://www.jadrolinija.hr/feeds/vijesti"
+    ],
+    "kind": "info",
+    "note": "Prikazuje se u okviru Trajekti, ne među vijestima."
   },
   {
     "name": "eZadar",

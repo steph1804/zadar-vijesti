@@ -23,6 +23,8 @@ Popis je u `feeds.json`. Za svaki portal:
 
 - `enabled` (neobavezno) – `false` privremeno isključuje portal (razlog piše u `note`)
 
+- `kind` (neobavezno) – `"info"` znači da se ne prikazuje među vijestima nego u okviru (npr. Jadrolinija → Trajekti)
+- `topic` (neobavezno) – tema koja se dodjeljuje svim člancima portala (npr. Sport023 → `"Sport"`)
 - `local_only` (neobavezno) – `false` isključuje strogi filtar mjesta za taj portal
 
 Ako portal ima oba filtra, članak prolazi ako zadovoljava bilo koji. Bez filtra uzima se sve.
@@ -30,9 +32,22 @@ Ako portal ima oba filtra, članak prolazi ako zadovoljava bilo koji. Bez filtra
 ## Strogi filtar mjesta
 
 Svaki članak mora spominjati Zadar ili mjesto iz Zadarske županije (naslov, tekst iz feeda,
-link ili rubrike). Popis mjesta je u `places.txt` i lako se dopunjuje.
+link ili rubrike). Popis mjesta je u `places.txt` i lako se dopunjuje; odjeljci `[zadar]`, `[zupanija]` i `[otoci]`
+određuju i temu članka.
 
 Ako feed nema sliku, skripta je uzima iz `og:image` oznake na stranici članka.
+
+## Stranica
+
+- pretraga, teme (Zadar, Županija, Otoci, Sport) i izbor portala
+- isti događaj s više portala prikazuje se kao jedna kartica s linkovima "Piše i: ..."
+- okviri Vrijeme u Zadru (Open-Meteo, upozorenje na jak vjetar), Trajekti (Jadrolinija) i
+  Ceste i promet (vijesti o prometu iz zadnjih 36 sati + link na HAK)
+
+## Brojanje posjeta
+
+Napravi besplatan račun na [goatcounter.com](https://www.goatcounter.com) i upiši njegov kod
+u `site.json`, npr. `{"goatcounter": "zadarskevijesti"}`.
 
 ## Automatsko osvježavanje (GitHub Pages)
 

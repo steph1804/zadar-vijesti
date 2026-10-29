@@ -4,76 +4,118 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Zadarske vijesti</title>
-<meta name="description" content="Najnovije vijesti sa zadarskih lokalnih portala na jednom mjestu.">
+<meta name="description" content="Najnovije vijesti iz Zadra i Zadarske županije s lokalnih portala na jednom mjestu.">
 <style>
   :root {
     --bg: #f6f5f2; --card: #ffffff; --text: #1d1d1b; --muted: #6b6a66;
     --line: #e4e2dc; --accent: #0b5c8f; --chip: #ecebe6; --chip-on: #0b5c8f; --chip-on-text: #fff;
+    --warn-bg: #fff1e0; --warn: #9a4a00;
   }
   @media (prefers-color-scheme: dark) {
     :root {
       --bg: #141413; --card: #1e1e1c; --text: #ecebe6; --muted: #a09e97;
       --line: #2e2d2a; --accent: #6cb4e6; --chip: #2a2927; --chip-on: #6cb4e6; --chip-on-text: #0d1b26;
+      --warn-bg: #3a2610; --warn: #ffb870;
     }
   }
   * { box-sizing: border-box; }
   body { margin: 0; background: var(--bg); color: var(--text);
          font: 16px/1.5 system-ui, -apple-system, "Segoe UI", Roboto, sans-serif; }
-  header { max-width: 1180px; margin: 0 auto; padding: 28px 16px 8px; }
+  a { color: var(--accent); }
+  .wrap { max-width: 1180px; margin: 0 auto; padding: 0 16px; }
+  header { padding-top: 28px; }
   h1 { margin: 0; font-size: 1.8rem; letter-spacing: -0.02em; }
   .sub { color: var(--muted); margin: 4px 0 16px; font-size: .95rem; }
-  .chips { display: flex; flex-wrap: wrap; gap: 8px; }
+
+  .info { display: grid; gap: 12px; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); margin-bottom: 18px; }
+  .box { background: var(--card); border: 1px solid var(--line); border-radius: 10px; padding: 12px 14px; font-size: .9rem; }
+  .box h3 { margin: 0 0 6px; font-size: .8rem; text-transform: uppercase; letter-spacing: .06em; color: var(--muted); }
+  .box p { margin: 0 0 4px; color: var(--text); }
+  .box .small { color: var(--muted); font-size: .82rem; }
+  .now { display: flex; align-items: baseline; gap: 10px; flex-wrap: wrap; }
+  .temp { font-size: 1.6rem; font-weight: 600; }
+  .days { display: flex; gap: 14px; margin-top: 6px; color: var(--muted); font-size: .82rem; }
+  .warn { background: var(--warn-bg); color: var(--warn); border-radius: 6px; padding: 4px 8px; margin-top: 6px; font-size: .82rem; }
+  .box ul { margin: 0; padding-left: 18px; }
+  .box li { margin-bottom: 4px; }
+
+  .tools { display: flex; flex-wrap: wrap; gap: 10px; align-items: center; }
+  .search { flex: 1 1 240px; min-width: 0; padding: 8px 12px; border-radius: 8px; border: 1px solid var(--line);
+            background: var(--card); color: var(--text); font: inherit; }
+  select { padding: 8px 10px; border-radius: 8px; border: 1px solid var(--line); background: var(--card); color: var(--text); font: inherit; max-width: 100%; }
+  .chips { display: flex; flex-wrap: wrap; gap: 8px; margin-top: 12px; }
   .chip { border: 0; background: var(--chip); color: var(--text); padding: 6px 12px;
           border-radius: 999px; font: inherit; font-size: .9rem; cursor: pointer; }
   .chip[aria-pressed="true"] { background: var(--chip-on); color: var(--chip-on-text); }
   .chip .n { opacity: .65; margin-left: 4px; }
-  main { max-width: 1180px; margin: 0 auto; padding: 16px; display: grid; gap: 16px;
+
+  main { padding-top: 16px; padding-bottom: 16px; display: grid; gap: 16px;
          grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); }
   article { background: var(--card); border: 1px solid var(--line); border-radius: 10px;
             overflow: hidden; display: flex; flex-direction: column; }
   article a.img { display: block; height: 120px; background: var(--chip); }
   article img { width: 100%; height: 100%; object-fit: cover; display: block; }
   .body { padding: 12px 14px 14px; display: flex; flex-direction: column; gap: 6px; flex: 1; }
-  .meta { color: var(--muted); font-size: .8rem; display: flex; gap: 8px; }
+  .meta { color: var(--muted); font-size: .8rem; display: flex; gap: 8px; flex-wrap: wrap; }
   .meta b { color: var(--accent); font-weight: 600; }
   h2 { font-size: 1.05rem; line-height: 1.3; margin: 0; }
   h2 a { color: inherit; text-decoration: none; }
   h2 a:hover { text-decoration: underline; }
-  p { margin: 0; color: var(--muted); font-size: .93rem; }
-  .more { margin-top: auto; padding-top: 6px; font-size: .85rem; color: var(--accent); text-decoration: none; }
+  .body p { margin: 0; color: var(--muted); font-size: .93rem; }
+  .also { font-size: .82rem; color: var(--muted); }
+  .more { margin-top: auto; padding-top: 6px; font-size: .85rem; text-decoration: none; }
   .empty { grid-column: 1 / -1; text-align: center; color: var(--muted); padding: 48px 0; }
-  footer { max-width: 1180px; margin: 0 auto; padding: 8px 16px 32px; color: var(--muted); font-size: .8rem; }
+  footer { padding-bottom: 32px; color: var(--muted); font-size: .8rem; }
 </style>
 </head>
 <body>
-<header>
+<header class="wrap">
   <h1>Zadarske vijesti</h1>
   <div class="sub" id="sub"></div>
-  <div class="chips" id="chips"></div>
+  <section class="info" aria-label="Korisne informacije">
+    <div class="box" id="weather"><h3>Vrijeme u Zadru</h3><p class="small">Učitavam prognozu…</p></div>
+    <div class="box" id="ferries"><h3>Trajekti</h3></div>
+    <div class="box" id="roads"><h3>Ceste i promet</h3></div>
+  </section>
+  <div class="tools">
+    <input class="search" id="q" type="search" placeholder="Pretraži vijesti…" aria-label="Pretraži vijesti">
+    <select id="source" aria-label="Portal"></select>
+  </div>
+  <div class="chips" id="chips" role="group" aria-label="Teme"></div>
 </header>
-<main id="list"></main>
-<footer>Sadržaj pripada izvornim portalima. Ovdje su prikazani samo naslovi, slike i kratki uvodi, a klik vodi na izvorni članak.</footer>
+<main class="wrap" id="list"></main>
+<footer class="wrap">Sadržaj pripada izvornim portalima. Ovdje su prikazani samo naslovi, slike i kratki uvodi, a klik vodi na izvorni članak. Prognoza: Open-Meteo.</footer>
 <script>
 const DATA = /*DATA*/null;
 const fmt = new Intl.DateTimeFormat("hr-HR", { day: "numeric", month: "numeric", hour: "2-digit", minute: "2-digit" });
-let active = "Sve";
+const state = { topic: "Sve", source: "", q: "" };
 
 function el(tag, attrs = {}, ...kids) {
   const e = document.createElement(tag);
   for (const [k, v] of Object.entries(attrs)) if (v != null) e.setAttribute(k, v);
-  for (const k of kids) e.append(k);
+  for (const k of kids) if (k != null && k !== "") e.append(k);
   return e;
+}
+const fold = s => s.toLocaleLowerCase("hr").normalize("NFD").replace(/[̀-ͯ]/g, "").replace(/đ/g, "d");
+
+function matches(a, ignoreTopic) {
+  if (!ignoreTopic && state.topic !== "Sve" && !(a.topics || []).includes(state.topic)) return false;
+  if (state.source && a.source !== state.source && !(a.also || []).some(x => x.source === state.source)) return false;
+  if (state.q) {
+    const hay = fold(a.title + " " + a.summary + " " + a.source);
+    if (!fold(state.q).split(/\s+/).every(w => hay.includes(w))) return false;
+  }
+  return true;
 }
 
 function chips() {
   const box = document.getElementById("chips");
   box.textContent = "";
-  const counts = {};
-  for (const a of DATA.articles) counts[a.source] = (counts[a.source] || 0) + 1;
-  for (const name of ["Sve", ...DATA.sources]) {
-    const n = name === "Sve" ? DATA.articles.length : (counts[name] || 0);
-    const b = el("button", { class: "chip", "aria-pressed": String(name === active) }, name, el("span", { class: "n" }, String(n)));
-    b.onclick = () => { active = name; chips(); list(); };
+  const pool = DATA.articles.filter(a => matches(a, true));
+  for (const name of ["Sve", ...DATA.topics]) {
+    const n = name === "Sve" ? pool.length : pool.filter(a => (a.topics || []).includes(name)).length;
+    const b = el("button", { class: "chip", "aria-pressed": String(name === state.topic) }, name, el("span", { class: "n" }, String(n)));
+    b.onclick = () => { state.topic = name; render(); };
     box.append(b);
   }
 }
@@ -81,8 +123,8 @@ function chips() {
 function list() {
   const main = document.getElementById("list");
   main.textContent = "";
-  const items = DATA.articles.filter(a => active === "Sve" || a.source === active);
-  if (!items.length) { main.append(el("div", { class: "empty" }, "Trenutno nema članaka s ovog portala.")); return; }
+  const items = DATA.articles.filter(a => matches(a));
+  if (!items.length) { main.append(el("div", { class: "empty" }, "Nema vijesti za odabrane filtre.")); return; }
   for (const a of items) {
     const link = { href: a.link, target: "_blank", rel: "noopener" };
     const card = el("article");
@@ -91,19 +133,119 @@ function list() {
       img.onerror = () => img.parentElement.remove();
       card.append(el("a", { ...link, class: "img", tabindex: "-1", "aria-hidden": "true" }, img));
     }
+    let also = null;
+    if (a.also && a.also.length) {
+      also = el("div", { class: "also" }, "Piše i: ");
+      a.also.forEach((x, i) => {
+        if (i) also.append(", ");
+        also.append(el("a", { href: x.link, target: "_blank", rel: "noopener" }, x.source));
+      });
+    }
     card.append(el("div", { class: "body" },
       el("div", { class: "meta" }, el("b", {}, a.source), el("span", {}, fmt.format(new Date(a.date)))),
       el("h2", {}, el("a", link, a.title)),
-      a.summary ? el("p", {}, a.summary) : "",
+      a.summary ? el("p", {}, a.summary) : null,
+      also,
       el("a", { ...link, class: "more" }, `Pročitaj na ${a.source} →`)));
     main.append(card);
   }
 }
 
+function render() { chips(); list(); }
+
+function setupTools() {
+  const sel = document.getElementById("source");
+  sel.append(el("option", { value: "" }, "Svi portali"));
+  for (const s of DATA.sources) sel.append(el("option", { value: s }, s));
+  sel.onchange = () => { state.source = sel.value; render(); };
+  const q = document.getElementById("q");
+  q.oninput = () => { state.q = q.value.trim(); render(); };
+}
+
+// --- Trajekti (Jadrolinija) i ceste (vijesti o prometu + HAK) ---
+function ferries() {
+  const box = document.getElementById("ferries");
+  const items = (DATA.info && DATA.info.Jadrolinija) || [];
+  if (items.length) {
+    const a = items[0];
+    box.append(el("p", {}, el("a", { href: a.link, target: "_blank", rel: "noopener" }, a.title)));
+    if (a.summary) box.append(el("p", { class: "small" }, a.summary));
+  } else {
+    box.append(el("p", { class: "small" }, "Trenutno nema obavijesti o prekidima."));
+  }
+  box.append(el("p", { class: "small" }, el("a", { href: "https://www.jadrolinija.hr/hr/red-plovidbe", target: "_blank", rel: "noopener" }, "Red plovidbe Jadrolinije →")));
+}
+
+function roads() {
+  const box = document.getElementById("roads");
+  const since = Date.now() - 36 * 3600 * 1000;
+  const re = /paški most|paškog mosta|masleni|\bA1\b|autocest|zatvoren|obilazn|promet|regulacij/i;
+  const hits = DATA.articles.filter(a => new Date(a.date) > since && re.test(a.title)).slice(0, 3);
+  if (hits.length) {
+    const ul = el("ul");
+    for (const a of hits) ul.append(el("li", {}, el("a", { href: a.link, target: "_blank", rel: "noopener" }, a.title)));
+    box.append(ul);
+  } else {
+    box.append(el("p", { class: "small" }, "Nema novih vijesti o prometu u zadnjih 36 sati."));
+  }
+  box.append(el("p", { class: "small" }, el("a", { href: "https://www.hak.hr/info/stanje-na-cestama/", target: "_blank", rel: "noopener" }, "Stanje na cestama (HAK) →")));
+}
+
+// --- Vremenska prognoza (Open-Meteo, bez ključa) ---
+const WMO = { 0: "vedro", 1: "pretežno vedro", 2: "djelomično oblačno", 3: "oblačno", 45: "magla", 48: "magla",
+  51: "rosulja", 53: "rosulja", 55: "rosulja", 61: "slaba kiša", 63: "kiša", 65: "jaka kiša", 66: "ledena kiša", 67: "ledena kiša",
+  71: "snijeg", 73: "snijeg", 75: "jak snijeg", 80: "pljuskovi", 81: "pljuskovi", 82: "jaki pljuskovi",
+  95: "grmljavina", 96: "grmljavina s tučom", 99: "grmljavina s tučom" };
+function windName(deg) {
+  const names = ["tramontana", "bura", "levant", "jugo", "oštro", "lebić", "pulenat", "maestral"];
+  return names[Math.round(((deg % 360) / 45)) % 8];
+}
+async function weather() {
+  const box = document.getElementById("weather");
+  const url = "https://api.open-meteo.com/v1/forecast?latitude=44.1194&longitude=15.2314" +
+    "&current=temperature_2m,weather_code,wind_speed_10m,wind_gusts_10m,wind_direction_10m" +
+    "&daily=weather_code,temperature_2m_max,temperature_2m_min,wind_gusts_10m_max&timezone=Europe%2FZagreb&forecast_days=3";
+  try {
+    const r = await fetch(url);
+    if (!r.ok) throw new Error(r.status);
+    const w = await r.json();
+    const c = w.current, d = w.daily;
+    box.textContent = "";
+    box.append(el("h3", {}, "Vrijeme u Zadru"));
+    box.append(el("div", { class: "now" },
+      el("span", { class: "temp" }, `${Math.round(c.temperature_2m)}°C`),
+      el("span", {}, WMO[c.weather_code] || ""),
+      el("span", { class: "small" }, `${windName(c.wind_direction_10m)} ${Math.round(c.wind_speed_10m)} km/h, udari do ${Math.round(c.wind_gusts_10m)} km/h`)));
+    const days = el("div", { class: "days" });
+    const dayFmt = new Intl.DateTimeFormat("hr-HR", { weekday: "short" });
+    d.time.forEach((t, i) => days.append(el("span", {},
+      `${i ? dayFmt.format(new Date(t)) : "danas"} ${Math.round(d.temperature_2m_min[i])}–${Math.round(d.temperature_2m_max[i])}°`)));
+    box.append(days);
+    const maxGust = Math.max(c.wind_gusts_10m, ...d.wind_gusts_10m_max.slice(0, 2));
+    if (maxGust >= 70) {
+      box.append(el("div", { class: "warn" },
+        `Jak vjetar: udari do ${Math.round(maxGust)} km/h. Mogu biti zatvoreni Paški most, Maslenička cesta i A1 za neka vozila, a trajekti u prekidu.`));
+    }
+  } catch (e) {
+    box.querySelector("p").textContent = "Prognoza trenutno nije dostupna.";
+  }
+}
+
+function analytics() {
+  const code = DATA.settings && DATA.settings.goatcounter;
+  if (!code) return;
+  const s = el("script", { async: "", src: "https://gc.zgo.at/count.js", "data-goatcounter": `https://${code}.goatcounter.com/count` });
+  document.body.append(s);
+}
+
 document.getElementById("sub").textContent =
-  `Najnovije s lokalnih portala · ažurirano ${fmt.format(new Date(DATA.updated))}`;
-chips();
-list();
+  `Vijesti iz Zadra i Zadarske županije · ažurirano ${fmt.format(new Date(DATA.updated))}`;
+setupTools();
+render();
+ferries();
+roads();
+weather();
+analytics();
 </script>
 </body>
 </html>
