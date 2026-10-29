@@ -1,142 +1,83 @@
 {
- "https://www.nasiskolji.hr/": {
+ "https://www.hak.hr/info/stanje-na-cestama/": {
   "status": 200,
-  "final": "https://www.nasiskolji.hr/",
+  "final": "https://www.hak.hr/info/stanje-na-cestama/",
   "hrefs": [
-   "http://www.jadrolinija.hr/",
-   "http://www.liburnija-zadar.hr/",
-   "http://www.zadarska-zupanija.hr/",
-   "https://www.nasiskolji.hr/2025/06/16/u-sredistu-preka-otvoren-prvi-otocni-hotel-grupacije-hilton-u-hrvatskoj/",
-   "https://www.nasiskolji.hr/2026/09/14/do-4-000-eura-za-nabavu-opreme-zadarska-zupanija-otvorila-javni-poziv-malim-poduzetnicima/",
-   "https://www.nasiskolji.hr/2026/09/16/zadarska-zupanija-sufinancira-suncane-elektrane-do-4000-eura-po-kucanstvu/",
-   "https://www.nasiskolji.hr/2026/10/23/zadarska-zupanija-pokrenula-novi-program-kreditiranja-poljoprivrednika/",
-   "mailto:redakcija@nasiskolji.hr",
-   "mailto:urednistvo@nasiskolji.hr"
+   "/static/css/traffic-info.bundle.css?v=g8GWCpWMoh1VX-8s3I949pJZ5vEAiLmecSqEZGqkd8Q1",
+   "http://www.hzpp.hr/stanje-u-prometu"
   ],
-  "title": "Home page - Naši školji",
-  "feeds": [
-   "<link rel=\"alternate\" type=\"application/rss+xml\" title=\"Naši školji &raquo; Kanal\" href=\"https://www.nasiskolji.hr/feed/\" />",
-   "<link rel=\"alternate\" type=\"application/rss+xml\" title=\"Naši školji &raquo; Kanal komentara\" href=\"https://www.nasiskolji.hr/comments/feed/\" />"
-  ],
-  "items": [],
-  "zadar_text": [
-   [
-    "http://www.zadarska-zupanija.hr/",
-    "Zadarska županija"
-   ],
-   [
-    "https://www.nasiskolji.hr/2026/09/14/do-4-000-eura-za-nabavu-opreme-zadarska-zupanija-otvorila-javni-poziv-malim-poduzetnicima/",
-    "Zadarska županija otvorila Javni poziv: do 4.000 eura za nabavu opreme malim poduzetnicima"
-   ],
-   [
-    "https://www.nasiskolji.hr/2026/09/16/zadarska-zupanija-sufinancira-suncane-elektrane-do-4000-eura-po-kucanstvu/",
-    "Zadarska županija sufinancira sunčane elektrane do 4000 eura po kućanstvu"
-   ],
-   [
-    "https://www.nasiskolji.hr/2026/10/23/zadarska-zupanija-pokrenula-novi-program-kreditiranja-poljoprivrednika/",
-    "Pokrenut novi program kreditiranja poljoprivrednika u Zadarskoj županiji\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t"
-   ]
-  ]
- },
- "https://www.nasiskolji.hr/feed/": {
-  "status": 200,
-  "final": "https://www.nasiskolji.hr/feed/",
-  "hrefs": [
-   "https://www.nasiskolji.hr/2026/10/22/zadarska-zupanija-dodijelila-potpore-za-suncane-elektrane-za-31-kucanstvo/",
-   "https://www.nasiskolji.hr/2026/10/23/zadarska-zupanija-pokrenula-novi-program-kreditiranja-poljoprivrednika/"
-  ],
-  "title": "Naši školji",
+  "title": "\r\n    Izvješće o stanju na cestama\r\n",
   "feeds": [],
-  "items": [
-   [
-    "Aurora Valčić iz Preka pobijedila na manifestaciji „Mali koreograf 2026.”",
-    [
-     "Vijesti",
-     "Istaknuto"
-    ],
-    false
-   ],
-   [
-    "Priznanja za 56 darivatelja i gotovo tri tisuće darivanja krvi",
-    [
-     "Vijesti",
-     "Istaknuto"
-    ],
-    false
-   ],
-   [
-    "Općini Preko odobreno postavljanje semafora na tipkalo kod škole u Lukoranu",
-    [
-     "Vijesti",
-     "Istaknuto"
-    ],
-    false
-   ],
-   [
-    "Crkva sv. Kuzme i Damjana u Guduću upisana u Registar kulturnih dobara RH",
-    [
-     "Kultura",
-     "Istaknuto"
-    ],
-    false
-   ],
-   [
-    "Ivica Masar, Dragan Zjalić i Bernard Baraka osvojili 10. Crnilo kup",
-    [
-     "Vijesti",
-     "Istaknuto"
-    ],
-    false
-   ],
-   [
-    "10. Crnilo kup",
-    [
-     "Fotogalerije"
-    ],
-    false
-   ],
-   [
-    "Studenti Održivog razvoja turizma na Ugljanu istražili primjere dobre prakse",
-    [
-     "Vijesti",
-     "Istaknuto"
-    ],
-    false
-   ],
-   [
-    "Pokrenut novi program kreditiranja poljoprivrednika u Zadarskoj županiji",
-    [
-     "Biznis",
-     "Istaknuto"
-    ],
-    false
-   ],
-   [
-    "Camping Ugljan Resort među najboljima u Dalmaciji, a prepoznali ga i njemački ka",
-    [
-     "Vijesti",
-     "Istaknuto"
-    ],
-    false
-   ],
-   [
-    "Zadarska županija dodijelila potpore za sunčane elektrane za 31 kućanstvo",
-    [
-     "Vijesti",
-     "Istaknuto"
-    ],
-    false
-   ]
+  "items": [],
+  "zadar_text": []
+ },
+ "https://www.hak.hr/": {
+  "status": 200,
+  "final": "https://www.hak.hr/",
+  "hrefs": [
+   "/datoteka/2233/hak_kalendar_gustoce_prometa_2026.pdf",
+   "/hak/pravo-na-pristup-informacijama/",
+   "/info/",
+   "/info/cestarine/",
+   "/info/cijene-goriva/",
+   "/info/emitiranja-u-medijima/",
+   "/info/kamere/",
+   "/info/korisne-informacije/",
+   "/info/opce-informacije/",
+   "/info/prometni-kalendari",
+   "/info/prometni-kalendari/",
+   "/info/stanje-na-cestama/",
+   "/info/stanje-na-cestama?lang=de",
+   "/info/stanje-na-cestama?lang=en",
+   "/info/stanje-na-cestama?lang=it",
+   "/info/vremenska-prognoza/",
+   "/sigurnost-u-prometu/",
+   "/sigurnost-u-prometu/auto-osiguranja",
+   "/sigurnost-u-prometu/projekti/",
+   "/sigurnost-u-prometu/projekti/10zlatnihpravila/",
+   "/sigurnost-u-prometu/projekti/ekologija/",
+   "/sigurnost-u-prometu/projekti/ersc",
+   "/sigurnost-u-prometu/projekti/eurotap/",
+   "/sigurnost-u-prometu/projekti/eurotest/",
+   "/sigurnost-u-prometu/projekti/i-ti-mozes-spasiti-zivot/",
+   "/sigurnost-u-prometu/projekti/irap/",
+   "/sigurnost-u-prometu/projekti/pravilo6/",
+   "/sigurnost-u-prometu/projekti/pravilo7/",
+   "/sigurnost-u-prometu/projekti/think-bikes/",
+   "/sigurnost-u-prometu/prometna-preventiva/",
+   "/sigurnost-u-prometu/prometna-preventiva/desetljece-sigurnosti-cestovnog-prometa/",
+   "/sigurnost-u-prometu/prometna-preventiva/klik/",
+   "/sigurnost-u-prometu/prometna-preventiva/koristenje-sigurnosnog-pojasa-spasava-zivote/",
+   "/sigurnost-u-prometu/prometna-preventiva/sigurno-u-prometu/",
+   "/sigurnost-u-prometu/prometna-preventiva/sigurno-u-skolu-s-hak-om/",
+   "/sigurnost-u-prometu/prometna-preventiva/ucinimo-ceste-sigurnima/",
+   "/sigurnost-u-prometu/prometna-preventiva/vidi-i-klikni/",
+   "/sigurnost-u-prometu/prometna-preventiva/zlatne-godine",
+   "/vijest/2392/pravilnik-dodjela-novcanih-sredstava-2026",
+   "/vijesti",
+   "vijest/2412/predsjednik-hrvatskog-autokluba-ivo-bikic-na-proljetnom-sastanku-fia-regije",
+   "vijest/2414/u-rovinju-pocelo-odrzavanje-32-drzavnog-natjecanja-sigurno-u-prometu",
+   "vijest/2415/zavrseno-32-drzavno-natjecanje-sigurno-u-prometu",
+   "vijest/2416/odrzana-deveta-sjednica-nadzornog-odbora-hrvatskog-autokluba-2026",
+   "vijest/2417/predsjednik-hrvatskog-autokluba-sa-suradnicima-sudjelovao-u-obilježavanju-80-godisnice-bihamk",
+   "vijest/2420/odrzana-18-sjednica-upravnog-odbora-hrvatskog-autokluba-2026",
+   "vijest/2421/obiljezavanje-120-godisnjice-hrvatskog-autokluba",
+   "vijest/2422/hrvatski-autoklub-obiljezava-120-godina-djelovanja",
+   "vijest/2425/hak-proslavio-120-godina",
+   "vijest/2426/hak-dodijelio-nagrade-za-izradu-videospota-10-zlatnih-pravila",
+   "vijest/2429/odrzana-19-sjednica-upravnog-odbora-hrvatskog-autokluba-2026",
+   "vijest/2434/odrzana-deseta-sjednica-nadzornog-odbora-hrvatskog-autokluba",
+   "vijest/2435/odrzana-20-sjednica-upravnog-odbora-hrvatskog-autokluba",
+   "vijest/2436/autoklub-vinkovci-obiljezio-100-obljetnicu",
+   "vijest/2437/sigurni-u-prometu-medugeneracijska-pravednost-mobilnost-za-sve",
+   "vijest/2438/europski-tjedan-mobilnosti-u-zagrebu",
+   "vijest/2439/bina-istra-i-hak-bolji-uvid-u-stanje-na-istarskim-autocestama",
+   "vijest/2441/natjecaj-strucni-nadzornik-nad-radom-stp-10-2026",
+   "vijest/2443/natjecaj-za-usluge-osiguranja-hrvatskog-autokluba-2027"
   ],
-  "zadar_text": [
-   [
-    "https://www.nasiskolji.hr/2026/10/22/zadarska-zupanija-dodijelila-potpore-za-suncane-elektrane-za-31-kucanstvo/",
-    "Zadarska županija dodijelila potpore za sunčane elektrane za 31 kućanstvo"
-   ],
-   [
-    "https://www.nasiskolji.hr/2026/10/23/zadarska-zupanija-pokrenula-novi-program-kreditiranja-poljoprivrednika/",
-    "Pokrenut novi program kreditiranja poljoprivrednika u Zadarskoj županiji"
-   ]
-  ]
+  "title": "\r\n        Hrvatski autoklub - HAK\r\n    ",
+  "feeds": [],
+  "items": [],
+  "zadar_text": []
  }
 }
