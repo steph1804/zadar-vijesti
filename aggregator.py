@@ -254,8 +254,14 @@ def face_box(url):
         k = 1200 / img.shape[1]
         img = cv2.resize(img, None, fx=k, fy=k, interpolation=cv2.INTER_AREA)
     h, w = img.shape[:2]
-    with _FACES_LOCK:
-        faces = _detect_faces(cv2, img)
+    if min(h, w) < 40:
+        return None
+    try:
+        with _FACES_LOCK:
+            faces = _detect_faces(cv2, img)
+    except cv2.error as e:
+        print(f"[lica] {url}: {e}", file=sys.stderr)
+        return None
     faces = [f for f in faces if f[3] >= h * 0.04]
     if not faces:
         return None
