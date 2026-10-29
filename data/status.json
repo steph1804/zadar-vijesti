@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-29T16:51:14.503271+00:00",
+ "updated": "2026-10-29T17:29:01.808303+00:00",
  "sources": [
   {
    "name": "Antena Zadar",
@@ -10,7 +10,7 @@
   },
   {
    "name": "Zadarski list",
-   "count": 6,
+   "count": 7,
    "ok": true,
    "feed": null,
    "errors": []
@@ -31,7 +31,7 @@
   },
   {
    "name": "023 portal",
-   "count": 7,
+   "count": 6,
    "ok": true,
    "feed": null,
    "errors": []
@@ -45,12 +45,10 @@
   },
   {
    "name": "Naši školji",
-   "count": 0,
-   "ok": false,
+   "count": 10,
+   "ok": true,
    "feed": null,
-   "errors": [
-    "https://www.nasiskolji.hr/feed/: <urlopen error timed out>"
-   ]
+   "errors": []
   },
   {
    "name": "Grad Zadar",
@@ -70,6 +68,104 @@
    "name": "Jadrolinija",
    "count": 1,
    "ok": true,
+   "feed": null,
+   "errors": []
+  },
+  {
+   "name": "Index.hr",
+   "count": 3,
+   "ok": true,
+   "feed": null,
+   "errors": []
+  },
+  {
+   "name": "Jutarnji list",
+   "count": 1,
+   "ok": true,
+   "feed": null,
+   "errors": []
+  },
+  {
+   "name": "Večernji list",
+   "count": 0,
+   "ok": false,
+   "feed": null,
+   "errors": []
+  },
+  {
+   "name": "tportal",
+   "count": 0,
+   "ok": false,
+   "feed": null,
+   "errors": []
+  },
+  {
+   "name": "N1",
+   "count": 1,
+   "ok": true,
+   "feed": null,
+   "errors": []
+  },
+  {
+   "name": "Net.hr",
+   "count": 1,
+   "ok": true,
+   "feed": null,
+   "errors": []
+  },
+  {
+   "name": "Telegram",
+   "count": 0,
+   "ok": false,
+   "feed": null,
+   "errors": []
+  },
+  {
+   "name": "Novi list",
+   "count": 1,
+   "ok": true,
+   "feed": null,
+   "errors": []
+  },
+  {
+   "name": "HRT",
+   "count": 1,
+   "ok": true,
+   "feed": null,
+   "errors": []
+  },
+  {
+   "name": "Dnevnik.hr",
+   "count": 0,
+   "ok": false,
+   "feed": null,
+   "errors": []
+  },
+  {
+   "name": "Morski.hr",
+   "count": 0,
+   "ok": false,
+   "feed": null,
+   "errors": []
+  },
+  {
+   "name": "Dalmacija Danas",
+   "count": 0,
+   "ok": false,
+   "feed": null,
+   "errors": []
+  },
+  {
+   "name": "Poslovni dnevnik",
+   "count": 0,
+   "ok": false,
+   "feed": null,
+   "errors": []
+  },
+  {
+   "name": "Sportklub",
+   "count": 0,
+   "ok": false,
    "feed": null,
    "errors": []
   }
