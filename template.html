@@ -37,6 +37,9 @@
   .days { display: flex; gap: 14px; margin-top: 6px; color: var(--muted); font-size: .82rem; }
   .warn { background: var(--warn-bg); color: var(--warn); border-radius: 6px; padding: 4px 8px; margin-top: 6px; font-size: .82rem; }
   .box ul { margin: 0; padding-left: 18px; }
+  .box details { margin-top: 6px; }
+  .box summary { cursor: pointer; color: var(--accent); }
+  .box details ul { margin-top: 6px; }
   .box li { margin-bottom: 4px; }
 
   .tools { display: flex; flex-wrap: wrap; gap: 10px; align-items: center; }
@@ -178,6 +181,22 @@ function setupTools() {
 }
 
 // --- Trajekti (Jadrolinija) i ceste (vijesti o prometu + HAK) ---
+// Jadrolinijine linije zadarskog područja (adrese s jadrolinija.hr/hr/putovanja).
+const FERRY_LINES = [
+  ["Zadar – Preko (Ugljan)", "zadar_-_preko"],
+  ["Zadar (Gaženica) – Ošljak – Preko (Ugljan)", "zadar_gazenica_-_osljak_-_preko_ugljan"],
+  ["Biograd – Tkon (Pašman)", "biograd_-_tkon_pasman"],
+  ["Prizna – Žigljen (Pag)", "prizna_-_zigljen_pag"],
+  ["Zadar (Gaženica) – Brbinj (Dugi otok)", "zadar_gazenica_-_brbinj_dugi_otok"],
+  ["Zadar – Rivanj – Sestrunj – Zverinac – Božava – Brbinj", "zadar_-_rivanj_-_sestrunj_-_zverinac_-_bozava_-_brbinj"],
+  ["Zadar – Mali Iž – Veli Iž – Mala Rava – Rava", "zadar_-_mali_iz-_veli_iz_-_mala_rava-_rava"],
+  ["Zadar (Gaženica) – Bršanj (Iž) – Rava – Mala Rava", "zadar__gazenica_–_brsanj_iz_–_rava_–_mala_rava"],
+  ["Zadar – Molat – Brgulje – Zapuntel – Ist", "zadar_-_molat_-_brgulje_-_zapuntel_-_ist"],
+  ["Zadar (Gaženica) – Rivanj – Sestrunj – Zverinac – Molat – Ist", "zadar__gazenica_–_rivanj_–_sestrunj_–_zverinac_–_molat_–_ist"],
+  ["Zadar – Silba – Mali Lošinj", "zadar_-_silba_-_mali_losinj_2"],
+  ["Zadar (Gaženica) – Ist – Olib – Silba – Premuda – Mali Lošinj", "zadar_gazenica_-_ist_-_olib_-_silba_-_premuda_-_mali_losinj"],
+];
+
 function ferries() {
   const box = document.getElementById("ferries");
   const items = (DATA.info && DATA.info.Jadrolinija) || [];
@@ -188,7 +207,14 @@ function ferries() {
   } else {
     box.append(el("p", { class: "small" }, "Trenutno nema obavijesti o prekidima."));
   }
-  box.append(el("p", { class: "small" }, el("a", { href: "https://www.jadrolinija.hr/hr/red-plovidbe", target: "_blank", rel: "noopener" }, "Red plovidbe Jadrolinije →")));
+  const lines = el("details", {}, el("summary", { class: "small" }, "Red plovidbe – zadarsko područje"));
+  const ul = el("ul", { class: "small" });
+  for (const [name, slug] of FERRY_LINES) {
+    ul.append(el("li", {}, el("a", { href: "https://www.jadrolinija.hr/hr/putovanje/" + slug, target: "_blank", rel: "noopener" }, name)));
+  }
+  ul.append(el("li", {}, el("a", { href: "https://www.jadrolinija.hr/img/districts/zadar-okruzje-karta.pdf", target: "_blank", rel: "noopener" }, "Karta linija (PDF)")));
+  lines.append(ul);
+  box.append(lines);
 }
 
 function roads() {
