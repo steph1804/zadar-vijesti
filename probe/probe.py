@@ -8,6 +8,9 @@ out["len"] = len(body)
 out["scripts"] = re.findall(r'<script[^>]*src=["\']([^"\']+)', body)
 out["ids"] = re.findall(r'id=["\']([^"\']+)', body)[:80]
 out["tabs"] = re.findall(r'(?:href|data-[\w-]+)=["\']([^"\']*(?:tekst|text|karta|map|tab)[^"\']*)["\']', body, re.I)[:40]
+i = body.find('id="sidebar-report-ul"'); out["sidebar"] = body[i:i+5000]
+for key in ["prohodnost-cesta", "hak-tic-dogadaji-na-cestama", "hak-tic-bura", "hak-tic-mostovi"]:
+    j = body.find('id="%s"' % key); out[key] = body[max(0,j-400):j+600]
 i = body.find("<main"); out["main"] = re.sub(r"\s+", " ", re.sub(r"<[^>]+>", " | ", body[i:i+6000]))[:3000]
 for s in out["scripts"]:
     if "traffic" in s:
