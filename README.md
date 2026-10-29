@@ -1,4 +1,4 @@
-# Zadarske vijesti – agregator lokalnih portala
+# zadar.click – agregator lokalnih vijesti iz Zadra i Zadarske županije
 
 Skuplja najnovije članke s lokalnih portala preko RSS-a i prikazuje ih na jednoj
 stranici: naslov, jedna slika, prve 2–3 rečenice i link na izvorni članak.
