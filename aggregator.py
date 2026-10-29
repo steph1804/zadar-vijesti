@@ -270,7 +270,8 @@ def main():
         results = list(pool.map(load_source, sources))
         fresh = []
         for src, (items, errors) in zip(sources, results):
-            status.append({"name": src["name"], "count": len(items), "ok": bool(items)})
+            status.append({"name": src["name"], "count": len(items), "ok": bool(items),
+                           "feed": src.get("discovered"), "errors": [] if items else errors})
             for e in errors if not items else []:
                 print(f"[{src['name']}] {e}", file=sys.stderr)
             print(f"[{src['name']}] {len(items)} članaka", file=sys.stderr)
@@ -294,6 +295,8 @@ def main():
     os.makedirs(os.path.dirname(CACHE_FILE), exist_ok=True)
     with open(CACHE_FILE, "w", encoding="utf-8") as f:
         json.dump(articles, f, ensure_ascii=False, indent=1)
+    with open(os.path.join(os.path.dirname(CACHE_FILE), "status.json"), "w", encoding="utf-8") as f:
+        json.dump({"updated": now, "sources": status}, f, ensure_ascii=False, indent=1)
     render(articles, sources, status, now)
 
 
