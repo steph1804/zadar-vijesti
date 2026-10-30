@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-30T03:45:02.489489+00:00",
+ "updated": "2026-10-30T04:45:00.661508+00:00",
  "sources": [
   {
    "name": "Antena Zadar",
@@ -38,17 +38,21 @@
   },
   {
    "name": "Sport023",
-   "count": 10,
-   "ok": true,
+   "count": 0,
+   "ok": false,
    "feed": null,
-   "errors": []
+   "errors": [
+    "https://sport023.hr/feed/: mismatched tag: line 93, column 2"
+   ]
   },
   {
    "name": "KK Zadar",
-   "count": 10,
-   "ok": true,
+   "count": 0,
+   "ok": false,
    "feed": null,
-   "errors": []
+   "errors": [
+    "https://kkzadar.hr/feed/: mismatched tag: line 93, column 2"
+   ]
   },
   {
    "name": "Naši školji",
