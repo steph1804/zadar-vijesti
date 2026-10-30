@@ -1,0 +1,62 @@
+{
+ "Mozilla/5.0 (compati": {
+  "status": 200,
+  "headers": {
+   "Connection": "close",
+   "Content-Length": "771",
+   "Server": "GitHub.com",
+   "Content-Type": "application/xml",
+   "Last-Modified": "Fri, 30 Oct 2026 08:53:43 GMT",
+   "Access-Control-Allow-Origin": "*",
+   "ETag": "\"6ae45b17-303\"",
+   "expires": "Fri, 30 Oct 2026 09:13:39 GMT",
+   "Cache-Control": "max-age=600",
+   "x-proxy-cache": "MISS",
+   "X-GitHub-Request-Id": "4916:D2B04:2930C6:2D2E1F:6AE45D6A",
+   "x-github-edge-region": "iad",
+   "Accept-Ranges": "bytes",
+   "Age": "0",
+   "Date": "Fri, 30 Oct 2026 09:03:39 GMT",
+   "Via": "1.1 varnish",
+   "X-Served-By": "cache-chi-kmdw8640058-CHI",
+   "X-Cache": "MISS",
+   "X-Cache-Hits": "0",
+   "X-Timer": "S1793351019.011892,VS0,VE55",
+   "Vary": "Accept-Encoding",
+   "X-Fastly-Request-ID": "e529b1ad4d777512489f33ebf49f06422c34e171"
+  },
+  "len": 771,
+  "parse": true,
+  "body": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<urlset xmlns=\"http://www.sitemaps.org/schemas/sitemap/0.9\"><url><loc>https://idassa.click/</loc><lastmod>2026-10-30</lastmod><changefreq>hourly</changefreq><priority>1.0</priority></url><url><loc>https://idassa.click/zadar/</loc><lastmod>2026-10-30</lastmod><c"
+ },
+ "Python": {
+  "status": 200,
+  "headers": {
+   "Connection": "close",
+   "Content-Length": "771",
+   "Server": "GitHub.com",
+   "Content-Type": "application/xml",
+   "Last-Modified": "Fri, 30 Oct 2026 08:53:43 GMT",
+   "Access-Control-Allow-Origin": "*",
+   "ETag": "\"6ae45b17-303\"",
+   "expires": "Fri, 30 Oct 2026 09:13:39 GMT",
+   "Cache-Control": "max-age=600",
+   "x-proxy-cache": "MISS",
+   "X-GitHub-Request-Id": "3C96:185F79:36203D:39A4B6:6AE45D6B",
+   "x-github-edge-region": "iad",
+   "Accept-Ranges": "bytes",
+   "Age": "0",
+   "Date": "Fri, 30 Oct 2026 09:03:39 GMT",
+   "Via": "1.1 varnish",
+   "X-Served-By": "cache-dfw-kdfw8210167-DFW",
+   "X-Cache": "MISS",
+   "X-Cache-Hits": "0",
+   "X-Timer": "S1793351019.117329,VS0,VE121",
+   "Vary": "Accept-Encoding",
+   "X-Fastly-Request-ID": "7926f6c462bf16755561f9f361410e17deb844a8"
+  },
+  "len": 771,
+  "parse": true,
+  "body": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<urlset xmlns=\"http://www.sitemaps.org/schemas/sitemap/0.9\"><url><loc>https://idassa.click/</loc><lastmod>2026-10-30</lastmod><changefreq>hourly</changefreq><priority>1.0</priority></url><url><loc>https://idassa.click/zadar/</loc><lastmod>2026-10-30</lastmod><c"
+ }
+}
