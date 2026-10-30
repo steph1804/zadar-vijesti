@@ -96,6 +96,25 @@
     ]
   },
   {
+    "name": "Liburnija Zadar",
+    "site": "https://liburnija-zadar.hr/novosti/",
+    "feeds": [
+      "https://liburnija-zadar.hr/category/novosti/feed/"
+    ],
+    "local_only": false,
+    "note": "Gradski prijevoz: samo rubrika Novosti (obavijesti o linijama), bez javnih natječaja"
+  },
+  {
+    "name": "Policija Zadar",
+    "site": "https://zadarska-policija.gov.hr/vijesti/8",
+    "feeds": [
+      "https://zadarska-policija.gov.hr/vijesti/8"
+    ],
+    "parser": "mup",
+    "local_only": false,
+    "note": "PU zadarska nema RSS: čita se popis vijesti s njihove stranice (parse_mup_news)"
+  },
+  {
     "name": "Lučka uprava Zadar",
     "site": "https://www.port-authority-zadar.hr/",
     "feeds": [
@@ -198,6 +217,17 @@
       "https://www.morski.hr/rss/"
     ],
     "scope": "national"
+  },
+  {
+    "name": "Croatian Aviation",
+    "site": "https://croatianaviation.com/",
+    "feeds": [
+      "https://croatianaviation.com/feed/",
+      "https://croatianaviation.com/?s=zadar&feed=rss2"
+    ],
+    "combine": true,
+    "scope": "national",
+    "note": "Zrakoplovni portal; uz glavni feed i pretraga 'zadar', a prolaze samo članci sa Zadrom (ili mjestom iz županije) u naslovu ili uvodu"
   },
   {
     "name": "Dalmacija Danas",
