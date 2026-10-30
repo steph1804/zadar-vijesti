@@ -1,9 +1,11 @@
-import json, urllib.request
+import json, urllib.request, xml.etree.ElementTree as ET
 out = {}
-for u in ["http://idassa.click/", "http://www.idassa.click/", "https://steph1804.github.io/zadar-vijesti/", "https://idassa.click/sitemap.xml", "https://idassa.click/robots.txt", "https://idassa.click/share.png"]:
+for ua in ["Mozilla/5.0 (compatible; Googlebot/2.1; +http://www.google.com/bot.html)", "Python"]:
+    r = urllib.request.urlopen(urllib.request.Request("https://idassa.click/sitemap.xml", headers={"User-Agent": ua}), timeout=20)
+    b = r.read()
     try:
-        r = urllib.request.urlopen(u, timeout=20)
-        out[u] = {"status": r.status, "final": r.geturl()}
+        ET.fromstring(b); ok = True
     except Exception as e:
-        out[u] = repr(e)[:200]
+        ok = repr(e)
+    out[ua[:20]] = {"status": r.status, "headers": dict(r.headers), "len": len(b), "parse": ok, "body": b[:300].decode()}
 json.dump(out, open("probe/result3.json", "w"), ensure_ascii=False, indent=1)
