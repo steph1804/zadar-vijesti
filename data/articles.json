@@ -1,17 +1,40 @@
 [
  {
-  "title": "RASPUCANI ZADRANI 105 poena Dubrovniku za šestu prvenstvenu pobjedu",
-  "link": "https://sport023.hr/2026/10/30/raspucani-zadrani-105-poena-dubrovniku-za-sestu-prvenstvenu-pobjedu/",
-  "date": "2026-10-30T22:15:18+00:00",
-  "summary": "U 6. kolu SuperSport Premijer lige košarkaši Zadra ostvarili su i šestu pobjedu: u SD Gospino polje uvjerljivo su svladali... Objava RASPUCANI ZADRANI 105 poena Dubrovniku za šestu prvenstvenu pobjedu pojavila se prvi puta na Sport023.",
-  "image": null,
+  "title": "STIPE MODRIĆ: “Prva utakmica je riješena, slijede Dubai i Spartak”",
+  "link": "https://sport023.hr/2026/10/30/stipe-modric-prva-utakmica-je-rijesena-slijede-dubai-i-spartak/",
+  "date": "2026-10-30T22:20:10+00:00",
+  "summary": "Izjave aktera nakon utakmice 6. kola prvenstva Hrvatske KK Dubrovnik – KK Zadar 71:105. Stipe Modrić, trener Zadra: “Mislim da... Objava STIPE MODRIĆ: “Prva utakmica je riješena, slijede Dubai i Spartak” pojavila se prvi puta na Sport023.",
+  "image": "https://sport023.hr/wp-content/uploads/2026/10/stipe-modric-niko-sare-mega-zadar-10-26.jpg",
   "source": "Sport023",
   "source_topic": "Sport",
   "topics": [
    "Zadar",
    "Sport"
   ],
-  "source_url": "https://sport023.hr/"
+  "source_url": "https://sport023.hr/",
+  "face": [
+   0.0,
+   93.9,
+   7.5,
+   84.0
+  ],
+  "face_img": "https://sport023.hr/wp-content/uploads/2026/10/stipe-modric-niko-sare-mega-zadar-10-26.jpg"
+ },
+ {
+  "title": "RASPUCANI ZADRANI 105 poena Dubrovniku za šestu prvenstvenu pobjedu",
+  "link": "https://sport023.hr/2026/10/30/raspucani-zadrani-105-poena-dubrovniku-za-sestu-prvenstvenu-pobjedu/",
+  "date": "2026-10-30T22:15:18+00:00",
+  "summary": "U 6. kolu SuperSport Premijer lige košarkaši Zadra ostvarili su i šestu pobjedu: u SD Gospino polje uvjerljivo su svladali... Objava RASPUCANI ZADRANI 105 poena Dubrovniku za šestu prvenstvenu pobjedu pojavila se prvi puta na Sport023.",
+  "image": "https://sport023.hr/wp-content/uploads/2026/10/kk-dubrovnik-zadar-30-10-26.jpg",
+  "source": "Sport023",
+  "source_topic": "Sport",
+  "topics": [
+   "Zadar",
+   "Sport"
+  ],
+  "source_url": "https://sport023.hr/",
+  "face": null,
+  "face_img": "https://sport023.hr/wp-content/uploads/2026/10/kk-dubrovnik-zadar-30-10-26.jpg"
  },
  {
   "title": "DUBROVNIK - ZADAR 71-105: Slavlje Zadrana u Dubrovniku",
@@ -4958,24 +4981,5 @@
   "source_url": "https://023.hr/",
   "face": null,
   "face_img": "https://023.hr/wp-content/uploads/2026/10/20261028123954_305361.avif"
- },
- {
-  "title": "PRVI PUT U HRVATSKOJ Svjetski stručnjaci u Zadru raspravljaju o očuvanju podvodne kulturne baštine",
-  "link": "https://www.antenazadar.hr/clanak/2026/10/prvi-put-u-hrvatskoj-svjetski-strucnjaci-u-zadru-raspravljaju-o-ocuvanju-podvodne-kulturne-bastine/",
-  "date": "2026-10-28T17:04:58+00:00",
-  "summary": "Više od 40 stručnjaka iz 26 zemalja svijeta okupilo se u Zadru na godišnjoj konferenciji Međunarodnog odbora za muzeje i zbirke arheologije i povijesti (ICOM ICMAH), koja se prvi put održava u Hrvatskoj.",
-  "image": "https://www.antenazadar.hr/wp-content/uploads/2026/10/arheologija-28-10-8.jpg",
-  "source": "Antena Zadar",
-  "topics": [
-   "Zadar"
-  ],
-  "source_url": "https://www.antenazadar.hr/",
-  "face": [
-   58.4,
-   64.3,
-   7.0,
-   19.2
-  ],
-  "face_img": "https://www.antenazadar.hr/wp-content/uploads/2026/10/arheologija-28-10-8.jpg"
  }
 ]
