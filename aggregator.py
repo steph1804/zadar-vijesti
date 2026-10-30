@@ -190,25 +190,33 @@ def _item(title, link, date, desc, content, image, base_url, categories):
 
 _OG_IMAGE = re.compile(
     r'<meta[^>]+(?:property|name)=["\'](?:og:image|twitter:image)["\'][^>]*>', re.I)
+_OG_DESC = re.compile(
+    r'<meta[^>]+(?:property|name)=["\'](?:og:description|description)["\'][^>]*>', re.I)
 _CONTENT = re.compile(r'content=["\']([^"\']+)["\']', re.I)
 _FEED_LINK = re.compile(
     r'<link[^>]+type=["\']application/(?:rss|atom)\+xml["\'][^>]*>', re.I)
 _HREF = re.compile(r'href=["\']([^"\']+)["\']', re.I)
 
 
-def og_image(url):
-    """Slika iz <meta property="og:image"> s same stranice članka."""
+def og_meta(url):
+    """Slika (og:image) i opis (og:description) sa same stranice članka."""
     try:
         data, final = fetch(url, 60)
     except Exception:
-        return None
+        return None, None
     page = data[:300_000].decode("utf-8", "replace")
+    image = desc = None
     m = _OG_IMAGE.search(page)
     if m:
         c = _CONTENT.search(m.group(0))
         if c:
-            return urllib.parse.urljoin(final, html.unescape(c.group(1)))
-    return None
+            image = urllib.parse.urljoin(final, html.unescape(c.group(1)))
+    m = _OG_DESC.search(page)
+    if m:
+        c = _CONTENT.search(m.group(0))
+        if c:
+            desc = summarize(html.unescape(c.group(1)))
+    return image, desc
 
 
 FACE_MODEL = os.path.join(ROOT, "models", "face_detection_yunet_2023mar.onnx")
@@ -366,7 +374,35 @@ def parse_mup_news(data, base_url):
     return items
 
 
-PARSERS = {"mup": parse_mup_news}
+def parse_hrt_radio(data, base_url):
+    """Radio Zadar (radio.hrt.hr/radio-zadar) nema RSS; popis članaka je u __NEXT_DATA__ naslovnice."""
+    page = data.decode("utf-8", "replace")
+    m = re.search(r'<script id="__NEXT_DATA__"[^>]*>(.*?)</script>', page, re.S)
+    if not m:
+        return []
+    found = {}
+
+    def walk(o):
+        if isinstance(o, dict):
+            url = o.get("url") or ""
+            if o.get("displayText") and "/radio-zadar/" in url and o.get("originalPublishedUtc"):
+                found.setdefault(url, o)
+            for v in o.values():
+                walk(v)
+        elif isinstance(o, list):
+            for v in o:
+                walk(v)
+    walk(json.loads(m.group(1)))
+    items = []
+    for url, o in found.items():
+        it = _item(o["displayText"], url, None, "", "", (o.get("mediaImage") or {}).get("path"), base_url, [])
+        it["date"] = datetime.fromisoformat(o["originalPublishedUtc"][:19] + "+00:00").isoformat()
+        it["need_summary"] = True
+        items.append(it)
+    return sorted(items, key=lambda i: i["date"], reverse=True)
+
+
+PARSERS = {"mup": parse_mup_news, "hrt_radio": parse_hrt_radio}
 
 
 def load_combined(src):
@@ -552,10 +588,16 @@ def main():
                 i["date"] = i["date"] or (old or {}).get("date") or now
                 fresh.append(i)
 
-        # Slike koje nisu u feedu dohvaćamo sa stranice članka (og:image).
-        missing = [i for i in fresh if not i["image"]]
-        for i, img in zip(missing, pool.map(lambda i: og_image(i["link"]), missing)):
-            i["image"] = img
+        # Slike koje nisu u feedu dohvaćamo sa stranice članka (og:image), a za izvore
+        # bez uvoda u popisu (Radio Zadar) i uvod iz og:description.
+        for i in fresh:
+            old = cache.get(i["link"])
+            if old and not i["summary"]:
+                i["summary"] = old.get("summary", "")
+        missing = [i for i in fresh if (i.pop("need_summary", False) and not i["summary"]) or not i["image"]]
+        for i, (img, desc) in zip(missing, pool.map(lambda i: og_meta(i["link"]), missing)):
+            i["image"] = i["image"] or img
+            i["summary"] = i["summary"] or desc or ""
 
     for i in fresh:
         i.pop("categories", None)

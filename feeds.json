@@ -117,6 +117,15 @@
     }
   },
   {
+    "name": "HRT Radio Zadar",
+    "site": "https://radio.hrt.hr/radio-zadar",
+    "feeds": [
+      "https://radio.hrt.hr/radio-zadar"
+    ],
+    "parser": "hrt_radio",
+    "local_only": false
+  },
+  {
     "name": "Liburnija Zadar",
     "site": "https://liburnija-zadar.hr/novosti/",
     "feeds": [
