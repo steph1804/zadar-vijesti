@@ -1,0 +1,21 @@
+{
+ "https://zadarska-policija.gov.hr/vijesti/": {
+  "error": "<HTTPError 404: 'Not Found'>"
+ },
+ "https://zadarska-policija.gov.hr/rss": {
+  "error": "<HTTPError 404: 'Not Found'>"
+ },
+ "https://zadarska-policija.gov.hr/rss.aspx": {
+  "error": "<HTTPError 404: 'Not Found'>"
+ },
+ "https://zadarska-policija.gov.hr/vijesti/rss": {
+  "error": "<HTTPError 404: 'Not Found'>"
+ },
+ "https://zadarska-policija.gov.hr/robots.txt": {
+  "error": "<HTTPError 404: 'Not Found'>"
+ },
+ "https://zadarska-policija.gov.hr/sitemap.xml": {
+  "error": "<HTTPError 404: 'Not Found'>"
+ },
+ "final_err": "<HTTPError 404: 'Not Found'>"
+}
