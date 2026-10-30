@@ -105,6 +105,18 @@
     "local_only": false
   },
   {
+    "name": "Zadarska županija",
+    "site": "https://www.zadarska-zupanija.hr/",
+    "feeds": [
+      "https://www.zadarska-zupanija.hr/novosti-arhiva?format=feed&type=rss"
+    ],
+    "local_only": false,
+    "topic": "Županija",
+    "image_replace": {
+      "_S.jpg": "_M.jpg"
+    }
+  },
+  {
     "name": "Liburnija Zadar",
     "site": "https://liburnija-zadar.hr/novosti/",
     "feeds": [

@@ -430,6 +430,10 @@ def finish_items(src, items, errors):
         i["topics"] = topics(i, src)
         i["source_url"] = src.get("site", "")
         i["link"] = strip_tracking(i["link"])
+        # Npr. Županija u feedu daje sličicu (_S.jpg); "image_replace" je zamijeni većom.
+        for old, new in src.get("image_replace", {}).items():
+            if i.get("image"):
+                i["image"] = i["image"].replace(old, new)
     return items, errors
 
 
