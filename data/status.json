@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-30T16:45:43.848042+00:00",
+ "updated": "2026-10-30T17:01:13.443078+00:00",
  "sources": [
   {
    "name": "Antena Zadar",
@@ -31,7 +31,7 @@
   },
   {
    "name": "eZadar",
-   "count": 20,
+   "count": 21,
    "ok": true,
    "feed": null,
    "errors": []
@@ -117,8 +117,8 @@
   },
   {
    "name": "Index.hr",
-   "count": 1,
-   "ok": true,
+   "count": 0,
+   "ok": false,
    "feed": null,
    "errors": []
   },
@@ -145,8 +145,8 @@
   },
   {
    "name": "N1",
-   "count": 1,
-   "ok": true,
+   "count": 0,
+   "ok": false,
    "feed": null,
    "errors": []
   },
