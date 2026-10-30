@@ -1,0 +1,143 @@
+{
+ "https://liburnija-zadar.hr/feed/": {
+  "status": 200,
+  "final": "https://liburnija-zadar.hr/feed/",
+  "len": 13640,
+  "items": 10,
+  "titles": [
+   "Obavijest o linijama koje prometuju Ulicom Put Nina",
+   "Obavijest Bibinje (marina)",
+   "JAVNI NATJEČAJ  za prikupljanje najpovoljnije pisane ponude za zakup poslovnog prostora",
+   "ODLUKA o odabiru kandidata na Javnom natječaju za prijam na radno mjesto poslovne tajnice ",
+   "Obavijest za blagdan Svih svetih",
+   "Obavijest kandidatima o održavanju pisane provjere znanja",
+   "Obavijest za linije u smjeru Gradskog groblja i Bibinja",
+   "JAVNI NATJEČAJ  za prikupljanje najpovoljnije pisane ponude za   zakup poslovnog prostora",
+   "Obavijest za studente",
+   "Obavijest za liniju Poluotok &#8211; Arbanasi &#8211; Kolodvor"
+  ],
+  "links": [
+   "https://liburnija-zadar.hr/obavijest-o-linijama-koje-prometuju-ulicom-put-nina/",
+   "https://liburnija-zadar.hr/obavijest-bibinje-marina/",
+   "https://liburnija-zadar.hr/javni-natjecaj-za-prikupljanje-najpovoljnije-pisane-ponude-za-zakup-poslovnog-prostora-3/"
+  ],
+  "dates": [
+   "Wed, 28 Oct 2026 10:42:41 +0000",
+   "Wed, 28 Oct 2026 10:40:55 +0000"
+  ],
+  "cats": [
+   [
+    "<![CDATA[Novosti]]>"
+   ],
+   [
+    "<![CDATA[Novosti]]>"
+   ],
+   [
+    "<![CDATA[Javni natječaji]]>"
+   ],
+   [
+    "<![CDATA[Javni natječaji]]>"
+   ]
+  ],
+  "img": [
+   true,
+   true,
+   false
+  ],
+  "feedlinks": [],
+  "head": ""
+ },
+ "https://liburnija-zadar.hr/novosti/feed/": {
+  "error": "<HTTPError 403: 'Forbidden'>"
+ },
+ "https://liburnija-zadar.hr/category/novosti/feed/": {
+  "status": 200,
+  "final": "https://liburnija-zadar.hr/category/novosti/feed/",
+  "len": 16418,
+  "items": 10,
+  "titles": [
+   "Obavijest o linijama koje prometuju Ulicom Put Nina",
+   "Obavijest Bibinje (marina)",
+   "Obavijest za blagdan Svih svetih",
+   "Obavijest za linije u smjeru Gradskog groblja i Bibinja",
+   "Obavijest za studente",
+   "Obavijest za liniju Poluotok &#8211; Arbanasi &#8211; Kolodvor",
+   "Obavijest za autobusnu liniju Kolodvor &#8211; Božidarevićeva &#8211; Puntamika",
+   "Obavijest za autobusnu liniju Dračevac",
+   "Obavijest za školsku autobusnu liniju Bili brig &#8211; Škola Borik",
+   "Obavijest za autobusnu liniju Zadar &#8211; Rupalj &#8211; Mandalina"
+  ],
+  "links": [
+   "https://liburnija-zadar.hr/obavijest-o-linijama-koje-prometuju-ulicom-put-nina/",
+   "https://liburnija-zadar.hr/obavijest-bibinje-marina/",
+   "https://liburnija-zadar.hr/obavijest-za-blagdan-svih-svetih/"
+  ],
+  "dates": [
+   "Wed, 28 Oct 2026 10:42:41 +0000",
+   "Wed, 28 Oct 2026 10:40:55 +0000"
+  ],
+  "cats": [
+   [
+    "<![CDATA[Novosti]]>"
+   ],
+   [
+    "<![CDATA[Novosti]]>"
+   ],
+   [
+    "<![CDATA[Novosti]]>"
+   ],
+   [
+    "<![CDATA[Novosti]]>"
+   ]
+  ],
+  "img": [
+   true,
+   true,
+   true
+  ],
+  "feedlinks": [],
+  "head": ""
+ },
+ "https://liburnija-zadar.hr/novosti/": {
+  "status": 200,
+  "final": "https://liburnija-zadar.hr/novosti/",
+  "len": 176810,
+  "items": 0,
+  "titles": [],
+  "links": [],
+  "dates": [],
+  "cats": [],
+  "img": [],
+  "feedlinks": [
+   "<link rel=\"alternate\" type=\"application/rss+xml\" title=\"Autobusni kolodvor Zadar &raquo; Kanal\" href=\"https://liburnija-zadar.hr/feed/\" />",
+   "<link rel=\"alternate\" type=\"application/rss+xml\" title=\"Autobusni kolodvor Zadar RSS2 Feed\" href=\"https://liburnija-zadar.hr/feed/\" />"
+  ],
+  "head": "<!DOCTYPE html>\n<html lang=\"hr\" class=\"html_stretched responsive av-preloader-disabled av-default-lightbox  html_header_top html_logo_left html_main_nav_header html_menu_right html_slim html_header_sticky html_header_shrinking_disabled html_mobile_menu_phone html_header_searchicon_disabled html_content_align_center html_header_unstick_top html_header_stretch html_minimal_header html_elegant-blog html_av-submenu-hidden html_av-submenu-display-click html_av-overlay-side html_av-overlay-side-minima"
+ },
+ "https://liburnija-zadar.hr/robots.txt": {
+  "status": 200,
+  "final": "https://liburnija-zadar.hr/robots.txt",
+  "len": 119,
+  "items": 0,
+  "titles": [],
+  "links": [],
+  "dates": [],
+  "cats": [],
+  "img": [],
+  "feedlinks": [],
+  "head": "User-agent: *\nDisallow: /wp-admin/\nAllow: /wp-admin/admin-ajax.php\n\nSitemap: https://liburnija-zadar.hr/wp-sitemap.xml\n"
+ },
+ "https://liburnija-zadar.hr/wp-json/wp/v2/posts?per_page=3&_fields=link,title,date,categories": {
+  "status": 200,
+  "final": "https://liburnija-zadar.hr/wp-json/wp/v2/posts?per_page=3&_fields=link,title,date,categories",
+  "len": 678,
+  "items": 0,
+  "titles": [],
+  "links": [],
+  "dates": [],
+  "cats": [],
+  "img": [],
+  "feedlinks": [],
+  "head": "[{\"date\":\"2026-10-28T10:42:41\",\"link\":\"https:\\/\\/liburnija-zadar.hr\\/obavijest-o-linijama-koje-prometuju-ulicom-put-nina\\/\",\"title\":{\"rendered\":\"Obavijest o linijama koje prometuju Ulicom Put Nina\"},\"categories\":[71]},{\"date\":\"2026-10-28T10:40:55\",\"link\":\"https:\\/\\/liburnija-zadar.hr\\/obavijest-bibinje-marina\\/\",\"title\":{\"rendered\":\"Obavijest Bibinje (marina)\"},\"categories\":[71]},{\"date\":\"2026-10-28T09:22:56\",\"link\":\"https:\\/\\/liburnija-zadar.hr\\/javni-natjecaj-za-prikupljanje-najpovoljnije-pisa"
+ }
+}
