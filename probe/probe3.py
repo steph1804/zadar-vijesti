@@ -3,13 +3,13 @@ UA = "Mozilla/5.0 (compatible; LokalniAgregator/1.0; +https://idassa.click)"
 cands = {
  "feed": "https://noviradio.hr/feed/", "wwwfeed": "https://www.noviradio.hr/feed/",
  "search": "https://noviradio.hr/?s=zadar&feed=rss2", "home": "https://noviradio.hr/",
- "rss": "https://noviradio.hr/rss",
+ "http": "http://noviradio.hr/feed/",
 }
 search = {}
 def go(kv):
     n, u = kv
     try:
-        r = urllib.request.urlopen(urllib.request.Request(u, headers={"User-Agent": UA}), timeout=25)
+        r = urllib.request.urlopen(urllib.request.Request(u, headers={"User-Agent": UA}), timeout=90)
         b = r.read().decode("utf-8", "replace")
         its = re.findall(r"<(?:item|entry)[ >](.*?)</(?:item|entry)>", b, re.S)
         tit = [re.sub(r"<!\[CDATA\[|\]\]>", "", (re.findall(r"<title[^>]*>(.*?)</title>", it, re.S) or [""])[0])[:70] for it in its]
