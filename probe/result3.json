@@ -15,8 +15,8 @@
   "u": "https://noviradio.hr/",
   "err": "URLError(TimeoutError('timed out'))"
  },
- "rss": {
-  "u": "https://noviradio.hr/rss",
+ "http": {
+  "u": "http://noviradio.hr/feed/",
   "err": "URLError(TimeoutError('timed out'))"
  }
 }
