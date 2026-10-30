@@ -31,7 +31,7 @@ jobs:
           git config user.name "github-actions"
           git config user.email "github-actions@users.noreply.github.com"
           git add data/articles.json data/status.json data/info.json
-          git diff --cached --quiet || git commit -m "Osvježeni članci" && git push
+          git diff --cached --quiet || { git commit -m "Osvježeni članci" && git pull --rebase -X theirs origin main && git push; }
       # Ako je u site.json "private": true, stranica se šifrira lozinkom iz tajne SITE_PASSWORD
       # (Settings → Secrets and variables → Actions). Bez lozinke ide samo obavijest "u pripremi".
       - name: Zaključaj lozinkom
