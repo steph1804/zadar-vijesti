@@ -1,0 +1,113 @@
+{
+ "https://croatianaviation.com/feed/": {
+  "status": 200,
+  "final": "https://croatianaviation.com/feed/",
+  "len": 117760,
+  "items": 10,
+  "titles": [
+   "U Rovaniemi charter letovima: u prosincu planirano pet rotacija",
+   "Aviapartner registrirao tvrtku u Hrvatskoj, pripreme za dolazak u Zagreb se nastavljaju",
+   "Ryanair najavio novu liniju za Zadar u ljetnom redu letenja 2027.",
+   "Splitski aerodrom danas ima 25 rotacija, u ponudi preko 7.300 sjedala",
+   "Air Montenegro uvodi liniju za Zagreb, letovi planirani tri puta tjedno",
+   "Slaven Žabo ponovno izabran za predsjednika Udruženja zračnog prometa HGK",
+   "Pegasus smanjio kapacitet na liniji Zagreb – Istanbul za 25 posto",
+   "Dubrovnik vraća milijune eura EU sredstava, problem oko sustava za opskrbu zrakoplova gori",
+   "Domaće linije ponovno u neizvjesnosti: karte u prodaji do kraja godine, što nakon 1. siječ",
+   "Zagreb danas zabilježio 4-milijuntog putnika"
+  ],
+  "dates": [
+   "Thu, 29 Oct 2026 23:10:00 +0000",
+   "Thu, 29 Oct 2026 18:28:31 +0000",
+   "Mon, 26 Oct 2026 13:15:13 +0000"
+  ],
+  "zadar": 2,
+  "img": [
+   true,
+   true,
+   true
+  ],
+  "feedlinks": [],
+  "head": ""
+ },
+ "https://croatianaviation.com/": {
+  "status": 200,
+  "final": "https://croatianaviation.com/",
+  "len": 189768,
+  "items": 0,
+  "titles": [],
+  "dates": [],
+  "zadar": 0,
+  "img": [],
+  "feedlinks": [
+   "<link rel=\"alternate\" type=\"application/rss+xml\" title=\"Croatian Aviation &raquo; Kanal\" href=\"https://croatianaviation.com/feed/\" />",
+   "<link rel=\"alternate\" type=\"application/rss+xml\" title=\"Croatian Aviation &raquo; Kanal komentara\" href=\"https://croatianaviation.com/comments/feed/\" />"
+  ],
+  "head": "<!DOCTYPE html>\r\n<html dir=\"ltr\" lang=\"hr\"\n\tprefix=\"og: https://ogp.me/ns#\" >\r\n<head>\r\n<meta charset=\"UTF-8\">\r\n<meta name=\"viewport\" content=\"width=device-width,initial-scale=1.0\">\r\n<meta name=\"description\" content=\"Zračni je promet za nas posao, ljubav i hobi. Cilj nam je okupiti sve zaljubljenike u putovanja i avioindustriju u Hrvatskoj na jednom mjestu, kao i približiti ovu zanimljivu industrij"
+ },
+ "https://croatianaviation.com/robots.txt": {
+  "status": 200,
+  "final": "https://croatianaviation.com/robots.txt",
+  "len": 198,
+  "items": 0,
+  "titles": [],
+  "dates": [],
+  "zadar": 0,
+  "img": [],
+  "feedlinks": [],
+  "head": "User-agent: *\r\nAllow: /croavi2023/wp-admin/admin-ajax.php\r\nDisallow: /croavi2023/wp-admin/\r\n\r\nSitemap: https://croatianaviation.com/sitemap.xml\r\nSitemap: https://croatianaviation.com/sitemap.rss\r\n\r\n"
+ },
+ "https://croatianaviation.com/tag/zadar/feed/": {
+  "status": 200,
+  "final": "https://croatianaviation.com/tag/zadar/feed/",
+  "len": 22034,
+  "items": 2,
+  "titles": [
+   "Direktoru zadarske zračne luke istekao mandat, Vlada predložila njegovo ponovno imenovanje",
+   "Na 12 današnjih polazaka iz Zadra dostupno preko 2.000 sjedala"
+  ],
+  "dates": [
+   "Wed, 14 Oct 2026 14:22:43 +0000",
+   "Mon, 12 Oct 2026 06:15:18 +0000",
+   "Mon, 12 Oct 2026 06:15:18 +0000"
+  ],
+  "zadar": 2,
+  "img": [
+   true,
+   true
+  ],
+  "feedlinks": [],
+  "head": ""
+ },
+ "https://croatianaviation.com/?s=zadar&feed=rss2": {
+  "status": 200,
+  "final": "https://croatianaviation.com/?s=zadar&feed=rss2",
+  "len": 90608,
+  "items": 10,
+  "titles": [
+   "Ryanair najavio novu liniju za Zadar u ljetnom redu letenja 2027.",
+   "Croatia Airlines ispratio još jedan A319: 9A-CTH odletio u Kemble na rezanje",
+   "Od sutra zimski red letenja u Hrvatskoj: što se mijenja u Zagrebu i na obali?",
+   "Vlada ponovno predložila Tihomira Pejina za direktora Zračne luke Osijek",
+   "Croatia Airlines ispratio još jedan A319: „Zadar” odletio u Kemble na rezanje",
+   "Ryanair obilježava 20 godina poslovanja u Hrvatskoj, kroz Dubrovnik prevezeno više od dva ",
+   "Direktoru zadarske zračne luke istekao mandat, Vlada predložila njegovo ponovno imenovanje",
+   "Jaka bura paralizirala promet u Dubrovniku: brojni divertirani i otkazani letovi, poremeća",
+   "Na 12 današnjih polazaka iz Zadra dostupno preko 2.000 sjedala",
+   "Novi centar kontrole leta u Zemuniku: investicija od 12,3 milijuna eura"
+  ],
+  "dates": [
+   "Thu, 29 Oct 2026 18:15:00 +0000",
+   "Mon, 26 Oct 2026 10:12:07 +0000",
+   "Fri, 09 Oct 2026 10:42:06 +0000"
+  ],
+  "zadar": 10,
+  "img": [
+   true,
+   true,
+   true
+  ],
+  "feedlinks": [],
+  "head": ""
+ }
+}
