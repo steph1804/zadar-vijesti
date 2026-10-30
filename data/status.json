@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-30T10:46:19.711017+00:00",
+ "updated": "2026-10-30T11:33:45.717429+00:00",
  "sources": [
   {
    "name": "Antena Zadar",
@@ -31,7 +31,7 @@
   },
   {
    "name": "eZadar",
-   "count": 21,
+   "count": 19,
    "ok": true,
    "feed": null,
    "errors": []
@@ -145,15 +145,15 @@
   },
   {
    "name": "Telegram",
-   "count": 0,
-   "ok": false,
+   "count": 1,
+   "ok": true,
    "feed": null,
    "errors": []
   },
   {
    "name": "Novi list",
-   "count": 0,
-   "ok": false,
+   "count": 1,
+   "ok": true,
    "feed": null,
    "errors": []
   },
@@ -173,7 +173,7 @@
   },
   {
    "name": "Morski.hr",
-   "count": 3,
+   "count": 5,
    "ok": true,
    "feed": null,
    "errors": []
