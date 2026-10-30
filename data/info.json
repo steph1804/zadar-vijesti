@@ -44,5 +44,63 @@
    "status": "Boarding",
    "gate": "07"
   }
+ ],
+ "power": [
+  {
+   "day": "30.10.2026",
+   "place": "Vrsi",
+   "street": "",
+   "note": "Predio Stražica - hitna zamjena razbijenog mrežnog ormara",
+   "time": "08:30 - 09:30",
+   "unplanned": true
+  },
+  {
+   "day": "30.10.2026",
+   "place": "Jovići",
+   "street": "Jovići istočni",
+   "note": "",
+   "time": "08:00 - 12:00",
+   "unplanned": false
+  },
+  {
+   "day": "30.10.2026",
+   "place": "Zemunik Donji",
+   "street": "Predio Marušići",
+   "note": "",
+   "time": "08:30 - 12:00",
+   "unplanned": false
+  },
+  {
+   "day": "30.10.2026",
+   "place": "Zadar",
+   "street": "Put Vukića južni dio, Arbanaška ulica i ul. Don Frane Bulića",
+   "note": "",
+   "time": "08:30 - 12:30",
+   "unplanned": false
+  },
+  {
+   "day": "30.10.2026",
+   "place": "Paljuv",
+   "street": "Predio Baždarići",
+   "note": "",
+   "time": "08:30 - 10:30",
+   "unplanned": false
+  },
+  {
+   "day": "30.10.2026",
+   "place": "Ždrilo",
+   "street": "Cijelo mjesto",
+   "note": "",
+   "time": "08:30 - 13:30",
+   "unplanned": false
+  },
+  {
+   "day": "30.10.2026",
+   "place": "Privlaka",
+   "street": "Bilotinjak 2",
+   "note": "Povremeni prekidi",
+   "time": "08:00 - 13:00",
+   "unplanned": false
+  }
  ]
 }
