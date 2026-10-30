@@ -13,8 +13,11 @@ for u in ["https://zadarska-policija.gov.hr/vijesti/", "https://zadarska-policij
                   "head": b[:1500] if "robots" in u or "sitemap" in u else ""}
     except Exception as e:
         out[u] = {"error": repr(e)[:200]}
-b = urllib.request.urlopen(urllib.request.Request("https://zadarska-policija.gov.hr/vijesti/", headers={"User-Agent": UA}), timeout=30).read().decode("utf-8","replace")
-i = b.find("/vijesti/"); 
-m = re.search(r'(<(?:div|ul|article)[^>]*class="[^"]*(?:news|vijest|list)[^"]*".{0,3000})', b, re.S)
-out["snippet"] = m.group(1)[:3000] if m else b[len(b)//3:len(b)//3+3000]
+try:
+  b = urllib.request.urlopen(urllib.request.Request("https://zadarska-policija.gov.hr/vijesti/", headers={"User-Agent": UA}), timeout=30).read().decode("utf-8","replace")
+  pass
+  m = re.search(r'(<(?:div|ul|article)[^>]*class="[^"]*(?:news|vijest|list)[^"]*".{0,3000})', b, re.S)
+  out["snippet"] = m.group(1)[:3000] if m else b[len(b)//3:len(b)//3+3000]
+except Exception as e:
+  out["final_err"] = repr(e)[:300]
 json.dump(out, open("probe/result3.json", "w"), ensure_ascii=False, indent=1)
