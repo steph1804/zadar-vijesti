@@ -515,8 +515,10 @@ def main():
             i["face"], i["face_img"] = old.get("face"), old["face_img"]
         cache[i["link"]] = i
     enabled = {s["name"] for s in sources if s.get("kind") != "info"}
-    cache = {k: a for k, a in cache.items() if a["source"] in enabled and is_local(a)
-             and not is_media(a["link"])}
+    # Izvori s "local_only": false (npr. KK Zadar, Liburnija) su sami po sebi zadarski.
+    trusted = {s["name"] for s in sources if s.get("local_only") is False}
+    cache = {k: a for k, a in cache.items() if a["source"] in enabled
+             and (a["source"] in trusted or is_local(a)) and not is_media(a["link"])}
     articles = sorted(cache.values(), key=lambda a: a["date"], reverse=True)[:MAX_TOTAL]
 
     # Položaj lica računamo jednom po slici; čuva se u predmemoriji dok se slika ne promijeni.
