@@ -68,7 +68,7 @@ ljubač\w*
 ?vrana|vrani|vransk\w*
 paklenic\w*
 raštan\w*
-debeljak\w*
+?debeljak\w*
 ?drage
 sv\.? petr\w* na moru|svet\w* petr\w* na moru
 ?poljic\w*
@@ -139,12 +139,12 @@ zverinac|zverinc\w*
 brbinj\w*
 žman\w*
 ?zaglav\w*
-vel\w* rat\w*
+vel(?:i|og|om) rat(?:a|u|om)?
 verunić\w*
 brgulj\w*
 zapuntel\w*
-mal\w* iž\w*|vel\w* iž\w*
-mal\w* rav\w*
+(?:mal|vel)(?:i|og|om) iž(?:a|u|om)?
+mal(?:a|e|oj|u|om) rav(?:a|e|i|u|om)
 vrgad\w*
 
 [ljudi]
