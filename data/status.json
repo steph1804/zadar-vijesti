@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-30T18:16:12.814217+00:00",
+ "updated": "2026-10-30T18:30:57.826839+00:00",
  "sources": [
   {
    "name": "Antena Zadar",
@@ -10,7 +10,7 @@
   },
   {
    "name": "Zadarski list",
-   "count": 10,
+   "count": 9,
    "ok": true,
    "feed": null,
    "errors": []
@@ -68,12 +68,10 @@
   },
   {
    "name": "Grad Zadar",
-   "count": 0,
-   "ok": false,
+   "count": 10,
+   "ok": true,
    "feed": null,
-   "errors": [
-    "https://www.grad-zadar.hr/rss/vijesti-s-pocetne-stranice-0.xml: The read operation timed out"
-   ]
+   "errors": []
   },
   {
    "name": "Zadarska županija",
@@ -217,10 +215,12 @@
   },
   {
    "name": "Sportklub",
-   "count": 30,
-   "ok": true,
+   "count": 0,
+   "ok": false,
    "feed": null,
-   "errors": []
+   "errors": [
+    "https://sportklub.hr/?s=zadar&feed=rss2: HTTP Error 500: Internal Server Error"
+   ]
   },
   {
    "name": "Dalmacija News",
