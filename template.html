@@ -157,6 +157,9 @@
   .box details ul { margin-top: 6px; }
   .flights { list-style: none; padding-left: 0 !important; font-size: .85rem; margin-bottom: 6px !important; }
   .flights .st { color: var(--muted); }
+  .pw { list-style: none; padding-left: 0 !important; font-size: .85rem; }
+  .pw li { margin-bottom: 6px; }
+  .kvar { margin-left: 6px; background: var(--warn-bg); color: var(--warn); border-radius: 999px; padding: 0 7px; font-size: .72rem; font-weight: 700; }
 
   /* Vijesti */
   .feed { display: grid; gap: 18px; grid-template-columns: repeat(auto-fill, minmax(260px, 1fr)); align-content: start; }
@@ -321,6 +324,7 @@
     <div class="box" id="ferries"><h3>Trajekti</h3></div>
     <div class="box" id="flights"><h3>Zračna luka Zadar</h3></div>
     <div class="box" id="roads"><h3>Ceste i promet</h3></div>
+    <div class="box" id="power"><h3>Bez struje (Elektra)</h3></div>
     <div class="box" id="buses"><h3>Autobusi (Liburnija)</h3></div>
     <div class="box" id="events"><h3>Događanja u Zadru</h3>
       <p>Koncerti, izložbe, predstave i ostala događanja u gradu i okolici.</p>
@@ -656,6 +660,32 @@ function roads() {
   }
 }
 
+// --- Isključenja struje (HEP ODS, Elektra Zadar), danas i sutra ---
+function power() {
+  const box = document.getElementById("power");
+  const url = "https://www.hep.hr/ods/bez-struje/19?dp=zadar";
+  box.append(el("p", {}, el("a", { href: url, target: "_blank", rel: "noopener" }, el("b", {}, "Sva isključenja na HEP-u →"))));
+  const all = DATA.info && DATA.info.power;
+  if (!all) { box.append(el("p", { class: "small" }, "Popis trenutno nije dostupan.")); return; }
+  const days = [...new Set(all.map(r => r.day))];
+  const row = r => el("li", {}, el("b", {}, r.place), ` ${r.time}`, r.unplanned ? el("span", { class: "kvar" }, "kvar") : null,
+    r.street || r.note ? el("div", { class: "small" }, [r.street, r.note].filter(Boolean).join(" · ")) : null);
+  const today = all.filter(r => r.day === days[0]);
+  if (today.length) {
+    const ul = el("ul", { class: "pw" });
+    today.forEach(r => ul.append(row(r)));
+    box.append(el("p", { class: "small" }, "Danas:"), ul);
+  } else {
+    box.append(el("p", { class: "small" }, "Danas nema najavljenih isključenja."));
+  }
+  const next = days[1] ? all.filter(r => r.day === days[1]) : [];
+  if (next.length) {
+    const ul = el("ul", { class: "pw" });
+    next.forEach(r => ul.append(row(r)));
+    box.append(el("details", {}, el("summary", { class: "small" }, `Sutra (${next.length})`), ul));
+  }
+}
+
 // --- Autobusi: zadnje obavijesti Liburnije i njihovi vozni redovi ---
 function buses() {
   const box = document.getElementById("buses");
@@ -822,6 +852,7 @@ setTopic(state.topic, false);
 ferries();
 flights();
 roads();
+power();
 buses();
 weather();
 analytics();

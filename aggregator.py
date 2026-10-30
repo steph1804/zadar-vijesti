@@ -17,7 +17,7 @@ import time
 import urllib.parse
 import urllib.request
 import xml.etree.ElementTree as ET
-from datetime import datetime, timezone
+from datetime import datetime, timedelta, timezone
 from html.parser import HTMLParser
 from zoneinfo import ZoneInfo
 
@@ -308,6 +308,36 @@ def airport_flights():
         })
     flights.sort(key=lambda f: f["time"])
     return flights
+
+
+POWER_URL = "https://www.hep.hr/ods/bez-struje/19?dp=zadar&el=ZD&datum={}"
+_POWER_ROW = re.compile(
+    r'<div class="mjesto[^"]*">(.*?)</div>\s*<div class="vrijeme[^"]*">(.*?)<div class="clear">', re.S)
+
+
+def _power_field(block, label):
+    m = re.search(rf"<strong>{label}:</strong>(.*?)</div>", block, re.S)
+    return html.unescape(re.sub(r"<[^>]+>|\s+", " ", m.group(1))).strip(" .") if m else ""
+
+
+def power_outages(days=2):
+    """Planirana i neplanirana isključenja struje Elektre Zadar (HEP ODS, stranica "Bez struje")."""
+    out = []
+    for n in range(days):
+        day = (datetime.now(ZAGREB) + timedelta(days=n)).strftime("%d.%m.%Y")
+        try:
+            data, _ = fetch(POWER_URL.format(day))
+        except Exception as e:  # noqa: BLE001
+            print(f"[HEP Bez struje] {e}", file=sys.stderr)
+            return None
+        for place, when in _POWER_ROW.findall(data.decode("utf-8", "replace")):
+            kada = re.search(r'<div class="kada">(.*?)</div>', when, re.S)
+            tip = re.search(r'<div class="tip">(.*?)</div>', when, re.S)
+            out.append({"day": day, "place": _power_field(place, "Mjesto"), "street": _power_field(place, "Ulica"),
+                        "note": _power_field(place, "Napomena"),
+                        "time": kada.group(1).strip() if kada else "",
+                        "unplanned": bool(tip and "neplan" in tip.group(1))})
+    return out
 
 
 def discover_feed(site):
@@ -632,6 +662,7 @@ def main():
     with open(os.path.join(os.path.dirname(CACHE_FILE), "status.json"), "w", encoding="utf-8") as f:
         json.dump({"updated": now, "sources": status}, f, ensure_ascii=False, indent=1)
     info["flights"] = airport_flights()
+    info["power"] = power_outages()
     with open(os.path.join(os.path.dirname(CACHE_FILE), "info.json"), "w", encoding="utf-8") as f:
         json.dump(info, f, ensure_ascii=False, indent=1)
     render(articles, sources, status, now, info)
