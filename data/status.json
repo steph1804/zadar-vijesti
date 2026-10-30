@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-30T19:49:37.392937+00:00",
+ "updated": "2026-10-30T20:01:07.597104+00:00",
  "sources": [
   {
    "name": "Antena Zadar",
@@ -38,7 +38,7 @@
   },
   {
    "name": "023 portal",
-   "count": 3,
+   "count": 2,
    "ok": true,
    "feed": null,
    "errors": []
@@ -124,8 +124,8 @@
   },
   {
    "name": "Jutarnji list",
-   "count": 0,
-   "ok": false,
+   "count": 1,
+   "ok": true,
    "feed": null,
    "errors": []
   },
@@ -159,8 +159,8 @@
   },
   {
    "name": "Telegram",
-   "count": 0,
-   "ok": false,
+   "count": 1,
+   "ok": true,
    "feed": null,
    "errors": []
   },
@@ -250,7 +250,7 @@
   },
   {
    "name": "Sportske novosti",
-   "count": 2,
+   "count": 3,
    "ok": true,
    "feed": null,
    "errors": []
