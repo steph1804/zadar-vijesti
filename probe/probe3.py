@@ -1,7 +1,7 @@
-import json, re, urllib.request
+import json, re, urllib.request, urllib.error
 UA = "Mozilla/5.0 (compatible; LokalniAgregator/1.0; +https://github.com/steph1804/zadar-vijesti)"
 out = {}
-for u in ["https://zadarska-policija.gov.hr/vijesti/", "https://zadarska-policija.gov.hr/rss", "https://zadarska-policija.gov.hr/rss.aspx", "https://zadarska-policija.gov.hr/vijesti/rss", "https://zadarska-policija.gov.hr/robots.txt", "https://zadarska-policija.gov.hr/sitemap.xml"]:
+for u in ["https://zadarska-policija.gov.hr/", "https://zadarska-policija.gov.hr/vijesti", "https://zadarska-policija.gov.hr/vijesti/8", "https://policija.gov.hr/", "https://policija.gov.hr/rss", "https://mup.gov.hr/rss", "https://policija.gov.hr/vijesti/"]:
     try:
         r = urllib.request.urlopen(urllib.request.Request(u, headers={"User-Agent": UA}), timeout=30)
         b = r.read().decode("utf-8", "replace")
@@ -9,15 +9,9 @@ for u in ["https://zadarska-policija.gov.hr/vijesti/", "https://zadarska-policij
                   "items": len(re.findall(r"<item>", b)),
                   "feedlinks": re.findall(r'<link[^>]+(?:rss|atom)\+xml[^>]*>', b)[:3],
                   "rsshrefs": list(set(re.findall(r'href="([^"]*rss[^"]*)"', b, re.I)))[:8],
-                  "newslinks": list(dict.fromkeys(re.findall(r'href="([^"]*/vijesti/[^"]+)"', b)))[:12],
-                  "head": b[:1500] if "robots" in u or "sitemap" in u else ""}
+                  "links": list(dict.fromkeys(re.findall(r'href="([^"#]+)"', b)))[:60]}
+    except urllib.error.HTTPError as e:
+        out[u] = {"error": e.code, "server": e.headers.get("Server"), "body": e.read()[:400].decode("utf-8","replace")}
     except Exception as e:
         out[u] = {"error": repr(e)[:200]}
-try:
-  b = urllib.request.urlopen(urllib.request.Request("https://zadarska-policija.gov.hr/vijesti/", headers={"User-Agent": UA}), timeout=30).read().decode("utf-8","replace")
-  pass
-  m = re.search(r'(<(?:div|ul|article)[^>]*class="[^"]*(?:news|vijest|list)[^"]*".{0,3000})', b, re.S)
-  out["snippet"] = m.group(1)[:3000] if m else b[len(b)//3:len(b)//3+3000]
-except Exception as e:
-  out["final_err"] = repr(e)[:300]
 json.dump(out, open("probe/result3.json", "w"), ensure_ascii=False, indent=1)
