@@ -31,8 +31,9 @@ Popis je u `feeds.json`. Za svaki portal:
 
 Ako portal ima oba filtra, članak prolazi ako zadovoljava bilo koji. Bez filtra uzima se sve.
 
-Izbačeni jer im ne možemo preuzimati vijesti: 057info (odbija automatske zahtjeve), eZadar
-(ne odgovara GitHubu), HRT Radio Zadar (nema RSS), Zadar.events (odbija automatske zahtjeve).
+Izbačeni jer im ne možemo preuzimati vijesti: 057info (odbija automatske zahtjeve, Cloudflare),
+HRT Radio Zadar (nema RSS), Zadar.events (odbija automatske zahtjeve). eZadar se čita s nove
+adrese ezadar.net.hr (stara www.ezadar.hr ne odgovara).
 
 ## Strogi filtar mjesta
 

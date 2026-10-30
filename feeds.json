@@ -46,6 +46,14 @@
     ]
   },
   {
+    "name": "eZadar",
+    "site": "https://ezadar.net.hr/",
+    "feeds": [
+      "https://ezadar.net.hr/feed/"
+    ],
+    "note": "eZadar je prešao na ezadar.net.hr; stara www.ezadar.hr ne odgovara"
+  },
+  {
     "name": "023 portal",
     "site": "https://023.hr/",
     "feeds": [
