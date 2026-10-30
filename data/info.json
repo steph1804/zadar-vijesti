@@ -9,64 +9,40 @@
  ],
  "flights": [
   {
-   "dir": "dolazak",
-   "flight": "FR1963",
-   "airline": "Ryanair",
-   "city": "Memmingen",
-   "via": "",
-   "time": "2026-10-29T07:15:00",
-   "est": "2026-10-29T08:00:00",
-   "act": "2026-10-29T07:58:00",
-   "status": "Landed",
-   "gate": ""
-  },
-  {
    "dir": "odlazak",
-   "flight": "FR1962",
-   "airline": "Ryanair",
-   "city": "Memmingen",
-   "via": "",
-   "time": "2026-10-29T07:40:00",
-   "est": "2026-10-29T08:27:00",
-   "act": "2026-10-29T09:58:00",
-   "status": "Departed",
-   "gate": "07"
-  },
-  {
-   "dir": "dolazak",
-   "flight": "OU674",
+   "flight": "OU4674",
    "airline": "Croatia Airlines",
-   "city": "Zagreb",
+   "city": "Munich",
    "via": "",
-   "time": "2026-10-29T14:55:00",
-   "est": "2026-10-29T14:55:00",
-   "act": "2026-10-29T15:01:00",
-   "status": "Landed",
-   "gate": ""
-  },
-  {
-   "dir": "odlazak",
-   "flight": "OU674",
-   "airline": "Croatia Airlines",
-   "city": "Zagreb",
-   "via": "Pula",
-   "time": "2026-10-29T15:20:00",
-   "est": "2026-10-29T15:20:00",
-   "act": "2026-10-29T15:32:00",
+   "time": "2026-10-30T06:30:00",
+   "est": "2026-10-30T08:00:00",
+   "act": "2026-10-30T07:52:00",
    "status": "Departed",
    "gate": "05"
   },
   {
    "dir": "dolazak",
-   "flight": "OU675",
+   "flight": "OU4675",
+   "airline": "Croatia Airlines",
+   "city": "Munich",
+   "via": "",
+   "time": "2026-10-30T15:10:00",
+   "est": "2026-10-30T16:10:00",
+   "act": "",
+   "status": "Delay",
+   "gate": ""
+  },
+  {
+   "dir": "odlazak",
+   "flight": "OU674",
    "airline": "Croatia Airlines",
    "city": "Zagreb",
    "via": "Pula",
-   "time": "2026-10-29T23:00:00",
-   "est": "2026-10-29T23:00:00",
+   "time": "2026-10-30T15:40:00",
+   "est": "2026-10-30T15:40:00",
    "act": "",
    "status": "",
-   "gate": ""
+   "gate": "07"
   }
  ]
 }
