@@ -96,6 +96,15 @@
     ]
   },
   {
+    "name": "Liburnija Zadar",
+    "site": "https://liburnija-zadar.hr/novosti/",
+    "feeds": [
+      "https://liburnija-zadar.hr/category/novosti/feed/"
+    ],
+    "local_only": false,
+    "note": "Gradski prijevoz: samo rubrika Novosti (obavijesti o linijama), bez javnih natječaja"
+  },
+  {
     "name": "Lučka uprava Zadar",
     "site": "https://www.port-authority-zadar.hr/",
     "feeds": [
