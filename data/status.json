@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-30T16:01:11.350423+00:00",
+ "updated": "2026-10-30T16:12:27.089507+00:00",
  "sources": [
   {
    "name": "Antena Zadar",
@@ -45,26 +45,28 @@
   },
   {
    "name": "Sport023",
-   "count": 10,
-   "ok": true,
-   "feed": null,
-   "errors": []
-  },
-  {
-   "name": "KK Zadar",
-   "count": 10,
-   "ok": true,
-   "feed": null,
-   "errors": []
-  },
-  {
-   "name": "Naši školji",
    "count": 0,
    "ok": false,
    "feed": null,
    "errors": [
-    "https://www.nasiskolji.hr/feed/: <urlopen error timed out>"
+    "https://sport023.hr/feed/: mismatched tag: line 93, column 2"
    ]
+  },
+  {
+   "name": "KK Zadar",
+   "count": 0,
+   "ok": false,
+   "feed": null,
+   "errors": [
+    "https://kkzadar.hr/feed/: mismatched tag: line 93, column 2"
+   ]
+  },
+  {
+   "name": "Naši školji",
+   "count": 10,
+   "ok": true,
+   "feed": null,
+   "errors": []
   },
   {
    "name": "Grad Zadar",
@@ -75,7 +77,16 @@
   },
   {
    "name": "Zadarska županija",
-   "count": 10,
+   "count": 0,
+   "ok": false,
+   "feed": null,
+   "errors": [
+    "https://www.zadarska-zupanija.hr/novosti-arhiva?format=feed&type=rss: mismatched tag: line 93, column 2"
+   ]
+  },
+  {
+   "name": "HRT Radio Zadar",
+   "count": 11,
    "ok": true,
    "feed": null,
    "errors": []
@@ -110,7 +121,7 @@
   },
   {
    "name": "Index.hr",
-   "count": 1,
+   "count": 2,
    "ok": true,
    "feed": null,
    "errors": []
@@ -159,8 +170,8 @@
   },
   {
    "name": "Novi list",
-   "count": 1,
-   "ok": true,
+   "count": 0,
+   "ok": false,
    "feed": null,
    "errors": []
   },
@@ -232,7 +243,9 @@
    "count": 0,
    "ok": false,
    "feed": null,
-   "errors": []
+   "errors": [
+    "https://hrvatska-danas.com/feed/: mismatched tag: line 93, column 2"
+   ]
   },
   {
    "name": "HRTurizam",
