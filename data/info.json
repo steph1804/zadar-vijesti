@@ -1,10 +1,10 @@
 {
  "Jadrolinija": [
   {
-   "title": "Linije u prekidu 30.10.2026.",
-   "link": "https://www.jadrolinija.hr/news-single/linije-u-prekidu-30102026",
-   "date": "2026-10-29T19:15:00+00:00",
-   "summary": "Red plovidbe u petak, 30.10."
+   "title": "Svi Jadrolinijini brodovi plove prema redu plovidbe",
+   "link": "https://www.jadrolinija.hr/news-single/stanje-u-pomorskom-prometu",
+   "date": "2026-10-31T00:00:02+00:00",
+   "summary": "U pomorskom prometu nema poteškoća, svi Jadrolinijini brodovi plove prema redu plovidbe."
   }
  ],
  "flights": [
@@ -45,62 +45,5 @@
    "gate": "07"
   }
  ],
- "power": [
-  {
-   "day": "30.10.2026",
-   "place": "Vrsi",
-   "street": "",
-   "note": "Predio Stražica - hitna zamjena razbijenog mrežnog ormara",
-   "time": "08:30 - 09:30",
-   "unplanned": true
-  },
-  {
-   "day": "30.10.2026",
-   "place": "Jovići",
-   "street": "Jovići istočni",
-   "note": "",
-   "time": "08:00 - 12:00",
-   "unplanned": false
-  },
-  {
-   "day": "30.10.2026",
-   "place": "Zemunik Donji",
-   "street": "Predio Marušići",
-   "note": "",
-   "time": "08:30 - 12:00",
-   "unplanned": false
-  },
-  {
-   "day": "30.10.2026",
-   "place": "Zadar",
-   "street": "Put Vukića južni dio, Arbanaška ulica i ul. Don Frane Bulića",
-   "note": "",
-   "time": "08:30 - 12:30",
-   "unplanned": false
-  },
-  {
-   "day": "30.10.2026",
-   "place": "Paljuv",
-   "street": "Predio Baždarići",
-   "note": "",
-   "time": "08:30 - 10:30",
-   "unplanned": false
-  },
-  {
-   "day": "30.10.2026",
-   "place": "Ždrilo",
-   "street": "Cijelo mjesto",
-   "note": "",
-   "time": "08:30 - 13:30",
-   "unplanned": false
-  },
-  {
-   "day": "30.10.2026",
-   "place": "Privlaka",
-   "street": "Bilotinjak 2",
-   "note": "Povremeni prekidi",
-   "time": "08:00 - 13:00",
-   "unplanned": false
-  }
- ]
+ "power": []
 }
