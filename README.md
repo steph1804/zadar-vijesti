@@ -55,6 +55,9 @@ Ako feed nema sliku, skripta je uzima iz `og:image` oznake na stranici članka.
 Napravi besplatan račun na [goatcounter.com](https://www.goatcounter.com) i upiši njegov kod
 u `site.json`, npr. `{"goatcounter": "zadarskevijesti"}`.
 
+Za Google Analytics upiši Measurement ID (G-...) u `site.json` pod `"google_analytics"`.
+GA se učitava tek kad posjetitelj prihvati kolačiće na traci pri dnu (GDPR).
+
 ## Automatsko osvježavanje (GitHub Pages)
 
 `.github/workflows/update.yml` svakih 15 minuta pokreće skriptu i objavljuje stranicu
