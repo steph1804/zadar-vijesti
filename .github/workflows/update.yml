@@ -32,6 +32,28 @@ jobs:
           git config user.email "github-actions@users.noreply.github.com"
           git add data/articles.json data/status.json data/info.json
           git diff --cached --quiet || git commit -m "Osvježeni članci" && git push
+      # Ako je u site.json "private": true, stranica se šifrira lozinkom iz tajne SITE_PASSWORD
+      # (Settings → Secrets and variables → Actions). Bez lozinke ide samo obavijest "u pripremi".
+      - name: Zaključaj lozinkom
+        env:
+          PW: ${{ secrets.SITE_PASSWORD }}
+        run: |
+          private=$(python3 -c 'import json; print(json.load(open("site.json")).get("private", False))')
+          [ "$private" = "True" ] || exit 0
+          if [ -n "$PW" ]; then
+            npx --yes staticrypt@3.5.4 site -r -d enc -p "$PW" -s 7c3e1a9b5d2f4e6a8b0c1d2e3f4a5b6c -c false --short \
+              --remember 30 --template-title "idassa.click" --template-instructions "Stranica je u pripremi. Upiši lozinku." \
+              --template-button "Otvori" --template-placeholder "Lozinka" --template-remember "Zapamti me na ovom uređaju" \
+              --template-error "Pogrešna lozinka" --template-color-primary "#1968b3" --template-color-secondary "#0b3d73" \
+              --template-toggle-show "Prikaži lozinku" --template-toggle-hide "Sakrij lozinku"
+            rm -rf site && mv enc/site site
+          else
+            for f in $(find site -name index.html); do
+              printf '%s' '<!doctype html><html lang="hr"><meta charset="utf-8"><meta name="robots" content="noindex, nofollow"><meta name="viewport" content="width=device-width,initial-scale=1"><title>idassa.click</title><body style="margin:0;display:grid;place-items:center;min-height:100vh;background:#0b3d73;color:#fff;font:18px system-ui,sans-serif"><p>Stranica je u pripremi.</p></body></html>' > "$f"
+            done
+          fi
+          find site -name '*.html' -exec sed -i 's#<head>#<head><meta name="robots" content="noindex, nofollow">#' {} +
+          rm -f site/feed.xml site/sitemap.xml
       - uses: actions/upload-pages-artifact@v3
         with:
           path: site

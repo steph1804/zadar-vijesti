@@ -707,8 +707,13 @@ def render(articles, sources, status, now, info=None):
         os.makedirs(out, exist_ok=True)
         with open(os.path.join(out, "index.html"), "w", encoding="utf-8") as f:
             f.write(page)
-    write_feed(grouped, site_url, now)
-    write_sitemap(site_url, now)
+    if settings.get("private"):
+        # Zatvorena stranica (pod lozinkom): bez RSS-a i sitemapa, tražilicama zabranjeno.
+        with open(os.path.join(OUT_DIR, "robots.txt"), "w", encoding="utf-8") as f:
+            f.write("User-agent: *\nDisallow: /\n")
+    else:
+        write_feed(grouped, site_url, now)
+        write_sitemap(site_url, now)
     print(f"Spremljeno {len(articles)} članaka u site/", file=sys.stderr)
 
 
