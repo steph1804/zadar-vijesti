@@ -105,6 +105,16 @@
     "note": "Gradski prijevoz: samo rubrika Novosti (obavijesti o linijama), bez javnih natječaja"
   },
   {
+    "name": "Policija Zadar",
+    "site": "https://zadarska-policija.gov.hr/vijesti/8",
+    "feeds": [
+      "https://zadarska-policija.gov.hr/vijesti/8"
+    ],
+    "parser": "mup",
+    "local_only": false,
+    "note": "PU zadarska nema RSS: čita se popis vijesti s njihove stranice (parse_mup_news)"
+  },
+  {
     "name": "Lučka uprava Zadar",
     "site": "https://www.port-authority-zadar.hr/",
     "feeds": [

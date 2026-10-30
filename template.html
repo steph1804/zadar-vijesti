@@ -197,6 +197,7 @@
     <div class="box" id="ferries"><h3>Trajekti</h3></div>
     <div class="box" id="flights"><h3>Zračna luka Zadar</h3></div>
     <div class="box" id="roads"><h3>Ceste i promet</h3></div>
+    <div class="box" id="buses"><h3>Autobusi (Liburnija)</h3></div>
     <div class="box" id="events"><h3>Događanja u Zadru</h3>
       <p>Koncerti, izložbe, predstave i ostala događanja u gradu i okolici.</p>
       <p class="small"><a href="https://zadar.events/" target="_blank" rel="noopener">Pogledaj kalendar na zadar.events →</a></p>
@@ -446,6 +447,27 @@ function roads() {
   }
 }
 
+// --- Autobusi: zadnje obavijesti Liburnije i njihovi vozni redovi ---
+function buses() {
+  const box = document.getElementById("buses");
+  const lines = [["Gradske linije", "gradski-prijevoz"], ["Prigradske linije", "prigradski-prijevoz"], ["Međugradske linije", "medugradski-prijevoz"]];
+  const p = el("p", {}, el("b", {}, "Vozni red: "));
+  lines.forEach(([name, slug], i) => {
+    if (i) p.append(" · ");
+    p.append(el("a", { href: `https://liburnija-zadar.hr/${slug}/`, target: "_blank", rel: "noopener" }, name));
+  });
+  box.append(p);
+  const since = Date.now() - 14 * 24 * 3600 * 1000;
+  const hits = DATA.articles.filter(a => a.source === "Liburnija Zadar" && new Date(a.date) > since).slice(0, 3);
+  if (hits.length) {
+    const ul = el("ul");
+    for (const a of hits) ul.append(el("li", {}, el("a", { href: a.link, target: "_blank", rel: "noopener" }, a.title)));
+    box.append(ul);
+  } else {
+    box.append(el("p", { class: "small" }, "Nema novih obavijesti o linijama u zadnja dva tjedna."));
+  }
+}
+
 // --- Vremenska prognoza (Open-Meteo, bez ključa) ---
 const WMO = { 0: "vedro", 1: "pretežno vedro", 2: "djelomično oblačno", 3: "oblačno", 45: "magla", 48: "magla",
   51: "rosulja", 53: "rosulja", 55: "rosulja", 61: "slaba kiša", 63: "kiša", 65: "jaka kiša", 66: "ledena kiša", 67: "ledena kiša",
@@ -559,6 +581,7 @@ setTopic(state.topic, false);
 ferries();
 flights();
 roads();
+buses();
 weather();
 analytics();
 if ("serviceWorker" in navigator) navigator.serviceWorker.register(BASE + "sw.js").catch(() => {});

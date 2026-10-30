@@ -19,6 +19,7 @@ import urllib.request
 import xml.etree.ElementTree as ET
 from datetime import datetime, timezone
 from html.parser import HTMLParser
+from zoneinfo import ZoneInfo
 
 ROOT = os.path.dirname(os.path.abspath(__file__))
 FEEDS_FILE = os.path.join(ROOT, "feeds.json")
@@ -27,6 +28,7 @@ OUT_DIR = os.path.join(ROOT, "site")
 TEMPLATE = os.path.join(ROOT, "template.html")
 PLACES_FILE = os.path.join(ROOT, "places.txt")
 
+ZAGREB = ZoneInfo("Europe/Zagreb")
 USER_AGENT = "Mozilla/5.0 (compatible; LokalniAgregator/1.0)"
 TIMEOUT = 20
 MAX_PER_SOURCE = 30      # koliko najnovijih članaka uzeti po portalu
@@ -327,7 +329,7 @@ def load_source(src):
         tried.add(url)
         try:
             data, final = fetch_retry(url, src.get("timeout", TIMEOUT), src.get("retries", 1))
-            items = parse_feed(data, final)
+            items = PARSERS[src["parser"]](data, final) if src.get("parser") else parse_feed(data, final)
             if items:
                 break
             errors.append(f"{url}: prazan feed")
@@ -341,6 +343,30 @@ def load_source(src):
         return [], errors
 
     return finish_items(src, items, errors)
+
+
+_MUP_ITEM = re.compile(r"<div class='news_item'><a href='([^']+)'><span class='h3'>(.*?)</span></a>(.*?)"
+                       r"<span class='date'>(\d{1,2})\.(\d{1,2})\.(\d{4})", re.S)
+
+
+def parse_mup_news(data, base_url):
+    """Popis vijesti s MUP-ovih stranica policijskih uprava (nemaju RSS)."""
+    page = data.decode("utf-8", "replace")
+    today = datetime.now(ZAGREB).date()
+    items = []
+    for link, title, teaser, d, m, y in _MUP_ITEM.findall(page):
+        title = html.unescape(re.sub(r"<[^>]+>", "", title)).strip()
+        day = datetime(int(y), int(m), int(d), 12, tzinfo=ZAGREB)
+        if title == "Sažetak dnevnih događanja":
+            title = f"Sažetak dnevnih događanja PU zadarske, {int(d)}. {int(m)}."
+        it = _item(title, link, None, teaser, "", None, base_url, [])
+        # Na popisu je samo datum: današnje vijesti dobivaju vrijeme kad ih prvi put vidimo.
+        it["date"] = None if day.date() == today else day.astimezone(timezone.utc).isoformat()
+        items.append(it)
+    return items
+
+
+PARSERS = {"mup": parse_mup_news}
 
 
 def load_combined(src):
