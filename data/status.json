@@ -1,9 +1,9 @@
 {
- "updated": "2026-10-30T06:50:30.683973+00:00",
+ "updated": "2026-10-30T07:58:29.785184+00:00",
  "sources": [
   {
    "name": "Antena Zadar",
-   "count": 7,
+   "count": 8,
    "ok": true,
    "feed": null,
    "errors": []
@@ -24,14 +24,14 @@
   },
   {
    "name": "Znet",
-   "count": 4,
+   "count": 5,
    "ok": true,
    "feed": null,
    "errors": []
   },
   {
    "name": "023 portal",
-   "count": 6,
+   "count": 7,
    "ok": true,
    "feed": null,
    "errors": []
@@ -52,16 +52,14 @@
   },
   {
    "name": "Naši školji",
-   "count": 0,
-   "ok": false,
+   "count": 10,
+   "ok": true,
    "feed": null,
-   "errors": [
-    "https://www.nasiskolji.hr/feed/: <urlopen error timed out>"
-   ]
+   "errors": []
   },
   {
    "name": "Grad Zadar",
-   "count": 8,
+   "count": 9,
    "ok": true,
    "feed": null,
    "errors": []
@@ -82,14 +80,14 @@
   },
   {
    "name": "Index.hr",
-   "count": 3,
+   "count": 1,
    "ok": true,
    "feed": null,
    "errors": []
   },
   {
    "name": "Jutarnji list",
-   "count": 1,
+   "count": 2,
    "ok": true,
    "feed": null,
    "errors": []
@@ -103,8 +101,8 @@
   },
   {
    "name": "tportal",
-   "count": 1,
-   "ok": true,
+   "count": 0,
+   "ok": false,
    "feed": null,
    "errors": []
   },
