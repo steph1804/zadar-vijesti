@@ -46,6 +46,14 @@
     ]
   },
   {
+    "name": "eZadar",
+    "site": "https://ezadar.net.hr/",
+    "feeds": [
+      "https://ezadar.net.hr/feed/"
+    ],
+    "note": "eZadar je prešao na ezadar.net.hr; stara www.ezadar.hr ne odgovara"
+  },
+  {
     "name": "023 portal",
     "site": "https://023.hr/",
     "feeds": [
@@ -134,17 +142,21 @@
     "name": "Index.hr",
     "site": "https://www.index.hr/",
     "feeds": [
-      "https://www.index.hr/rss"
+      "https://www.index.hr/rss",
+      "https://www.index.hr/rss/vijesti"
     ],
-    "scope": "national"
+    "scope": "national",
+    "combine": true
   },
   {
     "name": "Jutarnji list",
     "site": "https://www.jutarnji.hr/",
     "feeds": [
-      "https://www.jutarnji.hr/feed"
+      "https://www.jutarnji.hr/feed",
+      "https://www.jutarnji.hr/feed?s=zadar"
     ],
-    "scope": "national"
+    "scope": "national",
+    "combine": true
   },
   {
     "name": "Večernji list",
@@ -233,23 +245,83 @@
     "name": "Dalmacija Danas",
     "site": "https://www.dalmacijadanas.hr/",
     "feeds": [
-      "https://www.dalmacijadanas.hr/feed/"
+      "https://www.dalmacijadanas.hr/feed/",
+      "https://www.dalmacijadanas.hr/?s=zadar&feed=rss2"
     ],
-    "scope": "national"
+    "scope": "national",
+    "combine": true
   },
   {
     "name": "Poslovni dnevnik",
     "site": "https://www.poslovni.hr/",
     "feeds": [
-      "https://www.poslovni.hr/feed"
+      "https://www.poslovni.hr/feed",
+      "https://www.poslovni.hr/?s=zadar&feed=rss2"
     ],
-    "scope": "national"
+    "scope": "national",
+    "combine": true
   },
   {
     "name": "Sportklub",
     "site": "https://sportklub.hr/",
     "feeds": [
-      "https://sportklub.hr/feed/"
+      "https://sportklub.hr/feed/",
+      "https://sportklub.hr/?s=zadar&feed=rss2"
+    ],
+    "scope": "national",
+    "topic": "Sport",
+    "combine": true
+  },
+  {
+    "name": "Dalmacija News",
+    "site": "https://www.dalmacijanews.hr/",
+    "feeds": [
+      "https://www.dalmacijanews.hr/feed/",
+      "https://www.dalmacijanews.hr/?s=zadar&feed=rss2"
+    ],
+    "combine": true,
+    "scope": "national"
+  },
+  {
+    "name": "Nacional",
+    "site": "https://www.nacional.hr/",
+    "feeds": [
+      "https://www.nacional.hr/feed/",
+      "https://www.nacional.hr/?s=zadar&feed=rss2"
+    ],
+    "combine": true,
+    "scope": "national"
+  },
+  {
+    "name": "Hrvatska danas",
+    "site": "https://hrvatska-danas.com/",
+    "feeds": [
+      "https://hrvatska-danas.com/feed/"
+    ],
+    "scope": "national"
+  },
+  {
+    "name": "HRTurizam",
+    "site": "https://hrturizam.hr/",
+    "feeds": [
+      "https://hrturizam.hr/feed/"
+    ],
+    "scope": "national"
+  },
+  {
+    "name": "Sportske novosti",
+    "site": "https://sportske.jutarnji.hr/",
+    "feeds": [
+      "https://sportske.jutarnji.hr/feed"
+    ],
+    "scope": "national",
+    "topic": "Sport"
+  },
+  {
+    "name": "Gol.hr",
+    "site": "https://gol.dnevnik.hr/",
+    "feeds": [
+      "https://gol.dnevnik.hr/assets/feed/articles/"
     ],
     "scope": "national",
     "topic": "Sport"
