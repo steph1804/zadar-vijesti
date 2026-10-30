@@ -78,19 +78,52 @@
               background: var(--card); cursor: pointer; display: grid; place-items: center; }
   .icon-btn svg { width: 18px; height: 18px; }
 
-  /* Naslov i rubrike */
-  .intro { padding: 20px 0 6px; display: flex; flex-wrap: wrap; align-items: end; justify-content: space-between; gap: 6px 16px; }
-  .intro h1 { margin: 0; font-size: clamp(1.6rem, 4vw, 2.5rem); letter-spacing: -.035em; line-height: 1.1; font-weight: 800; }
-  .intro p { margin: 0; color: var(--muted); font-size: .9rem; }
-  .nav { display: flex; gap: 8px; align-items: center; padding: 10px 0 4px; overflow-x: auto; scrollbar-width: none; }
+  /* Zaglavlje: plavi pojas s naslovom, brojkama i rubrikama */
+  .mast { position: relative; overflow: hidden; color: #fff;
+          background: radial-gradient(900px 380px at 88% -30%, rgba(255,90,31,.55), transparent 60%),
+                      radial-gradient(700px 400px at 0% 120%, rgba(99,189,240,.45), transparent 60%),
+                      linear-gradient(120deg, #0b3d73 0%, #1968b3 55%, #1f7fd0 100%); }
+  .mast::after { content: ""; position: absolute; inset: auto 0 0 0; height: 70px; opacity: .14; pointer-events: none;
+    background: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 1200 70' preserveAspectRatio='none'%3E%3Cpath d='M0 40 C150 10 300 70 450 40 S750 10 900 40 1050 70 1200 40 V70 H0Z' fill='%23fff'/%3E%3Cpath d='M0 55 C200 30 350 75 600 52 S1000 30 1200 55 V70 H0Z' fill='%23fff'/%3E%3C/svg%3E") bottom/100% 100% no-repeat; }
+  .mast .wrap { position: relative; z-index: 1; padding-top: 26px; padding-bottom: 26px; }
+  .intro { display: flex; flex-wrap: wrap; align-items: end; justify-content: space-between; gap: 10px 20px; }
+  .intro h1 { margin: 0; font-size: clamp(1.8rem, 4.6vw, 3rem); letter-spacing: -.04em; line-height: 1.05; font-weight: 800; }
+  .intro p { margin: 6px 0 0; color: rgba(255,255,255,.8); font-size: .92rem; }
+  .stats { display: flex; gap: 10px; flex-wrap: wrap; }
+  .stat { background: rgba(255,255,255,.13); border: 1px solid rgba(255,255,255,.2); border-radius: 14px; padding: 8px 14px;
+          backdrop-filter: blur(6px); -webkit-backdrop-filter: blur(6px); min-width: 92px; }
+  .stat b { display: block; font-size: 1.35rem; letter-spacing: -.02em; line-height: 1.15; }
+  .stat span { font-size: .72rem; text-transform: uppercase; letter-spacing: .08em; opacity: .8; }
+  .nav { display: flex; gap: 8px; align-items: center; padding: 18px 0 2px; overflow-x: auto; scrollbar-width: none; }
   .nav::-webkit-scrollbar { display: none; }
-  .chip { flex: none; border: 0; background: var(--chip); color: var(--text); padding: 7px 14px; border-radius: 999px;
-          font-size: .9rem; font-weight: 600; cursor: pointer; text-decoration: none; }
-  .chip { transition: background .15s; } .chip:hover { background: color-mix(in srgb, var(--accent) 14%, var(--chip)); }
-  .chip[aria-current="page"] { background: var(--chip-on); color: var(--chip-on-text); box-shadow: 0 4px 14px color-mix(in srgb, var(--chip-on) 35%, transparent); }
-  .chip .n { opacity: .6; margin-left: 5px; font-weight: 500; }
-  .nav select { flex: none; margin-left: auto; padding: 7px 10px; border-radius: 999px; border: 1px solid var(--line);
-                background: var(--card); font-size: .9rem; max-width: 190px; }
+  .chip { flex: none; border: 1px solid rgba(255,255,255,.22); background: rgba(255,255,255,.1); color: #fff; padding: 7px 15px;
+          border-radius: 999px; font-size: .9rem; font-weight: 600; cursor: pointer; text-decoration: none; transition: background .15s; }
+  .chip:hover { background: rgba(255,255,255,.22); }
+  .chip[aria-current="page"] { background: #fff; color: #0b3d73; border-color: #fff; box-shadow: 0 6px 18px rgba(0,0,0,.18); }
+  .chip .n { opacity: .65; margin-left: 5px; font-weight: 500; }
+  .nav select { flex: none; margin-left: auto; padding: 7px 10px; border-radius: 999px; border: 1px solid rgba(255,255,255,.3);
+                background: rgba(255,255,255,.12); color: #fff; font-size: .9rem; max-width: 190px; }
+  .nav select option { color: #0f1d2b; }
+  :root[data-theme="dark"] .mast { background: radial-gradient(900px 380px at 88% -30%, rgba(255,90,31,.35), transparent 60%),
+    radial-gradient(700px 400px at 0% 120%, rgba(99,189,240,.25), transparent 60%), linear-gradient(120deg, #071d36 0%, #0d3a66 60%, #12497f 100%); }
+  @media (prefers-color-scheme: dark) { :root:not([data-theme="light"]) .mast { background: radial-gradient(900px 380px at 88% -30%, rgba(255,90,31,.35), transparent 60%),
+    radial-gradient(700px 400px at 0% 120%, rgba(99,189,240,.25), transparent 60%), linear-gradient(120deg, #071d36 0%, #0d3a66 60%, #12497f 100%); } }
+
+  /* Traka "Upravo": najnovije vijesti koje klize */
+  .ticker { background: var(--card); border-bottom: 1px solid var(--line); font-size: .86rem; }
+  .ticker .wrap { display: flex; align-items: center; gap: 14px; height: 44px; }
+  .ticker .lbl { flex: none; display: flex; align-items: center; gap: 7px; font-weight: 800; font-size: .72rem; text-transform: uppercase;
+                 letter-spacing: .1em; color: var(--coral); }
+  .ticker .lbl::before { content: ""; width: 8px; height: 8px; border-radius: 50%; background: var(--coral); animation: pulse 1.6s infinite; }
+  @keyframes pulse { 0% { box-shadow: 0 0 0 0 rgba(255,90,31,.6); } 100% { box-shadow: 0 0 0 9px rgba(255,90,31,0); } }
+  .tk { flex: 1; overflow: hidden; -webkit-mask-image: linear-gradient(90deg, transparent, #000 4%, #000 96%, transparent);
+        mask-image: linear-gradient(90deg, transparent, #000 4%, #000 96%, transparent); }
+  .tr { display: flex; width: max-content; animation: slide 90s linear infinite; }
+  .tk:hover .tr { animation-play-state: paused; }
+  @keyframes slide { to { transform: translateX(-50%); } }
+  .tr a { white-space: nowrap; color: var(--text); text-decoration: none; padding-right: 34px; }
+  .tr a:hover { color: var(--accent); }
+  .tr time { color: var(--muted); font-weight: 700; margin-right: 8px; font-variant-numeric: tabular-nums; }
 
   /* Raspored: vijesti lijevo, korisne informacije desno */
   .layout { display: grid; gap: 20px; padding: 14px 16px 24px; grid-template-columns: minmax(0, 1fr); }
@@ -151,6 +184,26 @@
   .also { position: relative; z-index: 1; font-size: .78rem; color: var(--muted); }
   .more { position: relative; z-index: 1; margin-top: auto; padding-top: 4px; font-size: .8rem; font-weight: 700; text-decoration: none; }
 
+  /* Vrpca rubrike: vodoravni niz manjih kartica */
+  .strip { grid-column: 1 / -1; --t: var(--accent); background: color-mix(in srgb, var(--t) 7%, var(--card));
+           border: 1px solid color-mix(in srgb, var(--t) 22%, var(--line)); border-radius: 18px; padding: 16px 0 18px; }
+  .strip[data-t="Županija"] { --t: var(--t-Županija); } .strip[data-t="Otoci"] { --t: var(--t-Otoci); } .strip[data-t="Sport"] { --t: var(--t-Sport); }
+  .strip header { display: flex; align-items: center; justify-content: space-between; padding: 0 18px 12px; }
+  .strip h3 { margin: 0; font-size: 1.25rem; letter-spacing: -.02em; display: flex; align-items: center; gap: 10px; }
+  .strip h3::before { content: ""; width: 6px; height: 22px; border-radius: 3px; background: var(--t); }
+  .strip header a { color: var(--t); font-weight: 700; font-size: .86rem; text-decoration: none; }
+  .row { display: flex; gap: 14px; overflow-x: auto; scroll-snap-type: x mandatory; padding: 2px 18px 4px; scroll-padding-inline: 18px;
+         scrollbar-width: thin; }
+  .row article { flex: 0 0 230px; scroll-snap-align: start; }
+  .row article a.img { height: 120px; }
+  .row .body { padding: 10px 13px 12px; gap: 5px; }
+  .row h2 { font-size: .95rem; display: -webkit-box; -webkit-line-clamp: 3; -webkit-box-orient: vertical; overflow: hidden; }
+  .row .body p, .row .more, .row .also, .row .tag { display: none; }
+  .fav { width: 16px; height: 16px; border-radius: 4px; flex: none; background: #fff; }
+  .meta .src { display: inline-flex; align-items: center; gap: 6px; }
+  .feed > article, .hero article { animation: rise .45s both; }
+  @keyframes rise { from { opacity: 0; transform: translateY(10px); } }
+
   /* Naslovne priče: fotografija preko cijele kartice, naslov na slici */
   .hero { grid-column: 1 / -1; display: grid; gap: 18px; grid-template-columns: minmax(0, 1.75fr) minmax(0, 1fr);
           grid-template-rows: repeat(2, calc((var(--hero-h) - 18px) / 2)); }
@@ -209,8 +262,11 @@
     .bar .wrap { gap: 8px; }
     .wordmark { height: 24px; }
     .nav select { max-width: 150px; }
+    .mast .wrap { padding-top: 18px; padding-bottom: 20px; }
+    .stat { padding: 5px 11px; min-width: 0; border-radius: 11px; } .stat b { font-size: 1.05rem; display: inline; margin-right: 5px; }
   }
-  @media (prefers-reduced-motion: reduce) { article, article img { transition: none; } article:hover, article:hover img { transform: none; } }
+  @media (prefers-reduced-motion: reduce) { .tr { animation: none; } .tk { overflow-x: auto; } .feed > article, .hero article { animation: none; }
+    article, article img { transition: none; } article:hover, article:hover img { transform: none; } }
 .cookies { position: fixed; left: 16px; right: 16px; bottom: 16px; z-index: 50; max-width: 560px; margin: 0 auto;
   display: flex; gap: 12px; align-items: center; flex-wrap: wrap; padding: 12px 14px; border-radius: 12px;
   background: var(--card, var(--bg)); color: inherit; border: 1px solid var(--line, #8884); box-shadow: 0 6px 24px #0003; }
@@ -233,10 +289,11 @@
     <button class="icon-btn" id="theme" type="button" aria-label="Svijetli ili tamni način"></button>
   </div>
 </div>
-<div class="wrap">
-  <div class="intro"><h1 id="h1">{{H1}}</h1><p id="sub"></p></div>
+<header class="mast"><div class="wrap">
+  <div class="intro"><div><h1 id="h1">{{H1}}</h1><p id="sub"></p></div><div class="stats" id="stats"></div></div>
   <nav class="nav" id="nav" aria-label="Rubrike"></nav>
-</div>
+</div></header>
+<div class="ticker" id="ticker" hidden><div class="wrap"><span class="lbl">Upravo</span><div class="tk"><div class="tr" id="tr"></div></div></div></div>
 <div class="wrap layout">
   <main class="feed" id="list">{{PRERENDER}}</main>
   <aside class="info" aria-label="Korisne informacije">
@@ -352,6 +409,15 @@ addEventListener("resize", () => {
   resizeTimer = setTimeout(() => document.querySelectorAll("article img").forEach(frame), 150);
 });
 
+// Ikona portala (favicon preko Googleove usluge; ako je nema, ikona se sakrije).
+function favicon(link) {
+  let host = "";
+  try { host = new URL(link).hostname; } catch (e) { return null; }
+  const i = el("img", { class: "fav", alt: "", loading: "lazy", src: `https://www.google.com/s2/favicons?domain=${host}&sz=32` });
+  i.onerror = () => i.remove();
+  return i;
+}
+
 // Rubrika za boju kartice: prva osim Zadra (Zadar je zadana plava).
 const topicOf = a => (a.topics || []).find(t => t !== "Zadar") || null;
 
@@ -376,7 +442,7 @@ function card(a, kind) {
   }
   const topic = (state.topic === "Sve" || kind) && t;
   c.append(el("div", { class: "body" },
-    el("div", { class: "meta" }, el("b", {}, a.source),
+    el("div", { class: "meta" }, el("span", { class: "src" }, favicon(a.link), el("b", {}, a.source)),
       el("time", { datetime: a.date, title: fmt.format(new Date(a.date)) }, ago(a.date)),
       topic ? el("span", { class: "tag", "data-t": topic }, topic) : null),
     el("h2", {}, el("a", link, a.title)),
@@ -399,15 +465,48 @@ function list() {
     hero.forEach((a, i) => box.append(card(a, i ? "small" : "big")));
     main.append(box, el("div", { class: "sec" }, "Najnovije"));
   }
+  // Na naslovnici (bez pretrage i odabranog portala) između kartica idu vrpce rubrika.
+  const strips = state.topic === "Sve" && !state.q && !state.source ? { 8: "Sport", 17: "Otoci", 26: "Županija" } : {};
   order.slice(0, state.shown).forEach((a, i) => {
     main.append(card(a));
     if (i === 6 && !state.q) main.append(newsletter());
+    if (strips[i]) main.append(strip(strips[i], [...hero, ...order.slice(0, i + 1)]));
   });
   if (order.length > state.shown) {
     const b = el("button", { class: "load", type: "button" }, `Prikaži još (${order.length - state.shown})`);
     b.onclick = () => { state.shown += STEP; list(); };
     main.append(b);
   }
+}
+
+function strip(t, skip) {
+  const items = visible().filter(a => (a.topics || []).includes(t) && a.image && !skip.includes(a)).slice(0, 10);
+  if (items.length < 3) return "";
+  const all = el("a", { href: pageUrl(t) }, "Sve vijesti →");
+  all.onclick = e => { if (e.metaKey || e.ctrlKey || e.shiftKey) return; e.preventDefault(); setTopic(t, true); };
+  const row = el("div", { class: "row" });
+  items.forEach(a => row.append(card(a)));
+  return el("section", { class: "strip", "data-t": t, "aria-label": t },
+    el("header", {}, el("h3", {}, HEADINGS[t] || t), all), row);
+}
+
+// Traka "Upravo" i brojke u zaglavlju
+function masthead() {
+  const now = Date.now(), day = 24 * 3600 * 1000;
+  const today = DATA.articles.filter(a => now - new Date(a.date) < day).length;
+  const sources = new Set(DATA.articles.flatMap(a => [a.source, ...(a.also || []).map(x => x.source)])).size;
+  const stats = document.getElementById("stats");
+  const stat = (n, label, id) => el("div", { class: "stat", id }, el("b", {}, n), el("span", {}, label));
+  stats.append(stat(String(today), "vijesti danas"), stat(String(sources), "izvora"), stat("–", "Zadar sada", "now"));
+  const tr = document.getElementById("tr");
+  const latest = DATA.articles.slice(0, 12);
+  if (!latest.length) return;
+  for (const copy of [0, 1]) for (const a of latest) {
+    const x = el("a", { href: a.link, target: "_blank", rel: "noopener", "aria-hidden": copy ? "true" : null, tabindex: copy ? "-1" : null },
+      el("time", { datetime: a.date }, hmFmt.format(new Date(a.date))), a.title);
+    tr.append(x);
+  }
+  document.getElementById("ticker").hidden = false;
 }
 
 function render() { nav(); list(); }
@@ -545,6 +644,8 @@ async function weather() {
     const c = w.current, d = w.daily;
     box.textContent = "";
     box.append(el("h3", {}, "Vrijeme u Zadru"));
+    const now = document.querySelector("#now b");
+    if (now) now.textContent = `${Math.round(c.temperature_2m)}°C`;
     box.append(el("div", { class: "now" },
       el("span", { class: "temp" }, `${Math.round(c.temperature_2m)}°C`),
       el("span", {}, WMO[c.weather_code] || "")));
@@ -561,6 +662,8 @@ async function weather() {
     }
   } catch (e) {
     box.querySelector("p").textContent = "Prognoza trenutno nije dostupna.";
+    const now = document.getElementById("now");
+    if (now) now.remove();
   }
 }
 
@@ -658,6 +761,7 @@ document.getElementById("sub").textContent =
   `${today.charAt(0).toUpperCase() + today.slice(1)} · ažurirano u ${hmFmt.format(new Date(DATA.updated))}`;
 history.replaceState({ topic: state.topic }, "");
 setupTheme();
+masthead();
 setupTools();
 setTopic(state.topic, false);
 ferries();
