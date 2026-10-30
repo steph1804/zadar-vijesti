@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-30T08:15:19.715293+00:00",
+ "updated": "2026-10-30T08:27:09.051829+00:00",
  "sources": [
   {
    "name": "Antena Zadar",
@@ -10,7 +10,7 @@
   },
   {
    "name": "Zadarski list",
-   "count": 5,
+   "count": 6,
    "ok": true,
    "feed": null,
    "errors": []
@@ -62,6 +62,13 @@
   {
    "name": "Grad Zadar",
    "count": 9,
+   "ok": true,
+   "feed": null,
+   "errors": []
+  },
+  {
+   "name": "Liburnija Zadar",
+   "count": 10,
    "ok": true,
    "feed": null,
    "errors": []
@@ -131,8 +138,8 @@
   },
   {
    "name": "Novi list",
-   "count": 1,
-   "ok": true,
+   "count": 0,
+   "ok": false,
    "feed": null,
    "errors": []
   },
