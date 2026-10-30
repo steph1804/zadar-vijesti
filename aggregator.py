@@ -590,6 +590,34 @@ PAGE_DESC = {
 }
 
 
+PAGE_H1 = {None: "Vijesti iz Zadra i županije", "Zadar": "Vijesti iz Zadra", "Županija": "Vijesti iz županije",
+           "Otoci": "Vijesti sa zadarskih otoka", "Sport": "Zadarski sport"}
+
+
+def prerender(articles, topic, limit=30):
+    """Naslovi i uvodi kao obični HTML, da ih tražilice i pregled bez JavaScripta vide;
+    skripta ih na stranici zamijeni interaktivnim popisom."""
+    esc = html.escape
+    out = []
+    for a in [a for a in articles if not topic or topic in (a.get("topics") or [])][:limit]:
+        out.append(f'<article><div class="body"><div class="meta"><b>{esc(a["source"])}</b>'
+                   f'<time datetime="{esc(a["date"])}">{esc(a["date"][:10])}</time></div>'
+                   f'<h2><a href="{esc(a["link"])}">{esc(a["title"])}</a></h2>'
+                   + (f'<p>{esc(a["summary"])}</p>' if a.get("summary") else "") + "</div></article>")
+    return "".join(out)
+
+
+def jsonld(site_url, topic, url):
+    data = {"@context": "https://schema.org", "@graph": [
+        {"@type": "WebSite", "@id": site_url + "#site", "url": site_url, "name": "idassa.click",
+         "alternateName": "Idassa – vijesti iz Zadra", "inLanguage": "hr", "description": PAGE_DESC[None]},
+        {"@type": "CollectionPage", "url": url, "name": PAGE_H1[topic], "description": PAGE_DESC[topic],
+         "isPartOf": {"@id": site_url + "#site"}, "inLanguage": "hr",
+         "about": {"@type": "Place", "name": "Zadar", "containedInPlace": "Zadarska županija, Hrvatska"}},
+    ]}
+    return json.dumps(data, ensure_ascii=False).replace("</", "<\\/")
+
+
 def render(articles, sources, status, now, info=None):
     with open(TEMPLATE, encoding="utf-8") as f:
         tpl = f.read()
@@ -598,7 +626,8 @@ def render(articles, sources, status, now, info=None):
             settings = json.load(f)
     except FileNotFoundError:
         settings = {}
-    payload = json.dumps({"articles": group_duplicates(articles), "topics": TOPICS,
+    grouped = group_duplicates(articles)
+    payload = json.dumps({"articles": grouped, "topics": TOPICS,
                           "pages": PAGE_SLUGS,
                           "sources": [s["name"] for s in sources if s.get("kind") != "info"],
                           "info": info or {}, "settings": settings,
@@ -616,13 +645,29 @@ def render(articles, sources, status, now, info=None):
                 .replace("{{TITLE}}", f"{topic} – idassa.click" if topic else "idassa.click – vijesti iz Zadra")
                 .replace("{{DESC}}", PAGE_DESC[topic])
                 .replace("{{URL}}", site_url + (slug + "/" if slug else ""))
+                .replace("{{H1}}", PAGE_H1[topic])
+                .replace("{{JSONLD}}", jsonld(site_url, topic, site_url + (slug + "/" if slug else "")))
+                .replace("{{PRERENDER}}", prerender(grouped, topic))
                 .replace("{{SITE}}", site_url))
         out = os.path.join(OUT_DIR, slug) if slug else OUT_DIR
         os.makedirs(out, exist_ok=True)
         with open(os.path.join(out, "index.html"), "w", encoding="utf-8") as f:
             f.write(page)
-    write_feed(group_duplicates(articles), site_url, now)
+    write_feed(grouped, site_url, now)
+    write_sitemap(site_url, now)
     print(f"Spremljeno {len(articles)} članaka u site/", file=sys.stderr)
+
+
+def write_sitemap(site_url, now):
+    """sitemap.xml i robots.txt za tražilice (naslovnica i stranice rubrika)."""
+    urls = [site_url] + [site_url + slug + "/" for slug in PAGE_SLUGS.values()]
+    body = "".join(f"<url><loc>{u}</loc><lastmod>{now[:10]}</lastmod><changefreq>hourly</changefreq>"
+                   f"<priority>{'1.0' if u == site_url else '0.8'}</priority></url>" for u in urls)
+    with open(os.path.join(OUT_DIR, "sitemap.xml"), "w", encoding="utf-8") as f:
+        f.write('<?xml version="1.0" encoding="UTF-8"?>\n'
+                f'<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">{body}</urlset>\n')
+    with open(os.path.join(OUT_DIR, "robots.txt"), "w", encoding="utf-8") as f:
+        f.write(f"User-agent: *\nAllow: /\n\nSitemap: {site_url}sitemap.xml\n")
 
 
 def write_feed(articles, site_url, now, limit=40):
