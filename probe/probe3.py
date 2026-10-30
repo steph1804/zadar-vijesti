@@ -1,20 +1,19 @@
-import json, sys, traceback, urllib.request
-sys.path.insert(0, ".")
+import json, re, time, urllib.request, urllib.error
+UA = "Mozilla/5.0 (compatible; LokalniAgregator/1.0; +https://idassa.click)"
 out = {}
-try:
-    import aggregator as A
-    src = next(s for s in json.load(open("feeds.json")) if s["name"] == "Policija Zadar")
-    items, errs = A.load_source(src)
-    out["police"] = [[i["date"], i["title"], i["link"], i["summary"][:80]] for i in items[:12]]
-    out["errs"] = errs
-    out["img"] = A.og_image(items[1]["link"]) if len(items) > 1 else None
-except Exception:
-    out["tb"] = traceback.format_exc()
-for slug in ["gradski-prijevoz", "prigradski-prijevoz", "medugradski-prijevoz"]:
-    u = f"https://liburnija-zadar.hr/{slug}/"
+for u in ["https://www.ezadar.hr/feed/", "https://ezadar.net.hr/feed/", "https://www.ezadar.hr/", "https://www.ezadar.hr/robots.txt",
+          "https://www.057info.hr/feed/", "https://www.057info.hr/rss", "https://www.057info.hr/", "https://www.057info.hr/robots.txt"]:
+    t = time.time()
     try:
-        r = urllib.request.urlopen(urllib.request.Request(u, headers={"User-Agent": "Mozilla/5.0 (compatible; LokalniAgregator/1.0)"}), timeout=20)
-        out[u] = [r.status, r.geturl()]
+        r = urllib.request.urlopen(urllib.request.Request(u, headers={"User-Agent": UA}), timeout=45)
+        b = r.read().decode("utf-8", "replace")
+        its = re.findall(r"<item>(.*?)</item>", b, re.S)
+        out[u] = {"status": r.status, "final": r.geturl(), "sec": round(time.time() - t, 1), "items": len(its),
+                  "titles": [(re.findall(r"<title>(.*?)</title>", it, re.S) or [""])[0][:80] for it in its[:4]],
+                  "dates": [(re.findall(r"<pubDate>(.*?)</pubDate>", it) or [""])[0] for it in its[:1]],
+                  "head": b[:300] if not its else ""}
+    except urllib.error.HTTPError as e:
+        out[u] = {"error": e.code, "sec": round(time.time() - t, 1), "server": e.headers.get("Server"), "cf": e.headers.get("cf-mitigated"), "body": e.read()[:200].decode("utf-8", "replace")}
     except Exception as e:
-        out[u] = repr(e)[:100]
+        out[u] = {"error": repr(e)[:150], "sec": round(time.time() - t, 1)}
 json.dump(out, open("probe/result3.json", "w"), ensure_ascii=False, indent=1)
