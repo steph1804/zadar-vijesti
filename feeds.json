@@ -200,6 +200,17 @@
     "scope": "national"
   },
   {
+    "name": "Croatian Aviation",
+    "site": "https://croatianaviation.com/",
+    "feeds": [
+      "https://croatianaviation.com/feed/",
+      "https://croatianaviation.com/?s=zadar&feed=rss2"
+    ],
+    "combine": true,
+    "scope": "national",
+    "note": "Zrakoplovni portal; uz glavni feed i pretraga 'zadar', a prolaze samo članci sa Zadrom (ili mjestom iz županije) u naslovu ili uvodu"
+  },
+  {
     "name": "Dalmacija Danas",
     "site": "https://www.dalmacijadanas.hr/",
     "feeds": [
