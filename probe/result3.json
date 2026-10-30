@@ -2,7 +2,7 @@
  "https://radio.hrt.hr/radio-zadar": {
   "status": 200,
   "final": "https://radio.hrt.hr/radio-zadar",
-  "len": 115012,
+  "len": 115026,
   "ctype": "text/html; charset=utf-8",
   "alt": [],
   "links": [
@@ -27,75 +27,40 @@
   "next": true,
   "head": "<!DOCTYPE html><html lang=\"hr\"><head><meta charSet=\"utf-8\"/><link rel=\"shortcut icon\" href=\"/favicon.ico\"/><link rel=\"apple-touch-icon\" sizes=\"180x180\" href=\"/hrt-180x180.png\"/><link rel=\"icon\" type=\"image/png\" sizes=\"192x192\" href=\"/hrt-192x192.png\"/><link rel=\"icon\" type=\"image/png\" sizes=\"32x32\" href=\"/hrt-32x32.png\"/><link rel=\"icon\" type=\"image/png\" sizes=\"16x16\" href=\"/hrt-16x16.png\"/><meta property=\"og:site_name\" content=\"Hrvatska radiotelevizija\"/><script type=\"application/ld+json\" id=\"j1\">{\"@context\":\"http://schema.org\",\"@type\":\"WebPage\",\"@id\":\"https://radio.hrt.hr/radio-zadar\",\"headline\":\"Radio Zadar - HRT\",\"sameAs\":[\"https://www.facebook.com/radiozadar\",\"https://www.instagram.com/radio_zadar\",\"https://twitter.com/hrtradiosplit\",\"https://apps.apple.com/hr/app/hrt-radio/id1358478574?l=hr\",\"https://play.google.com/store/apps/details?id=hr.hrt.hrtradio\",\"https://appgallery.huawei.com/app/C102614799\",\"https://hr.linkedin.com/company/hrt\"]}</script><script type=\"application/ld+json\" id=\"j2\">{\"@context\":\"http://schema.org\",\"@type\":\"NewsMediaOrganization\",\"name\":\"Hrvatska radiotelevizija\",\"logo\":{\"@context\":\"http://schema.org\",\"@type\":\"ImageObject\",\"url\":\"https://www.hrt.hr/static/hrtFooter.png\",\"height\":50,\"width\":240},\"url\":\"www.hrt.hr\",\"foundingDate\":\"1926-05-16\"}</script><meta name=\"description\" content=\"Radio Zadar uvijek uz svoj grad, otoke i zaleđe. Najnovije lokalne vijesti, glazba, kultura, sport i zabava\"/><meta name=\"twitter:description\" content=\"Radio Zadar uvijek uz svoj grad, otoke i zaleđe. Najnovije lokalne vijesti, glazba, kultura, sport i zabava\"/><meta property=\"og:description\" content=\"Radio Zadar uvijek uz svoj grad, otoke i zaleđe. Najnovije lokalne vijesti, glazba, kultura, sport i zabava\"/><meta property=\"og:title\" content=\"Radio Zadar - HRT\"/><meta name=\"twitter:title\" content=\"Radio Zadar - HRT\"/><meta property=\"og:image\" content=\"https://www.hrt.hr/static/hrt-image.png\"/><meta name=\"twitter:image\" content=\"https://www.hrt.hr/static/hrt-image.png\"/><meta property=\"og:type\" content=\"website\"/><meta property=\"og:url\" content=\"https://radio.hrt.hr/radio-zadar\"/><meta name=\"twitter:card\" content=\"summary_large_image\"/><link rel=\"canonical\" href=\"https://radio.hrt.hr/radio-zadar\"/><meta name=\"viewport\" content=\"initial-scale=1.0, width=device-width\"/><meta name=\"google-adsense-account\" content=\"ca-pub-3157105357205549\"/><title>Radio Zadar - HRT</title><script async=\"\" src=\"https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-3157105357205549\" crossorigin=\"anonymous\"></script><script>\n                    var w2g = w2g || {};\n                    w2g.hostname = 'https://www.hrt.hr/';\n                    w2g.targeting = {\n                      section: [\"radio\"],\n                    }; \n                </script><script type=\"text/javascript\" src=\"https://lib.wtg-ads.com/publisher/www.hrt.hr/lib.min.js\" async=\"\"></script><link rel=\"preload\" as=\"image\" imagesrcset=\"/_next/image?url=https%3A%2F%2Fapi.hrt.h"
  },
- "https://radio.hrt.hr/radio-zadar/vijesti": {
+ "https://radio.hrt.hr/radio-zadar/vijesti/pocinje-dogradnja-os-biograd-na-moru-vrijedna-132-milijuna-eura-12984305": {
   "status": 200,
-  "final": "https://radio.hrt.hr/radio-zadar/vijesti",
-  "len": 48996,
+  "final": "https://radio.hrt.hr/radio-zadar/vijesti/pocinje-dogradnja-os-biograd-na-moru-vrijedna-132-milijuna-eura-12984305",
+  "len": 103890,
   "ctype": "text/html; charset=utf-8",
   "alt": [],
   "links": [
    "/radio-zadar",
+   "https://api.whatsapp.com/send?text=https://radio.hrt.hr/radio-zadar/vijesti/pocinje-dogradnja-os-biograd-na-moru-vrijedna-132-milijuna-eura-12984305",
    "https://o-nama.hrt.hr/rss-i-mobilne-aplikacije/mobilne-aplikacije-6713",
    "https://radio.hrt.hr/radio-zadar",
-   "https://radio.hrt.hr/radio-zadar/vijesti",
-   "https://radio.hrt.hr/stranica/radio-zadar/o-postaji"
+   "https://radio.hrt.hr/radio-zadar/sport/cetvrto-uzastopno-svjetsko-zlato-za-hrvatsku-velik-doprinos-i-zadarskog-zubatca--12983871",
+   "https://radio.hrt.hr/radio-zadar/sport/zadarski-futsal-gradi-veliku-buducnost-cilj-je-premijerligas-a-vizija-puna-dvorana-na-visnjiku-12984134",
+   "https://radio.hrt.hr/radio-zadar/vijesti/bageri-na-bagatu-ureduje-se-nogometno-igraliste-12954593",
+   "https://radio.hrt.hr/radio-zadar/vijesti/cistoca-place-i-porez-na-nekretnine-medu-temama-danasnjeg-aktualnog-sata-12984413",
+   "https://radio.hrt.hr/radio-zadar/vijesti/erlic-o-novom-ustroju-gradske-uprave-kozinskom-zidu-sanaciji-gradskih-prometnica-12980724",
+   "https://radio.hrt.hr/radio-zadar/vijesti/grad-ce-podstanarima-novcano-pomagati-placanje-najma-12967024",
+   "https://radio.hrt.hr/radio-zadar/vijesti/krao-kabele-iz-trafostanice-pa-zavrsio-u-bolnici-12954563",
+   "https://radio.hrt.hr/radio-zadar/vijesti/malo-manje-putnika-kruzerima-stiglo-u-zadar-u-odnosu-na-lani-12966946",
+   "https://radio.hrt.hr/radio-zadar/vijesti/objavljen-prijedlog-preustroja-zadarske-gradske-uprave-12972325",
+   "https://radio.hrt.hr/radio-zadar/vijesti/odlagaliste-diklo-zatvara-se-za-sav-otpad-12954756",
+   "https://radio.hrt.hr/radio-zadar/vijesti/pijan-skrivio-prometnu-nesrecu-12954584",
+   "https://radio.hrt.hr/radio-zadar/vijesti/pocinje-dogradnja-os-biograd-na-moru-vrijedna-132-milijuna-eura-12984305",
+   "https://radio.hrt.hr/radio-zadar/vijesti/postavljaju-se-zastitne-ograde-u-parku-vladimira-nazora-12976847",
+   "https://radio.hrt.hr/radio-zadar/vijesti/priznanja-za-56-darivatelja-i-gotovo-tri-tisuce-darivanja-12976922",
+   "https://radio.hrt.hr/radio-zadar/vijesti/projekt-ne-bacaj-otpad-u-moj-dom-medu-tri-najbolja-12966949",
+   "https://radio.hrt.hr/radio-zadar/vijesti/radeta-vjeruje-kako-ce-prikupiti-potpise-gradani-imaju-pravo-na-odgovore-12982344",
+   "https://radio.hrt.hr/radio-zadar/vijesti/zadranin-platio-labudicu-splicanin-mu-je-nije-isporucio-12972289",
+   "https://radio.hrt.hr/stranica/radio-zadar/o-postaji",
+   "https://vijesti.hrt.hr/hrvatska/afera-diklo-pred-zadarskim-vijecnicima-12984384",
+   "mailto:?subject=Počinje dogradnja OŠ Biograd na Moru vrijedna 13,2 milijuna eura&amp;body=https://radio.hrt.hr/radio-zadar/vijesti/pocinje-dogradnja-os-biograd-na-moru-vrijedna-132-milijuna-eura-12984305"
   ],
   "api": [],
   "next": true,
-  "head": "<!DOCTYPE html><html lang=\"hr\"><head><meta charSet=\"utf-8\"/><link rel=\"shortcut icon\" href=\"/favicon.ico\"/><link rel=\"apple-touch-icon\" sizes=\"180x180\" href=\"/hrt-180x180.png\"/><link rel=\"icon\" type=\"image/png\" sizes=\"192x192\" href=\"/hrt-192x192.png\"/><link rel=\"icon\" type=\"image/png\" sizes=\"32x32\" href=\"/hrt-32x32.png\"/><link rel=\"icon\" type=\"image/png\" sizes=\"16x16\" href=\"/hrt-16x16.png\"/><meta property=\"og:site_name\" content=\"Hrvatska radiotelevizija\"/><script type=\"application/ld+json\" id=\"j1\">{\"@context\":\"http://schema.org\",\"@type\":\"WebPage\",\"@id\":\"https://radio.hrt.hr/radio-zadar/vijesti\",\"headline\":\"Vijesti - Radio Zadar - HRT\",\"sameAs\":[\"https://www.facebook.com/radiozadar\",\"https://www.instagram.com/radio_zadar\",\"https://twitter.com/hrtradiosplit\",\"https://apps.apple.com/hr/app/hrt-radio/id1358478574?l=hr\",\"https://play.google.com/store/apps/details?id=hr.hrt.hrtradio\",\"https://appgallery.huawei.com/app/C102614799\",\"https://hr.linkedin.com/company/hrt\"]}</script><script type=\"application/ld+json\" id=\"j3\">{\"@context\":\"https://schema.org\",\"@type\":\"ItemList\",\"description\":\"Vijesti\",\"url\":\"https://radio.hrt.hr/radio-zadar/vijesti\",\"itemListElement\":[{\"@type\":\"ListItem\",\"name\":\"Čistoća, plaće i porez na nekretnine među temama današnjeg Aktualnog sata\",\"image\":\"https://api.hrt.hr/media/b4/02/whatsapp-image-2026-10-30-at-161252-20261030151458.webp\",\"url\":\"https://radio.hrt.hr/radio-zadar/vijesti/cistoca-place-i-porez-na-nekretnine-medu-temama-danasnjeg-aktualnog-sata-12984413\",\"position\":1},{\"@type\":\"ListItem\",\"name\":\"Počinje dogradnja OŠ Biograd na Moru vrijedna 13,2 milijuna eura\",\"image\":\"https://api.hrt.hr/media/c2/92/biograd-skola-20261030131751.webp\",\"url\":\"https://radio.hrt.hr/radio-zadar/vijesti/pocinje-dogradnja-os-biograd-na-moru-vrijedna-132-milijuna-eura-12984305\",\"position\":2},{\"@type\":\"ListItem\",\"name\":\"Kako sačuvati ljubav prema sportu u svijetu koji nas stalno uči da moramo pobjeđivati?\",\"image\":\"https://api.hrt.hr/media/06/9a/ora-20261030051747.webp\",\"url\":\"https://radio.hrt.hr/radio-zadar/vijesti/kako-sacuvati-ljubav-prema-sportu-u-svijetu-koji-nas-stalno-uci-da-moramo-pobjedivati--12983855\",\"position\":3},{\"@type\":\"ListItem\",\"name\":\"Uhićena još trojica zbog napada na Nizozemce kod zadarske zračne luke\",\"image\":\"https://api.hrt.hr/media/32/ab/policija-natpis4-20250921070857.webp\",\"url\":\"https://radio.hrt.hr/radio-zadar/vijesti/uhicena-jos-trojica-zbog-napada-na-nizozemce-kod-zadarske-zracne-luke-12982854\",\"position\":4},{\"@type\":\"ListItem\",\"name\":\"ZD: Kakva je kvaliteta zraka ?\",\"image\":\"https://api.hrt.hr/media/a1/ed/pxl-080722-94514166-20261029111252.webp\",\"url\":\"https://radio.hrt.hr/radio-zadar/vijesti/zd-kakva-je-kvaliteta-zraka--12982412\",\"position\":5},{\"@type\":\"ListItem\",\"name\":\"Radeta vjeruje kako će prikupiti potpise: Građani imaju pravo na odgovore\",\"image\":\"https://api.hrt.hr/media/cc/c6/d700d7d9-bee6-41c5-a52c-f32f142f4d76-20261029101242.webp\",\"url\":\"https://radio.hrt.hr/radio-zadar/vijesti/radeta-vjeruje-kako-ce-prik"
- },
- "https://radio.hrt.hr/radio-zadar/rss": {
-  "err": "<HTTPError 404: 'Not Found'>",
-  "hdr": {
-   "Server": "nginx",
-   "Date": "Fri, 30 Oct 2026 16:10:37 GMT",
-   "Content-Type": "text/html; charset=utf-8",
-   "Content-Length": "27918",
-   "Connection": "close",
-   "Cache-Control": "s-maxage=1, stale-while-revalidate",
-   "X-Powered-By": "Next.js",
-   "ETag": "\"6d0e-PKKBvcBuyLAHmatZYiyB2gsnwpg\"",
-   "Vary": "Accept-Encoding"
-  },
-  "body": "<!DOCTYPE html><html lang=\"hr\"><head><meta name=\"viewport\" content=\"width=device-width\"/><meta charSet=\"utf-8\"/><link rel=\"shortcut icon\" href=\"/favicon.ico\"/><link rel=\"apple-touch-icon\" sizes=\"180x180\" href=\"/hrt-180x180.png\"/><link rel=\"icon\" type=\"image/png\" sizes=\"192x192\" href=\"/hrt-192x192.png\"/><link rel=\"icon\" type=\"image/png\" sizes=\"32x32\" href=\"/hrt-32x32.png\"/><link rel=\"icon\" type=\"im"
- },
- "https://feed.hrt.hr/radio-zadar/page.xml": {
-  "err": "<HTTPError 404: 'Not Found'>",
-  "hdr": {
-   "Server": "nginx",
-   "Date": "Fri, 30 Oct 2026 16:10:38 GMT",
-   "Content-Type": "text/html; charset=utf-8",
-   "Content-Length": "146",
-   "Connection": "close"
-  },
-  "body": "<html>\r\n<head><title>404 Not Found</title></head>\r\n<body>\r\n<center><h1>404 Not Found</h1></center>\r\n<hr><center>nginx</center>\r\n</body>\r\n</html>\r\n"
- },
- "https://feed.hrt.hr/radio-zadar.xml": {
-  "err": "<HTTPError 404: 'Not Found'>",
-  "hdr": {
-   "Server": "nginx",
-   "Date": "Fri, 30 Oct 2026 16:10:38 GMT",
-   "Content-Type": "text/html; charset=utf-8",
-   "Content-Length": "146",
-   "Connection": "close"
-  },
-  "body": "<html>\r\n<head><title>404 Not Found</title></head>\r\n<body>\r\n<center><h1>404 Not Found</h1></center>\r\n<hr><center>nginx</center>\r\n</body>\r\n</html>\r\n"
- },
- "https://radio.hrt.hr/robots.txt": {
-  "status": 200,
-  "final": "https://radio.hrt.hr/robots.txt",
-  "len": 244,
-  "ctype": "text/plain; charset=UTF-8",
-  "alt": [],
-  "links": [],
-  "api": [],
-  "next": false,
-  "head": "User-agent: *\nDisallow: /_next/\nDisallow: /api/\n\nUser-agent: magpie-crawler\nDisallow: /\nUser-agent: CCBot\nDisallow: /\nUser-agent: GPTBot\nDisallow: /\nUser-agent: ChatGPT-User\nDisallow: /\n\nSitemap: https://radio.hrt.hr/sitemaps/sitemap-index.xml\n",
-  "body": "User-agent: *\nDisallow: /_next/\nDisallow: /api/\n\nUser-agent: magpie-crawler\nDisallow: /\nUser-agent: CCBot\nDisallow: /\nUser-agent: GPTBot\nDisallow: /\nUser-agent: ChatGPT-User\nDisallow: /\n\nSitemap: https://radio.hrt.hr/sitemaps/sitemap-index.xml\n"
- },
- "https://www.radiozadar.hr/": {
-  "err": "URLError(gaierror(-2, 'Name or service not known'))",
-  "hdr": {},
-  "body": ""
+  "head": "<!DOCTYPE html><html lang=\"hr\"><head><meta charSet=\"utf-8\"/><link rel=\"shortcut icon\" href=\"/favicon.ico\"/><link rel=\"apple-touch-icon\" sizes=\"180x180\" href=\"/hrt-180x180.png\"/><link rel=\"icon\" type=\"image/png\" sizes=\"192x192\" href=\"/hrt-192x192.png\"/><link rel=\"icon\" type=\"image/png\" sizes=\"32x32\" href=\"/hrt-32x32.png\"/><link rel=\"icon\" type=\"image/png\" sizes=\"16x16\" href=\"/hrt-16x16.png\"/><meta property=\"og:site_name\" content=\"Hrvatska radiotelevizija\"/><script type=\"application/ld+json\" id=\"j1\">{\"@type\":\"NewsArticle\",\"mainEntityOfPage\":{\"@type\":\"WebPage\",\"@id\":\"https://radio.hrt.hr/radio-zadar/vijesti/pocinje-dogradnja-os-biograd-na-moru-vrijedna-132-milijuna-eura-12984305\"},\"headline\":\"Počinje dogradnja OŠ Biograd na Moru vrijedna 13,2 milijuna eura\",\"description\":\"Nakon dugogodišnjih priprema, Osnovna škola Biograd na Moru kreće u veliku rekonstrukciju i dogradnju kojom će se stvoriti uvjeti za jednosmjensku nastavu i provedbu programa cjelodnevne škole. Uvođenjem izvođača u posao službeno je označen početak realizacije projekta ukupne vrijednosti 13,16 milijuna eura, jednog od najvećih ulaganja u osnovnoškolsko obrazovanje na području Zadarske županije.\",\"image\":[\"https://api.hrt.hr/media/c2/92/biograd-skola-20261030131751.jpg\"],\"publisher\":{\"@type\":\"Organization\",\"name\":\"HRT\",\"logo\":{\"@type\":\"ImageObject\",\"url\":\"https://www.hrt.hr/static/hrtFooter.png\"}},\"datePublished\":\"2026-10-30T13:18:41.3591196Z\",\"dateModified\":\"2026-10-30T13:18:41.3591196Z\",\"@context\":\"https://schema.org\"}</script><meta name=\"description\" content=\"Nakon dugogodišnjih priprema, Osnovna škola Biograd na Moru kreće u veliku rekonstrukciju i dogradnju kojom će se stvoriti uvjeti za jednosmjensku nastavu i provedbu programa cjelodnevne škole. Uvođenjem izvođača u posao službeno je označen početak realizacije projekta ukupne vrijednosti 13,16 milijuna eura, jednog od najvećih ulaganja u osnovnoškolsko obrazovanje na području Zadarske županije.\"/><meta name=\"twitter:description\" content=\"Nakon dugogodišnjih priprema, Osnovna škola Biograd na Moru kreće u veliku rekonstrukciju i dogradnju kojom će se stvoriti uvjeti za jednosmjensku nastavu i provedbu programa cjelodnevne škole. Uvođenjem izvođača u posao službeno je označen početak realizacije projekta ukupne vrijednosti 13,16 milijuna eura, jednog od najvećih ulaganja u osnovnoškolsko obrazovanje na području Zadarske županije.\"/><meta property=\"og:description\" content=\"Nakon dugogodišnjih priprema, Osnovna škola Biograd na Moru kreće u veliku rekonstrukciju i dogradnju kojom će se stvoriti uvjeti za jednosmjensku nastavu i provedbu programa cjelodnevne škole. Uvođenjem izvođača u posao službeno je označen početak realizacije projekta ukupne vrijednosti 13,16 milijuna eura, jednog od najvećih ulaganja u osnovnoškolsko obrazovanje na području Zadarske županije.\"/><meta property=\"og:title\" content=\"Počinje dogradnja OŠ Biograd na Moru vrijedna 13,2 milijuna eura\"/><meta name=\"twitter:title\" content=\"Počinje dogradnja OŠ Biogra"
  }
 }
