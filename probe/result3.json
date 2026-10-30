@@ -1,0 +1,431 @@
+{
+ "Slobodna Dalmacija (sve)": {
+  "u": "https://slobodnadalmacija.hr/feed",
+  "n": 50,
+  "first": [
+   "Fri, 30 Oct 2026 11:30:58 +0100"
+  ],
+  "zadar_titles": [
+   "Zadar ponovno pušta brkove i brade za plemeniti cilj: u Bradatu aukcij"
+  ],
+  "sample": [
+   "Istraživač i promotor zajedničke baštine Turske i Hrvatske otkriva pri",
+   "Od nedjelje slobodno prema Gradu: gasi se crveno svjetlo na ulazu u du"
+  ]
+ },
+ "Dalmatinski portal": {
+  "u": "https://dalmatinskiportal.hr/feed",
+  "err": 404,
+  "srv": "cloudflare"
+ },
+ "Dalmacija News": {
+  "u": "https://www.dalmacijanews.hr/feed/",
+  "n": 10,
+  "first": [
+   "Fri, 30 Oct 2026 10:09:40 +0000"
+  ],
+  "zadar_titles": [],
+  "sample": [
+   "Ratna tajna na dnu Bračkog kanala! Američki bombarder završio u moru 1",
+   "Počinje velika akcija čišćenja Svetog Petra! Grad, JVP, DVD, Hrvatske "
+  ]
+ },
+ "Nacional": {
+  "u": "https://www.nacional.hr/feed/",
+  "n": 10,
+  "first": [
+   "Fri, 30 Oct 2026 10:18:07 +0000"
+  ],
+  "zadar_titles": [],
+  "sample": [
+   "PROMETNI STRUČNJAK Rimčeva priča o ukradenom Bugattiju izgleda kao rež",
+   "FINANCIJSKA GRABEŽ Obitelj se posvađala zbog aukcije predmeta Georga M"
+  ]
+ },
+ "Lider": {
+  "u": "https://lidermedia.hr/feed",
+  "err": 404,
+  "srv": "cloudflare"
+ },
+ "Narod.hr": {
+  "u": "https://narod.hr/feed",
+  "err": 403,
+  "srv": "cloudflare"
+ },
+ "Hrvatska danas": {
+  "u": "https://hrvatska-danas.com/feed/",
+  "n": 10,
+  "first": [
+   "Thu, 29 Oct 2026 19:20:53 +0000"
+  ],
+  "zadar_titles": [],
+  "sample": [
+   "Teška nesreća između Zamlake i Vrbanovca: Poginula 65-godišnja vozačic",
+   "VIDEO Može li se čovjek doista vratiti iz mrtvih? Zamrznut je gotovo 6"
+  ]
+ },
+ "Express": {
+  "u": "https://express.24sata.hr/feeds/rss",
+  "err": 404,
+  "srv": "nginx"
+ },
+ "24sata": {
+  "u": "https://www.24sata.hr/feeds/aktualno.xml",
+  "err": 403,
+  "srv": "nginx"
+ },
+ "Gol.hr": {
+  "u": "https://gol.dnevnik.hr/assets/feed/articles/",
+  "n": 10,
+  "first": [
+   "Fri, 30 Oct 2026 11:10:00 +0100"
+  ],
+  "zadar_titles": [],
+  "sample": [
+   "Nikola Jokić na meti kritika NBA analitičara zbog vidljivog pada u igr",
+   "Nekad su ga plaćali milijune, danas je iza rešetaka: Legendarni Brazil"
+  ]
+ },
+ "Sportske novosti": {
+  "u": "https://sportske.jutarnji.hr/feed",
+  "n": 50,
+  "first": [
+   "Fri, 30 Oct 2026 11:09:36 +0100"
+  ],
+  "zadar_titles": [
+   "Zadar kreće u košarkaški maraton, ‘crnogorski snajper‘ zbog leđa ne id"
+  ],
+  "sample": [
+   "Povratak Hrvata na veliku scenu! Tudor sve bliže novom poslu, dva klub",
+   "Gvardiol potpisao novi ugovor, ali postoji scenarij u kojem brzo napuš"
+  ]
+ },
+ "Telesport": {
+  "u": "https://telesport.telegram.hr/feed/",
+  "n": 10,
+  "first": [
+   ""
+  ],
+  "zadar_titles": [],
+  "sample": [
+   "Flick želi pojačati Barceloninu obranu, Nijemac vidi Gvardiola kao ide",
+   "Antonelli u Meksiku može postati najmlađi prvak u povijesti Formule 1,"
+  ]
+ },
+ "HRTurizam": {
+  "u": "https://hrturizam.hr/feed/",
+  "n": 20,
+  "first": [
+   "2026-10-30T09:53:00+01:00"
+  ],
+  "zadar_titles": [],
+  "sample": [
+   "Turistička iskustva u Španjolskoj generiraju 12,3 milijarde eura gospo",
+   "Maistra: Prihodi porasli 7 posto, ulaganja premašuju 100 milijuna eura"
+  ]
+ },
+ "Agroklub": {
+  "u": "https://www.agroklub.com/rss/",
+  "err": 403,
+  "srv": "cloudflare"
+ },
+ "Glas Hrvatske/HRT Radio": {
+  "u": "https://radio.hrt.hr/rss",
+  "err": 404,
+  "srv": "nginx"
+ },
+ "RTL": {
+  "u": "https://www.rtl.hr/rss",
+  "n": 18,
+  "first": [
+   "Mon, 26 Oct 2026 14:12:13 +0100"
+  ],
+  "zadar_titles": [],
+  "sample": [
+   "Ne treba nam još jedna savršena rutina: kako brinuti o sebi u svijetu ",
+   "Najviše od sporta: Uživo s borilišta i dramatične priče sportskih hero"
+  ]
+ },
+ "Direktno": {
+  "u": "https://direktno.hr/rss/",
+  "n": 0,
+  "first": [],
+  "zadar_titles": [],
+  "sample": []
+ },
+ "Bug (n/a)": {
+  "u": "https://www.bug.hr/rss",
+  "n": 50,
+  "first": [
+   "Fri, 30 Oct 2026 09:21:00 Z"
+  ],
+  "zadar_titles": [],
+  "sample": [
+   "Black Friday ponuda softvera: Windows 11 Pro od 22 € i Office 2024 od ",
+   "Hakirana najveća svjetska kriptoburza Binance, ukradene milijarde"
+  ]
+ },
+ "Šibenik.in": {
+  "u": "https://www.sibenik.in/feed",
+  "err": 403,
+  "srv": "cloudflare"
+ },
+ "Ličke novine": {
+  "u": "https://www.licke-novine.hr/feed/",
+  "err": 404,
+  "srv": "Apache"
+ },
+ "Croatia Week": {
+  "u": "https://www.croatiaweek.com/feed/",
+  "n": 10,
+  "first": [
+   "Fri, 30 Oct 2026 10:05:26 +0000"
+  ],
+  "zadar_titles": [],
+  "sample": [
+   "Hotel Minerva reopens after major €40 million renovation",
+   "2,300-year-old Egyptian Book of the Dead goes on display in Zagreb"
+  ]
+ },
+ "Total Croatia News": {
+  "u": "https://total-croatia-news.com/feed/",
+  "n": 10,
+  "first": [
+   "Thu, 29 Oct 2026 22:59:37 +0000"
+  ],
+  "zadar_titles": [],
+  "sample": [
+   "Advent in Split Caps Prices Ahead of Christmas Festivities",
+   "How Much Do Tourists Spend in Croatia? Data Reveals Changing Habits"
+  ]
+ },
+ "Dalmatinska akcija/dalmacija.hr": {
+  "u": "https://www.dalmacija.hr/feed",
+  "err": 404,
+  "srv": null
+ },
+ "Mirovina.hr": {
+  "u": "https://mirovina.hr/feed/",
+  "n": 320,
+  "first": [
+   "Thu, 29 Oct 2026 16:31:00 +0100"
+  ],
+  "zadar_titles": [
+   "Mirovina iz drugog stupa: Koliko bi dobio Zagrepčanin s prosječnom pla"
+  ],
+  "sample": [
+   "Umrlo 27.000 umirovljenika: Žene su puno dulje primale mirovinu, ali m",
+   "Dolaze li veće mirovine za vatrogasce: Znamo što predlaže Vatrogasna z"
+  ]
+ },
+ "Hina": {
+  "u": "https://www.hina.hr/rss",
+  "err": 403,
+  "srv": "cloudflare"
+ },
+ "Vecernji Dalmacija": {
+  "u": "https://www.vecernji.hr/feeds/section/dalmacija",
+  "err": 404,
+  "srv": "nginx"
+ },
+ "Index search": {
+  "u": "https://www.index.hr/rss/vijesti",
+  "n": 150,
+  "first": [
+   "Fri, 30 Oct 2026 11:10:00 +0100"
+  ],
+  "zadar_titles": [
+   "Još trojica uhićena zbog napada na Nizozemce kod zadarske zračne luke",
+   "Muškarac (75) krampom napao 65-godišnjaka kod Zadra. Određen mu istraž"
+  ],
+  "sample": [
+   "Novi detalji akcije EPPO-a: EU novcem sređivali kuću načelniku i njego",
+   "VIDEO Fox News pitao muškarca zašto je došao na Trumpov skup. Odgovor "
+  ]
+ },
+ "Jutarnji ?s": {
+  "u": "https://www.jutarnji.hr/feed?s=zadar",
+  "n": 50,
+  "first": [
+   "Fri, 30 Oct 2026 11:18:00 +0100"
+  ],
+  "zadar_titles": [
+   "Zadar kreće u košarkaški maraton, ‘crnogorski snajper‘ zbog leđa ne id",
+   "Pijani Splićanin napravio kaos na autobusnom kolodvoru. Ni policajci n"
+  ],
+  "sample": [
+   "BiH mjesecima kruži priča o tajnom dogovoru Dodika s čelnikom BiH Hrva",
+   "Težak udarac za holivudsku zvijezdu, izgubila je skrbništvo nad sinom "
+  ]
+ },
+ "Telegram ?s": {
+  "u": "https://www.telegram.hr/?s=zadar&feed=rss2",
+  "n": 0,
+  "first": [],
+  "zadar_titles": [],
+  "sample": []
+ },
+ "N1 ?s": {
+  "u": "https://n1info.hr/?s=zadar&feed=rss2",
+  "n": 0,
+  "first": [],
+  "zadar_titles": [],
+  "sample": []
+ },
+ "Novi list ?s": {
+  "u": "https://www.novilist.hr/?s=zadar&feed=rss2",
+  "err": "TimeoutError('The read operation timed out')"
+ },
+ "Dalmacija Danas ?s": {
+  "u": "https://www.dalmacijadanas.hr/?s=zadar&feed=rss2",
+  "n": 10,
+  "first": [
+   "Sat, 24 Oct 2026 18:37:36 +0000"
+  ],
+  "zadar_titles": [
+   "Kuglačka drama u Zadru: Mertojak ostao bez bodova, o prvaku Hrvatske m",
+   "Zadar kreće u borbu protiv praznih stanova: Umjesto 42 eura, vlasnici ",
+   "Najljepši poklon za 18. rođendan: Mladi talent potpisao za Zadar, a iz",
+   "Zadar slavio na Gripama, treneri nakon derbija: Rančić otkrio što je p",
+   "Zadar nevjerojatnim preokretom pobijedio u Dalmatinskom derbiju"
+  ],
+  "sample": [
+   "Kuglačka drama u Zadru: Mertojak ostao bez bodova, o prvaku Hrvatske m",
+   "Zadar kreće u borbu protiv praznih stanova: Umjesto 42 eura, vlasnici "
+  ]
+ },
+ "Poslovni ?s": {
+  "u": "https://www.poslovni.hr/?s=zadar&feed=rss2",
+  "n": 20,
+  "first": [
+   "Fri, 23 Oct 2026 05:15:00 +0000"
+  ],
+  "zadar_titles": [
+   "Josip Klišmanić još šest mjeseci na čelu Zračne luke Zadar",
+   "Infobip Shift 2026.: Zadar ponovno postao jedno od ključnih regionalni",
+   "Propali zadarski projekt je zlatna koka za Slovenca: Sud mu dao miliju",
+   "Jadrolinija produljuje brzobrodsku liniju Zadar-Ancona",
+   "Autentičnost je postala najvrjednija valuta, Zadar privukao veliku poz"
+  ],
+  "sample": [
+   "Josip Klišmanić još šest mjeseci na čelu Zračne luke Zadar",
+   "Infobip Shift 2026.: Zadar ponovno postao jedno od ključnih regionalni"
+  ]
+ },
+ "Dalmatinski portal ?s": {
+  "u": "https://dalmatinskiportal.hr/?s=zadar&feed=rss2",
+  "n": 0,
+  "first": [],
+  "zadar_titles": [],
+  "sample": []
+ },
+ "Morski ?s": {
+  "u": "https://www.morski.hr/?s=zadar&feed=rss2",
+  "n": 0,
+  "first": [],
+  "zadar_titles": [],
+  "sample": []
+ },
+ "Sportklub ?s": {
+  "u": "https://sportklub.hr/?s=zadar&feed=rss2",
+  "n": 50,
+  "first": [
+   "Sun, 25 Oct 2026 20:18:50 +0100"
+  ],
+  "zadar_titles": [
+   "Zadar s +25 slavio protiv Slovenaca i upisao drugu pobjedu u ABA ligi",
+   "Zadar preokretom srušio Split na Gripama i pridružio se Ciboni na vrhu",
+   "Loša večer za hrvatske klubove u ABA ligi: Zadar teško poražen u Beču",
+   "Zadar u drami poražen u Beogradu",
+   "Zadar otvorio ABA ligu pobjedom nad Studentskim centrom"
+  ],
+  "sample": [
+   "Zadar s +25 slavio protiv Slovenaca i upisao drugu pobjedu u ABA ligi",
+   "Zadar preokretom srušio Split na Gripama i pridružio se Ciboni na vrhu"
+  ]
+ },
+ "HRTurizam ?s": {
+  "u": "https://hrturizam.hr/?s=zadar&feed=rss2",
+  "n": 0,
+  "first": [],
+  "zadar_titles": [],
+  "sample": []
+ },
+ "Dalmacija News ?s": {
+  "u": "https://www.dalmacijanews.hr/?s=zadar&feed=rss2",
+  "n": 10,
+  "first": [
+   "Fri, 30 Oct 2026 07:19:18 +0000"
+  ],
+  "zadar_titles": [
+   "Grad Zadar i otok Ugljan 2027. postaju domaćini velikog međunarodnog t",
+   "Zadar s Gripa pjevajući preokretom u drugom poluvremenu, Alkar tijesno",
+   "KAŽL uvjerljivo svladao Zadar Plus! Katarina Trehub briljirala na Grip"
+  ],
+  "sample": [
+   "Bura ne da mira! Na A1 ograničenja, na magistrali zabrane, a na moru t",
+   "Grad Zadar i otok Ugljan 2027. postaju domaćini velikog međunarodnog t"
+  ]
+ },
+ "Nacional ?s": {
+  "u": "https://www.nacional.hr/?s=zadar&feed=rss2",
+  "n": 200,
+  "first": [
+   "Sun, 25 Oct 2026 19:15:45 +0000"
+  ],
+  "zadar_titles": [
+   "HRVATSKA &#8211; SLOVENIJA 2-0 Zadar uzeo drugu regionalnu pobjedu, še",
+   "DALMATINSKI DERBI Split imao plus 14 pa doživio visok poraz, Zadar mož",
+   "ABA LIGA Zadar poražen u Beogradu, Megina djeca najbolja kad je bilo n",
+   "ABA LIGA Zadar sezonu otvorio uvjerljivom pobjedom, novi igrači ostavi",
+   "HOROR U ZADRU Što se dogodilo u njegovoj glavi? Mladić nožem ubio baku"
+  ],
+  "sample": [
+   "HRVATSKA &#8211; SLOVENIJA 2-0 Zadar uzeo drugu regionalnu pobjedu, še",
+   "DALMATINSKI DERBI Split imao plus 14 pa doživio visok poraz, Zadar mož"
+  ]
+ },
+ "Lider ?s": {
+  "u": "https://lidermedia.hr/?s=zadar&feed=rss2",
+  "n": 0,
+  "first": [],
+  "zadar_titles": [],
+  "sample": []
+ },
+ "Narod ?s": {
+  "u": "https://narod.hr/?s=zadar&feed=rss2",
+  "err": 403,
+  "srv": "cloudflare"
+ },
+ "Telesport ?s": {
+  "u": "https://telesport.telegram.hr/?s=zadar&feed=rss2",
+  "n": 0,
+  "first": [],
+  "zadar_titles": [],
+  "sample": []
+ },
+ "Sportske ?s": {
+  "u": "https://sportske.jutarnji.hr/?s=zadar&feed=rss2",
+  "n": 0,
+  "first": [],
+  "zadar_titles": [],
+  "sample": []
+ },
+ "Total Croatia ?s": {
+  "u": "https://total-croatia-news.com/?s=zadar&feed=rss2",
+  "n": 10,
+  "first": [
+   "Mon, 26 Oct 2026 02:50:18 +0000"
+  ],
+  "zadar_titles": [],
+  "sample": [
+   "Marble Torso of Roman Emperor From Salona Sold in New York for Over $3",
+   "He Survived a Shipwreck and Built a Church &#8211; 900 Years Later, Cr"
+  ]
+ },
+ "Croatia Week ?s": {
+  "u": "https://www.croatiaweek.com/?s=zadar&feed=rss2",
+  "err": 404,
+  "srv": "cloudflare"
+ }
+}
