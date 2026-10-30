@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-30T18:30:57.826839+00:00",
+ "updated": "2026-10-30T18:45:41.528147+00:00",
  "sources": [
   {
    "name": "Antena Zadar",
@@ -152,8 +152,8 @@
   },
   {
    "name": "Net.hr",
-   "count": 1,
-   "ok": true,
+   "count": 0,
+   "ok": false,
    "feed": null,
    "errors": []
   },
@@ -215,12 +215,10 @@
   },
   {
    "name": "Sportklub",
-   "count": 0,
-   "ok": false,
+   "count": 30,
+   "ok": true,
    "feed": null,
-   "errors": [
-    "https://sportklub.hr/?s=zadar&feed=rss2: HTTP Error 500: Internal Server Error"
-   ]
+   "errors": []
   },
   {
    "name": "Dalmacija News",
