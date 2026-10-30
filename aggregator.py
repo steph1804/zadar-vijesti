@@ -611,7 +611,7 @@ def render(articles, sources, status, now, info=None):
         page = (tpl.replace("/*DATA*/null", payload)
                 .replace("/*PAGE*/null", json.dumps(topic, ensure_ascii=False))
                 .replace("{{BASE}}", "../" if slug else "./")
-                .replace("{{TITLE}}", f"{topic} – zadar.click" if topic else "zadar.click – vijesti iz Zadra")
+                .replace("{{TITLE}}", f"{topic} – idassa.click" if topic else "idassa.click – vijesti iz Zadra")
                 .replace("{{DESC}}", PAGE_DESC[topic])
                 .replace("{{URL}}", site_url + (slug + "/" if slug else ""))
                 .replace("{{SITE}}", site_url))

@@ -7,17 +7,17 @@
 <meta name="description" content="{{DESC}}">
 <link rel="canonical" href="{{URL}}">
 <meta property="og:type" content="website">
-<meta property="og:site_name" content="zadar.click">
+<meta property="og:site_name" content="idassa.click">
 <meta property="og:title" content="{{TITLE}}">
 <meta property="og:description" content="{{DESC}}">
 <meta property="og:url" content="{{URL}}">
 <meta property="og:image" content="{{SITE}}icon-512.png">
 <meta name="theme-color" content="#1968b3">
-<link rel="alternate" type="application/rss+xml" title="zadar.click – vijesti iz Zadra" href="{{BASE}}feed.xml">
+<link rel="alternate" type="application/rss+xml" title="idassa.click – vijesti iz Zadra" href="{{BASE}}feed.xml">
 <link rel="manifest" href="{{BASE}}manifest.webmanifest">
 <link rel="icon" type="image/png" href="{{BASE}}favicon.png">
 <link rel="apple-touch-icon" href="{{BASE}}apple-touch-icon.png">
-<meta name="apple-mobile-web-app-title" content="zadar.click">
+<meta name="apple-mobile-web-app-title" content="idassa.click">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
@@ -176,7 +176,7 @@
 <body>
 <div class="bar">
   <div class="wrap">
-    <a class="logo" href="{{BASE}}" id="home"><img src="{{BASE}}icon-192.png" alt=""><b>zadar<span>.click</span></b></a>
+    <a class="logo" href="{{BASE}}" id="home"><img src="{{BASE}}icon-192.png" alt=""><b>idassa<span>.click</span></b></a>
     <input class="search" id="q" type="search" placeholder="Pretraži vijesti…" aria-label="Pretraži vijesti">
     <button class="icon-btn" id="theme" type="button" aria-label="Svijetli ili tamni način"></button>
   </div>
@@ -255,7 +255,7 @@ const HEADINGS = { Sve: "Vijesti iz Zadra i županije", Zadar: "Vijesti iz Zadra
 function setTopic(t, push) {
   state.topic = t; state.shown = STEP;
   if (push) history.pushState({ topic: t }, "", new URL(pageUrl(t), location.href).pathname);
-  document.title = t === "Sve" ? "zadar.click – vijesti iz Zadra" : `${t} – zadar.click`;
+  document.title = t === "Sve" ? "idassa.click – vijesti iz Zadra" : `${t} – idassa.click`;
   document.getElementById("h1").textContent = HEADINGS[t] || t;
   render();
   window.scrollTo({ top: 0 });
