@@ -1,8 +1,7 @@
 import json, re, urllib.request
 UA = "Mozilla/5.0 (compatible; LokalniAgregator/1.0; +https://idassa.click)"
-urls = ["https://www.zadarska-zupanija.hr/", "https://www.zadarska-zupanija.hr/feed/", "https://www.zadarska-zupanija.hr/rss",
-        "https://www.zadarska-zupanija.hr/novosti", "https://www.zadarska-zupanija.hr/vijesti", "https://www.zadarska-zupanija.hr/index.php?format=feed&type=rss",
-        "https://www.zadarska-zupanija.hr/robots.txt"]
+urls = ["https://www.zadarska-zupanija.hr/novosti-arhiva?format=feed&type=rss", "https://www.zadarska-zupanija.hr/novosti-arhiva?format=feed",
+        "https://www.zadarska-zupanija.hr/novosti-arhiva", "https://www.zadarska-zupanija.hr/novosti-arhiva/item/4580-najveci-skolski-projekt-iz-npoo-a-u-zadarskoj-zupaniji-pocinje-dogradnja-os-biograd-na-moru-vrijedna-13,2-milijuna-eura"]
 out = {}
 for u in urls:
     try:
@@ -11,7 +10,8 @@ for u in urls:
         out[u] = {"status": r.status, "final": r.geturl(), "len": len(b), "ctype": r.headers.get("Content-Type"),
                   "alt": re.findall(r'<link[^>]+(?:rss|atom)[^>]*>', b)[:5],
                   "links": sorted(set(re.findall(r'href="([^"]*(?:novost|vijest|aktualn|news|clan)[^"]*)"', b, re.I)))[:60],
-                  "head": b[:1500] if len(b) < 200000 else ""}
+                  "head": b[:3000]}
+        open("probe/page%d.html" % urls.index(u), "w").write(b)
         if "robots" in u: out[u]["body"] = b[:1500]
     except Exception as e:
         out[u] = {"err": repr(e)[:150]}
