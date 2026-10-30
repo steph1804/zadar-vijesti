@@ -1,101 +1,18 @@
 {
- "https://www.zadarska-zupanija.hr/novosti-arhiva?format=feed&type=rss": {
+ "https://www.entrio.hr/robots.txt": {
   "status": 200,
-  "final": "https://www.zadarska-zupanija.hr/novosti-arhiva?format=feed&type=rss",
-  "len": 58895,
-  "ctype": "application/rss+xml; charset=utf-8",
+  "final": "https://www.entrio.hr/robots.txt",
+  "len": 120,
+  "ctype": "text/plain",
   "alt": [],
-  "links": [
-   "https://www.zadarska-zupanija.hr/novosti-arhiva?format=feed&amp;type=rss"
-  ],
-  "head": "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<!-- generator=\"Joomla! - Open Source Content Management\" -->\n<rss version=\"2.0\" xmlns:atom=\"http://www.w3.org/2005/Atom\">\n\t<channel>\n\t\t<title>Novosti</title>\n\t\t<description><![CDATA[Službena mrežna stranica Zadarske županije]]></description>\n\t\t<link>https://www.zadarska-zupanija.hr</link>\n\t\t<lastBuildDate>Fri, 30 Oct 2026 14:54:41 +0100</lastBuildDate>\n\t\t<generator>Joomla! - Open Source Content Management</generator>\n\t\t<atom:link rel=\"self\" type=\"application/rss+xml\" href=\"https://www.zadarska-zupanija.hr/novosti-arhiva?format=feed&amp;type=rss\"/>\n\t\t<language>hr-hr</language>\n\t\t<item>\n\t\t\t<title>Najveći školski projekt iz NPOO-a u Zadarskoj županiji: Počinje dogradnja OŠ Biograd na Moru vrijedna 13,2 milijuna eura</title>\n\t\t\t<link>https://www.zadarska-zupanija.hr/novosti-arhiva/item/4580-najveci-skolski-projekt-iz-npoo-a-u-zadarskoj-zupaniji-pocinje-dogradnja-os-biograd-na-moru-vrijedna-13,2-milijuna-eura</link>\n\t\t\t<guid isPermaLink=\"true\">https://www.zadarska-zupanija.hr/novosti-arhiva/item/4580-najveci-skolski-projekt-iz-npoo-a-u-zadarskoj-zupaniji-pocinje-dogradnja-os-biograd-na-moru-vrijedna-13,2-milijuna-eura</guid>\n\t\t\t<description><![CDATA[<div class=\"K2FeedImage\"><img src=\"https://www.zadarska-zupanija.hr/media/k2/items/cache/263f3cc125c740b54e297e7713380083_S.jpg\" alt=\"Najveći školski projekt iz NPOO-a u Zadarskoj županiji: Počinje dogradnja OŠ Biograd na Moru vrijedna 13,2 milijuna eura\" /></div><div class=\"K2FeedIntroText\"><p><span style=\"background-color: inherit; color: inherit; font-family: inherit; font-size: 1rem; caret-color: #444444;\">Nakon dugogodišnjih priprema, Osnovna škola Biograd na Moru kreće u veliku rekonstrukciju i dogradnju kojom će se stvoriti uvjeti za jednosmjensku nastavu i provedbu programa cjelodnevne škole. Uvođenjem izvođača u posao službeno je označen početak realizacije projekta ukupne vrijednosti 13,16 milijuna eura, jednog od najvećih ulaganja u osnovnoškolsko obrazovanje na području Zadarske županije.</span></p> <p>Projekt obuhvaća rekonstrukciju i nadogradnju postojeće školske zgrade, dogradnju 11 novih učionica i prostora za blagovaonicu te uređenje vanjskih prostora i školskog igrališta. Time će se značajno unaprijediti uvjeti rada i boravka učenika i nastavnika te osigurati suvremeni obrazovni standardi za buduće generacije.</p> <p>Ravnatelj OŠ Biograd na Moru Joško Brtan nije skrivao zadovoljstvo početkom radova na projektu koji su generacije učenika, roditelja i djelatnika škole dugo priželjkivale.</p> <p>„Nakon gotovo 20 godina iščekivanja konačno smo dočekali početak radova. Završili smo prvi, možda i najdugotrajniji dio projekta, a vjerujem da će sve što slijedi biti brže i učinkovitije. Naša škola napokon će dobiti sadržaje koji se očekuju od jedne moderne obrazovne ustanove, s jednosmjenskom nastavom, prehranom i kvalitetnijim uvjetima za učenike i učitelje. Ovo je za nas svojevrstan iskorak iz 20. u 21. stoljeće“, poručio je Brtan, zahvalivši Vladi RH, Zad"
+  "links": [],
+  "head": "User-agent: *\r\nDisallow: /images/\r\nAllow: /images/events/\r\nDisallow: /files/\r\nSitemap: https://www.entrio.hr/sitemap.xml",
+  "body": "User-agent: *\r\nDisallow: /images/\r\nAllow: /images/events/\r\nDisallow: /files/\r\nSitemap: https://www.entrio.hr/sitemap.xml"
  },
- "https://www.zadarska-zupanija.hr/novosti-arhiva?format=feed": {
-  "status": 200,
-  "final": "https://www.zadarska-zupanija.hr/novosti-arhiva?format=feed",
-  "len": 58895,
-  "ctype": "application/rss+xml; charset=utf-8",
-  "alt": [],
-  "links": [
-   "https://www.zadarska-zupanija.hr/novosti-arhiva?format=feed&amp;type=rss"
-  ],
-  "head": "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<!-- generator=\"Joomla! - Open Source Content Management\" -->\n<rss version=\"2.0\" xmlns:atom=\"http://www.w3.org/2005/Atom\">\n\t<channel>\n\t\t<title>Novosti</title>\n\t\t<description><![CDATA[Službena mrežna stranica Zadarske županije]]></description>\n\t\t<link>https://www.zadarska-zupanija.hr</link>\n\t\t<lastBuildDate>Fri, 30 Oct 2026 14:54:42 +0100</lastBuildDate>\n\t\t<generator>Joomla! - Open Source Content Management</generator>\n\t\t<atom:link rel=\"self\" type=\"application/rss+xml\" href=\"https://www.zadarska-zupanija.hr/novosti-arhiva?format=feed&amp;type=rss\"/>\n\t\t<language>hr-hr</language>\n\t\t<item>\n\t\t\t<title>Najveći školski projekt iz NPOO-a u Zadarskoj županiji: Počinje dogradnja OŠ Biograd na Moru vrijedna 13,2 milijuna eura</title>\n\t\t\t<link>https://www.zadarska-zupanija.hr/novosti-arhiva/item/4580-najveci-skolski-projekt-iz-npoo-a-u-zadarskoj-zupaniji-pocinje-dogradnja-os-biograd-na-moru-vrijedna-13,2-milijuna-eura</link>\n\t\t\t<guid isPermaLink=\"true\">https://www.zadarska-zupanija.hr/novosti-arhiva/item/4580-najveci-skolski-projekt-iz-npoo-a-u-zadarskoj-zupaniji-pocinje-dogradnja-os-biograd-na-moru-vrijedna-13,2-milijuna-eura</guid>\n\t\t\t<description><![CDATA[<div class=\"K2FeedImage\"><img src=\"https://www.zadarska-zupanija.hr/media/k2/items/cache/263f3cc125c740b54e297e7713380083_S.jpg\" alt=\"Najveći školski projekt iz NPOO-a u Zadarskoj županiji: Počinje dogradnja OŠ Biograd na Moru vrijedna 13,2 milijuna eura\" /></div><div class=\"K2FeedIntroText\"><p><span style=\"background-color: inherit; color: inherit; font-family: inherit; font-size: 1rem; caret-color: #444444;\">Nakon dugogodišnjih priprema, Osnovna škola Biograd na Moru kreće u veliku rekonstrukciju i dogradnju kojom će se stvoriti uvjeti za jednosmjensku nastavu i provedbu programa cjelodnevne škole. Uvođenjem izvođača u posao službeno je označen početak realizacije projekta ukupne vrijednosti 13,16 milijuna eura, jednog od najvećih ulaganja u osnovnoškolsko obrazovanje na području Zadarske županije.</span></p> <p>Projekt obuhvaća rekonstrukciju i nadogradnju postojeće školske zgrade, dogradnju 11 novih učionica i prostora za blagovaonicu te uređenje vanjskih prostora i školskog igrališta. Time će se značajno unaprijediti uvjeti rada i boravka učenika i nastavnika te osigurati suvremeni obrazovni standardi za buduće generacije.</p> <p>Ravnatelj OŠ Biograd na Moru Joško Brtan nije skrivao zadovoljstvo početkom radova na projektu koji su generacije učenika, roditelja i djelatnika škole dugo priželjkivale.</p> <p>„Nakon gotovo 20 godina iščekivanja konačno smo dočekali početak radova. Završili smo prvi, možda i najdugotrajniji dio projekta, a vjerujem da će sve što slijedi biti brže i učinkovitije. Naša škola napokon će dobiti sadržaje koji se očekuju od jedne moderne obrazovne ustanove, s jednosmjenskom nastavom, prehranom i kvalitetnijim uvjetima za učenike i učitelje. Ovo je za nas svojevrstan iskorak iz 20. u 21. stoljeće“, poručio je Brtan, zahvalivši Vladi RH, Zad"
+ "https://www.entrio.hr/en/events/zadar?searchterm=": {
+  "err": "<HTTPError 403: 'Forbidden'>"
  },
- "https://www.zadarska-zupanija.hr/novosti-arhiva": {
-  "status": 200,
-  "final": "https://www.zadarska-zupanija.hr/novosti-arhiva",
-  "len": 208303,
-  "ctype": "text/html; charset=utf-8",
-  "alt": [],
-  "links": [
-   "/novosti-arhiva",
-   "/novosti-arhiva/item/4532-zupanijska-skupstina-usvojila-rebalans-proracuna-257,2-milijuna-eura-za-zdravstvo,-obrazovanje,-socijalnu-skrb-i-sport",
-   "/novosti-arhiva/item/4533-zadarska-zupanija-domacin-sjednice-radne-skupine-za-odnose-s-javnoscu",
-   "/novosti-arhiva/item/4536-skabrnja-obiljezila-dan-opcine-otvoren-memorijalni-centar-s-imenima-88-zrtava-domovinskog-rata",
-   "/novosti-arhiva/item/4537-u-zadru-otvoren-zadar-amare-cup-u-povodu-deset-godina-kosarke-u-kolicima",
-   "/novosti-arhiva/item/4538-zadarska-zupanija-u-rujnu-s-gotovo-72-tisuce-zaposlenih-u-deset-godina-rast-od-36,1-posto",
-   "/novosti-arhiva/item/4545-svjetsko-prvenstvo-u-podvodnom-ribolovu-2029-odrzat-ce-se-u-zdrelcu-na-pasmanu",
-   "/novosti-arhiva/item/4546-korak-blize-uredenju-spomen-sobe-hrvatskim-braniteljima-u-gradskoj-strazi",
-   "/novosti-arhiva/item/4547-mobilna-ljekarna-za-zadarske-otoke-osvojila-drugo-mjesto-u-izboru-za-najbolji-eu-projekt",
-   "/novosti-arhiva/item/4551-otvoren-28-biograd-boat-show-rekordno-izdanje-jednog-od-najvecih-nautickih-sajmova-u-ovom-dijelu-europe",
-   "/novosti-arhiva/item/4553-zadarska-zupanija-dodijelila-potpore-za-suncane-elektrane-za-31-kucanstvo-program-se-nastavlja-i-2027",
-   "/novosti-arhiva/item/4554-zadarska-zupanija-pokrenula-novi-program-kreditiranja-poljoprivrednika-krediti-do-200-tisuca-eura-uz-subvenciju-kamatne-stope-do-2,5-postotnih-bodova",
-   "/novosti-arhiva/item/4559-cetrdeset-godina-zadarskog-mioc-a-znanje,-izvrsnost-i-generacije-uspjesnih-ucenika",
-   "/novosti-arhiva/item/4561-priznanja-za-56-darivatelja-i-gotovo-tri-tisuce-darivanja,-zupan-bilaver-zahvalio-dobrovoljnim-darivateljima-krvi-vasa-humanost-i-solidarnost-spasavaju-zivote",
-   "/novosti-arhiva/item/4567-zadarska-zupanija-nastavlja-ulagati-u-sport-na-sastanku-sa-savezima-i-sportskim-zajednicama-predstavljene-nove-mjere-potpore",
-   "/novosti-arhiva/item/4568-camino-zadar-dani-dva-dana-hodocasca-putevima-zadarske-zupanije",
-   "/novosti-arhiva/item/4569-otvoren-javni-poziv-za-kreditiranje-poljoprivrednika-zadarska-zupanija-subvencionira-kamate-na-kredite-do-200-tisuca-eura",
-   "/novosti-arhiva/item/4573-zadar-i-otok-ugljan-2027-postaju-domacini-velikog-medunarodnog-triatlonskog-dogadaja-xterra",
-   "/novosti-arhiva/item/4574-bilaver-more-nije-kulisa-za-turiste,-nego-resurs-koji-moramo-sacuvati-za-buduce-generacije",
-   "/novosti-arhiva/item/4575-zapocela-obnova-doma-zdravlja-u-pagu-vrijedna-gotovo-120-tisuca-eura",
-   "/novosti-arhiva/item/4580-najveci-skolski-projekt-iz-npoo-a-u-zadarskoj-zupaniji-pocinje-dogradnja-os-biograd-na-moru-vrijedna-13,2-milijuna-eura",
-   "/novosti-arhiva/itemlist/1?start=100",
-   "/novosti-arhiva/itemlist/1?start=120",
-   "/novosti-arhiva/itemlist/1?start=140",
-   "/novosti-arhiva/itemlist/1?start=160",
-   "/novosti-arhiva/itemlist/1?start=180",
-   "/novosti-arhiva/itemlist/1?start=1900",
-   "/novosti-arhiva/itemlist/1?start=20",
-   "/novosti-arhiva/itemlist/1?start=40",
-   "/novosti-arhiva/itemlist/1?start=60",
-   "/novosti-arhiva/itemlist/1?start=80",
-   "/upravni-odjeli/financije-i-proračun/novosti",
-   "/upravni-odjeli/služba-ureda-župana/novosti-iz-ureda-župana",
-   "/upravni-odjeli/upravni-odjel-za-hrvatske-branitelje,-udruge,-demografiju-i-socijalnu-politiku/obavijest-o-pasivnom-dežurstvu-službenika-odsjeka-za-hrvatske-branitelje-i-udruge-subotom,-nedjeljom-i-blagdanom-za-slučajeve-nastupa-smrti-i-potrebe-za-ukopom-umrlih-hrvi-i-hrvatskih-branitelja-iz-domovinskog-rata",
-   "/upravni-odjeli/upravni-odjel-za-more,-promet-i-infrastrukturu/more/obavijesti-o-namjeri-davanja-koncesija",
-   "/upravni-odjeli/upravni-odjel-za-more,-promet-i-infrastrukturu/novosti",
-   "/upravni-odjeli/upravni-odjel-za-obrazovanje,-kulturu-i-šport/novosti",
-   "/upravni-odjeli/upravni-odjel-za-poljoprivredu,-ribarstvo-i-vodno-gospodarstvo/novosti",
-   "/upravni-odjeli/upravni-odjel-za-pravne-i-zajedničke-poslove/novosti",
-   "/upravni-odjeli/upravni-odjel-za-prostorno-uređenje,-zaštitu-okoliša-i-komunalne-poslove/novosti",
-   "/upravni-odjeli/upravni-odjel-za-prostorno-uređenje,-zaštitu-okoliša-i-komunalne-poslove/obavijesti-o-izradi-prostornih-planova",
-   "https://www.zadarska-zupanija.hr/novosti-arhiva"
-  ],
-  "head": "\n<!DOCTYPE html>\n<html prefix=\"og: http://ogp.me/ns#\" lang=\"hr-hr\" dir=\"ltr\">\n\t<head>\n\t\t\n\t\t<meta name=\"viewport\" content=\"width=device-width, initial-scale=1, shrink-to-fit=no\">\n\t\t<meta charset=\"utf-8\" />\n\t<base href=\"https://www.zadarska-zupanija.hr/novosti-arhiva\" />\n\t<meta property=\"og:url\" content=\"https://www.zadarska-zupanija.hr/novosti-arhiva\" />\n\t<meta property=\"og:type\" content=\"website\" />\n\t<meta property=\"og:title\" content=\"Novosti\" />\n\t<meta name=\"twitter:card\" content=\"summary\" />\n\t<meta name=\"twitter:title\" content=\"Novosti\" />\n\t<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\" />\n\t<meta name=\"generator\" content=\"Joomla! - Open Source Content Management\" />\n\t<title>Novosti</title>\n\t<link href=\"/novosti-arhiva\" rel=\"canonical\" />\n\t<link href=\"/images/favicon.png\" rel=\"shortcut icon\" type=\"image/vnd.microsoft.icon\" />\n\t<link href=\"https://cdnjs.cloudflare.com/ajax/libs/simple-line-icons/2.4.1/css/simple-line-icons.min.css\" rel=\"stylesheet\" />\n\t<link href=\"/components/com_k2/css/k2.css?v=2.28\" rel=\"stylesheet\" />\n\t<link href=\"//fonts.googleapis.com/css?family=Merriweather:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i&subset=latin-ext&display=swap\" rel=\"stylesheet\" media=\"none\" onload=\"media=&quot;all&quot;\" />\n\t<link href=\"//fonts.googleapis.com/css?family=Fira Sans:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i&subset=latin-ext&display=swap\" rel=\"stylesheet\" media=\"none\" onload=\"media=&quot;all&quot;\" />\n\t<link href=\"//fonts.googleapis.com/css?family=Merriweather Sans:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i&subset=latin-ext&display=swap\" rel=\"stylesheet\" media=\"none\" onload=\"media=&quot;all&quot;\" />\n\t<link href=\"/templates/shaper_helixultimate/css/bootstrap.min.css\" rel=\"stylesheet\" />\n\t<link href=\"/plugins/system/helixultimate/assets/css/system-j3.min.css\" rel=\"stylesheet\" />\n\t<link href=\"/templates/shaper_helixultimate/css/font-awesome.min.css\" rel=\"stylesheet\" />\n\t<link href=\"/templates/shaper_helixultimate/css/v4-shims.min.css\" rel=\"stylesheet\" />\n\t<link href=\"/templates/shaper_helixultimate/css/template.css\" rel=\"stylesheet\" />\n\t<link href=\"/templates/shaper_helixultimate/css/presets/preset2.css\" rel=\"stylesheet\" />\n\t<link href=\"/templates/shaper_helixultimate/css/custom.css\" rel=\"stylesheet\" />\n\t<link href=\"/plugins/system/mcnsystem/assets/css/style.css?v=1.0.1\" rel=\"stylesheet\" />\n\t<link href=\"https://netdna.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.css\" rel=\"stylesheet\" />\n\t<link href=\"/plugins/system/mcnsystem/assets/css/jquery.dropdown.min.css?v=1.0.1\" rel=\"stylesheet\" />\n\t<link href=\"/components/com_sppagebuilder/assets/css/font-awesome-5.min.css\" rel=\"stylesheet\" />\n\t<link href=\"/components/com_sppagebuilder/assets/css/font-awesome-v4-shims.css\" rel=\"stylesheet\" />\n\t<link href=\"/components/com_sppagebuilder/assets/css/animate.min.css\" rel=\"stylesheet\" />\n\t<link href=\"/components/com_"
- },
- "https://www.zadarska-zupanija.hr/novosti-arhiva/item/4580-najveci-skolski-projekt-iz-npoo-a-u-zadarskoj-zupaniji-pocinje-dogradnja-os-biograd-na-moru-vrijedna-13,2-milijuna-eura": {
-  "status": 200,
-  "final": "https://www.zadarska-zupanija.hr/novosti-arhiva/item/4580-najveci-skolski-projekt-iz-npoo-a-u-zadarskoj-zupaniji-pocinje-dogradnja-os-biograd-na-moru-vrijedna-13,2-milijuna-eura",
-  "len": 194391,
-  "ctype": "text/html; charset=utf-8",
-  "alt": [],
-  "links": [
-   "/novosti-arhiva",
-   "/novosti-arhiva/item/4580-najveci-skolski-projekt-iz-npoo-a-u-zadarskoj-zupaniji-pocinje-dogradnja-os-biograd-na-moru-vrijedna-13,2-milijuna-eura",
-   "/novosti-arhiva/item/4580-najveci-skolski-projekt-iz-npoo-a-u-zadarskoj-zupaniji-pocinje-dogradnja-os-biograd-na-moru-vrijedna-13,2-milijuna-eura#startOfPageId4580",
-   "/upravni-odjeli/financije-i-proračun/novosti",
-   "/upravni-odjeli/služba-ureda-župana/novosti-iz-ureda-župana",
-   "/upravni-odjeli/upravni-odjel-za-hrvatske-branitelje,-udruge,-demografiju-i-socijalnu-politiku/obavijest-o-pasivnom-dežurstvu-službenika-odsjeka-za-hrvatske-branitelje-i-udruge-subotom,-nedjeljom-i-blagdanom-za-slučajeve-nastupa-smrti-i-potrebe-za-ukopom-umrlih-hrvi-i-hrvatskih-branitelja-iz-domovinskog-rata",
-   "/upravni-odjeli/upravni-odjel-za-more,-promet-i-infrastrukturu/more/obavijesti-o-namjeri-davanja-koncesija",
-   "/upravni-odjeli/upravni-odjel-za-more,-promet-i-infrastrukturu/novosti",
-   "/upravni-odjeli/upravni-odjel-za-obrazovanje,-kulturu-i-šport/novosti",
-   "/upravni-odjeli/upravni-odjel-za-poljoprivredu,-ribarstvo-i-vodno-gospodarstvo/novosti",
-   "/upravni-odjeli/upravni-odjel-za-pravne-i-zajedničke-poslove/novosti",
-   "/upravni-odjeli/upravni-odjel-za-prostorno-uređenje,-zaštitu-okoliša-i-komunalne-poslove/novosti",
-   "/upravni-odjeli/upravni-odjel-za-prostorno-uređenje,-zaštitu-okoliša-i-komunalne-poslove/obavijesti-o-izradi-prostornih-planova",
-   "https://www.zadarska-zupanija.hr/novosti-arhiva/item/4580-najveci-skolski-projekt-iz-npoo-a-u-zadarskoj-zupaniji-pocinje-dogradnja-os-biograd-na-moru-vrijedna-13,2-milijuna-eura",
-   "https://www.zadarska-zupanija.hr/novosti-arhiva/item/4580-najveci-skolski-projekt-iz-npoo-a-u-zadarskoj-zupaniji-pocinje-dogradnja-os-biograd-na-moru-vrijedna-13,2-milijuna-eura#sigProIda4814d11b4"
-  ],
-  "head": "\n<!DOCTYPE html>\n<html prefix=\"og: http://ogp.me/ns#\" lang=\"hr-hr\" dir=\"ltr\">\n\t<head>\n\t\t\n\t\t<meta name=\"viewport\" content=\"width=device-width, initial-scale=1, shrink-to-fit=no\">\n\t\t<meta charset=\"utf-8\" />\n\t<base href=\"https://www.zadarska-zupanija.hr/novosti-arhiva/item/4580-najveci-skolski-projekt-iz-npoo-a-u-zadarskoj-zupaniji-pocinje-dogradnja-os-biograd-na-moru-vrijedna-13,2-milijuna-eura\" />\n\t<meta name=\"robots\" content=\"max-image-preview:large\" />\n\t<meta name=\"author\" content=\"Ante\" />\n\t<meta property=\"og:url\" content=\"https://www.zadarska-zupanija.hr/novosti-arhiva/item/4580-najveci-skolski-projekt-iz-npoo-a-u-zadarskoj-zupaniji-pocinje-dogradnja-os-biograd-na-moru-vrijedna-13,2-milijuna-eura\" />\n\t<meta property=\"og:type\" content=\"article\" />\n\t<meta property=\"og:title\" content=\"Najveći školski projekt iz NPOO-a u Zadarskoj županiji: Počinje dogradnja OŠ Biograd na Moru vrijedna 13,2 milijuna eura\" />\n\t<meta property=\"og:description\" content=\"Nakon dugogodišnjih priprema, Osnovna škola Biograd na Moru kreće u veliku rekonstrukciju i dogradnju kojom će se stvoriti uvjeti za jednosmjensku nastavu i provedbu programa cjelodnevne škole. Uvođenjem izvođača u posao službeno je označen početak realizacije projekta ukupne vrijednosti 13,16 milij...\" />\n\t<meta property=\"og:image\" content=\"https://www.zadarska-zupanija.hr/media/k2/items/cache/263f3cc125c740b54e297e7713380083_M.jpg?t=20261030_123203\" />\n\t<meta name=\"image\" content=\"https://www.zadarska-zupanija.hr/media/k2/items/cache/263f3cc125c740b54e297e7713380083_M.jpg?t=20261030_123203\" />\n\t<meta name=\"twitter:card\" content=\"summary\" />\n\t<meta name=\"twitter:title\" content=\"Najveći školski projekt iz NPOO-a u Zadarskoj županiji: Počinje dogradnja OŠ Biograd na Moru vrijedna 13,2 milijuna eura\" />\n\t<meta name=\"twitter:description\" content=\"Nakon dugogodišnjih priprema, Osnovna škola Biograd na Moru kreće u veliku rekonstrukciju i dogradnju kojom će se stvoriti uvjeti za jednosmjensku nastavu i provedbu programa cjelodnevne škole. Uvođen...\" />\n\t<meta name=\"twitter:image\" content=\"https://www.zadarska-zupanija.hr/media/k2/items/cache/263f3cc125c740b54e297e7713380083_M.jpg?t=20261030_123203\" />\n\t<meta name=\"twitter:image:alt\" content=\"Najveći školski projekt iz NPOO-a u Zadarskoj županiji: Počinje dogradnja OŠ Biograd na Moru vrijedna 13,2 milijuna eura\" />\n\t<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\" />\n\t<meta name=\"description\" content=\"Nakon dugogodišnjih priprema, Osnovna škola Biograd na Moru kreće u veliku rekonstrukciju i dogradnju kojom će se stvoriti uvjeti za jednosmjensku nas...\" />\n\t<meta name=\"generator\" content=\"Joomla! - Open Source Content Management\" />\n\t<title>Najveći školski projekt iz NPOO-a u Zadarskoj županiji: Počinje dogradnja OŠ Biograd na Moru vrijedna 13,2 milijuna eura</title>\n\t<link href=\"/novosti-arhiva/item/4580-najveci-skolski-projekt-iz-npoo-a-u-zadarskoj-zupaniji-pocinje-dogradnja-os-biograd-na-moru-vrijedna-13,2-milijuna-eura\" rel=\"canonica"
+ "https://www.entrio.hr/dogadaji/zadar": {
+  "err": "<HTTPError 403: 'Forbidden'>"
  }
 }
