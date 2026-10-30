@@ -154,7 +154,7 @@ gračačk\w*
 ražanačk\w*
 posedarsk\w*
 zemuničk\w*
-pašk\w*
+pašk(?:i|a|e|og|oga|om|oj|u|ih|im|ima)
 silbansk\w*
 olibsk\w*|olipsk\w*
 molatsk\w*
