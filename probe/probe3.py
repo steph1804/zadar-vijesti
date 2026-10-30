@@ -1,6 +1,7 @@
 import json, re, urllib.request
 UA = "Mozilla/5.0 (compatible; LokalniAgregator/1.0; +https://idassa.click)"
-urls = ["https://www.entrio.hr/sitemap.xml", "https://www.entrio.hr/rss", "https://www.entrio.hr/en/rss", "https://www.entrio.hr/feed", "https://www.entrio.hr/"]
+urls = ["https://radio.hrt.hr/radio-zadar", "https://radio.hrt.hr/radio-zadar/vijesti", "https://radio.hrt.hr/radio-zadar/rss",
+        "https://feed.hrt.hr/radio-zadar/page.xml", "https://feed.hrt.hr/radio-zadar.xml", "https://radio.hrt.hr/robots.txt", "https://www.radiozadar.hr/"]
 out = {}
 for u in urls:
     try:
@@ -8,7 +9,7 @@ for u in urls:
         b = r.read().decode("utf-8", "replace")
         out[u] = {"status": r.status, "final": r.geturl(), "len": len(b), "ctype": r.headers.get("Content-Type"),
                   "alt": re.findall(r'<link[^>]+(?:rss|atom)[^>]*>', b)[:5],
-                  "links": sorted(set(re.findall(r'href="([^"]*(?:novost|vijest|aktualn|news|clan)[^"]*)"', b, re.I)))[:60],
+                  "links": sorted(set(re.findall(r'href="([^"]*(?:radio-zadar|novost|vijest|feed|rss)[^"]*)"', b, re.I)))[:80], "api": sorted(set(re.findall(r'https?://[a-z0-9.-]*hrt\\.hr/[^"\\s<>]*(?:api|json|graphql|feed)[^"\\s<>]*', b)))[:20], "next": "__NEXT_DATA__" in b,
                   "head": b[:3000]}
         open("probe/page%d.html" % urls.index(u), "w").write(b)
         if "robots" in u: out[u]["body"] = b[:3000]
