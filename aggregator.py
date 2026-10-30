@@ -395,6 +395,23 @@ def is_media(link):
     return bool(_MEDIA.search(link))
 
 
+# Ručno izbačeni članci (spominju mjesto iz županije, ali nisu zadarska vijest):
+# jedan link po retku u blocked.txt, # za komentar.
+def _load_blocked():
+    try:
+        lines = open(os.path.join(ROOT, "blocked.txt"), encoding="utf-8").read().splitlines()
+    except FileNotFoundError:
+        return set()
+    return {l.strip().rstrip("/") for l in lines if l.strip() and not l.lstrip().startswith("#")}
+
+
+BLOCKED = _load_blocked()
+
+
+def is_blocked(link):
+    return link.rstrip("/") in BLOCKED
+
+
 def finish_items(src, items, errors):
     if src.get("link_contains") or src.get("categories"):
         # Članak iz druge rubrike (sport, kultura...) ulazi ako Zadar ili mjesto iz
@@ -404,7 +421,8 @@ def finish_items(src, items, errors):
         items = [i for i in items if is_about_zadar(i)]
     elif src.get("local_only", True) and src.get("kind") != "info":
         items = [i for i in items if is_local(i)]
-    items = [i for i in items if i["title"] and i["link"] and not is_media(i["link"])][:MAX_PER_SOURCE]
+    items = [i for i in items if i["title"] and i["link"] and not is_media(i["link"])
+             and not is_blocked(i["link"])][:MAX_PER_SOURCE]
     for i in items:
         i["source"] = src["name"]
         if src.get("topic"):
@@ -547,6 +565,7 @@ def main():
     trusted = {s["name"] for s in sources if s.get("local_only") is False}
     national = {s["name"] for s in sources if s.get("scope") == "national"}
     cache = {k: a for k, a in cache.items() if a["source"] in enabled and not is_media(a["link"])
+             and not is_blocked(a["link"])
              and (a["source"] in trusted
                   or (is_about_zadar(a) if a["source"] in national else is_local(a)))}
     articles = sorted(cache.values(), key=lambda a: a["date"], reverse=True)[:MAX_TOTAL]

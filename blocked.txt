@@ -1,0 +1,5 @@
+# Ručno izbačeni članci: jedan link po retku. Članak se makne sa stranice
+# pri sljedećem osvježavanju (svakih 15 minuta).
+
+# Izlet Kraljevice u Vukovar; Škabrnja se spominje samo usput.
+https://www.novilist.hr/rijeka-regija/rijeka/grad-kraljevica-organizira-jednodnevni-put-u-vukovar-18-11/
