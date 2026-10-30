@@ -64,3 +64,9 @@ na GitHub Pages. U repozitoriju uključi Settings → Pages → Source: GitHub A
 - `template.html` je predložak; `aggregator.py` iz njega gradi naslovnicu i po jednu stranicu za svaku rubriku (`/zadar/`, `/zupanija/`, `/otoci/`, `/sport/`).
 - Datoteke iz `static/` (ikone, `manifest.webmanifest`, `sw.js`) kopiraju se u `site/`, pa se stranica može instalirati na mobitel kao aplikacija (PWA) i radi i bez veze sa zadnjim učitanim vijestima.
 - Adresa stranice za linkove i dijeljenje je `url` u `site.json`; promijeni je kad se spoji domena zadar.click.
+
+## Newsletter
+
+- Stranica objavljuje RSS `feed.xml` (40 najnovijih vijesti).
+- Obrazac za prijavu pojavljuje se u popisu vijesti kad je u `site.json` upisano korisničko ime s [Buttondown](https://buttondown.com) (`"newsletter": "ime"`).
+- U Buttondownu se uključi slanje iz RSS-a (adresa `…/feed.xml`) jednom dnevno ujutro.

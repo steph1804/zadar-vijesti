@@ -13,6 +13,7 @@
 <meta property="og:url" content="{{URL}}">
 <meta property="og:image" content="{{SITE}}icon-512.png">
 <meta name="theme-color" content="#1968b3">
+<link rel="alternate" type="application/rss+xml" title="zadar.click – vijesti iz Zadra" href="{{BASE}}feed.xml">
 <link rel="manifest" href="{{BASE}}manifest.webmanifest">
 <link rel="icon" type="image/png" href="{{BASE}}favicon.png">
 <link rel="apple-touch-icon" href="{{BASE}}apple-touch-icon.png">
@@ -144,6 +145,16 @@
     article.lead .more { margin-top: 8px; }
   }
 
+  /* Prijava na newsletter */
+  .news { grid-column: 1 / -1; background: linear-gradient(135deg, #1968b3, #0e4f8c); color: #fff; border-radius: 14px;
+          padding: 18px 20px; display: flex; flex-wrap: wrap; align-items: center; gap: 12px 20px; box-shadow: var(--shadow); }
+  .news div { flex: 1 1 260px; }
+  .news h3 { margin: 0 0 2px; font-size: 1.15rem; letter-spacing: -.01em; }
+  .news p { margin: 0; opacity: .85; font-size: .9rem; }
+  .news form { display: flex; gap: 8px; flex: 1 1 300px; flex-wrap: wrap; }
+  .news input { flex: 1 1 180px; min-width: 0; padding: 10px 14px; border-radius: 999px; border: 0; background: #fff; color: #0f1d2b; }
+  .news button { padding: 10px 18px; border-radius: 999px; border: 0; background: var(--coral); color: #fff; font-weight: 700; cursor: pointer; }
+  .news .ok { font-weight: 600; }
   .empty { grid-column: 1 / -1; text-align: center; color: var(--muted); padding: 48px 0; }
   .load { grid-column: 1 / -1; justify-self: center; border: 1px solid var(--line); background: var(--card);
           border-radius: 999px; padding: 10px 22px; font-weight: 700; cursor: pointer; color: var(--accent); }
@@ -326,7 +337,10 @@ function list() {
   // Glavna vijest: najnovija s fotografijom među prve tri.
   const leadIdx = state.q ? -1 : items.slice(0, 3).findIndex(a => a.image);
   const order = leadIdx > 0 ? [items[leadIdx], ...items.filter((_, i) => i !== leadIdx)] : items;
-  order.slice(0, state.shown).forEach((a, i) => main.append(card(a, i === 0 && leadIdx >= 0)));
+  order.slice(0, state.shown).forEach((a, i) => {
+    main.append(card(a, i === 0 && leadIdx >= 0));
+    if (i === 6 && !state.q) main.append(newsletter());
+  });
   if (order.length > state.shown) {
     const b = el("button", { class: "load", type: "button" }, `Prikaži još (${order.length - state.shown})`);
     b.onclick = () => { state.shown += STEP; list(); };
@@ -494,6 +508,33 @@ function flights() {
   }
   box.append(el("p", { class: "small" }, `Stanje u ${hmFmt.format(new Date(DATA.updated))}. `,
     el("a", { href: "https://www.zadar-airport.hr/pregled-letova/?sekcija=putnici", target: "_blank", rel: "noopener" }, "Uživo na stranici zračne luke →")));
+}
+
+// --- Newsletter: jutarnji pregled vijesti e-mailom (Buttondown ga slaže iz feed.xml) ---
+let subscribed = false;
+try { subscribed = localStorage.getItem("newsletter") === "1"; } catch (e) {}
+function newsletter() {
+  const user = DATA.settings && DATA.settings.newsletter;
+  if (!user) return "";
+  const box = el("section", { class: "news", "aria-label": "Newsletter" },
+    el("div", {}, el("h3", {}, "Jutarnji pregled vijesti iz Zadra"),
+      el("p", {}, "Najvažnije vijesti iz Zadra i županije svako jutro u tvom e-mailu. Besplatno, odjava jednim klikom.")));
+  if (subscribed) {
+    box.append(el("p", { class: "ok" }, "Prijavljen si. Provjeri e-mail i potvrdi prijavu."));
+    return box;
+  }
+  const form = el("form", { action: `https://buttondown.com/api/emails/embed-subscribe/${encodeURIComponent(user)}`,
+    method: "post", target: "_blank" },
+    el("input", { type: "email", name: "email", required: "", placeholder: "tvoj@email.hr", "aria-label": "E-mail adresa", autocomplete: "email" }),
+    el("input", { type: "hidden", name: "tag", value: "web" }),
+    el("button", { type: "submit" }, "Prijavi me"));
+  form.onsubmit = () => {
+    subscribed = true;
+    try { localStorage.setItem("newsletter", "1"); } catch (e) {}
+    setTimeout(() => form.replaceWith(el("p", { class: "ok" }, "Hvala! Provjeri e-mail i potvrdi prijavu.")), 50);
+  };
+  box.append(form);
+  return box;
 }
 
 function analytics() {

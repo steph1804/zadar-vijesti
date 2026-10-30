@@ -619,7 +619,30 @@ def render(articles, sources, status, now, info=None):
         os.makedirs(out, exist_ok=True)
         with open(os.path.join(out, "index.html"), "w", encoding="utf-8") as f:
             f.write(page)
+    write_feed(group_duplicates(articles), site_url, now)
     print(f"Spremljeno {len(articles)} članaka u site/", file=sys.stderr)
+
+
+def write_feed(articles, site_url, now, limit=40):
+    """RSS stranice (site/feed.xml): za čitače vijesti i za newsletter koji iz njega
+    svako jutro sam složi i pošalje pregled vijesti."""
+    from xml.sax.saxutils import escape
+    rfc = lambda iso: email.utils.format_datetime(datetime.fromisoformat(iso))
+    items = []
+    for a in articles[:limit]:
+        desc = escape((a.get("summary") or "") + f" (Izvor: {a['source']})")
+        img = (f'<enclosure url="{escape(a["image"], {chr(34): "&quot;"})}" type="image/jpeg" length="0"/>'
+               if a.get("image") else "")
+        items.append(f"<item><title>{escape(a['title'])}</title><link>{escape(a['link'])}</link>"
+                     f"<guid isPermaLink=\"true\">{escape(a['link'])}</guid><pubDate>{rfc(a['date'])}</pubDate>"
+                     f"<description>{desc}</description>{img}</item>")
+    xml = ('<?xml version="1.0" encoding="UTF-8"?>\n<rss version="2.0"><channel>'
+           f"<title>Vijesti iz Zadra i županije</title><link>{escape(site_url)}</link>"
+           "<description>Najnovije vijesti iz Zadra i Zadarske županije s lokalnih portala.</description>"
+           f"<language>hr</language><lastBuildDate>{rfc(now)}</lastBuildDate>"
+           + "".join(items) + "</channel></rss>\n")
+    with open(os.path.join(OUT_DIR, "feed.xml"), "w", encoding="utf-8") as f:
+        f.write(xml)
 
 
 if __name__ == "__main__":
