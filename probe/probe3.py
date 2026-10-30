@@ -1,7 +1,6 @@
 import json, re, urllib.request
 UA = "Mozilla/5.0 (compatible; LokalniAgregator/1.0; +https://idassa.click)"
-urls = ["https://www.zadarska-zupanija.hr/novosti-arhiva?format=feed&type=rss", "https://www.zadarska-zupanija.hr/novosti-arhiva?format=feed",
-        "https://www.zadarska-zupanija.hr/novosti-arhiva", "https://www.zadarska-zupanija.hr/novosti-arhiva/item/4580-najveci-skolski-projekt-iz-npoo-a-u-zadarskoj-zupaniji-pocinje-dogradnja-os-biograd-na-moru-vrijedna-13,2-milijuna-eura"]
+urls = ["https://www.entrio.hr/robots.txt", "https://www.entrio.hr/en/events/zadar?searchterm=", "https://www.entrio.hr/dogadaji/zadar"]
 out = {}
 for u in urls:
     try:
@@ -12,7 +11,7 @@ for u in urls:
                   "links": sorted(set(re.findall(r'href="([^"]*(?:novost|vijest|aktualn|news|clan)[^"]*)"', b, re.I)))[:60],
                   "head": b[:3000]}
         open("probe/page%d.html" % urls.index(u), "w").write(b)
-        if "robots" in u: out[u]["body"] = b[:1500]
+        if "robots" in u: out[u]["body"] = b[:3000]
     except Exception as e:
         out[u] = {"err": repr(e)[:150]}
 json.dump(out, open("probe/result3.json", "w"), ensure_ascii=False, indent=1)
