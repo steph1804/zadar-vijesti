@@ -252,12 +252,32 @@
   .empty { grid-column: 1 / -1; text-align: center; color: var(--muted); padding: 48px 0; }
   .load { grid-column: 1 / -1; justify-self: center; border: 1px solid var(--line); background: var(--card);
           border-radius: 999px; padding: 10px 22px; font-weight: 700; cursor: pointer; color: var(--accent); }
-  footer { margin-top: 24px; background: #0b1a27; color: #93a4b3; font-size: .82rem; }
-  footer .wrap { padding: 32px 16px 44px; display: grid; gap: 12px; }
-  footer .wordmark { height: 26px; }
+  footer { margin-top: 32px; color: #a9b8c6; font-size: .86rem; position: relative;
+           background: radial-gradient(800px 300px at 100% 0%, rgba(25,104,179,.35), transparent 60%),
+                       radial-gradient(600px 260px at 0% 100%, rgba(255,90,31,.14), transparent 60%), #08131d; }
+  footer::before { content: ""; position: absolute; inset: 0 0 auto 0; height: 4px;
+                   background: linear-gradient(90deg, #1968b3, #63bdf0 50%, #ff5a1f); }
+  footer .wrap { padding: 48px 16px 0; }
+  .fgrid { display: grid; gap: 32px 40px; grid-template-columns: minmax(0, 1.4fr) repeat(2, minmax(0, 1fr)); }
+  .fbrand .wordmark { height: 34px; margin-bottom: 14px; }
   footer .wordmark .w { fill: #fff; } footer .wordmark .c { fill: #63bdf0; }
-  footer p { margin: 0; max-width: 72ch; }
-  footer a { color: #fff; }
+  .fbrand .lead { color: #fff; font-size: 1.15rem; font-weight: 700; line-height: 1.35; letter-spacing: -.01em; margin: 0 0 12px; max-width: 34ch; }
+  .fstats { display: flex; gap: 22px; margin-top: 16px; }
+  .fstats b { display: block; color: #fff; font-size: 1.6rem; letter-spacing: -.03em; line-height: 1.1; }
+  .fstats span { font-size: .72rem; text-transform: uppercase; letter-spacing: .08em; }
+  footer h4 { margin: 0 0 12px; color: #fff; font-size: .74rem; text-transform: uppercase; letter-spacing: .12em; }
+  footer ul { list-style: none; margin: 0; padding: 0; display: grid; gap: 7px; }
+  footer a { color: #d8e2ea; text-decoration: none; }
+  footer a:hover { color: #fff; text-decoration: underline; }
+  .fsrc { margin-top: 36px; padding-top: 24px; border-top: 1px solid rgba(255,255,255,.1); }
+  .fsrc ul { display: flex; flex-wrap: wrap; gap: 8px; }
+  .fsrc li a { display: inline-block; padding: 5px 12px; border-radius: 999px; background: rgba(255,255,255,.06);
+               border: 1px solid rgba(255,255,255,.1); font-size: .8rem; }
+  .fsrc li a:hover { background: rgba(255,255,255,.14); text-decoration: none; }
+  .fbottom { margin-top: 28px; padding: 18px 0 34px; border-top: 1px solid rgba(255,255,255,.1); display: flex; flex-wrap: wrap;
+             gap: 8px 24px; justify-content: space-between; font-size: .78rem; color: #7f91a2; }
+  .fbottom p { margin: 0; max-width: 80ch; }
+  @media (max-width: 760px) { .fgrid { grid-template-columns: 1fr 1fr; } .fbrand { grid-column: 1 / -1; } }
   @media (max-width: 560px) {
     .bar .wrap { gap: 8px; }
     .wordmark { height: 24px; }
@@ -308,7 +328,28 @@
     </div>
   </aside>
 </div>
-<footer><div class="wrap"><svg viewBox="0 -2 229 56" class="wordmark" aria-hidden="true"><g class="w"><path transform="translate(0.0 52) scale(0.0244140625 -0.0244140625)" d="M96 0H440V1056H96Z"/><path transform="translate(13.1 52) scale(0.0244140625 -0.0244140625)" d="M509 -23C648 -23 758 40 813 163H814V0H1155V1490H810V914H809C742 1026 643 1079 506 1079C238 1079 52 853 52 530C52 196 232 -23 509 -23ZM605 252C479 252 401 356 401 530C401 702 479 805 605 805C735 805 824 697 824 530C824 361 735 252 605 252Z"/><path transform="translate(43.6 52) scale(0.0244140625 -0.0244140625)" d="M419 -18C568 -18 663 34 726 148H730V0H1066V711C1066 944 897 1079 590 1079C284 1079 111 943 96 714H416C423 786 482 832 578 832C669 832 725 789 725 726V721C725 658 656 643 467 627C242 609 57 532 57 295C57 85 208 -18 419 -18ZM524 207C440 207 383 246 383 311C383 380 449 418 541 432C626 446 691 459 728 476V380C728 276 639 207 524 207Z"/><path transform="translate(72.0 52) scale(0.0244140625 -0.0244140625)" d="M562 -26C858 -26 1058 120 1058 337C1058 494 956 585 739 625L527 664C454 678 413 707 413 751C413 803 465 842 555 842C646 842 712 787 714 713H1031C1025 938 838 1078 543 1078C249 1078 70 944 70 735C70 568 181 461 389 424L580 390C664 375 708 347 708 301C708 248 652 211 557 211C456 211 395 260 385 338H46C65 113 270 -26 562 -26Z"/><path transform="translate(98.9 52) scale(0.0244140625 -0.0244140625)" d="M562 -26C858 -26 1058 120 1058 337C1058 494 956 585 739 625L527 664C454 678 413 707 413 751C413 803 465 842 555 842C646 842 712 787 714 713H1031C1025 938 838 1078 543 1078C249 1078 70 944 70 735C70 568 181 461 389 424L580 390C664 375 708 347 708 301C708 248 652 211 557 211C456 211 395 260 385 338H46C65 113 270 -26 562 -26Z"/><path transform="translate(125.9 52) scale(0.0244140625 -0.0244140625)" d="M419 -18C568 -18 663 34 726 148H730V0H1066V711C1066 944 897 1079 590 1079C284 1079 111 943 96 714H416C423 786 482 832 578 832C669 832 725 789 725 726V721C725 658 656 643 467 627C242 609 57 532 57 295C57 85 208 -18 419 -18ZM524 207C440 207 383 246 383 311C383 380 449 418 541 432C626 446 691 459 728 476V380C728 276 639 207 524 207Z"/></g><circle class="dot" cx="6.5" cy="16.8" r="6.2"/><g class="c"><path transform="translate(155.7 52) scale(0.0146484375 -0.0146484375)" d="M250 -18C345 -18 420 57 420 152C420 246 345 322 250 322C156 322 81 246 81 152C81 57 156 -18 250 -18Z"/><path transform="translate(163.1 52) scale(0.0146484375 -0.0146484375)" d="M588 -24C869 -24 1071 153 1084 397H797C778 286 711 214 592 214C444 214 355 335 355 527C355 720 443 842 592 842C710 842 784 769 799 661H1084C1065 907 866 1080 588 1080C271 1080 58 854 58 527C58 200 270 -24 588 -24Z"/><path transform="translate(179.7 52) scale(0.0146484375 -0.0146484375)" d="M399 1490H104V0H399Z"/><path transform="translate(187.1 52) scale(0.0146484375 -0.0146484375)" d="M104 0H399V1056H104ZM251 1189C348 1189 419 1256 419 1346C419 1436 348 1503 251 1503C154 1503 83 1436 83 1346C83 1256 154 1189 251 1189Z"/><path transform="translate(194.5 52) scale(0.0146484375 -0.0146484375)" d="M588 -24C869 -24 1071 153 1084 397H797C778 286 711 214 592 214C444 214 355 335 355 527C355 720 443 842 592 842C710 842 784 769 799 661H1084C1065 907 866 1080 588 1080C271 1080 58 854 58 527C58 200 270 -24 588 -24Z"/><path transform="translate(211.1 52) scale(0.0146484375 -0.0146484375)" d="M104 0H399V335L484 429L795 0H1140L705 598L1118 1056H772L402 652H399V1490H104Z"/></g></svg><p>Sve vijesti iz Zadra i Zadarske županije na jednom mjestu, osvježeno svakih 15 minuta.</p><p>Sadržaj pripada izvornim portalima. Ovdje su prikazani samo naslovi, slike i kratki uvodi, a klik vodi na izvorni članak. Prognoza: Open-Meteo. Letovi: Zračna luka Zadar. <a href="{{BASE}}feed.xml">RSS</a></p></div></footer>
+<footer><div class="wrap">
+  <div class="fgrid">
+    <div class="fbrand"><svg viewBox="0 -2 229 56" class="wordmark" aria-hidden="true"><g class="w"><path transform="translate(0.0 52) scale(0.0244140625 -0.0244140625)" d="M96 0H440V1056H96Z"/><path transform="translate(13.1 52) scale(0.0244140625 -0.0244140625)" d="M509 -23C648 -23 758 40 813 163H814V0H1155V1490H810V914H809C742 1026 643 1079 506 1079C238 1079 52 853 52 530C52 196 232 -23 509 -23ZM605 252C479 252 401 356 401 530C401 702 479 805 605 805C735 805 824 697 824 530C824 361 735 252 605 252Z"/><path transform="translate(43.6 52) scale(0.0244140625 -0.0244140625)" d="M419 -18C568 -18 663 34 726 148H730V0H1066V711C1066 944 897 1079 590 1079C284 1079 111 943 96 714H416C423 786 482 832 578 832C669 832 725 789 725 726V721C725 658 656 643 467 627C242 609 57 532 57 295C57 85 208 -18 419 -18ZM524 207C440 207 383 246 383 311C383 380 449 418 541 432C626 446 691 459 728 476V380C728 276 639 207 524 207Z"/><path transform="translate(72.0 52) scale(0.0244140625 -0.0244140625)" d="M562 -26C858 -26 1058 120 1058 337C1058 494 956 585 739 625L527 664C454 678 413 707 413 751C413 803 465 842 555 842C646 842 712 787 714 713H1031C1025 938 838 1078 543 1078C249 1078 70 944 70 735C70 568 181 461 389 424L580 390C664 375 708 347 708 301C708 248 652 211 557 211C456 211 395 260 385 338H46C65 113 270 -26 562 -26Z"/><path transform="translate(98.9 52) scale(0.0244140625 -0.0244140625)" d="M562 -26C858 -26 1058 120 1058 337C1058 494 956 585 739 625L527 664C454 678 413 707 413 751C413 803 465 842 555 842C646 842 712 787 714 713H1031C1025 938 838 1078 543 1078C249 1078 70 944 70 735C70 568 181 461 389 424L580 390C664 375 708 347 708 301C708 248 652 211 557 211C456 211 395 260 385 338H46C65 113 270 -26 562 -26Z"/><path transform="translate(125.9 52) scale(0.0244140625 -0.0244140625)" d="M419 -18C568 -18 663 34 726 148H730V0H1066V711C1066 944 897 1079 590 1079C284 1079 111 943 96 714H416C423 786 482 832 578 832C669 832 725 789 725 726V721C725 658 656 643 467 627C242 609 57 532 57 295C57 85 208 -18 419 -18ZM524 207C440 207 383 246 383 311C383 380 449 418 541 432C626 446 691 459 728 476V380C728 276 639 207 524 207Z"/></g><circle class="dot" cx="6.5" cy="16.8" r="6.2"/><g class="c"><path transform="translate(155.7 52) scale(0.0146484375 -0.0146484375)" d="M250 -18C345 -18 420 57 420 152C420 246 345 322 250 322C156 322 81 246 81 152C81 57 156 -18 250 -18Z"/><path transform="translate(163.1 52) scale(0.0146484375 -0.0146484375)" d="M588 -24C869 -24 1071 153 1084 397H797C778 286 711 214 592 214C444 214 355 335 355 527C355 720 443 842 592 842C710 842 784 769 799 661H1084C1065 907 866 1080 588 1080C271 1080 58 854 58 527C58 200 270 -24 588 -24Z"/><path transform="translate(179.7 52) scale(0.0146484375 -0.0146484375)" d="M399 1490H104V0H399Z"/><path transform="translate(187.1 52) scale(0.0146484375 -0.0146484375)" d="M104 0H399V1056H104ZM251 1189C348 1189 419 1256 419 1346C419 1436 348 1503 251 1503C154 1503 83 1436 83 1346C83 1256 154 1189 251 1189Z"/><path transform="translate(194.5 52) scale(0.0146484375 -0.0146484375)" d="M588 -24C869 -24 1071 153 1084 397H797C778 286 711 214 592 214C444 214 355 335 355 527C355 720 443 842 592 842C710 842 784 769 799 661H1084C1065 907 866 1080 588 1080C271 1080 58 854 58 527C58 200 270 -24 588 -24Z"/><path transform="translate(211.1 52) scale(0.0146484375 -0.0146484375)" d="M104 0H399V335L484 429L795 0H1140L705 598L1118 1056H772L402 652H399V1490H104Z"/></g></svg>
+      <p class="lead">Sve vijesti iz Zadra i Zadarske županije s internetskih portala i stranica, na jednom mjestu.</p>
+      <p>Pratimo lokalne i nacionalne portale te stranice grada, županije, policije i javnih službi. Stranica se osvježava svakih 15 minuta.</p>
+      <div class="fstats"><div><b id="f-n">–</b><span>vijesti</span></div><div><b id="f-s">–</b><span>izvora</span></div><div><b>15</b><span>min osvježavanje</span></div></div>
+    </div>
+    <div><h4>Rubrike</h4><ul>
+      <li><a href="{{BASE}}">Sve vijesti</a></li><li><a href="{{BASE}}zadar/">Zadar</a></li><li><a href="{{BASE}}zupanija/">Županija</a></li>
+      <li><a href="{{BASE}}otoci/">Otoci</a></li><li><a href="{{BASE}}sport/">Sport</a></li><li><a href="{{BASE}}feed.xml">RSS feed</a></li>
+    </ul></div>
+    <div><h4>Korisno</h4><ul>
+      <li><a href="https://m.hak.hr/stanje.asp?id=1" target="_blank" rel="noopener">Stanje na cestama (HAK)</a></li>
+      <li><a href="https://www.jadrolinija.hr/hr/obavijesti" target="_blank" rel="noopener">Trajekti (Jadrolinija)</a></li>
+      <li><a href="https://liburnija-zadar.hr/gradski-prijevoz/" target="_blank" rel="noopener">Autobusi (Liburnija)</a></li>
+      <li><a href="https://www.zadar-airport.hr/" target="_blank" rel="noopener">Zračna luka Zadar</a></li>
+      <li><a href="https://zadar.events/" target="_blank" rel="noopener">Događanja (zadar.events)</a></li>
+    </ul></div>
+  </div>
+  <div class="fsrc"><h4>Izvori vijesti</h4><ul id="f-sources"></ul></div>
+  <div class="fbottom"><p>Sadržaj pripada izvornim portalima i stranicama. Ovdje su prikazani samo naslovi, slike i kratki uvodi, a klik vodi na izvorni članak. Prognoza: Open-Meteo. Letovi: Zračna luka Zadar.</p><p>© <span id="f-y"></span> idassa.click</p></div>
+</div></footer>
 <script>
 const DATA = /*DATA*/null;
 const PAGE = /*PAGE*/null;
@@ -507,6 +548,17 @@ function masthead() {
     tr.append(x);
   }
   document.getElementById("ticker").hidden = false;
+}
+
+function footer() {
+  const ul = document.getElementById("f-sources");
+  const sites = DATA.sites || {};
+  const has = new Set(DATA.articles.flatMap(a => [a.source, ...(a.also || []).map(x => x.source)]));
+  const names = DATA.sources.filter(n => has.has(n)).sort((a, b) => a.localeCompare(b, "hr"));
+  for (const n of names) ul.append(el("li", {}, sites[n] ? el("a", { href: sites[n], target: "_blank", rel: "noopener" }, n) : n));
+  document.getElementById("f-n").textContent = DATA.articles.length;
+  document.getElementById("f-s").textContent = names.length;
+  document.getElementById("f-y").textContent = new Date().getFullYear();
 }
 
 function render() { nav(); list(); }
@@ -762,6 +814,7 @@ document.getElementById("sub").textContent =
 history.replaceState({ topic: state.topic }, "");
 setupTheme();
 masthead();
+footer();
 setupTools();
 setTopic(state.topic, false);
 ferries();

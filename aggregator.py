@@ -683,6 +683,7 @@ def render(articles, sources, status, now, info=None):
     payload = json.dumps({"articles": grouped, "topics": TOPICS,
                           "pages": PAGE_SLUGS,
                           "sources": [s["name"] for s in sources if s.get("kind") != "info"],
+                          "sites": {s["name"]: s.get("site", "") for s in sources if s.get("kind") != "info"},
                           "info": info or {}, "settings": settings,
                           "status": status, "updated": now}, ensure_ascii=False)
     payload = payload.replace("</", "<\\/")
