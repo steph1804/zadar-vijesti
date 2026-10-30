@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-30T10:17:34.867577+00:00",
+ "updated": "2026-10-30T10:33:10.679536+00:00",
  "sources": [
   {
    "name": "Antena Zadar",
@@ -59,12 +59,10 @@
   },
   {
    "name": "Naši školji",
-   "count": 0,
-   "ok": false,
+   "count": 10,
+   "ok": true,
    "feed": null,
-   "errors": [
-    "https://www.nasiskolji.hr/feed/: <urlopen error timed out>"
-   ]
+   "errors": []
   },
   {
    "name": "Grad Zadar",
@@ -103,8 +101,8 @@
   },
   {
    "name": "Index.hr",
-   "count": 0,
-   "ok": false,
+   "count": 3,
+   "ok": true,
    "feed": null,
    "errors": []
   },
@@ -131,7 +129,7 @@
   },
   {
    "name": "N1",
-   "count": 2,
+   "count": 1,
    "ok": true,
    "feed": null,
    "errors": []
@@ -166,8 +164,8 @@
   },
   {
    "name": "Dnevnik.hr",
-   "count": 0,
-   "ok": false,
+   "count": 1,
+   "ok": true,
    "feed": null,
    "errors": []
   },
@@ -187,20 +185,62 @@
   },
   {
    "name": "Dalmacija Danas",
-   "count": 0,
-   "ok": false,
+   "count": 10,
+   "ok": true,
    "feed": null,
    "errors": []
   },
   {
    "name": "Poslovni dnevnik",
+   "count": 18,
+   "ok": true,
+   "feed": null,
+   "errors": []
+  },
+  {
+   "name": "Sportklub",
+   "count": 30,
+   "ok": true,
+   "feed": null,
+   "errors": []
+  },
+  {
+   "name": "Dalmacija News",
+   "count": 7,
+   "ok": true,
+   "feed": null,
+   "errors": []
+  },
+  {
+   "name": "Nacional",
+   "count": 30,
+   "ok": true,
+   "feed": null,
+   "errors": []
+  },
+  {
+   "name": "Hrvatska danas",
    "count": 0,
    "ok": false,
    "feed": null,
    "errors": []
   },
   {
-   "name": "Sportklub",
+   "name": "HRTurizam",
+   "count": 0,
+   "ok": false,
+   "feed": null,
+   "errors": []
+  },
+  {
+   "name": "Sportske novosti",
+   "count": 1,
+   "ok": true,
+   "feed": null,
+   "errors": []
+  },
+  {
+   "name": "Gol.hr",
    "count": 0,
    "ok": false,
    "feed": null,
