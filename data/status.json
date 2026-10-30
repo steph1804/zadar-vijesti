@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-30T18:10:37.983411+00:00",
+ "updated": "2026-10-30T18:16:12.814217+00:00",
  "sources": [
   {
    "name": "Antena Zadar",
@@ -68,10 +68,12 @@
   },
   {
    "name": "Grad Zadar",
-   "count": 10,
-   "ok": true,
+   "count": 0,
+   "ok": false,
    "feed": null,
-   "errors": []
+   "errors": [
+    "https://www.grad-zadar.hr/rss/vijesti-s-pocetne-stranice-0.xml: The read operation timed out"
+   ]
   },
   {
    "name": "Zadarska županija",
