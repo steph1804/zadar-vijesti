@@ -1,22 +1,60 @@
 {
- "feed": {
-  "u": "https://noviradio.hr/feed/",
-  "err": "URLError(TimeoutError('timed out'))"
+ "https://www.zadarska-zupanija.hr/": {
+  "status": 200,
+  "final": "https://www.zadarska-zupanija.hr/",
+  "len": 287632,
+  "ctype": "text/html; charset=utf-8",
+  "alt": [],
+  "links": [
+   "/javni-pozivi-i-potpore/javni-pozivi-i-potpore-u-tijeku/item/4566-javni-poziv-za-predlaganje-clanova-kulturnog-vijeca-zadarske-zupanije",
+   "/novosti-arhiva",
+   "/novosti-arhiva/item/4573-zadar-i-otok-ugljan-2027-postaju-domacini-velikog-medunarodnog-triatlonskog-dogadaja-xterra",
+   "/novosti-arhiva/item/4575-zapocela-obnova-doma-zdravlja-u-pagu-vrijedna-gotovo-120-tisuca-eura",
+   "/novosti-arhiva/item/4580-najveci-skolski-projekt-iz-npoo-a-u-zadarskoj-zupaniji-pocinje-dogradnja-os-biograd-na-moru-vrijedna-13,2-milijuna-eura",
+   "/obavijesti",
+   "/obavijesti/item/4271-programa-poticajnih-mjera-za-zdravstvene-djelatnike-za-2026-godinu",
+   "/obavijesti/item/4272-iznajmljuje-se-slobodan-ured-za-poduzetnike",
+   "/obavijesti/item/4274-obavijest-o-davanju-ovlastenja-za-ishodenje-lokacijske-dozvole-za-zahvat-u-prostoru-uredenje-javne-uredene-morske-plaze-ispred-resorta-borik,-grad-zadar",
+   "/obavijesti/item/4287-privremena-rjesenja-izdana-temeljem-zakona-o-ugostiteljskoj-djelatnosti",
+   "/obavijesti/item/4421-obavijest-o-provodenju-javne-rasprave-studije-glavne-ocjene-prihvatljivosti-za-ekolosku-mrezu-za-zahvat-„izgradnja-gospodarske-gradevine-za-uzgoj-ovaca-ovcarnik-u-gradu-pagu,-otok-pag,-zadarska-zupanija“",
+   "/obavijesti/item/4469-obavijest-o-privremenom-uredovnom-vremenu-za-rad-sa-strankama-u-maticnim-uredima-zadarske-zupanije",
+   "/upravni-odjeli/financije-i-proračun/novosti",
+   "/upravni-odjeli/služba-ureda-župana/novosti-iz-ureda-župana",
+   "/upravni-odjeli/upravni-odjel-za-hrvatske-branitelje,-udruge,-demografiju-i-socijalnu-politiku/obavijest-o-pasivnom-dežurstvu-službenika-odsjeka-za-hrvatske-branitelje-i-udruge-subotom,-nedjeljom-i-blagdanom-za-slučajeve-nastupa-smrti-i-potrebe-za-ukopom-umrlih-hrvi-i-hrvatskih-branitelja-iz-domovinskog-rata",
+   "/upravni-odjeli/upravni-odjel-za-more,-promet-i-infrastrukturu/more/obavijesti-o-namjeri-davanja-koncesija",
+   "/upravni-odjeli/upravni-odjel-za-more,-promet-i-infrastrukturu/novosti",
+   "/upravni-odjeli/upravni-odjel-za-obrazovanje,-kulturu-i-šport/novosti",
+   "/upravni-odjeli/upravni-odjel-za-poljoprivredu,-ribarstvo-i-vodno-gospodarstvo/novosti",
+   "/upravni-odjeli/upravni-odjel-za-pravne-i-zajedničke-poslove/novosti",
+   "/upravni-odjeli/upravni-odjel-za-prostorno-uređenje,-zaštitu-okoliša-i-komunalne-poslove/novosti",
+   "/upravni-odjeli/upravni-odjel-za-prostorno-uređenje,-zaštitu-okoliša-i-komunalne-poslove/obavijesti-o-izradi-prostornih-planova",
+   "https://zadarska-zupanija.hr/obavijesti/item/3947-privremene-liste-prvenstva-%E2%80%93-stambeno-zbrinjavanje-za-2026-godinu"
+  ],
+  "head": ""
  },
- "wwwfeed": {
-  "u": "https://www.noviradio.hr/feed/",
-  "err": "URLError(TimeoutError('timed out'))"
+ "https://www.zadarska-zupanija.hr/feed/": {
+  "err": "<HTTPError 404: 'Not Found'>"
  },
- "search": {
-  "u": "https://noviradio.hr/?s=zadar&feed=rss2",
-  "err": "URLError(TimeoutError('timed out'))"
+ "https://www.zadarska-zupanija.hr/rss": {
+  "err": "<HTTPError 404: 'Not Found'>"
  },
- "home": {
-  "u": "https://noviradio.hr/",
-  "err": "URLError(TimeoutError('timed out'))"
+ "https://www.zadarska-zupanija.hr/novosti": {
+  "err": "<HTTPError 404: 'Not Found'>"
  },
- "http": {
-  "u": "http://noviradio.hr/feed/",
-  "err": "URLError(TimeoutError('timed out'))"
+ "https://www.zadarska-zupanija.hr/vijesti": {
+  "err": "<HTTPError 404: 'Not Found'>"
+ },
+ "https://www.zadarska-zupanija.hr/index.php?format=feed&type=rss": {
+  "err": "<HTTPError 404: 'Not Found'>"
+ },
+ "https://www.zadarska-zupanija.hr/robots.txt": {
+  "status": 200,
+  "final": "https://www.zadarska-zupanija.hr/robots.txt",
+  "len": 748,
+  "ctype": "text/plain",
+  "alt": [],
+  "links": [],
+  "head": "# If the Joomla site is installed within a folder\n# eg www.example.com/joomla/ then the robots.txt file\n# MUST be moved to the site root\n# eg www.example.com/robots.txt\n# AND the joomla folder name MUST be prefixed to all of the\n# paths.\n# eg the Disallow rule for the /administrator/ folder MUST\n# be changed to read\n# Disallow: /joomla/administrator/\n#\n# For more information about the robots.txt standard, see:\n# https://www.robotstxt.org/orig.html\n\nUser-agent: *\nDisallow: /administrator/\nDisallow: /bin/\nDisallow: /cache/\nDisallow: /cli/\nDisallow: /components/\nDisallow: /includes/\nDisallow: /installation/\nDisallow: /language/\nDisallow: /layouts/\nDisallow: /libraries/\nDisallow: /logs/\nDisallow: /modules/\nDisallow: /plugins/\nDisallow: /tmp/\n",
+  "body": "# If the Joomla site is installed within a folder\n# eg www.example.com/joomla/ then the robots.txt file\n# MUST be moved to the site root\n# eg www.example.com/robots.txt\n# AND the joomla folder name MUST be prefixed to all of the\n# paths.\n# eg the Disallow rule for the /administrator/ folder MUST\n# be changed to read\n# Disallow: /joomla/administrator/\n#\n# For more information about the robots.txt standard, see:\n# https://www.robotstxt.org/orig.html\n\nUser-agent: *\nDisallow: /administrator/\nDisallow: /bin/\nDisallow: /cache/\nDisallow: /cli/\nDisallow: /components/\nDisallow: /includes/\nDisallow: /installation/\nDisallow: /language/\nDisallow: /layouts/\nDisallow: /libraries/\nDisallow: /logs/\nDisallow: /modules/\nDisallow: /plugins/\nDisallow: /tmp/\n"
  }
 }
