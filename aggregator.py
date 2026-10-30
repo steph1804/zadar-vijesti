@@ -32,7 +32,7 @@ ZAGREB = ZoneInfo("Europe/Zagreb")
 USER_AGENT = "Mozilla/5.0 (compatible; LokalniAgregator/1.0)"
 TIMEOUT = 20
 MAX_PER_SOURCE = 30      # koliko najnovijih članaka uzeti po portalu
-MAX_TOTAL = 200          # koliko članaka čuvati i prikazati
+MAX_TOTAL = 300          # koliko članaka čuvati i prikazati
 SENTENCES = 3            # koliko početnih rečenica
 MAX_SUMMARY = 320        # najviše znakova sažetka
 
@@ -543,8 +543,10 @@ def main():
     enabled = {s["name"] for s in sources if s.get("kind") != "info"}
     # Izvori s "local_only": false (npr. KK Zadar, Liburnija) su sami po sebi zadarski.
     trusted = {s["name"] for s in sources if s.get("local_only") is False}
-    cache = {k: a for k, a in cache.items() if a["source"] in enabled
-             and (a["source"] in trusted or is_local(a)) and not is_media(a["link"])}
+    national = {s["name"] for s in sources if s.get("scope") == "national"}
+    cache = {k: a for k, a in cache.items() if a["source"] in enabled and not is_media(a["link"])
+             and (a["source"] in trusted
+                  or (is_about_zadar(a) if a["source"] in national else is_local(a)))}
     articles = sorted(cache.values(), key=lambda a: a["date"], reverse=True)[:MAX_TOTAL]
 
     # Položaj lica računamo jednom po slici; čuva se u predmemoriji dok se slika ne promijeni.
