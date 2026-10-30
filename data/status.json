@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-30T14:38:30.190708+00:00",
+ "updated": "2026-10-30T15:15:41.620871+00:00",
  "sources": [
   {
    "name": "Antena Zadar",
@@ -110,7 +110,7 @@
   },
   {
    "name": "Index.hr",
-   "count": 3,
+   "count": 2,
    "ok": true,
    "feed": null,
    "errors": []
@@ -145,8 +145,8 @@
   },
   {
    "name": "Net.hr",
-   "count": 0,
-   "ok": false,
+   "count": 1,
+   "ok": true,
    "feed": null,
    "errors": []
   },
@@ -159,8 +159,8 @@
   },
   {
    "name": "Novi list",
-   "count": 0,
-   "ok": false,
+   "count": 1,
+   "ok": true,
    "feed": null,
    "errors": []
   },
