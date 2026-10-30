@@ -178,7 +178,8 @@ def _item(title, link, date, desc, content, image, base_url, categories):
     # Sažetak iz description; ako je prekratak, iz punog sadržaja.
     text = desc_text if len(desc_text) >= 80 or not content_text else content_text
     return {
-        "title": html.unescape(title),
+        # Neki portali (eZadar) u naslovu imaju tvrde razmake (\xa0) pa se naslov ne lomi u retke.
+        "title": html.unescape(title).replace("\xa0", " ").strip(),
         "link": urllib.parse.urljoin(base_url, link.strip()),
         "date": parse_date(date),
         "summary": summarize(text),

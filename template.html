@@ -178,7 +178,7 @@
   .tag { --t: var(--accent); background: color-mix(in srgb, var(--t) 14%, transparent); color: var(--t); border-radius: 999px;
          padding: 1px 9px; font-weight: 700; font-size: .7rem; text-transform: uppercase; letter-spacing: .05em; }
   .tag[data-t="Županija"] { --t: var(--t-Županija); } .tag[data-t="Otoci"] { --t: var(--t-Otoci); } .tag[data-t="Sport"] { --t: var(--t-Sport); }
-  h2 { font-size: 1.06rem; line-height: 1.3; margin: 0; letter-spacing: -.015em; font-weight: 700; }
+  h2 { font-size: 1.06rem; line-height: 1.3; margin: 0; letter-spacing: -.015em; font-weight: 700; overflow-wrap: anywhere; }
   h2 a { color: inherit; text-decoration: none; }
   h2 a::after { content: ""; position: absolute; inset: 0; }
   article:hover h2 a { color: var(--accent); }
@@ -222,7 +222,7 @@
   article.ov .meta, article.ov .meta b, article.ov .also { color: rgba(255,255,255,.85); }
   article.ov .also a { color: #fff; }
   article.ov h2 { font-size: 1.2rem; line-height: 1.25; text-shadow: 0 1px 12px rgba(0,0,0,.35); }
-  article.ov:hover h2 a { color: #fff; text-decoration: underline; text-decoration-thickness: 2px; text-underline-offset: 4px; }
+  @media (hover: hover) { article.ov:hover h2 a { color: #fff; text-decoration: underline; text-decoration-thickness: 2px; text-underline-offset: 4px; } }
   article.ov .tag { background: var(--t); color: #fff; }
   article.ov.big h2 { font-size: clamp(1.45rem, 2.9vw, 2.15rem); line-height: 1.15; letter-spacing: -.025em; }
   article.ov.big .body p { color: rgba(255,255,255,.85); font-size: 1rem; -webkit-line-clamp: 2; max-width: 62ch; }
