@@ -101,7 +101,8 @@
     "site": "https://www.grad-zadar.hr/",
     "feeds": [
       "https://www.grad-zadar.hr/rss/vijesti-s-pocetne-stranice-0.xml"
-    ]
+    ],
+    "local_only": false
   },
   {
     "name": "Liburnija Zadar",

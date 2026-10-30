@@ -2,7 +2,7 @@ name: Osvježi vijesti
 
 on:
   schedule:
-    - cron: "7 * * * *"   # svaki sat (u 7 minuta iza punog sata)
+    - cron: "*/15 * * * *"   # svakih 15 minuta (veliki portali za sat izbace i 20+ vijesti)
   workflow_dispatch:
   push:
     branches: [main]

@@ -57,7 +57,7 @@ u `site.json`, npr. `{"goatcounter": "zadarskevijesti"}`.
 
 ## Automatsko osvježavanje (GitHub Pages)
 
-`.github/workflows/update.yml` svaki sat pokreće skriptu i objavljuje stranicu
+`.github/workflows/update.yml` svakih 15 minuta pokreće skriptu i objavljuje stranicu
 na GitHub Pages. U repozitoriju uključi Settings → Pages → Source: GitHub Actions.
 
 ## Izgled i stranice

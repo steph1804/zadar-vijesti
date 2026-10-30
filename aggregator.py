@@ -397,7 +397,9 @@ def is_media(link):
 
 def finish_items(src, items, errors):
     if src.get("link_contains") or src.get("categories"):
-        items = [i for i in items if wanted(src, i)]
+        # Članak iz druge rubrike (sport, kultura...) ulazi ako Zadar ili mjesto iz
+        # županije spominje u naslovu ili uvodu, kao kod nacionalnih portala.
+        items = [i for i in items if wanted(src, i) or is_about_zadar(i)]
     if src.get("scope") == "national":
         items = [i for i in items if is_about_zadar(i)]
     elif src.get("local_only", True) and src.get("kind") != "info":
