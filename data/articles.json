@@ -4,7 +4,7 @@
   "link": "https://zadarskilist.novilist.hr/zadar-zupanija/zupanija/zadarske-tvrtke-drzavi-duguju-milijune-eura-na-vrhu-liste-nova-imena-evo-tko-ima-najveci-dug/",
   "date": "2026-10-31T12:15:37+00:00",
   "summary": "Porezna uprava objavila je novi popis poreznih dužnika, a na njemu se nalazi 48 trgovačkih društava s područja Zadarske županije koja imaju nepodmirene obveze veće od zakonom propisanog praga za javnu objavu.",
-  "image": "https://zadarskilist.novilist.hr/wp-content/uploads/2026/10/3343024-792x495-1.jpg",
+  "image": "https://zadarskilist.novilist.hr/wp-content/uploads/2026/10/IMG_6364.gif",
   "source": "Zadarski list",
   "topics": [
    "Zadar",
@@ -12,13 +12,8 @@
    "Otoci"
   ],
   "source_url": "https://zadarskilist.novilist.hr/",
-  "face": [
-   25.9,
-   33.2,
-   74.8,
-   77.5
-  ],
-  "face_img": "https://zadarskilist.novilist.hr/wp-content/uploads/2026/10/3343024-792x495-1.jpg"
+  "face": null,
+  "face_img": "https://zadarskilist.novilist.hr/wp-content/uploads/2026/10/IMG_6364.gif"
  },
  {
   "title": "Tri državne medalje za Karate klub Bibinje: Stipan Tikulin viceprvak Hrvatske",
@@ -39,6 +34,25 @@
    83.3
   ],
   "face_img": "https://www.dalmacijadanas.hr/wp-content/uploads/2026/10/karate-bibinje-1-1200x675.jpg"
+ },
+ {
+  "title": "Koncertom Bivši učenici, budući kolege započinje još jedan Ciklus Bersa u Zadru",
+  "link": "https://ezadar.net.hr/kultura/3589386/koncertom-bivsi-ucenici-buduci-kolege-zapocinje-jos-jedan-ciklus-bersa-u-zadru/",
+  "date": "2026-10-31T12:00:00+00:00",
+  "summary": "U sklopu Ciklusa Bersa te u okviru programa obilježavanja velike 80. obljetnice Glazbene škole Blagoje Bersa, nastavlja se lijepa tradicija okupljanja nekadašnjih učenika ove ustanove koncertom Bivši učenici, budući kolege. Iznimno",
+  "image": "https://cdn-ezadar.net.hr/wp-content/uploads/dsc0548-e4fee47ec07ba84bb1a8d850-1052x696.jpg",
+  "source": "eZadar",
+  "topics": [
+   "Zadar"
+  ],
+  "source_url": "https://ezadar.net.hr/",
+  "face": [
+   11.7,
+   48.0,
+   59.4,
+   74.9
+  ],
+  "face_img": "https://cdn-ezadar.net.hr/wp-content/uploads/dsc0548-e4fee47ec07ba84bb1a8d850-1052x696.jpg"
  },
  {
   "title": "Osnovan poseban Odjel za izdavanje građevinskih dozvola, istodobno ukinut dosadašnji Odjel za gospodarstvo",
@@ -1209,7 +1223,7 @@
   "link": "https://www.jutarnji.hr/sportske/kosarka/hrvatska-liga/zadar-bez-mihailovica-demonstrirao-snagu-u-dubrovniku-sada-slijedi-pakleni-regionalni-izazov-15760972",
   "date": "2026-10-30T19:50:00+00:00",
   "summary": "DUBROVNIK – ZADAR 71:105 (16:14, 15:30, 18:29, 22:32) DUBROVNIK – ŠD Gospino polje. Gledatelja: 300. Suci: Jurčevič, Mjeda, Strikić.",
-  "image": "https://media.jutarnji.hr/images/slike/2026/10/30/f_39828137_1280.jpg?1793448932",
+  "image": "https://media.jutarnji.hr/images/slike/2026/10/30/f_39828137_1280.jpg?1793449628",
   "source": "Sportske novosti",
   "source_topic": "Sport",
   "topics": [
@@ -1223,7 +1237,7 @@
    34.7,
    40.4
   ],
-  "face_img": "https://media.jutarnji.hr/images/slike/2026/10/30/f_39828137_1280.jpg?1793448932"
+  "face_img": "https://media.jutarnji.hr/images/slike/2026/10/30/f_39828137_1280.jpg?1793449628"
  },
  {
   "title": "Zadar na američki pogon rutinski prošao Gospinim poljem",
@@ -4993,24 +5007,5 @@
   "source_url": "https://023.hr/",
   "face": null,
   "face_img": "https://023.hr/wp-content/uploads/2025/02/20250201151531_129291-scaled.webp"
- },
- {
-  "title": "Radeta prikupio potpise za raspravu o odlagalištu u Diklu: ‘Sada više nema izgovora!’",
-  "link": "https://zadarskilist.novilist.hr/zadar-zupanija/radeta-prikupio-potpise-za-raspravu-o-odlagalistu-u-diklu-sada-vise-nema-izgovora/",
-  "date": "2026-10-29T11:30:10+00:00",
-  "summary": "Nezavisni zadarski gradski vijećnik Daniel Radeta objavio je danas kako su prikupili dovoljan broj potpisa da se na dnevni red sutrašnje sjednice Gradskog vijeća uvrsti prijedlog Zaključka o dovozu otpada na Odlagalište Diklo za razdoblje od 1. siječnja 2021. do prestanka prihvata otpada.",
-  "image": "https://zadarskilist.novilist.hr/wp-content/uploads/2026/10/Radeta.jpg",
-  "source": "Zadarski list",
-  "topics": [
-   "Zadar"
-  ],
-  "source_url": "https://zadarskilist.novilist.hr/",
-  "face": [
-   22.0,
-   53.4,
-   6.4,
-   98.5
-  ],
-  "face_img": "https://zadarskilist.novilist.hr/wp-content/uploads/2026/10/Radeta.jpg"
  }
 ]
