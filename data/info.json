@@ -67,7 +67,8 @@
   }
  ],
  "videos": {
-  "fetched": "2026-10-31T16:44:39.427989+00:00",
+  "v": 2,
+  "fetched": "2026-10-31T16:54:45.511732+00:00",
   "items": [
    {
     "id": "4cToWBbnrr8",
@@ -78,12 +79,116 @@
     "image": "https://i.ytimg.com/vi/4cToWBbnrr8/mqdefault.jpg"
    },
    {
-    "id": "juJK54moG8M",
-    "title": "PINO ĐERĐA – ČOVJEK KOJI JE ZADAR PRETVORIO U KOŠARKAŠKI GRAD!",
-    "channel": "SPORTSKA JUGOSLAVIJA",
-    "date": "2026-10-29T11:56:22+00:00",
-    "link": "https://www.youtube.com/watch?v=juJK54moG8M",
-    "image": "https://i.ytimg.com/vi/juJK54moG8M/mqdefault.jpg"
+    "id": "uUB0J2iVfa4",
+    "title": "Kadrovski slom u bolnici Zadar",
+    "channel": "HRT vijesti",
+    "date": "2026-10-25T18:54:59+00:00",
+    "link": "https://www.youtube.com/watch?v=uUB0J2iVfa4",
+    "image": "https://i.ytimg.com/vi/uUB0J2iVfa4/mqdefault.jpg"
+   },
+   {
+    "id": "AmuG0Hi6dms",
+    "title": "22.  zadarska Koka",
+    "channel": "MrVuica",
+    "date": "2026-10-24T16:51:56+00:00",
+    "link": "https://www.youtube.com/watch?v=AmuG0Hi6dms",
+    "image": "https://i.ytimg.com/vi/AmuG0Hi6dms/mqdefault.jpg"
+   },
+   {
+    "id": "pVePVwEn8po",
+    "title": "Zadar, 1829.: uzeli su joj očevu destileriju maraskina, ali ne i ono što je znala samo ona",
+    "channel": "Šapat Plemićkih Srca",
+    "date": "2026-10-22T05:30:30+00:00",
+    "link": "https://www.youtube.com/watch?v=pVePVwEn8po",
+    "image": "https://i.ytimg.com/vi/pVePVwEn8po/mqdefault.jpg"
+   },
+   {
+    "id": "4Lmehmzj0BE",
+    "title": "Disembarkation from the ferry 🚢 in Zadar 🚙 at the Gaženica port",
+    "channel": "Croatian Driver",
+    "date": "2026-10-20T20:44:31+00:00",
+    "link": "https://www.youtube.com/watch?v=4Lmehmzj0BE",
+    "image": "https://i.ytimg.com/vi/4Lmehmzj0BE/mqdefault.jpg"
+   },
+   {
+    "id": "ATctWAjfG7Y",
+    "title": "ZADARSKA ZUPANIJA IZBLIZA 09 - 19.10.2026.",
+    "channel": "Diadora TV",
+    "date": "2026-10-20T18:00:09+00:00",
+    "link": "https://www.youtube.com/watch?v=ATctWAjfG7Y",
+    "image": "https://i.ytimg.com/vi/ATctWAjfG7Y/mqdefault.jpg"
+   },
+   {
+    "id": "lMjQSS_u584",
+    "title": "Što je Zadar Region Quest?",
+    "channel": "Zadar Region Guide",
+    "date": "2026-10-20T08:00:08+00:00",
+    "link": "https://www.youtube.com/watch?v=lMjQSS_u584",
+    "image": "https://i.ytimg.com/vi/lMjQSS_u584/mqdefault.jpg"
+   },
+   {
+    "id": "zvKl9P5wwfg",
+    "title": "Zadarski umirovljenici ponovno studenti: Za učenje nikad nije kasno",
+    "channel": "Hrvatska radiotelevizija",
+    "date": "2026-10-19T17:39:04+00:00",
+    "link": "https://www.youtube.com/watch?v=zvKl9P5wwfg",
+    "image": "https://i.ytimg.com/vi/zvKl9P5wwfg/mqdefault.jpg"
+   },
+   {
+    "id": "CmrpQo8ckVk",
+    "title": "😱🚨Breaking News: M 2.7 potres pogodio Kruševo, Grad Obrovac, Zadarska županija, Hrvatska.!",
+    "channel": "lindunow",
+    "date": "2026-10-19T17:18:08+00:00",
+    "link": "https://www.youtube.com/watch?v=CmrpQo8ckVk",
+    "image": "https://i.ytimg.com/vi/CmrpQo8ckVk/mqdefault.jpg"
+   },
+   {
+    "id": "b3d_63o9h-k",
+    "title": "KRONIKE ZADARSKE ŽUPANIJE 93 - 17.10.2026.",
+    "channel": "Diadora TV",
+    "date": "2026-10-18T16:00:34+00:00",
+    "link": "https://www.youtube.com/watch?v=b3d_63o9h-k",
+    "image": "https://i.ytimg.com/vi/b3d_63o9h-k/mqdefault.jpg"
+   },
+   {
+    "id": "u5Ihcu1p2HU",
+    "title": "#hotelpinija #zadar #october",
+    "channel": "Bob Zhong",
+    "date": "2026-10-15T20:32:28+00:00",
+    "link": "https://www.youtube.com/watch?v=u5Ihcu1p2HU",
+    "image": "https://i.ytimg.com/vi/u5Ihcu1p2HU/mqdefault.jpg"
+   },
+   {
+    "id": "jKjGjUjVo9g",
+    "title": "9. sjednica Županijske skupštine Zadarske županije",
+    "channel": "ZADARSKA ZUPANIJA",
+    "date": "2026-10-15T11:50:08+00:00",
+    "link": "https://www.youtube.com/watch?v=jKjGjUjVo9g",
+    "image": "https://i.ytimg.com/vi/jKjGjUjVo9g/mqdefault.jpg"
+   },
+   {
+    "id": "Iev6xjGafI0",
+    "title": "ZADAR Low Season",
+    "channel": "Bob Zhong",
+    "date": "2026-10-12T17:25:24+00:00",
+    "link": "https://www.youtube.com/watch?v=Iev6xjGafI0",
+    "image": "https://i.ytimg.com/vi/Iev6xjGafI0/mqdefault.jpg"
+   },
+   {
+    "id": "Z-5YxRb3AgA",
+    "title": "Zadar Waterfront | FPV Drone Tour",
+    "channel": "Neo2FPV",
+    "date": "2026-10-12T08:00:40+00:00",
+    "link": "https://www.youtube.com/watch?v=Z-5YxRb3AgA",
+    "image": "https://i.ytimg.com/vi/Z-5YxRb3AgA/mqdefault.jpg"
+   },
+   {
+    "id": "F8TbOhybo4g",
+    "title": "Dejana oduševio događaj u Zadru: 'Kad sam saznao, skoro sam pao s terase' | RTL Danas",
+    "channel": "RTL",
+    "date": "2026-10-11T19:00:18+00:00",
+    "link": "https://www.youtube.com/watch?v=F8TbOhybo4g",
+    "image": "https://i.ytimg.com/vi/F8TbOhybo4g/mqdefault.jpg"
    }
   ]
  }
