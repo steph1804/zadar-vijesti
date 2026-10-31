@@ -1,5 +1,19 @@
 [
  {
+  "title": "Vozač (21) iz BiH zbog niza prekršaja \"završio\" na sudu",
+  "link": "https://radio.hrt.hr/radio-zadar/vijesti/vozac-21-iz-bih-zbog-niza-prekrsaja-zavrsio-na-sudu-12985692",
+  "date": "2026-10-31T10:44:14+00:00",
+  "summary": "Prometna policija je u četvrtak zaustavila na Viru zaustavila automobil zadarskih oznaka kojim je upravljao 21-godišnji državljanin Bosne i Hercegovine i kretao se vozilom suprotno prometnom znaku zabrane skretanja ulijevo.",
+  "image": "https://api.hrt.hr/media/dc/30/policija15-20261031104410.webp",
+  "source": "HRT Radio Zadar",
+  "topics": [
+   "Zadar"
+  ],
+  "source_url": "https://radio.hrt.hr/radio-zadar",
+  "face": null,
+  "face_img": "https://api.hrt.hr/media/dc/30/policija15-20261031104410.webp"
+ },
+ {
   "title": "Masovna tučnjava u Zadru: Mladić ozlijeđen oštrim predmetom",
   "link": "https://n1info.hr/vijesti/masovna-tucnjava-u-zadru-mladic-ozlijedjen-ostrim-predmetom/",
   "date": "2026-10-31T10:43:55+00:00",
@@ -30,7 +44,7 @@
   "face_img": "https://zadarskilist.novilist.hr/wp-content/uploads/2026/09/11397610.jpg"
  },
  {
-  "title": "Noćas je potukla četvorica, jedan uboden nožem u nogu",
+  "title": "Noćas se potukla četvorica, jedan uboden nožem u nogu",
   "link": "https://radio.hrt.hr/radio-zadar/vijesti/nocas-je-potukla-cetvorica-jedan-uboden-nozem-u-nogu-12985679",
   "date": "2026-10-31T10:15:32+00:00",
   "summary": "Sinoć oko 22.45 sati u Zadru u Zrinsko-Frankopanskoj ulici došlo je do fizičkog sukoba između četvorice muškaraca. Kako je izvijestila policija, u tučnjavi je oštrim predmetom u nogu uboden 24-godišnji hrvatski državljanin.&nbsp;",
@@ -4963,19 +4977,5 @@
   "source_url": "https://zadarska-policija.gov.hr/vijesti/8",
   "face": null,
   "face_img": "https://zadarska-policija.gov.hr/UserDocsImages//2023/POLICIJA/635.jpg"
- },
- {
-  "title": "Kod Benkovca nakon svađe jedan stariji čovjek alatom napao drugog",
-  "link": "https://ezadar.net.hr/crna-kronika/3589444/kod-benkovca-nakon-svade-jedan-stariji-covjek-alatom-napao-drugog/",
-  "date": "2026-10-29T11:00:00+00:00",
-  "summary": "Osumnjičeni muškarac predan je pritvorskom nadzorniku",
-  "image": "https://cdn-ezadar.net.hr/wp-content/uploads/5d3b7b8ee85ff347a8fa75678b9e9c25-view_article_new.jpg",
-  "source": "eZadar",
-  "topics": [
-   "Županija"
-  ],
-  "source_url": "https://ezadar.net.hr/",
-  "face": null,
-  "face_img": "https://cdn-ezadar.net.hr/wp-content/uploads/5d3b7b8ee85ff347a8fa75678b9e9c25-view_article_new.jpg"
  }
 ]
