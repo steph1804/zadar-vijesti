@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-31T15:01:05.788941+00:00",
+ "updated": "2026-10-31T15:15:40.029873+00:00",
  "sources": [
   {
    "name": "Antena Zadar",
@@ -45,17 +45,21 @@
   },
   {
    "name": "Sport023",
-   "count": 10,
-   "ok": true,
+   "count": 0,
+   "ok": false,
    "feed": null,
-   "errors": []
+   "errors": [
+    "https://sport023.hr/feed/: mismatched tag: line 93, column 2"
+   ]
   },
   {
    "name": "KK Zadar",
-   "count": 10,
-   "ok": true,
+   "count": 0,
+   "ok": false,
    "feed": null,
-   "errors": []
+   "errors": [
+    "https://kkzadar.hr/feed/: mismatched tag: line 93, column 2"
+   ]
   },
   {
    "name": "Naši školji",
@@ -75,10 +79,12 @@
   },
   {
    "name": "Zadarska županija",
-   "count": 10,
-   "ok": true,
+   "count": 0,
+   "ok": false,
    "feed": null,
-   "errors": []
+   "errors": [
+    "https://www.zadarska-zupanija.hr/novosti-arhiva?format=feed&type=rss: mismatched tag: line 93, column 2"
+   ]
   },
   {
    "name": "HRT Radio Zadar",
@@ -239,7 +245,9 @@
    "count": 0,
    "ok": false,
    "feed": null,
-   "errors": []
+   "errors": [
+    "https://hrvatska-danas.com/feed/: mismatched tag: line 93, column 2"
+   ]
   },
   {
    "name": "HRTurizam",
