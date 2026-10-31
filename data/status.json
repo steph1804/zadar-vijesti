@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-31T16:26:59.943956+00:00",
+ "updated": "2026-10-31T16:30:58.880050+00:00",
  "sources": [
   {
    "name": "Antena Zadar",
@@ -59,10 +59,12 @@
   },
   {
    "name": "Naši školji",
-   "count": 10,
-   "ok": true,
+   "count": 0,
+   "ok": false,
    "feed": null,
-   "errors": []
+   "errors": [
+    "https://www.nasiskolji.hr/feed/: <urlopen error timed out>"
+   ]
   },
   {
    "name": "Grad Zadar",
@@ -131,8 +133,10 @@
    "name": "Večernji list",
    "count": 0,
    "ok": false,
-   "feed": null,
-   "errors": []
+   "feed": "https://www.vecernji.hr/feeds/latest",
+   "errors": [
+    "https://www.vecernji.hr/feeds/latest: HTTP Error 500: Internal Server Error"
+   ]
   },
   {
    "name": "tportal",
@@ -220,7 +224,7 @@
   },
   {
    "name": "Dalmacija News",
-   "count": 6,
+   "count": 5,
    "ok": true,
    "feed": null,
    "errors": []
