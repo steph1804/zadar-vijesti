@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-31T18:15:40.956484+00:00",
+ "updated": "2026-10-31T18:30:55.303547+00:00",
  "sources": [
   {
    "name": "Antena Zadar",
@@ -24,10 +24,12 @@
   },
   {
    "name": "Znet",
-   "count": 8,
-   "ok": true,
+   "count": 0,
+   "ok": false,
    "feed": null,
-   "errors": []
+   "errors": [
+    "https://www.znet.hr/feed/: HTTP Error 507: Insufficient Storage"
+   ]
   },
   {
    "name": "eZadar",
@@ -38,7 +40,7 @@
   },
   {
    "name": "023 portal",
-   "count": 6,
+   "count": 5,
    "ok": true,
    "feed": null,
    "errors": []
@@ -140,10 +142,8 @@
    "name": "Večernji list",
    "count": 0,
    "ok": false,
-   "feed": "https://www.vecernji.hr/feeds/latest",
-   "errors": [
-    "https://www.vecernji.hr/feeds/latest: HTTP Error 500: Internal Server Error"
-   ]
+   "feed": null,
+   "errors": []
   },
   {
    "name": "tportal",
