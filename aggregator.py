@@ -752,7 +752,15 @@ def main():
              and not is_blocked(a["link"])
              and (a["source"] in trusted
                   or (is_about_zadar(a) if a["source"] in national else is_local(a)))}
-    articles = sorted(cache.values(), key=lambda a: a["date"], reverse=True)[:MAX_TOTAL]
+    # Isti članak isti portal ponekad objavi pod dvije rubrike (npr. Zadarski list /style/ i /ostalo/scena/):
+    # ostaje samo jedan po izvoru i naslovu.
+    seen, unique = set(), []
+    for a in sorted(cache.values(), key=lambda a: a["date"], reverse=True):
+        key = (a["source"], re.sub(r"\W+", " ", a["title"].lower()).strip())
+        if key not in seen:
+            seen.add(key)
+            unique.append(a)
+    articles = unique[:MAX_TOTAL]
 
     # Položaj lica računamo jednom po slici; čuva se u predmemoriji dok se slika ne promijeni.
     todo = []
