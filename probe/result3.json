@@ -1,25 +1,65 @@
 {
- "https://www.hep.hr/ods/bez-struje/19?dp=zadar": {
+ "https://www.vodovod-zadar.hr/obavijesti": {
   "status": 200,
-  "final": "https://www.hep.hr/ods/bez-struje/19?dp=zadar",
-  "len": 46661,
-  "ctype": "text/html; charset=utf-8",
+  "final": "https://www.vodovod-zadar.hr/obavijesti",
+  "len": 72633,
+  "ctype": "text/html; charset=UTF-8",
   "alt": [],
-  "links": [],
+  "links": [
+   "https://www.vodovod-zadar.hr/novosti/eu-projekt-vodoopskrba-zadar/98",
+   "https://www.vodovod-zadar.hr/obavijesti",
+   "https://www.vodovod-zadar.hr/obavijesti-potrosacima/javni-natjecaji",
+   "https://www.vodovod-zadar.hr/obavijesti?page=11",
+   "https://www.vodovod-zadar.hr/obavijesti?page=12",
+   "https://www.vodovod-zadar.hr/obavijesti?page=2",
+   "https://www.vodovod-zadar.hr/obavijesti?page=3",
+   "https://www.vodovod-zadar.hr/obavijesti?page=4",
+   "https://www.vodovod-zadar.hr/obavijesti?page=5",
+   "https://www.vodovod-zadar.hr/obavijesti?page=6",
+   "https://www.vodovod-zadar.hr/obavijesti?page=7",
+   "https://www.vodovod-zadar.hr/obavijesti?page=8",
+   "https://www.vodovod-zadar.hr/voda/povijest"
+  ],
   "api": [],
   "next": false,
-  "head": "\r\n<!doctype html>\r\n<!--[if lt IE 7]>      <html class=\"no-js lt-ie9 lt-ie8 lt-ie7\" lang=\"\"> <![endif]-->\r\n<!--[if IE 7]>         <html class=\"no-js lt-ie9 lt-ie8\" lang=\"\"> <![endif]-->\r\n<!--[if IE 8]>         <html class=\"no-js lt-ie9\" lang=\"\"> <![endif]-->\r\n<!--[if gt IE 8]><!-->\r\n<html class=\"no-js\" lang=\"hr\">\r\n<!--<![endif]-->\r\n<head>\r\n        <meta charset=\"utf-8\">\r\n        \r\n        \t<script src=\"/ods//Scripts/gd-cookie.js\"></script>\r\n        \t<link rel=\"stylesheet\" href=\"/ods//Content/gd-cookie.css\" media=\"all\">\r\n        \r\n        <title>HEP ODS - Bez struje</title>\r\n         <meta name=\"keywords\" content=\"\" />\r\n        \r\n\t\t<meta property=\"og:title\" content=\"Bez struje\" />\r\n\t\t<meta property=\"og:type\" content=\"website\" />\r\n\t\t<meta property=\"og:site_name\" content=\"hep.hr\"/>\r\n\t\t\r\n\t    <meta property=\"og:image\" content=\"https://www.hep.hr/ods/img/HEP_logo.jpg\" />\t\r\n\t    \r\n        <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\">\r\n        <meta name=\"format-detection\" content=\"telephone=no\">\r\n\t\t\r\n\t\t<link rel=\"apple-touch-icon\" sizes=\"57x57\" href=\"/ods/apple-touch-icon-57x57.png\">\r\n\t\t<link rel=\"apple-touch-icon\" sizes=\"60x60\" href=\"/ods/apple-touch-icon-60x60.png\">\r\n\t\t<link rel=\"apple-touch-icon\" sizes=\"72x72\" href=\"/ods/apple-touch-icon-72x72.png\">\r\n\t\t<link rel=\"apple-touch-icon\" sizes=\"76x76\" href=\"/ods/apple-touch-icon-76x76.png\">\r\n\t\t<link rel=\"apple-touch-icon\" sizes=\"114x114\" href=\"/ods/apple-touch-icon-114x114.png\">\r\n\t\t<link rel=\"apple-touch-icon\" sizes=\"120x120\" href=\"/ods/apple-touch-icon-120x120.png\">\r\n\t\t<link rel=\"apple-touch-icon\" sizes=\"144x144\" href=\"/ods/apple-touch-icon-144x144.png\">\r\n\t\t<link rel=\"apple-touch-icon\" sizes=\"152x152\" href=\"/ods/apple-touch-icon-152x152.png\">\r\n\t\t<link rel=\"apple-touch-icon\" sizes=\"180x180\" href=\"/ods/apple-touch-icon-180x180.png\">\r\n\t\t<link rel=\"icon\" type=\"image/png\" href=\"/ods/favicon-32x32.png\" sizes=\"32x32\">\r\n\t\t<link rel=\"icon\" type=\"image/png\" href=\"/ods/android-chrome-192x192.png\" sizes=\"192x192\">\r\n\t\t<link rel=\"icon\" type=\"image/png\" href=\"/ods/favicon-96x96.png\" sizes=\"96x96\">\r\n\t\t<link rel=\"icon\" type=\"image/png\" href=\"/ods/favicon-16x16.png\" sizes=\"16x16\">\r\n\t\t<link rel=\"manifest\" href=\"/ods/manifest.json\">\r\n\t\t<link rel=\"mask-icon\" href=\"/ods/safari-pinned-tab.svg\">\r\n\t\t<meta name=\"msapplication-TileColor\" content=\"#da532c\">\r\n\t\t<meta name=\"msapplication-TileImage\" content=\"/ods/mstile-144x144.png\">\r\n\t\t<meta name=\"theme-color\" content=\"#ffffff\">\t\t\r\n\t\t\r\n\t\t<script src=\"/ods/js/jquery-2.1.4.min.js\"></script>\r\n\t\t\r\n\t\t<link href=\"/ods/js/flexnav/css/flexnav.css\" rel=\"stylesheet\" type=\"text/css\">\r\n        <script src=\"/ods/js/flexnav/js/jquery.flexnav.js\"></script>\r\n        \r\n\t\t<link href=\"/ods/css/reset.css\" rel=\"stylesheet\">\r\n        <link href=\"/ods/css/timeline.css\" rel=\"stylesheet\">\r\n        <link href=\"/ods/bootstrap-3.3.2-dist/css/bootstrap.min.css\" rel=\"stylesheet\" type=\"text/css\">\r\n        <link href=\"/ods/fonts/font.css\" rel=\"stylesheet\" type=\"text/css\">\r\n        <link href=\"/"
+  "head": "<!DOCTYPE html>\n<html lang=\"hr\">\n<head>\n<meta http-equiv=\"Content-Type\" content=\"text/html; charset=utf-8\">\n    <meta name=\"google-site-verification\" content=\"5jtBehMGKRH5EYmy3GsBwnYlUyeSnhw1TVc-u8Xh8wM\">\n    \n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1, shrink-to-fit=no\">\n    <!-- Google Fonts -->\n    <link href=\"https://fonts.googleapis.com/css?family=Open+Sans:400,600,700,800%7CUbuntu:400,500,700&amp;subset=latin-ext\" rel=\"stylesheet\">\n    <!-- Font Awesome -->\n    <link rel=\"stylesheet\" href=\"https://use.fontawesome.com/releases/v5.7.2/css/all.css\" integrity=\"sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr\" crossorigin=\"anonymous\">\n    <!-- Bootstrap CSS -->\n    <link rel=\"stylesheet\" href=\"https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css\" integrity=\"sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T\" crossorigin=\"anonymous\">\n    <link rel=\"stylesheet\" href=\"https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.0.47/jquery.fancybox.min.css\">\n    <link rel=\"stylesheet\" href=\"https://www.vodovod-zadar.hr/themes/vodovod/assets/css/style.css?v9\">\n    <link rel=\"stylesheet\" href=\"https://www.vodovod-zadar.hr/themes/vodovod/assets/css/copy.css?v10\">\n    <link rel=\"stylesheet\" href=\"https://www.vodovod-zadar.hr/themes/vodovod/assets/css/izmjene.css?v2.0\">\n    <style>\n        @media only screen and (max-width: 991px) {\n            .news-page .main-content .content.row {\n                padding: 10px 0px 50px !important;\n            }\n        }\n    </style>    \n    <title>Obavijesti | Vodovod d.o.o. Zadar</title>\n        <meta name=\"description\" content=\"Vodovod d.o.o. Zadar, za usluge opskrbe pitkom vodom.\">\n        <!-- Open Graph -->\n    <meta property=\"og:image\" content=\"https://www.vodovod-zadar.hr/themes/vodovod/assets/img/cover.png\">\n    <!--[if IE]><link rel=\"shortcut icon\" href=\"https://www.vodovod-zadar.hr/themes/vodovod/assets/img/favicon.ico\"><![endif]-->\n    <link rel=\"apple-touch-icon\" href=\"https://www.vodovod-zadar.hr/themes/vodovod/assets/img/favicon.png\">\n    <link rel=\"icon\" href=\"https://www.vodovod-zadar.hr/themes/vodovod/assets/img/favicon.png\">\n    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->\n    <!--[if lt IE 9]>\n      <script src=\"https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js\"></script>\n      <script src=\"https://oss.maxcdn.com/respond/1.4.2/respond.min.js\"></script>\n    <![endif]-->\n    <script>\n        var globalPageUrl = 'https://www.vodovod-zadar.hr';\n    </script>\n    <link rel=\"stylesheet\" href=\"https://www.vodovod-zadar.hr/plugins/futuro/weather/assets/vendor/weather-icons/css/weather-icons.min.css\">\n<link rel=\"stylesheet\" href=\"https://www.vodovod-zadar.hr/plugins/futuro/weather/assets/vendor/weather-icons/css/weather-icons-wind.min.css\">\n    \n    <style>\n        :root {\n            /*\n            --purple: #3B3646;\n            --red: #EE4B5A;\n            */\n            --purpl"
  },
- "https://www.hep.hr/robots.txt": {
+ "https://www.vodovod-zadar.hr/robots.txt": {
   "status": 200,
-  "final": "https://www.hep.hr/robots.txt",
-  "len": 24,
+  "final": "https://www.vodovod-zadar.hr/robots.txt",
+  "len": 34,
   "ctype": "text/plain",
   "alt": [],
   "links": [],
   "api": [],
   "next": false,
-  "head": "User-agent: *\nDisallow:\n",
-  "body": "User-agent: *\nDisallow:\n"
+  "head": "User-agent: *\nDisallow: /datoteka/",
+  "body": "User-agent: *\nDisallow: /datoteka/"
+ },
+ "https://www.vodovod-zadar.hr/feed": {
+  "err": "<HTTPError 404: 'Not Found'>",
+  "hdr": {
+   "Date": "Sat, 31 Oct 2026 14:01:18 GMT",
+   "Server": "Apache",
+   "Cache-Control": "no-cache",
+   "Set-Cookie": "futuro_session=eyJpdiI6IkJhdFNGbURBdWtrRFVwVnJNNjBCR1E9PSIsInZhbHVlIjoiSDFGSkZWQlwvUHRYOFl4bjMzbXFIOXI4dlNIMlwvSnRnN0s2QjhnNmFRRGpBZ29acGx1VjN5UW9aNTVcL24zWDE2SUd4K21GcGZyYjhhWE9Bck5MclFCUnc9PSIsIm1hYyI6ImQyYTE2MDZhMjVjZTc5NzhjZDQ1MTEwZDA1MWQ1MzZkZTVhMDliZDc1MGJmMTJiMGQyNzdkODAwN2VhNzU4MDAifQ%3D%3D; expires=Sat, 31-Oct-2026 16:01:18 GMT; Max-Age=7200; path=/; HttpOnly",
+   "Connection": "close",
+   "Transfer-Encoding": "chunked",
+   "Content-Type": "text/html; charset=UTF-8"
+  },
+  "body": "<!DOCTYPE html>\n<html lang=\"hr\">\n<head>\n<meta http-equiv=\"Content-Type\" content=\"text/html; charset=utf-8\">\n    <meta name=\"google-site-verification\" content=\"5jtBehMGKRH5EYmy3GsBwnYlUyeSnhw1TVc-u8Xh8wM\">\n    \n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1, shrink-to-fit=no\">\n    <!-- Google Fonts -->\n    <link href=\"https://fonts.googleapis.com/css?family=Open+Sans:400,600"
+ },
+ "https://www.vodovod-zadar.hr/obavijesti/feed": {
+  "err": "<HTTPError 404: 'Not Found'>",
+  "hdr": {
+   "Date": "Sat, 31 Oct 2026 14:01:18 GMT",
+   "Server": "Apache",
+   "Cache-Control": "no-cache",
+   "Set-Cookie": "futuro_session=eyJpdiI6IndZcUFmZEpWcHhTTmtLRzVFNzNUSHc9PSIsInZhbHVlIjoiRkxqcUs0VDVMc2h4YXZsZG9QXC85TENRMGdwUTJUNXlZRllORjY3VEVMZ1Y2a05RTFwvRTg0Y0REOFZYNHNTYk04Smc2TXo5Qko0aDZVTkpRUzc1NXU0UT09IiwibWFjIjoiNjg4N2YwNzE1ZWY1NWRhNDhiMjFhODU3NzJhMDQxYzIxOWY2MjhmYmFiNmIxZGY2MzYyNjkwODE3Yjk4Nzg4NiJ9; expires=Sat, 31-Oct-2026 16:01:18 GMT; Max-Age=7200; path=/; HttpOnly",
+   "Connection": "close",
+   "Transfer-Encoding": "chunked",
+   "Content-Type": "text/html; charset=UTF-8"
+  },
+  "body": "<!DOCTYPE html>\n<html lang=\"hr\">\n<head>\n<meta http-equiv=\"Content-Type\" content=\"text/html; charset=utf-8\">\n    <meta name=\"google-site-verification\" content=\"5jtBehMGKRH5EYmy3GsBwnYlUyeSnhw1TVc-u8Xh8wM\">\n    \n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1, shrink-to-fit=no\">\n    <!-- Google Fonts -->\n    <link href=\"https://fonts.googleapis.com/css?family=Open+Sans:400,600"
  }
 }
