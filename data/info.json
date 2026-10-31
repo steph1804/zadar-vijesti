@@ -1,12 +1,5 @@
 {
- "Jadrolinija": [
-  {
-   "title": "Linije u prekidu, 01.11.2026.",
-   "link": "https://www.jadrolinija.hr/news-single/linije-u-prekidu-01112026",
-   "date": "2026-10-31T15:54:00+00:00",
-   "summary": "Red plovidbe u nedjelju 01.11.2026"
-  }
- ],
+ "Jadrolinija": [],
  "flights": [
   {
    "dir": "dolazak",
