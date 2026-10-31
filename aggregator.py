@@ -781,6 +781,7 @@ def render(articles, sources, status, now, info=None):
         os.makedirs(out, exist_ok=True)
         with open(os.path.join(out, "index.html"), "w", encoding="utf-8") as f:
             f.write(page)
+    write_whatsapp(grouped, site_url)
     if settings.get("private"):
         # Zatvorena stranica (pod lozinkom): bez RSS-a i sitemapa, tražilicama zabranjeno.
         with open(os.path.join(OUT_DIR, "robots.txt"), "w", encoding="utf-8") as f:
@@ -789,6 +790,62 @@ def render(articles, sources, status, now, info=None):
         write_feed(grouped, site_url, now)
         write_sitemap(site_url, now)
     print(f"Spremljeno {len(articles)} članaka u site/", file=sys.stderr)
+
+
+WA_DAYS = ["ponedjeljak", "utorak", "srijeda", "četvrtak", "petak", "subota", "nedjelja"]
+
+
+def whatsapp_digest(grouped, site_url, limit=8):
+    """Tekst dnevnog pregleda za WhatsApp kanal: vijesti iz zadnja 24 sata, prvo one o kojima
+    piše više portala, svaka s naslovom i linkom na izvorni članak."""
+    now = datetime.now(timezone.utc)
+    recent = [a for a in grouped if now - datetime.fromisoformat(a["date"]) < timedelta(hours=24)]
+    top = sorted(recent, key=lambda a: (len(a.get("also") or []), a["date"]), reverse=True)[:limit]
+    today = datetime.now(ZAGREB)
+    lines = [f"📰 *Vijesti iz Zadra i županije*", f"{WA_DAYS[today.weekday()].capitalize()}, {today.day}. {today.month}. {today.year}.", ""]
+    for a in top:
+        lines += [f"▪️ *{a['title']}*", a["link"], ""]
+    lines.append(f"Sve vijesti na jednom mjestu: {site_url or 'https://idassa.click/'}")
+    return "\n".join(lines)
+
+
+def write_whatsapp(grouped, site_url):
+    """Skrivena stranica /whatsapp/ s gotovim tekstom za kopiranje u WhatsApp kanal."""
+    text = whatsapp_digest(grouped, site_url)
+    esc = html.escape(text)
+    page = f"""<!doctype html><html lang="hr"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1"><meta name="robots" content="noindex, nofollow">
+<title>WhatsApp pregled – idassa.click</title>
+<style>
+:root {{ --bg: #f3f5f7; --card: #fff; --text: #0f1d2b; --muted: #5b6b7a; --line: #e1e6eb; }}
+@media (prefers-color-scheme: dark) {{ :root {{ --bg: #0b141c; --card: #13212c; --text: #e8eef3; --muted: #93a4b3; --line: #213340; }} }}
+body {{ margin: 0; background: var(--bg); color: var(--text); font: 16px/1.5 system-ui, -apple-system, "Segoe UI", Roboto, sans-serif; }}
+main {{ max-width: 640px; margin: 0 auto; padding: 20px 16px 40px; }}
+h1 {{ font-size: 1.4rem; margin: 0 0 4px; }} p {{ color: var(--muted); margin: 0 0 14px; }}
+.btns {{ display: flex; gap: 10px; flex-wrap: wrap; margin-bottom: 14px; position: sticky; top: 0; padding: 10px 0; background: var(--bg); }}
+button, a.btn {{ font: inherit; font-weight: 700; border: 0; border-radius: 999px; padding: 11px 20px; cursor: pointer; text-decoration: none; }}
+#copy {{ background: #25d366; color: #06301a; }} a.btn {{ background: var(--card); color: var(--text); border: 1px solid var(--line); }}
+pre {{ white-space: pre-wrap; word-break: break-word; background: var(--card); border: 1px solid var(--line); border-radius: 14px;
+       padding: 16px; font: 15px/1.5 system-ui, sans-serif; margin: 0; }}
+</style></head><body><main>
+<h1>Pregled za WhatsApp kanal</h1>
+<p>Najvažnije vijesti iz zadnja 24 sata (prvo one o kojima piše više portala). Osvježava se svakih 15 minuta.</p>
+<div class="btns"><button id="copy" type="button">Kopiraj tekst</button><a class="btn" href="../">Natrag na stranicu</a></div>
+<pre id="t">{esc}</pre>
+</main><script>
+const b = document.getElementById("copy");
+b.onclick = async () => {{
+  const t = document.getElementById("t").textContent;
+  try {{ await navigator.clipboard.writeText(t); }}
+  catch (e) {{ const r = document.createRange(); r.selectNodeContents(document.getElementById("t"));
+               const s = getSelection(); s.removeAllRanges(); s.addRange(r); document.execCommand("copy"); }}
+  b.textContent = "Kopirano ✓"; setTimeout(() => b.textContent = "Kopiraj tekst", 2000);
+}};
+</script></body></html>
+"""
+    os.makedirs(os.path.join(OUT_DIR, "whatsapp"), exist_ok=True)
+    with open(os.path.join(OUT_DIR, "whatsapp", "index.html"), "w", encoding="utf-8") as f:
+        f.write(page)
 
 
 def write_sitemap(site_url, now):
