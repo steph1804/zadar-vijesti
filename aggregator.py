@@ -782,6 +782,7 @@ def render(articles, sources, status, now, info=None):
         with open(os.path.join(out, "index.html"), "w", encoding="utf-8") as f:
             f.write(page)
     write_whatsapp(grouped, site_url)
+    write_instagram(grouped)
     if settings.get("private"):
         # Zatvorena stranica (pod lozinkom): bez RSS-a i sitemapa, tražilicama zabranjeno.
         with open(os.path.join(OUT_DIR, "robots.txt"), "w", encoding="utf-8") as f:
@@ -795,14 +796,22 @@ def render(articles, sources, status, now, info=None):
 WA_DAYS = ["ponedjeljak", "utorak", "srijeda", "četvrtak", "petak", "subota", "nedjelja"]
 
 
-def whatsapp_digest(grouped, site_url, limit=8):
-    """Tekst dnevnog pregleda za WhatsApp kanal: vijesti iz zadnja 24 sata, prvo one o kojima
-    piše više portala, svaka s naslovom i linkom na izvorni članak."""
+def top_stories(grouped, limit=8):
+    """Najvažnije vijesti iz zadnja 24 sata: prvo one o kojima piše više portala, pa najnovije."""
     now = datetime.now(timezone.utc)
     recent = [a for a in grouped if now - datetime.fromisoformat(a["date"]) < timedelta(hours=24)]
-    top = sorted(recent, key=lambda a: (len(a.get("also") or []), a["date"]), reverse=True)[:limit]
+    return sorted(recent, key=lambda a: (len(a.get("also") or []), a["date"]), reverse=True)[:limit]
+
+
+def today_label():
     today = datetime.now(ZAGREB)
-    lines = [f"📰 *Vijesti iz Zadra i županije*", f"{WA_DAYS[today.weekday()].capitalize()}, {today.day}. {today.month}. {today.year}.", ""]
+    return f"{WA_DAYS[today.weekday()].capitalize()}, {today.day}. {today.month}. {today.year}."
+
+
+def whatsapp_digest(grouped, site_url, limit=8):
+    """Tekst dnevnog pregleda za WhatsApp kanal, svaka vijest s naslovom i linkom na izvorni članak."""
+    top = top_stories(grouped, limit)
+    lines = ["📰 *Vijesti iz Zadra i županije*", today_label(), ""]
     for a in top:
         lines += [f"▪️ *{a['title']}*", a["link"], ""]
     lines.append(f"Sve vijesti na jednom mjestu: {site_url or 'https://idassa.click/'}")
@@ -845,6 +854,22 @@ b.onclick = async () => {{
 """
     os.makedirs(os.path.join(OUT_DIR, "whatsapp"), exist_ok=True)
     with open(os.path.join(OUT_DIR, "whatsapp", "index.html"), "w", encoding="utf-8") as f:
+        f.write(page)
+
+
+def write_instagram(grouped):
+    """Skrivena stranica /instagram/: preglednik iz predloška instagram.html crta sliku
+    "5 vijesti dana" i kartice pojedinih vijesti (naš dizajn, bez tuđih fotografija)."""
+    with open(os.path.join(ROOT, "instagram.html"), encoding="utf-8") as f:
+        tpl = f.read()
+    with open(TEMPLATE, encoding="utf-8") as f:
+        m = re.search(r'<svg viewBox="[^"]+" class="wordmark".*?</svg>', f.read(), re.S)
+    stories = [{"title": a["title"], "source": a["source"], "topics": a.get("topics") or []} for a in top_stories(grouped)]
+    page = (tpl.replace("/*STORIES*/null", json.dumps(stories, ensure_ascii=False).replace("</", "<\\/"))
+               .replace("{{DATE}}", today_label())
+               .replace("{{WORDMARK}}", m.group(0) if m else ""))
+    os.makedirs(os.path.join(OUT_DIR, "instagram"), exist_ok=True)
+    with open(os.path.join(OUT_DIR, "instagram", "index.html"), "w", encoding="utf-8") as f:
         f.write(page)
 
 

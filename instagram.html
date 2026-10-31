@@ -1,0 +1,210 @@
+<!doctype html>
+<html lang="hr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="robots" content="noindex, nofollow">
+<title>Instagram objave – idassa.click</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@500;600;700;800&display=swap" rel="stylesheet">
+<style>
+  :root { --bg: #f3f5f7; --card: #fff; --text: #0f1d2b; --muted: #5b6b7a; --line: #e1e6eb; }
+  @media (prefers-color-scheme: dark) { :root { --bg: #0b141c; --card: #13212c; --text: #e8eef3; --muted: #93a4b3; --line: #213340; } }
+  body { margin: 0; background: var(--bg); color: var(--text); font: 16px/1.5 Inter, system-ui, sans-serif; }
+  main { max-width: 980px; margin: 0 auto; padding: 20px 16px 48px; }
+  h1 { font-size: 1.5rem; margin: 0 0 4px; letter-spacing: -.02em; }
+  h2 { font-size: 1.1rem; margin: 28px 0 10px; }
+  p { color: var(--muted); margin: 0 0 12px; }
+  .grid { display: grid; gap: 16px; grid-template-columns: repeat(auto-fill, minmax(220px, 1fr)); }
+  .item { background: var(--card); border: 1px solid var(--line); border-radius: 14px; padding: 10px; display: grid; gap: 8px; }
+  .item.big { max-width: 420px; }
+  .item img { width: 100%; border-radius: 8px; display: block; }
+  button, a.btn { font: inherit; font-weight: 700; border: 0; border-radius: 999px; padding: 10px 18px; cursor: pointer;
+                  text-decoration: none; text-align: center; background: #1968b3; color: #fff; }
+  a.btn.alt, button.alt { background: var(--card); color: var(--text); border: 1px solid var(--line); }
+  textarea { width: 100%; box-sizing: border-box; min-height: 260px; border-radius: 14px; border: 1px solid var(--line);
+             background: var(--card); color: var(--text); font: 15px/1.5 Inter, system-ui, sans-serif; padding: 14px; }
+  .row { display: flex; gap: 10px; flex-wrap: wrap; margin: 10px 0; }
+</style>
+</head>
+<body>
+<main>
+  <h1>Objave za Instagram</h1>
+  <p>Slike se same slože od najvažnijih vijesti iz zadnja 24 sata (prvo one o kojima piše više portala). Bez tuđih fotografija, samo naš dizajn. {{DATE}}</p>
+  <div class="row"><a class="btn alt" href="../">Natrag na stranicu</a></div>
+
+  <h2>5 vijesti dana</h2>
+  <div id="daily"></div>
+  <h2>Opis objave</h2>
+  <textarea id="caption" readonly></textarea>
+  <div class="row"><button id="copy" type="button">Kopiraj opis</button></div>
+
+  <h2>Kartice pojedinih vijesti</h2>
+  <p>Za objavu jedne vijesti ili za "vrtuljak" (više slika u jednoj objavi).</p>
+  <div class="grid" id="cards"></div>
+</main>
+<div id="wm" hidden>{{WORDMARK}}</div>
+<script>
+const STORIES = /*STORIES*/null || [];
+const DATE = "{{DATE}}";
+const W = 1080, H = 1350;
+const TOPIC_COLORS = { "Županija": "#2f8f5b", "Otoci": "#0e9aa7", "Sport": "#e5531a", "Zadar": "#ff5a1f" };
+
+// Natpis iz loga u bijeloj boji (za plavu podlogu).
+function wordmarkImage() {
+  const svg = document.querySelector("#wm svg");
+  if (!svg) return Promise.resolve(null);
+  const s = svg.outerHTML
+    .replace("<svg ", '<svg xmlns="http://www.w3.org/2000/svg" ')
+    .replace(/class="w"/g, 'fill="#ffffff"').replace(/class="dot"/g, 'fill="#ff5a1f"').replace(/class="c"/g, 'fill="#9fd3ff"')
+    .replace(/class="wordmark"/, "").replace(/role="img"/, "");
+  return new Promise(res => {
+    const img = new Image();
+    img.onload = () => res(img);
+    img.onerror = () => res(null);
+    img.src = "data:image/svg+xml;charset=utf-8," + encodeURIComponent(s);
+  });
+}
+
+function background(ctx) {
+  const g = ctx.createLinearGradient(0, 0, W, H);
+  g.addColorStop(0, "#0b3d73"); g.addColorStop(.6, "#1968b3"); g.addColorStop(1, "#2a8ae0");
+  ctx.fillStyle = g; ctx.fillRect(0, 0, W, H);
+  // valovi pri dnu, kao u zaglavlju stranice
+  ctx.fillStyle = "rgba(255,255,255,.07)";
+  for (const [y, a] of [[H - 150, 40], [H - 100, 30]]) {
+    ctx.beginPath(); ctx.moveTo(0, y);
+    for (let x = 0; x <= W; x += 10) ctx.lineTo(x, y + Math.sin(x / W * Math.PI * 3) * a);
+    ctx.lineTo(W, H); ctx.lineTo(0, H); ctx.closePath(); ctx.fill();
+  }
+}
+
+function wrap(ctx, text, maxW) {
+  const words = text.split(/\s+/), lines = [];
+  let line = "";
+  for (const w of words) {
+    const t = line ? line + " " + w : w;
+    if (ctx.measureText(t).width > maxW && line) { lines.push(line); line = w; } else line = t;
+  }
+  if (line) lines.push(line);
+  return lines;
+}
+
+function clampLines(ctx, lines, max, maxW) {
+  if (lines.length <= max) return lines;
+  const out = lines.slice(0, max);
+  let last = out[max - 1];
+  while (ctx.measureText(last + "…").width > maxW && last.includes(" ")) last = last.replace(/\s+\S+$/, "");
+  out[max - 1] = last + "…";
+  return out;
+}
+
+function pill(ctx, text, x, y, color) {
+  ctx.font = "800 30px Inter";
+  const w = ctx.measureText(text).width + 44;
+  ctx.fillStyle = color;
+  ctx.beginPath(); ctx.roundRect(x, y, w, 56, 28); ctx.fill();
+  ctx.fillStyle = "#fff"; ctx.textBaseline = "middle"; ctx.fillText(text, x + 22, y + 29);
+  ctx.textBaseline = "alphabetic";
+  return w;
+}
+
+function header(ctx, wm) {
+  if (wm) ctx.drawImage(wm, 80, 80, 64 * wm.width / wm.height, 64);
+  else { ctx.font = "800 60px Inter"; ctx.fillStyle = "#fff"; ctx.fillText("idassa.click", 80, 135); }
+}
+
+function footer(ctx, text) {
+  ctx.font = "600 32px Inter"; ctx.fillStyle = "rgba(255,255,255,.9)";
+  ctx.fillText(text, 80, H - 70);
+}
+
+function daily(wm) {
+  const c = document.createElement("canvas"); c.width = W; c.height = H;
+  const ctx = c.getContext("2d");
+  background(ctx); header(ctx, wm);
+  pill(ctx, "5 VIJESTI DANA", 80, 200, "#ff5a1f");
+  ctx.font = "600 34px Inter"; ctx.fillStyle = "rgba(255,255,255,.85)";
+  ctx.fillText(DATE, 80, 310);
+  const items = STORIES.slice(0, 5);
+  // Veličina slova se smanjuje dok svih pet vijesti ne stane.
+  for (let size = 46; size >= 30; size -= 2) {
+    ctx.font = `800 ${size}px Inter`;
+    const blocks = items.map(a => clampLines(ctx, wrap(ctx, a.title, W - 250), 3, W - 250));
+    const total = blocks.reduce((h, l) => h + l.length * size * 1.18 + 34 + 40, 0);
+    if (total <= H - 380 - 170 || size === 30) {
+      let y = 390;
+      blocks.forEach((lines, i) => {
+        ctx.fillStyle = "#ff5a1f";
+        ctx.beginPath(); ctx.arc(108, y + size * .55 - size * .9, 28, 0, Math.PI * 2); ctx.fill();
+        ctx.fillStyle = "#fff"; ctx.font = "800 32px Inter"; ctx.textAlign = "center";
+        ctx.fillText(String(i + 1), 108, y + size * .55 - size * .9 + 11); ctx.textAlign = "left";
+        ctx.font = `800 ${size}px Inter`; ctx.fillStyle = "#fff";
+        lines.forEach(l => { ctx.fillText(l, 170, y); y += size * 1.18; });
+        ctx.font = "600 26px Inter"; ctx.fillStyle = "#bcd8f5";
+        ctx.fillText(items[i].source, 170, y + 2);
+        y += 34 + 40;
+      });
+      break;
+    }
+  }
+  footer(ctx, "Sve vijesti na idassa.click · link u bio");
+  return c;
+}
+
+function card(a, wm) {
+  const c = document.createElement("canvas"); c.width = W; c.height = H;
+  const ctx = c.getContext("2d");
+  background(ctx); header(ctx, wm);
+  const topic = a.topics.find(t => t !== "Zadar") || "Zadar";
+  pill(ctx, topic.toUpperCase(), 80, 260, TOPIC_COLORS[topic] || "#ff5a1f");
+  let size = 84, lines;
+  for (; size >= 52; size -= 4) {
+    ctx.font = `800 ${size}px Inter`;
+    lines = wrap(ctx, a.title, W - 160);
+    if (lines.length * size * 1.12 <= 700) break;
+  }
+  lines = clampLines(ctx, lines, Math.floor(700 / (size * 1.12)), W - 160);
+  ctx.fillStyle = "#fff"; ctx.font = `800 ${size}px Inter`;
+  let y = 400 + size;
+  for (const l of lines) { ctx.fillText(l, 80, y); y += size * 1.12; }
+  ctx.font = "600 34px Inter"; ctx.fillStyle = "#bcd8f5";
+  ctx.fillText("Izvor: " + a.source, 80, y + 30);
+  footer(ctx, "Pročitaj na idassa.click · link u bio");
+  return c;
+}
+
+function tile(canvas, name, big) {
+  const box = document.createElement("div");
+  box.className = "item" + (big ? " big" : "");
+  const url = canvas.toDataURL("image/png");
+  const img = new Image(); img.src = url; img.alt = "";
+  const a = document.createElement("a");
+  a.className = "btn"; a.href = url; a.download = name; a.textContent = "Preuzmi sliku";
+  box.append(img, a);
+  return box;
+}
+
+(async () => {
+  try { await Promise.all(["800 80px Inter", "600 30px Inter"].map(f => document.fonts.load(f))); } catch (e) {}
+  const wm = await wordmarkImage();
+  const stamp = new Date().toISOString().slice(0, 10);
+  if (!STORIES.length) { document.getElementById("daily").textContent = "Danas još nema dovoljno vijesti."; return; }
+  document.getElementById("daily").append(tile(daily(wm), `idassa-5-vijesti-${stamp}.png`, true));
+  STORIES.forEach((a, i) => document.getElementById("cards").append(tile(card(a, wm), `idassa-vijest-${stamp}-${i + 1}.png`)));
+  const cap = [`📰 5 vijesti dana iz Zadra i županije · ${DATE}`, ""]
+    .concat(STORIES.slice(0, 5).map((a, i) => `${i + 1}. ${a.title} (${a.source})`))
+    .concat(["", "🔗 Sve vijesti na jednom mjestu: idassa.click (link u bio)", "",
+             "#zadar #zadarskazupanija #vijesti #zadarnews #dalmacija #hrvatska"]);
+  const ta = document.getElementById("caption");
+  ta.value = cap.join("\n");
+  const b = document.getElementById("copy");
+  b.onclick = async () => {
+    try { await navigator.clipboard.writeText(ta.value); } catch (e) { ta.select(); document.execCommand("copy"); }
+    b.textContent = "Kopirano ✓"; setTimeout(() => b.textContent = "Kopiraj opis", 2000);
+  };
+})();
+</script>
+</body>
+</html>
