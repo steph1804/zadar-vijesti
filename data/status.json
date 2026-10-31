@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-31T07:01:08.222387+00:00",
+ "updated": "2026-10-31T07:15:40.015098+00:00",
  "sources": [
   {
    "name": "Antena Zadar",
@@ -166,8 +166,8 @@
   },
   {
    "name": "Novi list",
-   "count": 0,
-   "ok": false,
+   "count": 1,
+   "ok": true,
    "feed": null,
    "errors": []
   },

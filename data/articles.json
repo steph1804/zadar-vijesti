@@ -1,5 +1,40 @@
 [
  {
+  "title": "IGRAJMO SE  4. Kazališni vikend za djecu i mlade",
+  "link": "https://www.antenazadar.hr/clanak/2026/10/igrajmo-se-4-kazalisni-vikend-za-djecu-i-mlade/",
+  "date": "2026-10-31T07:08:35+00:00",
+  "summary": "Kazališna udruga Igrajmo se u ponedjeljak, 2. studenoga, otvara četvrti Kazališni vikend za djecu i mlade, koji će u Zadru trajati do 4. studenoga.",
+  "image": "https://www.antenazadar.hr/wp-content/uploads/2026/10/469179657_1077938597463489_9212293527080718104_n-e1793430395336.jpg",
+  "source": "Antena Zadar",
+  "topics": [
+   "Zadar"
+  ],
+  "source_url": "https://www.antenazadar.hr/",
+  "face": null,
+  "face_img": "https://www.antenazadar.hr/wp-content/uploads/2026/10/469179657_1077938597463489_9212293527080718104_n-e1793430395336.jpg"
+ },
+ {
+  "title": "Deseti Crnilo kup okupio preko 1000 ljudi, lovilo je 205 barki, a podijeljene su 22 vrijedne nagrade",
+  "link": "https://www.novilist.hr/ostalo/b2s/deseti-crnilo-kup-okupio-preko-1000-ljudi-lovilo-je-205-barki-a-podijeljene-su-22-vrijedne-nagrade/",
+  "date": "2026-10-31T07:07:48+00:00",
+  "summary": "Cijelu se godinu dana s iznimnim nestrpljenjem čekalo na lukoransko natjecanje u lovu liganja, sada već tradicionalni ‘Crnilo kup’ koje je u tek par godina gabaritima preraslo i zasjenilo sva ostala slična natjecanja za koje se mislilo da  Objava Deseti Crnilo kup okupio preko 1000 ljudi, lovilo je 205 barki, a…",
+  "image": "https://www.novilist.hr/wp-content/uploads/2026/10/NLR3529-UVODNA.jpg",
+  "source": "Novi list",
+  "topics": [
+   "Zadar",
+   "Županija",
+   "Otoci"
+  ],
+  "source_url": "https://www.novilist.hr/",
+  "face": [
+   41.9,
+   51.1,
+   66.1,
+   92.8
+  ],
+  "face_img": "https://www.novilist.hr/wp-content/uploads/2026/10/NLR3529-UVODNA.jpg"
+ },
+ {
   "title": "Najveći školski projekt iz NPOO-a u Zadarskoj županiji: Počinje dogradnja OŠ Biograd na Moru vrijedna 13,2 milijuna eura",
   "link": "https://023.hr/2026/10/najveci-skolski-projekt-iz-npoo-a-u-zadarskoj-zupaniji-pocinje-dogradnja-os-biograd-na-moru-vrijedna-132-milijuna-eura/",
   "date": "2026-10-31T06:28:14+00:00",
@@ -388,7 +423,7 @@
   "link": "https://www.jutarnji.hr/sportske/kosarka/hrvatska-liga/zadar-bez-mihailovica-demonstrirao-snagu-u-dubrovniku-sada-slijedi-pakleni-regionalni-izazov-15760972",
   "date": "2026-10-30T19:50:00+00:00",
   "summary": "DUBROVNIK – ZADAR 71:105 (16:14, 15:30, 18:29, 22:32) DUBROVNIK – ŠD Gospino polje. Gledatelja: 300. Suci: Jurčevič, Mjeda, Strikić.",
-  "image": "https://media.jutarnji.hr/images/slike/2026/10/30/f_39828137_1280.jpg?1793429009",
+  "image": "https://media.jutarnji.hr/images/slike/2026/10/30/f_39828137_1280.jpg?1793430154",
   "source": "Sportske novosti",
   "source_topic": "Sport",
   "topics": [
@@ -402,7 +437,7 @@
    34.7,
    40.4
   ],
-  "face_img": "https://media.jutarnji.hr/images/slike/2026/10/30/f_39828137_1280.jpg?1793429009"
+  "face_img": "https://media.jutarnji.hr/images/slike/2026/10/30/f_39828137_1280.jpg?1793430154"
  },
  {
   "title": "Zadar na američki pogon rutinski prošao Gospinim poljem",
@@ -1489,7 +1524,7 @@
   "link": "https://www.jutarnji.hr/sportske/sport-mix/ostali-sportovi/grad-zadar-i-otok-ugljan-postaju-domacini-velikog-medunarodnog-triatlonskog-dogadaja-15760808",
   "date": "2026-10-30T12:08:08+00:00",
   "summary": "Vodeći svjetski off-road triatlon brend, Xterra, dolazi u Zadarsku županiju i Grad Zadar. Od 22. do 24. listopada 2027. Grad Zadar i otok Ugljan ugostit će Xterra Croatia Zadar - Ugljan Island 2027., trodnevni sportski događaj koji će na jedinstven način povezati grad, otok i more.",
-  "image": "https://media.jutarnji.hr/images/slike/2026/10/30/f_39869022_1280.jpg?1793429009",
+  "image": "https://media.jutarnji.hr/images/slike/2026/10/30/f_39869022_1280.jpg?1793430154",
   "source": "Sportske novosti",
   "source_topic": "Sport",
   "topics": [
@@ -1500,7 +1535,7 @@
   ],
   "source_url": "https://sportske.jutarnji.hr/",
   "face": null,
-  "face_img": "https://media.jutarnji.hr/images/slike/2026/10/30/f_39869022_1280.jpg?1793429009"
+  "face_img": "https://media.jutarnji.hr/images/slike/2026/10/30/f_39869022_1280.jpg?1793430154"
  },
  {
   "title": "Bolji i moderniji uvjeti za zadarske sportaše; Mala sportska dvorana na Višnjiku ide u temeljitu obnovu unutarnjih prostora",
@@ -4945,37 +4980,5 @@
    27.9
   ],
   "face_img": "https://zadarskilist.novilist.hr/wp-content/uploads/2026/10/Dizajn-bez-naslova-4-1.png"
- },
- {
-  "title": "Vjetar zatvorio A1 za kamione i autobuse, Paški most i Masleničku cestu prolaze samo osobni automobili",
-  "link": "https://023.hr/2026/10/vjetar-zatvorio-a1-za-kamione-i-autobuse-paski-most-i-maslenicku-cestu-prolaze-samo-osobni-automobili/",
-  "date": "2026-10-29T06:00:27+00:00",
-  "summary": "Od Svetog Roka do Posedarja autocestom smiju samo osobna vozila, i to brzinom do 40 kilometara na sat. Ograničenja vrijede i na Jadranskoj magistrali, cesti od Maslenice do Zatona Obrovačkog te na mostu prema Pagu.",
-  "image": "https://023.hr/wp-content/uploads/2024/01/bura-autocesta-a1.jpg",
-  "source": "023 portal",
-  "topics": [
-   "Zadar",
-   "Županija",
-   "Otoci"
-  ],
-  "source_url": "https://023.hr/",
-  "face": null,
-  "face_img": "https://023.hr/wp-content/uploads/2024/01/bura-autocesta-a1.jpg"
- },
- {
-  "title": "Drama na Višnjiku: Zadar 1952 u završnici slavio protiv POŠK-a 1937",
-  "link": "https://sport023.hr/2026/10/29/drama-na-visnjiku-zadar-1952-u-zavrsnici-slavio-protiv-posk-a-1937/",
-  "date": "2026-10-29T05:57:22+00:00",
-  "summary": "Vaterpolisti Zadra 1952 upisali su treću pobjedu u Prvenstvu Hrvatske. U susretu petog kola na bazenu Višnjik svladali su splitski... Objava Drama na Višnjiku: Zadar 1952 u završnici slavio protiv POŠK-a 1937 pojavila se prvi puta na Sport023.",
-  "image": "https://sport023.hr/wp-content/uploads/2026/06/toni-galusic-vk-zadar-25.jpg",
-  "source": "Sport023",
-  "source_topic": "Sport",
-  "topics": [
-   "Zadar",
-   "Sport"
-  ],
-  "source_url": "https://sport023.hr/",
-  "face": null,
-  "face_img": "https://sport023.hr/wp-content/uploads/2026/06/toni-galusic-vk-zadar-25.jpg"
  }
 ]
