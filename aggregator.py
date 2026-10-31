@@ -311,6 +311,25 @@ def airport_flights():
     return flights
 
 
+WATER_URL = "https://www.vodovod-zadar.hr/obavijesti"
+_WATER_ROW = re.compile(r'<time datetime="([\d-]+)">.*?<div class="content clearfix">(.*?)</div>', re.S)
+
+
+def water_notices(limit=6):
+    """Obavijesti Vodovoda Zadar potrošačima (prekidi opskrbe vodom); stranica nema RSS."""
+    try:
+        data, _ = fetch(WATER_URL)
+    except Exception as e:  # noqa: BLE001
+        print(f"[Vodovod Zadar] {e}", file=sys.stderr)
+        return None
+    out = []
+    for day, body in _WATER_ROW.findall(data.decode("utf-8", "replace"))[:limit]:
+        text = html.unescape(re.sub(r"<[^>]+>|\s+", " ", body)).strip()
+        if text:
+            out.append({"day": day, "text": text})
+    return out
+
+
 POWER_URL = "https://www.hep.hr/ods/bez-struje/19?dp=zadar&el=ZD&datum={}"
 _POWER_ROW = re.compile(
     r'<div class="mjesto[^"]*">(.*?)</div>\s*<div class="vrijeme[^"]*">(.*?)<div class="clear">', re.S)
@@ -664,6 +683,7 @@ def main():
         json.dump({"updated": now, "sources": status}, f, ensure_ascii=False, indent=1)
     info["flights"] = airport_flights()
     info["power"] = power_outages()
+    info["water"] = water_notices()
     with open(os.path.join(os.path.dirname(CACHE_FILE), "info.json"), "w", encoding="utf-8") as f:
         json.dump(info, f, ensure_ascii=False, indent=1)
     render(articles, sources, status, now, info)

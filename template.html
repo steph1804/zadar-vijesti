@@ -159,6 +159,8 @@
   .flights .st { color: var(--muted); }
   .pw { list-style: none; padding-left: 0 !important; font-size: .85rem; }
   .pw li { margin-bottom: 6px; }
+  .pw li.wn { display: -webkit-box; -webkit-line-clamp: 4; -webkit-box-orient: vertical; overflow: hidden; cursor: pointer; }
+  .pw li.wn.open { -webkit-line-clamp: unset; }
   .kvar { margin-left: 6px; background: var(--warn-bg); color: var(--warn); border-radius: 999px; padding: 0 7px; font-size: .72rem; font-weight: 700; }
 
   /* Vijesti */
@@ -357,6 +359,7 @@
     <div class="box" id="flights"><h3>Zračna luka Zadar</h3></div>
     <div class="box" id="roads"><h3>Ceste i promet</h3></div>
     <div class="box" id="power"><h3>Bez struje (Elektra)</h3></div>
+    <div class="box" id="water"><h3>Voda (Vodovod)</h3></div>
     <div class="box" id="buses"><h3>Autobusi (Liburnija)</h3></div>
     <div class="box" id="events"><h3>Događanja u Zadru</h3>
       <p>Koncerti, izložbe, predstave i ostala događanja u gradu i okolici.</p>
@@ -721,6 +724,27 @@ function power() {
   }
 }
 
+// --- Obavijesti Vodovoda Zadar (prekidi opskrbe vodom), zadnjih 10 dana ---
+function water() {
+  const box = document.getElementById("water");
+  box.append(el("p", {}, el("a", { href: "https://www.vodovod-zadar.hr/obavijesti", target: "_blank", rel: "noopener" },
+    el("b", {}, "Sve obavijesti Vodovoda →"))));
+  const all = DATA.info && DATA.info.water;
+  if (!all) { box.append(el("p", { class: "small" }, "Obavijesti trenutno nisu dostupne.")); return; }
+  const since = Date.now() - 10 * 24 * 3600 * 1000;
+  const recent = all.filter(n => new Date(n.day) > since).slice(0, 4);
+  if (!recent.length) { box.append(el("p", { class: "small" }, "Nema novih obavijesti o prekidima.")); return; }
+  const dayFmt = new Intl.DateTimeFormat("hr-HR", { day: "numeric", month: "numeric" });
+  const ul = el("ul", { class: "pw" });
+  // Duge obavijesti su skraćene; klik ih otvori cijele.
+  for (const n of recent) {
+    const li = el("li", { class: "wn" }, el("b", {}, dayFmt.format(new Date(n.day)) + " "), n.text);
+    li.onclick = () => li.classList.toggle("open");
+    ul.append(li);
+  }
+  box.append(ul);
+}
+
 // --- Autobusi: zadnje obavijesti Liburnije i njihovi vozni redovi ---
 function buses() {
   const box = document.getElementById("buses");
@@ -888,6 +912,7 @@ ferries();
 flights();
 roads();
 power();
+water();
 buses();
 weather();
 analytics();
