@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-31T18:30:55.303547+00:00",
+ "updated": "2026-10-31T18:45:42.807230+00:00",
  "sources": [
   {
    "name": "Antena Zadar",
@@ -24,12 +24,10 @@
   },
   {
    "name": "Znet",
-   "count": 0,
-   "ok": false,
+   "count": 8,
+   "ok": true,
    "feed": null,
-   "errors": [
-    "https://www.znet.hr/feed/: HTTP Error 507: Insufficient Storage"
-   ]
+   "errors": []
   },
   {
    "name": "eZadar",
