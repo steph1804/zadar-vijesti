@@ -1,12 +1,5 @@
 {
- "Jadrolinija": [
-  {
-   "title": "Svi Jadrolinijini brodovi plove prema redu plovidbe",
-   "link": "https://www.jadrolinija.hr/news-single/stanje-u-pomorskom-prometu",
-   "date": "2026-10-31T00:00:02+00:00",
-   "summary": "U pomorskom prometu nema poteškoća, svi Jadrolinijini brodovi plove prema redu plovidbe."
-  }
- ],
+ "Jadrolinija": [],
  "flights": [
   {
    "dir": "odlazak",
