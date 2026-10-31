@@ -311,6 +311,38 @@ def airport_flights():
     return flights
 
 
+# Zadarski YouTube kanali (javni RSS kanala, bez API ključa).
+YOUTUBE_CHANNELS = {
+    "Antena Zadar": "UCL76Ct3r3ahPGOagyq_vGMg",
+    "Radio Zadar": "UCcgfCjBzHYWqrILenI71xfg",
+    "NK Zadar": "UCfe_kLkout20eXmO2sXaVpA",
+    "Zadar Region": "UC5ZDvtArjs5oiOyy7gRSEag",
+}
+_YT_ENTRY = re.compile(r"<entry>(.*?)</entry>", re.S)
+
+
+def youtube_videos(limit=12):
+    """Najnoviji videi sa zadarskih YouTube kanala."""
+    out = []
+    for name, cid in YOUTUBE_CHANNELS.items():
+        try:
+            data, _ = fetch(f"https://www.youtube.com/feeds/videos.xml?channel_id={cid}")
+        except Exception as e:  # noqa: BLE001
+            print(f"[YouTube {name}] {e}", file=sys.stderr)
+            continue
+        for e in _YT_ENTRY.findall(data.decode("utf-8", "replace"))[:6]:
+            vid = re.search(r"<yt:videoId>(.*?)</yt:videoId>", e)
+            title = re.search(r"<title>(.*?)</title>", e, re.S)
+            date = re.search(r"<published>(.*?)</published>", e)
+            if vid and title and date:
+                out.append({"channel": name, "id": vid.group(1), "title": html.unescape(title.group(1)).strip(),
+                            "date": parse_date(date.group(1)),
+                            "link": f"https://www.youtube.com/watch?v={vid.group(1)}",
+                            "image": f"https://i.ytimg.com/vi/{vid.group(1)}/mqdefault.jpg"})
+    out.sort(key=lambda v: v["date"] or "", reverse=True)
+    return out[:limit]
+
+
 WATER_URL = "https://www.vodovod-zadar.hr/obavijesti"
 _WATER_ROW = re.compile(r'<time datetime="([\d-]+)">.*?<div class="content clearfix">(.*?)</div>', re.S)
 
@@ -684,6 +716,7 @@ def main():
     info["flights"] = airport_flights()
     info["power"] = power_outages()
     info["water"] = water_notices()
+    info["videos"] = youtube_videos()
     with open(os.path.join(os.path.dirname(CACHE_FILE), "info.json"), "w", encoding="utf-8") as f:
         json.dump(info, f, ensure_ascii=False, indent=1)
     render(articles, sources, status, now, info)
