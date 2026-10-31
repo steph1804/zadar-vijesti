@@ -26,6 +26,8 @@ jobs:
           python-version: "3.12"
       - run: pip install opencv-python-headless==4.10.0.84
       - run: python3 aggregator.py
+        env:
+          YT_API_KEY: ${{ secrets.YT_API_KEY }}
       - name: Spremi predmemoriju članaka
         run: |
           git config user.name "github-actions"

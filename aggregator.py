@@ -311,6 +311,38 @@ def airport_flights():
     return flights
 
 
+def youtube_search(prev=None):
+    """Videi o Zadru i županiji s YouTubea (YouTube Data API, ključ u tajni YT_API_KEY).
+    Pretraga košta 100 od 10.000 dnevnih bodova, pa se radi najviše jednom na sat,
+    a između se koristi prošli rezultat. Ostaju samo videi s mjestom iz županije u naslovu ili opisu."""
+    key = os.environ.get("YT_API_KEY")
+    if not key:
+        return None
+    now = datetime.now(timezone.utc)
+    if prev and prev.get("fetched") and now - datetime.fromisoformat(prev["fetched"]) < timedelta(minutes=55):
+        return prev
+    after = (now - timedelta(days=3)).strftime("%Y-%m-%dT%H:%M:%SZ")
+    url = ("https://www.googleapis.com/youtube/v3/search?part=snippet&type=video&order=date&maxResults=50"
+           f"&q=Zadar%7CZadarska%20%C5%BEupanija&regionCode=HR&relevanceLanguage=hr&publishedAfter={after}&key={key}")
+    try:
+        data, _ = fetch(url)
+        rows = json.loads(data).get("items", [])
+    except Exception as e:  # noqa: BLE001
+        print(f"[YouTube] {str(e).replace(key, '***')}", file=sys.stderr)
+        return prev
+    videos = []
+    for r in rows:
+        sn, vid = r.get("snippet", {}), r.get("id", {}).get("videoId")
+        title, desc = html.unescape(sn.get("title", "")), html.unescape(sn.get("description", ""))
+        if not vid or not is_local({"title": title, "summary": desc, "link": "", "categories": [], "text": ""}):
+            continue
+        thumbs = sn.get("thumbnails", {})
+        videos.append({"id": vid, "title": title, "channel": sn.get("channelTitle", ""),
+                       "date": parse_date(sn.get("publishedAt")), "link": f"https://www.youtube.com/watch?v={vid}",
+                       "image": (thumbs.get("medium") or thumbs.get("high") or {}).get("url", "")})
+    return {"fetched": now.isoformat(), "items": videos[:15]}
+
+
 WATER_URL = "https://www.vodovod-zadar.hr/obavijesti"
 _WATER_ROW = re.compile(r'<time datetime="([\d-]+)">.*?<div class="content clearfix">(.*?)</div>', re.S)
 
@@ -684,6 +716,12 @@ def main():
     info["flights"] = airport_flights()
     info["power"] = power_outages()
     info["water"] = water_notices()
+    try:
+        with open(os.path.join(os.path.dirname(CACHE_FILE), "info.json"), encoding="utf-8") as f:
+            prev_videos = json.load(f).get("videos")
+    except (FileNotFoundError, ValueError):
+        prev_videos = None
+    info["videos"] = youtube_search(prev_videos)
     with open(os.path.join(os.path.dirname(CACHE_FILE), "info.json"), "w", encoding="utf-8") as f:
         json.dump(info, f, ensure_ascii=False, indent=1)
     render(articles, sources, status, now, info)
