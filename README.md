@@ -35,6 +35,8 @@ Izbačeni jer im ne možemo preuzimati vijesti: 057info, Entrio i Zadar.events (
 zahtjeve, Cloudflare), Novi radio (ne odgovara GitHubovim poslužiteljima). eZadar se čita s nove
 adrese ezadar.net.hr (stara www.ezadar.hr ne odgovara). HRT Radio Zadar nema RSS, pa se popis
 čita iz podataka naslovnice (`"parser": "hrt_radio"`), a uvod iz og:description članka.
+Sveučilište u Zadru (unizd.hr) nema RSS: novosti se čitaju s popisa (`"parser": "unizd"`), a
+`"exclude_title"` izbacuje natječaje, javne pozive, rezultate i slične službene obavijesti.
 
 ## Strogi filtar mjesta
 

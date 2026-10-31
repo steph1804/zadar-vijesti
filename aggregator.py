@@ -509,7 +509,34 @@ def parse_hrt_radio(data, base_url):
     return sorted(items, key=lambda i: i["date"], reverse=True)
 
 
-PARSERS = {"mup": parse_mup_news, "hrt_radio": parse_hrt_radio}
+HR_MONTHS = {m: i for i, m in enumerate(("siječnja", "veljače", "ožujka", "travnja", "svibnja", "lipnja", "srpnja",
+                                           "kolovoza", "rujna", "listopada", "studenoga", "prosinca"), 1)}
+HR_MONTHS["studenog"] = 11
+_UNIZD_ITEM = re.compile(
+    r'<article class="l-item c-item">.*?<img src="([^"]+)".*?c-item__date[^>]*>\s*(\d+)\.\s*(\w+)\s+(\d{4})'
+    r'.*?c-item__title[^>]*><a href="([^"]+)"[^>]*>(.*?)</a>', re.S)
+
+
+def parse_unizd(data, base_url):
+    """Novosti Sveučilišta u Zadru (unizd.hr, DNN EasyDNNNews bez RSS-a)."""
+    page = data.decode("utf-8", "replace")
+    today = datetime.now(ZAGREB).date()
+    items = []
+    for img, d, month, y, link, title in _UNIZD_ITEM.findall(page):
+        m = HR_MONTHS.get(month.lower())
+        if not m:
+            continue
+        title = html.unescape(re.sub(r"<[^>]+>", "", title)).strip()
+        img = None if "placeholder" in img else img.split("?")[0]
+        it = _item(title, link, None, "", "", img, base_url, [])
+        day = datetime(int(y), m, int(d), 12, tzinfo=ZAGREB)
+        it["date"] = None if day.date() == today else day.astimezone(timezone.utc).isoformat()
+        it["need_summary"] = True
+        items.append(it)
+    return items
+
+
+PARSERS = {"mup": parse_mup_news, "hrt_radio": parse_hrt_radio, "unizd": parse_unizd}
 
 
 def load_combined(src):
@@ -564,6 +591,10 @@ def finish_items(src, items, errors):
         items = [i for i in items if is_about_zadar(i)]
     elif src.get("local_only", True) and src.get("kind") != "info":
         items = [i for i in items if is_local(i)]
+    if src.get("exclude_title"):
+        # npr. Sveučilište: bez natječaja, javnih poziva, rezultata izbora i sličnih službenih obavijesti
+        skip = re.compile(src["exclude_title"], re.I)
+        items = [i for i in items if not skip.search(i["title"])]
     items = [i for i in items if i["title"] and i["link"] and not is_media(i["link"])
              and not is_blocked(i["link"])][:MAX_PER_SOURCE]
     for i in items:

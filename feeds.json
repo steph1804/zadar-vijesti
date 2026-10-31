@@ -126,6 +126,17 @@
     "local_only": false
   },
   {
+    "name": "Sveučilište u Zadru",
+    "site": "https://www.unizd.hr/obavijesti/novosti",
+    "feeds": [
+      "https://www.unizd.hr/obavijesti/novosti"
+    ],
+    "parser": "unizd",
+    "local_only": false,
+    "exclude_title": "natječaj|natjecaj|javn\\w* poziv|poziv (?:za|na)|rezultat|rang[- ]?list|izbor\\w* za|stipendij|upis|prijav[aeu]\\b|odluk[aeu]\\b|obavijest o|raspored|termin|zaključ|lista kandidat|kandidatur|mikrokvalifikacij|izmjen",
+    "note": "Samo novosti; bez natječaja, javnih poziva, rezultata i sličnih službenih obavijesti"
+  },
+  {
     "name": "Liburnija Zadar",
     "site": "https://liburnija-zadar.hr/novosti/",
     "feeds": [
