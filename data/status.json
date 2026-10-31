@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-31T08:39:20.266560+00:00",
+ "updated": "2026-10-31T08:45:39.875374+00:00",
  "sources": [
   {
    "name": "Antena Zadar",
@@ -110,12 +110,10 @@
   },
   {
    "name": "Jadrolinija",
-   "count": 0,
-   "ok": false,
+   "count": 1,
+   "ok": true,
    "feed": null,
-   "errors": [
-    "https://www.jadrolinija.hr/feeds/vijesti: prazan feed"
-   ]
+   "errors": []
   },
   {
    "name": "Index.hr",
