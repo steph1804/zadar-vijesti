@@ -1,22 +1,42 @@
 [
  {
-  "title": "Pažanin radno proslavio otvaranje restorana, kuhao sa Zirojevićem i Bracom. Čak i omražena namirnica postala je delicija",
-  "link": "https://slobodnadalmacija.hr/mozaik/spiza/price/pazanin-radno-proslavio-otvaranje-restorana-kuhao-sa-zirojevicem-i-bracom-cak-i-omrazena-namirnica-postala-je-delicija-1587776",
-  "date": "2026-10-31T17:36:00+00:00",
-  "summary": "Možete li zamisliti kakva bi to bila večera da je kuhaju Hrvoje Zirojević, Braco Sanjin i Ivan Pažanin? Kakvih bi tu specijaliteta bilo... I bilo je.",
-  "image": "https://static.slobodnadalmacija.hr/images/slike/2026/10/23/32763852.jpg",
-  "source": "Slobodna Dalmacija/Zadar",
+  "title": "Mišo Kovač kod Sukošana za dlaku izbjegao smrt. Završio je u zadarskoj bolnici, a potom je protiv njega podignuta optužnica",
+  "link": "https://zadarskilist.novilist.hr/style/miso-kovac-kod-sukosana-za-dlaku-izbjegao-smrt-zavrsio-je-u-zadarskoj-bolnici-a-potom-je-protiv-njega-podignuta-optuznica/",
+  "date": "2026-10-31T18:00:17+00:00",
+  "summary": "Legendarni pjevač Mate Mišo Kovač, koji je preminuo danas, 31. listopada, tijekom svoje bogate karijere proživio je brojne teške trenutke, a jedan od njih dogodio se upravo na zadarskom području.",
+  "image": "https://zadarskilist.novilist.hr/wp-content/uploads/2026/10/1465209.jpg",
+  "source": "Zadarski list",
   "topics": [
-   "Otoci"
+   "Zadar",
+   "Županija"
   ],
-  "source_url": "https://slobodnadalmacija.hr/dalmacija/zadar",
+  "source_url": "https://zadarskilist.novilist.hr/",
   "face": [
-   12.7,
-   37.0,
-   46.5,
-   64.1
+   15.7,
+   29.4,
+   68.3,
+   73.8
   ],
-  "face_img": "https://static.slobodnadalmacija.hr/images/slike/2026/10/23/32763852.jpg"
+  "face_img": "https://zadarskilist.novilist.hr/wp-content/uploads/2026/10/1465209.jpg"
+ },
+ {
+  "title": "FOTO Ovo je Mišo bez brkova. Znate li priču o njima?",
+  "link": "https://www.index.hr/magazin/clanak/foto-ovo-je-miso-bez-brkova-znate-li-pricu-o-njima/2851885.aspx",
+  "date": "2026-10-31T17:26:37+00:00",
+  "summary": "PRIČA o Mišinim brkovima godinama se povezivala s teškom prometnom nesrećom koju je doživio 1971. godine u blizini Zadra. U nesreći je zadobio ozbiljne ozljede, a tijekom oporavka počeo je puštati brkove.",
+  "image": "https://ip.index.hr/remote/bucket.index.hr/b/index/a173a85b-125d-4ea7-96a4-6f92281aa9d3.png?fb_wtrmrk=magazin.jpg&width=1200&height=630&mode=crop&format=png",
+  "source": "Index.hr",
+  "topics": [
+   "Zadar"
+  ],
+  "source_url": "https://www.index.hr/",
+  "face": [
+   12.2,
+   100.0,
+   35.5,
+   64.5
+  ],
+  "face_img": "https://ip.index.hr/remote/bucket.index.hr/b/index/a173a85b-125d-4ea7-96a4-6f92281aa9d3.png?fb_wtrmrk=magazin.jpg&width=1200&height=630&mode=crop&format=png"
  },
  {
   "title": "Malo tko zna: Mišo Kovač upravo je u Zadru donio odluku koja mu je obilježila cijelu karijeru",
@@ -5014,19 +5034,5 @@
   "source_url": "https://ezadar.net.hr/",
   "face": null,
   "face_img": "https://cdn-ezadar.net.hr/wp-content/uploads/ef9584612b0bda8b8245f68f68932e0a-view_article_new.jpg"
- },
- {
-  "title": "Zadar postao središte svjetske podvodne arheologije; Ministrica Obuljen Koržinek: “Hrvatski primjer prepoznaje se kao primjer dobre prakse”",
-  "link": "https://023.hr/2026/10/zadar-postao-srediste-svjetske-podvodne-arheologije-ministrica-obuljen-korzinek-hrvatski-primjer-prepoznaje-se-kao-primjer-dobre-prakse/",
-  "date": "2026-10-29T14:03:12+00:00",
-  "summary": "Više od 40 stručnjaka iz 26 zemalja svijeta okupilo se u Zadru na godišnjoj konferenciji Međunarodnog odbora za muzeje i zbirke arheologije i povijesti (ICOM ICMAH), koja se prvi put održava u Hrvatskoj.",
-  "image": "https://023.hr/wp-content/uploads/2026/10/20261029093954_757709.avif",
-  "source": "023 portal",
-  "topics": [
-   "Zadar"
-  ],
-  "source_url": "https://023.hr/",
-  "face": null,
-  "face_img": "https://023.hr/wp-content/uploads/2026/10/20261029093954_757709.avif"
  }
 ]
