@@ -1,5 +1,33 @@
 [
  {
+  "title": "Od 1. studenog obvezatna vožnja s uključenim dnevnim svjetlima",
+  "link": "https://radio.hrt.hr/radio-zadar/vijesti/od-1-studenog-obvezatna-voznja-s-ukljucenim-dnevnim-svjetlima-12985830",
+  "date": "2026-10-31T13:40:37+00:00",
+  "summary": "Od sutra vozači u Hrvatskoj moraju imati upaljena dnevna ili kratka svjetla tijekom vožnje danju. Obveza vrijedi do kraja ožujka, a za njezino nepoštivanje propisana je kazna od 30 eura.&nbsp;",
+  "image": "https://api.hrt.hr/media/fb/49/svjetla-20261031134033.webp",
+  "source": "HRT Radio Zadar",
+  "topics": [
+   "Zadar"
+  ],
+  "source_url": "https://radio.hrt.hr/radio-zadar",
+  "face": null,
+  "face_img": "https://api.hrt.hr/media/fb/49/svjetla-20261031134033.webp"
+ },
+ {
+  "title": "Na gradskom groblju u Zadru uoči Svih svetih i Dušnog dana položeni vijenci i zapaljene svijeće",
+  "link": "https://ezadar.net.hr/info/3589591/na-gradskom-groblju-u-zadru-uoci-svih-svetih-i-dusnog-dana-polozeni-vijenci-i-zapaljene-svijece/",
+  "date": "2026-10-31T13:33:22+00:00",
+  "summary": "Uoči blagdana Svih svetih i Dušnog dana, kod Središnjeg križa na Gradskom groblju u Zadru položeni su vijenci i zapaljene svijeće u spomen na poginule hrvatske branitelje, civilne žrtve Domovinskog",
+  "image": "https://cdn-ezadar.net.hr/wp-content/uploads/1000329878-2dd4eaea22197ad7ccd5ade0.jpg",
+  "source": "eZadar",
+  "topics": [
+   "Zadar"
+  ],
+  "source_url": "https://ezadar.net.hr/",
+  "face": null,
+  "face_img": "https://cdn-ezadar.net.hr/wp-content/uploads/1000329878-2dd4eaea22197ad7ccd5ade0.jpg"
+ },
+ {
   "title": "Na popisu poreznih dužnika iz Zadarske županije 1455 imena, najveći pojedinačni dug premašuje 700 tisuća eura",
   "link": "https://023.hr/2026/10/na-popisu-poreznih-duznika-iz-zadarske-zupanije-1455-imena-najveci-pojedinacni-dug-premasuje-700-tisuca-eura/",
   "date": "2026-10-31T13:30:13+00:00",
@@ -1298,7 +1326,7 @@
   "link": "https://www.jutarnji.hr/sportske/kosarka/hrvatska-liga/zadar-bez-mihailovica-demonstrirao-snagu-u-dubrovniku-sada-slijedi-pakleni-regionalni-izazov-15760972",
   "date": "2026-10-30T19:50:00+00:00",
   "summary": "DUBROVNIK – ZADAR 71:105 (16:14, 15:30, 18:29, 22:32) DUBROVNIK – ŠD Gospino polje. Gledatelja: 300. Suci: Jurčevič, Mjeda, Strikić.",
-  "image": "https://media.jutarnji.hr/images/slike/2026/10/30/f_39828137_1280.jpg?1793453336",
+  "image": "https://media.jutarnji.hr/images/slike/2026/10/30/f_39828137_1280.jpg?1793453928",
   "source": "Sportske novosti",
   "source_topic": "Sport",
   "topics": [
@@ -1312,7 +1340,7 @@
    34.7,
    40.4
   ],
-  "face_img": "https://media.jutarnji.hr/images/slike/2026/10/30/f_39828137_1280.jpg?1793453336"
+  "face_img": "https://media.jutarnji.hr/images/slike/2026/10/30/f_39828137_1280.jpg?1793453928"
  },
  {
   "title": "Zadar na američki pogon rutinski prošao Gospinim poljem",
@@ -4982,45 +5010,5 @@
   "source_url": "https://023.hr/",
   "face": null,
   "face_img": "https://023.hr/wp-content/uploads/2025/03/20250318095713_119461.webp"
- },
- {
-  "title": "Stiže XTERRA: Grad Zadar i otok Ugljan 2027. postaju domaćini velikog međunarodnog triatlonskog događaja",
-  "link": "https://www.grad-zadar.hr/vijest/opce-vijesti-28/stize-xterra-grad-zadar-i-otok-ugljan-2027-postaju-domacini-velikog-medunarodnog-triatlonskog-dogadaja-10076.html",
-  "date": "2026-10-29T12:23:00+00:00",
-  "summary": "Od 22. do 24. listopada 2027. Grad Zadar i otok Ugljan ugostit će XTERRA Croatia Zadar - Ugljan Island 2027",
-  "image": "https://www.grad-zadar.hr/data/images/image/grad550x325/35314/SIZ_1068.jpg",
-  "source": "Grad Zadar",
-  "topics": [
-   "Zadar",
-   "Otoci"
-  ],
-  "source_url": "https://www.grad-zadar.hr/",
-  "face": [
-   28.1,
-   44.6,
-   10.4,
-   86.4
-  ],
-  "face_img": "https://www.grad-zadar.hr/data/images/image/grad550x325/35314/SIZ_1068.jpg"
- },
- {
-  "title": "INOVACIJA Održana edukativna radionica „Izrada poslovnog plana”",
-  "link": "https://www.antenazadar.hr/clanak/2026/10/inovacija-odrzana-edukativna-radionica-izrada-poslovnog-plana/",
-  "date": "2026-10-29T12:13:28+00:00",
-  "summary": "Ustanova za razvoj kompetencija, inovacija i specijalizacije Zadarske županije – INOVAcija organizirala je u Centru za kreativne industrije u Zadru besplatnu edukativnu radionicu „Izrada poslovnog plana”, namijenjenu poduzetnicima, obrtnicima i svima koji planiraju pokrenuti vlastiti posao.",
-  "image": "https://www.antenazadar.hr/wp-content/uploads/2026/10/20261026_110524.jpg",
-  "source": "Antena Zadar",
-  "topics": [
-   "Zadar",
-   "Županija"
-  ],
-  "source_url": "https://www.antenazadar.hr/",
-  "face": [
-   59.7,
-   79.4,
-   19.7,
-   28.4
-  ],
-  "face_img": "https://www.antenazadar.hr/wp-content/uploads/2026/10/20261026_110524.jpg"
  }
 ]
