@@ -311,17 +311,27 @@ def airport_flights():
     return flights
 
 
+# videi na ekavici ne idu u vrpcu: jezik zvuka "sr", ćirilica, tipične ekavske riječi ili kanal s popisa
+_EKAVICA = re.compile(
+    r"[\u0400-\u04FF]|\b(?:lep[aeiou]?|lepo|reka|reke|mleko|vreme|vremena|deca|dece|dete|deteta|devojk\w*|čovek\w*|"
+    r"mesto|mesta|pesm\w*|nedelj\w*|uvek|ovde|gde|posle|ceo|cela|celu|celog|reč|vest|vesti|sneg\w*|hteo|"
+    r"fudbal\w*|hiljad\w*|obezbe\w*|takmič\w*|pobed\w*|istorij\w*|Srbij\w*|srpsk\w*|Beograd\w*)\b", re.I)
+_YT_BLOCKED_FILE = os.path.join(ROOT, "yt_blocked.txt")
+YT_BLOCKED = {l.strip().lower() for l in open(_YT_BLOCKED_FILE, encoding="utf-8")
+              if l.strip() and not l.startswith("#")} if os.path.exists(_YT_BLOCKED_FILE) else set()
+
+
 def youtube_search(prev=None):
     """Videi o Zadru i županiji s YouTubea (YouTube Data API, ključ u tajni YT_API_KEY).
     Pretraga košta 100 od 10.000 dnevnih bodova, pa se radi najviše jednom na sat,
-    a između se koristi prošli rezultat. Ostaju samo videi s mjestom iz županije u naslovu ili opisu."""
+    a između se koristi prošli rezultat. Ostaju samo videi s mjestom iz županije u naslovu ili opisu, iz zadnjih 30 dana i ne na ekavici."""
     key = os.environ.get("YT_API_KEY")
     if not key:
         return None
     now = datetime.now(timezone.utc)
-    if prev and prev.get("fetched") and now - datetime.fromisoformat(prev["fetched"]) < timedelta(minutes=55):
+    if prev and prev.get("v") == 2 and prev.get("fetched") and now - datetime.fromisoformat(prev["fetched"]) < timedelta(minutes=55):
         return prev
-    after = (now - timedelta(days=3)).strftime("%Y-%m-%dT%H:%M:%SZ")
+    after = (now - timedelta(days=30)).strftime("%Y-%m-%dT%H:%M:%SZ")
     url = ("https://www.googleapis.com/youtube/v3/search?part=snippet&type=video&order=date&maxResults=50"
            f"&q=Zadar%7CZadarska%20%C5%BEupanija&regionCode=HR&relevanceLanguage=hr&publishedAfter={after}&key={key}")
     try:
@@ -330,17 +340,32 @@ def youtube_search(prev=None):
     except Exception as e:  # noqa: BLE001
         print(f"[YouTube] {str(e).replace(key, '***')}", file=sys.stderr)
         return prev
+    # jezik zvuka (defaultAudioLanguage) dolazi samo iz videos endpointa; 1 bod za do 50 videa
+    langs = {}
+    ids = ",".join(r.get("id", {}).get("videoId", "") for r in rows if r.get("id", {}).get("videoId"))
+    if ids:
+        try:
+            meta, _ = fetch(f"https://www.googleapis.com/youtube/v3/videos?part=snippet&id={ids}&key={key}")
+            for v in json.loads(meta).get("items", []):
+                sn = v.get("snippet", {})
+                langs[v["id"]] = (sn.get("defaultAudioLanguage") or sn.get("defaultLanguage") or "").lower()
+        except Exception as e:  # noqa: BLE001
+            print(f"[YouTube jezik] {str(e).replace(key, '***')}", file=sys.stderr)
     videos = []
     for r in rows:
         sn, vid = r.get("snippet", {}), r.get("id", {}).get("videoId")
         title, desc = html.unescape(sn.get("title", "")), html.unescape(sn.get("description", ""))
         if not vid or not is_local({"title": title, "summary": desc, "link": "", "categories": [], "text": ""}):
             continue
+        channel = sn.get("channelTitle", "")
+        if (langs.get(vid, "").startswith(("sr", "mk")) or channel.strip().lower() in YT_BLOCKED
+                or _EKAVICA.search(f"{title} {desc} {channel}")):
+            continue
         thumbs = sn.get("thumbnails", {})
         videos.append({"id": vid, "title": title, "channel": sn.get("channelTitle", ""),
                        "date": parse_date(sn.get("publishedAt")), "link": f"https://www.youtube.com/watch?v={vid}",
                        "image": (thumbs.get("medium") or thumbs.get("high") or {}).get("url", "")})
-    return {"fetched": now.isoformat(), "items": videos[:15]}
+    return {"v": 2, "fetched": now.isoformat(), "items": videos[:15]}
 
 
 WATER_URL = "https://www.vodovod-zadar.hr/obavijesti"
