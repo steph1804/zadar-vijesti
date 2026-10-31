@@ -1,6 +1,6 @@
 import json, re, urllib.request
 UA = "Mozilla/5.0 (compatible; LokalniAgregator/1.0; +https://idassa.click)"
-urls = ['https://www.youtube.com/@KKZadar', 'https://www.youtube.com/@kkzadar', 'https://www.youtube.com/@GradZadar', 'https://www.youtube.com/@gradzadar', 'https://www.youtube.com/@zadarskilist', 'https://www.youtube.com/@ZadarskiList', 'https://www.youtube.com/@antenazadar', 'https://www.youtube.com/@AntenaZadar', 'https://www.youtube.com/@023portal', 'https://www.youtube.com/@zadarskazupanija', 'https://www.youtube.com/@ZadarskaZupanija', 'https://www.youtube.com/@visitzadar', 'https://www.youtube.com/@zadarregion', 'https://www.youtube.com/@HNKZadar', 'https://www.youtube.com/@nkzadar', 'https://www.youtube.com/@ezadar', 'https://www.youtube.com/@znet', 'https://www.youtube.com/@sveucilistezadar', 'https://www.youtube.com/@unizd', 'https://www.youtube.com/@zadarairport', 'https://www.youtube.com/@radiozadar', 'https://www.youtube.com/@hrtradiozadar', 'https://www.youtube.com/@057info', 'https://osmrtnice.slobodnadalmacija.hr/', 'https://zadarskilist.novilist.hr/osmrtnice/', 'https://www.novilist.hr/osmrtnice/', 'https://nasadi.hr/', 'https://www.nasadi.hr/', 'https://www.osmrtnica.hr/', 'https://www.zadarskilist.hr/osmrtnice']
+urls = ["https://zadarskilist.novilist.hr/osmrtnice/", "https://osmrtnica.hr/feed/"]
 out = {}
 for u in urls:
     try:
