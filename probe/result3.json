@@ -1,65 +1,142 @@
 {
- "https://www.vodovod-zadar.hr/obavijesti": {
-  "status": 200,
-  "final": "https://www.vodovod-zadar.hr/obavijesti",
-  "len": 72633,
-  "ctype": "text/html; charset=UTF-8",
-  "alt": [],
-  "links": [
-   "https://www.vodovod-zadar.hr/novosti/eu-projekt-vodoopskrba-zadar/98",
-   "https://www.vodovod-zadar.hr/obavijesti",
-   "https://www.vodovod-zadar.hr/obavijesti-potrosacima/javni-natjecaji",
-   "https://www.vodovod-zadar.hr/obavijesti?page=11",
-   "https://www.vodovod-zadar.hr/obavijesti?page=12",
-   "https://www.vodovod-zadar.hr/obavijesti?page=2",
-   "https://www.vodovod-zadar.hr/obavijesti?page=3",
-   "https://www.vodovod-zadar.hr/obavijesti?page=4",
-   "https://www.vodovod-zadar.hr/obavijesti?page=5",
-   "https://www.vodovod-zadar.hr/obavijesti?page=6",
-   "https://www.vodovod-zadar.hr/obavijesti?page=7",
-   "https://www.vodovod-zadar.hr/obavijesti?page=8",
-   "https://www.vodovod-zadar.hr/voda/povijest"
-  ],
-  "api": [],
-  "next": false,
-  "head": "<!DOCTYPE html>\n<html lang=\"hr\">\n<head>\n<meta http-equiv=\"Content-Type\" content=\"text/html; charset=utf-8\">\n    <meta name=\"google-site-verification\" content=\"5jtBehMGKRH5EYmy3GsBwnYlUyeSnhw1TVc-u8Xh8wM\">\n    \n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1, shrink-to-fit=no\">\n    <!-- Google Fonts -->\n    <link href=\"https://fonts.googleapis.com/css?family=Open+Sans:400,600,700,800%7CUbuntu:400,500,700&amp;subset=latin-ext\" rel=\"stylesheet\">\n    <!-- Font Awesome -->\n    <link rel=\"stylesheet\" href=\"https://use.fontawesome.com/releases/v5.7.2/css/all.css\" integrity=\"sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr\" crossorigin=\"anonymous\">\n    <!-- Bootstrap CSS -->\n    <link rel=\"stylesheet\" href=\"https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css\" integrity=\"sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T\" crossorigin=\"anonymous\">\n    <link rel=\"stylesheet\" href=\"https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.0.47/jquery.fancybox.min.css\">\n    <link rel=\"stylesheet\" href=\"https://www.vodovod-zadar.hr/themes/vodovod/assets/css/style.css?v9\">\n    <link rel=\"stylesheet\" href=\"https://www.vodovod-zadar.hr/themes/vodovod/assets/css/copy.css?v10\">\n    <link rel=\"stylesheet\" href=\"https://www.vodovod-zadar.hr/themes/vodovod/assets/css/izmjene.css?v2.0\">\n    <style>\n        @media only screen and (max-width: 991px) {\n            .news-page .main-content .content.row {\n                padding: 10px 0px 50px !important;\n            }\n        }\n    </style>    \n    <title>Obavijesti | Vodovod d.o.o. Zadar</title>\n        <meta name=\"description\" content=\"Vodovod d.o.o. Zadar, za usluge opskrbe pitkom vodom.\">\n        <!-- Open Graph -->\n    <meta property=\"og:image\" content=\"https://www.vodovod-zadar.hr/themes/vodovod/assets/img/cover.png\">\n    <!--[if IE]><link rel=\"shortcut icon\" href=\"https://www.vodovod-zadar.hr/themes/vodovod/assets/img/favicon.ico\"><![endif]-->\n    <link rel=\"apple-touch-icon\" href=\"https://www.vodovod-zadar.hr/themes/vodovod/assets/img/favicon.png\">\n    <link rel=\"icon\" href=\"https://www.vodovod-zadar.hr/themes/vodovod/assets/img/favicon.png\">\n    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->\n    <!--[if lt IE 9]>\n      <script src=\"https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js\"></script>\n      <script src=\"https://oss.maxcdn.com/respond/1.4.2/respond.min.js\"></script>\n    <![endif]-->\n    <script>\n        var globalPageUrl = 'https://www.vodovod-zadar.hr';\n    </script>\n    <link rel=\"stylesheet\" href=\"https://www.vodovod-zadar.hr/plugins/futuro/weather/assets/vendor/weather-icons/css/weather-icons.min.css\">\n<link rel=\"stylesheet\" href=\"https://www.vodovod-zadar.hr/plugins/futuro/weather/assets/vendor/weather-icons/css/weather-icons-wind.min.css\">\n    \n    <style>\n        :root {\n            /*\n            --purple: #3B3646;\n            --red: #EE4B5A;\n            */\n            --purpl"
- },
- "https://www.vodovod-zadar.hr/robots.txt": {
-  "status": 200,
-  "final": "https://www.vodovod-zadar.hr/robots.txt",
-  "len": 34,
-  "ctype": "text/plain",
-  "alt": [],
-  "links": [],
-  "api": [],
-  "next": false,
-  "head": "User-agent: *\nDisallow: /datoteka/",
-  "body": "User-agent: *\nDisallow: /datoteka/"
- },
- "https://www.vodovod-zadar.hr/feed": {
-  "err": "<HTTPError 404: 'Not Found'>",
+ "https://057info.hr/feed/": {
+  "err": "<HTTPError 403: 'Forbidden'>",
   "hdr": {
-   "Date": "Sat, 31 Oct 2026 14:01:18 GMT",
-   "Server": "Apache",
-   "Cache-Control": "no-cache",
-   "Set-Cookie": "futuro_session=eyJpdiI6IkJhdFNGbURBdWtrRFVwVnJNNjBCR1E9PSIsInZhbHVlIjoiSDFGSkZWQlwvUHRYOFl4bjMzbXFIOXI4dlNIMlwvSnRnN0s2QjhnNmFRRGpBZ29acGx1VjN5UW9aNTVcL24zWDE2SUd4K21GcGZyYjhhWE9Bck5MclFCUnc9PSIsIm1hYyI6ImQyYTE2MDZhMjVjZTc5NzhjZDQ1MTEwZDA1MWQ1MzZkZTVhMDliZDc1MGJmMTJiMGQyNzdkODAwN2VhNzU4MDAifQ%3D%3D; expires=Sat, 31-Oct-2026 16:01:18 GMT; Max-Age=7200; path=/; HttpOnly",
+   "Date": "Sat, 31 Oct 2026 16:15:27 GMT",
+   "Content-Type": "text/html; charset=UTF-8",
+   "Content-Length": "5532",
    "Connection": "close",
-   "Transfer-Encoding": "chunked",
-   "Content-Type": "text/html; charset=UTF-8"
+   "Accept-Ch": "Sec-CH-UA-Bitness, Sec-CH-UA-Arch, Sec-CH-UA-Full-Version, Sec-CH-UA-Mobile, Sec-CH-UA-Model, Sec-CH-UA-Platform-Version, Sec-CH-UA-Full-Version-List, Sec-CH-UA-Platform, Sec-CH-UA, UA-Bitness, UA-Arch, UA-Full-Version, UA-Mobile, UA-Model, UA-Platform-Version, UA-Platform, UA",
+   "Cf-Mitigated": "challenge",
+   "Content-Security-Policy": "default-src 'none'; script-src 'nonce-fqn9JriAD7NxYw0WbRrGCC' 'unsafe-eval' https://challenges.cloudflare.com; script-src-attr 'none'; style-src 'unsafe-inline'; img-src 'self' https://challenges.cloudflare.com; connect-src 'self' https://challenges.cloudflare.com; frame-src 'self' https://challenges.cloudflare.com blob:; child-src 'self' https://challenges.cloudflare.com blob:; worker-src blob:; form-action http: https:; base-uri 'self'",
+   "Server": "cloudflare",
+   "Critical-Ch": "Sec-CH-UA-Bitness, Sec-CH-UA-Arch, Sec-CH-UA-Full-Version, Sec-CH-UA-Mobile, Sec-CH-UA-Model, Sec-CH-UA-Platform-Version, Sec-CH-UA-Full-Version-List, Sec-CH-UA-Platform, Sec-CH-UA, UA-Bitness, UA-Arch, UA-Full-Version, UA-Mobile, UA-Model, UA-Platform-Version, UA-Platform, UA",
+   "Cross-Origin-Embedder-Policy": "require-corp",
+   "Cross-Origin-Opener-Policy": "same-origin",
+   "Cross-Origin-Resource-Policy": "same-origin",
+   "Origin-Agent-Cluster": "?1",
+   "Permissions-Policy": "accelerometer=(),camera=(),clipboard-read=(),clipboard-write=(),geolocation=(),gyroscope=(),hid=(),magnetometer=(),microphone=(),payment=(),publickey-credentials-get=(),screen-wake-lock=(),serial=(),sync-xhr=(),usb=(),xr-spatial-tracking=*",
+   "Referrer-Policy": "same-origin",
+   "Server-Timing": "chlray;desc=\"a533f5665a069512\"",
+   "X-Content-Type-Options": "nosniff",
+   "X-Frame-Options": "SAMEORIGIN",
+   "Speculation-Rules": "\"/cdn-cgi/speculation\"",
+   "Vary": "accept-encoding",
+   "Report-To": "{\"group\":\"cf-nel\",\"max_age\":604800,\"endpoints\":[{\"url\":\"https://a.nel.cloudflare.com/report/v4?s=xzHm1OtOGbpCsI3l8Dyxi8g4RWahTCkBFlbX8cqp1q6%2FzZwvaYNvU288XIOuKvkUHB%2Br%2BFVu3Oy5pch76DwlP%2FR29IBU6q80Pe5syfW0gXANIqghCmrU0YL1tkY%3D\"}]}",
+   "Nel": "{\"report_to\":\"cf-nel\",\"success_fraction\":0.0,\"max_age\":604800}",
+   "CF-RAY": "a533f5665a069512-LAX",
+   "alt-svc": "h3=\":443\"; ma=86400"
   },
-  "body": "<!DOCTYPE html>\n<html lang=\"hr\">\n<head>\n<meta http-equiv=\"Content-Type\" content=\"text/html; charset=utf-8\">\n    <meta name=\"google-site-verification\" content=\"5jtBehMGKRH5EYmy3GsBwnYlUyeSnhw1TVc-u8Xh8wM\">\n    \n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1, shrink-to-fit=no\">\n    <!-- Google Fonts -->\n    <link href=\"https://fonts.googleapis.com/css?family=Open+Sans:400,600"
+  "body": "<!DOCTYPE html><html lang=\"en-US\"><head><title>Just a moment...</title><meta http-equiv=\"Content-Type\" content=\"text/html; charset=UTF-8\"><meta http-equiv=\"X-UA-Compatible\" content=\"IE=Edge\"><meta name=\"robots\" content=\"noindex,nofollow\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><meta http-equiv=\"content-security-policy\" content=\"default-src &#39;none&#39;; script-src &#39"
  },
- "https://www.vodovod-zadar.hr/obavijesti/feed": {
-  "err": "<HTTPError 404: 'Not Found'>",
+ "https://057info.hr/": {
+  "err": "<HTTPError 403: 'Forbidden'>",
   "hdr": {
-   "Date": "Sat, 31 Oct 2026 14:01:18 GMT",
-   "Server": "Apache",
-   "Cache-Control": "no-cache",
-   "Set-Cookie": "futuro_session=eyJpdiI6IndZcUFmZEpWcHhTTmtLRzVFNzNUSHc9PSIsInZhbHVlIjoiRkxqcUs0VDVMc2h4YXZsZG9QXC85TENRMGdwUTJUNXlZRllORjY3VEVMZ1Y2a05RTFwvRTg0Y0REOFZYNHNTYk04Smc2TXo5Qko0aDZVTkpRUzc1NXU0UT09IiwibWFjIjoiNjg4N2YwNzE1ZWY1NWRhNDhiMjFhODU3NzJhMDQxYzIxOWY2MjhmYmFiNmIxZGY2MzYyNjkwODE3Yjk4Nzg4NiJ9; expires=Sat, 31-Oct-2026 16:01:18 GMT; Max-Age=7200; path=/; HttpOnly",
+   "Date": "Sat, 31 Oct 2026 16:15:27 GMT",
+   "Content-Type": "text/html; charset=UTF-8",
+   "Content-Length": "5517",
    "Connection": "close",
-   "Transfer-Encoding": "chunked",
-   "Content-Type": "text/html; charset=UTF-8"
+   "Accept-Ch": "Sec-CH-UA-Bitness, Sec-CH-UA-Arch, Sec-CH-UA-Full-Version, Sec-CH-UA-Mobile, Sec-CH-UA-Model, Sec-CH-UA-Platform-Version, Sec-CH-UA-Full-Version-List, Sec-CH-UA-Platform, Sec-CH-UA, UA-Bitness, UA-Arch, UA-Full-Version, UA-Mobile, UA-Model, UA-Platform-Version, UA-Platform, UA",
+   "Cf-Mitigated": "challenge",
+   "Content-Security-Policy": "default-src 'none'; script-src 'nonce-zNXZzvTnUEhMU6STSSQ8tR' 'unsafe-eval' https://challenges.cloudflare.com; script-src-attr 'none'; style-src 'unsafe-inline'; img-src 'self' https://challenges.cloudflare.com; connect-src 'self' https://challenges.cloudflare.com; frame-src 'self' https://challenges.cloudflare.com blob:; child-src 'self' https://challenges.cloudflare.com blob:; worker-src blob:; form-action http: https:; base-uri 'self'",
+   "Server": "cloudflare",
+   "Critical-Ch": "Sec-CH-UA-Bitness, Sec-CH-UA-Arch, Sec-CH-UA-Full-Version, Sec-CH-UA-Mobile, Sec-CH-UA-Model, Sec-CH-UA-Platform-Version, Sec-CH-UA-Full-Version-List, Sec-CH-UA-Platform, Sec-CH-UA, UA-Bitness, UA-Arch, UA-Full-Version, UA-Mobile, UA-Model, UA-Platform-Version, UA-Platform, UA",
+   "Cross-Origin-Embedder-Policy": "require-corp",
+   "Cross-Origin-Opener-Policy": "same-origin",
+   "Cross-Origin-Resource-Policy": "same-origin",
+   "Origin-Agent-Cluster": "?1",
+   "Permissions-Policy": "accelerometer=(),camera=(),clipboard-read=(),clipboard-write=(),geolocation=(),gyroscope=(),hid=(),magnetometer=(),microphone=(),payment=(),publickey-credentials-get=(),screen-wake-lock=(),serial=(),sync-xhr=(),usb=(),xr-spatial-tracking=*",
+   "Referrer-Policy": "same-origin",
+   "Server-Timing": "chlray;desc=\"a533f566aaadb103\"",
+   "X-Content-Type-Options": "nosniff",
+   "X-Frame-Options": "SAMEORIGIN",
+   "Speculation-Rules": "\"/cdn-cgi/speculation\"",
+   "Vary": "accept-encoding",
+   "Report-To": "{\"group\":\"cf-nel\",\"max_age\":604800,\"endpoints\":[{\"url\":\"https://a.nel.cloudflare.com/report/v4?s=XZ5EF5qYvC96SNSZFi2kg%2FLYUplLsAPtnjAbFjya2aGF3K9cRaYD5DKx2uhaHEdRhxcD3doQDBJ9%2FQrPORtUTbmWFazFtXdRPacr4uC8RcWZGJX5oUo0Wc%2BqFiw%3D\"}]}",
+   "Nel": "{\"report_to\":\"cf-nel\",\"success_fraction\":0.0,\"max_age\":604800}",
+   "CF-RAY": "a533f566aaadb103-LAX",
+   "alt-svc": "h3=\":443\"; ma=86400"
   },
-  "body": "<!DOCTYPE html>\n<html lang=\"hr\">\n<head>\n<meta http-equiv=\"Content-Type\" content=\"text/html; charset=utf-8\">\n    <meta name=\"google-site-verification\" content=\"5jtBehMGKRH5EYmy3GsBwnYlUyeSnhw1TVc-u8Xh8wM\">\n    \n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1, shrink-to-fit=no\">\n    <!-- Google Fonts -->\n    <link href=\"https://fonts.googleapis.com/css?family=Open+Sans:400,600"
+  "body": "<!DOCTYPE html><html lang=\"en-US\"><head><title>Just a moment...</title><meta http-equiv=\"Content-Type\" content=\"text/html; charset=UTF-8\"><meta http-equiv=\"X-UA-Compatible\" content=\"IE=Edge\"><meta name=\"robots\" content=\"noindex,nofollow\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><meta http-equiv=\"content-security-policy\" content=\"default-src &#39;none&#39;; script-src &#39"
+ },
+ "https://www.057info.hr/feed/": {
+  "err": "<HTTPError 403: 'Forbidden'>",
+  "hdr": {
+   "Date": "Sat, 31 Oct 2026 16:15:28 GMT",
+   "Content-Type": "text/html; charset=UTF-8",
+   "Content-Length": "5536",
+   "Connection": "close",
+   "Accept-Ch": "Sec-CH-UA-Bitness, Sec-CH-UA-Arch, Sec-CH-UA-Full-Version, Sec-CH-UA-Mobile, Sec-CH-UA-Model, Sec-CH-UA-Platform-Version, Sec-CH-UA-Full-Version-List, Sec-CH-UA-Platform, Sec-CH-UA, UA-Bitness, UA-Arch, UA-Full-Version, UA-Mobile, UA-Model, UA-Platform-Version, UA-Platform, UA",
+   "Cf-Mitigated": "challenge",
+   "Content-Security-Policy": "default-src 'none'; script-src 'nonce-s7bO2kMnpjhwHZyQy0o6Qy' 'unsafe-eval' https://challenges.cloudflare.com; script-src-attr 'none'; style-src 'unsafe-inline'; img-src 'self' https://challenges.cloudflare.com; connect-src 'self' https://challenges.cloudflare.com; frame-src 'self' https://challenges.cloudflare.com blob:; child-src 'self' https://challenges.cloudflare.com blob:; worker-src blob:; form-action http: https:; base-uri 'self'",
+   "Server": "cloudflare",
+   "Critical-Ch": "Sec-CH-UA-Bitness, Sec-CH-UA-Arch, Sec-CH-UA-Full-Version, Sec-CH-UA-Mobile, Sec-CH-UA-Model, Sec-CH-UA-Platform-Version, Sec-CH-UA-Full-Version-List, Sec-CH-UA-Platform, Sec-CH-UA, UA-Bitness, UA-Arch, UA-Full-Version, UA-Mobile, UA-Model, UA-Platform-Version, UA-Platform, UA",
+   "Cross-Origin-Embedder-Policy": "require-corp",
+   "Cross-Origin-Opener-Policy": "same-origin",
+   "Cross-Origin-Resource-Policy": "same-origin",
+   "Origin-Agent-Cluster": "?1",
+   "Permissions-Policy": "accelerometer=(),camera=(),clipboard-read=(),clipboard-write=(),geolocation=(),gyroscope=(),hid=(),magnetometer=(),microphone=(),payment=(),publickey-credentials-get=(),screen-wake-lock=(),serial=(),sync-xhr=(),usb=(),xr-spatial-tracking=*",
+   "Referrer-Policy": "same-origin",
+   "Server-Timing": "chlray;desc=\"a533f56a1867581e\"",
+   "X-Content-Type-Options": "nosniff",
+   "X-Frame-Options": "SAMEORIGIN",
+   "Speculation-Rules": "\"/cdn-cgi/speculation\"",
+   "Vary": "accept-encoding",
+   "Report-To": "{\"group\":\"cf-nel\",\"max_age\":604800,\"endpoints\":[{\"url\":\"https://a.nel.cloudflare.com/report/v4?s=1EOcmOrNKIdxYuIf81fnZa0foCFJ7ZEyAU30zrN%2B0Rw4LjEbpAnyBgrHf6bx%2FZp%2FLm18k6CR76SUSLut87V9NIK9tY7cZpRdGid7aaHpQb5bzjzv%2B9iL38jeHWShdCZs\"}]}",
+   "Nel": "{\"report_to\":\"cf-nel\",\"success_fraction\":0.0,\"max_age\":604800}",
+   "CF-RAY": "a533f56a1867581e-LAX",
+   "alt-svc": "h3=\":443\"; ma=86400"
+  },
+  "body": "<!DOCTYPE html><html lang=\"en-US\"><head><title>Just a moment...</title><meta http-equiv=\"Content-Type\" content=\"text/html; charset=UTF-8\"><meta http-equiv=\"X-UA-Compatible\" content=\"IE=Edge\"><meta name=\"robots\" content=\"noindex,nofollow\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><meta http-equiv=\"content-security-policy\" content=\"default-src &#39;none&#39;; script-src &#39"
+ },
+ "https://057info.hr/rss": {
+  "err": "<HTTPError 403: 'Forbidden'>",
+  "hdr": {
+   "Date": "Sat, 31 Oct 2026 16:15:28 GMT",
+   "Content-Type": "text/html; charset=UTF-8",
+   "Content-Length": "5526",
+   "Connection": "close",
+   "Accept-Ch": "Sec-CH-UA-Bitness, Sec-CH-UA-Arch, Sec-CH-UA-Full-Version, Sec-CH-UA-Mobile, Sec-CH-UA-Model, Sec-CH-UA-Platform-Version, Sec-CH-UA-Full-Version-List, Sec-CH-UA-Platform, Sec-CH-UA, UA-Bitness, UA-Arch, UA-Full-Version, UA-Mobile, UA-Model, UA-Platform-Version, UA-Platform, UA",
+   "Cf-Mitigated": "challenge",
+   "Content-Security-Policy": "default-src 'none'; script-src 'nonce-Zn6sXJdkqLBCUlUVeb6Y94' 'unsafe-eval' https://challenges.cloudflare.com; script-src-attr 'none'; style-src 'unsafe-inline'; img-src 'self' https://challenges.cloudflare.com; connect-src 'self' https://challenges.cloudflare.com; frame-src 'self' https://challenges.cloudflare.com blob:; child-src 'self' https://challenges.cloudflare.com blob:; worker-src blob:; form-action http: https:; base-uri 'self'",
+   "Server": "cloudflare",
+   "Critical-Ch": "Sec-CH-UA-Bitness, Sec-CH-UA-Arch, Sec-CH-UA-Full-Version, Sec-CH-UA-Mobile, Sec-CH-UA-Model, Sec-CH-UA-Platform-Version, Sec-CH-UA-Full-Version-List, Sec-CH-UA-Platform, Sec-CH-UA, UA-Bitness, UA-Arch, UA-Full-Version, UA-Mobile, UA-Model, UA-Platform-Version, UA-Platform, UA",
+   "Cross-Origin-Embedder-Policy": "require-corp",
+   "Cross-Origin-Opener-Policy": "same-origin",
+   "Cross-Origin-Resource-Policy": "same-origin",
+   "Origin-Agent-Cluster": "?1",
+   "Permissions-Policy": "accelerometer=(),camera=(),clipboard-read=(),clipboard-write=(),geolocation=(),gyroscope=(),hid=(),magnetometer=(),microphone=(),payment=(),publickey-credentials-get=(),screen-wake-lock=(),serial=(),sync-xhr=(),usb=(),xr-spatial-tracking=*",
+   "Referrer-Policy": "same-origin",
+   "Server-Timing": "chlray;desc=\"a533f56a69e313e6\"",
+   "X-Content-Type-Options": "nosniff",
+   "X-Frame-Options": "SAMEORIGIN",
+   "Speculation-Rules": "\"/cdn-cgi/speculation\"",
+   "Vary": "accept-encoding",
+   "Report-To": "{\"group\":\"cf-nel\",\"max_age\":604800,\"endpoints\":[{\"url\":\"https://a.nel.cloudflare.com/report/v4?s=pTOtcXLvmc8V8hKVRx16UoO8FOo3cNBiRvK64intiMZtvBVIKghKhRMtQMPglWk1gpW28Y1eW2j0h8S%2FQuxW%2BbvRvXbJrxemHZhiAIYPmfx%2F95yLIN0YlohZ4w0%3D\"}]}",
+   "Nel": "{\"report_to\":\"cf-nel\",\"success_fraction\":0.0,\"max_age\":604800}",
+   "CF-RAY": "a533f56a69e313e6-LAX",
+   "alt-svc": "h3=\":443\"; ma=86400"
+  },
+  "body": "<!DOCTYPE html><html lang=\"en-US\"><head><title>Just a moment...</title><meta http-equiv=\"Content-Type\" content=\"text/html; charset=UTF-8\"><meta http-equiv=\"X-UA-Compatible\" content=\"IE=Edge\"><meta name=\"robots\" content=\"noindex,nofollow\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><meta http-equiv=\"content-security-policy\" content=\"default-src &#39;none&#39;; script-src &#39"
+ },
+ "https://noviradio.hr/feed/": {
+  "err": "URLError(TimeoutError('timed out'))",
+  "hdr": {},
+  "body": ""
+ },
+ "https://www.noviradio.hr/": {
+  "err": "URLError(TimeoutError('timed out'))",
+  "hdr": {},
+  "body": ""
+ },
+ "http://noviradio.hr/": {
+  "err": "URLError(TimeoutError('timed out'))",
+  "hdr": {},
+  "body": ""
+ },
+ "https://noviradio.hr/robots.txt": {
+  "err": "URLError(TimeoutError('timed out'))",
+  "hdr": {},
+  "body": ""
  }
 }
