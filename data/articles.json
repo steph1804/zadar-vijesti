@@ -2900,6 +2900,23 @@
   "face_img": "https://zadarska-policija.gov.hr/UserDocsImages//2021/MOTOR%20POLICIJA.jpg"
  },
  {
+  "title": "Međugeneracijsko povezivanje: “Kad ste zadnji put odveli baku na pizzu?\"",
+  "link": "https://www.unizd.hr/obavijesti/view/medugeneracijsko-povezivanje-kad-ste-zadnji-put-odveli-baku-na-pizzu",
+  "date": "2026-10-30T11:00:00+00:00",
+  "summary": "U okviru projekta „Volontiramo četvrtkom – UNIZD volontira“, koji organiziraju Sveučilište u Zadru i Grad Zadar, prof. dr. sc. Mira Klarin s...",
+  "image": "https://www.unizd.hr/Portals/0/EasyDNNNews/61340/images/volonteri-2-320-256-c-L-97.jpg",
+  "source": "Sveučilište u Zadru",
+  "topics": [],
+  "source_url": "https://www.unizd.hr/obavijesti/novosti",
+  "face": [
+   29.9,
+   40.7,
+   11.7,
+   92.7
+  ],
+  "face_img": "https://www.unizd.hr/Portals/0/EasyDNNNews/61340/images/volonteri-2-320-256-c-L-97.jpg"
+ },
+ {
   "title": "Koliki su troškovi, a koliki prihodi jednog maslinara: zašto je porez na preradu tako visok, hoće li cijene ulja zaista poskupjeti 15 posto?",
   "link": "https://slobodnadalmacija.hr/maslina/maslinarstvo/koliki-su-troskovi-a-koliki-prihodi-jednog-maslinara-zasto-je-porez-na-preradu-tako-visok-hoce-li-cijene-ulja-zaista-poskupjeti-15-posto-1587528",
   "date": "2026-10-30T10:55:51+00:00",
@@ -5004,21 +5021,5 @@
   "source_url": "https://023.hr/",
   "face": null,
   "face_img": "https://023.hr/wp-content/uploads/2026/10/20261029131057_188872.avif"
- },
- {
-  "title": "Grad Zadar i otok Ugljan 2027. postaju domaćini velikog međunarodnog triatlonskog događaja",
-  "link": "https://www.dalmacijanews.hr/clanak/grad-zadar-i-otok-ugljan-2027-postaju-domacini-velikog-medunarodnog-triatlonskog-dogadaja/",
-  "date": "2026-10-29T13:18:48+00:00",
-  "summary": "Vodeći svjetski off-road triatlon brend, XTERRA, dolazi u Zadarsku županiju i Grad Zadar. Od 22. do 24. listopada 2027. Grad Zadar i otok Ugljan ugostit će XTERRA Croatia Zadar – Ugljan Island 2027, trodnevni sportski događaj koji će na jedinstven način povezati grad, otok i more.",
-  "image": "https://www.dalmacijanews.hr/wp-content/uploads/2026/10/4_Predrag_Vuckovic_XTERRA_0089-1024x683.jpg",
-  "source": "Dalmacija News",
-  "topics": [
-   "Zadar",
-   "Županija",
-   "Otoci"
-  ],
-  "source_url": "https://www.dalmacijanews.hr/",
-  "face": null,
-  "face_img": "https://www.dalmacijanews.hr/wp-content/uploads/2026/10/4_Predrag_Vuckovic_XTERRA_0089-1024x683.jpg"
  }
 ]
