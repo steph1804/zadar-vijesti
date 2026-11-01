@@ -5,12 +5,6 @@
    "link": "https://www.jadrolinija.hr/news-single/linije-u-prekidu-02112026",
    "date": "2026-11-01T11:58:00+00:00",
    "summary": "Red plovidbe za ponedjeljak, 02.11.2026."
-  },
-  {
-   "title": "Linije u prekidu, 01.11.2026.",
-   "link": "https://www.jadrolinija.hr/news-single/linije-u-prekidu-01112026",
-   "date": "2026-10-31T15:54:00+00:00",
-   "summary": "Red plovidbe u nedjelju 01.11.2026"
   }
  ],
  "buses": [
@@ -41,78 +35,6 @@
   }
  ],
  "flights": [
-  {
-   "dir": "dolazak",
-   "flight": "OU634",
-   "airline": "Croatia Airlines",
-   "city": "Zagreb",
-   "via": "Pula",
-   "time": "2026-11-01T15:50:00",
-   "est": "2026-11-01T15:57:00",
-   "act": "2026-11-01T16:00:00",
-   "status": "Landed",
-   "gate": ""
-  },
-  {
-   "dir": "odlazak",
-   "flight": "OU634",
-   "airline": "Croatia Airlines",
-   "city": "Zagreb",
-   "via": "",
-   "time": "2026-11-01T16:20:00",
-   "est": "2026-11-01T16:35:00",
-   "act": "2026-11-01T16:27:00",
-   "status": "Departed",
-   "gate": "05"
-  },
-  {
-   "dir": "dolazak",
-   "flight": "FR1963",
-   "airline": "Ryanair",
-   "city": "Memmingen",
-   "via": "",
-   "time": "2026-11-01T18:20:00",
-   "est": "2026-11-01T18:10:00",
-   "act": "2026-11-01T18:09:00",
-   "status": "Landed",
-   "gate": ""
-  },
-  {
-   "dir": "odlazak",
-   "flight": "FR1962",
-   "airline": "Ryanair",
-   "city": "Memmingen",
-   "via": "",
-   "time": "2026-11-01T18:45:00",
-   "est": "2026-11-01T18:45:00",
-   "act": "2026-11-01T18:38:00",
-   "status": "Departed",
-   "gate": "05"
-  },
-  {
-   "dir": "odlazak",
-   "flight": "ENT404",
-   "airline": "Enter Air",
-   "city": "London Gatwick",
-   "via": "",
-   "time": "2026-11-01T18:50:00",
-   "est": "2026-11-01T18:50:00",
-   "act": "2026-11-01T18:44:21",
-   "status": "Departed",
-   "gate": "10"
-  },
-  {
-   "dir": "dolazak",
-   "flight": "OU675",
-   "airline": "Croatia Airlines",
-   "city": "Zagreb",
-   "via": "Pula",
-   "time": "2026-11-01T23:00:00",
-   "est": "2026-11-01T23:18:00",
-   "act": "2026-11-01T23:19:00",
-   "status": "Landed",
-   "gate": ""
-  },
   {
    "dir": "odlazak",
    "flight": "OU4674",
@@ -148,6 +70,30 @@
    "act": "",
    "status": "",
    "gate": ""
+  },
+  {
+   "dir": "dolazak",
+   "flight": "OU674",
+   "airline": "Croatia Airlines",
+   "city": "Zagreb",
+   "via": "",
+   "time": "2026-11-03T14:55:00",
+   "est": "2026-11-03T14:55:00",
+   "act": "",
+   "status": "",
+   "gate": ""
+  },
+  {
+   "dir": "odlazak",
+   "flight": "OU674",
+   "airline": "Croatia Airlines",
+   "city": "Zagreb",
+   "via": "Pula",
+   "time": "2026-11-03T15:20:00",
+   "est": "2026-11-03T15:20:00",
+   "act": "",
+   "status": "",
+   "gate": ""
   }
  ],
  "power": [
@@ -173,6 +119,30 @@
    "street": "Cijelo mjesto",
    "note": "",
    "time": "08:30 - 14:00",
+   "unplanned": false
+  },
+  {
+   "day": "03.11.2026",
+   "place": "Medviđa",
+   "street": "Predio Mršići Gornji",
+   "note": "",
+   "time": "08:30 - 15:00",
+   "unplanned": false
+  },
+  {
+   "day": "03.11.2026",
+   "place": "Vrsi",
+   "street": "Put Gospe od Zečeva",
+   "note": "Povremeni prekidi",
+   "time": "08:00 - 14:00",
+   "unplanned": false
+  },
+  {
+   "day": "03.11.2026",
+   "place": "Žegar",
+   "street": "Predio Mirile",
+   "note": "",
+   "time": "08:30 - 15:00",
    "unplanned": false
   }
  ],
@@ -246,7 +216,7 @@
  ],
  "videos": {
   "v": 2,
-  "fetched": "2026-11-01T22:03:19.643237+00:00",
+  "fetched": "2026-11-01T23:01:33.034203+00:00",
   "items": [
    {
     "id": "4cToWBbnrr8",
