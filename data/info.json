@@ -7,6 +7,33 @@
    "summary": "Red plovidbe u nedjelju 01.11.2026"
   }
  ],
+ "buses": [
+  {
+   "title": "Obavijest o linijama koje prometuju Ulicom Put Nina",
+   "link": "https://liburnija-zadar.hr/obavijest-o-linijama-koje-prometuju-ulicom-put-nina/",
+   "date": "2026-10-28T10:42:41+00:00"
+  },
+  {
+   "title": "Obavijest Bibinje (marina)",
+   "link": "https://liburnija-zadar.hr/obavijest-bibinje-marina/",
+   "date": "2026-10-28T10:40:55+00:00"
+  },
+  {
+   "title": "Obavijest za blagdan Svih svetih",
+   "link": "https://liburnija-zadar.hr/obavijest-za-blagdan-svih-svetih/",
+   "date": "2026-10-27T07:40:38+00:00"
+  },
+  {
+   "title": "Obavijest za linije u smjeru Gradskog groblja i Bibinja",
+   "link": "https://liburnija-zadar.hr/obavijest-za-linije-u-smjeru-gradskog-groblja-i-bibinja/",
+   "date": "2026-10-13T09:31:40+00:00"
+  },
+  {
+   "title": "Obavijest za studente",
+   "link": "https://liburnija-zadar.hr/obavijest-za-studente-2/",
+   "date": "2026-10-09T09:42:55+00:00"
+  }
+ ],
  "flights": [
   {
    "dir": "dolazak",
