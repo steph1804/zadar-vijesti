@@ -1,6 +1,6 @@
 import json, re, urllib.request
 UA = "Mozilla/5.0 (compatible; LokalniAgregator/1.0; +https://idassa.click)"
-urls = ["https://www.bolnica-zadar.hr/", "https://www.bolnica-zadar.hr/feed/", "https://www.bolnica-zadar.hr/obavijesti/", "https://www.bolnica-zadar.hr/novosti/", "https://www.bolnica-zadar.hr/robots.txt", "https://bolnica-zadar.hr/category/obavijesti/feed/"]
+urls = ["https://www.zadar-airport.hr/pregled-letova/?sekcija=putnici", "https://www.zadar-airport.hr/wp-content/themes/hello-elementor-child/current-flights.json", "https://www.zadar-airport.hr/wp-content/themes/hello-elementor-child/flights.json", "https://www.zadar-airport.hr/wp-content/themes/hello-elementor-child/weekly-flights.json"]
 out = {}
 for u in urls:
     try:
@@ -8,7 +8,7 @@ for u in urls:
         b = r.read().decode("utf-8", "replace")
         out[u] = {"status": r.status, "final": r.geturl(), "len": len(b), "ctype": r.headers.get("Content-Type"),
                   "alt": re.findall(r'<link[^>]+(?:rss|atom)[^>]*>', b)[:5],
-                  "links": sorted(set(re.findall(r'href="([^"]*(?:radio-zadar|novost|vijest|feed|rss)[^"]*)"', b, re.I)))[:80], "api": sorted(set(re.findall(r'https?://[a-z0-9.-]*hrt\\.hr/[^"\\s<>]*(?:api|json|graphql|feed)[^"\\s<>]*', b)))[:20], "next": "__NEXT_DATA__" in b,
+                  "links": sorted(set(re.findall(r'[\w/:.-]*(?:\.json|admin-ajax|wp-json)[^"\' <>]*', b)))[:80], "api": sorted(set(re.findall(r'https?://[a-z0-9.-]*hrt\\.hr/[^"\\s<>]*(?:api|json|graphql|feed)[^"\\s<>]*', b)))[:20], "next": "__NEXT_DATA__" in b,
                   "head": b[:300], "items": len(re.findall(r"<item[ >]", b)), "chan": (re.findall(r'"externalId":"(UC[\w-]{22})"', b) or re.findall(r'"channelId":"(UC[\w-]{22})"', b) or [""])[0], "title": (re.findall(r"<title>(.*?)</title>", b, re.S) or [""])[0][:80], "osm": sorted(set(re.findall(r'href="([^"]*(?:osmrt|ukop|pogreb|sprovod)[^"]*)"', b, re.I)))[:15]}
         open("probe/page%d.html" % urls.index(u), "w").write(b)
         if "robots" in u: out[u]["body"] = b[:3000]
