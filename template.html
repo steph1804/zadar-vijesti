@@ -86,8 +86,24 @@
   .mast::after { content: ""; position: absolute; inset: auto 0 0 0; height: 70px; opacity: .14; pointer-events: none;
     background: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 1200 70' preserveAspectRatio='none'%3E%3Cpath d='M0 40 C150 10 300 70 450 40 S750 10 900 40 1050 70 1200 40 V70 H0Z' fill='%23fff'/%3E%3Cpath d='M0 55 C200 30 350 75 600 52 S1000 30 1200 55 V70 H0Z' fill='%23fff'/%3E%3C/svg%3E") bottom/100% 100% no-repeat; }
   .mast .wrap { position: relative; z-index: 1; padding-top: 26px; padding-bottom: 26px; }
+  /* Silueta Zadra (sv. Donat, zvonik sv. Stošije, bedemi) i sunce na zalasku, iza naslova */
+  .sky { position: absolute; right: max(0px, calc((100vw - 1240px) / 2)); bottom: 0; width: min(500px, 52vw); height: auto;
+         pointer-events: none; z-index: 0; }
+  .sky .sil { fill: #fff; opacity: .13; }
+  .sky .sun { fill: #ff8a3d; opacity: .45; }
+  .sky .glow { fill: #ffb27a; opacity: .18; }
+  .eyebrow { display: inline-flex; align-items: center; gap: 8px; margin: 0 0 10px; padding: 5px 12px 5px 10px; border-radius: 999px;
+             background: rgba(255,255,255,.12); border: 1px solid rgba(255,255,255,.2); font-size: .74rem; font-weight: 700;
+             letter-spacing: .1em; text-transform: uppercase; color: rgba(255,255,255,.92); }
+  .eyebrow i { width: 8px; height: 8px; border-radius: 50%; background: #3ddc84; box-shadow: 0 0 0 0 rgba(61,220,132,.6);
+               animation: live 2s infinite; }
+  @keyframes live { 70% { box-shadow: 0 0 0 8px rgba(61,220,132,0); } 100% { box-shadow: 0 0 0 0 rgba(61,220,132,0); } }
+  @media (prefers-reduced-motion: reduce) { .eyebrow i { animation: none; } }
+  .intro h1 .hl { background: linear-gradient(90deg, #ffb27a, #ff6a3d); -webkit-background-clip: text; background-clip: text;
+                  color: transparent; }
+  @media (max-width: 640px) { .sky { width: 96vw; opacity: .7; } .sky .sun, .sky .glow { display: none; } .eyebrow { font-size: .64rem; } }
   .intro { display: flex; flex-wrap: wrap; align-items: end; justify-content: space-between; gap: 10px 20px; }
-  .intro h1 { margin: 0; font-size: clamp(1.8rem, 4.6vw, 3rem); letter-spacing: -.04em; line-height: 1.05; font-weight: 800; }
+  .intro h1 { margin: 0; font-size: clamp(2rem, 5.2vw, 3.4rem); letter-spacing: -.04em; line-height: 1.05; font-weight: 800; }
   .intro p { margin: 6px 0 0; color: rgba(255,255,255,.8); font-size: .92rem; }
   .stats { display: flex; gap: 10px; flex-wrap: wrap; }
   .stat { background: rgba(255,255,255,.13); border: 1px solid rgba(255,255,255,.2); border-radius: 14px; padding: 8px 14px;
@@ -351,8 +367,11 @@
     <button class="icon-btn" id="theme" type="button" aria-label="Svijetli ili tamni način"></button>
   </div>
 </div>
-<header class="mast"><div class="wrap">
-  <div class="intro"><div><h1 id="h1">{{H1}}</h1><p id="sub"></p></div><div class="stats" id="stats"></div></div>
+<header class="mast"><svg class="sky" viewBox="0 0 640 170" aria-hidden="true">
+    <circle class="glow" cx="70" cy="104" r="46"/><circle class="sun" cx="70" cy="104" r="22"/>
+    <path class="sil" fill-rule="evenodd" d="M0 170V140h40v-12h10v-8h8v8h10v12h22V96h8V84h14v12h8v44h18V112c0-12 20-22 46-22s46 10 46 22v28h6V84h10V60l14-10 14 10v24h10v56h10V36h8V20h6V6l9-6 9 6v14h6v16h8v104h10V104l36-24 36 24v36h20v-14h10v8h10v-8h10v8h10v-8h10v8h10v-8h10v14h40v-6h12v6h40v-10c10-6 22-6 32 0v10h28v30Z M366 112a12 12 0 1 0 24 0a12 12 0 1 0-24 0Z M302 60h8v14h-8Z M318 60h8v14h-8Z M302 92h8v14h-8Z M318 92h8v14h-8Z M188 100h8v18h-8Z M164 104h8v14h-8Z M212 104h8v14h-8Z"/>
+  </svg><div class="wrap">
+  <div class="intro"><div><p class="eyebrow"><i></i>Uživo · svakih 15 minuta</p><h1 id="h1">{{H1}}</h1><p id="sub"></p></div><div class="stats" id="stats"></div></div>
   <nav class="nav" id="nav" aria-label="Rubrike"></nav>
 </div></header>
 <div class="ticker" id="ticker" hidden><div class="wrap"><span class="lbl">Upravo</span><div class="tk"><div class="tr" id="tr"></div></div></div></div>
@@ -455,7 +474,7 @@ function setTopic(t, push) {
   state.topic = t; state.shown = STEP;
   if (push) history.pushState({ topic: t }, "", new URL(pageUrl(t), location.href).pathname);
   document.title = t === "Sve" ? "idassa.click – vijesti iz Zadra" : `${t} – idassa.click`;
-  document.getElementById("h1").textContent = HEADINGS[t] || t;
+  setH1(HEADINGS[t] || t);
   render();
   window.scrollTo({ top: 0 });
 }
@@ -600,7 +619,16 @@ function videoStrip() {
 }
 
 // Traka "Upravo" i brojke u zaglavlju
+// naslov s naglaskom na mjestu (Zadra, županije, otoka...)
+function setH1(text) {
+  const h1 = document.getElementById("h1"), m = text.match(/^(.*?)(Zadra|županije|otoka|sport)(.*)$/i);
+  h1.textContent = "";
+  if (!m) { h1.textContent = text; return; }
+  h1.append(m[1], el("span", { class: "hl" }, m[2]), m[3]);
+}
+
 function masthead() {
+  setH1(document.getElementById("h1").textContent);
   const now = Date.now(), day = 24 * 3600 * 1000;
   const today = DATA.articles.filter(a => now - new Date(a.date) < day).length;
   const sources = new Set(DATA.articles.flatMap(a => [a.source, ...(a.also || []).map(x => x.source)])).size;
