@@ -1,5 +1,24 @@
 [
  {
+  "title": "Novi direktor Vodovoda Zadar preuzima dužnost",
+  "link": "https://ezadar.net.hr/info/3589669/novi-direktor-vodovoda-zadar-preuzima-duznost/",
+  "date": "2026-11-01T08:30:00+00:00",
+  "summary": "Ivan Bašić danas je preuzeo dužnost direktora Vodovoda d.o.o. Zadar, a njegov zamjenik postao je Luka Šare",
+  "image": "https://cdn-ezadar.net.hr/wp-content/uploads/1000101866.webp",
+  "source": "eZadar",
+  "topics": [
+   "Zadar"
+  ],
+  "source_url": "https://ezadar.net.hr/",
+  "face": [
+   27.4,
+   73.5,
+   12.1,
+   76.2
+  ],
+  "face_img": "https://cdn-ezadar.net.hr/wp-content/uploads/1000101866.webp"
+ },
+ {
   "title": "Cijela Plovanija sutra bez vode",
   "link": "https://radio.hrt.hr/radio-zadar/obavijesti/cijela-plovanija-sutra-bez-vode-12987193",
   "date": "2026-11-01T08:24:07+00:00",
@@ -33,14 +52,41 @@
   "link": "https://sport023.hr/2026/11/01/zlatni-luka-buovac-taktika-donio-novo-priznanje-boksackom-klubu-zadar/",
   "date": "2026-11-01T08:05:44+00:00",
   "summary": "Sjajne vijesti stižu iz Nove Gradiške, gdje je na Memorijalnom turniru „Ivan Andrašić” mladi boksač Boksačkog kluba Zadar Luka Buovac... Objava Zlatni Luka Buovac Taktika donio novo priznanje Boksačkom klubu Zadar! pojavila se prvi puta na Sport023.",
-  "image": null,
+  "image": "https://sport023.hr/wp-content/uploads/2026/11/FB_IMG_1793520031164-scaled.jpg",
   "source": "Sport023",
   "source_topic": "Sport",
   "topics": [
    "Zadar",
    "Sport"
   ],
-  "source_url": "https://sport023.hr/"
+  "source_url": "https://sport023.hr/",
+  "face": [
+   5.8,
+   48.7,
+   17.0,
+   74.4
+  ],
+  "face_img": "https://sport023.hr/wp-content/uploads/2026/11/FB_IMG_1793520031164-scaled.jpg"
+ },
+ {
+  "title": "Kraj pobjedničkog niza: Jazine pale u napetoj završnici",
+  "link": "https://ezadar.net.hr/sport/3589668/kraj-pobjednickog-niza-jazine-pale-u-napetoj-zavrsnici/",
+  "date": "2026-11-01T08:00:00+00:00",
+  "summary": "Jazine Arbanasi poražene su na gostovanju u 4. kolu Prve muške lige. Domaća Marsonia slavila je s rezultatom 87:84",
+  "image": "https://cdn-ezadar.net.hr/wp-content/uploads/851353992_1791947605976209_6032980607136920718_n-e8b37d1d40f75580c21a9fa3-1052x696.jpg",
+  "source": "eZadar",
+  "topics": [
+   "Zadar",
+   "Sport"
+  ],
+  "source_url": "https://ezadar.net.hr/",
+  "face": [
+   10.5,
+   52.8,
+   0.5,
+   55.9
+  ],
+  "face_img": "https://cdn-ezadar.net.hr/wp-content/uploads/851353992_1791947605976209_6032980607136920718_n-e8b37d1d40f75580c21a9fa3-1052x696.jpg"
  },
  {
   "title": "Gauni Biograd pobjedom izborili plasman među 16 najboljih u Kupu!",
@@ -5016,34 +5062,6 @@
   "source_url": "https://ezadar.net.hr/",
   "face": null,
   "face_img": "https://cdn-ezadar.net.hr/wp-content/uploads/PXL_011125_141150716-1052x696.jpg"
- },
- {
-  "title": "Napad na Nizozemce kod zadarske zračne luke: Uhićena još trojica, sumnja se na sačekušu",
-  "link": "https://n1info.hr/crna-kronika/napad-na-nizozemce-kod-zadarske-zracne-luke-uhicena-jos-trojica-sumnja-se-na-sacekusu/",
-  "date": "2026-10-29T17:45:47+00:00",
-  "summary": "U Zadru su uhićena još trojica hrvatskih državljana koje policija dovodi u vezu s napadom na nizozemske državljane u blizini zadarske zračne luke 13.",
-  "image": "https://n1info.hr/media/images/2026/10/29/1793295933_PXL_200324_111940295.width-1200.jpg",
-  "source": "N1",
-  "topics": [
-   "Zadar"
-  ],
-  "source_url": "https://n1info.hr/",
-  "face": null,
-  "face_img": "https://n1info.hr/media/images/2026/10/29/1793295933_PXL_200324_111940295.width-1200.jpg"
- },
- {
-  "title": "Uhićena još trojica zbog napada na navijače Ajaxa kod Zadra; sve upućuje na sačekušu, policijska istraga se nastavlja",
-  "link": "https://slobodnadalmacija.hr/dalmacija/zadar/uhicena-jos-trojica-zbog-napada-na-navijace-ajaxa-kod-zadra-sve-upucuje-na-sacekusu-policijska-istraga-se-nastavlja-1587416",
-  "date": "2026-10-29T17:45:00+00:00",
-  "summary": "I dva tjedna nakon nogometne utakmice između Hajduka i Ajaxa policijska istraga napada na nizozemske državljane se nastavlja. Na zadarskom području uhićena su još trojica punoljetnih hrvatskih državljana koje se povezuje s incidentom koji se dogodio 13. listopada, oko 20 sati, u blizini Zračne luke...",
-  "image": "https://static.slobodnadalmacija.hr/images/slike/2026/10/29/32758732.jpg",
-  "source": "Slobodna Dalmacija/Zadar",
-  "topics": [
-   "Zadar"
-  ],
-  "source_url": "https://slobodnadalmacija.hr/dalmacija/zadar",
-  "face": null,
-  "face_img": "https://static.slobodnadalmacija.hr/images/slike/2026/10/29/32758732.jpg"
  },
  {
   "title": "Grad Zadar i otok Ugljan 2027. postaju domaćini velikog međunarodnog triatlonskog događaja",
