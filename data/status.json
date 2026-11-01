@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-01T16:30:01.380072+00:00",
+ "updated": "2026-11-01T16:30:59.887188+00:00",
  "sources": [
   {
    "name": "Antena Zadar",
@@ -229,13 +229,10 @@
   },
   {
    "name": "Sportklub",
-   "count": 0,
-   "ok": false,
+   "count": 30,
+   "ok": true,
    "feed": null,
-   "errors": [
-    "https://sportklub.hr/feed/: HTTP Error 503: Service Unavailable",
-    "https://sportklub.hr/?s=zadar&feed=rss2: HTTP Error 503: Service Unavailable"
-   ]
+   "errors": []
   },
   {
    "name": "Dalmacija News",
