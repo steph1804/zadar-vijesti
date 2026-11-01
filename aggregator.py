@@ -586,7 +586,8 @@ def finish_items(src, items, errors):
     if src.get("link_contains") or src.get("categories"):
         # Članak iz druge rubrike (sport, kultura...) ulazi ako Zadar ili mjesto iz
         # županije spominje u naslovu ili uvodu, kao kod nacionalnih portala.
-        items = [i for i in items if wanted(src, i) or is_about_zadar(i)]
+        # "only_categories": bez te iznimke (npr. Bolnica: samo Vijesti, bez natječaja i javne nabave)
+        items = [i for i in items if wanted(src, i) or (not src.get("only_categories") and is_about_zadar(i))]
     if src.get("scope") == "national":
         items = [i for i in items if is_about_zadar(i)]
     elif src.get("local_only", True) and src.get("kind") != "info":
@@ -598,6 +599,11 @@ def finish_items(src, items, errors):
     items = [i for i in items if i["title"] and i["link"] and not is_media(i["link"])
              and not is_blocked(i["link"])][:MAX_PER_SOURCE]
     for i in items:
+        # NASLOVI VELIKIM SLOVIMA (npr. Bolnica) prebacuju se u obična: prvo slovo veliko, ostalo malo
+        letters = [c for c in i["title"] if c.isalpha()]
+        if len(letters) > 8 and sum(c.isupper() for c in letters) > 0.8 * len(letters):
+            t = i["title"].lower()
+            i["title"] = re.sub(r"\w", lambda m: m.group(0).upper(), t, count=1)
         i["source"] = src["name"]
         if src.get("topic"):
             i["source_topic"] = src["topic"]

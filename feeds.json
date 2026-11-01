@@ -137,6 +137,20 @@
     "note": "Samo novosti; bez natječaja, javnih poziva, rezultata i sličnih službenih obavijesti"
   },
   {
+    "name": "Opća bolnica Zadar",
+    "site": "https://www.bolnica-zadar.hr/aktualnosti/vijesti/",
+    "feeds": [
+      "https://www.bolnica-zadar.hr/feed/"
+    ],
+    "categories": [
+      "Vijesti"
+    ],
+    "only_categories": true,
+    "local_only": false,
+    "exclude_title": "natječaj|izabran\\w* kandidat|javn\\w* nabav",
+    "note": "Samo rubrika Vijesti (novosti i obavijesti za pacijente), bez natječaja, odluka i javne nabave"
+  },
+  {
     "name": "Liburnija Zadar",
     "site": "https://liburnija-zadar.hr/novosti/",
     "feeds": [

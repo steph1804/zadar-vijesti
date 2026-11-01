@@ -37,6 +37,7 @@ adrese ezadar.net.hr (stara www.ezadar.hr ne odgovara). HRT Radio Zadar nema RSS
 čita iz podataka naslovnice (`"parser": "hrt_radio"`), a uvod iz og:description članka.
 Sveučilište u Zadru (unizd.hr) nema RSS: novosti se čitaju s popisa (`"parser": "unizd"`), a
 `"exclude_title"` izbacuje natječaje, javne pozive, rezultate i slične službene obavijesti.
+Opća bolnica Zadar: iz feeda samo rubrika Vijesti (`"only_categories": true`), bez natječaja i javne nabave.
 
 ## Strogi filtar mjesta
 
