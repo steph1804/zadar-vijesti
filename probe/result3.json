@@ -1,110 +1,103 @@
 {
- "https://www.bolnica-zadar.hr/": {
+ "https://www.zadar-airport.hr/pregled-letova/?sekcija=putnici": {
   "status": 200,
-  "final": "https://www.bolnica-zadar.hr/",
-  "len": 258105,
+  "final": "https://www.zadar-airport.hr/pregled-letova/?sekcija=putnici",
+  "len": 90210,
   "ctype": "text/html; charset=UTF-8",
   "alt": [
-   "<link rel=\"alternate\" type=\"application/rss+xml\" title=\"Opća bolnica Zadar &raquo; Kanal\" href=\"https://www.bolnica-zadar.hr/feed/\" />",
-   "<link rel=\"alternate\" type=\"application/rss+xml\" title=\"Opća bolnica Zadar &raquo; Kanal komentara\" href=\"https://www.bolnica-zadar.hr/comments/feed/\" />"
+   "<link rel=\"alternate\" type=\"application/rss+xml\" title=\"Zračna luka Zadar &raquo; Kanal\" href=\"https://www.zadar-airport.hr/feed/\" />",
+   "<link rel=\"alternate\" type=\"application/rss+xml\" title=\"Zračna luka Zadar &raquo; Kanal komentara\" href=\"https://www.zadar-airport.hr/comments/feed/\" />"
   ],
   "links": [
-   "http://www.bolnica-zadar.hr/vijesti/",
-   "https://www.bolnica-zadar.hr/aktualnosti/vijesti/",
-   "https://www.bolnica-zadar.hr/comments/feed/",
-   "https://www.bolnica-zadar.hr/feed/",
-   "https://www.bolnica-zadar.hr/o-nama/povijest-sadasnjost-buducnost-obz/",
-   "https://www.bolnica-zadar.hr/obavijest-o-izabranim-kandidatima-po-provedenim-javnim-natjecajima-objavljenim-01-09-2026-i-11-09-2026-godine/",
-   "https://www.bolnica-zadar.hr/obavijest-o-izabranim-kandidatima-po-provedenim-javnim-natjecajima-objavljenim-29-06-2026-07-08-2026-i-01-09-2026/",
-   "https://www.bolnica-zadar.hr/obavijest-o-izabranim-kandidatima-po-provedenom-javnom-natjecaju-objavljenom-01-09-2026/",
-   "https://www.bolnica-zadar.hr/obavijest-o-izabranom-kandidatu-po-provedenom-javnom-natjecaju-objavljenom-07-10-2025-godine/",
-   "https://www.bolnica-zadar.hr/vazna-obavijest-za-pacijente-ulaz-na-hitni-prijam-s-juzne-strane/"
+   "/admin-ajax.php",
+   "/default.json",
+   "/wp-json\\/",
+   "https://www.zadar-airport.hr/wp-admin/admin-ajax.php",
+   "https://www.zadar-airport.hr/wp-json/",
+   "https://www.zadar-airport.hr/wp-json/complianz/v1/",
+   "https://www.zadar-airport.hr/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fwww.zadar-airport.hr%2Fpregled-letova%2F&#038;format=xml&#038;lang=hr",
+   "https://www.zadar-airport.hr/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fwww.zadar-airport.hr%2Fpregled-letova%2F&#038;lang=hr",
+   "https://www.zadar-airport.hr/wp-json/wp/v2/pages/9615"
   ],
   "api": [],
   "next": false,
-  "head": "<!DOCTYPE html>\n<html lang=\"hr\" class=\"cmsmasters_html\">\n<head>\n<meta charset=\"UTF-8\" />\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1, maximum-scale=1\" />\n<meta name=\"format-detection\" content=\"telephone=no\" />\n\n<!-- Glavna ikona za preglednike (Chrome, Firefox, Edge) -->\n<link",
+  "head": "<!doctype html>\n<html lang=\"hr\">\n<head>\n    <meta charset=\"UTF-8\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\">\n    <link rel=\"profile\" href=\"https://gmpg.org/xfn/11\">\n\n    <script type=\"application/ld+json\">\n    {\n      \"@context\": \"https://schema.org\",\n      \"@type\": \"A",
   "items": 0,
   "chan": "",
-  "title": "Opća bolnica Zadar &#8211; OBZ",
+  "title": "Pregled letova - Zračna luka Zadar",
   "osm": []
  },
- "https://www.bolnica-zadar.hr/feed/": {
+ "https://www.zadar-airport.hr/wp-content/themes/hello-elementor-child/current-flights.json": {
   "status": 200,
-  "final": "https://www.bolnica-zadar.hr/feed/",
-  "len": 57464,
-  "ctype": "application/rss+xml; charset=UTF-8",
+  "final": "https://www.zadar-airport.hr/wp-content/themes/hello-elementor-child/current-flights.json",
+  "len": 782,
+  "ctype": "application/json; charset=UTF-8",
   "alt": [],
-  "links": [
-   "https://www.bolnica-zadar.hr/feed/",
-   "https://www.bolnica-zadar.hr/wp-content/uploads/2026/10/obavijest-o-izabranom-kandidatu-po-natjecaju-od-07.10.26.pdf"
-  ],
+  "links": [],
   "api": [],
   "next": false,
-  "head": "<?xml version=\"1.0\" encoding=\"UTF-8\"?><rss version=\"2.0\"\n\txmlns:content=\"http://purl.org/rss/1.0/modules/content/\"\n\txmlns:wfw=\"http://wellformedweb.org/CommentAPI/\"\n\txmlns:dc=\"http://purl.org/dc/elements/1.1/\"\n\txmlns:atom=\"http://www.w3.org/2005/Atom\"\n\txmlns:sy=\"http://purl.org/rss/1.0/modules/syndi",
-  "items": 10,
-  "chan": "",
-  "title": "Opća bolnica Zadar",
-  "osm": []
- },
- "https://www.bolnica-zadar.hr/obavijesti/": {
-  "status": 200,
-  "final": "https://www.bolnica-zadar.hr/project/obavijesti/",
-  "len": 141336,
-  "ctype": "text/html; charset=UTF-8",
-  "alt": [
-   "<link rel=\"alternate\" type=\"application/rss+xml\" title=\"Opća bolnica Zadar &raquo; Kanal\" href=\"https://www.bolnica-zadar.hr/feed/\" />",
-   "<link rel=\"alternate\" type=\"application/rss+xml\" title=\"Opća bolnica Zadar &raquo; Kanal komentara\" href=\"https://www.bolnica-zadar.hr/comments/feed/\" />"
-  ],
-  "links": [
-   "https://pinterest.com/pin/create/button/?url=https%3A%2F%2Fwww.bolnica-zadar.hr%2Fproject%2Fobavijesti%2F&media=https%3A%2F%2Fwww.bolnica-zadar.hr%2Fwp-content%2Fuploads%2F2020%2F10%2Fvijesti.jpg&description=Obavijesti",
-   "https://plus.google.com/share?url=https%3A%2F%2Fwww.bolnica-zadar.hr%2Fproject%2Fobavijesti%2F",
-   "https://twitter.com/intent/tweet?text=Check+out+%27Obavijesti%27+on+Op%C4%87a+bolnica+Zadar+website&url=https%3A%2F%2Fwww.bolnica-zadar.hr%2Fproject%2Fobavijesti%2F",
-   "https://www.bolnica-zadar.hr/aktualnosti/vijesti/",
-   "https://www.bolnica-zadar.hr/comments/feed/",
-   "https://www.bolnica-zadar.hr/feed/",
-   "https://www.bolnica-zadar.hr/o-nama/povijest-sadasnjost-buducnost-obz/",
-   "https://www.bolnica-zadar.hr/project/obavijesti/",
-   "https://www.bolnica-zadar.hr/wp-content/uploads/2020/10/vijesti.jpg",
-   "https://www.bolnica-zadar.hr/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fwww.bolnica-zadar.hr%2Fproject%2Fobavijesti%2F",
-   "https://www.bolnica-zadar.hr/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fwww.bolnica-zadar.hr%2Fproject%2Fobavijesti%2F&#038;format=xml",
-   "https://www.facebook.com/sharer/sharer.php?display=popup&u=https%3A%2F%2Fwww.bolnica-zadar.hr%2Fproject%2Fobavijesti%2F"
-  ],
-  "api": [],
-  "next": false,
-  "head": "<!DOCTYPE html>\n<html lang=\"hr\" class=\"cmsmasters_html\">\n<head>\n<meta charset=\"UTF-8\" />\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1, maximum-scale=1\" />\n<meta name=\"format-detection\" content=\"telephone=no\" />\n\n<!-- Glavna ikona za preglednike (Chrome, Firefox, Edge) -->\n<link",
+  "head": "[\n  {\n    \"AD\": \"ARRIVAL\",\n    \"acttime\": \"2026-10-31T15:59:00\",\n    \"brlet\": \"FR8258\",\n    \"comment\": \"Landed\",\n    \"esttime\": \"2026-10-31T16:00:00\",\n    \"fromto\": \"Prague\",\n    \"gate\": \"\",\n    \"operlong\": \"RYANAIR\",\n    \"parkingPosition\": \"2\",\n    \"schdate\": \"2026-10-31T14:25:00Z[UTC]\",\n    \"schti",
   "items": 0,
   "chan": "",
-  "title": "Obavijesti &#8211; Opća bolnica Zadar",
+  "title": "",
   "osm": []
  },
- "https://www.bolnica-zadar.hr/novosti/": {
+ "https://www.zadar-airport.hr/wp-content/themes/hello-elementor-child/flights.json": {
   "err": "<HTTPError 404: 'Not Found'>",
   "hdr": {
+   "Date": "Sun, 01 Nov 2026 11:44:42 GMT",
+   "Content-Type": "text/html; charset=UTF-8",
+   "Transfer-Encoding": "chunked",
    "Connection": "close",
-   "expires": "Wed, 11 Jan 1984 05:00:00 GMT",
-   "cache-control": "no-cache, must-revalidate, max-age=0, no-store, private",
-   "content-type": "text/html; charset=UTF-8",
-   "p3p": "CP=\"ALL DSP NID CURa ADMa DEVa HISa OTPa OUR NOR NAV DEM\"",
-   "permissions-policy": "private-state-token-redemption=(self \"https://www.google.com\" \"https://www.gstatic.com\" \"https://recaptcha.net\" \"https://challenges.cloudflare.com\" \"https://hcaptcha.com\"), private-state-token-issuance=(self \"https://www.google.com\" \"https://www.gstatic.com\" \"https://recaptcha.net\" \"https://challenges.cloudflare.com\" \"https://hcaptcha.com\")",
-   "link": "<https://www.bolnica-zadar.hr/wp-json/>; rel=\"https://api.w.org/\"",
-   "transfer-encoding": "chunked",
-   "date": "Sun, 01 Nov 2026 07:02:43 GMT",
-   "server": "LiteSpeed",
-   "vary": "User-Agent",
-   "x-endurance-cache-level": "1",
-   "x-nginx-cache": "WordPress",
-   "alt-svc": "h3=\":443\"; ma=2592000, h3-29=\":443\"; ma=2592000, h3-Q050=\":443\"; ma=2592000, h3-Q046=\":443\"; ma=2592000, h3-Q043=\":443\"; ma=2592000, quic=\":443\"; ma=2592000; v=\"43,46\""
+   "Nel": "{\"report_to\":\"cf-nel\",\"success_fraction\":0.01,\"max_age\":604800}",
+   "CF-Ray": "a53aa6240847ad20-MSP",
+   "CF-Cache-Status": "BYPASS",
+   "Cache-Control": "no-cache, must-revalidate, max-age=0, no-store, private",
+   "Report-To": "{\"group\":\"cf-nel\",\"max_age\":604800,\"endpoints\":[{\"url\":\"https://a.nel.cloudflare.com/report/v4?s=%2BQ8Ww79hWApW1dgSMILTOSevcFrNlJN4dui4Fy%2Bq7NpAyJJtM%2FV47tOsemkWNUeddnkqLSsKFoBXTaN4P3Akwkkqugotp41yBEmwpGAz3XtLuj07Yv6y5Gu6P8BTa6rFVs8rgdvY\"}]}",
+   "Expires": "Wed, 11 Jan 1984 05:00:00 GMT",
+   "Link": "<https://www.zadar-airport.hr/wp-json/>; rel=\"https://api.w.org/\"",
+   "Server": "cloudflare",
+   "Vary": "Accept-Encoding",
+   "Ki-CF-Cache-Status": "BYPASS",
+   "X-Content-Type-Options": "nosniff",
+   "X-Edge-Location-Klb": "1",
+   "ki-Cache-Tag": "c5d16d64-b023-4756-be64-b214622c9dd9,6a1f70cd45f3ae2c6958888de1ef2e84e9b2949887605b46ca2615742315a423",
+   "ki-cache-type": "CDN",
+   "ki-edge": "v=28.6.1;mv=99.9.9",
+   "ki-origin": "g1p",
+   "x-kinsta-cache": "MISS",
+   "set-cookie": "__cf_bm=_xZy9IvnkGzGCHpWQLlnimZodo_EjsLIFzz_9n4vdcA-1793533481.611616-1.0.1.1-M_fytnotwfABV6LD9ONj7UieEeAHTIxsdsaS55Wl4W2vR53vql20v_MQxgHvel1_gr3oCZlP9ZrQU0AA1dmShQkwMt5khqHRjCXewpI.ACG9oERZ20eiGdJd3cl3czpt; HttpOnly; SameSite=None; Secure; Path=/; Domain=www.zadar-airport.hr; Expires=Sun, 01 Nov 2026 12:14:42 GMT",
+   "alt-svc": "h3=\":443\"; ma=86400"
   },
-  "body": "<!DOCTYPE html>\n<html lang=\"hr\" class=\"cmsmasters_html\">\n<head>\n<meta charset=\"UTF-8\" />\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1, maximum-scale=1\" />\n<meta name=\"format-detection\" content=\"telephone=no\" />\n\n<!-- Glavna ikona za preglednike (Chrome, Firefox, Edge) -->\n<link rel=\"icon\" href=\"https://bolnica-zadar.hr/favicon.ico\" type=\"image/x-icon\" sizes=\"144x144\">\n\n<!-- S"
+  "body": "<!doctype html>\n<html lang=\"hr\">\n<head>\n    <meta charset=\"UTF-8\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\">\n    <link rel=\"profile\" href=\"https://gmpg.org/xfn/11\">\n\n    <script type=\"application/ld+json\">\n    {\n      \"@context\": \"https://schema.org\",\n      \"@type\": \"Airport\",\n      \"name\": \"Zračna luka Zadar\",\n      \"alternateName\": \"Zadar Airport\",\n      \"descript"
  },
- "https://www.bolnica-zadar.hr/robots.txt": {
-  "err": "URLError(TimeoutError('timed out'))",
-  "hdr": {},
-  "body": ""
- },
- "https://bolnica-zadar.hr/category/obavijesti/feed/": {
-  "err": "URLError(TimeoutError('timed out'))",
-  "hdr": {},
-  "body": ""
+ "https://www.zadar-airport.hr/wp-content/themes/hello-elementor-child/weekly-flights.json": {
+  "err": "<HTTPError 404: 'Not Found'>",
+  "hdr": {
+   "Date": "Sun, 01 Nov 2026 11:44:43 GMT",
+   "Content-Type": "text/html; charset=UTF-8",
+   "Transfer-Encoding": "chunked",
+   "Connection": "close",
+   "Nel": "{\"report_to\":\"cf-nel\",\"success_fraction\":0.01,\"max_age\":604800}",
+   "CF-Ray": "a53aa6294ba4ad1e-MSP",
+   "CF-Cache-Status": "BYPASS",
+   "Cache-Control": "no-cache, must-revalidate, max-age=0, no-store, private",
+   "Report-To": "{\"group\":\"cf-nel\",\"max_age\":604800,\"endpoints\":[{\"url\":\"https://a.nel.cloudflare.com/report/v4?s=LjNibQ1lRYqe7O6VFFDivFgiLdo%2B00SjDfVMKttzpyPlcT1Yd4eXvuOO5UDCrZGtuSgrrkiwjEaqj0%2FKQVDgYIA0ZOnd3IBi6VnEcF7u4cjyCwlQOqvG5w6QiK6hZ9XUGOsJHpju\"}]}",
+   "Expires": "Wed, 11 Jan 1984 05:00:00 GMT",
+   "Link": "<https://www.zadar-airport.hr/wp-json/>; rel=\"https://api.w.org/\"",
+   "Server": "cloudflare",
+   "Vary": "Accept-Encoding",
+   "Ki-CF-Cache-Status": "BYPASS",
+   "X-Content-Type-Options": "nosniff",
+   "X-Edge-Location-Klb": "1",
+   "ki-Cache-Tag": "c5d16d64-b023-4756-be64-b214622c9dd9,8484095cfc7767680580c6d7e90914979afe3ded8b15ef5a0547d0e224956209",
+   "ki-cache-type": "CDN",
+   "ki-edge": "v=28.6.1;mv=99.9.9",
+   "ki-origin": "g1p",
+   "x-kinsta-cache": "MISS",
+   "set-cookie": "__cf_bm=Hn4q5kYyeGvwPnYLztTyPcyzJJ.Vb7wEjMxnDnb8rGk-1793533482.4477546-1.0.1.1-qJ6XmuI0O6ZQhXGqra6HPnFCucU6BphQEyy7AjnbE.b2Qh6W9vEVY6.RMfghmhQGM1cI2Z5OXhbrYXX0CyYJFR.Xb9rIllMV7_3N5t6HhkId5tMLVSVBhFrQbetRuNqo; HttpOnly; SameSite=None; Secure; Path=/; Domain=www.zadar-airport.hr; Expires=Sun, 01 Nov 2026 12:14:43 GMT",
+   "alt-svc": "h3=\":443\"; ma=86400"
+  },
+  "body": "<!doctype html>\n<html lang=\"hr\">\n<head>\n    <meta charset=\"UTF-8\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\">\n    <link rel=\"profile\" href=\"https://gmpg.org/xfn/11\">\n\n    <script type=\"application/ld+json\">\n    {\n      \"@context\": \"https://schema.org\",\n      \"@type\": \"Airport\",\n      \"name\": \"Zračna luka Zadar\",\n      \"alternateName\": \"Zadar Airport\",\n      \"descript"
  }
 }
