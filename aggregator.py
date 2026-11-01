@@ -290,22 +290,41 @@ def face_box(url):
 FLIGHTS_URL = "https://www.zadar-airport.hr/wp-content/themes/hello-elementor-child/current-flights.json"
 
 
+FLIGHTS_WEEK_URL = "https://www.zadar-airport.hr/pregled-letova/?sekcija=putnici"
+
+
 def airport_flights():
-    """Današnji dolasci i odlasci s javnog popisa Zračne luke Zadar (isti koji koristi njihova stranica)."""
+    """Današnji i sutrašnji dolasci i odlasci Zračne luke Zadar. Tjedni raspored je ugrađen u stranicu
+    "Pregled letova" (const weeklyFlights); current-flights.json ima samo letove s živim stanjem
+    i ujutro još jučerašnje, pa se njime samo osvježava stanje (sletio, poletio, kasni)."""
+    rows = []
+    try:
+        data, _ = fetch(FLIGHTS_WEEK_URL)
+        m = re.search(r"const weeklyFlights = (\[.*?\]);", data.decode("utf-8", "replace"), re.S)
+        rows = json.loads(m.group(1)) if m else []
+    except Exception as e:  # noqa: BLE001
+        print(f"[Zračna luka Zadar, tjedni] {e}", file=sys.stderr)
     try:
         data, _ = fetch(FLIGHTS_URL)
-        rows = json.loads(data)
+        live = {(r.get("brlet"), r.get("schtime")): r for r in json.loads(data)}
     except Exception as e:  # noqa: BLE001
         print(f"[Zračna luka Zadar] {e}", file=sys.stderr)
+        live = {}
+    if not rows and not live:
         return None
+    rows = [live.pop((r.get("brlet"), r.get("schtime")), r) for r in rows] + list(live.values())
+    today = datetime.now(ZAGREB).date()
+    keep = {str(today), str(today + timedelta(days=1))}
     flights = []
     for r in rows:
+        if (r.get("schtime") or "")[:10] not in keep:
+            continue
         flights.append({
             "dir": "dolazak" if r.get("AD") == "ARRIVAL" else "odlazak",
             "flight": r.get("brlet", ""), "airline": (r.get("operlong") or "").title(),
             "city": r.get("fromto", ""), "via": r.get("via", ""),
             "time": r.get("schtime", ""), "est": r.get("esttime", ""), "act": r.get("acttime", ""),
-            "status": r.get("comment", ""), "gate": r.get("gate", ""),
+            "status": r.get("comment", "") or "", "gate": r.get("gate", ""),
         })
     flights.sort(key=lambda f: f["time"])
     return flights
