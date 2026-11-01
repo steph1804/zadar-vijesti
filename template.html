@@ -92,7 +92,7 @@
   .sky .sil { fill: #fff; opacity: .13; }
   .sky .sun { fill: #ff8a3d; opacity: .45; }
   .sky .glow { fill: #ffb27a; opacity: .18; }
-  .eyebrow { display: inline-flex; align-items: center; gap: 8px; margin: 0 0 10px; padding: 5px 12px 5px 10px; border-radius: 999px;
+  .intro .eyebrow { display: inline-flex; align-items: center; gap: 8px; margin: 0 0 18px; padding: 5px 12px 5px 10px; border-radius: 999px;
              background: rgba(255,255,255,.12); border: 1px solid rgba(255,255,255,.2); font-size: .74rem; font-weight: 700;
              letter-spacing: .1em; text-transform: uppercase; color: rgba(255,255,255,.92); }
   .eyebrow i { width: 8px; height: 8px; border-radius: 50%; background: #3ddc84; box-shadow: 0 0 0 0 rgba(61,220,132,.6);
@@ -101,7 +101,7 @@
   @media (prefers-reduced-motion: reduce) { .eyebrow i { animation: none; } }
   .intro h1 .hl { background: linear-gradient(90deg, #ffb27a, #ff6a3d); -webkit-background-clip: text; background-clip: text;
                   color: transparent; }
-  @media (max-width: 640px) { .sky { width: 96vw; opacity: .7; } .sky .sun, .sky .glow { display: none; } .eyebrow { font-size: .64rem; } }
+  @media (max-width: 640px) { .sky { width: 96vw; opacity: .7; } .sky .sun, .sky .glow { display: none; } .intro .eyebrow { font-size: .64rem; margin-bottom: 14px; } }
   .intro { display: flex; flex-wrap: wrap; align-items: end; justify-content: space-between; gap: 10px 20px; }
   .intro h1 { margin: 0; font-size: clamp(2rem, 5.2vw, 3.4rem); letter-spacing: -.04em; line-height: 1.05; font-weight: 800; }
   .intro p { margin: 6px 0 0; color: rgba(255,255,255,.8); font-size: .92rem; }
