@@ -771,6 +771,16 @@ def main():
             seen.add(key)
             unique.append(a)
     articles = unique[:MAX_TOTAL]
+    # Izvori koji rijetko objavljuju (Sveučilište, Bolnica, Liburnija...) ne smiju ispasti zbog ograničenja:
+    # svaki izvor zadržava do 3 svoja najnovija članka iz zadnjih 14 dana, niže na popisu.
+    cutoff = (datetime.now(timezone.utc) - timedelta(days=14)).isoformat()
+    kept = {a["source"] for a in articles}
+    extra, per = [], {}
+    for a in unique[MAX_TOTAL:]:
+        if a["source"] not in kept and a["date"] >= cutoff and per.get(a["source"], 0) < 3:
+            per[a["source"]] = per.get(a["source"], 0) + 1
+            extra.append(a)
+    articles += extra
 
     # Položaj lica računamo jednom po slici; čuva se u predmemoriji dok se slika ne promijeni.
     todo = []
