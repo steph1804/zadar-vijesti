@@ -313,6 +313,15 @@
   }
   @media (prefers-reduced-motion: reduce) { .tr { animation: none; } .tk { overflow-x: auto; } .feed > article, .hero article { animation: none; }
     article, article img { transition: none; } article:hover, article:hover img { transform: none; } }
+.wa { position: fixed; right: 18px; bottom: 18px; z-index: 40; width: 56px; height: 56px; border-radius: 50%; background: #25d366;
+      display: grid; place-items: center; box-shadow: 0 8px 24px rgba(0,0,0,.25); transition: transform .15s; }
+.wa:hover { transform: scale(1.07); }
+.wa svg { width: 30px; height: 30px; fill: #fff; }
+.wa span { position: absolute; right: 66px; white-space: nowrap; background: var(--card); color: var(--text); font-size: .82rem;
+           font-weight: 600; padding: 6px 12px; border-radius: 999px; box-shadow: 0 4px 14px rgba(0,0,0,.15); opacity: 0;
+           transform: translateX(6px); transition: .15s; pointer-events: none; }
+@media (hover: hover) { .wa:hover span { opacity: 1; transform: none; } }
+@media (max-width: 640px) { .wa { width: 52px; height: 52px; right: 14px; bottom: 14px; } }
 .cookies { position: fixed; left: 16px; right: 16px; bottom: 16px; z-index: 50; max-width: 560px; margin: 0 auto;
   display: flex; gap: 12px; align-items: center; flex-wrap: wrap; padding: 12px 14px; border-radius: 12px;
   background: var(--card, var(--bg)); color: inherit; border: 1px solid var(--line, #8884); box-shadow: 0 6px 24px #0003; }
@@ -978,12 +987,23 @@ function appMode() {
     requestAnimationFrame(() => scrollTo(0, saved.y));
   }
   document.addEventListener("click", e => {
-    const a = e.target.closest && e.target.closest('a[target="_blank"]');
+    const a = e.target.closest && e.target.closest('a[target="_blank"]:not(.wa)');
     if (!a || e.defaultPrevented || e.metaKey || e.ctrlKey || e.shiftKey) return;
     e.preventDefault();
     try { sessionStorage.setItem("pos", JSON.stringify({ path: location.pathname, y: scrollY, shown: state.shown, t: Date.now() })); } catch (err) {}
     location.href = a.href;
   });
+}
+
+// Plutajući gumb za WhatsApp (dojave i poruke uredništvu), broj iz site.json "whatsapp"
+function whatsapp() {
+  const n = DATA.settings && DATA.settings.whatsapp;
+  if (!n) return;
+  const text = encodeURIComponent("Pozdrav idassa.click! ");
+  const a = el("a", { class: "wa", href: `https://wa.me/${n}?text=${text}`, target: "_blank", rel: "noopener",
+    "aria-label": "Pošalji poruku na WhatsApp" }, el("span", {}, "Pošalji dojavu"));
+  a.insertAdjacentHTML("beforeend", '<svg viewBox="0 0 32 32" aria-hidden="true"><path d="M16 3C8.8 3 3 8.7 3 15.8c0 2.5.7 4.9 2 7L3 29l6.4-2c2 1.1 4.3 1.7 6.6 1.7 7.2 0 13-5.7 13-12.8S23.2 3 16 3Zm0 23.4c-2.1 0-4.1-.6-5.9-1.7l-.4-.3-3.8 1.2 1.2-3.7-.3-.4a10.4 10.4 0 0 1-1.6-5.6C5.2 10 10 5.3 16 5.3S26.8 10 26.8 15.8 22 26.4 16 26.4Zm5.9-7.8c-.3-.2-1.9-.9-2.2-1-.3-.1-.5-.2-.7.2l-1 1.2c-.2.2-.4.2-.7.1-.3-.2-1.4-.5-2.6-1.6-1-.9-1.6-1.9-1.8-2.2-.2-.3 0-.5.1-.7l.5-.6.3-.5c.1-.2 0-.4 0-.6l-1-2.4c-.3-.6-.5-.5-.7-.5h-.6c-.2 0-.6.1-.9.4-.3.3-1.2 1.1-1.2 2.7s1.2 3.2 1.4 3.4c.2.2 2.4 3.6 5.8 5 .8.4 1.4.6 1.9.7.8.3 1.5.2 2.1.1.6-.1 1.9-.8 2.2-1.5.3-.7.3-1.4.2-1.5-.1-.1-.3-.2-.6-.4Z"/></svg>');
+  document.body.append(a);
 }
 
 const today = new Intl.DateTimeFormat("hr-HR", { weekday: "long", day: "numeric", month: "long" }).format(new Date());
@@ -1005,6 +1025,7 @@ buses();
 weather();
 analytics();
 googleAnalytics();
+whatsapp();
 if ("serviceWorker" in navigator) navigator.serviceWorker.register(BASE + "sw.js").catch(() => {});
 </script>
 </body>
