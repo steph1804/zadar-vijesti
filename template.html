@@ -965,6 +965,27 @@ function googleAnalytics() {
   document.body.append(bar);
 }
 
+// Instalirana aplikacija (ikona na početnom zaslonu): članci se otvaraju u istom prozoru,
+// pa tipka Natrag uvijek vraća na idassa.click (s novom karticom Android je slagao stare članke
+// jedan na drugi i nije bilo puta natrag). Položaj na popisu pamti se i vraća po povratku.
+function appMode() {
+  const app = matchMedia("(display-mode: standalone)").matches || navigator.standalone;
+  if (!app) return;
+  let saved = null;
+  try { saved = JSON.parse(sessionStorage.getItem("pos") || "null"); } catch (e) {}
+  if (saved && saved.path === location.pathname && Date.now() - saved.t < 3600e3) {
+    if (saved.shown > state.shown) { state.shown = saved.shown; list(); }
+    requestAnimationFrame(() => scrollTo(0, saved.y));
+  }
+  document.addEventListener("click", e => {
+    const a = e.target.closest && e.target.closest('a[target="_blank"]');
+    if (!a || e.defaultPrevented || e.metaKey || e.ctrlKey || e.shiftKey) return;
+    e.preventDefault();
+    try { sessionStorage.setItem("pos", JSON.stringify({ path: location.pathname, y: scrollY, shown: state.shown, t: Date.now() })); } catch (err) {}
+    location.href = a.href;
+  });
+}
+
 const today = new Intl.DateTimeFormat("hr-HR", { weekday: "long", day: "numeric", month: "long" }).format(new Date());
 document.getElementById("sub").textContent =
   `${today.charAt(0).toUpperCase() + today.slice(1)} · ažurirano u ${hmFmt.format(new Date(DATA.updated))}`;
@@ -974,6 +995,7 @@ masthead();
 footer();
 setupTools();
 setTopic(state.topic, false);
+appMode();
 ferries();
 flights();
 roads();
