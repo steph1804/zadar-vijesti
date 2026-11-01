@@ -855,7 +855,7 @@ function flights() {
   const all = raw && raw.filter(f => (f.time || "").slice(0, 10) === ymd);
   const hm = s => s ? s.slice(11, 16) : "";
   if (!all || !all.length) {
-    box.append(el("p", { class: "small" }, all ? "Danas nema letova na popisu." : "Popis letova trenutno nije dostupan."));
+    box.append(el("p", { class: "small" }, all ? "Na popisu zračne luke još nema današnjih letova." : "Popis letova trenutno nije dostupan."));
   }
   for (const [dir, label] of [["dolazak", "Dolasci"], ["odlazak", "Odlasci"]]) {
     const list = (all || []).filter(f => f.dir === dir);
