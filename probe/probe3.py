@@ -1,6 +1,6 @@
 import json, re, urllib.request
 UA = "Mozilla/5.0 (compatible; LokalniAgregator/1.0; +https://idassa.click)"
-urls = ["https://www.zadar-airport.hr/pregled-letova/?sekcija=putnici", "https://www.zadar-airport.hr/wp-content/themes/hello-elementor-child/current-flights.json", "https://www.zadar-airport.hr/wp-content/themes/hello-elementor-child/flights.json", "https://www.zadar-airport.hr/wp-content/themes/hello-elementor-child/weekly-flights.json"]
+urls = ["https://www.reddit.com/r/zadar/new/.rss", "https://www.reddit.com/r/zadar/new.json?limit=10", "https://old.reddit.com/r/zadar/new/.rss"]
 out = {}
 for u in urls:
     try:
