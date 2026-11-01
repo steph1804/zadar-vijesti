@@ -783,12 +783,20 @@ def main():
                   or (is_about_zadar(a) if a["source"] in national else is_local(a)))}
     # Isti članak isti portal ponekad objavi pod dvije rubrike (npr. Zadarski list /style/ i /ostalo/scena/):
     # ostaje samo jedan po izvoru i naslovu.
+    # Isto vrijedi kad portal promijeni naslov i adresu, a broj članka ostane (Index: .../2852125.aspx)
+    # ili kad je isti članak s istom slikom u isto vrijeme.
+    fresh_links = {i["link"] for i in fresh}
     seen, unique = set(), []
-    for a in sorted(cache.values(), key=lambda a: a["date"], reverse=True):
-        key = (a["source"], re.sub(r"\W+", " ", a["title"].lower()).strip())
-        if key not in seen:
-            seen.add(key)
+    for a in sorted(cache.values(), key=lambda a: (a["date"], a["link"] in fresh_links), reverse=True):
+        keys = {(a["source"], "t", re.sub(r"\W+", " ", a["title"].lower()).strip())}
+        num = re.findall(r"[/-](\d{6,})(?:\.\w+)?/?$", urllib.parse.urlsplit(a["link"]).path)
+        if num:
+            keys.add((a["source"], "n", num[-1]))
+        if a.get("image"):
+            keys.add((a["source"], "i", a["date"], a["image"]))
+        if not keys & seen:
             unique.append(a)
+        seen |= keys
     articles = unique[:MAX_TOTAL]
     # Izvori koji rijetko objavljuju (Sveučilište, Bolnica, Liburnija...) ne smiju ispasti zbog ograničenja:
     # svaki izvor zadržava do 3 svoja najnovija članka iz zadnjih 14 dana, niže na popisu.
