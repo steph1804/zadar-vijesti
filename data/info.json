@@ -1,6 +1,12 @@
 {
  "Jadrolinija": [
   {
+   "title": "Linije u prekidu, 02.11.2026.",
+   "link": "https://www.jadrolinija.hr/news-single/linije-u-prekidu-02112026",
+   "date": "2026-11-01T11:58:29+00:00",
+   "summary": "Red plovidbe za ponedjeljak, 02.11.2026."
+  },
+  {
    "title": "Linije u prekidu, 01.11.2026.",
    "link": "https://www.jadrolinija.hr/news-single/linije-u-prekidu-01112026",
    "date": "2026-10-31T15:54:00+00:00",
@@ -114,7 +120,7 @@
  ],
  "videos": {
   "v": 2,
-  "fetched": "2026-11-01T10:03:18.969412+00:00",
+  "fetched": "2026-11-01T11:03:18.794175+00:00",
   "items": [
    {
     "id": "4cToWBbnrr8",
