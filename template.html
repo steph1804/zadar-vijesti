@@ -731,7 +731,13 @@ function power() {
   box.append(el("p", {}, el("a", { href: url, target: "_blank", rel: "noopener" }, el("b", {}, "Sva isključenja na HEP-u →"))));
   const all = DATA.info && DATA.info.power;
   if (!all) { box.append(el("p", { class: "small" }, "Popis trenutno nije dostupan.")); return; }
-  const days = [...new Set(all.map(r => r.day))];
+  // datumi kao na HEP-u (DD.MM.YYYY), po zagrebačkom vremenu; prazan dan ne smije pomaknuti sutra u "Danas"
+  const hepDay = add => {
+    const p = new Intl.DateTimeFormat("en-GB", { timeZone: "Europe/Zagreb", day: "2-digit", month: "2-digit", year: "numeric" })
+      .formatToParts(new Date(Date.now() + add * 864e5)).reduce((o, x) => (o[x.type] = x.value, o), {});
+    return `${p.day}.${p.month}.${p.year}`;
+  };
+  const days = [hepDay(0), hepDay(1)];
   const row = r => el("li", {}, el("b", {}, r.place), ` ${r.time}`, r.unplanned ? el("span", { class: "kvar" }, "kvar") : null,
     r.street || r.note ? el("div", { class: "small" }, [r.street, r.note].filter(Boolean).join(" · ")) : null);
   const today = all.filter(r => r.day === days[0]);
