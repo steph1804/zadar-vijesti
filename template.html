@@ -164,7 +164,8 @@
   .kvar { margin-left: 6px; background: var(--warn-bg); color: var(--warn); border-radius: 999px; padding: 0 7px; font-size: .72rem; font-weight: 700; }
 
   /* Vijesti */
-  .feed { display: grid; gap: 18px; grid-template-columns: repeat(auto-fill, minmax(260px, 1fr)); align-content: start; }
+  .feed { display: grid; gap: 18px; grid-template-columns: repeat(auto-fill, minmax(260px, 1fr)); align-content: start;
+    grid-auto-flow: row dense; }  /* kartice popunjavaju rupe ispred vrpci preko cijele širine */
   article { --t: var(--accent); position: relative; background: var(--card); border: 1px solid var(--line); border-radius: 16px;
             overflow: hidden; display: flex; flex-direction: column; box-shadow: var(--shadow); transition: transform .2s, box-shadow .2s; }
   article[data-t="Županija"] { --t: var(--t-Županija); } article[data-t="Otoci"] { --t: var(--t-Otoci); }
