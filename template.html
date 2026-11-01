@@ -313,6 +313,13 @@
   }
   @media (prefers-reduced-motion: reduce) { .tr { animation: none; } .tk { overflow-x: auto; } .feed > article, .hero article { animation: none; }
     article, article img { transition: none; } article:hover, article:hover img { transform: none; } }
+.tip { position: fixed; right: 18px; bottom: 18px; z-index: 40; display: inline-flex; align-items: center; gap: 8px;
+       background: #1968b3; color: #fff; font-weight: 700; font-size: .9rem; padding: 12px 18px; border-radius: 999px;
+       text-decoration: none; box-shadow: 0 8px 24px rgba(0,0,0,.25); transition: transform .15s; }
+.tip:hover { transform: translateY(-2px); }
+.tip svg { width: 18px; height: 18px; fill: none; stroke: currentColor; stroke-width: 2; }
+@media (max-width: 640px) { .tip { right: 14px; bottom: 14px; padding: 13px; } .tip span { display: none; } }
+.fmail { margin-top: 14px; } .fmail a { color: #fff; font-weight: 700; }
 .wa { position: fixed; right: 18px; bottom: 18px; z-index: 40; width: 56px; height: 56px; border-radius: 50%; background: #25d366;
       display: grid; place-items: center; box-shadow: 0 8px 24px rgba(0,0,0,.25); transition: transform .15s; }
 .wa:hover { transform: scale(1.07); }
@@ -408,6 +415,7 @@
       <p class="lead">Sve vijesti iz Zadra i Zadarske županije s internetskih portala i stranica, na jednom mjestu.</p>
       <p>Pratimo lokalne i nacionalne portale te stranice grada, županije, policije i javnih službi. Stranica se osvježava svakih 15 minuta.</p>
       <div class="fstats"><div><b id="f-n">–</b><span>vijesti</span></div><div><b id="f-s">–</b><span>izvora</span></div><div><b>15</b><span>min osvježavanje</span></div></div>
+      <p class="fmail" id="f-mail" hidden></p>
     </div>
     <div><h4>Rubrike</h4><ul>
       <li><a href="{{BASE}}">Sve vijesti</a></li><li><a href="{{BASE}}zadar/">Zadar</a></li><li><a href="{{BASE}}zupanija/">Županija</a></li>
@@ -1010,6 +1018,20 @@ function appMode() {
   });
 }
 
+// Kontakt za dojave (site.json "email"): gumb u kutu i adresa u podnožju
+function contact() {
+  const m = DATA.settings && DATA.settings.email;
+  if (!m) return;
+  const href = `mailto:${m}?subject=${encodeURIComponent("Dojava za idassa.click")}`;
+  const f = document.getElementById("f-mail");
+  f.append("Dojave i kontakt: ", el("a", { href }, m));
+  f.hidden = false;
+  if (DATA.settings.whatsapp) return;  // WhatsApp gumb ima prednost u kutu
+  const a = el("a", { class: "tip", href, "aria-label": "Pošalji dojavu e-mailom" }, el("span", {}, "Pošalji dojavu"));
+  a.insertAdjacentHTML("afterbegin", '<svg viewBox="0 0 24 24" aria-hidden="true"><rect x="3" y="5" width="18" height="14" rx="2"/><path d="m3 7 9 6 9-6"/></svg>');
+  document.body.append(a);
+}
+
 // Plutajući gumb za WhatsApp (dojave i poruke uredništvu), broj iz site.json "whatsapp"
 function whatsapp() {
   const n = DATA.settings && DATA.settings.whatsapp;
@@ -1042,6 +1064,7 @@ weather();
 analytics();
 googleAnalytics();
 whatsapp();
+contact();
 if ("serviceWorker" in navigator) navigator.serviceWorker.register(BASE + "sw.js").catch(() => {});
 </script>
 </body>
