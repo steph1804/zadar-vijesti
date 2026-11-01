@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-01T01:30:56.629875+00:00",
+ "updated": "2026-11-01T01:45:40.792388+00:00",
  "sources": [
   {
    "name": "Antena Zadar",
@@ -59,12 +59,10 @@
   },
   {
    "name": "Naši školji",
-   "count": 0,
-   "ok": false,
+   "count": 10,
+   "ok": true,
    "feed": null,
-   "errors": [
-    "https://www.nasiskolji.hr/feed/: <urlopen error timed out>"
-   ]
+   "errors": []
   },
   {
    "name": "Grad Zadar",
@@ -117,22 +115,17 @@
   },
   {
    "name": "Jadrolinija",
-   "count": 0,
-   "ok": false,
+   "count": 1,
+   "ok": true,
    "feed": null,
-   "errors": [
-    "https://www.jadrolinija.hr/feeds/vijesti: <urlopen error timed out>"
-   ]
+   "errors": []
   },
   {
    "name": "Index.hr",
-   "count": 0,
-   "ok": false,
+   "count": 2,
+   "ok": true,
    "feed": null,
-   "errors": [
-    "https://www.index.hr/rss: HTTP Error 403: Forbidden",
-    "https://www.index.hr/rss/vijesti: HTTP Error 403: Forbidden"
-   ]
+   "errors": []
   },
   {
    "name": "Jutarnji list",
