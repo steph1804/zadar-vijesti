@@ -788,7 +788,8 @@ function buses() {
   });
   box.append(p);
   const since = Date.now() - 14 * 24 * 3600 * 1000;
-  const hits = DATA.articles.filter(a => a.source === "Liburnija Zadar" && new Date(a.date) > since).slice(0, 3);
+  const src = (DATA.info && DATA.info.buses) || DATA.articles.filter(a => a.source === "Liburnija Zadar");
+  const hits = src.filter(a => new Date(a.date) > since).slice(0, 3);
   if (hits.length) {
     const ul = el("ul");
     for (const a of hits) ul.append(el("li", {}, el("a", { href: a.link, target: "_blank", rel: "noopener" }, a.title)));

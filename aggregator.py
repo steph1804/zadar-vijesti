@@ -737,6 +737,10 @@ def main():
             i["image"] = i["image"] or img
             i["summary"] = i["summary"] or desc or ""
 
+    # Obavijesti Liburnije za okvir "Autobusi": spremaju se posebno, jer na naslovnici ostaje samo
+    # ~300 najnovijih članaka pa bi obavijesti starije od dan-dva nestale iz okvira.
+    bus = sorted((i for i in fresh if i["source"] == "Liburnija Zadar"), key=lambda i: i["date"], reverse=True)
+    info["buses"] = [{k: i[k] for k in ("title", "link", "date")} for i in bus[:5]] or None
     for i in fresh:
         i.pop("categories", None)
         i.pop("text", None)
