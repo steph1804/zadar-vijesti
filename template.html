@@ -394,6 +394,7 @@
     <div class="box" id="power"><h3>Bez struje (Elektra)</h3></div>
     <div class="box" id="water"><h3>Vodoopskrba (Vodovod)</h3></div>
     <div class="box" id="buses"><h3>Autobusi (Liburnija)</h3></div>
+    <div class="box" id="reddit"><h3>Reddit r/Zadar</h3></div>
     <div class="box" id="events"><h3>Događanja u Zadru</h3>
       <p>Koncerti, izložbe, predstave i ostala događanja u gradu i okolici.</p>
       <p class="small"><a href="https://www.entrio.hr/en/events/zadar?searchterm=" target="_blank" rel="noopener"><b>Svi događaji i ulaznice na Entriju →</b></a></p>
@@ -795,6 +796,20 @@ function power() {
   }
 }
 
+// --- Reddit r/Zadar: najnovije teme zajednice ---
+function reddit() {
+  const box = document.getElementById("reddit");
+  const all = DATA.info && DATA.info.reddit;
+  if (!all || !all.length) { box.hidden = true; return; }
+  const ul = el("ul", { class: "rd" });
+  for (const r of all.slice(0, 5)) {
+    const when = r.date ? ago(r.date) : "";
+    ul.append(el("li", {}, el("a", { href: r.link, target: "_blank", rel: "noopener" }, r.title),
+      when ? el("div", { class: "small" }, when) : null));
+  }
+  box.append(ul, el("p", {}, el("a", { href: "https://www.reddit.com/r/Zadar/", target: "_blank", rel: "noopener" }, el("b", {}, "Sve teme na r/Zadar →"))));
+}
+
 // --- Obavijesti Vodovoda Zadar (prekidi opskrbe vodom), zadnjih 10 dana ---
 function water() {
   const box = document.getElementById("water");
@@ -1021,6 +1036,7 @@ flights();
 roads();
 power();
 water();
+reddit();
 buses();
 weather();
 analytics();

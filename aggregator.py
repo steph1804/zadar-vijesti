@@ -387,6 +387,27 @@ def youtube_search(prev=None):
     return {"v": 2, "fetched": now.isoformat(), "items": videos[:15]}
 
 
+REDDIT_URL = "https://www.reddit.com/r/zadar/new/.rss"
+
+
+def reddit_posts(limit=8):
+    """Najnovije teme s Reddita r/Zadar (javni Atom feed)."""
+    try:
+        data, _ = fetch(REDDIT_URL)
+    except Exception as e:  # noqa: BLE001
+        print(f"[Reddit r/Zadar] {e}", file=sys.stderr)
+        return None
+    out = []
+    for entry in re.findall(r"<entry>(.*?)</entry>", data.decode("utf-8", "replace"), re.S)[:limit]:
+        title = re.search(r"<title>(.*?)</title>", entry, re.S)
+        link = re.search(r'<link href="([^"]+)"', entry)
+        date = re.search(r"<published>(.*?)</published>", entry)
+        if title and link:
+            out.append({"title": html.unescape(html.unescape(title.group(1))).strip(), "link": link.group(1),
+                        "date": date.group(1) if date else ""})
+    return out
+
+
 WATER_URL = "https://www.vodovod-zadar.hr/obavijesti"
 _WATER_ROW = re.compile(r'<time datetime="([\d-]+)">.*?<div class="content clearfix">(.*?)</div>', re.S)
 
@@ -827,6 +848,7 @@ def main():
     info["flights"] = airport_flights()
     info["power"] = power_outages()
     info["water"] = water_notices()
+    info["reddit"] = reddit_posts()
     try:
         with open(os.path.join(os.path.dirname(CACHE_FILE), "info.json"), encoding="utf-8") as f:
             prev_videos = json.load(f).get("videos")
