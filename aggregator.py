@@ -29,7 +29,7 @@ TEMPLATE = os.path.join(ROOT, "template.html")
 PLACES_FILE = os.path.join(ROOT, "places.txt")
 
 ZAGREB = ZoneInfo("Europe/Zagreb")
-USER_AGENT = "Mozilla/5.0 (compatible; LokalniAgregator/1.0)"
+USER_AGENT = "Mozilla/5.0 (compatible; LokalniAgregator/1.0; +https://idassa.click)"  # s kontaktom (Reddit ga traži)
 TIMEOUT = 20
 MAX_PER_SOURCE = 30      # koliko najnovijih članaka uzeti po portalu
 MAX_TOTAL = 300          # koliko članaka čuvati i prikazati
