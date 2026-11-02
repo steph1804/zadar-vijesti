@@ -1,6 +1,6 @@
 import json, re, urllib.request
 UA = "Mozilla/5.0 (compatible; LokalniAgregator/1.0; +https://idassa.click)"
-urls = ["https://www.unizd.hr/Portals/0/adam/Gallery/QqyNMsn8KkaHfsbVaYX8iQ/Images/026_resize_1.jpg", 'https://www.unizd.hr/Portals/0/adam/Gallery/QqyNMsn8KkaHfsbVaYX8iQ/Images/026_resize_1.jpg?w=400&h=250&mode=crop&scale=both', 'https://www.unizd.hr/Portals/0/adam/Gallery/QqyNMsn8KkaHfsbVaYX8iQ/Images/029_resize_1.jpg?w=400&h=250&mode=crop&scale=both', 'https://www.unizd.hr/Portals/0/adam/Gallery/QqyNMsn8KkaHfsbVaYX8iQ/Images/3_005_a.jpg?w=400&h=250&mode=crop&scale=both', 'https://www.unizd.hr/Portals/0/adam/Gallery/QqyNMsn8KkaHfsbVaYX8iQ/Images/4_006_a.jpg?w=400&h=250&mode=crop&scale=both']
+urls = ['https://www.unizd.hr/Portals/0/adam/Gallery/QqyNMsn8KkaHfsbVaYX8iQ/Images/026_resize_1.jpg', 'https://www.unizd.hr/Portals/0/adam/Gallery/QqyNMsn8KkaHfsbVaYX8iQ/Images/029_resize_1.jpg', 'https://www.unizd.hr/Portals/0/adam/Gallery/QqyNMsn8KkaHfsbVaYX8iQ/Images/3_005_a.jpg', 'https://www.unizd.hr/Portals/0/adam/Gallery/QqyNMsn8KkaHfsbVaYX8iQ/Images/4_006_a.jpg']
 out = {}
 for u in urls:
     try:
