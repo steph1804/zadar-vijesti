@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-02T21:01:11.305149+00:00",
+ "updated": "2026-11-02T21:15:42.395125+00:00",
  "sources": [
   {
    "name": "Antena Zadar",
@@ -145,7 +145,7 @@
   },
   {
    "name": "Jutarnji list",
-   "count": 1,
+   "count": 2,
    "ok": true,
    "feed": null,
    "errors": []
@@ -229,7 +229,7 @@
   },
   {
    "name": "Poslovni dnevnik",
-   "count": 19,
+   "count": 18,
    "ok": true,
    "feed": null,
    "errors": []
@@ -271,7 +271,7 @@
   },
   {
    "name": "Sportske novosti",
-   "count": 2,
+   "count": 3,
    "ok": true,
    "feed": null,
    "errors": []
