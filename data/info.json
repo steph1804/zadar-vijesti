@@ -105,11 +105,11 @@
  "power": [
   {
    "day": "02.11.2026",
-   "place": "Zemunik Donji",
-   "street": "Predjeli Smrdelj, Šarići i Senj",
-   "note": "",
-   "time": "08:30 - 14:00",
-   "unplanned": false
+   "place": "Zaton Obrovački",
+   "street": "",
+   "note": "predio Modrići Donji i Maričići (kvar dalekovoda)",
+   "time": "18:00 - 23:59",
+   "unplanned": true
   },
   {
    "day": "02.11.2026",
@@ -117,6 +117,14 @@
    "street": "Put gornjih Begonjića",
    "note": "Povremeni prekidi",
    "time": "08:00 - 15:00",
+   "unplanned": false
+  },
+  {
+   "day": "02.11.2026",
+   "place": "Zemunik Donji",
+   "street": "Predjeli Smrdelj, Šarići i Senj",
+   "note": "",
+   "time": "08:30 - 14:00",
    "unplanned": false
   },
   {
@@ -129,11 +137,11 @@
   },
   {
    "day": "03.11.2026",
-   "place": "Medviđa",
-   "street": "Predio Mršići Gornji",
-   "note": "",
-   "time": "08:30 - 15:00",
-   "unplanned": false
+   "place": "Zaton Obrovački",
+   "street": "",
+   "note": "predio Modrići Donji i Maričići (kvar dalekovoda)",
+   "time": "00:00 - 14:00",
+   "unplanned": true
   },
   {
    "day": "03.11.2026",
@@ -141,6 +149,14 @@
    "street": "Put Gospe od Zečeva",
    "note": "Povremeni prekidi",
    "time": "08:00 - 14:00",
+   "unplanned": false
+  },
+  {
+   "day": "03.11.2026",
+   "place": "Medviđa",
+   "street": "Predio Mršići Gornji",
+   "note": "",
+   "time": "08:30 - 15:00",
    "unplanned": false
   },
   {
@@ -490,7 +506,7 @@
  ],
  "videos": {
   "v": 2,
-  "fetched": "2026-11-02T17:00:26.421233+00:00",
+  "fetched": "2026-11-02T17:55:55.338785+00:00",
   "items": [
    {
     "id": "6lx2VAWU5bk",
