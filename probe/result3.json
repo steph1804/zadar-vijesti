@@ -1,4 +1,19 @@
 {
+ "https://www.unizd.hr/Portals/0/adam/Gallery/QqyNMsn8KkaHfsbVaYX8iQ/Images/026_resize_1.jpg": {
+  "status": 200,
+  "final": "https://www.unizd.hr/Portals/0/adam/Gallery/QqyNMsn8KkaHfsbVaYX8iQ/Images/026_resize_1.jpg",
+  "len": 324546,
+  "ctype": "image/jpeg",
+  "alt": [],
+  "links": [],
+  "api": [],
+  "next": false,
+  "head": "����\u0000\u0010JFIF\u0000\u0001\u0001\u0001\u0001,\u0001,\u0000\u0000��\u0001\u0006Exif\u0000\u0000II*\u0000\b\u0000\u0000\u0000\u0007\u0000\u0012\u0001\u0003\u0000\u0001\u0000\u0000\u0000\u0001\u0000\u0000\u0000\u001a\u0001\u0005\u0000\u0001\u0000\u0000\u0000b\u0000\u0000\u0000\u001b\u0001\u0005\u0000\u0001\u0000\u0000\u0000j\u0000\u0000\u0000(\u0001\u0003\u0000\u0001\u0000\u0000\u0000\u0002\u0000\u0000\u00001\u0001\u0002\u0000\r\u0000\u0000\u0000r\u0000\u0000\u00002\u0001\u0002\u0000\u0014\u0000\u0000\u0000�\u0000\u0000\u0000i�\u0004\u0000\u0001\u0000\u0000\u0000�\u0000\u0000\u0000\u0000\u0000\u0000\u0000,\u0001\u0000\u0000\u0001\u0000\u0000\u0000,\u0001\u0000\u0000\u0001\u0000\u0000\u0000GIMP 2.10.34\u0000\u00002023:05:02 15:28:33\u0000\u0005\u0000\u0003�\u0002\u0000\u0014\u0000\u0000\u0000�\u0000\u0000\u0000\u0004�\u0002\u0000\u0014\u0000\u0000\u0000�\u0000\u0000\u0000��\u0002\u0000\u0003\u0000\u0000\u000000\u0000\u0000��\u0002\u0000\u0003\u0000\u0000\u000000\u0000\u0000\u0001�\u0003\u0000\u0001\u0000\u0000\u0000\u0001\u0000\u0000\u0000\u0000\u0000\u0000\u00002023:04:26 14:17:51\u00002023:04:26 14:17:51\u0000��\f�http://ns.ad",
+  "items": 0,
+  "chan": "",
+  "title": "",
+  "osm": []
+ },
  "https://www.unizd.hr/Portals/0/adam/Gallery/QqyNMsn8KkaHfsbVaYX8iQ/Images/026_resize_1.jpg?w=400&h=250&mode=crop&scale=both": {
   "status": 200,
   "final": "https://www.unizd.hr/Portals/0/adam/Gallery/QqyNMsn8KkaHfsbVaYX8iQ/Images/026_resize_1.jpg?w=400&h=250&mode=crop&scale=both",
