@@ -1002,13 +1002,13 @@ function googleAnalytics() {
 // jedan na drugi i nije bilo puta natrag). Položaj na popisu pamti se i vraća po povratku.
 function appMode() {
   const app = matchMedia("(display-mode: standalone)").matches || navigator.standalone;
-  if (!app) return;
   let saved = null;
   try { saved = JSON.parse(sessionStorage.getItem("pos") || "null"); } catch (e) {}
   if (saved && saved.path === location.pathname && Date.now() - saved.t < 3600e3) {
     if (saved.shown > state.shown) { state.shown = saved.shown; list(); }
     requestAnimationFrame(() => scrollTo(0, saved.y));
   }
+  if (!app) return;
   document.addEventListener("click", e => {
     const a = e.target.closest && e.target.closest('a[target="_blank"]:not(.wa)');
     if (!a || e.defaultPrevented || e.metaKey || e.ctrlKey || e.shiftKey) return;
@@ -1066,6 +1066,28 @@ googleAnalytics();
 whatsapp();
 contact();
 if ("serviceWorker" in navigator) navigator.serviceWorker.register(BASE + "sw.js").catch(() => {});
+
+// Stara kartica (npr. Chrome otvoren od sinoć) se sama osvježi: kad se kartica pokaže ili svakih 5 minuta
+// provjerimo ima li na poslužitelju novije izdanje i, ako ima, učitamo ga.
+let lastCheck = 0;
+async function checkFresh() {
+  if (document.visibilityState !== "visible" || Date.now() - lastCheck < 60e3) return;
+  lastCheck = Date.now();
+  if (Date.now() - new Date(DATA.updated) < 14 * 60e3) return;  // izdanje je ionako svježe
+  try {
+    const r = await fetch(location.pathname + "?v=" + Date.now(), { cache: "no-store" });
+    const m = (await r.text()).match(/"updated": "([^"]+)"\}/);
+    if (m && new Date(m[1]) > new Date(DATA.updated)) {
+      try { sessionStorage.setItem("pos", JSON.stringify({ path: location.pathname, y: scrollY, shown: state.shown, t: Date.now() })); } catch (e) {}
+      location.reload();
+    }
+  } catch (e) {}
+}
+document.addEventListener("visibilitychange", checkFresh);
+addEventListener("pageshow", e => { if (e.persisted) { lastCheck = 0; checkFresh(); } });
+addEventListener("focus", checkFresh);
+setInterval(checkFresh, 5 * 60e3);
+checkFresh();
 </script>
 </body>
 </html>
