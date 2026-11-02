@@ -60,7 +60,7 @@
    "city": "Munich",
    "via": "",
    "time": "2026-11-02T15:10:00",
-   "est": "2026-11-02T15:10:00",
+   "est": "2026-11-02T15:13:00",
    "act": "",
    "status": "",
    "gate": ""
@@ -490,8 +490,16 @@
  ],
  "videos": {
   "v": 2,
-  "fetched": "2026-11-02T12:01:33.582433+00:00",
+  "fetched": "2026-11-02T13:03:26.894588+00:00",
   "items": [
+   {
+    "id": "6lx2VAWU5bk",
+    "title": "KRONIKE ZADARSKE ŽUPANIJE 95 - 31.10.2026.",
+    "channel": "Diadora TV",
+    "date": "2026-11-01T17:00:01+00:00",
+    "link": "https://www.youtube.com/watch?v=6lx2VAWU5bk",
+    "image": "https://i.ytimg.com/vi/6lx2VAWU5bk/mqdefault.jpg"
+   },
    {
     "id": "4cToWBbnrr8",
     "title": "Zadarska oporba na nogama",
@@ -603,14 +611,6 @@
     "date": "2026-10-12T08:00:40+00:00",
     "link": "https://www.youtube.com/watch?v=Z-5YxRb3AgA",
     "image": "https://i.ytimg.com/vi/Z-5YxRb3AgA/mqdefault.jpg"
-   },
-   {
-    "id": "F8TbOhybo4g",
-    "title": "Dejana oduševio događaj u Zadru: 'Kad sam saznao, skoro sam pao s terase' | RTL Danas",
-    "channel": "RTL",
-    "date": "2026-10-11T19:00:18+00:00",
-    "link": "https://www.youtube.com/watch?v=F8TbOhybo4g",
-    "image": "https://i.ytimg.com/vi/F8TbOhybo4g/mqdefault.jpg"
    }
   ]
  }
