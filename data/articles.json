@@ -21,7 +21,7 @@
  },
  {
   "title": "PALI U ZAVRŠNICI Zadar 35 minuta parirao euroligašu, Šare opet najbolji",
-  "link": "https://sport023.hr/2026/11/02/pali-u-zavrsnici-zadar-35-minuta-parirao-euroligasu-sare-opet-najbolji/",
+  "link": "https://sport023.hr/2026/11/02/dubai-zadar-izvjestaj/",
   "date": "2026-11-02T19:42:10+00:00",
   "summary": "U 6. kolu AdmiralBet ABA lige košarkaši Zadra poraženi su na gostovanju kod Dubaija rezultatom 89:75 (16:21, 19:17, 23:20, 31:17).... Objava PALI U ZAVRŠNICI Zadar 35 minuta parirao euroligašu, Šare opet najbolji pojavila se prvi puta na Sport023.",
   "image": "https://sport023.hr/wp-content/uploads/2026/11/niko-sare-kk-zadar-dubai-02-11-2026.jpg",
@@ -32,7 +32,12 @@
    "Sport"
   ],
   "source_url": "https://sport023.hr/",
-  "face": null,
+  "face": [
+   13.0,
+   34.9,
+   39.1,
+   55.2
+  ],
   "face_img": "https://sport023.hr/wp-content/uploads/2026/11/niko-sare-kk-zadar-dubai-02-11-2026.jpg"
  },
  {
@@ -417,7 +422,7 @@
   "link": "https://www.jutarnji.hr/sportske/kosarka/aba-liga/zadar-je-tri-cetvrtine-vodio-protiv-euroligasa-no-individualna-kvaliteta-kabengelea-i-shengelije-prelomila-je-utakmicu-15761777",
   "date": "2026-11-02T17:37:00+00:00",
   "summary": "DUBAI – ZADAR 89:75 (16:21, 19:17, 23:20, 31:17) DUBAI – Coca-Cola Arena. Gledatelja: 3400. Suci: Popović, Madjoski, Temalkov.",
-  "image": "https://media.jutarnji.hr/images/slike/2026/11/02/f_39828134_1280.jpg?1793649153",
+  "image": "https://media.jutarnji.hr/images/slike/2026/11/02/f_39828134_1280.jpg?1793649821",
   "source": "Sportske novosti",
   "source_topic": "Sport",
   "topics": [
@@ -431,7 +436,7 @@
    53.4,
    92.3
   ],
-  "face_img": "https://media.jutarnji.hr/images/slike/2026/11/02/f_39828134_1280.jpg?1793649153"
+  "face_img": "https://media.jutarnji.hr/images/slike/2026/11/02/f_39828134_1280.jpg?1793649821"
  },
  {
   "title": "Zadar namučio euroligaša pa pokleknuo u zadnjoj dionici",
@@ -1445,7 +1450,7 @@
   "link": "https://www.jutarnji.hr/sportske/kosarka/aba-liga/zadar-bez-po-najboljeg-igraca-ide-na-bliski-istok-i-trazi-nemoguci-skalp-kod-euroligasa-15761612",
   "date": "2026-11-02T10:50:23+00:00",
   "summary": "Bliski istok i euroligaški protivnik? Da, to košarkaše Zadra čeka u šestom kolu ABA lige kada će u ponedjeljak od 16.30 gostovati kod friško nastale, ali strašno moćne momčadi Dubaija. Serija gostovanja za Zadrane je započela u Dubrovniku, gdje je momčad iz „Grada košarke” opravdala status favorita...",
-  "image": "https://media.jutarnji.hr/images/slike/2026/10/31/f_39724924_1280.jpg?1793649153",
+  "image": "https://media.jutarnji.hr/images/slike/2026/10/31/f_39724924_1280.jpg?1793649821",
   "source": "Sportske novosti",
   "source_topic": "Sport",
   "topics": [
@@ -1459,7 +1464,7 @@
    0.0,
    100.0
   ],
-  "face_img": "https://media.jutarnji.hr/images/slike/2026/10/31/f_39724924_1280.jpg?1793649153"
+  "face_img": "https://media.jutarnji.hr/images/slike/2026/10/31/f_39724924_1280.jpg?1793649821"
  },
  {
   "title": "Kazališni vikend usred tjedna, Matija Šango Šimurina: Ovo je festival na kojem mladi dobivaju glavnu riječ",
