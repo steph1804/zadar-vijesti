@@ -147,10 +147,10 @@
     "exclude_title": "natječaj|natjecaj|javn\\w* poziv|poziv (?:za|na)|rezultat|rang[- ]?list|izbor\\w* za|stipendij|upis|prijav[aeu]\\b|odluk[aeu]\\b|obavijest o|raspored|termin|zaključ|lista kandidat|kandidatur|mikrokvalifikacij|izmjen",
     "note": "Samo novosti; bez natječaja, javnih poziva, rezultata i sličnih službenih obavijesti",
     "fallback_images": [
-      "https://www.unizd.hr/Portals/0/adam/Gallery/QqyNMsn8KkaHfsbVaYX8iQ/Images/026_resize_1.jpg?w=800&h=500&mode=crop&scale=both",
-      "https://www.unizd.hr/Portals/0/adam/Gallery/QqyNMsn8KkaHfsbVaYX8iQ/Images/029_resize_1.jpg?w=800&h=500&mode=crop&scale=both",
-      "https://www.unizd.hr/Portals/0/adam/Gallery/QqyNMsn8KkaHfsbVaYX8iQ/Images/3_005_a.jpg?w=800&h=500&mode=crop&scale=both",
-      "https://www.unizd.hr/Portals/0/adam/Gallery/QqyNMsn8KkaHfsbVaYX8iQ/Images/4_006_a.jpg?w=800&h=500&mode=crop&scale=both"
+      "https://www.unizd.hr/Portals/0/adam/Gallery/QqyNMsn8KkaHfsbVaYX8iQ/Images/026_resize_1.jpg",
+      "https://www.unizd.hr/Portals/0/adam/Gallery/QqyNMsn8KkaHfsbVaYX8iQ/Images/029_resize_1.jpg",
+      "https://www.unizd.hr/Portals/0/adam/Gallery/QqyNMsn8KkaHfsbVaYX8iQ/Images/3_005_a.jpg",
+      "https://www.unizd.hr/Portals/0/adam/Gallery/QqyNMsn8KkaHfsbVaYX8iQ/Images/4_006_a.jpg"
     ]
   },
   {

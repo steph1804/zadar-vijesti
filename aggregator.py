@@ -787,7 +787,7 @@ def main():
         backups = {s["name"]: s["fallback_images"] for s in sources if s.get("fallback_images")}
         for i in fresh:
             pics = backups.get(i["source"])
-            if pics and (not i["image"] or "placeholder" in i["image"] or "Logo" in i["image"]):
+            if pics and (not i["image"] or "placeholder" in i["image"] or "Logo" in i["image"] or "mode=crop" in i["image"]):
                 i["image"] = pics[zlib.crc32(i["link"].encode()) % len(pics)]
 
     # Obavijesti Liburnije za okvir "Autobusi": spremaju se posebno, jer na naslovnici ostaje samo
