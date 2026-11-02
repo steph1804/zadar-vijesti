@@ -1,6 +1,6 @@
 import json, re, urllib.request
 UA = "Mozilla/5.0 (compatible; LokalniAgregator/1.0; +https://idassa.click)"
-urls = ['https://www.retrozadar.com/sitemap.xml', 'https://www.retrozadar.com/posts/ravnice-od-vojnih-podzemlja-do-sportskog-srca-jazina']
+urls = ['https://cdn.sanity.io/images/3gt4ox59/production/9d44de1cc67d9ad6322fa73f98e3c24d83e1d8a6-800x596.jpg?w=480&h=300&fit=crop&auto=format']
 out = {}
 for u in urls:
     try:
