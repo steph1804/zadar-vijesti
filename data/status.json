@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-02T23:15:45.595229+00:00",
+ "updated": "2026-11-02T23:31:15.277258+00:00",
  "sources": [
   {
    "name": "Antena Zadar",
@@ -215,7 +215,7 @@
   },
   {
    "name": "Croatian Aviation",
-   "count": 5,
+   "count": 4,
    "ok": true,
    "feed": null,
    "errors": []
