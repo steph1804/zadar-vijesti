@@ -1,5 +1,48 @@
 [
  {
+  "title": "Što s građevinskim otpadom nakon zatvaranja Dikla?",
+  "link": "https://radio.hrt.hr/radio-zadar/vijesti/sto-s-gradevinskim-otpadom-nakon-zatvaranja-dikla--12989182",
+  "date": "2026-11-02T17:23:42+00:00",
+  "summary": "Zatvaranjem odlagališta otpada u Diklu obustavljena je mogućnost odlaganja svih vrsta otpada na navedenoj lokaciji, objavila je zadarska Čistoća.&nbsp;",
+  "image": "https://api.hrt.hr/media/dc/ba/diklo-novo-20261102172335.webp",
+  "source": "HRT Radio Zadar",
+  "topics": [
+   "Zadar"
+  ],
+  "source_url": "https://radio.hrt.hr/radio-zadar",
+  "face": null,
+  "face_img": "https://api.hrt.hr/media/dc/ba/diklo-novo-20261102172335.webp"
+ },
+ {
+  "title": "Završeni radovi na rotoru na Putu Nina",
+  "link": "https://radio.hrt.hr/radio-zadar/vijesti/zavrseni-radovi-na-rotoru-na-putu-nina-12989177",
+  "date": "2026-11-02T17:18:11+00:00",
+  "summary": "Radovi na rotoru u Ulici Put Nina dovršeni su, kako je i bilo najavljivano, u petak, 30. listopada u popodnevnim satima.&nbsp;",
+  "image": "https://api.hrt.hr/media/a6/42/rotor-20261102171725.webp",
+  "source": "HRT Radio Zadar",
+  "topics": [
+   "Zadar"
+  ],
+  "source_url": "https://radio.hrt.hr/radio-zadar",
+  "face": null,
+  "face_img": "https://api.hrt.hr/media/a6/42/rotor-20261102171725.webp"
+ },
+ {
+  "title": "135. godišnjica stradanja prijeških lavandijera",
+  "link": "https://www.nasiskolji.hr/2026/11/02/135-godisnjica-stradanja-prijeskih-lavandijera/",
+  "date": "2026-11-02T17:15:11+00:00",
+  "summary": "Objava 135. godišnjica stradanja prijeških lavandijera pojavila se prvi puta na Naši školji.",
+  "image": "https://www.nasiskolji.hr/wp-content/uploads/2026/11/1P8A2977_1550x1050.jpg",
+  "source": "Naši školji",
+  "source_topic": "Otoci",
+  "topics": [
+   "Otoci"
+  ],
+  "source_url": "https://www.nasiskolji.hr/",
+  "face": null,
+  "face_img": "https://www.nasiskolji.hr/wp-content/uploads/2026/11/1P8A2977_1550x1050.jpg"
+ },
+ {
   "title": "MURVICA Mališani učili kako svakodnevnim djelima nekome uljepšati dan",
   "link": "https://www.antenazadar.hr/clanak/2026/11/murvica-malisani-ucili-kako-svakodnevnim-djelima-nekome-uljepsati-dan/",
   "date": "2026-11-02T17:02:18+00:00",
@@ -39,8 +82,8 @@
   "face_img": "https://static.slobodnadalmacija.hr/images/slike/2026/11/02/32308413.jpg"
  },
  {
-  "title": "Tragedija koju Preko ne zaboravlja: U orkanskom jugu poginulo 16 lavandijera",
-  "link": "https://zadarskilist.novilist.hr/zadar-zupanija/tragedija-koju-preko-ne-zaboravlja-u-orkanskom-jugu-poginulo-16-lavandijera/",
+  "title": "Tragedija koju Preko ne zaboravlja: ‘Svaka obitelj toga je dana izgubila nekoga svoga’",
+  "link": "https://zadarskilist.novilist.hr/zadar-zupanija/tragedija-koju-preko-ne-zaboravlja-svaka-obitelj-toga-je-dana-izgubila-nekoga-svoga/",
   "date": "2026-11-02T16:16:56+00:00",
   "summary": "Na današnji dan, 2. studenoga 1891. godine, dogodila se jedna od najvećih tragedija u povijesti Preka na otoku Ugljanu. U pomorskoj nesreći život je izgubilo 16 pralja koje su svojim radom prehranjivale obitelji, svakodnevno prevozeći rublje između otoka i Zadra.",
   "image": "https://zadarskilist.novilist.hr/wp-content/uploads/2026/11/9013552.jpg",
@@ -927,7 +970,7 @@
   "link": "https://www.jutarnji.hr/sportske/kosarka/aba-liga/zadar-bez-po-najboljeg-igraca-ide-na-bliski-istok-i-trazi-nemoguci-skalp-kod-euroligasa-15761612",
   "date": "2026-11-02T10:50:23+00:00",
   "summary": "Bliski istok i euroligaški protivnik? Da, to košarkaše Zadra čeka u šestom kolu ABA lige kada će u ponedjeljak od 16.30 gostovati kod friško nastale, ali strašno moćne momčadi Dubaija. Serija gostovanja za Zadrane je započela u Dubrovniku, gdje je momčad iz „Grada košarke” opravdala status favorita...",
-  "image": "https://media.jutarnji.hr/images/slike/2026/10/31/f_39724924_1280.jpg?1793639682",
+  "image": "https://media.jutarnji.hr/images/slike/2026/10/31/f_39724924_1280.jpg?1793640599",
   "source": "Sportske novosti",
   "source_topic": "Sport",
   "topics": [
@@ -941,7 +984,7 @@
    0.0,
    100.0
   ],
-  "face_img": "https://media.jutarnji.hr/images/slike/2026/10/31/f_39724924_1280.jpg?1793639682"
+  "face_img": "https://media.jutarnji.hr/images/slike/2026/10/31/f_39724924_1280.jpg?1793640599"
  },
  {
   "title": "Kazališni vikend usred tjedna, Matija Šango Šimurina: Ovo je festival na kojem mladi dobivaju glavnu riječ",
@@ -5032,65 +5075,6 @@
   "face_img": "https://zadarskilist.novilist.hr/wp-content/uploads/2026/10/12464225-1.jpg"
  },
  {
-  "title": "Bičić dirigirao, a sjajni Ogden predvodio Zadar do pobjede u Dubrovniku",
-  "link": "https://ezadar.net.hr/sport/3589566/bicic-dirigirao-a-sjajni-ogden-predvodio-zadar-do-pobjede-u-dubrovniku/",
-  "date": "2026-10-30T19:42:35+00:00",
-  "summary": "U 6. kolu Premijer lige Zadar je na gostovanju kod Dubrovnika slavio s rezultatom 71:105",
-  "image": "https://cdn-ezadar.net.hr/wp-content/uploads/20261011-104922-stj09615-c04696f4708de571a688a6ab-1052x696.jpg",
-  "source": "eZadar",
-  "topics": [
-   "Zadar",
-   "Sport"
-  ],
-  "source_url": "https://ezadar.net.hr/",
-  "face": [
-   36.3,
-   72.0,
-   14.8,
-   58.6
-  ],
-  "face_img": "https://cdn-ezadar.net.hr/wp-content/uploads/20261011-104922-stj09615-c04696f4708de571a688a6ab-1052x696.jpg"
- },
- {
-  "title": "ŠESTA U NIZU Zadrani napunili koš Dubrovčana i nastavili pobjednički marš –  Amerikanci posebno raspoloženi",
-  "link": "https://www.antenazadar.hr/clanak/2026/10/sesta-u-nizu-zadrani-napunili-kos-dubrovcana-i-nastavili-pobjednicki-mars-amerikanci-posebno-raspolozeni/",
-  "date": "2026-10-30T19:42:25+00:00",
-  "summary": "DUBROVNIK – ZADAR 71:105 (16:14, 15:30, 18:29, 22:32). DUBROVNIK – Dvorana “Gospino polje”. Gledatelja: 300 SuperSport Premijer liga: 6. kolo.",
-  "image": "https://www.antenazadar.hr/wp-content/uploads/2026/10/normal_20261017-160012-IMG_2648.jpg",
-  "source": "Antena Zadar",
-  "topics": [
-   "Zadar",
-   "Sport"
-  ],
-  "source_url": "https://www.antenazadar.hr/",
-  "face": [
-   14.3,
-   42.5,
-   3.8,
-   79.4
-  ],
-  "face_img": "https://www.antenazadar.hr/wp-content/uploads/2026/10/normal_20261017-160012-IMG_2648.jpg"
- },
- {
-  "title": "Zadar se večeras vraća u sedamdesete: u A’mare se pleše uz disco hitove",
-  "link": "https://ezadar.net.hr/lifestyle/3589567/disco-fever-amare-zadar-31-listopada-2026/",
-  "date": "2026-10-30T19:28:44+00:00",
-  "summary": "Disco Fever u subotu, 31. listopada, od 20 sati donosi nastup Eter Banda i DJ Shpela. Ulaznice su dostupne na recepciji hotela A’mare. Ako vas disco hitovi podsjećaju na prave",
-  "image": "https://cdn-ezadar.net.hr/wp-content/uploads/untitled-design-42-0f27ba45172da820a99fcd7b-1052x696.png",
-  "source": "eZadar",
-  "topics": [
-   "Zadar"
-  ],
-  "source_url": "https://ezadar.net.hr/",
-  "face": [
-   11.5,
-   76.9,
-   6.6,
-   78.5
-  ],
-  "face_img": "https://cdn-ezadar.net.hr/wp-content/uploads/untitled-design-42-0f27ba45172da820a99fcd7b-1052x696.png"
- },
- {
   "title": "Afera Diklo pred zadarskim vijećnicima",
   "link": "https://vijesti.hrt.hr/hrvatska/afera-diklo-pred-zadarskim-vijecnicima-12984384",
   "date": "2026-10-30T15:58:09+00:00",
@@ -5131,23 +5115,6 @@
   "source_url": "https://www.tportal.hr/",
   "face": null,
   "face_img": "https://www.tportal.hr/media/thumbnail/500x300/2819480.jpeg?cropId=0"
- },
- {
-  "title": "Zadar i otok Ugljan bit će 2027. domaćini velikog međunarodnog triatlona XTERRA",
-  "link": "https://www.nasiskolji.hr/2026/10/29/zadar-i-otok-ugljan-bit-ce-2027-domacini-velikog-medunarodnog-triatlona-xterra/",
-  "date": "2026-10-29T18:49:47+00:00",
-  "summary": "Vodeći svjetski off-road triatlon brend XTERRA dolazi u Zadarsku županiju i Grad Zadar. Od 22. do 24. listopada 2027. Zadar i otok Ugljan ugostit će XTERRA Croatia Zadar – Ugljan Island 2027, trodnevni sportski događaj koji će na jedinstven način povezati grad, otok i more.",
-  "image": "https://www.nasiskolji.hr/wp-content/uploads/2026/10/SIZ_1068_1575x1050.jpg",
-  "source": "Naši školji",
-  "source_topic": "Otoci",
-  "topics": [
-   "Zadar",
-   "Županija",
-   "Otoci"
-  ],
-  "source_url": "https://www.nasiskolji.hr/",
-  "face": null,
-  "face_img": "https://www.nasiskolji.hr/wp-content/uploads/2026/10/SIZ_1068_1575x1050.jpg"
  },
  {
   "title": "Grad Zadar i otok Ugljan 2027. postaju domaćini velikog međunarodnog triatlonskog događaja",
@@ -5204,27 +5171,6 @@
   "source_url": "https://liburnija-zadar.hr/novosti/",
   "face": null,
   "face_img": "https://liburnija-zadar.hr/wp-content/uploads/2026/10/OBAVIJEST_BIBINJE_MARINA-729x1030.jpg"
- },
- {
-  "title": "Aurora Valčić iz Preka pobijedila na manifestaciji „Mali koreograf 2026.”",
-  "link": "https://www.nasiskolji.hr/2026/10/28/aurora-valcic-iz-preka-pobijedila-na-manifestaciji-mali-koreograf/",
-  "date": "2026-10-28T09:51:55+00:00",
-  "summary": "U organizaciji Plesne udruge Gesta iz Zadra, protekli vikend održano je šesto izdanje plesne manifestacije „Mali koreograf 2026.”. Na završnoj večeri 24. listopada u Kazalištu lutaka Zadar nastupilo je 17 finalista koji su publici i stručnom žiriju predstavili svoje autorske koreografije.",
-  "image": "https://www.nasiskolji.hr/wp-content/uploads/2026/10/aurora-6.jpeg",
-  "source": "Naši školji",
-  "source_topic": "Otoci",
-  "topics": [
-   "Zadar",
-   "Otoci"
-  ],
-  "source_url": "https://www.nasiskolji.hr/",
-  "face": [
-   7.8,
-   46.0,
-   5.4,
-   83.7
-  ],
-  "face_img": "https://www.nasiskolji.hr/wp-content/uploads/2026/10/aurora-6.jpeg"
  },
  {
   "title": "Vir skriva priču od koje prolaze trnci! U jednom grobu dvojica muškaraca bez glava, u drugom ostaci više male djece",
@@ -5286,23 +5232,6 @@
   "source_url": "https://liburnija-zadar.hr/novosti/",
   "face": null,
   "face_img": "https://liburnija-zadar.hr/wp-content/uploads/2026/10/OBAVIJEST_SVI_SVETI-1-729x1030.jpg"
- },
- {
-  "title": "Priznanja za 56 darivatelja i gotovo tri tisuće darivanja krvi",
-  "link": "https://www.nasiskolji.hr/2026/10/26/priznanja-za-56-darivatelja-i-gotovo-tri-tisuce-darivanja-krvi/",
-  "date": "2026-10-26T15:49:24+00:00",
-  "summary": "U povodu Dana dobrovoljnih darivatelja krvi, koji se obilježava 25. listopada, u Domu Zadarske županije održan je tradicionalni svečani prijem za jubilarne darivatelje krvi. Ove godine priznanja je zaslužilo 56 darivateljica i darivatelja koji su zajedno krv darovali čak 2.995 puta.",
-  "image": "https://www.nasiskolji.hr/wp-content/uploads/2026/10/3A0A9205-1-scaled.jpg",
-  "source": "Naši školji",
-  "source_topic": "Otoci",
-  "topics": [
-   "Zadar",
-   "Županija",
-   "Otoci"
-  ],
-  "source_url": "https://www.nasiskolji.hr/",
-  "face": null,
-  "face_img": "https://www.nasiskolji.hr/wp-content/uploads/2026/10/3A0A9205-1-scaled.jpg"
  },
  {
   "title": "HRVATSKA – SLOVENIJA 2-0 Zadar uzeo drugu regionalnu pobjedu, šestorica zabila deset plus koševa",
