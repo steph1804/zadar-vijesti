@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-02T06:53:02.296207+00:00",
+ "updated": "2026-11-02T07:01:14.610059+00:00",
  "sources": [
   {
    "name": "Antena Zadar",
@@ -10,7 +10,7 @@
   },
   {
    "name": "Zadarski list",
-   "count": 5,
+   "count": 6,
    "ok": true,
    "feed": null,
    "errors": []
@@ -82,7 +82,7 @@
   },
   {
    "name": "HRT Radio Zadar",
-   "count": 8,
+   "count": 9,
    "ok": true,
    "feed": null,
    "errors": []
@@ -264,8 +264,8 @@
   },
   {
    "name": "Sportske novosti",
-   "count": 1,
-   "ok": true,
+   "count": 0,
+   "ok": false,
    "feed": null,
    "errors": []
   },
