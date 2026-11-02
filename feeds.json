@@ -85,6 +85,17 @@
     "note": "Službene vijesti kluba, sve su o Zadru"
   },
   {
+    "name": "SC Višnjik",
+    "site": "https://visnjik.hr/novosti/",
+    "feeds": [
+      "https://visnjik.hr/feed/"
+    ],
+    "local_only": false,
+    "topic": "Sport",
+    "exclude_title": "natječaj|natjecaj|javn\\w* poziv|javn\\w* nabav",
+    "note": "Športski centar Višnjik: novosti, sportska događanja, Planet Višnjik; bez natječaja"
+  },
+  {
     "name": "Naši školji",
     "site": "https://www.nasiskolji.hr/",
     "feeds": [
