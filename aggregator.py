@@ -8,6 +8,7 @@ import concurrent.futures
 import email.utils
 import html
 import json
+import zlib
 import os
 import re
 import shutil
@@ -782,6 +783,12 @@ def main():
         for i, (img, desc) in zip(missing, pool.map(lambda i: og_meta(i["link"]), missing)):
             i["image"] = i["image"] or img
             i["summary"] = i["summary"] or desc or ""
+        # Izvor bez slike u članku (npr. Sveučilište) dobije jednu od fotografija s vlastitog weba ("fallback_images").
+        backups = {s["name"]: s["fallback_images"] for s in sources if s.get("fallback_images")}
+        for i in fresh:
+            pics = backups.get(i["source"])
+            if pics and (not i["image"] or "placeholder" in i["image"] or "Logo" in i["image"]):
+                i["image"] = pics[zlib.crc32(i["link"].encode()) % len(pics)]
 
     # Obavijesti Liburnije za okvir "Autobusi": spremaju se posebno, jer na naslovnici ostaje samo
     # ~300 najnovijih članaka pa bi obavijesti starije od dan-dva nestale iz okvira.
