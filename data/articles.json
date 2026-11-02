@@ -1,5 +1,40 @@
 [
  {
+  "title": "Olujni vjetar odsjekao otoke, zatvorene ključne autoceste!",
+  "link": "https://www.morski.hr/olujni-vjetar-odsjekao-otoke-zatvorene-kljucne-autoceste/",
+  "date": "2026-11-02T07:48:49+00:00",
+  "summary": "Prema najnovijem izvješću Hrvatskog autokluba, nepovoljne vremenske prilike potpuno su paralizirale brojne morske rute. U prekidu je trajektna povezanost između Prizne i Žigljena te linija koja spaja zadarsku Gaženicu s otocima Istom, Olibom, Silbom, Premudom i Malim Lošinjem. Pomorski promet",
+  "image": "https://storage.ghost.io/c/8c/e6/8ce68df1-b8bf-474a-a3e0-701a018ef40d/content/images/2026/11/Trajekt-Hrvat-bura.jpg",
+  "source": "Morski.hr",
+  "topics": [
+   "Zadar",
+   "Županija",
+   "Otoci"
+  ],
+  "source_url": "https://www.morski.hr/",
+  "face": null,
+  "face_img": "https://storage.ghost.io/c/8c/e6/8ce68df1-b8bf-474a-a3e0-701a018ef40d/content/images/2026/11/Trajekt-Hrvat-bura.jpg"
+ },
+ {
+  "title": "Euroligaški div čeka Zadrane: Modrićeva momčad nema što izgubiti, a može dobiti jako puno",
+  "link": "https://slobodnadalmacija.hr/dalmacija/zadar/euroligaski-div-ceka-zadrane-modriceva-momcad-nema-sto-izgubiti-a-moze-dobiti-jako-puno-1587977",
+  "date": "2026-11-02T07:46:20+00:00",
+  "summary": "Bliski istok i euroligaški protivnik? Da, to košarkaše Zadra čeka u šestom kolu ABA lige kada će u ponedjeljak od 16.30 gostovati kod friško nastale, ali strašno moćne momčadi Dubaija. Serija gostovanja za Zadrane je započela u Dubrovniku, gdje je momčad iz „Grada košarke” opravdala status favorita...",
+  "image": "https://static.slobodnadalmacija.hr/images/slike/2026/10/31/32719555.jpg",
+  "source": "Slobodna Dalmacija/Zadar",
+  "topics": [
+   "Zadar"
+  ],
+  "source_url": "https://slobodnadalmacija.hr/dalmacija/zadar",
+  "face": [
+   3.6,
+   95.9,
+   1.8,
+   85.9
+  ],
+  "face_img": "https://static.slobodnadalmacija.hr/images/slike/2026/10/31/32719555.jpg"
+ },
+ {
   "title": "Dalmatinski ciklus u Zadru; Brass & Percussion Septet Dubrovačkog simfonijskog orkestra večeras nastupa u Kneževoj palači",
   "link": "https://023.hr/2026/11/dalmatinski-ciklus-u-zadru-brass-percussion-septet-dubrovackog-simfonijskog-orkestra-veceras-nastupa-u-knezevoj-palaci/",
   "date": "2026-11-02T07:42:12+00:00",
@@ -33,14 +68,21 @@
   "link": "https://sport023.hr/2026/11/02/dubai-zadar-najava/",
   "date": "2026-11-02T07:38:29+00:00",
   "summary": "Košarkaši Zadra danas od 16:30 igraju utakmicu 6. kola ABA lige na gostovanju kod Dubaija. Jedna je to od onih... Objava ZADAR TRAŽI ČUDO U DUBAIJU Stipe Modrić: “Ako vidimo šansu, nadam se da ćemo je iskoristiti” pojavila se prvi puta na Sport023.",
-  "image": null,
+  "image": "https://sport023.hr/wp-content/uploads/2026/10/dario-dreznjak-mega-zadar-10-26.jpg",
   "source": "Sport023",
   "source_topic": "Sport",
   "topics": [
    "Zadar",
    "Sport"
   ],
-  "source_url": "https://sport023.hr/"
+  "source_url": "https://sport023.hr/",
+  "face": [
+   13.0,
+   28.2,
+   39.5,
+   83.6
+  ],
+  "face_img": "https://sport023.hr/wp-content/uploads/2026/10/dario-dreznjak-mega-zadar-10-26.jpg"
  },
  {
   "title": "Što sve donosi modernizacija Ekonomsko-birotehničke i trgovačke škole Zadar?",
@@ -69,6 +111,27 @@
   "source_url": "https://023.hr/",
   "face": null,
   "face_img": "https://023.hr/wp-content/uploads/2026/11/20261102083431_177338-scaled.avif"
+ },
+ {
+  "title": "Na Višnjiku peto prvenstvo Balkana u gimnastici",
+  "link": "https://visnjik.hr/sportska-dogadanja/na-visnjiku-peto-prvenstvo-balkana-u-gimnastici-02-11-2026/",
+  "date": "2026-11-02T07:27:04+00:00",
+  "summary": "FOTO: Nenad Opačić Peto po redu Balkansko prvenstvo u sportskoj gimnastici održat će se u Dvorani Krešimira Ćosića od 15. do 19. studenog 2026. godine. Organizator natjecanja je GK Salto uz podršku Hrvatskog gimnastičkog saveza, a na prvenstvu će nastupiti jedanaest reprezentacija u kadetskoj i juniorskoj konkurenciji.",
+  "image": "https://visnjik.hr/wp-content/uploads/2025/11/4-prvenstvo-balkana-u-gimnastici-04-11-2025-gimnastika-27.jpg",
+  "source": "SC Višnjik",
+  "source_topic": "Sport",
+  "topics": [
+   "Zadar",
+   "Sport"
+  ],
+  "source_url": "https://visnjik.hr/novosti/",
+  "face": [
+   34.3,
+   40.1,
+   47.6,
+   50.1
+  ],
+  "face_img": "https://visnjik.hr/wp-content/uploads/2025/11/4-prvenstvo-balkana-u-gimnastici-04-11-2025-gimnastika-27.jpg"
  },
  {
   "title": "ZBOG JAKE BURE Obustavljene linije prema dijelu zadarskih otoka",
@@ -4524,6 +4587,22 @@
   "face_img": "https://www.grad-zadar.hr/data/images/image/grad550x325/35334/SIZ_1258.jpg"
  },
  {
+  "title": "Započeli radovi u maloj sportskoj dvorani na OZT-u",
+  "link": "https://visnjik.hr/novosti/zapoceli-radovi-u-maloj-sportskoj-dvorani-na-ozt-u-31-10-2026/",
+  "date": "2026-10-30T11:30:40+00:00",
+  "summary": "FOTO: Nenad Opačić Započeli su radovi na uređenju svlačionica, sanitarnih čvorova i popratnih prostora u sklopu male sportske dvorane na OZT-u u sklopu Športskog centra Višnjik.",
+  "image": "https://visnjik.hr/wp-content/uploads/2026/10/radovi-svlacionice-gimnastika-dvorana-30-10-2026-6.jpg",
+  "source": "SC Višnjik",
+  "source_topic": "Sport",
+  "topics": [
+   "Zadar",
+   "Sport"
+  ],
+  "source_url": "https://visnjik.hr/novosti/",
+  "face": null,
+  "face_img": "https://visnjik.hr/wp-content/uploads/2026/10/radovi-svlacionice-gimnastika-dvorana-30-10-2026-6.jpg"
+ },
+ {
   "title": "Zadarski poduzetnici traže veću sigurnost, Grad odbio: ‘Petogodišnji ugovori su dovoljni’",
   "link": "https://zadarskilist.novilist.hr/zadar-zupanija/zadarski-poduzetnici-traze-vecu-sigurnost-grad-odbio-petogodisnji-ugovori-su-dovoljni/",
   "date": "2026-10-30T11:30:18+00:00",
@@ -5036,69 +5115,6 @@
   "source_url": "https://zadarskilist.novilist.hr/",
   "face": null,
   "face_img": "https://zadarskilist.novilist.hr/wp-content/uploads/2026/10/ipiccy_image-40.jpg"
- },
- {
-  "title": "Provaljivao u protupožarne ormariće i krao vatrogasnu opremu!",
-  "link": "https://slobodnadalmacija.hr/dalmacija/zadar/provaljivao-u-protupozarne-ormarice-i-krao-vatrogasnu-opremu-1587500",
-  "date": "2026-10-30T09:30:00+00:00",
-  "summary": "Tijekom rujna i listopada nepoznati počinitelj na nekoliko je lokacija u Benkovcu nasilno otvorio protupožarne ormariće i iz njih ukrao vatrogasne cijevi i mlaznice. Prema informacijama zadarske policije, krađom je oštećena jedinica lokalne samouprave, a materijalna šteta procjenjuje se na više stot...",
-  "image": "https://static.slobodnadalmacija.hr/images/slike/2026/10/30/32683232.jpg",
-  "source": "Slobodna Dalmacija/Zadar",
-  "topics": [
-   "Zadar",
-   "Županija"
-  ],
-  "source_url": "https://slobodnadalmacija.hr/dalmacija/zadar",
-  "face": null,
-  "face_img": "https://static.slobodnadalmacija.hr/images/slike/2026/10/30/32683232.jpg"
- },
- {
-  "title": "Biogradska osnovna škola ide u veliku obnovu: 11 novih učionica, kuhinja i blagovaonica",
-  "link": "https://ezadar.net.hr/info/3589466/biogradska-osnovna-skola-ide-u-veliku-obnovu-11-novih-ucionica-kuhinja-i-blagovaonica/",
-  "date": "2026-10-30T09:30:00+00:00",
-  "summary": "Projekt vrijedan 13,16 milijuna eura trebao bi omogućiti nastavu u jednoj smjeni i bolje uvjete za učenike. Za radove je ugovorena tvrtka Lavčević – Inženjering, a najveći dio financiranja osiguran",
-  "image": "https://cdn-ezadar.net.hr/wp-content/uploads/bnm-5c92590544e00dd5f7cde4da.jpg",
-  "source": "eZadar",
-  "topics": [
-   "Županija"
-  ],
-  "source_url": "https://ezadar.net.hr/",
-  "face": null,
-  "face_img": "https://cdn-ezadar.net.hr/wp-content/uploads/bnm-5c92590544e00dd5f7cde4da.jpg"
- },
- {
-  "title": "HIT PREDSTAVA / “Obiteljsko vijeće” 6. studenog u HNK Zadar!",
-  "link": "https://www.znet.hr/2026/10/30/hit-predstava-obiteljsko-vijece-6-studenog-u-hnk-zadar/",
-  "date": "2026-10-30T09:20:00+00:00",
-  "summary": "Španjolska dramatičarka Cristina Clemente obitelj promatra kao društvo u malom – prostor u kojem se bliskost neprestano prepleće s autoritetom, pravilima i borbom za pravo odlučivanja.",
-  "image": "https://www.znet.hr/wp-content/uploads/2026/10/Snimka-zaslona-2026-10-30-070616-717x600.png",
-  "source": "Znet",
-  "topics": [
-   "Zadar",
-   "Sport"
-  ],
-  "source_url": "https://www.znet.hr/",
-  "face": [
-   24.2,
-   53.6,
-   13.3,
-   86.5
-  ],
-  "face_img": "https://www.znet.hr/wp-content/uploads/2026/10/Snimka-zaslona-2026-10-30-070616-717x600.png"
- },
- {
-  "title": "Tko to nelegalno odlaže kominu od maslina na lovačko područje na Novom Bokanjcu? Gaši tražio hitnu sanaciju i kažnjavanje počinitelja",
-  "link": "https://023.hr/2026/10/tko-to-nelegalno-odlaze-kominu-od-maslina-na-lovacko-podrucje-na-novom-bokanjcu-gasi-trazio-hitnu-sanaciju-i-kaznjavanje-pocinitelja/",
-  "date": "2026-10-30T09:19:32+00:00",
-  "summary": "Na današnjem Aktualnom satu Gradskog vijeća SDP-ov vijećnik Erol Gaši upozorio je na odlagalište komine za kojeg je saznao nakon dojave jedne sugrađanke.",
-  "image": "https://023.hr/wp-content/uploads/2026/10/20261030101823_635721.avif",
-  "source": "023 portal",
-  "topics": [
-   "Zadar"
-  ],
-  "source_url": "https://023.hr/",
-  "face": null,
-  "face_img": "https://023.hr/wp-content/uploads/2026/10/20261030101823_635721.avif"
  },
  {
   "title": "Zbog vjetra između čvorova Sveti Rok i Posedarje samo osobna vozila",
