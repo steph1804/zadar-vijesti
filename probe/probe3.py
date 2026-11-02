@@ -1,6 +1,6 @@
 import json, re, urllib.request
 UA = "Mozilla/5.0 (compatible; LokalniAgregator/1.0; +https://idassa.click)"
-urls = ['https://www.retrozadar.com/blog', 'https://www.retrozadar.com/blog-feed.xml', 'https://www.retrozadar.com/robots.txt']
+urls = ['https://www.retrozadar.com/sitemap.xml', 'https://www.retrozadar.com/posts/ravnice-od-vojnih-podzemlja-do-sportskog-srca-jazina']
 out = {}
 for u in urls:
     try:
