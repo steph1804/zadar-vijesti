@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-02T00:15:47.050050+00:00",
+ "updated": "2026-11-02T00:31:00.591399+00:00",
  "sources": [
   {
    "name": "Antena Zadar",
@@ -45,28 +45,26 @@
   },
   {
    "name": "Sport023",
-   "count": 0,
-   "ok": false,
+   "count": 9,
+   "ok": true,
    "feed": null,
-   "errors": [
-    "https://sport023.hr/feed/: mismatched tag: line 93, column 2"
-   ]
+   "errors": []
   },
   {
    "name": "KK Zadar",
-   "count": 0,
-   "ok": false,
-   "feed": null,
-   "errors": [
-    "https://kkzadar.hr/feed/: mismatched tag: line 93, column 2"
-   ]
-  },
-  {
-   "name": "Naši školji",
    "count": 10,
    "ok": true,
    "feed": null,
    "errors": []
+  },
+  {
+   "name": "Naši školji",
+   "count": 0,
+   "ok": false,
+   "feed": null,
+   "errors": [
+    "https://www.nasiskolji.hr/feed/: <urlopen error timed out>"
+   ]
   },
   {
    "name": "Grad Zadar",
@@ -77,12 +75,10 @@
   },
   {
    "name": "Zadarska županija",
-   "count": 0,
-   "ok": false,
+   "count": 10,
+   "ok": true,
    "feed": null,
-   "errors": [
-    "https://www.zadarska-zupanija.hr/novosti-arhiva?format=feed&type=rss: mismatched tag: line 93, column 2"
-   ]
+   "errors": []
   },
   {
    "name": "HRT Radio Zadar",
@@ -100,12 +96,10 @@
   },
   {
    "name": "Opća bolnica Zadar",
-   "count": 0,
-   "ok": false,
+   "count": 6,
+   "ok": true,
    "feed": null,
-   "errors": [
-    "https://www.bolnica-zadar.hr/feed/: mismatched tag: line 93, column 2"
-   ]
+   "errors": []
   },
   {
    "name": "Liburnija Zadar",
@@ -259,9 +253,7 @@
    "count": 0,
    "ok": false,
    "feed": null,
-   "errors": [
-    "https://hrvatska-danas.com/feed/: mismatched tag: line 93, column 2"
-   ]
+   "errors": []
   },
   {
    "name": "HRTurizam",
