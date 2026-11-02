@@ -1,11 +1,11 @@
 import json, re, urllib.request
 UA = "Mozilla/5.0 (compatible; LokalniAgregator/1.0; +https://idassa.click)"
-urls = ["https://www.unizd.hr/", "https://www.unizd.hr/obavijesti/view/privremeni-rezultati-dopunskih-izbora-za-studentske-predstavnike-u-strucnom-vijecu-odjela-nakon-ponovljenog-glasovanja", "https://www.unizd.hr/o-nama"]
+urls = ['https://www.unizd.hr/Portals/0/adam/Gallery/QqyNMsn8KkaHfsbVaYX8iQ/Images/026_resize_1.jpg?w=400&h=250&mode=crop&scale=both', 'https://www.unizd.hr/Portals/0/adam/Gallery/QqyNMsn8KkaHfsbVaYX8iQ/Images/029_resize_1.jpg?w=400&h=250&mode=crop&scale=both', 'https://www.unizd.hr/Portals/0/adam/Gallery/QqyNMsn8KkaHfsbVaYX8iQ/Images/3_005_a.jpg?w=400&h=250&mode=crop&scale=both', 'https://www.unizd.hr/Portals/0/adam/Gallery/QqyNMsn8KkaHfsbVaYX8iQ/Images/4_006_a.jpg?w=400&h=250&mode=crop&scale=both']
 out = {}
 for u in urls:
     try:
         r = urllib.request.urlopen(urllib.request.Request(u, headers={"User-Agent": UA}), timeout=30)
-        b = r.read().decode("utf-8", "replace")
+        raw = r.read(); open("probe/img%d.jpg" % urls.index(u), "wb").write(raw); b = raw.decode("utf-8", "replace")
         out[u] = {"status": r.status, "final": r.geturl(), "len": len(b), "ctype": r.headers.get("Content-Type"),
                   "alt": re.findall(r'<link[^>]+(?:rss|atom)[^>]*>', b)[:5],
                   "links": sorted(set(re.findall(r'(?:src|content|data-src)="([^"]+\.(?:jpe?g|png|webp)[^"]*)"', b, re.I)))[:80], "api": sorted(set(re.findall(r'https?://[a-z0-9.-]*hrt\\.hr/[^"\\s<>]*(?:api|json|graphql|feed)[^"\\s<>]*', b)))[:20], "next": "__NEXT_DATA__" in b,
