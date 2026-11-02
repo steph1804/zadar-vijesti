@@ -1,62 +1,56 @@
 {
- "https://www.unizd.hr/Portals/0/adam/Gallery/QqyNMsn8KkaHfsbVaYX8iQ/Images/026_resize_1.jpg": {
+ "https://www.retrozadar.com/blog": {
   "status": 200,
-  "final": "https://www.unizd.hr/Portals/0/adam/Gallery/QqyNMsn8KkaHfsbVaYX8iQ/Images/026_resize_1.jpg",
-  "len": 324546,
-  "ctype": "image/jpeg",
+  "final": "https://www.retrozadar.com/blog",
+  "len": 152796,
+  "ctype": "text/html; charset=UTF-8",
   "alt": [],
-  "links": [],
+  "links": [
+   "https://www.retrozadar.com/og2.png"
+  ],
   "api": [],
-  "next": false,
-  "head": "����\u0000\u0010JFIF\u0000\u0001\u0001\u0001\u0001,\u0001,\u0000\u0000��\u0001\u0006Exif\u0000\u0000II*\u0000\b\u0000\u0000\u0000\u0007\u0000\u0012\u0001\u0003\u0000\u0001\u0000\u0000\u0000\u0001\u0000\u0000\u0000\u001a\u0001\u0005\u0000\u0001\u0000\u0000\u0000b\u0000\u0000\u0000\u001b\u0001\u0005\u0000\u0001\u0000\u0000\u0000j\u0000\u0000\u0000(\u0001\u0003\u0000\u0001\u0000\u0000\u0000\u0002\u0000\u0000\u00001\u0001\u0002\u0000\r\u0000\u0000\u0000r\u0000\u0000\u00002\u0001\u0002\u0000\u0014\u0000\u0000\u0000�\u0000\u0000\u0000i�\u0004\u0000\u0001\u0000\u0000\u0000�\u0000\u0000\u0000\u0000\u0000\u0000\u0000,\u0001\u0000\u0000\u0001\u0000\u0000\u0000,\u0001\u0000\u0000\u0001\u0000\u0000\u0000GIMP 2.10.34\u0000\u00002023:05:02 15:28:33\u0000\u0005\u0000\u0003�\u0002\u0000\u0014\u0000\u0000\u0000�\u0000\u0000\u0000\u0004�\u0002\u0000\u0014\u0000\u0000\u0000�\u0000\u0000\u0000��\u0002\u0000\u0003\u0000\u0000\u000000\u0000\u0000��\u0002\u0000\u0003\u0000\u0000\u000000\u0000\u0000\u0001�\u0003\u0000\u0001\u0000\u0000\u0000\u0001\u0000\u0000\u0000\u0000\u0000\u0000\u00002023:04:26 14:17:51\u00002023:04:26 14:17:51\u0000��\f�http://ns.ad",
+  "next": true,
+  "head": "<!DOCTYPE html><html lang=\"hr\"><head><meta charSet=\"utf-8\"/><meta name=\"viewport\" content=\"width=device-width\"/><title>Priče o Zadru</title><meta property=\"og:title\" content=\"Priče o Zadru\"/><link rel=\"canonical\" href=\"https://www.retrozadar.com/blog\"/><link rel=\"apple-touch-icon\" sizes=\"180x180\" hr",
   "items": 0,
   "chan": "",
-  "title": "",
+  "title": "Priče o Zadru",
   "osm": []
  },
- "https://www.unizd.hr/Portals/0/adam/Gallery/QqyNMsn8KkaHfsbVaYX8iQ/Images/029_resize_1.jpg": {
-  "status": 200,
-  "final": "https://www.unizd.hr/Portals/0/adam/Gallery/QqyNMsn8KkaHfsbVaYX8iQ/Images/029_resize_1.jpg",
-  "len": 341866,
-  "ctype": "image/jpeg",
-  "alt": [],
-  "links": [],
-  "api": [],
-  "next": false,
-  "head": "����\u0000\u0010JFIF\u0000\u0001\u0001\u0001\u0001,\u0001,\u0000\u0000��\u0001\u0006Exif\u0000\u0000II*\u0000\b\u0000\u0000\u0000\u0007\u0000\u0012\u0001\u0003\u0000\u0001\u0000\u0000\u0000\u0001\u0000\u0000\u0000\u001a\u0001\u0005\u0000\u0001\u0000\u0000\u0000b\u0000\u0000\u0000\u001b\u0001\u0005\u0000\u0001\u0000\u0000\u0000j\u0000\u0000\u0000(\u0001\u0003\u0000\u0001\u0000\u0000\u0000\u0002\u0000\u0000\u00001\u0001\u0002\u0000\r\u0000\u0000\u0000r\u0000\u0000\u00002\u0001\u0002\u0000\u0014\u0000\u0000\u0000�\u0000\u0000\u0000i�\u0004\u0000\u0001\u0000\u0000\u0000�\u0000\u0000\u0000\u0000\u0000\u0000\u0000,\u0001\u0000\u0000\u0001\u0000\u0000\u0000,\u0001\u0000\u0000\u0001\u0000\u0000\u0000GIMP 2.10.34\u0000\u00002023:05:02 15:32:32\u0000\u0005\u0000\u0003�\u0002\u0000\u0014\u0000\u0000\u0000�\u0000\u0000\u0000\u0004�\u0002\u0000\u0014\u0000\u0000\u0000�\u0000\u0000\u0000��\u0002\u0000\u0003\u0000\u0000\u000000\u0000\u0000��\u0002\u0000\u0003\u0000\u0000\u000000\u0000\u0000\u0001�\u0003\u0000\u0001\u0000\u0000\u0000\u0001\u0000\u0000\u0000\u0000\u0000\u0000\u00002023:04:26 14:18:13\u00002023:04:26 14:18:13\u0000��\f�http://ns.ad",
-  "items": 0,
-  "chan": "",
-  "title": "",
-  "osm": []
+ "https://www.retrozadar.com/blog-feed.xml": {
+  "err": "<HTTPError 404: 'Not Found'>",
+  "hdr": {
+   "Age": "2",
+   "Cache-Control": "no-cache",
+   "Cache-Status": "\"Netlify Durable\"; fwd=bypass",
+   "Content-Type": "text/html; charset=utf-8",
+   "Date": "Mon, 02 Nov 2026 12:19:31 GMT",
+   "Etag": "\"q4kywxe08usks\"",
+   "Netlify-Vary": "cookie=__next_preview_data:presence|__prerender_bypass:presence, query",
+   "Server": "Netlify",
+   "Strict-Transport-Security": "max-age=31536000",
+   "Vary": "Accept-Encoding",
+   "X-Nf-Render-Mode": "ssr",
+   "X-Nf-Request-Id": "01M6E36JY1223HW13A41DT5D24",
+   "X-Powered-By": "Next.js",
+   "Connection": "close",
+   "Transfer-Encoding": "chunked"
+  },
+  "body": "<!DOCTYPE html><html lang=\"hr\"><head><meta charSet=\"utf-8\"/><meta name=\"viewport\" content=\"width=device-width\"/><title class=\"jsx-2879768844\">404 | Stranica nije pronađena</title><meta name=\"description\" content=\"Tražena stranica ne postoji. Vrati se na početnu stranicu Retro Zadar ili otvori kartu Zadra 1808.\" class=\"jsx-2879768844\"/><meta name=\"next-head-count\" content=\"4\"/><meta name=\"google"
  },
- "https://www.unizd.hr/Portals/0/adam/Gallery/QqyNMsn8KkaHfsbVaYX8iQ/Images/3_005_a.jpg": {
+ "https://www.retrozadar.com/robots.txt": {
   "status": 200,
-  "final": "https://www.unizd.hr/Portals/0/adam/Gallery/QqyNMsn8KkaHfsbVaYX8iQ/Images/3_005_a.jpg",
-  "len": 126555,
-  "ctype": "image/jpeg",
+  "final": "https://www.retrozadar.com/robots.txt",
+  "len": 72,
+  "ctype": "text/plain; charset=UTF-8",
   "alt": [],
   "links": [],
   "api": [],
   "next": false,
-  "head": "����\u0000\u0010JFIF\u0000\u0001\u0001\u0001\u0000`\u0000`\u0000\u0000��\u0000C\u0000\b\u0006\u0006\u0007\u0006\u0005\b\u0007\u0007\u0007\t\t\b\n\f\u0014\r\f\u000b\u000b\f\u0019\u0012\u0013\u000f\u0014\u001d\u001a\u001f\u001e\u001d\u001a\u001c\u001c $.' \",#\u001c\u001c(7),01444\u001f'9=82<.342��\u0000C\u0001\t\t\t\f\u000b\f\u0018\r\r\u00182!\u001c!22222222222222222222222222222222222222222222222222��\u0000\u0011\b\u0001|\u0007�\u0003\u0001\"\u0000\u0002\u0011\u0001\u0003\u0011\u0001��\u0000\u001f\u0000\u0000\u0001\u0005\u0001\u0001\u0001\u0001\u0001\u0001\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0001\u0002\u0003\u0004\u0005\u0006\u0007\b\t\n\u000b��\u0000�\u0010\u0000\u0002\u0001\u0003\u0003\u0002\u0004\u0003\u0005\u0005\u0004\u0004\u0000\u0000\u0001}\u0001\u0002\u0003\u0000\u0004\u0011\u0005\u0012!1A\u0006\u0013Qa\u0007\"q\u00142���\b#B��\u0015R��$3br�\t\n\u0016\u0017\u0018\u0019\u001a%&'()*456789:CDEFGHIJSTUV",
+  "head": "User-agent: *\nDisallow:\n\nSitemap: https://www.retrozadar.com/sitemap.xml",
   "items": 0,
   "chan": "",
   "title": "",
-  "osm": []
- },
- "https://www.unizd.hr/Portals/0/adam/Gallery/QqyNMsn8KkaHfsbVaYX8iQ/Images/4_006_a.jpg": {
-  "status": 200,
-  "final": "https://www.unizd.hr/Portals/0/adam/Gallery/QqyNMsn8KkaHfsbVaYX8iQ/Images/4_006_a.jpg",
-  "len": 81597,
-  "ctype": "image/jpeg",
-  "alt": [],
-  "links": [],
-  "api": [],
-  "next": false,
-  "head": "����\u0000\u0010JFIF\u0000\u0001\u0001\u0001\u0000`\u0000`\u0000\u0000��\u0000C\u0000\b\u0006\u0006\u0007\u0006\u0005\b\u0007\u0007\u0007\t\t\b\n\f\u0014\r\f\u000b\u000b\f\u0019\u0012\u0013\u000f\u0014\u001d\u001a\u001f\u001e\u001d\u001a\u001c\u001c $.' \",#\u001c\u001c(7),01444\u001f'9=82<.342��\u0000C\u0001\t\t\t\f\u000b\f\u0018\r\r\u00182!\u001c!22222222222222222222222222222222222222222222222222��\u0000\u0011\b\u0001|\u0007�\u0003\u0001\"\u0000\u0002\u0011\u0001\u0003\u0011\u0001��\u0000\u001f\u0000\u0000\u0001\u0005\u0001\u0001\u0001\u0001\u0001\u0001\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0001\u0002\u0003\u0004\u0005\u0006\u0007\b\t\n\u000b��\u0000�\u0010\u0000\u0002\u0001\u0003\u0003\u0002\u0004\u0003\u0005\u0005\u0004\u0004\u0000\u0000\u0001}\u0001\u0002\u0003\u0000\u0004\u0011\u0005\u0012!1A\u0006\u0013Qa\u0007\"q\u00142���\b#B��\u0015R��$3br�\t\n\u0016\u0017\u0018\u0019\u001a%&'()*456789:CDEFGHIJSTUV",
-  "items": 0,
-  "chan": "",
-  "title": "",
-  "osm": []
+  "osm": [],
+  "body": "User-agent: *\nDisallow:\n\nSitemap: https://www.retrozadar.com/sitemap.xml"
  }
 }
