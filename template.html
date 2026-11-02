@@ -210,6 +210,7 @@
   .strip { grid-column: 1 / -1; --t: var(--accent); background: color-mix(in srgb, var(--t) 7%, var(--card));
            border: 1px solid color-mix(in srgb, var(--t) 22%, var(--line)); border-radius: 18px; padding: 16px 0 18px; }
   .strip[data-t="Video"] { --t: #e62117; }
+  .strip[data-t="Retro"] { --t: #a0703c; }
   article.vid a.img { position: relative; }
   article.vid a.img::after { content: ""; position: absolute; left: 50%; top: 50%; width: 46px; height: 32px; margin: -16px 0 0 -23px;
     border-radius: 9px; background: rgba(230,33,23,.92) url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'%3E%3Cpath d='M9 7l8 5-8 5z' fill='%23fff'/%3E%3C/svg%3E") center/22px no-repeat; }
@@ -598,6 +599,7 @@ function list() {
     if (i === 6 && !state.q) main.append(newsletter());
     if (strips[i]) main.append(strip(strips[i], [...hero, ...order.slice(0, i + 1)]));
     if (i === 3 && state.topic === "Sve" && !state.q && !state.source) main.append(videoStrip());
+    if (i === 12 && state.topic === "Sve" && !state.q && !state.source) main.append(retroStrip());
   });
   if (order.length > state.shown) {
     const b = el("button", { class: "load", type: "button" }, `Prikaži još (${order.length - state.shown})`);
@@ -634,6 +636,25 @@ function videoStrip() {
   return el("section", { class: "strip", "data-t": "Video", "aria-label": "Video" },
     el("header", {}, el("h3", {}, "Video iz Zadra"),
       el("a", { href: "https://www.youtube.com/results?search_query=Zadar&sp=CAI%253D", target: "_blank", rel: "noopener" }, "YouTube →")), row);
+}
+
+// Vrpca bloga Retro Zadar: sve objave o povijesti grada
+function retroStrip() {
+  const v = DATA.info && DATA.info.retro;
+  if (!v || v.length < 2) return "";
+  const row = el("div", { class: "row" });
+  for (const x of v) {
+    const link = { href: x.link, target: "_blank", rel: "noopener" };
+    const img = x.image ? el("img", { src: x.image, alt: "", loading: "lazy", referrerpolicy: "no-referrer" }) : "";
+    row.append(el("article", { class: "retro" },
+      el("a", { ...link, class: "img", tabindex: "-1", "aria-hidden": "true" }, img),
+      el("div", { class: "body" },
+        el("div", { class: "meta" }, el("b", {}, "Retro Zadar")),
+        el("h2", {}, el("a", link, x.title)))));
+  }
+  return el("section", { class: "strip", "data-t": "Retro", "aria-label": "Retro Zadar" },
+    el("header", {}, el("h3", {}, `Retro Zadar · povijest grada (${v.length})`),
+      el("a", { href: "https://www.retrozadar.com/blog", target: "_blank", rel: "noopener" }, "Svi članci →")), row);
 }
 
 // Traka "Upravo" i brojke u zaglavlju

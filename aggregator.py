@@ -409,6 +409,31 @@ def reddit_posts(limit=8):
     return out
 
 
+RETRO_URL = "https://www.retrozadar.com/blog"
+
+
+def retro_posts():
+    """Sve objave bloga Retro Zadar (povijest grada); popis čitamo iz podataka stranice /blog."""
+    try:
+        data, _ = fetch(RETRO_URL)
+        m = re.search(r'<script id="__NEXT_DATA__"[^>]*>(.*?)</script>', data.decode("utf-8", "replace"), re.S)
+        posts = json.loads(m.group(1))["props"]["pageProps"]["data"]
+    except Exception as e:  # noqa: BLE001
+        print(f"[Retro Zadar] {e}", file=sys.stderr)
+        return None
+    out = []
+    for p in posts:
+        slug = (p.get("slug") or {}).get("current")
+        img = (((p.get("mainImage") or {}).get("asset")) or {}).get("url")
+        if not slug or not p.get("title"):
+            continue
+        out.append({"title": p["title"].strip(), "link": f"https://www.retrozadar.com/posts/{slug}",
+                    "date": p.get("publishedAt") or "", "summary": (p.get("kratkiOpis") or "").strip(),
+                    "image": img + "?w=480&h=300&fit=crop&auto=format" if img else None})
+    out.sort(key=lambda x: x["date"], reverse=True)
+    return out
+
+
 WATER_URL = "https://www.vodovod-zadar.hr/obavijesti"
 _WATER_ROW = re.compile(r'<time datetime="([\d-]+)">.*?<div class="content clearfix">(.*?)</div>', re.S)
 
@@ -858,9 +883,11 @@ def main():
     info["reddit"] = reddit_posts()
     try:
         with open(os.path.join(os.path.dirname(CACHE_FILE), "info.json"), encoding="utf-8") as f:
-            prev_videos = json.load(f).get("videos")
+            prev = json.load(f)
+            prev_videos, prev_retro = prev.get("videos"), prev.get("retro")
     except (FileNotFoundError, ValueError):
-        prev_videos = None
+        prev_videos = prev_retro = None
+    info["retro"] = retro_posts() or prev_retro
     info["videos"] = youtube_search(prev_videos)
     with open(os.path.join(os.path.dirname(CACHE_FILE), "info.json"), "w", encoding="utf-8") as f:
         json.dump(info, f, ensure_ascii=False, indent=1)
