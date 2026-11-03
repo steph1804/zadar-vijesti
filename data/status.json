@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-03T17:45:48.842190+00:00",
+ "updated": "2026-11-03T18:00:03.234160+00:00",
  "sources": [
   {
    "name": "Antena Zadar",
@@ -59,17 +59,21 @@
   },
   {
    "name": "SC Višnjik",
-   "count": 9,
-   "ok": true,
-   "feed": null,
-   "errors": []
+   "count": 0,
+   "ok": false,
+   "feed": "https://visnjik.hr/feed/",
+   "errors": [
+    "https://visnjik.hr/feed/: HTTP Error 503: Service Unavailable"
+   ]
   },
   {
    "name": "Naši školji",
-   "count": 10,
-   "ok": true,
+   "count": 0,
+   "ok": false,
    "feed": null,
-   "errors": []
+   "errors": [
+    "https://www.nasiskolji.hr/feed/: <urlopen error timed out>"
+   ]
   },
   {
    "name": "Grad Zadar",
