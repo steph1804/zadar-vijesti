@@ -1030,12 +1030,13 @@ function appMode() {
     requestAnimationFrame(() => scrollTo(0, saved.y));
   }
   if (!app) return;
+  // U aplikaciji s početnog zaslona članak se otvara u zasebnom pregledniku (na Androidu s ✕ gore lijevo),
+  // jer neki portali na svojoj stranici dodaju lažne korake "natrag" pa se gumbom natrag ne bi moglo vratiti ovamo.
+  // Pamtimo položaj na popisu da se vratimo na isto mjesto.
   document.addEventListener("click", e => {
-    const a = e.target.closest && e.target.closest('a[target="_blank"]:not(.wa)');
-    if (!a || e.defaultPrevented || e.metaKey || e.ctrlKey || e.shiftKey) return;
-    e.preventDefault();
+    const a = e.target.closest && e.target.closest('a[target="_blank"]');
+    if (!a) return;
     try { sessionStorage.setItem("pos", JSON.stringify({ path: location.pathname, y: scrollY, shown: state.shown, t: Date.now() })); } catch (err) {}
-    location.href = a.href;
   });
 }
 
