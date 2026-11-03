@@ -501,8 +501,16 @@
  ],
  "videos": {
   "v": 2,
-  "fetched": "2026-11-03T18:46:04.728389+00:00",
+  "fetched": "2026-11-03T19:47:10.960777+00:00",
   "items": [
+   {
+    "id": "I4MG0kvNBQY",
+    "title": "ZADARSKA ZUPANIJA IZBLIZA 10 - 02.11.2026.",
+    "channel": "Diadora TV",
+    "date": "2026-11-03T19:00:27+00:00",
+    "link": "https://www.youtube.com/watch?v=I4MG0kvNBQY",
+    "image": "https://i.ytimg.com/vi/I4MG0kvNBQY/mqdefault.jpg"
+   },
    {
     "id": "6lx2VAWU5bk",
     "title": "KRONIKE ZADARSKE ŽUPANIJE 95 - 31.10.2026.",
@@ -614,14 +622,6 @@
     "date": "2026-10-12T17:25:24+00:00",
     "link": "https://www.youtube.com/watch?v=Iev6xjGafI0",
     "image": "https://i.ytimg.com/vi/Iev6xjGafI0/mqdefault.jpg"
-   },
-   {
-    "id": "Z-5YxRb3AgA",
-    "title": "Zadar Waterfront | FPV Drone Tour",
-    "channel": "Neo2FPV",
-    "date": "2026-10-12T08:00:40+00:00",
-    "link": "https://www.youtube.com/watch?v=Z-5YxRb3AgA",
-    "image": "https://i.ytimg.com/vi/Z-5YxRb3AgA/mqdefault.jpg"
    }
   ]
  }
