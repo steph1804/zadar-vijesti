@@ -1,32 +1,14 @@
 {
- "https://idassa.click/facebook/": {
+ "https://idassa.click/facebook/idassa-logo-prozirni.png": {
   "status": 200,
-  "final": "https://idassa.click/facebook/",
-  "len": 2799,
-  "ctype": "text/html; charset=utf-8",
-  "alt": [],
-  "links": [
-   "idassa-facebook-naslovna.png",
-   "idassa-facebook-profilna.png"
-  ],
-  "api": [],
-  "next": false,
-  "head": "<!doctype html>\n<html lang=\"hr\"><head><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\">\n<meta name=\"robots\" content=\"noindex,nofollow\"><title>Facebook materijali – idassa.click</title>\n<style>\nbody{margin:0;font:16px/1.5 system-ui,sans-serif;background:#f4f6fa",
-  "items": 0,
-  "chan": "",
-  "title": "Facebook materijali – idassa.click",
-  "osm": []
- },
- "https://idassa.click/facebook/idassa-facebook-naslovna.png": {
-  "status": 200,
-  "final": "https://idassa.click/facebook/idassa-facebook-naslovna.png",
-  "len": 411195,
+  "final": "https://idassa.click/facebook/idassa-logo-prozirni.png",
+  "len": 88335,
   "ctype": "image/png",
   "alt": [],
   "links": [],
   "api": [],
   "next": false,
-  "head": "�PNG\r\n\u001a\n\u0000\u0000\u0000\rIHDR\u0000\u0000\u0006h\u0000\u0000\u0002p\b\u0002\u0000\u0000\u0000\u0002�yj\u0000\u0000\u0016~caBX\u0000\u0000\u0016~jumb\u0000\u0000\u0000\u001ejumdc2pa\u0000\u0011\u0000\u0010�\u0000\u0000�\u00008�q\u0003c2pa\u0000\u0000\u0000\u0016Xjumb\u0000\u0000\u0000Gjumdc2ma\u0000\u0011\u0000\u0010�\u0000\u0000�\u00008�q\u0003urn:c2pa:4c333832-7afb-4fee-9d60-683982742a63\u0000\u0000\u0000\u0003�jumb\u0000\u0000\u0000)jumdc2as\u0000\u0011\u0000\u0010�\u0000\u0000�\u00008�q\u0003c2pa.assertions\u0000\u0000\u0000\u0000�jumb\u0000\u0000\u0000Djumdcbor\u0000\u0011\u0000\u0010�\u0000\u0000�\u00008�q\u0013c2pa.ingredient.v3\u0000\u0000\u0000\u0000\u0018c2sh�A��]!ڵ3�R�\r�\u001f�\u0000\u0000\u0000lcbor�idc:forma",
+  "head": "�PNG\r\n\u001a\n\u0000\u0000\u0000\rIHDR\u0000\u0000\f�\u0000\u0000\u0003p\b\u0006\u0000\u0000\u0000y�Yz\u0000\u0000\u0010\u0000IDATx���\t�]e}�����9!�\u00102�E�[āA�r\u0002�Z\u000bz\u001d�e\bI�A$\u0007���o[[o��Z}����j�\fD�h��\u0010��JE�@�\u0013\u0002AQd\u0010+\"hI\u0002\u00012���s�\u001dr�֊\u0006H������|�Y{�\u0013[��ֳ��YU\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000@ê\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000���\\\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000h��\u0005\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000�Ɖ\\\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000h��\u0005\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000�Ɖ\\\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000h��\u0005\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000�Ɖ\\\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000h��\u0005\u0000\u0000\u0000\u0000\u0000\u0000\u0000",
   "items": 0,
   "chan": "",
   "title": "",
