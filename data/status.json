@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-03T18:51:28.199656+00:00",
+ "updated": "2026-11-03T19:01:11.997594+00:00",
  "sources": [
   {
    "name": "Antena Zadar",
@@ -24,10 +24,12 @@
   },
   {
    "name": "Znet",
-   "count": 9,
-   "ok": true,
-   "feed": null,
-   "errors": []
+   "count": 0,
+   "ok": false,
+   "feed": "https://www.znet.hr/feed/",
+   "errors": [
+    "https://www.znet.hr/feed/: <urlopen error [Errno -2] Name or service not known>"
+   ]
   },
   {
    "name": "eZadar",
