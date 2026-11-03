@@ -127,6 +127,14 @@
   },
   {
    "day": "04.11.2026",
+   "place": "Zadar",
+   "street": "Ise Velikanovića",
+   "note": "",
+   "time": "08:30 - 12:30",
+   "unplanned": false
+  },
+  {
+   "day": "04.11.2026",
    "place": "Donji Zemunik",
    "street": "predio Marušići",
    "note": "",
@@ -135,10 +143,10 @@
   },
   {
    "day": "04.11.2026",
-   "place": "Zadar",
-   "street": "Ise Velikanovića",
+   "place": "Radašinovci",
+   "street": "predio oko starog dućana",
    "note": "",
-   "time": "08:30 - 12:30",
+   "time": "09:00 - 12:00",
    "unplanned": false
   }
  ],
