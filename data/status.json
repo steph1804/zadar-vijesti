@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-03T04:15:43.978131+00:00",
+ "updated": "2026-11-03T04:31:01.582167+00:00",
  "sources": [
   {
    "name": "Antena Zadar",
@@ -17,14 +17,10 @@
   },
   {
    "name": "Slobodna Dalmacija/Zadar",
-   "count": 0,
-   "ok": false,
+   "count": 30,
+   "ok": true,
    "feed": null,
-   "errors": [
-    "https://slobodnadalmacija.hr/dalmacija/zadar/feed: The read operation timed out",
-    "https://www.slobodnadalmacija.hr/feed/category/246: The read operation timed out",
-    "https://slobodnadalmacija.hr/feed: The read operation timed out"
-   ]
+   "errors": []
   },
   {
    "name": "Znet",
@@ -44,7 +40,7 @@
    "name": "023 portal",
    "count": 0,
    "ok": false,
-   "feed": "https://023.hr/feed/",
+   "feed": null,
    "errors": [
     "https://023.hr/feed/: The read operation timed out"
    ]
@@ -181,11 +177,8 @@
    "name": "Net.hr",
    "count": 0,
    "ok": false,
-   "feed": "https://net.hr/feed/najnovije",
-   "errors": [
-    "http://net.hr/najnovije/rss.xml: timed out",
-    "https://net.hr/feed/najnovije: HTTP Error 404: Not Found"
-   ]
+   "feed": null,
+   "errors": []
   },
   {
    "name": "Telegram",
@@ -213,9 +206,7 @@
    "count": 0,
    "ok": false,
    "feed": null,
-   "errors": [
-    "https://dnevnik.hr/assets/feed/articles/: The read operation timed out"
-   ]
+   "errors": []
   },
   {
    "name": "Morski.hr",
@@ -254,23 +245,17 @@
   },
   {
    "name": "Dalmacija News",
-   "count": 0,
-   "ok": false,
+   "count": 6,
+   "ok": true,
    "feed": null,
-   "errors": [
-    "https://www.dalmacijanews.hr/feed/: The read operation timed out",
-    "https://www.dalmacijanews.hr/?s=zadar&feed=rss2: The read operation timed out"
-   ]
+   "errors": []
   },
   {
    "name": "Nacional",
-   "count": 0,
-   "ok": false,
+   "count": 1,
+   "ok": true,
    "feed": null,
-   "errors": [
-    "https://www.nacional.hr/feed/: The read operation timed out",
-    "https://www.nacional.hr/?s=zadar&feed=rss2: The read operation timed out"
-   ]
+   "errors": []
   },
   {
    "name": "Hrvatska danas",
