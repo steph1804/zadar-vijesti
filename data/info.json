@@ -43,30 +43,6 @@
  "flights": [
   {
    "dir": "dolazak",
-   "flight": "OU674",
-   "airline": "Croatia Airlines",
-   "city": "Zagreb",
-   "via": "",
-   "time": "2026-11-03T14:55:00",
-   "est": "2026-11-03T14:45:00",
-   "act": "2026-11-03T14:48:00",
-   "status": "Landed",
-   "gate": ""
-  },
-  {
-   "dir": "odlazak",
-   "flight": "OU674",
-   "airline": "Croatia Airlines",
-   "city": "Zagreb",
-   "via": "Pula",
-   "time": "2026-11-03T15:20:00",
-   "est": "2026-11-03T15:20:00",
-   "act": "2026-11-03T15:19:00",
-   "status": "Departed",
-   "gate": "05"
-  },
-  {
-   "dir": "dolazak",
    "flight": "OU675",
    "airline": "Croatia Airlines",
    "city": "Zagreb",
@@ -88,49 +64,45 @@
    "act": "",
    "status": "",
    "gate": ""
+  },
+  {
+   "dir": "dolazak",
+   "flight": "OU674",
+   "airline": "Croatia Airlines",
+   "city": "Zagreb",
+   "via": "",
+   "time": "2026-11-05T14:55:00",
+   "est": "2026-11-05T14:55:00",
+   "act": "",
+   "status": "",
+   "gate": ""
+  },
+  {
+   "dir": "odlazak",
+   "flight": "OU674",
+   "airline": "Croatia Airlines",
+   "city": "Zagreb",
+   "via": "Pula",
+   "time": "2026-11-05T15:20:00",
+   "est": "2026-11-05T15:20:00",
+   "act": "",
+   "status": "",
+   "gate": ""
+  },
+  {
+   "dir": "dolazak",
+   "flight": "OU675",
+   "airline": "Croatia Airlines",
+   "city": "Zagreb",
+   "via": "Pula",
+   "time": "2026-11-05T23:00:00",
+   "est": "2026-11-05T23:00:00",
+   "act": "",
+   "status": "",
+   "gate": ""
   }
  ],
  "power": [
-  {
-   "day": "03.11.2026",
-   "place": "Zaton Obrovački",
-   "street": "",
-   "note": "predio Modrići Donji i Maričići (kvar dalekovoda)",
-   "time": "00:00 - 14:00",
-   "unplanned": true
-  },
-  {
-   "day": "03.11.2026",
-   "place": "Miranje, Donje Ceranje i Priseg",
-   "street": "",
-   "note": "cjielo mjesto Donje Ceranje, a ostalo samo dijelovi mjesta",
-   "time": "08:30 - 11:00",
-   "unplanned": true
-  },
-  {
-   "day": "03.11.2026",
-   "place": "Vrsi",
-   "street": "Put Gospe od Zečeva",
-   "note": "Povremeni prekidi",
-   "time": "08:00 - 14:00",
-   "unplanned": false
-  },
-  {
-   "day": "03.11.2026",
-   "place": "Žegar",
-   "street": "Predio Mirile",
-   "note": "",
-   "time": "08:30 - 15:00",
-   "unplanned": false
-  },
-  {
-   "day": "03.11.2026",
-   "place": "Medviđa",
-   "street": "Predio Mršići Gornji",
-   "note": "",
-   "time": "08:30 - 15:00",
-   "unplanned": false
-  },
   {
    "day": "04.11.2026",
    "place": "Zadar",
@@ -153,6 +125,38 @@
    "street": "predio oko starog dućana",
    "note": "",
    "time": "09:00 - 12:00",
+   "unplanned": false
+  },
+  {
+   "day": "05.11.2026",
+   "place": "Miletići",
+   "street": "Cijelo mjesto",
+   "note": "",
+   "time": "08:00 - 13:00",
+   "unplanned": false
+  },
+  {
+   "day": "05.11.2026",
+   "place": "Ražanac",
+   "street": "12 ulica",
+   "note": "Povremeni prekidi",
+   "time": "08:00 - 10:00",
+   "unplanned": false
+  },
+  {
+   "day": "05.11.2026",
+   "place": "Ražanac",
+   "street": "7 ulica",
+   "note": "Povremeni prekidi",
+   "time": "10:00 - 12:00",
+   "unplanned": false
+  },
+  {
+   "day": "05.11.2026",
+   "place": "Ražanac",
+   "street": "8 ulica",
+   "note": "Povremeni prekidi",
+   "time": "12:00 - 14:00",
    "unplanned": false
   }
  ],
