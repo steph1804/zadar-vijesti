@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-03T03:15:46.799545+00:00",
+ "updated": "2026-11-03T03:31:07.304488+00:00",
  "sources": [
   {
    "name": "Antena Zadar",
@@ -17,10 +17,14 @@
   },
   {
    "name": "Slobodna Dalmacija/Zadar",
-   "count": 30,
-   "ok": true,
+   "count": 0,
+   "ok": false,
    "feed": null,
-   "errors": []
+   "errors": [
+    "https://slobodnadalmacija.hr/dalmacija/zadar/feed: The read operation timed out",
+    "https://www.slobodnadalmacija.hr/feed/category/246: HTTP Error 520: <none>",
+    "https://slobodnadalmacija.hr/feed: The read operation timed out"
+   ]
   },
   {
    "name": "Znet",
@@ -38,38 +42,48 @@
   },
   {
    "name": "023 portal",
-   "count": 4,
-   "ok": true,
+   "count": 0,
+   "ok": false,
    "feed": null,
-   "errors": []
+   "errors": [
+    "https://023.hr/feed/: The read operation timed out"
+   ]
   },
   {
    "name": "Sport023",
-   "count": 9,
-   "ok": true,
+   "count": 0,
+   "ok": false,
    "feed": null,
-   "errors": []
+   "errors": [
+    "https://sport023.hr/feed/: mismatched tag: line 93, column 2"
+   ]
   },
   {
    "name": "KK Zadar",
-   "count": 10,
-   "ok": true,
+   "count": 0,
+   "ok": false,
    "feed": null,
-   "errors": []
+   "errors": [
+    "https://kkzadar.hr/feed/: mismatched tag: line 93, column 2"
+   ]
   },
   {
    "name": "SC Višnjik",
-   "count": 9,
-   "ok": true,
+   "count": 0,
+   "ok": false,
    "feed": null,
-   "errors": []
+   "errors": [
+    "https://visnjik.hr/feed/: mismatched tag: line 93, column 2"
+   ]
   },
   {
    "name": "Naši školji",
-   "count": 10,
-   "ok": true,
+   "count": 0,
+   "ok": false,
    "feed": null,
-   "errors": []
+   "errors": [
+    "https://www.nasiskolji.hr/feed/: <urlopen error timed out>"
+   ]
   },
   {
    "name": "Grad Zadar",
@@ -80,10 +94,12 @@
   },
   {
    "name": "Zadarska županija",
-   "count": 10,
-   "ok": true,
+   "count": 0,
+   "ok": false,
    "feed": null,
-   "errors": []
+   "errors": [
+    "https://www.zadarska-zupanija.hr/novosti-arhiva?format=feed&type=rss: mismatched tag: line 93, column 2"
+   ]
   },
   {
    "name": "HRT Radio Zadar",
@@ -101,10 +117,12 @@
   },
   {
    "name": "Opća bolnica Zadar",
-   "count": 6,
-   "ok": true,
+   "count": 0,
+   "ok": false,
    "feed": null,
-   "errors": []
+   "errors": [
+    "https://www.bolnica-zadar.hr/feed/: mismatched tag: line 93, column 2"
+   ]
   },
   {
    "name": "Liburnija Zadar",
@@ -174,7 +192,9 @@
    "count": 0,
    "ok": false,
    "feed": null,
-   "errors": []
+   "errors": [
+    "http://net.hr/najnovije/rss.xml: timed out"
+   ]
   },
   {
    "name": "Telegram",
@@ -241,14 +261,17 @@
   },
   {
    "name": "Dalmacija News",
-   "count": 6,
-   "ok": true,
+   "count": 0,
+   "ok": false,
    "feed": null,
-   "errors": []
+   "errors": [
+    "https://www.dalmacijanews.hr/feed/: The read operation timed out",
+    "https://www.dalmacijanews.hr/?s=zadar&feed=rss2: The read operation timed out"
+   ]
   },
   {
    "name": "Nacional",
-   "count": 30,
+   "count": 1,
    "ok": true,
    "feed": null,
    "errors": []
@@ -258,7 +281,9 @@
    "count": 0,
    "ok": false,
    "feed": null,
-   "errors": []
+   "errors": [
+    "https://hrvatska-danas.com/feed/: mismatched tag: line 93, column 2"
+   ]
   },
   {
    "name": "HRTurizam",
