@@ -1,54 +1,35 @@
 {
  "https://idassa.click/facebook/": {
-  "err": "<HTTPError 404: 'Not Found'>",
-  "hdr": {
-   "Connection": "close",
-   "Content-Length": "9379",
-   "Server": "GitHub.com",
-   "Content-Type": "text/html; charset=utf-8",
-   "Access-Control-Allow-Origin": "*",
-   "ETag": "\"6abcf5c5-24a3\"",
-   "Content-Security-Policy": "default-src 'none'; style-src 'unsafe-inline'; img-src data:; connect-src 'self'",
-   "x-proxy-cache": "MISS",
-   "X-GitHub-Request-Id": "FC6E:21DA3B:1D1C:3BCE:6AE99933",
-   "x-github-edge-region": "westus2",
-   "Accept-Ranges": "bytes",
-   "Age": "0",
-   "Date": "Tue, 03 Nov 2026 08:20:04 GMT",
-   "Via": "1.1 varnish",
-   "X-Served-By": "cache-bfi-krnt7300089-BFI",
-   "X-Cache": "MISS",
-   "X-Cache-Hits": "0",
-   "X-Timer": "S1793694004.153015,VS0,VE89",
-   "Vary": "Accept-Encoding",
-   "X-Fastly-Request-ID": "8c9f80c887939fa6e015c5d0e415cc9792ad283e"
-  },
-  "body": "<!DOCTYPE html>\n<html>\n  <head>\n    <meta http-equiv=\"Content-type\" content=\"text/html; charset=utf-8\">\n    <meta http-equiv=\"Content-Security-Policy\" content=\"default-src 'none'; style-src 'unsafe-inline'; img-src data:; connect-src 'self'\">\n    <title>Page not found &middot; GitHub Pages</title>\n    <style type=\"text/css\" media=\"screen\">\n      body {\n        background-color: #f1f1f1;\n        ma"
+  "status": 200,
+  "final": "https://idassa.click/facebook/",
+  "len": 2799,
+  "ctype": "text/html; charset=utf-8",
+  "alt": [],
+  "links": [
+   "idassa-facebook-naslovna.png",
+   "idassa-facebook-profilna.png"
+  ],
+  "api": [],
+  "next": false,
+  "head": "<!doctype html>\n<html lang=\"hr\"><head><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\">\n<meta name=\"robots\" content=\"noindex,nofollow\"><title>Facebook materijali – idassa.click</title>\n<style>\nbody{margin:0;font:16px/1.5 system-ui,sans-serif;background:#f4f6fa",
+  "items": 0,
+  "chan": "",
+  "title": "Facebook materijali – idassa.click",
+  "osm": []
  },
  "https://idassa.click/facebook/idassa-facebook-naslovna.png": {
-  "err": "<HTTPError 404: 'Not Found'>",
-  "hdr": {
-   "Connection": "close",
-   "Content-Length": "9379",
-   "Server": "GitHub.com",
-   "Content-Type": "text/html; charset=utf-8",
-   "Access-Control-Allow-Origin": "*",
-   "ETag": "\"6abcf5c5-24a3\"",
-   "Content-Security-Policy": "default-src 'none'; style-src 'unsafe-inline'; img-src data:; connect-src 'self'",
-   "x-proxy-cache": "MISS",
-   "X-GitHub-Request-Id": "4130:20B00F:27E2E:2BC35:6AE99933",
-   "x-github-edge-region": "sea",
-   "Accept-Ranges": "bytes",
-   "Age": "0",
-   "Date": "Tue, 03 Nov 2026 08:20:04 GMT",
-   "Via": "1.1 varnish",
-   "X-Served-By": "cache-bfi-kbfi7400112-BFI",
-   "X-Cache": "MISS",
-   "X-Cache-Hits": "0",
-   "X-Timer": "S1793694004.271111,VS0,VE81",
-   "Vary": "Accept-Encoding",
-   "X-Fastly-Request-ID": "54545280acdf836698863c7b50faa10af70766a8"
-  },
-  "body": "<!DOCTYPE html>\n<html>\n  <head>\n    <meta http-equiv=\"Content-type\" content=\"text/html; charset=utf-8\">\n    <meta http-equiv=\"Content-Security-Policy\" content=\"default-src 'none'; style-src 'unsafe-inline'; img-src data:; connect-src 'self'\">\n    <title>Page not found &middot; GitHub Pages</title>\n    <style type=\"text/css\" media=\"screen\">\n      body {\n        background-color: #f1f1f1;\n        ma"
+  "status": 200,
+  "final": "https://idassa.click/facebook/idassa-facebook-naslovna.png",
+  "len": 411195,
+  "ctype": "image/png",
+  "alt": [],
+  "links": [],
+  "api": [],
+  "next": false,
+  "head": "�PNG\r\n\u001a\n\u0000\u0000\u0000\rIHDR\u0000\u0000\u0006h\u0000\u0000\u0002p\b\u0002\u0000\u0000\u0000\u0002�yj\u0000\u0000\u0016~caBX\u0000\u0000\u0016~jumb\u0000\u0000\u0000\u001ejumdc2pa\u0000\u0011\u0000\u0010�\u0000\u0000�\u00008�q\u0003c2pa\u0000\u0000\u0000\u0016Xjumb\u0000\u0000\u0000Gjumdc2ma\u0000\u0011\u0000\u0010�\u0000\u0000�\u00008�q\u0003urn:c2pa:4c333832-7afb-4fee-9d60-683982742a63\u0000\u0000\u0000\u0003�jumb\u0000\u0000\u0000)jumdc2as\u0000\u0011\u0000\u0010�\u0000\u0000�\u00008�q\u0003c2pa.assertions\u0000\u0000\u0000\u0000�jumb\u0000\u0000\u0000Djumdcbor\u0000\u0011\u0000\u0010�\u0000\u0000�\u00008�q\u0013c2pa.ingredient.v3\u0000\u0000\u0000\u0000\u0018c2sh�A��]!ڵ3�R�\r�\u001f�\u0000\u0000\u0000lcbor�idc:forma",
+  "items": 0,
+  "chan": "",
+  "title": "",
+  "osm": []
  }
 }
