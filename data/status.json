@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-03T04:01:12.387302+00:00",
+ "updated": "2026-11-03T04:15:43.978131+00:00",
  "sources": [
   {
    "name": "Antena Zadar",
@@ -17,10 +17,14 @@
   },
   {
    "name": "Slobodna Dalmacija/Zadar",
-   "count": 30,
-   "ok": true,
+   "count": 0,
+   "ok": false,
    "feed": null,
-   "errors": []
+   "errors": [
+    "https://slobodnadalmacija.hr/dalmacija/zadar/feed: The read operation timed out",
+    "https://www.slobodnadalmacija.hr/feed/category/246: The read operation timed out",
+    "https://slobodnadalmacija.hr/feed: The read operation timed out"
+   ]
   },
   {
    "name": "Znet",
@@ -40,7 +44,7 @@
    "name": "023 portal",
    "count": 0,
    "ok": false,
-   "feed": null,
+   "feed": "https://023.hr/feed/",
    "errors": [
     "https://023.hr/feed/: The read operation timed out"
    ]
@@ -68,10 +72,12 @@
   },
   {
    "name": "Naši školji",
-   "count": 10,
-   "ok": true,
+   "count": 0,
+   "ok": false,
    "feed": null,
-   "errors": []
+   "errors": [
+    "https://www.nasiskolji.hr/feed/: <urlopen error timed out>"
+   ]
   },
   {
    "name": "Grad Zadar",
@@ -248,10 +254,13 @@
   },
   {
    "name": "Dalmacija News",
-   "count": 6,
-   "ok": true,
+   "count": 0,
+   "ok": false,
    "feed": null,
-   "errors": []
+   "errors": [
+    "https://www.dalmacijanews.hr/feed/: The read operation timed out",
+    "https://www.dalmacijanews.hr/?s=zadar&feed=rss2: The read operation timed out"
+   ]
   },
   {
    "name": "Nacional",
