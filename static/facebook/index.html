@@ -1,0 +1,53 @@
+<!doctype html>
+<html lang="hr"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="robots" content="noindex,nofollow"><title>Facebook materijali – idassa.click</title>
+<style>
+body{margin:0;font:16px/1.5 system-ui,sans-serif;background:#f4f6fa;color:#14213d}
+main{max-width:760px;margin:0 auto;padding:20px 16px 48px}
+h1{font-size:1.4rem;margin:.2em 0 .6em}h2{font-size:1.05rem;margin:1.6em 0 .4em}
+img{max-width:100%;border-radius:12px;display:block;margin:8px 0;box-shadow:0 2px 10px rgba(0,0,0,.12)}
+.prof{width:180px}
+a.btn{display:inline-block;background:#1765c0;color:#fff;text-decoration:none;padding:10px 16px;border-radius:10px;font-weight:700;margin:4px 0}
+.t{background:#fff;border:1px solid #d9e0ea;border-radius:10px;padding:12px 14px;white-space:pre-wrap}
+button{font:inherit;font-weight:700;border:0;background:#e8eef8;color:#1765c0;padding:8px 14px;border-radius:9px;margin-top:6px}
+ol{padding-left:1.2em}
+</style></head><body><main>
+<h1>Facebook stranica za idassa.click</h1>
+<p>Slike preuzmi dugim pritiskom na sliku ili gumbom "Preuzmi".</p>
+
+<h2>Profilna slika</h2>
+<img class="prof" src="idassa-facebook-profilna.png" alt="Profilna slika">
+<a class="btn" href="idassa-facebook-profilna.png" download>Preuzmi profilnu</a>
+
+<h2>Naslovna slika (1640 × 624)</h2>
+<img src="idassa-facebook-naslovna.png" alt="Naslovna slika">
+<a class="btn" href="idassa-facebook-naslovna.png" download>Preuzmi naslovnu</a>
+
+<h2>Koraci</h2>
+<ol>
+<li>Facebook → Izbornik ☰ → Stranice → Stvori (ili facebook.com/pages/create)</li>
+<li>Naziv: <b>idassa.click – vijesti iz Zadra</b></li>
+<li>Kategorija: <b>Web stranica s vijestima i medijima</b></li>
+<li>Bio: tekst ispod</li>
+<li>Dodaj profilnu i naslovnu sliku</li>
+<li>Kontakt: web https://idassa.click, e-mail hello@idassa.click, lokacija Zadar</li>
+<li>Dodaj gumb → "Posjeti web stranicu" → https://idassa.click</li>
+<li>Postavke → Korisničko ime: npr. idassa.click</li>
+</ol>
+
+<h2>Bio</h2>
+<div class="t" id="bio">Sve vijesti iz Zadra i Zadarske županije na jednom mjestu. Osvježavanje svakih 15 minuta.</div>
+<button data-c="bio">Kopiraj</button>
+
+<h2>Prva objava</h2>
+<div class="t" id="post">Pokrenuli smo idassa.click 📰
+Sve vijesti iz Zadra, županije i s otoka s lokalnih portala na jednom mjestu. Tu su i sport, struja, voda, trajekti, letovi i vrijeme. Stranica se osvježava svakih 15 minuta.
+👉 https://idassa.click
+#Zadar #ZadarskaŽupanija #vijesti</div>
+<button data-c="post">Kopiraj</button>
+</main>
+<script>
+document.querySelectorAll("button[data-c]").forEach(b=>b.onclick=async()=>{
+  try{await navigator.clipboard.writeText(document.getElementById(b.dataset.c).textContent);b.textContent="Kopirano ✓"}catch(e){b.textContent="Označi tekst i kopiraj"}});
+</script>
+</body></html>
