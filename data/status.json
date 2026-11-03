@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-03T12:15:44.762589+00:00",
+ "updated": "2026-11-03T12:31:03.583277+00:00",
  "sources": [
   {
    "name": "Antena Zadar",
@@ -31,7 +31,7 @@
   },
   {
    "name": "eZadar",
-   "count": 18,
+   "count": 19,
    "ok": true,
    "feed": null,
    "errors": []
@@ -220,7 +220,7 @@
   },
   {
    "name": "Dalmacija Danas",
-   "count": 10,
+   "count": 11,
    "ok": true,
    "feed": null,
    "errors": []
