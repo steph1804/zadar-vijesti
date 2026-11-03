@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-03T04:48:34.776714+00:00",
+ "updated": "2026-11-03T05:01:16.000295+00:00",
  "sources": [
   {
    "name": "Antena Zadar",
@@ -17,10 +17,14 @@
   },
   {
    "name": "Slobodna Dalmacija/Zadar",
-   "count": 30,
-   "ok": true,
+   "count": 0,
+   "ok": false,
    "feed": null,
-   "errors": []
+   "errors": [
+    "https://slobodnadalmacija.hr/dalmacija/zadar/feed: The read operation timed out",
+    "https://www.slobodnadalmacija.hr/feed/category/246: The read operation timed out",
+    "https://slobodnadalmacija.hr/feed: The read operation timed out"
+   ]
   },
   {
    "name": "Znet",
@@ -66,12 +70,10 @@
   },
   {
    "name": "Naši školji",
-   "count": 0,
-   "ok": false,
+   "count": 10,
+   "ok": true,
    "feed": null,
-   "errors": [
-    "https://www.nasiskolji.hr/feed/: <urlopen error timed out>"
-   ]
+   "errors": []
   },
   {
    "name": "Grad Zadar",
@@ -243,7 +245,7 @@
   },
   {
    "name": "Dalmacija News",
-   "count": 6,
+   "count": 1,
    "ok": true,
    "feed": null,
    "errors": []
@@ -271,12 +273,10 @@
   },
   {
    "name": "Sportske novosti",
-   "count": 0,
-   "ok": false,
+   "count": 3,
+   "ok": true,
    "feed": null,
-   "errors": [
-    "https://sportske.jutarnji.hr/feed: The read operation timed out"
-   ]
+   "errors": []
   },
   {
    "name": "Gol.hr",
