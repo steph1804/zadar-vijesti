@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-03T22:31:06.092867+00:00",
+ "updated": "2026-11-03T22:45:51.301971+00:00",
  "sources": [
   {
    "name": "Antena Zadar",
@@ -108,12 +108,10 @@
   },
   {
    "name": "Liburnija Zadar",
-   "count": 0,
-   "ok": false,
+   "count": 10,
+   "ok": true,
    "feed": null,
-   "errors": [
-    "https://liburnija-zadar.hr/category/novosti/feed/: HTTP Error 508: Loop Detected"
-   ]
+   "errors": []
   },
   {
    "name": "Policija Zadar",
