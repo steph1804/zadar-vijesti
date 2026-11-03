@@ -464,10 +464,10 @@
   "face_img": "https://api.hrt.hr/media/a9/10/whatsapp-image-2026-11-03-at-105309-1-20261103120549.webp"
  },
  {
-  "title": "Marin Jovančević najavio europski izazov na Višnjiku: „Možemo igrati sa svakim, cilj je prolazak u treći krug!”",
-  "link": "https://sport023.hr/2026/11/03/marin-jovancevic-najavio-europski-izazov-na-visnjiku-mozemo-igrati-sa-svakim-cilj-je-prolazak-u-treci-krug/",
+  "title": "MARIN JOVANČEVIĆ: “Možemo igrati sa svakim, cilj je prolazak u treći krug”",
+  "link": "https://sport023.hr/2026/11/03/marin-jovancevic-najavio-novi-europski-izazov/",
   "date": "2026-11-03T12:01:53+00:00",
-  "summary": "Vaterpolisti Zadra 1952 saznali su protivnike u drugom krugu Konferencijskog kupa. U skupini C čekaju ih mađarski Vasas, španjolski Mataró... Objava Marin Jovančević najavio europski izazov na Višnjiku: „Možemo igrati sa svakim, cilj je prolazak u treći krug!” pojavila se prvi puta na Sport023.",
+  "summary": "Vaterpolisti Zadra 1952 saznali su protivnike u drugom krugu Konferencijskog kupa. U skupini C čekaju ih mađarski Vasas, španjolski Mataró... Objava MARIN JOVANČEVIĆ: “Možemo igrati sa svakim, cilj je prolazak u treći krug” pojavila se prvi puta na Sport023.",
   "image": "https://sport023.hr/wp-content/uploads/2026/05/marin-ponos-scaled-e1779790091304.jpg",
   "source": "Sport023",
   "source_topic": "Sport",
@@ -476,7 +476,12 @@
    "Sport"
   ],
   "source_url": "https://sport023.hr/",
-  "face": null,
+  "face": [
+   61.4,
+   73.9,
+   42.3,
+   46.5
+  ],
   "face_img": "https://sport023.hr/wp-content/uploads/2026/05/marin-ponos-scaled-e1779790091304.jpg"
  },
  {
