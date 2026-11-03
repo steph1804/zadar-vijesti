@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-03T16:31:02.622775+00:00",
+ "updated": "2026-11-03T16:45:42.440080+00:00",
  "sources": [
   {
    "name": "Antena Zadar",
@@ -66,10 +66,12 @@
   },
   {
    "name": "Naši školji",
-   "count": 10,
-   "ok": true,
+   "count": 0,
+   "ok": false,
    "feed": null,
-   "errors": []
+   "errors": [
+    "https://www.nasiskolji.hr/feed/: <urlopen error timed out>"
+   ]
   },
   {
    "name": "Grad Zadar",
@@ -213,10 +215,13 @@
   },
   {
    "name": "Croatian Aviation",
-   "count": 4,
-   "ok": true,
+   "count": 0,
+   "ok": false,
    "feed": null,
-   "errors": []
+   "errors": [
+    "https://croatianaviation.com/feed/: <urlopen error _ssl.c:993: The handshake operation timed out>",
+    "https://croatianaviation.com/?s=zadar&feed=rss2: <urlopen error timed out>"
+   ]
   },
   {
    "name": "Dalmacija Danas",
