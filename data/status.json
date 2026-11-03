@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-03T14:15:49.269138+00:00",
+ "updated": "2026-11-03T14:31:07.117841+00:00",
  "sources": [
   {
    "name": "Antena Zadar",
@@ -10,7 +10,7 @@
   },
   {
    "name": "Zadarski list",
-   "count": 8,
+   "count": 9,
    "ok": true,
    "feed": null,
    "errors": []
@@ -38,7 +38,7 @@
   },
   {
    "name": "023 portal",
-   "count": 5,
+   "count": 6,
    "ok": true,
    "feed": null,
    "errors": []
@@ -159,8 +159,8 @@
   },
   {
    "name": "tportal",
-   "count": 1,
-   "ok": true,
+   "count": 0,
+   "ok": false,
    "feed": null,
    "errors": []
   },
@@ -222,7 +222,7 @@
   },
   {
    "name": "Dalmacija Danas",
-   "count": 11,
+   "count": 10,
    "ok": true,
    "feed": null,
    "errors": []
