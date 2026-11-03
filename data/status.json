@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-03T21:45:48.293112+00:00",
+ "updated": "2026-11-03T22:01:12.086944+00:00",
  "sources": [
   {
    "name": "Antena Zadar",
@@ -10,12 +10,10 @@
   },
   {
    "name": "Zadarski list",
-   "count": 0,
-   "ok": false,
+   "count": 10,
+   "ok": true,
    "feed": null,
-   "errors": [
-    "https://zadarskilist.novilist.hr/feed/: The read operation timed out"
-   ]
+   "errors": []
   },
   {
    "name": "Slobodna Dalmacija/Zadar",
