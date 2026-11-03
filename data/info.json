@@ -95,6 +95,14 @@
   },
   {
    "day": "03.11.2026",
+   "place": "Miranje, Donje Ceranje i Priseg",
+   "street": "",
+   "note": "cjielo mjesto Donje Ceranje, a ostalo samo dijelovi mjesta",
+   "time": "08:30 - 11:00",
+   "unplanned": true
+  },
+  {
+   "day": "03.11.2026",
    "place": "Vrsi",
    "street": "Put Gospe od Zečeva",
    "note": "Povremeni prekidi",
@@ -103,16 +111,16 @@
   },
   {
    "day": "03.11.2026",
-   "place": "Medviđa",
-   "street": "Predio Mršići Gornji",
+   "place": "Žegar",
+   "street": "Predio Mirile",
    "note": "",
    "time": "08:30 - 15:00",
    "unplanned": false
   },
   {
    "day": "03.11.2026",
-   "place": "Žegar",
-   "street": "Predio Mirile",
+   "place": "Medviđa",
+   "street": "Predio Mršići Gornji",
    "note": "",
    "time": "08:30 - 15:00",
    "unplanned": false
