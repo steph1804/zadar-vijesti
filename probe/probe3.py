@@ -15,3 +15,4 @@ for u in urls:
     except Exception as e:
         out[u] = {"err": repr(e)[:150], "hdr": dict(getattr(e, "headers", {}) or {}), "body": (e.read()[:400].decode("utf-8","replace") if hasattr(e, "read") else "")}
 json.dump(out, open("probe/result3.json", "w"), ensure_ascii=False, indent=1)
+# Tue Nov  3 08:24:04 UTC 2026
