@@ -1,5 +1,43 @@
 [
  {
+  "title": "35. obljetnica pogibije hrvatskog redarstvenika Marijana Matišića",
+  "link": "https://zadarska-policija.gov.hr/vijesti/35-obljetnica-pogibije-hrvatskog-redarstvenika-marijana-matisica/18813",
+  "date": "2026-11-03T14:11:53.546781+00:00",
+  "summary": "U spomen na poginulog hrvatskog redarstvenika koji je poginuo na današnji dan u Miškovićima na Pagu",
+  "image": "https://zadarska-policija.gov.hr/UserDocsImages//PU_ZD/poginuli%20Matisic%20Marijan%20galerija.jpg",
+  "source": "Policija Zadar",
+  "topics": [
+   "Otoci"
+  ],
+  "source_url": "https://zadarska-policija.gov.hr/vijesti/8",
+  "face": [
+   14.6,
+   79.4,
+   24.0,
+   77.1
+  ],
+  "face_img": "https://zadarska-policija.gov.hr/UserDocsImages//PU_ZD/poginuli%20Matisic%20Marijan%20galerija.jpg"
+ },
+ {
+  "title": "S Kolegija gradonačelnika: od stipendija za učenike i studente do novih spremnika za reciklabilni otpad",
+  "link": "https://www.grad-zadar.hr/vijest/opce-vijesti-28/s-kolegija-gradonacelnika-od-stipendija-za-ucenike-i-studente-do-novih-spremnika-za-reciklabilni-otpad-10098.html",
+  "date": "2026-11-03T14:00:00+00:00",
+  "summary": "U Maloj vijećnici Grada Zadra gradonačelnik Šime Erlić održao je redovni Kolegij sa suradnicima.",
+  "image": "https://www.grad-zadar.hr/data/images/image/grad550x325/35382/SIZ_1681.jpg",
+  "source": "Grad Zadar",
+  "topics": [
+   "Zadar"
+  ],
+  "source_url": "https://www.grad-zadar.hr/",
+  "face": [
+   1.9,
+   51.7,
+   37.6,
+   77.4
+  ],
+  "face_img": "https://www.grad-zadar.hr/data/images/image/grad550x325/35382/SIZ_1681.jpg"
+ },
+ {
   "title": "Lopov upao u cvjećarnicu na Poluotoku i pobjegao s novcem!",
   "link": "https://zadarskilist.novilist.hr/crna-kronika/lopov-upao-u-cvjecarnicu-na-poluotoku-i-pobjegao-s-novcem/",
   "date": "2026-11-03T13:45:03+00:00",
@@ -129,26 +167,6 @@
   "face_img": "https://ip.index.hr/remote/bucket.index.hr/b/index/9b6e4b0c-d550-4b51-bb3c-012274367103.png?fb_wtrmrk=magazin.jpg&width=1200&height=630&mode=crop&format=png"
  },
  {
-  "title": "KRIVA JE BURA Zadarska Čistoća odgovara na prozivke o dovozu otpada na zatvoreno odlagalište: \"Diklo je zatvoreno. Sve ostalo su pokušaji stvaranja pogrešne slike\"",
-  "link": "https://www.morski.hr/kriva-je-bura-zadarska-cistoca-odgovara-na-prozivke-o-dovozu-otpada-na-zatvoreno-odlagaliste-diklo-je-zatvoreno-sve-ostalo-su-pokusaji-stvaranja-pogresne-slike/",
-  "date": "2026-11-03T13:18:55+00:00",
-  "summary": "Zadarski nezavisni zastupnik Daniel Radeta snimio je snimke za koje kaže da ukazuju na dovoz komunalnog otpada na zatvoreno zadarsko odlagalište. Zadarska Čistoća kaže da je to stvaranje pogrešne slike. Odlagalište Diklo službeno je zatvoreno",
-  "image": "https://storage.ghost.io/c/8c/e6/8ce68df1-b8bf-474a-a3e0-701a018ef40d/content/images/2026/11/9a28149f-394c-43ac-bf77-db9745e6e21c.jpeg",
-  "source": "Morski.hr",
-  "topics": [
-   "Zadar",
-   "Županija"
-  ],
-  "source_url": "https://www.morski.hr/",
-  "face": [
-   50.0,
-   59.2,
-   34.0,
-   63.7
-  ],
-  "face_img": "https://storage.ghost.io/c/8c/e6/8ce68df1-b8bf-474a-a3e0-701a018ef40d/content/images/2026/11/9a28149f-394c-43ac-bf77-db9745e6e21c.jpeg"
- },
- {
   "title": "„SUZE I ŠALOVI ZA LEGENDU: Detalji i ruta posljednjeg ispraćaja Miše Kovača od Poljuda do Zadra!”",
   "link": "https://www.morski.hr/suze-i-salovi-za-legendu-detalji-i-ruta-posljednjeg-ispracaja-mise-kovaca-od-poljuda-do-zadra/",
   "date": "2026-11-03T13:17:51+00:00",
@@ -224,6 +242,26 @@
    90.0
   ],
   "face_img": "https://storage.ghost.io/c/8c/e6/8ce68df1-b8bf-474a-a3e0-701a018ef40d/content/images/2026/11/1.png"
+ },
+ {
+  "title": "KRIVA JE BURA Zadarska Čistoća odgovara na prozivke o dovozu otpada na zatvoreno odlagalište: \"Diklo je zatvoreno. Sve ostalo su pokušaji stvaranja pogrešne slike\"",
+  "link": "https://www.morski.hr/kriva-je-bura-zadarska-cistoca-odgovara-na-prozivke-o-dovozu-otpada-na-zatvoreno-odlagaliste-diklo-je-zatvoreno-sve-ostalo-su-pokusaji-stvaranja-pogresne-slike/",
+  "date": "2026-11-03T13:00:00+00:00",
+  "summary": "Zadarski nezavisni zastupnik Daniel Radeta snimio je snimke za koje kaže da ukazuju na dovoz komunalnog otpada na zatvoreno zadarsko odlagalište. Zadarska Čistoća kaže da je to stvaranje pogrešne slike. Odlagalište Diklo službeno je zatvoreno",
+  "image": "https://storage.ghost.io/c/8c/e6/8ce68df1-b8bf-474a-a3e0-701a018ef40d/content/images/2026/11/9a28149f-394c-43ac-bf77-db9745e6e21c.jpeg",
+  "source": "Morski.hr",
+  "topics": [
+   "Zadar",
+   "Županija"
+  ],
+  "source_url": "https://www.morski.hr/",
+  "face": [
+   50.0,
+   59.2,
+   34.0,
+   63.7
+  ],
+  "face_img": "https://storage.ghost.io/c/8c/e6/8ce68df1-b8bf-474a-a3e0-701a018ef40d/content/images/2026/11/9a28149f-394c-43ac-bf77-db9745e6e21c.jpeg"
  },
  {
   "title": "Ovo je ruta kojom će od Poljuda do Zadra ići lijes Mate Miše Kovača: Očekuje se bakljada na Brodaričkom mostu",
@@ -4955,40 +4993,6 @@
    51.9
   ],
   "face_img": "https://zadarskilist.novilist.hr/wp-content/uploads/2026/11/12467989.jpg"
- },
- {
-  "title": "Zadar ide na euroligaša! Modrić: Ako dobijemo šansu, bit ćemo dovoljno pametni da je iskoristimo",
-  "link": "https://ezadar.net.hr/sport/3589672/zadar-ide-na-euroligasa-modric-ako-dobijemo-sansu-bit-cemo-dovoljno-pametni-da-je-iskoristimo/",
-  "date": "2026-11-01T10:00:00+00:00",
-  "summary": "U 6. kolu ABA lige Zadar gostuje kod euroligaša Dubaia",
-  "image": "https://cdn-ezadar.net.hr/wp-content/uploads/865652452_2349563329201800_2813438174429390788_n-7a1cebe08fb8b699c75e5ca8-1052x696.jpg",
-  "source": "eZadar",
-  "topics": [
-   "Zadar",
-   "Sport"
-  ],
-  "source_url": "https://ezadar.net.hr/",
-  "face": [
-   11.7,
-   65.9,
-   49.7,
-   89.7
-  ],
-  "face_img": "https://cdn-ezadar.net.hr/wp-content/uploads/865652452_2349563329201800_2813438174429390788_n-7a1cebe08fb8b699c75e5ca8-1052x696.jpg"
- },
- {
-  "title": "OBAVIJEST: Plovanija u ponedjeljak bez vode!",
-  "link": "https://www.znet.hr/2026/11/01/obavijest-plovanija-u-ponedjeljak-bez-vode/",
-  "date": "2026-11-01T09:52:00+00:00",
-  "summary": "Zbog izvođenja građevinskih radova tvrtke Cestogradnja d.o.o., u ponedjeljak 02.11.2026., u vremenu od 08:00 do 16:00 sati, opskrba vodom će biti privremeno obustavljena u gradu Zadru, na području gradskog predjela Plovanija.",
-  "image": "https://www.znet.hr/wp-content/uploads/2021/08/water-1271745_960_720.jpg",
-  "source": "Znet",
-  "topics": [
-   "Zadar"
-  ],
-  "source_url": "https://www.znet.hr/",
-  "face": null,
-  "face_img": "https://www.znet.hr/wp-content/uploads/2021/08/water-1271745_960_720.jpg"
  },
  {
   "title": "Naš laboratorij otvara svoja vrata – prijavite se!",
