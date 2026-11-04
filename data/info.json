@@ -100,6 +100,14 @@
   {
    "day": "04.11.2026",
    "place": "Radašinovci",
+   "street": "",
+   "note": "predjeli Podkosa i Jakovci - pao stup na dalekovodu",
+   "time": "10:00 - 13:00",
+   "unplanned": true
+  },
+  {
+   "day": "04.11.2026",
+   "place": "Radašinovci",
    "street": "predio oko starog dućana",
    "note": "",
    "time": "09:00 - 12:00",

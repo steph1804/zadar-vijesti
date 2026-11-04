@@ -1,5 +1,54 @@
 [
  {
+  "title": "Prijavljen zbog drske krađe",
+  "link": "https://zadarska-policija.gov.hr/vijesti/prijavljen-zbog-drske-kradje-18815/18815",
+  "date": "2026-11-04T09:15:44.087913+00:00",
+  "summary": "Policija podnosi kaznenu prijavu nadležnom državnom odvjetništvu u Zadru",
+  "image": "https://zadarska-policija.gov.hr/UserDocsImages//2025/POLICIJA/policija31.jpg",
+  "source": "Policija Zadar",
+  "topics": [
+   "Zadar"
+  ],
+  "source_url": "https://zadarska-policija.gov.hr/vijesti/8",
+  "face": null,
+  "face_img": "https://zadarska-policija.gov.hr/UserDocsImages//2025/POLICIJA/policija31.jpg"
+ },
+ {
+  "title": "U Zadru skoro 20 posto više namjernih prekida trudnoće, stopa rasta dvostruko veća od nacionalne!",
+  "link": "https://zadarskilist.novilist.hr/zadar-zupanija/zadar/u-zadru-skoro-20-posto-vise-namjernih-prekida-trudnoce-stopa-rasta-dvostruko-veca-od-nacionalne/",
+  "date": "2026-11-04T09:15:20+00:00",
+  "summary": "U Općoj bolnici Zadar tijekom 2025. godine evidentiran je 171 legalno inducirani pobačaj, a godinu ranije zabilježena su 143 takva zahvata.",
+  "image": "https://zadarskilist.novilist.hr/wp-content/uploads/2026/11/8752403.jpg",
+  "source": "Zadarski list",
+  "topics": [
+   "Zadar",
+   "Županija"
+  ],
+  "source_url": "https://zadarskilist.novilist.hr/",
+  "face": null,
+  "face_img": "https://zadarskilist.novilist.hr/wp-content/uploads/2026/11/8752403.jpg"
+ },
+ {
+  "title": "Košarkaši Zadra idu na Spartak, Šare: Nadamo se povratku s barem jednom pobjedom",
+  "link": "https://ezadar.net.hr/sport/3589868/kosarkasi-zadra-idu-na-spartak-sare-nadamo-se-povratku-s-barem-jednom-pobjedom/",
+  "date": "2026-11-04T09:04:15+00:00",
+  "summary": "Interkontinentalna turneja Zadra, koja je započela prošlog petka u Dubrovniku, a nastavila se u ponedjeljak u Aziji kod Dubaija, završava u četvrtak u Subotici, gdje momčad Stipe Modrića izlazi na",
+  "image": "https://cdn-ezadar.net.hr/wp-content/uploads/20261017-155043-img_2362-0e32ba8840833c205b4e9d71-1052x696.jpg",
+  "source": "eZadar",
+  "topics": [
+   "Zadar",
+   "Sport"
+  ],
+  "source_url": "https://ezadar.net.hr/",
+  "face": [
+   8.2,
+   48.8,
+   11.4,
+   54.7
+  ],
+  "face_img": "https://cdn-ezadar.net.hr/wp-content/uploads/20261017-155043-img_2362-0e32ba8840833c205b4e9d71-1052x696.jpg"
+ },
+ {
   "title": "Sažetak dnevnih događanja PU zadarske, 4. 11.",
   "link": "https://zadarska-policija.gov.hr/vijesti/sazetak-dnevnih-dogadjanja-18814/18814",
   "date": "2026-11-04T09:01:14.018065+00:00",
@@ -558,14 +607,14 @@
  {
   "title": "Sustav MUP-a kao baza za ‘lov na birače‘: otkrivamo detalje afere, podaci završavali kod gradonačelnikove kćeri...",
   "link": "https://slobodnadalmacija.hr/dalmacija/s-mora-i-kraja/sustav-mup-a-kao-baza-za-lov-na-birace-otkrivamo-detalje-afere-podaci-zavrsavali-kod-gradonacelnikove-kceri-1588332",
-  "date": "2026-11-04T06:37:48+00:00",
+  "date": "2026-11-04T06:37:00+00:00",
   "summary": "Potvrđivanje najnovije optužnice Županijskog suda u Splitu tek se očekuje protiv policijske službenice M. M. (37), K. B. (36) – kćeri bivšeg dugogodišnjeg paškog gradonačelnika Ante Fabijanića, te B.",
-  "image": "https://static.slobodnadalmacija.hr/images/slike/2026/11/03/32792100.jpg",
+  "image": "https://static.slobodnadalmacija.hr/images/slike/2026/11/03/32798133.png",
   "source": "Slobodna Dalmacija/Zadar",
   "topics": [],
   "source_url": "https://slobodnadalmacija.hr/dalmacija/zadar",
   "face": null,
-  "face_img": "https://static.slobodnadalmacija.hr/images/slike/2026/11/03/32792100.jpg"
+  "face_img": "https://static.slobodnadalmacija.hr/images/slike/2026/11/03/32798133.png"
  },
  {
   "title": "Albina Grčić u Zadru otvoreno progovorila o ljubavnim vezama: ‘Od svakog dečka napravila bih idola. Mislila sam da ću se udati za sva tri’",
@@ -1231,7 +1280,7 @@
   "link": "https://www.jutarnji.hr/sportske/sport-mix/vaterpolo/sibencani-i-zadrani-doma-rijecani-putuju-na-bospor-15762073",
   "date": "2026-11-03T15:45:44+00:00",
   "summary": "Sva tri hrvatska vaterpolska kluba u Konferencijskom kupu ili po rangu trećem kontinentalnom kup nadmetanju, doznali su temeljem ždrijeba drugog kruga kvalifikacija, skupine odnosno suparnike s kojima će se sučeliti sredinom 12. mjeseca. Ukupno je ždrijebom određeno 6 skupina, a dvije će se odigrati...",
-  "image": "https://media.jutarnji.hr/images/slike/2026/11/03/f_39752286_1280.jpg?1793781899",
+  "image": "https://media.jutarnji.hr/images/slike/2026/11/03/f_39752286_1280.jpg?1793783543",
   "source": "Sportske novosti",
   "source_topic": "Sport",
   "topics": [
@@ -1245,7 +1294,7 @@
    8.1,
    84.9
   ],
-  "face_img": "https://media.jutarnji.hr/images/slike/2026/11/03/f_39752286_1280.jpg?1793781899"
+  "face_img": "https://media.jutarnji.hr/images/slike/2026/11/03/f_39752286_1280.jpg?1793783543"
  },
  {
   "title": "Od 7 do 28 tisuća eura za adventsku kućicu u Zadru. Objavljeno tko je dobio koju poziciju i koliko je ponudio",
@@ -1305,7 +1354,7 @@
   "link": "https://www.jutarnji.hr/sportske/nogomet/hnl/kup-hnl/senzacija-u-kupu-i-povijesni-uspjeh-iznenadenje-druge-lige-izbacilo-slaven-belupo-vidimo-se-u-hnl-u-15762063",
   "date": "2026-11-03T15:16:00+00:00",
   "summary": "MLADOST (Ž) - SLAVEN BELUPO 2:0 (Nikolić 30., Pavković 65.) ŽDRALOVI Stadion Brdo. Gledatelja 400. Sudac: Ivan Vukančić (Benkovac) 7.",
-  "image": "https://media.jutarnji.hr/images/slike/2026/11/03/f_39897539_1280.jpg?1793781899",
+  "image": "https://media.jutarnji.hr/images/slike/2026/11/03/f_39897539_1280.jpg?1793783543",
   "source": "Sportske novosti",
   "source_topic": "Sport",
   "topics": [
@@ -1319,7 +1368,7 @@
    11.9,
    99.5
   ],
-  "face_img": "https://media.jutarnji.hr/images/slike/2026/11/03/f_39897539_1280.jpg?1793781899"
+  "face_img": "https://media.jutarnji.hr/images/slike/2026/11/03/f_39897539_1280.jpg?1793783543"
  },
  {
   "title": "Mise se vraćaju u crkvu sv. Krševana! Nadbiskup Zgrablić pozvao Zadrane na povijesno slavlje",
@@ -4984,51 +5033,6 @@
   "source_url": "https://slobodnadalmacija.hr/dalmacija/zadar",
   "face": null,
   "face_img": "https://static.slobodnadalmacija.hr/images/slike/2026/11/02/32481638.jpg"
- },
- {
-  "title": "Predsjednici Bibinja i Debeljaka o neodigranoj utakmici",
-  "link": "https://radio.hrt.hr/radio-zadar/sport/tko-je-mogao-pronaci-rjesenje-predsjednici-bibinja-i-debeljaka-o-neodigranoj-utakmici-12988684",
-  "date": "2026-11-02T10:20:56+00:00",
-  "summary": "Nogometaši Bibinja nisu nastupili na utakmici 8. kola 1. ŽNL protiv Debeljaka, koja je bila zakazana za 1. studenoga, na blagdan Svih svetih. Odluka Bibinjaca izazvala je reakcije, a svoje viđenje cijele situacije iznijeli su predsjednik NK Bibinje Mate Bugarija i predsjednik NK Debeljak Ante Gambiraža.",
-  "image": "https://api.hrt.hr/media/b4/31/bibinje-20261102102049.webp",
-  "source": "HRT Radio Zadar",
-  "topics": [
-   "Zadar",
-   "Županija",
-   "Sport"
-  ],
-  "source_url": "https://radio.hrt.hr/radio-zadar",
-  "face": null,
-  "face_img": "https://api.hrt.hr/media/b4/31/bibinje-20261102102049.webp"
- },
- {
-  "title": "Motociklist u Biogradu vozio pijan i bez vozačke dozvole, policija ga “opalila po džepu”",
-  "link": "https://zadarskilist.novilist.hr/crna-kronika/motociklist-u-biogradu-vozio-pijan-i-bez-vozacke-dozvole-policija-ga-opalila-po-dzepu/",
-  "date": "2026-11-02T10:10:03+00:00",
-  "summary": "U nedjelju, 1. studenog u 01.20 sati na državnoj cesti DC-08 u Biogradu tijekom kontrole prometa policijski službenici Policijske postaje Biograd zaustavili su moped zadarskih registarskih oznaka kojim je upravljao 35-godišnjak.",
-  "image": "https://zadarskilist.novilist.hr/wp-content/uploads/2023/11/Stop-policija6-2-e1706089574423.jpg",
-  "source": "Zadarski list",
-  "topics": [
-   "Zadar",
-   "Županija"
-  ],
-  "source_url": "https://zadarskilist.novilist.hr/",
-  "face": null,
-  "face_img": "https://zadarskilist.novilist.hr/wp-content/uploads/2023/11/Stop-policija6-2-e1706089574423.jpg"
- },
- {
-  "title": "Pjesma koja povezuje generacije; Poslušajte kako učenici i djelatnici iz “Nazora” pjevaju “Moju domovinu”",
-  "link": "https://023.hr/2026/11/pjesma-koja-povezuje-generacije-poslusajte-kako-ucenici-i-djelatnici-iz-nazora-pjevaju-moju-domovinu/",
-  "date": "2026-11-02T10:10:00+00:00",
-  "summary": "Povodom obilježavanja 35. obljetnice nastanka pjesme „Moja domovina”, učenici i djelatnici Gimnazije Vladimira Nazora iz Zadra udružili su svoje glasove kako bi odali počast pjesmi koja već 35 godina simbolizira ljubav prema domovini.",
-  "image": "https://023.hr/wp-content/uploads/2026/11/20261102110844_631039.avif",
-  "source": "023 portal",
-  "topics": [
-   "Zadar"
-  ],
-  "source_url": "https://023.hr/",
-  "face": null,
-  "face_img": "https://023.hr/wp-content/uploads/2026/11/20261102110844_631039.avif"
  },
  {
   "title": "Na Višnjiku peto prvenstvo Balkana u gimnastici",
