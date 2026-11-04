@@ -157,6 +157,10 @@
  "water": [
   {
    "day": "2026-11-04",
+   "text": "Zbog radova na vodoopskrbnom sustavu, u četvrtak 05. 11. 2026., u vremenu od 09:00 do 11:00 sati, opskrba vodom će biti privremeno obustavljena u gradu Zadru, u sljedećim ulicama:  • Josipa Jurja Strossmayera  • Brodarska ulica  • Prilaz Stara Voštarnica  • Ivana Brkanovića"
+  },
+  {
+   "day": "2026-11-04",
    "text": "Zbog izvođenja građevinskih radova tvrtke Cestogradnja d.o.o., u četvrtak 05.11.2026., u vremenu od 08:00 do 14:00 sati, opskrba vodom će biti privremeno obustavljena u gradu Zadru, u ulici Kožinski Prilaz."
   },
   {
@@ -174,10 +178,6 @@
   {
    "day": "2026-10-30",
    "text": "Prema rezultatima ispitanih pokazatelja uzorak   uzet na vodoopskrbnoj mreži naselja Bruvno   sukladan je odredbama Zakona o vodi za ljudsku potrošnju.   Vodu nije potrebno prokuhavati."
-  },
-  {
-   "day": "2026-10-30",
-   "text": "Zbog hitne intervencije na sustavu odvodnje izvršit će se radovi U ulici Put Nina.  Radovi se izvode na pješačkom kolniku i neće uzrokovati zastoj u prometu.  Vrijeme izvođenja radova 30.10.2026. od 8:00h do 12:00h"
   }
  ],
  "reddit": [
