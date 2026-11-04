@@ -1143,6 +1143,46 @@
   "face_img": "https://api.hrt.hr/media/eb/d2/740x438-pxl-231026-161077741-20261104110410.jpg"
  },
  {
+  "title": "Upravljao automobilom kojem je isteklo važenje prometne dozvole i police osiguranja",
+  "link": "https://zadarska-policija.gov.hr/vijesti/upravljao-automobilom-kojem-je-isteklo-vazenje-prometne-dozvole-i-police-osiguranja/18816",
+  "date": "2026-11-04T11:00:00+00:00",
+  "summary": "Vozilo je isključeno iz prometa",
+  "image": "https://zadarska-policija.gov.hr/UserDocsImages//2025/POLICIJA/policija25.jpg",
+  "source": "Policija Zadar",
+  "topics": [],
+  "source_url": "https://zadarska-policija.gov.hr/vijesti/8",
+  "face": null,
+  "face_img": "https://zadarska-policija.gov.hr/UserDocsImages//2025/POLICIJA/policija25.jpg"
+ },
+ {
+  "title": "Prijavljen zbog drske krađe",
+  "link": "https://zadarska-policija.gov.hr/vijesti/prijavljen-zbog-drske-kradje-18815/18815",
+  "date": "2026-11-04T11:00:00+00:00",
+  "summary": "Policija podnosi kaznenu prijavu nadležnom državnom odvjetništvu u Zadru",
+  "image": "https://zadarska-policija.gov.hr/UserDocsImages//2025/POLICIJA/policija31.jpg",
+  "source": "Policija Zadar",
+  "topics": [
+   "Zadar"
+  ],
+  "source_url": "https://zadarska-policija.gov.hr/vijesti/8",
+  "face": null,
+  "face_img": "https://zadarska-policija.gov.hr/UserDocsImages//2025/POLICIJA/policija31.jpg"
+ },
+ {
+  "title": "Sažetak dnevnih događanja PU zadarske, 4. 11.",
+  "link": "https://zadarska-policija.gov.hr/vijesti/sazetak-dnevnih-dogadjanja-18814/18814",
+  "date": "2026-11-04T11:00:00+00:00",
+  "summary": "",
+  "image": "https://zadarska-policija.gov.hr/UserDocsImages//2022/POLICIJA/policija%20natpis2.jpg",
+  "source": "Policija Zadar",
+  "topics": [
+   "Zadar"
+  ],
+  "source_url": "https://zadarska-policija.gov.hr/vijesti/8",
+  "face": null,
+  "face_img": "https://zadarska-policija.gov.hr/UserDocsImages//2022/POLICIJA/policija%20natpis2.jpg"
+ },
+ {
   "title": "VIDEO Poslušajte svjedočanstvo Albine Grčić u Zadru: ‘Nakon tog iskustva odlučila sam živjeti u predbračnoj čistoći‘",
   "link": "https://www.jutarnji.hr/scena/domace-zvijezde/video-poslusajte-svjedocanstvo-albine-grcic-u-zadru-nakon-tog-iskustva-odlucila-sam-zivjeti-u-predbracnoj-cistoci-15762269",
   "date": "2026-11-04T10:36:45+00:00",
@@ -1340,18 +1380,6 @@
   "face_img": "https://api.hrt.hr/media/80/7c/plajcak1231-20241125185814.webp"
  },
  {
-  "title": "Upravljao automobilom kojem je isteklo važenje prometne dozvole i police osiguranja",
-  "link": "https://zadarska-policija.gov.hr/vijesti/upravljao-automobilom-kojem-je-isteklo-vazenje-prometne-dozvole-i-police-osiguranja/18816",
-  "date": "2026-11-04T10:01:20.095483+00:00",
-  "summary": "Vozilo je isključeno iz prometa",
-  "image": "https://zadarska-policija.gov.hr/UserDocsImages//2025/POLICIJA/policija25.jpg",
-  "source": "Policija Zadar",
-  "topics": [],
-  "source_url": "https://zadarska-policija.gov.hr/vijesti/8",
-  "face": null,
-  "face_img": "https://zadarska-policija.gov.hr/UserDocsImages//2025/POLICIJA/policija25.jpg"
- },
- {
   "title": "Kako ne pregorjeti na poslu i zadržati ključne ljude? Doznajte na konferenciji u Zadru",
   "link": "https://ezadar.net.hr/biznis/3589806/kako-ne-pregorjeti-na-poslu-i-zadrzati-kljucne-ljude-doznajte-na-konferenciji-u-zadru/",
   "date": "2026-11-04T10:00:00+00:00",
@@ -1487,20 +1515,6 @@
   "face_img": "https://static.slobodnadalmacija.hr/images/slike/2026/11/04/32798177.gif"
  },
  {
-  "title": "Prijavljen zbog drske krađe",
-  "link": "https://zadarska-policija.gov.hr/vijesti/prijavljen-zbog-drske-kradje-18815/18815",
-  "date": "2026-11-04T09:15:44.087913+00:00",
-  "summary": "Policija podnosi kaznenu prijavu nadležnom državnom odvjetništvu u Zadru",
-  "image": "https://zadarska-policija.gov.hr/UserDocsImages//2025/POLICIJA/policija31.jpg",
-  "source": "Policija Zadar",
-  "topics": [
-   "Zadar"
-  ],
-  "source_url": "https://zadarska-policija.gov.hr/vijesti/8",
-  "face": null,
-  "face_img": "https://zadarska-policija.gov.hr/UserDocsImages//2025/POLICIJA/policija31.jpg"
- },
- {
   "title": "U Zadru skoro 20 posto više namjernih prekida trudnoće, stopa rasta dvostruko veća od nacionalne!",
   "link": "https://zadarskilist.novilist.hr/zadar-zupanija/zadar/u-zadru-skoro-20-posto-vise-namjernih-prekida-trudnoce-stopa-rasta-dvostruko-veca-od-nacionalne/",
   "date": "2026-11-04T09:15:20+00:00",
@@ -1534,20 +1548,6 @@
    54.7
   ],
   "face_img": "https://cdn-ezadar.net.hr/wp-content/uploads/20261017-155043-img_2362-0e32ba8840833c205b4e9d71-1052x696.jpg"
- },
- {
-  "title": "Sažetak dnevnih događanja PU zadarske, 4. 11.",
-  "link": "https://zadarska-policija.gov.hr/vijesti/sazetak-dnevnih-dogadjanja-18814/18814",
-  "date": "2026-11-04T09:01:14.018065+00:00",
-  "summary": "",
-  "image": "https://zadarska-policija.gov.hr/UserDocsImages//2022/POLICIJA/policija%20natpis2.jpg",
-  "source": "Policija Zadar",
-  "topics": [
-   "Zadar"
-  ],
-  "source_url": "https://zadarska-policija.gov.hr/vijesti/8",
-  "face": null,
-  "face_img": "https://zadarska-policija.gov.hr/UserDocsImages//2022/POLICIJA/policija%20natpis2.jpg"
  },
  {
   "title": "Mislio da je na utrci Formule 1? Nijemac jurio Dalmatinom, policija ga zaustavila",
