@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-04T17:30:59.895670+00:00",
+ "updated": "2026-11-04T17:45:32.345398+00:00",
  "sources": [
   {
    "name": "Antena Zadar",
@@ -42,7 +42,7 @@
    "ok": false,
    "feed": "https://023.hr/feed/",
    "errors": [
-    "https://023.hr/feed/: The read operation timed out"
+    "https://023.hr/feed/: duplicate attribute: line 8, column 46"
    ]
   },
   {
@@ -140,7 +140,7 @@
   },
   {
    "name": "Index.hr",
-   "count": 3,
+   "count": 2,
    "ok": true,
    "feed": null,
    "errors": []
