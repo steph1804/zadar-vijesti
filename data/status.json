@@ -1,9 +1,9 @@
 {
- "updated": "2026-11-04T15:01:18.002421+00:00",
+ "updated": "2026-11-04T15:31:02.890213+00:00",
  "sources": [
   {
    "name": "Antena Zadar",
-   "count": 9,
+   "count": 10,
    "ok": true,
    "feed": null,
    "errors": []
@@ -161,8 +161,8 @@
   },
   {
    "name": "tportal",
-   "count": 1,
-   "ok": true,
+   "count": 0,
+   "ok": false,
    "feed": null,
    "errors": []
   },
@@ -182,8 +182,8 @@
   },
   {
    "name": "Telegram",
-   "count": 1,
-   "ok": true,
+   "count": 0,
+   "ok": false,
    "feed": null,
    "errors": []
   },
