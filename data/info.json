@@ -1,12 +1,5 @@
 {
- "Jadrolinija": [
-  {
-   "title": "Linije u prekidu, 04.11.2026.",
-   "link": "https://www.jadrolinija.hr/news-single/linije-u-prekidu-04112026",
-   "date": "2026-11-03T09:32:00+00:00",
-   "summary": "Red plovidbe u srijedu 04.11."
-  }
- ],
+ "Jadrolinija": [],
  "buses": [
   {
    "title": "Obavijest za liniju Poluotok – Arbanasi",
@@ -57,7 +50,7 @@
    "est": "2026-11-04T16:20:00",
    "act": "",
    "status": "",
-   "gate": ""
+   "gate": "05"
   },
   {
    "dir": "dolazak",
@@ -499,7 +492,7 @@
  ],
  "videos": {
   "v": 2,
-  "fetched": "2026-11-04T10:01:42.383480+00:00",
+  "fetched": "2026-11-04T11:14:42.164627+00:00",
   "items": [
    {
     "id": "I4MG0kvNBQY",
