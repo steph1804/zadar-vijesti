@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-04T01:31:01.452936+00:00",
+ "updated": "2026-11-04T01:45:46.019022+00:00",
  "sources": [
   {
    "name": "Antena Zadar",
@@ -133,7 +133,7 @@
    "ok": false,
    "feed": null,
    "errors": [
-    "https://www.jadrolinija.hr/feeds/vijesti: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: certificate has expired (_ssl.c:1011)>"
+    "https://www.jadrolinija.hr/feeds/vijesti: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: certificate has expired (_ssl.c:1010)>"
    ]
   },
   {
