@@ -726,7 +726,9 @@ def is_about_zadar(item):
     return bool(UNSURE_PLACES.search(short) and CERTAIN_PLACES.search(_haystack(item)))
 SPORT = _words([r"sport\w*", r"nogomet\w*", r"košark\w*", r"vaterpol\w*", r"rukomet\w*",
                 r"odbojk\w*", r"futsal\w*", r"tenis\w*", r"jedr\w*", r"veslač\w*", r"atlet\w*",
-                r"plivač\w*", r"boks\w*", r"žnl", r"hnl", r"aba lig\w*", r"kk", r"hnk", r"nk"])
+                r"plivač\w*", r"boks\w*", r"žnl", r"hnl", r"aba lig\w*", r"kk", r"nk"])
+# HNK Zadar je kazalište (nogometni klub je NK Zadar), pa "HNK" ne znači sport.
+THEATRE = re.compile(r"\bHNK Zadar|kazališ\w*|predstav\w*", re.I)
 TOPICS = ["Zadar", "Županija", "Otoci", "Sport"]
 
 
@@ -735,8 +737,12 @@ TOPICS = ["Zadar", "Županija", "Otoci", "Sport"]
 _MEMORIAL = re.compile(r"vukovar\w*\s+i\s+[šs]kabrnj\w*|[šs]kabrnj\w*\s+i\s+vukovar\w*", re.I)
 
 
+# U zapisnicima utakmica ("Sudac: Ivan Vukančić (Benkovac)") mjesto suca ne čini utakmicu zadarskom.
+_OFFICIALS = re.compile(r"\b(?:glavn\w* )?(?:sud(?:ac|ci|ije|ica)|pomoćn\w* sud\w*|delegat|opunomoćenik|kontrolor\w*)\s*:[^.\n]*", re.I)
+
+
 def _no_memorial(text):
-    return _MEMORIAL.sub(" ", text)
+    return _OFFICIALS.sub(" ", _MEMORIAL.sub(" ", text))
 
 
 def _haystack(item, full=True):
@@ -911,7 +917,9 @@ def _title_words(a):
 def current_topics(a):
     """Teme po trenutnom places.txt; Sport ostaje ako je dodijeljen pri preuzimanju (rubrika ili portal)."""
     found = topics(a)
-    if "Sport" in a.get("topics", []) and "Sport" not in found:
+    if "Sport" in found and THEATRE.search(a["title"]) and a.get("source_topic") != "Sport":
+        found.remove("Sport")
+    if "Sport" in a.get("topics", []) and "Sport" not in found and not THEATRE.search(a["title"]):
         found.append("Sport")
     return sorted(found, key=TOPICS.index)
 
