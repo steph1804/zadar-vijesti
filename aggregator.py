@@ -720,7 +720,7 @@ def is_about_zadar(item):
     Dvosmisleno ime (Vir, Nin, Novigrad...) u naslovu ili uvodu vrijedi samo ako se
     negdje u tekstu iz feeda spominje i nešto sigurno zadarsko.
     """
-    short = item["title"] + " " + item["summary"]
+    short = _no_memorial(item["title"] + " " + item["summary"])
     if CERTAIN_PLACES.search(short):
         return True
     return bool(UNSURE_PLACES.search(short) and CERTAIN_PLACES.search(_haystack(item)))
@@ -730,12 +730,21 @@ SPORT = _words([r"sport\w*", r"nogomet\w*", r"košark\w*", r"vaterpol\w*", r"ruk
 TOPICS = ["Zadar", "Županija", "Otoci", "Sport"]
 
 
+# "Dan sjećanja na žrtvu Vukovara i Škabrnje" (18. 11.) spominje Škabrnju u gotovo svakom članku o Vukovaru;
+# sam taj izraz ne čini vijest zadarskom (Stipe, 2026-11-04). Škabrnja se broji samo kad se spominje drukčije.
+_MEMORIAL = re.compile(r"vukovar\w*\s+i\s+[šs]kabrnj\w*|[šs]kabrnj\w*\s+i\s+vukovar\w*", re.I)
+
+
+def _no_memorial(text):
+    return _MEMORIAL.sub(" ", text)
+
+
 def _haystack(item, full=True):
     slug = urllib.parse.unquote(urllib.parse.urlsplit(item["link"]).path).replace("-", " ").replace("/", " ")
     parts = [item["title"], slug, " ".join(item.get("categories", []))]
     if full:
         parts += [item["summary"], item.get("text", "")]
-    return " ".join(parts)
+    return _no_memorial(" ".join(parts))
 
 
 def is_local(item):
