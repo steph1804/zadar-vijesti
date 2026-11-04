@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-04T03:01:12.933219+00:00",
+ "updated": "2026-11-04T03:15:45.453483+00:00",
  "sources": [
   {
    "name": "Antena Zadar",
@@ -66,12 +66,10 @@
   },
   {
    "name": "Naši školji",
-   "count": 0,
-   "ok": false,
+   "count": 10,
+   "ok": true,
    "feed": null,
-   "errors": [
-    "https://www.nasiskolji.hr/feed/: <urlopen error timed out>"
-   ]
+   "errors": []
   },
   {
    "name": "Grad Zadar",
@@ -131,12 +129,10 @@
   },
   {
    "name": "Jadrolinija",
-   "count": 0,
-   "ok": false,
+   "count": 2,
+   "ok": true,
    "feed": null,
-   "errors": [
-    "https://www.jadrolinija.hr/feeds/vijesti: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: certificate has expired (_ssl.c:1011)>"
-   ]
+   "errors": []
   },
   {
    "name": "Index.hr",
