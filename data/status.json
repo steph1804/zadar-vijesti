@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-04T20:01:11.491026+00:00",
+ "updated": "2026-11-04T20:15:43.762560+00:00",
  "sources": [
   {
    "name": "Antena Zadar",
@@ -105,10 +105,12 @@
   },
   {
    "name": "Opća bolnica Zadar",
-   "count": 6,
-   "ok": true,
-   "feed": null,
-   "errors": []
+   "count": 0,
+   "ok": false,
+   "feed": "https://www.bolnica-zadar.hr/feed/",
+   "errors": [
+    "https://www.bolnica-zadar.hr/feed/: <urlopen error timed out>"
+   ]
   },
   {
    "name": "Liburnija Zadar",
