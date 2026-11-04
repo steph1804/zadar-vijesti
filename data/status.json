@@ -1,9 +1,9 @@
 {
- "updated": "2026-11-04T11:12:26.855590+00:00",
+ "updated": "2026-11-04T11:31:03.880344+00:00",
  "sources": [
   {
    "name": "Antena Zadar",
-   "count": 8,
+   "count": 9,
    "ok": true,
    "feed": null,
    "errors": []
@@ -31,7 +31,7 @@
   },
   {
    "name": "eZadar",
-   "count": 21,
+   "count": 22,
    "ok": true,
    "feed": null,
    "errors": []
@@ -133,22 +133,17 @@
   },
   {
    "name": "Jadrolinija",
-   "count": 0,
-   "ok": false,
+   "count": 1,
+   "ok": true,
    "feed": null,
-   "errors": [
-    "https://www.jadrolinija.hr/feeds/vijesti: <urlopen error timed out>"
-   ]
+   "errors": []
   },
   {
    "name": "Index.hr",
-   "count": 0,
-   "ok": false,
+   "count": 1,
+   "ok": true,
    "feed": null,
-   "errors": [
-    "https://www.index.hr/rss: HTTP Error 403: Forbidden",
-    "https://www.index.hr/rss/vijesti: HTTP Error 403: Forbidden"
-   ]
+   "errors": []
   },
   {
    "name": "Jutarnji list",
@@ -180,7 +175,7 @@
   },
   {
    "name": "Net.hr",
-   "count": 1,
+   "count": 2,
    "ok": true,
    "feed": null,
    "errors": []
@@ -201,8 +196,8 @@
   },
   {
    "name": "HRT",
-   "count": 0,
-   "ok": false,
+   "count": 1,
+   "ok": true,
    "feed": null,
    "errors": []
   },
@@ -278,8 +273,8 @@
   },
   {
    "name": "Sportske novosti",
-   "count": 1,
-   "ok": true,
+   "count": 0,
+   "ok": false,
    "feed": null,
    "errors": []
   },
