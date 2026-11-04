@@ -1,5 +1,19 @@
 [
  {
+  "title": "Drska krađa na Smiljevcu: mladić odnio cijelu blagajnu iz trgovine",
+  "link": "https://radio.hrt.hr/radio-zadar/vijesti/drska-krada-na-smiljevcu-mladic-odnio-cijelu-blagajnu-iz-trgovine-12992484",
+  "date": "2026-11-04T10:12:19+00:00",
+  "summary": "Policija podnosi kaznenu prijavu nadležnom državnom odvjetništvu u Zadru.",
+  "image": "https://api.hrt.hr/media/80/7c/plajcak1231-20241125185814.webp",
+  "source": "HRT Radio Zadar",
+  "topics": [
+   "Zadar"
+  ],
+  "source_url": "https://radio.hrt.hr/radio-zadar",
+  "face": null,
+  "face_img": "https://api.hrt.hr/media/80/7c/plajcak1231-20241125185814.webp"
+ },
+ {
   "title": "Upravljao automobilom kojem je isteklo važenje prometne dozvole i police osiguranja",
   "link": "https://zadarska-policija.gov.hr/vijesti/upravljao-automobilom-kojem-je-isteklo-vazenje-prometne-dozvole-i-police-osiguranja/18816",
   "date": "2026-11-04T10:01:20.095483+00:00",
@@ -1408,7 +1422,7 @@
   "link": "https://www.jutarnji.hr/sportske/sport-mix/vaterpolo/sibencani-i-zadrani-doma-rijecani-putuju-na-bospor-15762073",
   "date": "2026-11-03T15:45:44+00:00",
   "summary": "Sva tri hrvatska vaterpolska kluba u Konferencijskom kupu ili po rangu trećem kontinentalnom kup nadmetanju, doznali su temeljem ždrijeba drugog kruga kvalifikacija, skupine odnosno suparnike s kojima će se sučeliti sredinom 12. mjeseca. Ukupno je ždrijebom određeno 6 skupina, a dvije će se odigrati...",
-  "image": "https://media.jutarnji.hr/images/slike/2026/11/03/f_39752286_1280.jpg?1793786306",
+  "image": "https://media.jutarnji.hr/images/slike/2026/11/03/f_39752286_1280.jpg?1793786961",
   "source": "Sportske novosti",
   "source_topic": "Sport",
   "topics": [
@@ -1422,7 +1436,7 @@
    8.1,
    84.9
   ],
-  "face_img": "https://media.jutarnji.hr/images/slike/2026/11/03/f_39752286_1280.jpg?1793786306"
+  "face_img": "https://media.jutarnji.hr/images/slike/2026/11/03/f_39752286_1280.jpg?1793786961"
  },
  {
   "title": "Od 7 do 28 tisuća eura za adventsku kućicu u Zadru. Objavljeno tko je dobio koju poziciju i koliko je ponudio",
@@ -1482,7 +1496,7 @@
   "link": "https://www.jutarnji.hr/sportske/nogomet/hnl/kup-hnl/senzacija-u-kupu-i-povijesni-uspjeh-iznenadenje-druge-lige-izbacilo-slaven-belupo-vidimo-se-u-hnl-u-15762063",
   "date": "2026-11-03T15:16:00+00:00",
   "summary": "MLADOST (Ž) - SLAVEN BELUPO 2:0 (Nikolić 30., Pavković 65.) ŽDRALOVI Stadion Brdo. Gledatelja 400. Sudac: Ivan Vukančić (Benkovac) 7.",
-  "image": "https://media.jutarnji.hr/images/slike/2026/11/03/f_39897539_1280.jpg?1793786306",
+  "image": "https://media.jutarnji.hr/images/slike/2026/11/03/f_39897539_1280.jpg?1793786961",
   "source": "Sportske novosti",
   "source_topic": "Sport",
   "topics": [
@@ -1496,7 +1510,7 @@
    11.9,
    99.5
   ],
-  "face_img": "https://media.jutarnji.hr/images/slike/2026/11/03/f_39897539_1280.jpg?1793786306"
+  "face_img": "https://media.jutarnji.hr/images/slike/2026/11/03/f_39897539_1280.jpg?1793786961"
  },
  {
   "title": "Mise se vraćaju u crkvu sv. Krševana! Nadbiskup Zgrablić pozvao Zadrane na povijesno slavlje",
@@ -5008,18 +5022,6 @@
   "source_url": "https://zadarska-policija.gov.hr/vijesti/8",
   "face": null,
   "face_img": "https://zadarska-policija.gov.hr/UserDocsImages//2023/POLICIJA/pol.biograd.jpg"
- },
- {
-  "title": "Zaustavljen na mopedu - vozio bez položenog vozačkog ispita i pod utjecajem alkohola",
-  "link": "https://zadarska-policija.gov.hr/vijesti/zaustavljen-na-mopedu-vozio-bez-polozenog-vozackog-ispita-i-pod-utjecajem-alkohola/18807",
-  "date": "2026-11-02T11:00:00+00:00",
-  "summary": "Vozač je isključen iz prometa",
-  "image": "https://zadarska-policija.gov.hr/UserDocsImages//2023/POLICIJA/95.jpg",
-  "source": "Policija Zadar",
-  "topics": [],
-  "source_url": "https://zadarska-policija.gov.hr/vijesti/8",
-  "face": null,
-  "face_img": "https://zadarska-policija.gov.hr/UserDocsImages//2023/POLICIJA/95.jpg"
  },
  {
   "title": "Sveučilište u Zadru domaćin regionalnog EIT Water & PDJF Hackathona",
