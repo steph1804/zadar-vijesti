@@ -1,18 +1,22 @@
 [
  {
-  "title": "Kakvi prizori! Zadar, Sukošan i Bibinje bakljama i vatrometom ispratili Mišu Kovača",
-  "link": "https://www.tportal.hr/showtime/clanak/kakvi-prizori-zadar-sukosan-i-bibinje-bakljama-i-vatrometom-ispratili-misu-kovaca-foto-20261104",
-  "date": "2026-11-04T05:17:51+00:00",
-  "summary": "Lijes s tijelom Mate Miše Kovača posljednji su ispratili stanovnici Bibinja i Zadra, čime su sva veća mjesta i gradovi uz more imali priliku odati posljednju počast preminulom Mati Miši Kovaču",
-  "image": "https://www.tportal.hr/media/thumbnail/500x300/2821989.jpeg?cropId=0",
-  "source": "tportal",
+  "title": "POSTIGNUT DOGOVOR Matek ne odlazi, ostaje u Vodovodu na mjestu savjetnika",
+  "link": "https://www.antenazadar.hr/clanak/2026/11/postignut-dogovor-matek-ne-odlazi-ostaje-u-vodovodu-na-mjestu-savjetnika/",
+  "date": "2026-11-04T05:31:34+00:00",
+  "summary": "Kada je 14. rujna za naš portal govorio o ostavci na mjesto direktora Vodovoda, u glasu Tomislava Mateka osjetila se velika gorčina. Gotovo 15 godina je na čelu zadarskog Vodovoda, ali nakon tragedije u kojoj je poginuo radnik na pročišćivaču Matek je morao otići.",
+  "image": "https://www.antenazadar.hr/wp-content/uploads/2026/11/Tomislav-Matek-ANTENA.jpg",
+  "source": "Antena Zadar",
   "topics": [
-   "Zadar",
-   "Županija"
+   "Zadar"
   ],
-  "source_url": "https://www.tportal.hr/",
-  "face": null,
-  "face_img": "https://www.tportal.hr/media/thumbnail/500x300/2821989.jpeg?cropId=0"
+  "source_url": "https://www.antenazadar.hr/",
+  "face": [
+   2.1,
+   60.2,
+   35.2,
+   60.0
+  ],
+  "face_img": "https://www.antenazadar.hr/wp-content/uploads/2026/11/Tomislav-Matek-ANTENA.jpg"
  },
  {
   "title": "Zadar i okolica uživaju u suncu do nedjelje, a potom nastupa kišno razdoblje",
@@ -28,6 +32,21 @@
   "source_url": "https://023.hr/",
   "face": null,
   "face_img": "https://023.hr/wp-content/uploads/2026/10/20261024140342_449251.avif"
+ },
+ {
+  "title": "Kakvi prizori! Zadar, Sukošan i Bibinje bakljama i vatrometom ispratili Mišu Kovača",
+  "link": "https://www.tportal.hr/showtime/clanak/kakvi-prizori-zadar-sukosan-i-bibinje-bakljama-i-vatrometom-ispratili-misu-kovaca-foto-20261104",
+  "date": "2026-11-04T05:17:00+00:00",
+  "summary": "Lijes s tijelom Mate Miše Kovača posljednji su ispratili stanovnici Bibinja i Zadra, čime su sva veća mjesta i gradovi uz more imali priliku odati posljednju počast preminulom Mati Miši Kovaču",
+  "image": "https://www.tportal.hr/media/thumbnail/500x300/2821989.jpeg?cropId=0",
+  "source": "tportal",
+  "topics": [
+   "Zadar",
+   "Županija"
+  ],
+  "source_url": "https://www.tportal.hr/",
+  "face": null,
+  "face_img": "https://www.tportal.hr/media/thumbnail/500x300/2821989.jpeg?cropId=0"
  },
  {
   "title": "‘More‘ ljudi došlo je reći posljednje zbogom Miši: Zadar se oprostio od legende dalmatinske pisme",
@@ -562,7 +581,7 @@
   "link": "https://www.jutarnji.hr/sportske/sport-mix/vaterpolo/sibencani-i-zadrani-doma-rijecani-putuju-na-bospor-15762073",
   "date": "2026-11-03T15:45:44+00:00",
   "summary": "Sva tri hrvatska vaterpolska kluba u Konferencijskom kupu ili po rangu trećem kontinentalnom kup nadmetanju, doznali su temeljem ždrijeba drugog kruga kvalifikacija, skupine odnosno suparnike s kojima će se sučeliti sredinom 12. mjeseca. Ukupno je ždrijebom određeno 6 skupina, a dvije će se odigrati...",
-  "image": "https://media.jutarnji.hr/images/slike/2026/11/03/f_39752286_1280.jpg?1793770279",
+  "image": "https://media.jutarnji.hr/images/slike/2026/11/03/f_39752286_1280.jpg?1793770695",
   "source": "Sportske novosti",
   "source_topic": "Sport",
   "topics": [
@@ -576,7 +595,7 @@
    8.1,
    84.9
   ],
-  "face_img": "https://media.jutarnji.hr/images/slike/2026/11/03/f_39752286_1280.jpg?1793770279"
+  "face_img": "https://media.jutarnji.hr/images/slike/2026/11/03/f_39752286_1280.jpg?1793770695"
  },
  {
   "title": "Od 7 do 28 tisuća eura za adventsku kućicu u Zadru. Objavljeno tko je dobio koju poziciju i koliko je ponudio",
@@ -636,7 +655,7 @@
   "link": "https://www.jutarnji.hr/sportske/nogomet/hnl/kup-hnl/senzacija-u-kupu-i-povijesni-uspjeh-iznenadenje-druge-lige-izbacilo-slaven-belupo-vidimo-se-u-hnl-u-15762063",
   "date": "2026-11-03T15:16:00+00:00",
   "summary": "MLADOST (Ž) - SLAVEN BELUPO 2:0 (Nikolić 30., Pavković 65.) ŽDRALOVI Stadion Brdo. Gledatelja 400. Sudac: Ivan Vukančić (Benkovac) 7.",
-  "image": "https://media.jutarnji.hr/images/slike/2026/11/03/f_39897539_1280.jpg?1793770279",
+  "image": "https://media.jutarnji.hr/images/slike/2026/11/03/f_39897539_1280.jpg?1793770695",
   "source": "Sportske novosti",
   "source_topic": "Sport",
   "topics": [
@@ -650,7 +669,7 @@
    11.9,
    99.5
   ],
-  "face_img": "https://media.jutarnji.hr/images/slike/2026/11/03/f_39897539_1280.jpg?1793770279"
+  "face_img": "https://media.jutarnji.hr/images/slike/2026/11/03/f_39897539_1280.jpg?1793770695"
  },
  {
   "title": "Mise se vraćaju u crkvu sv. Krševana! Nadbiskup Zgrablić pozvao Zadrane na povijesno slavlje",
@@ -4989,21 +5008,6 @@
    50.1
   ],
   "face_img": "https://visnjik.hr/wp-content/uploads/2025/11/4-prvenstvo-balkana-u-gimnastici-04-11-2025-gimnastika-27.jpg"
- },
- {
-  "title": "ZBOG JAKE BURE Obustavljene linije prema dijelu zadarskih otoka",
-  "link": "https://www.antenazadar.hr/clanak/2026/11/zbog-jake-bure-obustavljene-linije-prema-dijelu-zadarskih-otoka/",
-  "date": "2026-11-02T07:26:35+00:00",
-  "summary": "Jadrolinija je jutros izvijestila o prekidu više brodskih linija, uključujući i onima na zadarskom području: – Trajektna linija 401 Zadar/Gaženica – Ist/Kosirača – Olib – Silba – Premuda/Krijal – Mali Lošinj je otkazana.",
-  "image": "https://www.antenazadar.hr/wp-content/uploads/2024/07/jugo-FOTO-Linda-Vidovic-22-7-2024-31.jpg",
-  "source": "Antena Zadar",
-  "topics": [
-   "Zadar",
-   "Otoci"
-  ],
-  "source_url": "https://www.antenazadar.hr/",
-  "face": null,
-  "face_img": "https://www.antenazadar.hr/wp-content/uploads/2024/07/jugo-FOTO-Linda-Vidovic-22-7-2024-31.jpg"
  },
  {
   "title": "Naš laboratorij otvara svoja vrata – prijavite se!",
