@@ -1,22 +1,237 @@
-// Uvijek prvo mreža; spremljena kopija služi samo kad nema veze (npr. na trajektu).
-// Sprema se jedna kopija po stranici, bez ?v=/?r= oznaka (inače bi se svaka provjera
-// svježine spremala zasebno i memorija bi rasla). v2 briše stare, napuhane spremnike.
-const CACHE = "idassa-v2";
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
 
-self.addEventListener("install", e => self.skipWaiting());
-self.addEventListener("activate", e => e.waitUntil(
-  caches.keys().then(keys => Promise.all(keys.filter(k => k !== CACHE).map(k => caches.delete(k))))
-    .then(() => self.clients.claim())));
+<channel>
+	<title>Opća bolnica Zadar</title>
+	<atom:link href="https://www.bolnica-zadar.hr/feed/" rel="self" type="application/rss+xml" />
+	<link>https://www.bolnica-zadar.hr</link>
+	<description>OBZ</description>
+	<lastBuildDate>Thu, 05 Nov 2026 13:52:58 +0000</lastBuildDate>
+	<language>hr</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	
 
-self.addEventListener("fetch", e => {
-  const url = new URL(e.request.url);
-  if (e.request.method !== "GET" || url.origin !== location.origin) return;
-  if (url.searchParams.has("v")) return;  // provjera svježine ide ravno na mrežu
-  const key = url.origin + url.pathname;
-  e.respondWith(fetch(e.request).then(r => {
-    if (r.ok && r.type === "basic") { const copy = r.clone(); caches.open(CACHE).then(c => c.put(key, copy)); }
-    return r;
-  }).catch(() => caches.match(key).then(r => r || new Response(
-    "<!doctype html><meta charset=utf-8><meta name=viewport content='width=device-width'><p style='font:16px sans-serif;padding:24px'>Nema internetske veze. Pokušaj ponovno za trenutak.</p>",
-    { status: 503, headers: { "Content-Type": "text/html; charset=utf-8" } }))));
-});
+<image>
+	<url>https://www.bolnica-zadar.hr/wp-content/uploads/2020/01/cropped-OB_ZD_logo_blue-32x32.png</url>
+	<title>Opća bolnica Zadar</title>
+	<link>https://www.bolnica-zadar.hr</link>
+	<width>32</width>
+	<height>32</height>
+</image> 
+	<item>
+		<title>ČOVJEK KOJI JE OSTAVIO NEIZBRISIV TRAG U ZADARSKOM ZDRAVSTVU</title>
+		<link>https://www.bolnica-zadar.hr/covjek-koji-je-ostavio-neizbrisiv-trag-u-zadarskom-zdravstvu/</link>
+		
+		<dc:creator><![CDATA[Ivana Baždarić]]></dc:creator>
+		<pubDate>Thu, 05 Nov 2026 13:52:58 +0000</pubDate>
+				<category><![CDATA[Vijesti]]></category>
+		<guid isPermaLink="false">https://www.bolnica-zadar.hr/?p=48448</guid>
+
+					<description><![CDATA[Na prijedlog Opće bolnice Zadar, Nagrada Grada Zadra za životno djelo posthumno se dodjeljuje izv. prof. dr. sc. Tomislavu Soriću, za izvanredne rezultate, naročite uspjehe i osobite zasluge ostvarene u području zdravstva te za djela humanosti i požrtvovnosti. Odluka je to Odbora za dodjelu javnih priznanja Grada Zadra, kojom se odaje priznanje njegovu iznimnom profesionalnom...]]></description>
+										<content:encoded><![CDATA[<p>Na prijedlog Opće bolnice Zadar, Nagrada Grada Zadra za životno djelo posthumno se dodjeljuje izv. prof. dr. sc. Tomislavu Soriću, za izvanredne rezultate, naročite uspjehe i osobite zasluge ostvarene u području zdravstva te za djela humanosti i požrtvovnosti. Odluka je to Odbora za dodjelu javnih priznanja Grada Zadra, kojom se odaje priznanje njegovu iznimnom profesionalnom doprinosu, predanom radu i humanosti.</p>
+<p>Opća bolnica Zadar s ponosom je predložila dodjelu ovog priznanja, smatrajući ga trajnim izrazom zahvalnosti i poštovanja prema čovjeku koji je svojim radom i zalaganjem ostavio dubok trag u zadarskom zdravstvu.</p>
+<p>Sjećanje na našeg Tomu i njegov doprinos ostaje tako trajno utkano u našu bolnicu.</p>
+]]></content:encoded>
+					
+		
+		
+			</item>
+		<item>
+		<title>Obavijest o izabranom kandidatu po provedenom javnom natječaju objavljenom 07.10.2025. godine</title>
+		<link>https://www.bolnica-zadar.hr/obavijest-o-izabranom-kandidatu-po-provedenom-javnom-natjecaju-objavljenom-07-10-2025-godine/</link>
+		
+		<dc:creator><![CDATA[Ana Petrić]]></dc:creator>
+		<pubDate>Fri, 30 Oct 2026 13:45:25 +0000</pubDate>
+				<category><![CDATA[Odluke]]></category>
+		<guid isPermaLink="false">https://www.bolnica-zadar.hr/?p=48423</guid>
+
+					<description><![CDATA[]]></description>
+										<content:encoded><![CDATA[
+<div data-wp-interactive="core/file" class="wp-block-file"><object data-wp-bind--hidden="!state.hasPdfPreview" hidden class="wp-block-file__embed" data="https://www.bolnica-zadar.hr/wp-content/uploads/2026/10/obavijest-o-izabranom-kandidatu-po-natjecaju-od-07.10.26.pdf" type="application/pdf" style="width:100%;height:600px" aria-label="Ugrađeno obavijest o izabranom kandidatu po natječaju od 07.10.26.."></object><a id="wp-block-file--media-e96aa400-3201-40e8-8e7c-74c6927dee72" href="https://www.bolnica-zadar.hr/wp-content/uploads/2026/10/obavijest-o-izabranom-kandidatu-po-natjecaju-od-07.10.26.pdf" class="mtli_attachment mtli_pdf">obavijest o izabranom kandidatu po natječaju od 07.10.26.</a><a href="https://www.bolnica-zadar.hr/wp-content/uploads/2026/10/obavijest-o-izabranom-kandidatu-po-natjecaju-od-07.10.26.pdf" class="mtli_attachment mtli_pdf" class="wp-block-file__button wp-element-button" download aria-describedby="wp-block-file--media-e96aa400-3201-40e8-8e7c-74c6927dee72">Preuzmi</a></div>
+]]></content:encoded>
+					
+		
+		
+			</item>
+		<item>
+		<title>Obavijest o izabranim kandidatima po provedenom javnom natječaju objavljenom 29.06.2026.</title>
+		<link>https://www.bolnica-zadar.hr/obavijest-o-izabranim-kandidatima-po-provedenom-javnom-natjecaju-objavljenom-29-06-2026/</link>
+		
+		<dc:creator><![CDATA[Ana Petrić]]></dc:creator>
+		<pubDate>Fri, 30 Oct 2026 12:07:59 +0000</pubDate>
+				<category><![CDATA[Uncategorized]]></category>
+		<guid isPermaLink="false">https://www.bolnica-zadar.hr/?p=48428</guid>
+
+					<description><![CDATA[]]></description>
+										<content:encoded><![CDATA[
+<div data-wp-interactive="core/file" class="wp-block-file"><object data-wp-bind--hidden="!state.hasPdfPreview" hidden class="wp-block-file__embed" data="https://www.bolnica-zadar.hr/wp-content/uploads/2026/11/obaviejst-o-izabranim-kandidatima-po-natjecaju-od-29.06.2026.pdf" type="application/pdf" style="width:100%;height:600px" aria-label="Ugrađeno obaviejst o izabranim kandidatima po natječaju od 29.06.2026.."></object><a id="wp-block-file--media-db89822d-b592-4272-a701-32c2147d4ae6" href="https://www.bolnica-zadar.hr/wp-content/uploads/2026/11/obaviejst-o-izabranim-kandidatima-po-natjecaju-od-29.06.2026.pdf" class="mtli_attachment mtli_pdf">obaviejst o izabranim kandidatima po natječaju od 29.06.2026.</a><a href="https://www.bolnica-zadar.hr/wp-content/uploads/2026/11/obaviejst-o-izabranim-kandidatima-po-natjecaju-od-29.06.2026.pdf" class="mtli_attachment mtli_pdf" class="wp-block-file__button wp-element-button" download aria-describedby="wp-block-file--media-db89822d-b592-4272-a701-32c2147d4ae6">Preuzmi</a></div>
+]]></content:encoded>
+					
+		
+		
+			</item>
+		<item>
+		<title>NAŠ LABORATORIJ OTVARA SVOJA VRATA – PRIJAVITE SE!</title>
+		<link>https://www.bolnica-zadar.hr/nas-laboratorij-otvara-svoja-vrata-prijavite-se/</link>
+		
+		<dc:creator><![CDATA[Ivana Baždarić]]></dc:creator>
+		<pubDate>Wed, 28 Oct 2026 12:18:51 +0000</pubDate>
+				<category><![CDATA[Vijesti]]></category>
+		<guid isPermaLink="false">https://www.bolnica-zadar.hr/?p=48417</guid>
+
+					<description><![CDATA[Odjel za laboratorijsku dijagnostiku Opće bolnice Zadar i ove će godine, 5. studenoga, obilježiti Europski dan laboratorijske medicine. Pod motom „Lideri u laboratoriju“ raznovrsnim programom proslavit ćemo stručnost, raznolikost i doprinos stručnjaka laboratorijske medicine diljem Europe. Pozivamo zainteresirane građane da se prijave za laboratorijske pretrage prema vlastitom izboru putem e-mail adrese dan.laboratorijske.medicine@gmail.com, najkasnije do 3....]]></description>
+										<content:encoded><![CDATA[<p>Odjel za laboratorijsku dijagnostiku Opće bolnice Zadar i ove će godine, 5. studenoga, obilježiti Europski dan laboratorijske medicine. Pod motom „Lideri u laboratoriju“ raznovrsnim programom proslavit ćemo stručnost, raznolikost i doprinos stručnjaka laboratorijske medicine diljem Europe.</p>
+<p><img fetchpriority="high" decoding="async" class="alignnone size-full wp-image-48418" src="https://www.bolnica-zadar.hr/wp-content/uploads/2026/10/lab-day-scaled.png" alt="" width="2560" height="1280" srcset="https://www.bolnica-zadar.hr/wp-content/uploads/2026/10/lab-day-scaled.png 2560w, https://www.bolnica-zadar.hr/wp-content/uploads/2026/10/lab-day-768x384.png 768w, https://www.bolnica-zadar.hr/wp-content/uploads/2026/10/lab-day-1536x768.png 1536w, https://www.bolnica-zadar.hr/wp-content/uploads/2026/10/lab-day-2048x1024.png 2048w, https://www.bolnica-zadar.hr/wp-content/uploads/2026/10/lab-day-580x290.png 580w, https://www.bolnica-zadar.hr/wp-content/uploads/2026/10/lab-day-860x430.png 860w, https://www.bolnica-zadar.hr/wp-content/uploads/2026/10/lab-day-1160x580.png 1160w" sizes="(max-width: 2560px) 100vw, 2560px" /></p>
+<p>Pozivamo zainteresirane građane da se prijave za laboratorijske pretrage prema vlastitom izboru putem e-mail adrese <a href="mailto:dan.laboratorijske.medicine@gmail.com">dan.laboratorijske.medicine@gmail.com</a>, najkasnije do 3. studenoga. U skladu s mogućnostima, odabrat ćemo 40 osoba kojima ćemo omogućiti obavljanje željenih pretraga. Odabrane osobe o točnom terminu vađenja krvi bit će obaviještene putem e-maila.</p>
+<p>I ove godine pripremili smo <em>Kutak za odrasle</em> u kojem ćete moći razgovarati s magistrom medicinske biokemije i doznati više o laboratorijskim pretragama i pravilnoj pripremi za vađenje krvi. Broj mjesta u <em>Kutku za odrasle</em> je ograničen, stoga je potrebna prethodna prijava na e-mail adresu <a href="mailto:dan.laboratorijske.medicine@gmail.com">dan.laboratorijske.medicine@gmail.com</a>, također najkasnije do 3. studenoga. Prijavljene osobe o točnom terminu razgovora bit će obaviještene putem e-maila.</p>
+<p>Brinite o svom zdravlju i ne zaboravite na važnost laboratorijskih pretraga! Pridružite nam se, informirajte i iskoristite priliku da doznate više o tome kako laboratorijska medicina pridonosi pravodobnom otkrivanju i praćenju bolesti.</p>
+<p>Veselimo se vašem dolasku!</p>
+]]></content:encoded>
+					
+		
+		
+			</item>
+		<item>
+		<title>PONOSNI NA NAŠE JUBILARNE DARIVATELJE KRVI</title>
+		<link>https://www.bolnica-zadar.hr/ponosni-na-nase-jubilarne-darivatelje-krvi/</link>
+		
+		<dc:creator><![CDATA[Ivana Baždarić]]></dc:creator>
+		<pubDate>Tue, 27 Oct 2026 15:42:14 +0000</pubDate>
+				<category><![CDATA[Uncategorized]]></category>
+		<category><![CDATA[Vijesti]]></category>
+		<guid isPermaLink="false">https://www.bolnica-zadar.hr/?p=48398</guid>
+
+					<description><![CDATA[Povodom Dana dobrovoljnih darivatelja krvi, župan Josip Bilaver primio je u Domu Zadarske županije jubilarne darivatelje, njih ukupno 56 koji su krv darovali nevjerojatnih 2.995 puta. Među njima su i djelatnici Opće bolnice Zadar; Ivan Rakvin, dr. med., koji je primio priznanje za 100 darivanja krvi te medicinska sestra Nada Žuža koja se na ovaj hvalevrijedan...]]></description>
+										<content:encoded><![CDATA[<p>Povodom Dana dobrovoljnih darivatelja krvi, župan Josip Bilaver primio je u Domu Zadarske županije jubilarne darivatelje, njih ukupno 56 koji su krv darovali nevjerojatnih 2.995 puta. Među njima su i djelatnici Opće bolnice Zadar; Ivan Rakvin, dr. med., koji je primio priznanje za 100 darivanja krvi te medicinska sestra Nada Žuža koja se na ovaj hvalevrijedan čin odlučila 35 puta.</p>
+<p><img decoding="async" class="alignnone size-full wp-image-48403" src="https://www.bolnica-zadar.hr/wp-content/uploads/2026/10/d5-1-scaled.jpg" alt="" width="2560" height="1708" srcset="https://www.bolnica-zadar.hr/wp-content/uploads/2026/10/d5-1-scaled.jpg 2560w, https://www.bolnica-zadar.hr/wp-content/uploads/2026/10/d5-1-768x512.jpg 768w, https://www.bolnica-zadar.hr/wp-content/uploads/2026/10/d5-1-1536x1025.jpg 1536w, https://www.bolnica-zadar.hr/wp-content/uploads/2026/10/d5-1-2048x1366.jpg 2048w, https://www.bolnica-zadar.hr/wp-content/uploads/2026/10/d5-1-580x387.jpg 580w, https://www.bolnica-zadar.hr/wp-content/uploads/2026/10/d5-1-860x574.jpg 860w, https://www.bolnica-zadar.hr/wp-content/uploads/2026/10/d5-1-1160x774.jpg 1160w" sizes="(max-width: 2560px) 100vw, 2560px" /></p>
+<p>Ponosni smo na naše djelatnike koji i izvan svojih svakodnevnih profesionalnih uloga humanim djelima pomažu spašavati živote.</p>
+<p>Čestitamo dr. Rakvinu i sestri Nadi te od srca zahvaljujemo svim darivateljima krvi!</p>
+<p>&nbsp;</p>
+]]></content:encoded>
+					
+		
+		
+			</item>
+		<item>
+		<title>VAŽNA OBAVIJEST ZA PACIJENTE &#8211; ULAZ NA HITNI PRIJAM S JUŽNE STRANE!</title>
+		<link>https://www.bolnica-zadar.hr/vazna-obavijest-za-pacijente-ulaz-na-hitni-prijam-s-juzne-strane/</link>
+		
+		<dc:creator><![CDATA[Ivana Baždarić]]></dc:creator>
+		<pubDate>Tue, 27 Oct 2026 15:03:02 +0000</pubDate>
+				<category><![CDATA[Vijesti]]></category>
+		<guid isPermaLink="false">https://www.bolnica-zadar.hr/?p=48389</guid>
+
+					<description><![CDATA[Obavještavamo pacijente i korisnike usluga Opće bolnice Zadar da se od sutra, 28. listopada 2026. godine, zbog izvođenja radova u sklopu energetske obnove Klinike za internu medicinu, privremeno zatvara glavni ulaz Objedinjenog hitnog bolničkog prijama. Zatvaranje ulaza nužno je radi sigurnosti pacijenata i djelatnika. Na taj će se način radovi moći izvoditi u kontinuitetu i...]]></description>
+										<content:encoded><![CDATA[<p>Obavještavamo pacijente i korisnike usluga Opće bolnice Zadar da se od sutra, 28. listopada 2026. godine, zbog izvođenja radova u sklopu energetske obnove Klinike za internu medicinu, privremeno zatvara glavni ulaz Objedinjenog hitnog bolničkog prijama. Zatvaranje ulaza nužno je radi sigurnosti pacijenata i djelatnika. Na taj će se način radovi moći izvoditi u kontinuitetu i završiti u što kraćem roku.</p>
+<p>Za ulazak u prostor Hitnog prijama pacijenti i djelatnici trebaju koristiti južni ulaz koji se nalazi nasuprot zgrade Uprave Opće bolnice Zadar i vidljiv je na popratnim fotografijama. Ulaz za vozila hitne medicinske pomoći ostaje u funkciji.</p>
+<p>Poštovani pacijenti, zahvaljujemo na razumijevanju i suradnji!</p>
+<p><div id="cmsmasters_gallery_9pzhxglsph" class="cmsmasters_gallery_wrap" data-type="masonry" data-count="0"><ul class="cmsmasters_gallery cmsmasters_4 cmsmasters_more_items_loader"><li class="cmsmasters_gallery_item"><figure><a href="https://www.bolnica-zadar.hr/wp-content/uploads/2026/10/hp2.jpg" rel="ilightbox[9pzhxglsph]"><img decoding="async" width="2048" height="1536" src="https://www.bolnica-zadar.hr/wp-content/uploads/2026/10/hp2.jpg" class="attachment-full size-full" alt="" srcset="https://www.bolnica-zadar.hr/wp-content/uploads/2026/10/hp2.jpg 2048w, https://www.bolnica-zadar.hr/wp-content/uploads/2026/10/hp2-768x576.jpg 768w, https://www.bolnica-zadar.hr/wp-content/uploads/2026/10/hp2-1536x1152.jpg 1536w, https://www.bolnica-zadar.hr/wp-content/uploads/2026/10/hp2-580x435.jpg 580w, https://www.bolnica-zadar.hr/wp-content/uploads/2026/10/hp2-860x645.jpg 860w, https://www.bolnica-zadar.hr/wp-content/uploads/2026/10/hp2-1160x870.jpg 1160w" sizes="(max-width: 2048px) 100vw, 2048px" /></a></figure></li><li class="cmsmasters_gallery_item"><figure><a href="https://www.bolnica-zadar.hr/wp-content/uploads/2026/10/hp1.jpg" rel="ilightbox[9pzhxglsph]"><img loading="lazy" decoding="async" width="2048" height="1536" src="https://www.bolnica-zadar.hr/wp-content/uploads/2026/10/hp1.jpg" class="attachment-full size-full" alt="" srcset="https://www.bolnica-zadar.hr/wp-content/uploads/2026/10/hp1.jpg 2048w, https://www.bolnica-zadar.hr/wp-content/uploads/2026/10/hp1-768x576.jpg 768w, https://www.bolnica-zadar.hr/wp-content/uploads/2026/10/hp1-1536x1152.jpg 1536w, https://www.bolnica-zadar.hr/wp-content/uploads/2026/10/hp1-580x435.jpg 580w, https://www.bolnica-zadar.hr/wp-content/uploads/2026/10/hp1-860x645.jpg 860w, https://www.bolnica-zadar.hr/wp-content/uploads/2026/10/hp1-1160x870.jpg 1160w" sizes="auto, (max-width: 2048px) 100vw, 2048px" /></a></figure></li><li class="cmsmasters_gallery_item"><figure><a href="https://www.bolnica-zadar.hr/wp-content/uploads/2026/10/hp.jpg" rel="ilightbox[9pzhxglsph]"><img loading="lazy" decoding="async" width="1160" height="690" src="https://www.bolnica-zadar.hr/wp-content/uploads/2026/10/hp.jpg" class="attachment-full size-full" alt="" srcset="https://www.bolnica-zadar.hr/wp-content/uploads/2026/10/hp.jpg 1160w, https://www.bolnica-zadar.hr/wp-content/uploads/2026/10/hp-768x457.jpg 768w, https://www.bolnica-zadar.hr/wp-content/uploads/2026/10/hp-580x345.jpg 580w, https://www.bolnica-zadar.hr/wp-content/uploads/2026/10/hp-860x512.jpg 860w" sizes="auto, (max-width: 1160px) 100vw, 1160px" /></a></figure></li></ul></div></p>
+<p>&nbsp;</p>
+]]></content:encoded>
+					
+		
+		
+			</item>
+		<item>
+		<title>Natječaj za prijam u radni odnos od 26.10.2026. godine</title>
+		<link>https://www.bolnica-zadar.hr/natjecaj-za-prijam-u-radni-odnos-od-26-10-2026-godine/</link>
+		
+		<dc:creator><![CDATA[Ana Petrić]]></dc:creator>
+		<pubDate>Mon, 26 Oct 2026 11:32:36 +0000</pubDate>
+				<category><![CDATA[Natječaji]]></category>
+		<guid isPermaLink="false">https://www.bolnica-zadar.hr/?p=48386</guid>
+
+					<description><![CDATA[]]></description>
+										<content:encoded><![CDATA[
+<div data-wp-interactive="core/file" class="wp-block-file"><object data-wp-bind--hidden="!state.hasPdfPreview" hidden class="wp-block-file__embed" data="https://www.bolnica-zadar.hr/wp-content/uploads/2026/10/natjecaj-26.10.26-1.pdf" type="application/pdf" style="width:100%;height:600px" aria-label="Ugrađeno natječaj 26.10.26.."></object><a id="wp-block-file--media-88d3abc1-1e5d-4acd-8c0b-1d326f43bb8a" href="https://www.bolnica-zadar.hr/wp-content/uploads/2026/10/natjecaj-26.10.26-1.pdf" class="mtli_attachment mtli_pdf">natječaj 26.10.26.</a><a href="https://www.bolnica-zadar.hr/wp-content/uploads/2026/10/natjecaj-26.10.26-1.pdf" class="mtli_attachment mtli_pdf" class="wp-block-file__button wp-element-button" download aria-describedby="wp-block-file--media-88d3abc1-1e5d-4acd-8c0b-1d326f43bb8a">Preuzmi</a></div>
+]]></content:encoded>
+					
+		
+		
+			</item>
+		<item>
+		<title>SVAKA DOZA MOŽE SPASITI ŽIVOT I ZATO 6 500 PUTA HVALA!</title>
+		<link>https://www.bolnica-zadar.hr/svaka-doza-moze-spasiti-zivot-i-zato-6-500-puta-hvala/</link>
+		
+		<dc:creator><![CDATA[Ivana Baždarić]]></dc:creator>
+		<pubDate>Sat, 24 Oct 2026 22:05:22 +0000</pubDate>
+				<category><![CDATA[Vijesti]]></category>
+		<guid isPermaLink="false">https://www.bolnica-zadar.hr/?p=48349</guid>
+
+					<description><![CDATA[Danas, 25. listopada, obilježavamo Dan dobrovoljnih darivatelja krvi u Republici Hrvatskoj. Dan je ovo posvećen ljudima koji svakodnevno nesebično sudjeluju u liječenju i spašavanju života. U Općoj bolnici Zadar i ove se godine potvrđuje koliko je važna snažna i stabilna zajednica darivatelja koja se u nas desetljećima gradi. Od početka godine do 15. listopada prikupljeno...]]></description>
+										<content:encoded><![CDATA[<p>Danas, 25. listopada, obilježavamo Dan dobrovoljnih darivatelja krvi u Republici Hrvatskoj. Dan je ovo posvećen ljudima koji svakodnevno nesebično sudjeluju u liječenju i spašavanju života.</p>
+<p>U Općoj bolnici Zadar i ove se godine potvrđuje koliko je važna snažna i stabilna zajednica darivatelja koja se u nas desetljećima gradi. Od početka godine do 15. listopada prikupljeno je 5538 doza krvi, a do kraja godine trebali bi dosegnuti brojku od oko 6500 doza, koliko otprilike iznose i stvarne godišnje potrebe naše bolnice.</p>
+<p><img loading="lazy" decoding="async" class="alignnone size-full wp-image-48355" src="https://www.bolnica-zadar.hr/wp-content/uploads/2026/10/ddk-6-scaled.jpg" alt="" width="2560" height="1707" srcset="https://www.bolnica-zadar.hr/wp-content/uploads/2026/10/ddk-6-scaled.jpg 2560w, https://www.bolnica-zadar.hr/wp-content/uploads/2026/10/ddk-6-768x512.jpg 768w, https://www.bolnica-zadar.hr/wp-content/uploads/2026/10/ddk-6-1536x1024.jpg 1536w, https://www.bolnica-zadar.hr/wp-content/uploads/2026/10/ddk-6-2048x1366.jpg 2048w, https://www.bolnica-zadar.hr/wp-content/uploads/2026/10/ddk-6-580x387.jpg 580w, https://www.bolnica-zadar.hr/wp-content/uploads/2026/10/ddk-6-860x573.jpg 860w, https://www.bolnica-zadar.hr/wp-content/uploads/2026/10/ddk-6-1160x773.jpg 1160w" sizes="auto, (max-width: 2560px) 100vw, 2560px" /></p>
+<p><em>„Ove godine nismo imali većih problema u opskrbi krvnim pripravcima. Naši darivatelji odazivaju se na akcije i redovito dolaze darivati krv, što nam omogućuje stalnu opskrbu i sigurnost za naše pacijente“,</em> kaže Marijana Nadinić, dr. med., voditeljica Odjela za transfuzijsku medicinu OB Zadar.</p>
+<p>I ljetni mjeseci, koji tradicionalno predstavljaju izazov u osiguravanju dovoljnog broja doza, prošli su bez većih poteškoća<em>. „Od 15. lipnja do 15. rujna prikupljeno je 1680 doza krvi, pa smo i tijekom turističke sezone bili mirni. Značajan je i podatak o porastu broja trombafereza. U 2025. godini u OB Zadar bile su 32, dok su ove godine do sada provedene 33. Do kraja godine očekuje se njih oko 45“,</em> dodaje dr. Nadinić.</p>
+<p>Iza svih ovih brojki stoje ljudi. Ljudi koji odvoje svoje vrijeme, sjednu na stolac i daju ono što se ne može proizvesti ni nadomjestiti, daju svoju krv. Na području Zadarske županije postoji velika zajednica stalnih darivatelja na koju se možemo osloniti tijekom cijele godine. Zahvaljujući njima i dobroj suradnji s Gradskim društvom Crvenog križa Zadar, krv je našim pacijentima dostupna uvijek kada im je najpotrebnija.</p>
+<p><img loading="lazy" decoding="async" class="alignnone size-full wp-image-48351" src="https://www.bolnica-zadar.hr/wp-content/uploads/2026/10/ddk-2-scaled.jpg" alt="" width="2560" height="1707" srcset="https://www.bolnica-zadar.hr/wp-content/uploads/2026/10/ddk-2-scaled.jpg 2560w, https://www.bolnica-zadar.hr/wp-content/uploads/2026/10/ddk-2-768x512.jpg 768w, https://www.bolnica-zadar.hr/wp-content/uploads/2026/10/ddk-2-1536x1024.jpg 1536w, https://www.bolnica-zadar.hr/wp-content/uploads/2026/10/ddk-2-2048x1366.jpg 2048w, https://www.bolnica-zadar.hr/wp-content/uploads/2026/10/ddk-2-580x387.jpg 580w, https://www.bolnica-zadar.hr/wp-content/uploads/2026/10/ddk-2-860x573.jpg 860w, https://www.bolnica-zadar.hr/wp-content/uploads/2026/10/ddk-2-1160x773.jpg 1160w" sizes="auto, (max-width: 2560px) 100vw, 2560px" /></p>
+<p>Ukoliko možete biti dio ove snažne grupe zadarskih darivatelja, pridružite im se na 3. katu Poliklinike Opće bolnice Zadar, prema sljedećem rasporedu:</p>
+<ul>
+<li>utorkom od 8:00 do 12:00 sati</li>
+<li>srijedom od 14:00 do 19:00 sati</li>
+<li>petkom od 8:00 do 12:00 sati</li>
+</ul>
+<p>Ponedjeljkom i četvrtkom darivanja krvi održavaju se prema rasporedu terenskih akcija.</p>
+<p>Jedini izvor krvi je čovjek. Hvala svim darivateljima na svakoj dozi i svakom spašenom životu. Hvala i onima koji će tek postati dio ove velike priče!</p>
+]]></content:encoded>
+					
+		
+		
+			</item>
+		<item>
+		<title>Usluge popravka i održavanja telekomunikacijskih vodova i opreme za žičanu telefoniju &#8211; 2.DIO &#8211; Prilagodba postojećih kanala za ugradnju SOS poziva</title>
+		<link>https://www.bolnica-zadar.hr/usluge-popravka-i-odrzavanja-telekomunikacijskih-vodova-i-opreme-za-zicanu-telefoniju-2-dio-prilagodba-postojecih-kanala-za-ugradnju-sos-poziva/</link>
+		
+		<dc:creator><![CDATA[Nino Funčić]]></dc:creator>
+		<pubDate>Wed, 21 Oct 2026 09:17:52 +0000</pubDate>
+				<category><![CDATA[Javna nabava]]></category>
+		<guid isPermaLink="false">https://www.bolnica-zadar.hr/?p=48333</guid>
+
+					<description><![CDATA[POZIV. Dostava ponuda Prilog_1. Obrazac_ponudbeni_list Prilog_2. ESPD obrazac Prilog 3._Troškovnik]]></description>
+										<content:encoded><![CDATA[<p><a href="https://www.bolnica-zadar.hr/wp-content/uploads/2026/10/POZIV.-Dostava-ponuda.docx" class="mtli_attachment mtli_docx">POZIV. Dostava ponuda</a></p>
+<p><a href="https://www.bolnica-zadar.hr/wp-content/uploads/2026/10/Prilog_1.-Obrazac_ponudbeni_list.docx" class="mtli_attachment mtli_docx">Prilog_1. Obrazac_ponudbeni_list</a></p>
+<p><a href="https://www.bolnica-zadar.hr/wp-content/uploads/2026/10/Prilog_2.-ESPD-obrazac.docx" class="mtli_attachment mtli_docx">Prilog_2. ESPD obrazac</a></p>
+<p><a href="https://www.bolnica-zadar.hr/wp-content/uploads/2026/10/Prilog-3._Troskovnik.xlsx" class="mtli_attachment mtli_xlsx">Prilog 3._Troškovnik</a></p>
+]]></content:encoded>
+					
+		
+		
+			</item>
+		<item>
+		<title>JEDAN UREĐAJ, A U NJEMU GOTOVO CIJELA KUHINJA!</title>
+		<link>https://www.bolnica-zadar.hr/jedan-uredaj-a-u-njemu-gotovo-cijela-kuhinja/</link>
+		
+		<dc:creator><![CDATA[Ivana Baždarić]]></dc:creator>
+		<pubDate>Tue, 20 Oct 2026 09:46:01 +0000</pubDate>
+				<category><![CDATA[Uncategorized]]></category>
+		<category><![CDATA[Vijesti]]></category>
+		<guid isPermaLink="false">https://www.bolnica-zadar.hr/?p=48317</guid>
+
+					<description><![CDATA[U našoj bolničkoj kuhinji okupio se velik broj kuhara kako bi otkrili sve prednosti novog iVario Pro XL-a, suvremenog multifunkcionalnog uređaja koji će dodatno unaprijediti pripremu obroka za pacijente. S velikim zanimanjem pratili su edukaciju koju je vodio Saša Polojac, kuhar specijalist, a tijekom praktičnog dijela mogli su vidjeti koliko ovaj uređaj zapravo može. A...]]></description>
+										<content:encoded><![CDATA[<p>U našoj bolničkoj kuhinji okupio se velik broj kuhara kako bi otkrili sve prednosti novog iVario Pro XL-a, suvremenog multifunkcionalnog uređaja koji će dodatno unaprijediti pripremu obroka za pacijente. S velikim zanimanjem pratili su edukaciju koju je vodio Saša Polojac, kuhar specijalist, a tijekom praktičnog dijela mogli su vidjeti koliko ovaj uređaj zapravo može. A može – puno toga!</p>
+<p>U jednom uređaju pripremali su se juha, gulaš, pa desert. Kuhanje, pečenje, prženje, kuhanje pod pritiskom i to sve do 4 puta brže uz 40 % manje energije u usporedbi s konvencionalnim kuhinjskim uređajima! Gotovo kao da u jednom uređaju imate cijelu malu kuhinju. I dok je kuhar Saša objašnjavao njegove mogućnosti, vjerujemo da nam je svima kroz glavu prošla misao: <em>„A kad bismo jedan ovakav imali i kod kuće?“</em></p>
+<p><img loading="lazy" decoding="async" class="alignnone size-full wp-image-48299" src="https://www.bolnica-zadar.hr/wp-content/uploads/2026/10/kuhinja-11-scaled.jpg" alt="" width="2560" height="1707" srcset="https://www.bolnica-zadar.hr/wp-content/uploads/2026/10/kuhinja-11-scaled.jpg 2560w, https://www.bolnica-zadar.hr/wp-content/uploads/2026/10/kuhinja-11-768x512.jpg 768w, https://www.bolnica-zadar.hr/wp-content/uploads/2026/10/kuhinja-11-1536x1024.jpg 1536w, https://www.bolnica-zadar.hr/wp-content/uploads/2026/10/kuhinja-11-2048x1366.jpg 2048w, https://www.bolnica-zadar.hr/wp-content/uploads/2026/10/kuhinja-11-580x387.jpg 580w, https://www.bolnica-zadar.hr/wp-content/uploads/2026/10/kuhinja-11-860x573.jpg 860w, https://www.bolnica-zadar.hr/wp-content/uploads/2026/10/kuhinja-11-1160x773.jpg 1160w" sizes="auto, (max-width: 2560px) 100vw, 2560px" /></p>
+<p>No, šalu na stranu! Za našu bolničku kuhinju ovo je veliko i važno poboljšanje. Sustav iVario omogućuje bržu i učinkovitiju pripremu hrane, standardizaciju kvalitete i lakši rad kuhinjskog osoblja, uz očuvanje nutritivnih vrijednosti namirnica. <em>„Nećemo reći da s manjim brojem ljudi napravimo jednak posao, nego ćemo reći da s istim brojem osoba možemo napraviti puno više i puno kvalitetnije“,</em> kazao je Saša Polojac.</p>
+<p><img loading="lazy" decoding="async" class="alignnone size-full wp-image-48303" src="https://www.bolnica-zadar.hr/wp-content/uploads/2026/10/kuhinja-15-scaled.jpg" alt="" width="2560" height="1707" srcset="https://www.bolnica-zadar.hr/wp-content/uploads/2026/10/kuhinja-15-scaled.jpg 2560w, https://www.bolnica-zadar.hr/wp-content/uploads/2026/10/kuhinja-15-768x512.jpg 768w, https://www.bolnica-zadar.hr/wp-content/uploads/2026/10/kuhinja-15-1536x1024.jpg 1536w, https://www.bolnica-zadar.hr/wp-content/uploads/2026/10/kuhinja-15-2048x1366.jpg 2048w, https://www.bolnica-zadar.hr/wp-content/uploads/2026/10/kuhinja-15-580x387.jpg 580w, https://www.bolnica-zadar.hr/wp-content/uploads/2026/10/kuhinja-15-860x573.jpg 860w, https://www.bolnica-zadar.hr/wp-content/uploads/2026/10/kuhinja-15-1160x773.jpg 1160w" sizes="auto, (max-width: 2560px) 100vw, 2560px" /></p>
+<p>Posebno je važna mogućnost programiranja i preciznog upravljanja procesom kuhanja kako bi pacijent koji obrok dobije danas i onaj koji ga dobije za tjedan dana dobili jednako kvalitetan i standardiziran obrok. <em>„Ovo je multifunkcionalni uređaj, u kuharskom žargonu &#8211; nagibna tava. Njegova ergonomska izvedba olakšava zahtjevan posao kuhara. </em><em>Iznimno smo sretni što smo dobili trenutačno jedan od najmodernijih sustava u kuharstvu</em><em>“,</em> naglasila je Maja Grandov, rukovoditeljica Odjela za prehranu i dijetetiku OB Zadar.</p>
+<p><img loading="lazy" decoding="async" class="alignnone size-full wp-image-48306" src="https://www.bolnica-zadar.hr/wp-content/uploads/2026/10/kuhinja-18-scaled.jpg" alt="" width="2560" height="1669" srcset="https://www.bolnica-zadar.hr/wp-content/uploads/2026/10/kuhinja-18-scaled.jpg 2560w, https://www.bolnica-zadar.hr/wp-content/uploads/2026/10/kuhinja-18-768x501.jpg 768w, https://www.bolnica-zadar.hr/wp-content/uploads/2026/10/kuhinja-18-1536x1001.jpg 1536w, https://www.bolnica-zadar.hr/wp-content/uploads/2026/10/kuhinja-18-2048x1335.jpg 2048w, https://www.bolnica-zadar.hr/wp-content/uploads/2026/10/kuhinja-18-580x378.jpg 580w, https://www.bolnica-zadar.hr/wp-content/uploads/2026/10/kuhinja-18-860x561.jpg 860w, https://www.bolnica-zadar.hr/wp-content/uploads/2026/10/kuhinja-18-1160x756.jpg 1160w" sizes="auto, (max-width: 2560px) 100vw, 2560px" /></p>
+<p>Novi iVario Pro XL predstavlja značajno tehnološko unapređenje rada naše bolničke kuhinje. Vrijedan je 31.185,00 eura, a sredstva je osiguralo Ministarstvo zdravstva. Uređaj ima kapacitet veći od 150 litara, pa ga možda ipak nećemo nositi kući! Ali zato će ono što se u njemu priprema, svakodnevno stizati do naših pacijenata.</p>
+<p>Danas, na Međunarodni dan kuhara, posebno zahvaljujemo našim kuharima na trudu, učenju i svakodnevnoj brizi da bolnički obrok bude više od običnog obroka &#8211; da bude kvalitetan, nutritivno vrijedan i pripremljen s pažnjom.</p>
+<p><div id="cmsmasters_gallery_9qtn1hlvzp" class="cmsmasters_gallery_wrap" data-type="masonry" data-count="0"><ul class="cmsmasters_gallery cmsmasters_4 cmsmasters_more_items_loader"><li class="cmsmasters_gallery_item"><figure><a href="https://www.bolnica-zadar.hr/wp-content/uploads/2026/10/kuhinja-7-scaled.jpg" rel="ilightbox[9qtn1hlvzp]"><img loading="lazy" decoding="async" width="2560" height="1588" src="https://www.bolnica-zadar.hr/wp-content/uploads/2026/10/kuhinja-7-scaled.jpg" class="attachment-full size-full" alt="" srcset="https://www.bolnica-zadar.hr/wp-content/uploads/2026/10/kuhinja-7-scaled.jpg 2560w, https://www.bolnica-zadar.hr/wp-content/uploads/2026/10/kuhinja-7-768x476.jpg 768w, https://www.bolnica-zadar.hr/wp-content/uploads/2026/10/kuhinja-7-1536x953.jpg 1536w, https://www.bolnica-zadar.hr/wp-content/uploads/2026/10/kuhinja-7-2048x1270.jpg 2048w, https://www.bolnica-zadar.hr/wp-content/uploads/2026/10/kuhinja-7-580x360.jpg 580w, https://www.bolnica-zadar.hr/wp-content/uploads/2026/10/kuhinja-7-860x533.jpg 860w, https://www.bolnica-zadar.hr/wp-content/uploads/2026/10/kuhinja-7-1160x719.jpg 1160w" sizes="auto, (max-width: 2560px) 100vw, 2560px" /></a></figure></li><li class="cmsmasters_gallery_item"><figure><a href="https://www.bolnica-zadar.hr/wp-content/uploads/2026/10/kuhinja-8-scaled.jpg" rel="ilightbox[9qtn1hlvzp]"><img loading="lazy" decoding="async" width="2560" height="1707" src="https://www.bolnica-zadar.hr/wp-content/uploads/2026/10/kuhinja-8-scaled.jpg" class="attachment-full size-full" alt="" srcset="https://www.bolnica-zadar.hr/wp-content/uploads/2026/10/kuhinja-8-scaled.jpg 2560w, https://www.bolnica-zadar.hr/wp-content/uploads/2026/10/kuhinja-8-768x512.jpg 768w, https://www.bolnica-zadar.hr/wp-content/uploads/2026/10/kuhinja-8-1536x1024.jpg 1536w, https://www.bolnica-zadar.hr/wp-content/uploads/2026/10/kuhinja-8-2048x1366.jpg 2048w, https://www.bolnica-zadar.hr/wp-content/uploads/2026/10/kuhinja-8-580x387.jpg 580w, https://www.bolnica-zadar.hr/wp-content/uploads/2026/10/kuhinja-8-860x573.jpg 860w, https://www.bolnica-zadar.hr/wp-content/uploads/2026/10/kuhinja-8-1160x773.jpg 1160w" sizes="auto, (max-width: 2560px) 100vw, 2560px" /></a></figure></li><li class="cmsmasters_gallery_item"><figure><a href="https://www.bolnica-zadar.hr/wp-content/uploads/2026/10/kuhinja-9-scaled.jpg" rel="ilightbox[9qtn1hlvzp]"><img loading="lazy" decoding="async" width="2560" height="1707" src="https://www.bolnica-zadar.hr/wp-content/uploads/2026/10/kuhinja-9-scaled.jpg" class="attachment-full size-full" alt="" srcset="https://www.bolnica-zadar.hr/wp-content/uploads/2026/10/kuhinja-9-scaled.jpg 2560w, https://www.bolnica-zadar.hr/wp-content/uploads/2026/10/kuhinja-9-768x512.jpg 768w, https://www.bolnica-zadar.hr/wp-content/uploads/2026/10/kuhinja-9-1536x1024.jpg 1536w, https://www.bolnica-zadar.hr/wp-content/uploads/2026/10/kuhinja-9-2048x1366.jpg 2048w, https://www.bolnica-zadar.hr/wp-content/uploads/2026/10/kuhinja-9-580x387.jpg 580w, https://www.bolnica-zadar.hr/wp-content/uploads/2026/10/kuhinja-9-860x573.jpg 860w, https://www.bolnica-zadar.hr/wp-content/uploads/2026/10/kuhinja-9-1160x773.jpg 1160w" sizes="auto, (max-width: 2560px) 100vw, 2560px" /></a></figure></li><li class="cmsmasters_gallery_item"><figure><a href="https://www.bolnica-zadar.hr/wp-content/uploads/2026/10/kuhinja-naslovna-1-scaled.jpg" rel="ilightbox[9qtn1hlvzp]"><img loading="lazy" decoding="async" width="2560" height="1707" src="https://www.bolnica-zadar.hr/wp-content/uploads/2026/10/kuhinja-naslovna-1-scaled.jpg" class="attachment-full size-full" alt="" srcset="https://www.bolnica-zadar.hr/wp-content/uploads/2026/10/kuhinja-naslovna-1-scaled.jpg 2560w, https://www.bolnica-zadar.hr/wp-content/uploads/2026/10/kuhinja-naslovna-1-768x512.jpg 768w, https://www.bolnica-zadar.hr/wp-content/uploads/2026/10/kuhinja-naslovna-1-1536x1024.jpg 1536w, https://www.bolnica-zadar.hr/wp-content/uploads/2026/10/kuhinja-naslovna-1-2048x1366.jpg 2048w, https://www.bolnica-zadar.hr/wp-content/uploads/2026/10/kuhinja-naslovna-1-580x387.jpg 580w, https://www.bolnica-zadar.hr/wp-content/uploads/2026/10/kuhinja-naslovna-1-860x573.jpg 860w, https://www.bolnica-zadar.hr/wp-content/uploads/2026/10/kuhinja-naslovna-1-1160x773.jpg 1160w" sizes="auto, (max-width: 2560px) 100vw, 2560px" /></a></figure></li><li class="cmsmasters_gallery_item"><figure><a href="https://www.bolnica-zadar.hr/wp-content/uploads/2026/10/kuhinja-10-scaled.jpg" rel="ilightbox[9qtn1hlvzp]"><img loading="lazy" decoding="async" width="2560" height="1707" src="https://www.bolnica-zadar.hr/wp-content/uploads/2026/10/kuhinja-10-scaled.jpg" class="attachment-full size-full" alt="" srcset="https://www.bolnica-zadar.hr/wp-content/uploads/2026/10/kuhinja-10-scaled.jpg 2560w, https://www.bolnica-zadar.hr/wp-content/uploads/2026/10/kuhinja-10-768x512.jpg 768w, https://www.bolnica-zadar.hr/wp-content/uploads/2026/10/kuhinja-10-1536x1024.jpg 1536w, https://www.bolnica-zadar.hr/wp-content/uploads/2026/10/kuhinja-10-2048x1366.jpg 2048w, https://www.bolnica-zadar.hr/wp-content/uploads/2026/10/kuhinja-10-580x387.jpg 580w, https://www.bolnica-zadar.hr/wp-content/uploads/2026/10/kuhinja-10-860x573.jpg 860w, https://www.bolnica-zadar.hr/wp-content/uploads/2026/10/kuhinja-10-1160x773.jpg 1160w" sizes="auto, (max-width: 2560px) 100vw, 2560px" /></a></figure></li><li class="cmsmasters_gallery_item"><figure><a href="https://www.bolnica-zadar.hr/wp-content/uploads/2026/10/kuhinja-12-scaled.jpg" rel="ilightbox[9qtn1hlvzp]"><img loading="lazy" decoding="async" width="2560" height="1707" src="https://www.bolnica-zadar.hr/wp-content/uploads/2026/10/kuhinja-12-scaled.jpg" class="attachment-full size-full" alt="" srcset="https://www.bolnica-zadar.hr/wp-content/uploads/2026/10/kuhinja-12-scaled.jpg 2560w, https://www.bolnica-zadar.hr/wp-content/uploads/2026/10/kuhinja-12-768x512.jpg 768w, https://www.bolnica-zadar.hr/wp-content/uploads/2026/10/kuhinja-12-1536x1024.jpg 1536w, https://www.bolnica-zadar.hr/wp-content/uploads/2026/10/kuhinja-12-2048x1366.jpg 2048w, https://www.bolnica-zadar.hr/wp-content/uploads/2026/10/kuhinja-12-580x387.jpg 580w, https://www.bolnica-zadar.hr/wp-content/uploads/2026/10/kuhinja-12-860x573.jpg 860w, https://www.bolnica-zadar.hr/wp-content/uploads/2026/10/kuhinja-12-1160x773.jpg 1160w" sizes="auto, (max-width: 2560px) 100vw, 2560px" /></a></figure></li><li class="cmsmasters_gallery_item"><figure><a href="https://www.bolnica-zadar.hr/wp-content/uploads/2026/10/kuhinja-13-scaled.jpg" rel="ilightbox[9qtn1hlvzp]"><img loading="lazy" decoding="async" width="2560" height="1707" src="https://www.bolnica-zadar.hr/wp-content/uploads/2026/10/kuhinja-13-scaled.jpg" class="attachment-full size-full" alt="" srcset="https://www.bolnica-zadar.hr/wp-content/uploads/2026/10/kuhinja-13-scaled.jpg 2560w, https://www.bolnica-zadar.hr/wp-content/uploads/2026/10/kuhinja-13-768x512.jpg 768w, https://www.bolnica-zadar.hr/wp-content/uploads/2026/10/kuhinja-13-1536x1024.jpg 1536w, https://www.bolnica-zadar.hr/wp-content/uploads/2026/10/kuhinja-13-2048x1366.jpg 2048w, https://www.bolnica-zadar.hr/wp-content/uploads/2026/10/kuhinja-13-580x387.jpg 580w, https://www.bolnica-zadar.hr/wp-content/uploads/2026/10/kuhinja-13-860x573.jpg 860w, https://www.bolnica-zadar.hr/wp-content/uploads/2026/10/kuhinja-13-1160x773.jpg 1160w" sizes="auto, (max-width: 2560px) 100vw, 2560px" /></a></figure></li><li class="cmsmasters_gallery_item"><figure><a href="https://www.bolnica-zadar.hr/wp-content/uploads/2026/10/kuhinja-14-scaled.jpg" rel="ilightbox[9qtn1hlvzp]"><img loading="lazy" decoding="async" width="2560" height="1707" src="https://www.bolnica-zadar.hr/wp-content/uploads/2026/10/kuhinja-14-scaled.jpg" class="attachment-full size-full" alt="" srcset="https://www.bolnica-zadar.hr/wp-content/uploads/2026/10/kuhinja-14-scaled.jpg 2560w, https://www.bolnica-zadar.hr/wp-content/uploads/2026/10/kuhinja-14-768x512.jpg 768w, https://www.bolnica-zadar.hr/wp-content/uploads/2026/10/kuhinja-14-1536x1024.jpg 1536w, https://www.bolnica-zadar.hr/wp-content/uploads/2026/10/kuhinja-14-2048x1366.jpg 2048w, https://www.bolnica-zadar.hr/wp-content/uploads/2026/10/kuhinja-14-580x387.jpg 580w, https://www.bolnica-zadar.hr/wp-content/uploads/2026/10/kuhinja-14-860x573.jpg 860w, https://www.bolnica-zadar.hr/wp-content/uploads/2026/10/kuhinja-14-1160x773.jpg 1160w" sizes="auto, (max-width: 2560px) 100vw, 2560px" /></a></figure></li><li class="cmsmasters_gallery_item"><figure><a href="https://www.bolnica-zadar.hr/wp-content/uploads/2026/10/kuhinja-17-scaled.jpg" rel="ilightbox[9qtn1hlvzp]"><img loading="lazy" decoding="async" width="2560" height="1565" src="https://www.bolnica-zadar.hr/wp-content/uploads/2026/10/kuhinja-17-scaled.jpg" class="attachment-full size-full" alt="" srcset="https://www.bolnica-zadar.hr/wp-content/uploads/2026/10/kuhinja-17-scaled.jpg 2560w, https://www.bolnica-zadar.hr/wp-content/uploads/2026/10/kuhinja-17-768x469.jpg 768w, https://www.bolnica-zadar.hr/wp-content/uploads/2026/10/kuhinja-17-1536x939.jpg 1536w, https://www.bolnica-zadar.hr/wp-content/uploads/2026/10/kuhinja-17-2048x1252.jpg 2048w, https://www.bolnica-zadar.hr/wp-content/uploads/2026/10/kuhinja-17-580x355.jpg 580w, https://www.bolnica-zadar.hr/wp-content/uploads/2026/10/kuhinja-17-860x526.jpg 860w, https://www.bolnica-zadar.hr/wp-content/uploads/2026/10/kuhinja-17-1160x709.jpg 1160w" sizes="auto, (max-width: 2560px) 100vw, 2560px" /></a></figure></li><li class="cmsmasters_gallery_item"><figure><a href="https://www.bolnica-zadar.hr/wp-content/uploads/2026/10/kuhinja-16-scaled.jpg" rel="ilightbox[9qtn1hlvzp]"><img loading="lazy" decoding="async" width="2560" height="1707" src="https://www.bolnica-zadar.hr/wp-content/uploads/2026/10/kuhinja-16-scaled.jpg" class="attachment-full size-full" alt="" srcset="https://www.bolnica-zadar.hr/wp-content/uploads/2026/10/kuhinja-16-scaled.jpg 2560w, https://www.bolnica-zadar.hr/wp-content/uploads/2026/10/kuhinja-16-768x512.jpg 768w, https://www.bolnica-zadar.hr/wp-content/uploads/2026/10/kuhinja-16-1536x1024.jpg 1536w, https://www.bolnica-zadar.hr/wp-content/uploads/2026/10/kuhinja-16-2048x1366.jpg 2048w, https://www.bolnica-zadar.hr/wp-content/uploads/2026/10/kuhinja-16-580x387.jpg 580w, https://www.bolnica-zadar.hr/wp-content/uploads/2026/10/kuhinja-16-860x573.jpg 860w, https://www.bolnica-zadar.hr/wp-content/uploads/2026/10/kuhinja-16-1160x773.jpg 1160w" sizes="auto, (max-width: 2560px) 100vw, 2560px" /></a></figure></li><li class="cmsmasters_gallery_item"><figure><a href="https://www.bolnica-zadar.hr/wp-content/uploads/2026/10/kuhinja-20-scaled.jpg" rel="ilightbox[9qtn1hlvzp]"><img loading="lazy" decoding="async" width="2560" height="1776" src="https://www.bolnica-zadar.hr/wp-content/uploads/2026/10/kuhinja-20-scaled.jpg" class="attachment-full size-full" alt="" srcset="https://www.bolnica-zadar.hr/wp-content/uploads/2026/10/kuhinja-20-scaled.jpg 2560w, https://www.bolnica-zadar.hr/wp-content/uploads/2026/10/kuhinja-20-768x533.jpg 768w, https://www.bolnica-zadar.hr/wp-content/uploads/2026/10/kuhinja-20-1536x1066.jpg 1536w, https://www.bolnica-zadar.hr/wp-content/uploads/2026/10/kuhinja-20-2048x1421.jpg 2048w, https://www.bolnica-zadar.hr/wp-content/uploads/2026/10/kuhinja-20-580x402.jpg 580w, https://www.bolnica-zadar.hr/wp-content/uploads/2026/10/kuhinja-20-860x597.jpg 860w, https://www.bolnica-zadar.hr/wp-content/uploads/2026/10/kuhinja-20-1160x805.jpg 1160w" sizes="auto, (max-width: 2560px) 100vw, 2560px" /></a></figure></li><li class="cmsmasters_gallery_item"><figure><a href="https://www.bolnica-zadar.hr/wp-content/uploads/2026/10/kuhinja-21-scaled.jpg" rel="ilightbox[9qtn1hlvzp]"><img loading="lazy" decoding="async" width="2560" height="1707" src="https://www.bolnica-zadar.hr/wp-content/uploads/2026/10/kuhinja-21-scaled.jpg" class="attachment-full size-full" alt="" srcset="https://www.bolnica-zadar.hr/wp-content/uploads/2026/10/kuhinja-21-scaled.jpg 2560w, https://www.bolnica-zadar.hr/wp-content/uploads/2026/10/kuhinja-21-768x512.jpg 768w, https://www.bolnica-zadar.hr/wp-content/uploads/2026/10/kuhinja-21-1536x1024.jpg 1536w, https://www.bolnica-zadar.hr/wp-content/uploads/2026/10/kuhinja-21-2048x1366.jpg 2048w, https://www.bolnica-zadar.hr/wp-content/uploads/2026/10/kuhinja-21-580x387.jpg 580w, https://www.bolnica-zadar.hr/wp-content/uploads/2026/10/kuhinja-21-860x573.jpg 860w, https://www.bolnica-zadar.hr/wp-content/uploads/2026/10/kuhinja-21-1160x773.jpg 1160w" sizes="auto, (max-width: 2560px) 100vw, 2560px" /></a></figure></li><li class="cmsmasters_gallery_item"><figure><a href="https://www.bolnica-zadar.hr/wp-content/uploads/2026/10/kuhinja-22-scaled.jpg" rel="ilightbox[9qtn1hlvzp]"><img loading="lazy" decoding="async" width="2560" height="1707" src="https://www.bolnica-zadar.hr/wp-content/uploads/2026/10/kuhinja-22-scaled.jpg" class="attachment-full size-full" alt="" srcset="https://www.bolnica-zadar.hr/wp-content/uploads/2026/10/kuhinja-22-scaled.jpg 2560w, https://www.bolnica-zadar.hr/wp-content/uploads/2026/10/kuhinja-22-768x512.jpg 768w, https://www.bolnica-zadar.hr/wp-content/uploads/2026/10/kuhinja-22-1536x1024.jpg 1536w, https://www.bolnica-zadar.hr/wp-content/uploads/2026/10/kuhinja-22-2048x1366.jpg 2048w, https://www.bolnica-zadar.hr/wp-content/uploads/2026/10/kuhinja-22-580x387.jpg 580w, https://www.bolnica-zadar.hr/wp-content/uploads/2026/10/kuhinja-22-860x573.jpg 860w, https://www.bolnica-zadar.hr/wp-content/uploads/2026/10/kuhinja-22-1160x773.jpg 1160w" sizes="auto, (max-width: 2560px) 100vw, 2560px" /></a></figure></li><li class="cmsmasters_gallery_item"><figure><a href="https://www.bolnica-zadar.hr/wp-content/uploads/2026/10/kuhinja-23-scaled.jpg" rel="ilightbox[9qtn1hlvzp]"><img loading="lazy" decoding="async" width="2560" height="1695" src="https://www.bolnica-zadar.hr/wp-content/uploads/2026/10/kuhinja-23-scaled.jpg" class="attachment-full size-full" alt="" srcset="https://www.bolnica-zadar.hr/wp-content/uploads/2026/10/kuhinja-23-scaled.jpg 2560w, https://www.bolnica-zadar.hr/wp-content/uploads/2026/10/kuhinja-23-768x509.jpg 768w, https://www.bolnica-zadar.hr/wp-content/uploads/2026/10/kuhinja-23-1536x1017.jpg 1536w, https://www.bolnica-zadar.hr/wp-content/uploads/2026/10/kuhinja-23-2048x1356.jpg 2048w, https://www.bolnica-zadar.hr/wp-content/uploads/2026/10/kuhinja-23-580x384.jpg 580w, https://www.bolnica-zadar.hr/wp-content/uploads/2026/10/kuhinja-23-860x570.jpg 860w, https://www.bolnica-zadar.hr/wp-content/uploads/2026/10/kuhinja-23-1160x768.jpg 1160w" sizes="auto, (max-width: 2560px) 100vw, 2560px" /></a></figure></li><li class="cmsmasters_gallery_item"><figure><a href="https://www.bolnica-zadar.hr/wp-content/uploads/2026/10/kuhinja-24-scaled.jpg" rel="ilightbox[9qtn1hlvzp]"><img loading="lazy" decoding="async" width="2560" height="1707" src="https://www.bolnica-zadar.hr/wp-content/uploads/2026/10/kuhinja-24-scaled.jpg" class="attachment-full size-full" alt="" srcset="https://www.bolnica-zadar.hr/wp-content/uploads/2026/10/kuhinja-24-scaled.jpg 2560w, https://www.bolnica-zadar.hr/wp-content/uploads/2026/10/kuhinja-24-768x512.jpg 768w, https://www.bolnica-zadar.hr/wp-content/uploads/2026/10/kuhinja-24-1536x1024.jpg 1536w, https://www.bolnica-zadar.hr/wp-content/uploads/2026/10/kuhinja-24-2048x1366.jpg 2048w, https://www.bolnica-zadar.hr/wp-content/uploads/2026/10/kuhinja-24-580x387.jpg 580w, https://www.bolnica-zadar.hr/wp-content/uploads/2026/10/kuhinja-24-860x573.jpg 860w, https://www.bolnica-zadar.hr/wp-content/uploads/2026/10/kuhinja-24-1160x773.jpg 1160w" sizes="auto, (max-width: 2560px) 100vw, 2560px" /></a></figure></li><li class="cmsmasters_gallery_item"><figure><a href="https://www.bolnica-zadar.hr/wp-content/uploads/2026/10/kuhinja-25-scaled.jpg" rel="ilightbox[9qtn1hlvzp]"><img loading="lazy" decoding="async" width="2560" height="1707" src="https://www.bolnica-zadar.hr/wp-content/uploads/2026/10/kuhinja-25-scaled.jpg" class="attachment-full size-full" alt="" srcset="https://www.bolnica-zadar.hr/wp-content/uploads/2026/10/kuhinja-25-scaled.jpg 2560w, https://www.bolnica-zadar.hr/wp-content/uploads/2026/10/kuhinja-25-768x512.jpg 768w, https://www.bolnica-zadar.hr/wp-content/uploads/2026/10/kuhinja-25-1536x1024.jpg 1536w, https://www.bolnica-zadar.hr/wp-content/uploads/2026/10/kuhinja-25-2048x1366.jpg 2048w, https://www.bolnica-zadar.hr/wp-content/uploads/2026/10/kuhinja-25-580x387.jpg 580w, https://www.bolnica-zadar.hr/wp-content/uploads/2026/10/kuhinja-25-860x573.jpg 860w, https://www.bolnica-zadar.hr/wp-content/uploads/2026/10/kuhinja-25-1160x773.jpg 1160w" sizes="auto, (max-width: 2560px) 100vw, 2560px" /></a></figure></li><li class="cmsmasters_gallery_item"><figure><a href="https://www.bolnica-zadar.hr/wp-content/uploads/2026/10/kuhinja-26-scaled.jpg" rel="ilightbox[9qtn1hlvzp]"><img loading="lazy" decoding="async" width="2560" height="1771" src="https://www.bolnica-zadar.hr/wp-content/uploads/2026/10/kuhinja-26-scaled.jpg" class="attachment-full size-full" alt="" srcset="https://www.bolnica-zadar.hr/wp-content/uploads/2026/10/kuhinja-26-scaled.jpg 2560w, https://www.bolnica-zadar.hr/wp-content/uploads/2026/10/kuhinja-26-768x531.jpg 768w, https://www.bolnica-zadar.hr/wp-content/uploads/2026/10/kuhinja-26-1536x1063.jpg 1536w, https://www.bolnica-zadar.hr/wp-content/uploads/2026/10/kuhinja-26-2048x1417.jpg 2048w, https://www.bolnica-zadar.hr/wp-content/uploads/2026/10/kuhinja-26-580x401.jpg 580w, https://www.bolnica-zadar.hr/wp-content/uploads/2026/10/kuhinja-26-860x595.jpg 860w, https://www.bolnica-zadar.hr/wp-content/uploads/2026/10/kuhinja-26-1160x802.jpg 1160w" sizes="auto, (max-width: 2560px) 100vw, 2560px" /></a></figure></li><li class="cmsmasters_gallery_item"><figure><a href="https://www.bolnica-zadar.hr/wp-content/uploads/2026/10/kuhinja-27-scaled.jpg" rel="ilightbox[9qtn1hlvzp]"><img loading="lazy" decoding="async" width="2560" height="1707" src="https://www.bolnica-zadar.hr/wp-content/uploads/2026/10/kuhinja-27-scaled.jpg" class="attachment-full size-full" alt="" srcset="https://www.bolnica-zadar.hr/wp-content/uploads/2026/10/kuhinja-27-scaled.jpg 2560w, https://www.bolnica-zadar.hr/wp-content/uploads/2026/10/kuhinja-27-768x512.jpg 768w, https://www.bolnica-zadar.hr/wp-content/uploads/2026/10/kuhinja-27-1536x1024.jpg 1536w, https://www.bolnica-zadar.hr/wp-content/uploads/2026/10/kuhinja-27-2048x1366.jpg 2048w, https://www.bolnica-zadar.hr/wp-content/uploads/2026/10/kuhinja-27-580x387.jpg 580w, https://www.bolnica-zadar.hr/wp-content/uploads/2026/10/kuhinja-27-860x573.jpg 860w, https://www.bolnica-zadar.hr/wp-content/uploads/2026/10/kuhinja-27-1160x773.jpg 1160w" sizes="auto, (max-width: 2560px) 100vw, 2560px" /></a></figure></li></ul></div></p>
+]]></content:encoded>
+					
+		
+		
+			</item>
+	</channel>
+</rss>

@@ -1,18 +1,795 @@
-<!doctype html>
-<html lang="hr"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
-<meta name="robots" content="noindex"><title>Čišćenje – idassa.click</title>
-<style>body{margin:0;font:18px/1.5 system-ui,sans-serif;background:#fff;color:#14213d;padding:32px 20px}a{color:#1765c0;font-weight:700}</style>
-</head><body>
-<p id="m">Brišem spremljenu kopiju stranice…</p>
-<script>
-(async () => {
-  const m = document.getElementById("m");
-  try { const regs = await navigator.serviceWorker.getRegistrations(); await Promise.all(regs.map(r => r.unregister())); } catch (e) {}
-  try { const keys = await caches.keys(); await Promise.all(keys.map(k => caches.delete(k))); } catch (e) {}
-  try { sessionStorage.clear(); } catch (e) {}
-  try { localStorage.removeItem("themeChoice"); } catch (e) {}
-  m.innerHTML = 'Gotovo. <a href="/?r=' + Date.now() + '">Otvori idassa.click</a>';
-  setTimeout(() => location.replace("/?r=" + Date.now()), 1500);
-})();
+<!DOCTYPE html>
+<html lang="hr" class="cmsmasters_html">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+<meta name="format-detection" content="telephone=no" />
+
+<!-- Glavna ikona za preglednike (Chrome, Firefox, Edge) -->
+<link rel="icon" href="https://bolnica-zadar.hr/favicon.ico" type="image/x-icon" sizes="144x144">
+
+<!-- Shortcut ikona za starije preglednike -->
+<link rel="shortcut icon" href="https://bolnica-zadar.hr/favicon.ico" type="image/x-icon">
+
+<!-- Ikona za Apple uređaje (iPhone, iPad) -->
+<link rel="apple-touch-icon" href="https://bolnica-zadar.hr/favicon.ico">
+
+
+<link rel="profile" href="//gmpg.org/xfn/11" />
+<link rel="pingback" href="https://www.bolnica-zadar.hr/xmlrpc.php" />
+<title>ČOVJEK KOJI JE OSTAVIO NEIZBRISIV TRAG U ZADARSKOM ZDRAVSTVU &#8211; Opća bolnica Zadar</title>
+<meta name='robots' content='max-image-preview:large' />
+<link rel='dns-prefetch' href='//fonts.googleapis.com' />
+<link rel="alternate" type="application/rss+xml" title="Opća bolnica Zadar &raquo; Kanal" href="https://www.bolnica-zadar.hr/feed/" />
+<link rel="alternate" type="application/rss+xml" title="Opća bolnica Zadar &raquo; Kanal komentara" href="https://www.bolnica-zadar.hr/comments/feed/" />
+<link rel="alternate" title="oEmbed (JSON)" type="application/json+oembed" href="https://www.bolnica-zadar.hr/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fwww.bolnica-zadar.hr%2Fcovjek-koji-je-ostavio-neizbrisiv-trag-u-zadarskom-zdravstvu%2F" />
+<link rel="alternate" title="oEmbed (XML)" type="text/xml+oembed" href="https://www.bolnica-zadar.hr/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fwww.bolnica-zadar.hr%2Fcovjek-koji-je-ostavio-neizbrisiv-trag-u-zadarskom-zdravstvu%2F&#038;format=xml" />
+<style id="wp-img-auto-sizes-contain-inline-css">
+img:is([sizes=auto i],[sizes^="auto," i]){contain-intrinsic-size:3000px 1500px}
+/*# sourceURL=wp-img-auto-sizes-contain-inline-css */
+</style>
+<link rel='stylesheet' id='layerslider-css' href='https://www.bolnica-zadar.hr/wp-content/plugins/LayerSlider/assets/static/layerslider/css/layerslider.css?ver=7.9.5' media='all' />
+<link rel='stylesheet' id='ls-user-css' href='https://www.bolnica-zadar.hr/wp-content/uploads/layerslider.custom.css?ver=1559558614' media='all' />
+<link rel='stylesheet' id='ls-google-fonts-css' href='https://fonts.googleapis.com/css?family=Open+Sans:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i' media='all' />
+<style id="wp-emoji-styles-inline-css">
+
+	img.wp-smiley, img.emoji {
+		display: inline !important;
+		border: none !important;
+		box-shadow: none !important;
+		height: 1em !important;
+		width: 1em !important;
+		margin: 0 0.07em !important;
+		vertical-align: -0.1em !important;
+		background: none !important;
+		padding: 0 !important;
+	}
+/*# sourceURL=wp-emoji-styles-inline-css */
+</style>
+<style id="wp-block-library-inline-css">
+:root{--wp-block-synced-color:#7a00df;--wp-block-synced-color--rgb:122,0,223;--wp-bound-block-color:var(--wp-block-synced-color);--wp-editor-canvas-background:#ddd;--wp-admin-theme-color:#007cba;--wp-admin-theme-color--rgb:0,124,186;--wp-admin-theme-color-darker-10:#006ba1;--wp-admin-theme-color-darker-10--rgb:0,107,160.5;--wp-admin-theme-color-darker-20:#005a87;--wp-admin-theme-color-darker-20--rgb:0,90,135;--wp-admin-border-width-focus:2px}@media (min-resolution:192dpi){:root{--wp-admin-border-width-focus:1.5px}}.wp-element-button{cursor:pointer}:root .has-very-light-gray-background-color{background-color:#eee}:root .has-very-dark-gray-background-color{background-color:#313131}:root .has-very-light-gray-color{color:#eee}:root .has-very-dark-gray-color{color:#313131}:root .has-vivid-green-cyan-to-vivid-cyan-blue-gradient-background{background:linear-gradient(135deg,#00d084,#0693e3)}:root .has-purple-crush-gradient-background{background:linear-gradient(135deg,#34e2e4,#4721fb 50%,#ab1dfe)}:root .has-hazy-dawn-gradient-background{background:linear-gradient(135deg,#faaca8,#dad0ec)}:root .has-subdued-olive-gradient-background{background:linear-gradient(135deg,#fafae1,#67a671)}:root .has-atomic-cream-gradient-background{background:linear-gradient(135deg,#fdd79a,#004a59)}:root .has-nightshade-gradient-background{background:linear-gradient(135deg,#330968,#31cdcf)}:root .has-midnight-gradient-background{background:linear-gradient(135deg,#020381,#2874fc)}:root{--wp--preset--font-size--normal:16px;--wp--preset--font-size--huge:42px}.has-regular-font-size{font-size:1em}.has-larger-font-size{font-size:2.625em}.has-normal-font-size{font-size:var(--wp--preset--font-size--normal)}.has-huge-font-size{font-size:var(--wp--preset--font-size--huge)}:root .has-text-align-center{text-align:center}:root .has-text-align-left{text-align:left}:root .has-text-align-right{text-align:right}.has-fit-text{white-space:nowrap!important}#end-resizable-editor-section{display:none}.aligncenter{clear:both}.items-justified-left{justify-content:flex-start}.items-justified-center{justify-content:center}.items-justified-right{justify-content:flex-end}.items-justified-space-between{justify-content:space-between}.screen-reader-text{word-wrap:normal!important;border:0;clip-path:inset(50%);height:1px;margin:-1px;overflow:hidden;padding:0;position:absolute;width:1px;word-break:normal!important}.screen-reader-text:focus{background-color:#ddd;clip-path:none;color:#444;display:block;font-size:1em;height:auto;left:5px;line-height:normal;padding:15px 23px 14px;text-decoration:none;top:5px;width:auto;z-index:100000}html :where(.has-border-color){border-style:solid}html :where([style^=border-color],[style*=";border-color"],[style*="; border-color"]){border-style:solid}html :where([style^=border-top-color],[style*=";border-top-color"],[style*="; border-top-color"]){border-top-style:solid}html :where([style^=border-right-color],[style*=";border-right-color"],[style*="; border-right-color"]){border-right-style:solid}html :where([style^=border-bottom-color],[style*=";border-bottom-color"],[style*="; border-bottom-color"]){border-bottom-style:solid}html :where([style^=border-left-color],[style*=";border-left-color"],[style*="; border-left-color"]){border-left-style:solid}html :where([style^=border-width],[style*=";border-width"],[style*="; border-width"]){border-style:solid}html :where([style^=border-top-width],[style*=";border-top-width"],[style*="; border-top-width"]){border-top-style:solid}html :where([style^=border-right-width],[style*=";border-right-width"],[style*="; border-right-width"]){border-right-style:solid}html :where([style^=border-bottom-width],[style*=";border-bottom-width"],[style*="; border-bottom-width"]){border-bottom-style:solid}html :where([style^=border-left-width],[style*=";border-left-width"],[style*="; border-left-width"]){border-left-style:solid}html :where(img[class*=wp-image-]){height:auto;max-width:100%}:where(figure){margin:0 0 1em}html :where(.is-position-sticky){--wp-admin--admin-bar--position-offset:var(--wp-admin--admin-bar--height,0px)}@media screen and (max-width:600px){html :where(.is-position-sticky){--wp-admin--admin-bar--position-offset:0px}}
+
+/*# sourceURL=/wp-includes/css/dist/block-library/common.min.css */
+</style>
+<style id="wp-block-image-inline-css">
+.wp-block-image>a,.wp-block-image>figure>a{display:inline-block}.wp-block-image img{box-sizing:border-box;height:auto;max-width:100%;vertical-align:bottom}@media not (prefers-reduced-motion){.wp-block-image img.hide{visibility:hidden}.wp-block-image img.show{animation:show-content-image .4s}}.wp-block-image[style*=border-radius] img,.wp-block-image[style*=border-radius]>a{border-radius:inherit}.wp-block-image.has-custom-border img{box-sizing:border-box}.wp-block-image.aligncenter{text-align:center}.wp-block-image.alignfull>a,.wp-block-image.alignwide>a{width:100%}.wp-block-image.alignfull img,.wp-block-image.alignwide img{height:auto;width:100%}.wp-block-image .aligncenter,.wp-block-image .alignleft,.wp-block-image .alignright,.wp-block-image.aligncenter,.wp-block-image.alignleft,.wp-block-image.alignright{display:table}.wp-block-image .aligncenter>figcaption,.wp-block-image .alignleft>figcaption,.wp-block-image .alignright>figcaption,.wp-block-image.aligncenter>figcaption,.wp-block-image.alignleft>figcaption,.wp-block-image.alignright>figcaption{caption-side:bottom;display:table-caption}.wp-block-image .alignleft{float:left;margin:.5em 1em .5em 0}.wp-block-image .alignright{float:right;margin:.5em 0 .5em 1em}.wp-block-image .aligncenter{margin-left:auto;margin-right:auto}.wp-block-image :where(figcaption){margin-bottom:1em;margin-top:.5em}.wp-block-image.is-style-circle-mask img{border-radius:9999px}@supports ((-webkit-mask-image:none) or (mask-image:none)) or (-webkit-mask-image:none){.wp-block-image.is-style-circle-mask img{border-radius:0;-webkit-mask-image:url('data:image/svg+xml;utf8,<svg viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg"><circle cx="50" cy="50" r="50"/></svg>');mask-image:url('data:image/svg+xml;utf8,<svg viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg"><circle cx="50" cy="50" r="50"/></svg>');mask-mode:alpha;-webkit-mask-position:center;mask-position:center;-webkit-mask-repeat:no-repeat;mask-repeat:no-repeat;-webkit-mask-size:contain;mask-size:contain}}:root :where(.wp-block-image.is-style-rounded img,.wp-block-image .is-style-rounded img){border-radius:9999px}.wp-block-image figure{margin:0}.wp-lightbox-container{display:flex;flex-direction:column;position:relative}.wp-lightbox-container img{cursor:zoom-in}.wp-lightbox-container img:hover+button{opacity:1}.wp-lightbox-container button{align-items:center;backdrop-filter:blur(16px) saturate(180%);background-color:rgba(90,90,90,.25);border:none;border-radius:4px;cursor:zoom-in;display:flex;height:20px;justify-content:center;opacity:0;padding:0;position:absolute;right:16px;text-align:center;top:16px;width:20px;z-index:100}@media not (prefers-reduced-motion){.wp-lightbox-container button{transition:opacity .2s ease}}.wp-lightbox-container button:focus-visible{outline:3px auto rgba(90,90,90,.25);outline:3px auto -webkit-focus-ring-color;outline-offset:3px}.wp-lightbox-container button:hover{cursor:pointer;opacity:1}.wp-lightbox-container button:focus{opacity:1}.wp-lightbox-container button:focus,.wp-lightbox-container button:hover,.wp-lightbox-container button:not(:hover):not(:active):not(.has-background){background-color:rgba(90,90,90,.25);border:none}.wp-lightbox-overlay{box-sizing:border-box;cursor:zoom-out;height:100vh;left:0;overflow:hidden;position:fixed;top:0;visibility:hidden;width:100%;z-index:100000}.wp-lightbox-overlay .wp-lightbox-close-button{align-items:center;cursor:pointer;display:flex;font-family:inherit;gap:8px;justify-content:center;line-height:1;min-height:40px;min-width:40px;padding:0 4px;position:absolute;right:calc(env(safe-area-inset-right) + 16px);top:calc(env(safe-area-inset-top) + 16px);z-index:5000000}.wp-lightbox-overlay .wp-lightbox-close-button:focus,.wp-lightbox-overlay .wp-lightbox-close-button:hover,.wp-lightbox-overlay .wp-lightbox-close-button:not(:hover):not(:active):not(.has-background){background:none;border:none}.wp-lightbox-overlay .wp-lightbox-close-button:has(.wp-lightbox-close-text:not([hidden])) .wp-lightbox-close-icon svg{height:1em;width:1em}.wp-lightbox-overlay .wp-lightbox-close-icon svg{display:block}.wp-lightbox-overlay .wp-lightbox-navigation-button-next,.wp-lightbox-overlay .wp-lightbox-navigation-button-prev{align-items:center;bottom:16px;cursor:pointer;display:flex;font-family:inherit;gap:4px;justify-content:center;line-height:1;min-height:40px;min-width:40px;padding:0 8px;position:absolute;z-index:2000002}.wp-lightbox-overlay .wp-lightbox-navigation-button-next[hidden],.wp-lightbox-overlay .wp-lightbox-navigation-button-prev[hidden]{display:none}@media (min-width:960px){.wp-lightbox-overlay .wp-lightbox-navigation-button-next,.wp-lightbox-overlay .wp-lightbox-navigation-button-prev{bottom:50%;transform:translateY(-50%)}}.wp-lightbox-overlay .wp-lightbox-navigation-button-next:focus,.wp-lightbox-overlay .wp-lightbox-navigation-button-next:hover,.wp-lightbox-overlay .wp-lightbox-navigation-button-next:not(:hover):not(:active):not(.has-background),.wp-lightbox-overlay .wp-lightbox-navigation-button-prev:focus,.wp-lightbox-overlay .wp-lightbox-navigation-button-prev:hover,.wp-lightbox-overlay .wp-lightbox-navigation-button-prev:not(:hover):not(:active):not(.has-background){background:none;border:none;padding:0 8px}.wp-lightbox-overlay .wp-lightbox-navigation-button-next:has(.wp-lightbox-navigation-text:not([hidden])) .wp-lightbox-navigation-icon svg,.wp-lightbox-overlay .wp-lightbox-navigation-button-prev:has(.wp-lightbox-navigation-text:not([hidden])) .wp-lightbox-navigation-icon svg{display:block;height:1.5em;width:1.5em}.wp-lightbox-overlay .wp-lightbox-navigation-button-prev{left:calc(env(safe-area-inset-left) + 16px)}.wp-lightbox-overlay .wp-lightbox-navigation-button-next{right:calc(env(safe-area-inset-right) + 16px)}.wp-lightbox-overlay .wp-lightbox-navigation-icon svg{vertical-align:middle}.wp-lightbox-overlay .lightbox-image-container{height:var(--wp--lightbox-container-height);left:50%;overflow:hidden;position:absolute;top:50%;transform:translate(-50%,-50%);transform-origin:top left;width:var(--wp--lightbox-container-width);z-index:2000001}.wp-lightbox-overlay .wp-block-image{align-items:center;box-sizing:border-box;display:flex;height:100%;justify-content:center;margin:0;position:relative;transform-origin:0 0;width:100%;z-index:3000000}.wp-lightbox-overlay .wp-block-image img{height:var(--wp--lightbox-image-height);min-height:var(--wp--lightbox-image-height);min-width:var(--wp--lightbox-image-width);width:var(--wp--lightbox-image-width)}.wp-lightbox-overlay .wp-block-image figcaption{display:none}.wp-lightbox-overlay button{background:none;border:none}.wp-lightbox-overlay .scrim{background-color:#fff;height:100%;opacity:.9;position:absolute;width:100%;z-index:2000000}.wp-lightbox-overlay.active{visibility:visible}@media not (prefers-reduced-motion){.wp-lightbox-overlay.active{animation:turn-on-visibility .25s both}.wp-lightbox-overlay.active img{animation:turn-on-visibility .35s both}.wp-lightbox-overlay.show-closing-animation:not(.active){animation:turn-off-visibility .35s both}.wp-lightbox-overlay.show-closing-animation:not(.active) img{animation:turn-off-visibility .25s both}.wp-lightbox-overlay.zoom.active{animation:none;opacity:1;visibility:visible}.wp-lightbox-overlay.zoom.active .lightbox-image-container{animation:lightbox-zoom-in .4s}.wp-lightbox-overlay.zoom.active .lightbox-image-container img{animation:none}.wp-lightbox-overlay.zoom.active .scrim{animation:turn-on-visibility .4s forwards}.wp-lightbox-overlay.zoom.show-closing-animation:not(.active){animation:none}.wp-lightbox-overlay.zoom.show-closing-animation:not(.active) .lightbox-image-container{animation:lightbox-zoom-out .4s}.wp-lightbox-overlay.zoom.show-closing-animation:not(.active) .lightbox-image-container img{animation:none}.wp-lightbox-overlay.zoom.show-closing-animation:not(.active) .scrim{animation:turn-off-visibility .4s forwards}}@keyframes show-content-image{0%{visibility:hidden}99%{visibility:hidden}to{visibility:visible}}@keyframes turn-on-visibility{0%{opacity:0}to{opacity:1}}@keyframes turn-off-visibility{0%{opacity:1;visibility:visible}99%{opacity:0;visibility:visible}to{opacity:0;visibility:hidden}}@keyframes lightbox-zoom-in{0%{transform:translate(calc((-100vw + var(--wp--lightbox-scrollbar-width))/2 + var(--wp--lightbox-initial-left-position)),calc(-50vh + var(--wp--lightbox-initial-top-position))) scale(var(--wp--lightbox-scale))}to{transform:translate(-50%,-50%) scale(1)}}@keyframes lightbox-zoom-out{0%{transform:translate(-50%,-50%) scale(1);visibility:visible}99%{visibility:visible}to{transform:translate(calc((-100vw + var(--wp--lightbox-scrollbar-width))/2 + var(--wp--lightbox-initial-left-position)),calc(-50vh + var(--wp--lightbox-initial-top-position))) scale(var(--wp--lightbox-scale));visibility:hidden}}
+/*# sourceURL=https://www.bolnica-zadar.hr/wp-includes/blocks/image/style.min.css */
+</style>
+<style id="wp-block-spacer-inline-css">
+.wp-block-spacer{clear:both}
+/*# sourceURL=https://www.bolnica-zadar.hr/wp-includes/blocks/spacer/style.min.css */
+</style>
+
+<style id="classic-theme-styles-inline-css">
+/*! This file is auto-generated */
+.wp-block-button__link{color:#fff;background-color:#32373c;border-radius:9999px;box-shadow:none;text-decoration:none;padding:calc(.667em + 2px) calc(1.333em + 2px);font-size:1.125em}.wp-block-file__button{background:#32373c;color:#fff;text-decoration:none}
+/*# sourceURL=/wp-includes/css/classic-themes.min.css */
+</style>
+
+<style id="global-styles-inline-css">
+:root{--wp--preset--aspect-ratio--square: 1;--wp--preset--aspect-ratio--4-3: 4/3;--wp--preset--aspect-ratio--3-4: 3/4;--wp--preset--aspect-ratio--3-2: 3/2;--wp--preset--aspect-ratio--2-3: 2/3;--wp--preset--aspect-ratio--16-9: 16/9;--wp--preset--aspect-ratio--9-16: 9/16;--wp--preset--color--black: #000000;--wp--preset--color--cyan-bluish-gray: #abb8c3;--wp--preset--color--white: #ffffff;--wp--preset--color--pale-pink: #f78da7;--wp--preset--color--vivid-red: #cf2e2e;--wp--preset--color--luminous-vivid-orange: #ff6900;--wp--preset--color--luminous-vivid-amber: #fcb900;--wp--preset--color--light-green-cyan: #7bdcb5;--wp--preset--color--vivid-green-cyan: #00d084;--wp--preset--color--pale-cyan-blue: #8ed1fc;--wp--preset--color--vivid-cyan-blue: #0693e3;--wp--preset--color--vivid-purple: #9b51e0;--wp--preset--color--color-1: #000000;--wp--preset--color--color-2: #ffffff;--wp--preset--color--color-3: #787878;--wp--preset--color--color-4: #3065b5;--wp--preset--color--color-5: #999999;--wp--preset--color--color-6: #222222;--wp--preset--color--color-7: #e0e0e0;--wp--preset--color--color-8: #3eb8d7;--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple: linear-gradient(135deg,rgb(6,147,227) 0%,rgb(155,81,224) 100%);--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan: linear-gradient(135deg,rgb(122,220,180) 0%,rgb(0,208,130) 100%);--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange: linear-gradient(135deg,rgb(252,185,0) 0%,rgb(255,105,0) 100%);--wp--preset--gradient--luminous-vivid-orange-to-vivid-red: linear-gradient(135deg,rgb(255,105,0) 0%,rgb(207,46,46) 100%);--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray: linear-gradient(135deg,rgb(238,238,238) 0%,rgb(169,184,195) 100%);--wp--preset--gradient--cool-to-warm-spectrum: linear-gradient(135deg,rgb(74,234,220) 0%,rgb(151,120,209) 20%,rgb(207,42,186) 40%,rgb(238,44,130) 60%,rgb(251,105,98) 80%,rgb(254,248,76) 100%);--wp--preset--gradient--blush-light-purple: linear-gradient(135deg,rgb(255,206,236) 0%,rgb(152,150,240) 100%);--wp--preset--gradient--blush-bordeaux: linear-gradient(135deg,rgb(254,205,165) 0%,rgb(254,45,45) 50%,rgb(107,0,62) 100%);--wp--preset--gradient--luminous-dusk: linear-gradient(135deg,rgb(255,203,112) 0%,rgb(199,81,192) 50%,rgb(65,88,208) 100%);--wp--preset--gradient--pale-ocean: linear-gradient(135deg,rgb(255,245,203) 0%,rgb(182,227,212) 50%,rgb(51,167,181) 100%);--wp--preset--gradient--electric-grass: linear-gradient(135deg,rgb(202,248,128) 0%,rgb(113,206,126) 100%);--wp--preset--gradient--midnight: linear-gradient(135deg,rgb(2,3,129) 0%,rgb(40,116,252) 100%);--wp--preset--font-size--small: 13px;--wp--preset--font-size--medium: 20px;--wp--preset--font-size--large: 36px;--wp--preset--font-size--x-large: 42px;--wp--preset--spacing--20: 0.44rem;--wp--preset--spacing--30: 0.67rem;--wp--preset--spacing--40: 1rem;--wp--preset--spacing--50: 1.5rem;--wp--preset--spacing--60: 2.25rem;--wp--preset--spacing--70: 3.38rem;--wp--preset--spacing--80: 5.06rem;--wp--preset--shadow--natural: 6px 6px 9px rgba(0, 0, 0, 0.2);--wp--preset--shadow--deep: 12px 12px 50px rgba(0, 0, 0, 0.4);--wp--preset--shadow--sharp: 6px 6px 0px rgba(0, 0, 0, 0.2);--wp--preset--shadow--outlined: 6px 6px 0px -3px rgb(255, 255, 255), 6px 6px rgb(0, 0, 0);--wp--preset--shadow--crisp: 6px 6px 0px rgb(0, 0, 0);}.wp-block-button{--wp--preset--dimension--25: 25%;--wp--preset--dimension--50: 50%;--wp--preset--dimension--75: 75%;--wp--preset--dimension--100: 100%;}:where(body) { margin: 0; }:where(.is-layout-flex){gap: 0.5em;}:where(.is-layout-grid){gap: 0.5em;}body .is-layout-flex{display: flex;}.is-layout-flex{flex-wrap: wrap;align-items: center;}.is-layout-flex > :is(*, div){margin: 0;}body .is-layout-grid{display: grid;}.is-layout-grid > :is(*, div){margin: 0;}body{padding-top: 0px;padding-right: 0px;padding-bottom: 0px;padding-left: 0px;}:root :where(.wp-element-button, .wp-block-button__link){background-color: #32373c;border-width: 0;color: #fff;font-family: inherit;font-size: inherit;font-style: inherit;font-weight: inherit;letter-spacing: inherit;line-height: inherit;padding-top: calc(0.667em + 2px);padding-right: calc(1.333em + 2px);padding-bottom: calc(0.667em + 2px);padding-left: calc(1.333em + 2px);text-decoration: none;text-transform: inherit;}.has-black-color{color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-color{color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-color{color: var(--wp--preset--color--white) !important;}.has-pale-pink-color{color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-color{color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-color{color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-color{color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-color{color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-color{color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-color{color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-color{color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-color{color: var(--wp--preset--color--vivid-purple) !important;}.has-color-1-color{color: var(--wp--preset--color--color-1) !important;}.has-color-2-color{color: var(--wp--preset--color--color-2) !important;}.has-color-3-color{color: var(--wp--preset--color--color-3) !important;}.has-color-4-color{color: var(--wp--preset--color--color-4) !important;}.has-color-5-color{color: var(--wp--preset--color--color-5) !important;}.has-color-6-color{color: var(--wp--preset--color--color-6) !important;}.has-color-7-color{color: var(--wp--preset--color--color-7) !important;}.has-color-8-color{color: var(--wp--preset--color--color-8) !important;}.has-black-background-color{background-color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-background-color{background-color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-background-color{background-color: var(--wp--preset--color--white) !important;}.has-pale-pink-background-color{background-color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-background-color{background-color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-background-color{background-color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-background-color{background-color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-background-color{background-color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-background-color{background-color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-background-color{background-color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-background-color{background-color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-background-color{background-color: var(--wp--preset--color--vivid-purple) !important;}.has-color-1-background-color{background-color: var(--wp--preset--color--color-1) !important;}.has-color-2-background-color{background-color: var(--wp--preset--color--color-2) !important;}.has-color-3-background-color{background-color: var(--wp--preset--color--color-3) !important;}.has-color-4-background-color{background-color: var(--wp--preset--color--color-4) !important;}.has-color-5-background-color{background-color: var(--wp--preset--color--color-5) !important;}.has-color-6-background-color{background-color: var(--wp--preset--color--color-6) !important;}.has-color-7-background-color{background-color: var(--wp--preset--color--color-7) !important;}.has-color-8-background-color{background-color: var(--wp--preset--color--color-8) !important;}.has-black-border-color{border-color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-border-color{border-color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-border-color{border-color: var(--wp--preset--color--white) !important;}.has-pale-pink-border-color{border-color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-border-color{border-color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-border-color{border-color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-border-color{border-color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-border-color{border-color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-border-color{border-color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-border-color{border-color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-border-color{border-color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-border-color{border-color: var(--wp--preset--color--vivid-purple) !important;}.has-color-1-border-color{border-color: var(--wp--preset--color--color-1) !important;}.has-color-2-border-color{border-color: var(--wp--preset--color--color-2) !important;}.has-color-3-border-color{border-color: var(--wp--preset--color--color-3) !important;}.has-color-4-border-color{border-color: var(--wp--preset--color--color-4) !important;}.has-color-5-border-color{border-color: var(--wp--preset--color--color-5) !important;}.has-color-6-border-color{border-color: var(--wp--preset--color--color-6) !important;}.has-color-7-border-color{border-color: var(--wp--preset--color--color-7) !important;}.has-color-8-border-color{border-color: var(--wp--preset--color--color-8) !important;}.has-vivid-cyan-blue-to-vivid-purple-gradient-background{background: var(--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple) !important;}.has-light-green-cyan-to-vivid-green-cyan-gradient-background{background: var(--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan) !important;}.has-luminous-vivid-amber-to-luminous-vivid-orange-gradient-background{background: var(--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange) !important;}.has-luminous-vivid-orange-to-vivid-red-gradient-background{background: var(--wp--preset--gradient--luminous-vivid-orange-to-vivid-red) !important;}.has-very-light-gray-to-cyan-bluish-gray-gradient-background{background: var(--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray) !important;}.has-cool-to-warm-spectrum-gradient-background{background: var(--wp--preset--gradient--cool-to-warm-spectrum) !important;}.has-blush-light-purple-gradient-background{background: var(--wp--preset--gradient--blush-light-purple) !important;}.has-blush-bordeaux-gradient-background{background: var(--wp--preset--gradient--blush-bordeaux) !important;}.has-luminous-dusk-gradient-background{background: var(--wp--preset--gradient--luminous-dusk) !important;}.has-pale-ocean-gradient-background{background: var(--wp--preset--gradient--pale-ocean) !important;}.has-electric-grass-gradient-background{background: var(--wp--preset--gradient--electric-grass) !important;}.has-midnight-gradient-background{background: var(--wp--preset--gradient--midnight) !important;}.has-small-font-size{font-size: var(--wp--preset--font-size--small) !important;}.has-medium-font-size{font-size: var(--wp--preset--font-size--medium) !important;}.has-large-font-size{font-size: var(--wp--preset--font-size--large) !important;}.has-x-large-font-size{font-size: var(--wp--preset--font-size--x-large) !important;}
+/*# sourceURL=global-styles-inline-css */
+</style>
+
+<link rel='stylesheet' id='medical-clinic-theme-style-css' href='https://www.bolnica-zadar.hr/wp-content/themes/medical-clinic/style.css?ver=1.0.0' media='screen, print' />
+<link rel='stylesheet' id='medical-clinic-style-css' href='https://www.bolnica-zadar.hr/wp-content/themes/medical-clinic/theme-framework/theme-style/css/style.css?ver=1.0.0' media='screen, print' />
+<style id="medical-clinic-style-inline-css">
+
+	.header_mid .header_mid_inner .logo_wrap {
+		width : 93px;
+	}
+
+	.header_mid_inner .logo img.logo_retina {
+		width : 80px;
+	}
+
+
+		.headline_aligner, 
+		.cmsmasters_breadcrumbs_aligner {
+			min-height:150px;
+		}
+		
+
+		
+		#page .cmsmasters_social_icon_color.cmsmasters_social_icon_1 {
+			color:#ffffff;
+		}
+		
+		
+		#page .cmsmasters_social_icon_color.cmsmasters_social_icon_1:hover {
+			color:#e0e0e0;
+		}
+		
+		#page .cmsmasters_social_icon_color.cmsmasters_social_icon_2 {
+			color:#ffffff;
+		}
+		
+		
+		#page .cmsmasters_social_icon_color.cmsmasters_social_icon_2:hover {
+			color:#e0e0e0;
+		}
+
+	.header_top {
+		height : 30px;
+	}
+	
+	.header_mid {
+		height : 100px;
+	}
+	
+	.header_bot {
+		height : 58px;
+	}
+	
+	#page.cmsmasters_heading_after_header #middle, 
+	#page.cmsmasters_heading_under_header #middle .headline .headline_outer {
+		padding-top : 100px;
+	}
+	
+	#page.cmsmasters_heading_after_header.enable_header_top #middle, 
+	#page.cmsmasters_heading_under_header.enable_header_top #middle .headline .headline_outer {
+		padding-top : 130px;
+	}
+	
+	#page.cmsmasters_heading_after_header.enable_header_bottom #middle, 
+	#page.cmsmasters_heading_under_header.enable_header_bottom #middle .headline .headline_outer {
+		padding-top : 158px;
+	}
+	
+	#page.cmsmasters_heading_after_header.enable_header_top.enable_header_bottom #middle, 
+	#page.cmsmasters_heading_under_header.enable_header_top.enable_header_bottom #middle .headline .headline_outer {
+		padding-top : 188px;
+	}
+	
+	
+		.mid_nav > li > a, 
+		.bot_nav > li > a {
+			text-shadow: 0 1px 1px rgba(0, 0, 0, 0.3);
+		}
+		
+	
+	@media only screen and (max-width: 1024px) {
+		.header_top,
+		.header_mid,
+		.header_bot {
+			height : auto;
+		}
+		
+		.header_mid .header_mid_inner > div {
+			height : 100px;
+		}
+		
+		.header_bot .header_bot_inner > div {
+			height : 58px;
+		}
+		
+		#page.cmsmasters_heading_after_header #middle, 
+		#page.cmsmasters_heading_under_header #middle .headline .headline_outer, 
+		#page.cmsmasters_heading_after_header.enable_header_top #middle, 
+		#page.cmsmasters_heading_under_header.enable_header_top #middle .headline .headline_outer, 
+		#page.cmsmasters_heading_after_header.enable_header_bottom #middle, 
+		#page.cmsmasters_heading_under_header.enable_header_bottom #middle .headline .headline_outer, 
+		#page.cmsmasters_heading_after_header.enable_header_top.enable_header_bottom #middle, 
+		#page.cmsmasters_heading_under_header.enable_header_top.enable_header_bottom #middle .headline .headline_outer {
+			padding-top : 0 !important;
+		}
+	}
+	
+	@media only screen and (max-width: 540px) {
+		.header_mid .header_mid_inner > div, 
+		.header_bot .header_bot_inner > div {
+			height:auto;
+		}
+	}
+#page .cmsmasters_make_an_appointment .wpcf7-submit {
+	background-color: rgba(255,255,255,.0);
+	border-color: rgba(255,255,255,.3);
+}
+#page .cmsmasters_make_an_appointment .wpcf7-mail-sent-ok {
+	border:1px solid rgba(255, 255, 255, 0.5);
+	padding:10px;
+	margin:30px 0 0;
+	color:#ffffff;
+}
+#page .cmsmasters_make_an_appointment input:focus {
+	border-color:#ffffff;
+}
+#page .cmsmasters_make_an_appointment input, 
+#page .cmsmasters_make_an_appointment select {
+	color:#ffffff;
+	background-color: rgba(255,255,255,.2);
+	border-color: rgba(255,255,255,.5);
+}
+#page .cmsmasters_make_an_appointment  input::-webkit-input-placeholder {
+	color:#ffffff;
+}
+#page .cmsmasters_make_an_appointment  input:-moz-placeholder {
+	color:#ffffff;
+}
+#page .cmsmasters_make_an_appointment  .wpcf7-submit:hover {
+	color:#3065b5;
+	background-color:#ffffff;
+	border:1px solid #ffffff;
+}
+#page .cmsmasters_homepage_departments a:hover {
+	color:#ffffff;
+}
+.cmsmasters_homepage_info {
+	border-bottom:1px solid #e3e3e3;
+}
+.cmsmasters_homepage_info h6 {
+	color:#9a9a9a;
+}
+.cmsmasters_homepage_featured_blocks {
+	margin-top:-80px;
+}
+.widget_wysija > .widget {
+	padding:0;
+}
+.widget_wysija .wysija-paragraph {
+	width: 390px;
+	max-width: 100%;
+	float: left;
+}
+#page .widget_wysija .wysija-paragraph input {
+	padding:0 22px !important;
+	color: #ffffff;
+	background-color: rgba(255,255,255,.2);
+	border-color: rgba(255,255,255,.5);
+}
+.widget_wysija .wysija-submit {
+	margin:0 -1px !important;
+	border:0px;
+	line-height:44px;
+	color:#0392ce;
+	width:170px;
+	max-width:100%;
+}
+.widget_wysija .wysija-submit:hover {
+	color:#0392ce;
+	background-color: rgba(255,255,255,.9);
+}
+.cmsmasters_widget_departments {
+	clear:both;
+}
+.cmsmasters_widget_departments .align-right {
+	float:right;
+	width:50%;
+	text-align:right;
+}
+.cmsmasters_widget_departments span[class^="cmsmasters-icon-"]:before, 
+.cmsmasters_widget_departments span[class*=" cmsmasters-icon-"]:before {
+	margin:0 10px 0 0;
+}
+.cmsmasters_homepage_fb_opening .cmsmasters_homepage_fb_opening_item, 
+.cmsmasters_widget_departments li, 
+.cmsmasters_homepage_sidebar_lists li {
+	display:block;
+	padding:12px 0;
+	overflow:hidden;
+	border-bottom:1px solid rgba(255,255,255,.2);
+}
+.cmsmasters_homepage_sidebar_lists li {
+	padding:9px 0;
+	border-bottom:1px solid rgba(255,255,255,.07);
+}
+.cmsmasters_widget_departments.cmsmasters_dep_list  li {
+	padding:9px 0;
+}
+.cmsmasters_homepage_fb_opening .cmsmasters_homepage_fb_opening_item .align-right {
+	float:right;
+	width:50%;
+	text-align:right;
+}
+aside.widget_wysija {
+	padding:20px 0 0px;
+}
+ .widget_wysija .widgettitle {
+	display:none;
+}
+.cmsmasters_homepage_subscribe_sidebar input::-webkit-input-placeholder {
+	color:#ffffff;
+}
+.cmsmasters_homepage_subscribe_sidebar input:-moz-placeholder {
+	color:#ffffff;
+}
+
+/* Adaptive */
+@media only screen and (max-width: 1440px) and (min-width: 950px) {
+	.cmsmasters_widget_departments .align-right {
+		display:block;
+		float:none;
+		width:100%;
+		text-align:left;
+	}
+}
+@media only screen and (max-width: 1024px) and (min-width: 768px) {
+	.cmsmasters_homepage_ours_doctors .three_fourth, 
+	.cmsmasters_homepage_ours_doctors .one_fourth {
+		width:96.6%;
+	}
+}
+/*# sourceURL=medical-clinic-style-inline-css */
+</style>
+<link rel='stylesheet' id='medical-clinic-adaptive-css' href='https://www.bolnica-zadar.hr/wp-content/themes/medical-clinic/theme-framework/theme-style/css/adaptive.css?ver=1.0.0' media='screen, print' />
+<link rel='stylesheet' id='medical-clinic-retina-css' href='https://www.bolnica-zadar.hr/wp-content/themes/medical-clinic/theme-framework/theme-style/css/retina.css?ver=1.0.0' media='screen' />
+<link rel='stylesheet' id='medical-clinic-icons-css' href='https://www.bolnica-zadar.hr/wp-content/themes/medical-clinic/css/fontello.css?ver=1.0.0' media='screen' />
+<link rel='stylesheet' id='medical-clinic-icons-custom-css' href='https://www.bolnica-zadar.hr/wp-content/themes/medical-clinic/theme-vars/theme-style/css/fontello-custom.css?ver=1.0.0' media='screen' />
+<link rel='stylesheet' id='animate-css' href='https://www.bolnica-zadar.hr/wp-content/themes/medical-clinic/css/animate.css?ver=1.0.0' media='screen' />
+<link rel='stylesheet' id='ilightbox-css' href='https://www.bolnica-zadar.hr/wp-content/themes/medical-clinic/css/ilightbox.css?ver=2.2.0' media='screen' />
+<link rel='stylesheet' id='ilightbox-skin-dark-css' href='https://www.bolnica-zadar.hr/wp-content/themes/medical-clinic/css/ilightbox-skins/dark-skin.css?ver=2.2.0' media='screen' />
+<link rel='stylesheet' id='medical-clinic-fonts-schemes-css' href='https://www.bolnica-zadar.hr/wp-content/uploads/cmsmasters_styles/medical-clinic.css?ver=1.0.0' media='screen' />
+<link rel='stylesheet' id='google-fonts-css' href='//fonts.googleapis.com/css?family=Montserrat%3A400%2C700&#038;ver=67da287cdee034ee51cebb0824e6589d' media='all' />
+<link rel='stylesheet' id='medical-clinic-gutenberg-frontend-style-css' href='https://www.bolnica-zadar.hr/wp-content/themes/medical-clinic/gutenberg/cmsmasters-framework/theme-style/css/frontend-style.css?ver=1.0.0' media='screen' />
+<link rel='stylesheet' id='mimetypes-link-icons-css' href='https://www.bolnica-zadar.hr/wp-content/plugins/mimetypes-link-icons/css/style.php?cssvars=bXRsaV9oZWlnaHQ9MjQmbXRsaV9pbWFnZV90eXBlPXBuZyZtdGxpX2xlZnRvcnJpZ2h0PWxlZnQmYWN0aXZlX3R5cGVzPWNzdnxkb2N8ZG9jeHxwZGZ8cHB0fHBwdHh8eGxzfHhsc3g&#038;ver=3.0' media='all' />
+<script id="jquery-core-js" src="https://www.bolnica-zadar.hr/wp-includes/js/jquery/jquery.min.js?ver=3.7.1"></script>
+<script id="jquery-migrate-js" src="https://www.bolnica-zadar.hr/wp-includes/js/jquery/jquery-migrate.min.js?ver=3.4.1"></script>
+<script id="cookie-law-info-js-extra">
+var _ckyConfig = {"_ipData":[],"_assetsURL":"https://www.bolnica-zadar.hr/wp-content/plugins/cookie-law-info/lite/frontend/images/","_publicURL":"https://www.bolnica-zadar.hr","_expiry":"30","_categories":[{"name":"Necessary","slug":"necessary","isNecessary":true,"ccpaDoNotSell":true,"cookies":[],"active":true,"defaultConsent":{"gdpr":true,"ccpa":true}},{"name":"Functional","slug":"functional","isNecessary":false,"ccpaDoNotSell":true,"cookies":[],"active":true,"defaultConsent":{"gdpr":false,"ccpa":false}},{"name":"Analytics","slug":"analytics","isNecessary":false,"ccpaDoNotSell":true,"cookies":[],"active":true,"defaultConsent":{"gdpr":false,"ccpa":false}},{"name":"Performance","slug":"performance","isNecessary":false,"ccpaDoNotSell":true,"cookies":[],"active":true,"defaultConsent":{"gdpr":false,"ccpa":false}},{"name":"Advertisement","slug":"advertisement","isNecessary":false,"ccpaDoNotSell":true,"cookies":[],"active":true,"defaultConsent":{"gdpr":false,"ccpa":false}}],"_activeLaw":"gdpr","_rootDomain":"","_block":"1","_showBanner":"1","_bannerConfig":{"settings":{"type":"box","preferenceCenterType":"popup","position":"bottom-right","applicableLaw":"gdpr"},"behaviours":{"reloadBannerOnAccept":false,"loadAnalyticsByDefault":false,"animations":{"onLoad":"animate","onHide":"sticky"}},"config":{"revisitConsent":{"status":false,"tag":"revisit-consent","position":"bottom-left","meta":{"url":"#"},"styles":{"background-color":"#319add"},"elements":{"title":{"type":"text","tag":"revisit-consent-title","status":true,"styles":{"color":"#0056a7"}}}},"preferenceCenter":{"toggle":{"status":true,"tag":"detail-category-toggle","type":"toggle","states":{"active":{"styles":{"background-color":"#1863DC"}},"inactive":{"styles":{"background-color":"#D0D5D2"}}}}},"categoryPreview":{"status":false,"toggle":{"status":true,"tag":"detail-category-preview-toggle","type":"toggle","states":{"active":{"styles":{"background-color":"#1863DC"}},"inactive":{"styles":{"background-color":"#D0D5D2"}}}}},"videoPlaceholder":{"status":true,"styles":{"background-color":"#000000","border-color":"#000000","color":"#ffffff"}},"readMore":{"status":true,"tag":"readmore-button","type":"link","meta":{"noFollow":true,"newTab":true},"styles":{"color":"#1863DC","background-color":"transparent","border-color":"transparent"}},"showMore":[],"showLess":[],"alwaysActive":[],"manualLinks":[],"auditTable":{"status":true},"optOption":{"status":true,"toggle":{"status":true,"tag":"optout-option-toggle","type":"toggle","states":{"active":{"styles":{"background-color":"#1863dc"}},"inactive":{"styles":{"background-color":"#FFFFFF"}}}}}}},"_version":"3.5.8","_logConsent":"1","_tags":[{"tag":"accept-button","styles":{"color":"#FFFFFF","background-color":"#1863DC","border-color":"#1863DC"}},{"tag":"reject-button","styles":{"color":"#1863DC","background-color":"transparent","border-color":"#1863DC"}},{"tag":"settings-button","styles":{"color":"#1863DC","background-color":"transparent","border-color":"#1863DC"}},{"tag":"readmore-button","styles":{"color":"#1863DC","background-color":"transparent","border-color":"transparent"}},{"tag":"donotsell-button","styles":{"color":"#1863DC","background-color":"transparent","border-color":"transparent"}},{"tag":"show-desc-button","styles":[]},{"tag":"hide-desc-button","styles":[]},{"tag":"cky-always-active","styles":[]},{"tag":"cky-link","styles":[]},{"tag":"accept-button","styles":{"color":"#FFFFFF","background-color":"#1863DC","border-color":"#1863DC"}},{"tag":"revisit-consent","styles":{"background-color":"#319add"}}],"_shortCodes":[{"key":"cky_readmore","content":"\u003Ca href=\"https://www.bolnica-zadar.hr/cookie-policy\" class=\"cky-policy\" aria-label=\"Politika kola\u010di\u0107a\" target=\"_blank\" rel=\"noopener\" data-cky-tag=\"readmore-button\"\u003EPolitika kola\u010di\u0107a\u003C/a\u003E","tag":"readmore-button","status":true,"attributes":{"rel":"nofollow","target":"_blank"}},{"key":"cky_show_desc","content":"\u003Cbutton class=\"cky-show-desc-btn\" data-cky-tag=\"show-desc-button\" aria-label=\"Prika\u017ei vi\u0161e\"\u003EPrika\u017ei vi\u0161e\u003C/button\u003E","tag":"show-desc-button","status":true,"attributes":[]},{"key":"cky_hide_desc","content":"\u003Cbutton class=\"cky-show-desc-btn\" data-cky-tag=\"hide-desc-button\" aria-label=\"Prika\u017ei manje\"\u003EPrika\u017ei manje\u003C/button\u003E","tag":"hide-desc-button","status":true,"attributes":[]},{"key":"cky_optout_show_desc","content":"[cky_optout_show_desc]","tag":"optout-show-desc-button","status":true,"attributes":[]},{"key":"cky_optout_hide_desc","content":"[cky_optout_hide_desc]","tag":"optout-hide-desc-button","status":true,"attributes":[]},{"key":"cky_category_toggle_label","content":"[cky_{{status}}_category_label] [cky_preference_{{category_slug}}_title]","tag":"","status":true,"attributes":[]},{"key":"cky_enable_category_label","content":"Enable","tag":"","status":true,"attributes":[]},{"key":"cky_disable_category_label","content":"Disable","tag":"","status":true,"attributes":[]},{"key":"cky_video_placeholder","content":"\u003Cdiv class=\"video-placeholder-normal\" data-cky-tag=\"video-placeholder\" id=\"[UNIQUEID]\"\u003E\u003Cp class=\"video-placeholder-text-normal\" data-cky-tag=\"placeholder-title\"\u003EMolimo prihvatite kola\u010di\u0107e kako bi mogli nesmetano pregledavati stranice\u003C/p\u003E\u003C/div\u003E","tag":"","status":true,"attributes":[]},{"key":"cky_enable_optout_label","content":"Enable","tag":"","status":true,"attributes":[]},{"key":"cky_disable_optout_label","content":"Disable","tag":"","status":true,"attributes":[]},{"key":"cky_optout_toggle_label","content":"[cky_{{status}}_optout_label] [cky_optout_option_title]","tag":"","status":true,"attributes":[]},{"key":"cky_optout_option_title","content":"Do Not Sell or Share My Personal Information","tag":"","status":true,"attributes":[]},{"key":"cky_optout_close_label","content":"Close","tag":"","status":true,"attributes":[]},{"key":"cky_preference_close_label","content":"Close","tag":"","status":true,"attributes":[]}],"_rtl":"","_language":"en","_providersToBlock":[]};
+var _ckyStyles = {"css":".cky-overlay{background: #000000; opacity: 0.4; position: fixed; top: 0; left: 0; width: 100%; height: 100%; z-index: 99999999;}.cky-hide{display: none;}.cky-btn-revisit-wrapper{display: flex; align-items: center; justify-content: center; background: #0056a7; width: 45px; height: 45px; border-radius: 50%; position: fixed; z-index: 999999; cursor: pointer;}.cky-revisit-bottom-left{bottom: 15px; left: 15px;}.cky-revisit-bottom-right{bottom: 15px; right: 15px;}.cky-btn-revisit-wrapper .cky-btn-revisit{display: flex; align-items: center; justify-content: center; background: none; border: none; cursor: pointer; position: relative; margin: 0; padding: 0;}.cky-btn-revisit-wrapper .cky-btn-revisit img{max-width: fit-content; margin: 0; height: 30px; width: 30px;}.cky-revisit-bottom-left:hover::before{content: attr(data-tooltip); position: absolute; background: #4e4b66; color: #ffffff; left: calc(100% + 7px); font-size: 12px; line-height: 16px; width: max-content; padding: 4px 8px; border-radius: 4px;}.cky-revisit-bottom-left:hover::after{position: absolute; content: \"\"; border: 5px solid transparent; left: calc(100% + 2px); border-left-width: 0; border-right-color: #4e4b66;}.cky-revisit-bottom-right:hover::before{content: attr(data-tooltip); position: absolute; background: #4e4b66; color: #ffffff; right: calc(100% + 7px); font-size: 12px; line-height: 16px; width: max-content; padding: 4px 8px; border-radius: 4px;}.cky-revisit-bottom-right:hover::after{position: absolute; content: \"\"; border: 5px solid transparent; right: calc(100% + 2px); border-right-width: 0; border-left-color: #4e4b66;}.cky-revisit-hide{display: none;}.cky-consent-container{position: fixed; width: 440px; box-sizing: border-box; z-index: 9999999; border-radius: 6px;}.cky-consent-container .cky-consent-bar{background: #ffffff; border: 1px solid; padding: 20px 26px; box-shadow: 0 -1px 10px 0 #acabab4d; border-radius: 6px;}.cky-box-bottom-left{bottom: 40px; left: 40px;}.cky-box-bottom-right{bottom: 40px; right: 40px;}.cky-box-top-left{top: 40px; left: 40px;}.cky-box-top-right{top: 40px; right: 40px;}.cky-custom-brand-logo-wrapper .cky-custom-brand-logo{width: 100px; height: auto; margin: 0 0 12px 0;}.cky-notice .cky-title{color: #212121; font-weight: 700; font-size: 18px; line-height: 24px; margin: 0 0 12px 0;}.cky-notice-des *,.cky-preference-content-wrapper *,.cky-accordion-header-des *,.cky-gpc-wrapper .cky-gpc-desc *{font-size: 14px;}.cky-notice-des{color: #212121; font-size: 14px; line-height: 24px; font-weight: 400;}.cky-notice-des img{height: 25px; width: 25px;}.cky-consent-bar .cky-notice-des p,.cky-gpc-wrapper .cky-gpc-desc p,.cky-preference-body-wrapper .cky-preference-content-wrapper p,.cky-accordion-header-wrapper .cky-accordion-header-des p,.cky-cookie-des-table li div:last-child p{color: inherit; margin-top: 0; overflow-wrap: break-word;}.cky-notice-des P:last-child,.cky-preference-content-wrapper p:last-child,.cky-cookie-des-table li div:last-child p:last-child,.cky-gpc-wrapper .cky-gpc-desc p:last-child{margin-bottom: 0;}.cky-notice-des a.cky-policy,.cky-notice-des button.cky-policy{font-size: 14px; color: #1863dc; white-space: nowrap; cursor: pointer; background: transparent; border: 1px solid; text-decoration: underline;}.cky-notice-des button.cky-policy{padding: 0;}.cky-notice-des a.cky-policy:focus-visible,.cky-notice-des button.cky-policy:focus-visible,.cky-preference-content-wrapper .cky-show-desc-btn:focus-visible,.cky-accordion-header .cky-accordion-btn:focus-visible,.cky-preference-header .cky-btn-close:focus-visible,.cky-switch input[type=\"checkbox\"]:focus-visible,.cky-footer-wrapper a:focus-visible,.cky-btn:focus-visible{outline: 2px solid #1863dc; outline-offset: 2px;}.cky-btn:focus:not(:focus-visible),.cky-accordion-header .cky-accordion-btn:focus:not(:focus-visible),.cky-preference-content-wrapper .cky-show-desc-btn:focus:not(:focus-visible),.cky-btn-revisit-wrapper .cky-btn-revisit:focus:not(:focus-visible),.cky-preference-header .cky-btn-close:focus:not(:focus-visible),.cky-consent-bar .cky-banner-btn-close:focus:not(:focus-visible){outline: 0;}button.cky-show-desc-btn:not(:hover):not(:active){color: #1863dc; background: transparent;}button.cky-accordion-btn:not(:hover):not(:active),button.cky-banner-btn-close:not(:hover):not(:active),button.cky-btn-revisit:not(:hover):not(:active),button.cky-btn-close:not(:hover):not(:active){background: transparent;}.cky-consent-bar button:hover,.cky-modal.cky-modal-open button:hover,.cky-consent-bar button:focus,.cky-modal.cky-modal-open button:focus{text-decoration: none;}.cky-notice-btn-wrapper{display: flex; justify-content: flex-start; align-items: center; flex-wrap: wrap; margin-top: 16px;}.cky-notice-btn-wrapper .cky-btn{text-shadow: none; box-shadow: none;}.cky-btn{flex: auto; max-width: 100%; font-size: 14px; font-family: inherit; line-height: 24px; padding: 8px; font-weight: 500; margin: 0 8px 0 0; border-radius: 2px; cursor: pointer; text-align: center; text-transform: none; min-height: 0;}.cky-btn:hover{opacity: 0.8;}.cky-btn-customize{color: #1863dc; background: transparent; border: 2px solid #1863dc;}.cky-btn-reject{color: #1863dc; background: transparent; border: 2px solid #1863dc;}.cky-btn-accept{background: #1863dc; color: #ffffff; border: 2px solid #1863dc;}.cky-btn:last-child{margin-right: 0;}@media (max-width: 576px){.cky-box-bottom-left{bottom: 0; left: 0;}.cky-box-bottom-right{bottom: 0; right: 0;}.cky-box-top-left{top: 0; left: 0;}.cky-box-top-right{top: 0; right: 0;}}@media (max-height: 480px){.cky-consent-container{max-height: 100vh;overflow-y: scroll}.cky-notice-des{max-height: unset !important;overflow-y: unset !important}.cky-preference-center{height: 100vh;overflow: auto !important}.cky-preference-center .cky-preference-body-wrapper{overflow: unset}}@media (max-width: 440px){.cky-box-bottom-left, .cky-box-bottom-right, .cky-box-top-left, .cky-box-top-right{width: 100%; max-width: 100%;}.cky-consent-container .cky-consent-bar{padding: 20px 0;}.cky-custom-brand-logo-wrapper, .cky-notice .cky-title, .cky-notice-des, .cky-notice-btn-wrapper{padding: 0 24px;}.cky-notice-des{max-height: 40vh; overflow-y: scroll;}.cky-notice-btn-wrapper{flex-direction: column; margin-top: 0;}.cky-btn{width: 100%; margin: 10px 0 0 0;}.cky-notice-btn-wrapper .cky-btn-customize{order: 2;}.cky-notice-btn-wrapper .cky-btn-reject{order: 3;}.cky-notice-btn-wrapper .cky-btn-accept{order: 1; margin-top: 16px;}}@media (max-width: 352px){.cky-notice .cky-title{font-size: 16px;}.cky-notice-des *{font-size: 12px;}.cky-notice-des, .cky-btn{font-size: 12px;}}.cky-modal.cky-modal-open{display: flex; visibility: visible; -webkit-transform: translate(-50%, -50%); -moz-transform: translate(-50%, -50%); -ms-transform: translate(-50%, -50%); -o-transform: translate(-50%, -50%); transform: translate(-50%, -50%); top: 50%; left: 50%; transition: all 1s ease;}.cky-modal{box-shadow: 0 32px 68px rgba(0, 0, 0, 0.3); margin: 0 auto; position: fixed; max-width: 100%; background: #ffffff; top: 50%; box-sizing: border-box; border-radius: 6px; z-index: 999999999; color: #212121; -webkit-transform: translate(-50%, 100%); -moz-transform: translate(-50%, 100%); -ms-transform: translate(-50%, 100%); -o-transform: translate(-50%, 100%); transform: translate(-50%, 100%); visibility: hidden; transition: all 0s ease;}.cky-preference-center{max-height: 79vh; overflow: hidden; width: 845px; overflow: hidden; flex: 1 1 0; display: flex; flex-direction: column; border-radius: 6px;}.cky-preference-header{display: flex; align-items: center; justify-content: space-between; padding: 22px 24px; border-bottom: 1px solid;}.cky-preference-header .cky-preference-title{font-size: 18px; font-weight: 700; line-height: 24px;}.cky-preference-header .cky-btn-close{margin: 0; cursor: pointer; vertical-align: middle; padding: 0; background: none; border: none; width: 24px; height: 24px; min-height: 0; line-height: 0; text-shadow: none; box-shadow: none;}.cky-preference-header .cky-btn-close img{margin: 0; height: 10px; width: 10px;}.cky-preference-body-wrapper{padding: 0 24px; flex: 1; overflow: auto; box-sizing: border-box;}.cky-preference-content-wrapper,.cky-gpc-wrapper .cky-gpc-desc{font-size: 14px; line-height: 24px; font-weight: 400; padding: 12px 0;}.cky-preference-content-wrapper{border-bottom: 1px solid;}.cky-preference-content-wrapper img{height: 25px; width: 25px;}.cky-preference-content-wrapper .cky-show-desc-btn{font-size: 14px; font-family: inherit; color: #1863dc; text-decoration: none; line-height: 24px; padding: 0; margin: 0; white-space: nowrap; cursor: pointer; background: transparent; border-color: transparent; text-transform: none; min-height: 0; text-shadow: none; box-shadow: none;}.cky-accordion-wrapper{margin-bottom: 10px;}.cky-accordion{border-bottom: 1px solid;}.cky-accordion:last-child{border-bottom: none;}.cky-accordion .cky-accordion-item{display: flex; margin-top: 10px;}.cky-accordion .cky-accordion-body{display: none;}.cky-accordion.cky-accordion-active .cky-accordion-body{display: block; padding: 0 22px; margin-bottom: 16px;}.cky-accordion-header-wrapper{cursor: pointer; width: 100%;}.cky-accordion-item .cky-accordion-header{display: flex; justify-content: space-between; align-items: center;}.cky-accordion-header .cky-accordion-btn{font-size: 16px; font-family: inherit; color: #212121; line-height: 24px; background: none; border: none; font-weight: 700; padding: 0; margin: 0; cursor: pointer; text-transform: none; min-height: 0; text-shadow: none; box-shadow: none;}.cky-accordion-header .cky-always-active{color: #008000; font-weight: 600; line-height: 24px; font-size: 14px;}.cky-accordion-header-des{font-size: 14px; line-height: 24px; margin: 10px 0 16px 0;}.cky-accordion-chevron{margin-right: 22px; position: relative; cursor: pointer;}.cky-accordion-chevron-hide{display: none;}.cky-accordion .cky-accordion-chevron i::before{content: \"\"; position: absolute; border-right: 1.4px solid; border-bottom: 1.4px solid; border-color: inherit; height: 6px; width: 6px; -webkit-transform: rotate(-45deg); -moz-transform: rotate(-45deg); -ms-transform: rotate(-45deg); -o-transform: rotate(-45deg); transform: rotate(-45deg); transition: all 0.2s ease-in-out; top: 8px;}.cky-accordion.cky-accordion-active .cky-accordion-chevron i::before{-webkit-transform: rotate(45deg); -moz-transform: rotate(45deg); -ms-transform: rotate(45deg); -o-transform: rotate(45deg); transform: rotate(45deg);}.cky-audit-table{background: #f4f4f4; border-radius: 6px;}.cky-audit-table .cky-empty-cookies-text{color: inherit; font-size: 12px; line-height: 24px; margin: 0; padding: 10px;}.cky-audit-table .cky-cookie-des-table{font-size: 12px; line-height: 24px; font-weight: normal; padding: 15px 10px; border-bottom: 1px solid; border-bottom-color: inherit; margin: 0;}.cky-audit-table .cky-cookie-des-table:last-child{border-bottom: none;}.cky-audit-table .cky-cookie-des-table li{list-style-type: none; display: flex; padding: 3px 0;}.cky-audit-table .cky-cookie-des-table li:first-child{padding-top: 0;}.cky-cookie-des-table li div:first-child{width: 100px; font-weight: 600; word-break: break-word; word-wrap: break-word;}.cky-cookie-des-table li div:last-child{flex: 1; word-break: break-word; word-wrap: break-word; margin-left: 8px;}.cky-footer-shadow{display: block; width: 100%; height: 40px; background: linear-gradient(180deg, rgba(255, 255, 255, 0) 0%, #ffffff 100%); position: absolute; bottom: calc(100% - 1px);}.cky-footer-wrapper{position: relative;}.cky-prefrence-btn-wrapper{display: flex; flex-wrap: wrap; align-items: center; justify-content: center; padding: 22px 24px; border-top: 1px solid;}.cky-prefrence-btn-wrapper .cky-btn{flex: auto; max-width: 100%; text-shadow: none; box-shadow: none;}.cky-btn-preferences{color: #1863dc; background: transparent; border: 2px solid #1863dc;}.cky-preference-header,.cky-preference-body-wrapper,.cky-preference-content-wrapper,.cky-accordion-wrapper,.cky-accordion,.cky-accordion-wrapper,.cky-footer-wrapper,.cky-prefrence-btn-wrapper{border-color: inherit;}@media (max-width: 845px){.cky-modal{max-width: calc(100% - 16px);}}@media (max-width: 576px){.cky-modal{max-width: 100%;}.cky-preference-center{max-height: 100vh;}.cky-prefrence-btn-wrapper{flex-direction: column;}.cky-accordion.cky-accordion-active .cky-accordion-body{padding-right: 0;}.cky-prefrence-btn-wrapper .cky-btn{width: 100%; margin: 10px 0 0 0;}.cky-prefrence-btn-wrapper .cky-btn-reject{order: 3;}.cky-prefrence-btn-wrapper .cky-btn-accept{order: 1; margin-top: 0;}.cky-prefrence-btn-wrapper .cky-btn-preferences{order: 2;}}@media (max-width: 425px){.cky-accordion-chevron{margin-right: 15px;}.cky-notice-btn-wrapper{margin-top: 0;}.cky-accordion.cky-accordion-active .cky-accordion-body{padding: 0 15px;}}@media (max-width: 352px){.cky-preference-header .cky-preference-title{font-size: 16px;}.cky-preference-header{padding: 16px 24px;}.cky-preference-content-wrapper *, .cky-accordion-header-des *{font-size: 12px;}.cky-preference-content-wrapper, .cky-preference-content-wrapper .cky-show-more, .cky-accordion-header .cky-always-active, .cky-accordion-header-des, .cky-preference-content-wrapper .cky-show-desc-btn, .cky-notice-des a.cky-policy{font-size: 12px;}.cky-accordion-header .cky-accordion-btn{font-size: 14px;}}.cky-switch{display: flex;}.cky-switch input[type=\"checkbox\"]{position: relative; width: 44px; height: 24px; margin: 0; background: #d0d5d2; -webkit-appearance: none; border-radius: 50px; cursor: pointer; outline: 0; border: none; top: 0;}.cky-switch input[type=\"checkbox\"]:checked{background: #1863dc;}.cky-switch input[type=\"checkbox\"]:before{position: absolute; content: \"\"; height: 20px; width: 20px; left: 2px; bottom: 2px; border-radius: 50%; background-color: white; -webkit-transition: 0.4s; transition: 0.4s; margin: 0;}.cky-switch input[type=\"checkbox\"]:after{display: none;}.cky-switch input[type=\"checkbox\"]:checked:before{-webkit-transform: translateX(20px); -ms-transform: translateX(20px); transform: translateX(20px);}@media (max-width: 425px){.cky-switch input[type=\"checkbox\"]{width: 38px; height: 21px;}.cky-switch input[type=\"checkbox\"]:before{height: 17px; width: 17px;}.cky-switch input[type=\"checkbox\"]:checked:before{-webkit-transform: translateX(17px); -ms-transform: translateX(17px); transform: translateX(17px);}}.cky-consent-bar .cky-banner-btn-close{position: absolute; right: 9px; top: 5px; background: none; border: none; cursor: pointer; padding: 0; margin: 0; min-height: 0; line-height: 0; height: 24px; width: 24px; text-shadow: none; box-shadow: none;}.cky-consent-bar .cky-banner-btn-close img{height: 9px; width: 9px; margin: 0;}.cky-notice-group{font-size: 14px; line-height: 24px; font-weight: 400; color: #212121;}.cky-notice-btn-wrapper .cky-btn-do-not-sell{font-size: 14px; line-height: 24px; padding: 6px 0; margin: 0; font-weight: 500; background: none; border-radius: 2px; border: none; cursor: pointer; text-align: left; color: #1863dc; background: transparent; border-color: transparent; box-shadow: none; text-shadow: none;}.cky-consent-bar .cky-banner-btn-close:focus-visible,.cky-notice-btn-wrapper .cky-btn-do-not-sell:focus-visible,.cky-opt-out-btn-wrapper .cky-btn:focus-visible,.cky-opt-out-checkbox-wrapper input[type=\"checkbox\"].cky-opt-out-checkbox:focus-visible{outline: 2px solid #1863dc; outline-offset: 2px;}@media (max-width: 440px){.cky-consent-container{width: 100%;}}@media (max-width: 352px){.cky-notice-des a.cky-policy, .cky-notice-btn-wrapper .cky-btn-do-not-sell{font-size: 12px;}}.cky-opt-out-wrapper{padding: 12px 0;}.cky-opt-out-wrapper .cky-opt-out-checkbox-wrapper{display: flex; align-items: center;}.cky-opt-out-checkbox-wrapper .cky-opt-out-checkbox-label{font-size: 16px; font-weight: 700; line-height: 24px; margin: 0 0 0 12px; cursor: pointer;}.cky-opt-out-checkbox-wrapper input[type=\"checkbox\"].cky-opt-out-checkbox{background-color: #ffffff; border: 1px solid black; width: 20px; height: 18.5px; margin: 0; -webkit-appearance: none; position: relative; display: flex; align-items: center; justify-content: center; border-radius: 2px; cursor: pointer;}.cky-opt-out-checkbox-wrapper input[type=\"checkbox\"].cky-opt-out-checkbox:checked{background-color: #1863dc; border: none;}.cky-opt-out-checkbox-wrapper input[type=\"checkbox\"].cky-opt-out-checkbox:checked::after{left: 6px; bottom: 4px; width: 7px; height: 13px; border: solid #ffffff; border-width: 0 3px 3px 0; border-radius: 2px; -webkit-transform: rotate(45deg); -ms-transform: rotate(45deg); transform: rotate(45deg); content: \"\"; position: absolute; box-sizing: border-box;}.cky-opt-out-checkbox-wrapper.cky-disabled .cky-opt-out-checkbox-label,.cky-opt-out-checkbox-wrapper.cky-disabled input[type=\"checkbox\"].cky-opt-out-checkbox{cursor: no-drop;}.cky-gpc-wrapper{margin: 0 0 0 32px;}.cky-footer-wrapper .cky-optout-action-area{padding:0 24px 22px 24px;box-sizing:border-box;border-color:inherit}.cky-footer-wrapper .cky-opt-out-btn-wrapper{padding-top:22px;border-top:1px solid;border-color:inherit}.cky-footer-wrapper .cky-opt-out-btn-wrapper{display: flex; flex-wrap: wrap; align-items: center; justify-content: center;}.cky-opt-out-btn-wrapper .cky-btn{flex: auto; max-width: 100%; text-shadow: none; box-shadow: none;}.cky-opt-out-btn-wrapper .cky-btn-cancel{border: 1px solid #dedfe0; background: transparent; color: #858585;}.cky-opt-out-btn-wrapper .cky-btn-confirm{background: #1863dc; color: #ffffff; border: 1px solid #1863dc;}\n.cky-optout-success{width:798px;max-width:100%;border-radius:8px;padding:8px 12px;margin:0 auto;box-sizing:border-box;outline:none}.cky-optout-success .cky-optout-success-inner{display:flex;flex-direction:column;gap:4px}.cky-optout-success .cky-optout-success-row{display:flex;align-items:flex-start}.cky-optout-success .cky-optout-success-icon{width:20px;flex-shrink:0}.cky-optout-success .cky-optout-success-text{margin:0;margin-inline-start:8px;margin-top:1px;font-weight:400;font-size:13px;line-height:20px}.cky-optout-success .cky-optout-success-text p{margin:0}.cky-optout-success .cky-optout-success-subtext{margin:0;font-weight:400;font-size:12px;line-height:20px}@media (max-width: 352px){.cky-opt-out-checkbox-wrapper .cky-opt-out-checkbox-label{font-size: 14px;}.cky-gpc-wrapper .cky-gpc-desc, .cky-gpc-wrapper .cky-gpc-desc *{font-size: 12px;}.cky-opt-out-checkbox-wrapper input[type=\"checkbox\"].cky-opt-out-checkbox{width: 16px; height: 16px;}.cky-opt-out-checkbox-wrapper input[type=\"checkbox\"].cky-opt-out-checkbox:checked::after{left: 5px; bottom: 4px; width: 3px; height: 9px;}.cky-gpc-wrapper{margin: 0 0 0 28px;}}.video-placeholder-youtube{background-size: 100% 100%; background-position: center; background-repeat: no-repeat; background-color: #b2b0b059; position: relative; display: flex; align-items: center; justify-content: center; max-width: 100%;}.video-placeholder-text-youtube{text-align: center; align-items: center; padding: 10px 16px; background-color: #000000cc; color: #ffffff; border: 1px solid; border-radius: 2px; cursor: pointer;}.video-placeholder-normal{background-image: url(\"/wp-content/plugins/cookie-law-info/lite/frontend/images/placeholder.svg\"); background-size: 80px; background-position: center; background-repeat: no-repeat; background-color: #b2b0b059; position: relative; display: flex; align-items: flex-end; justify-content: center; max-width: 100%;}.video-placeholder-text-normal{align-items: center; padding: 10px 16px; text-align: center; border: 1px solid; border-radius: 2px; cursor: pointer;}.cky-rtl{direction: rtl; text-align: right;}.cky-rtl .cky-banner-btn-close{left: 9px; right: auto;}.cky-rtl .cky-notice-btn-wrapper .cky-btn:last-child{margin-right: 8px;}.cky-rtl .cky-notice-btn-wrapper .cky-btn:first-child{margin-right: 0;}.cky-rtl .cky-notice-btn-wrapper{margin-left: 0; margin-right: 15px;}.cky-rtl .cky-prefrence-btn-wrapper .cky-btn{margin-right: 8px;}.cky-rtl .cky-prefrence-btn-wrapper .cky-btn:first-child{margin-right: 0;}.cky-rtl .cky-accordion .cky-accordion-chevron i::before{border: none; border-left: 1.4px solid; border-top: 1.4px solid; left: 12px;}.cky-rtl .cky-accordion.cky-accordion-active .cky-accordion-chevron i::before{-webkit-transform: rotate(-135deg); -moz-transform: rotate(-135deg); -ms-transform: rotate(-135deg); -o-transform: rotate(-135deg); transform: rotate(-135deg);}@media (max-width: 768px){.cky-rtl .cky-notice-btn-wrapper{margin-right: 0;}}@media (max-width: 576px){.cky-rtl .cky-notice-btn-wrapper .cky-btn:last-child{margin-right: 0;}.cky-rtl .cky-prefrence-btn-wrapper .cky-btn{margin-right: 0;}.cky-rtl .cky-accordion.cky-accordion-active .cky-accordion-body{padding: 0 22px 0 0;}}@media (max-width: 425px){.cky-rtl .cky-accordion.cky-accordion-active .cky-accordion-body{padding: 0 15px 0 0;}}.cky-rtl .cky-opt-out-btn-wrapper .cky-btn{margin-right: 12px;}.cky-rtl .cky-opt-out-btn-wrapper .cky-btn:first-child{margin-right: 0;}.cky-rtl .cky-opt-out-checkbox-wrapper .cky-opt-out-checkbox-label{margin: 0 12px 0 0;}"};
+//# sourceURL=cookie-law-info-js-extra
 </script>
-</body></html>
+<script id="cookie-law-info-js" src="https://www.bolnica-zadar.hr/wp-content/plugins/cookie-law-info/lite/frontend/js/script.min.js?ver=3.5.8"></script>
+<script id="layerslider-utils-js-extra">
+var LS_Meta = {"v":"7.9.5","fixGSAP":"1"};
+//# sourceURL=layerslider-utils-js-extra
+</script>
+<script id="layerslider-utils-js" src="https://www.bolnica-zadar.hr/wp-content/plugins/LayerSlider/assets/static/layerslider/js/layerslider.utils.js?ver=7.9.5"></script>
+<script id="layerslider-js" src="https://www.bolnica-zadar.hr/wp-content/plugins/LayerSlider/assets/static/layerslider/js/layerslider.kreaturamedia.jquery.js?ver=7.9.5"></script>
+<script id="layerslider-transitions-js" src="https://www.bolnica-zadar.hr/wp-content/plugins/LayerSlider/assets/static/layerslider/js/layerslider.transitions.js?ver=7.9.5"></script>
+<script id="debounced-resize-js" src="https://www.bolnica-zadar.hr/wp-content/themes/medical-clinic/js/debounced-resize.min.js?ver=1.0.0"></script>
+<script id="modernizr-js" src="https://www.bolnica-zadar.hr/wp-content/themes/medical-clinic/js/modernizr.min.js?ver=1.0.0"></script>
+<script id="respond-js" src="https://www.bolnica-zadar.hr/wp-content/themes/medical-clinic/js/respond.min.js?ver=1.0.0"></script>
+<script id="iLightBox-js" src="https://www.bolnica-zadar.hr/wp-content/themes/medical-clinic/js/jquery.iLightBox.min.js?ver=2.2.0"></script>
+<meta name="generator" content="Powered by LayerSlider 7.9.5 - Build Heros, Sliders, and Popups. Create Animations and Beautiful, Rich Web Content as Easy as Never Before on WordPress." />
+<!-- LayerSlider updates and docs at: https://layerslider.com -->
+<link rel="https://api.w.org/" href="https://www.bolnica-zadar.hr/wp-json/" /><link rel="alternate" title="JSON" type="application/json" href="https://www.bolnica-zadar.hr/wp-json/wp/v2/posts/48448" /><link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://www.bolnica-zadar.hr/xmlrpc.php?rsd" />
+
+<link rel="canonical" href="https://www.bolnica-zadar.hr/covjek-koji-je-ostavio-neizbrisiv-trag-u-zadarskom-zdravstvu/" />
+<link rel='shortlink' href='https://www.bolnica-zadar.hr/?p=48448' />
+<style id="cky-style-inline">[data-cky-tag]{visibility:hidden;}</style><link rel="icon" href="https://www.bolnica-zadar.hr/wp-content/uploads/2020/01/cropped-OB_ZD_logo_blue-32x32.png" sizes="32x32" />
+<link rel="icon" href="https://www.bolnica-zadar.hr/wp-content/uploads/2020/01/cropped-OB_ZD_logo_blue-192x192.png" sizes="192x192" />
+<link rel="apple-touch-icon" href="https://www.bolnica-zadar.hr/wp-content/uploads/2020/01/cropped-OB_ZD_logo_blue-180x180.png" />
+<meta name="msapplication-TileImage" content="https://www.bolnica-zadar.hr/wp-content/uploads/2020/01/cropped-OB_ZD_logo_blue-270x270.png" />
+<style id="wp-custom-css">
+/*.cmsmasters_theme_icon_image:before {
+content:'';		
+	background-image: 
+url("http://www.bolnica-zadar.hr/wp-content/uploads/2018/04/17.jpg")!important;
+	width:100%;
+	height:100%;
+}*/
+.cmsmasters_img_rollover_wrap .img_placeholder:before {
+    font-size: 80px;
+    width: 275px;
+    height: 175px;
+    margin: auto !important;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+}
+.cmsmasters_archive_item_user_name{
+	display: none;
+}
+.cmsmasters_archive_item_category{
+	display: none;
+}
+.mid_nav > li li > a {
+    padding: 6px 20px;
+    margin: 0 5px;
+}
+nav > div > ul ul {
+    padding: 10px 0 10px;
+}
+ul.navigation li.current-menu-item > a, ul.navigation li.menu-item-highlight > a, ul.navigation li.current-menu-ancestor > a, ul.navigation li > ul li:hover > a {
+    background-color: rgba(62, 137, 215, 0.1);
+}
+#bottom {
+    background-color: #313844;
+	  padding-top: 0px !important;
+}
+#bottom {
+    border-top: 10px solid #1c87c9;
+    padding-top: 40px;
+}
+div.wpforms-container-full .wpforms-form input[type=submit], div.wpforms-container-full .wpforms-form button[type=submit], div.wpforms-container-full .wpforms-form .wpforms-page-button {
+    background-color: #3ccde7;
+    border: 1px solid #ddd;
+    color: #fff;
+    font-size: 1em;
+    padding: 10px 15px;
+}
+.cmsmasters_posts_slider .cmsmasters_owl_slider {
+   padding: 35px 0 0;
+}
+.tabla_doktori{
+    width: 130%;
+}
+.tabla_doktori th:nth-child(4){
+     width:250px;
+}
+.tabla_doktori th:nth-child(1){
+     width:250px;
+}
+h6, h6 a, .cmsmasters_quotes_slider .cmsmasters_quote_content, .cmsmasters_table tr td, .cmsmasters_table tr th {
+    font-family: 'Open Sans', Calibri, 'AppleGothic', 'MgOpen Modata', sans-serif;
+    font-size: 14px;
+    line-height: 14px;
+    font-weight: normal;
+    font-style: normal;
+    text-transform: none;
+    text-decoration: none;
+}
+.natjecaji_slide .cmsmasters_slider_post .cmsmasters_slider_post_img_wrap{
+	display:none;
+}
+.javna_nabava_slide
+.cmsmasters_slider_post 
+.cmsmasters_slider_post_img_wrap
+{
+  display:none;
+}
+.cmsmasters_slider_project .cmsmasters_slider_project_header .cmsmasters_slider_project_title a
+{color: white !important}
+.cmsmasters_slider_project .cmsmasters_slider_project_header .cmsmasters_slider_project_title a:hover
+{color: black !important}
+.header_mid .mid_search_but_wrap .mid_search_but, .header_mid .resp_mid_nav_wrap .resp_mid_nav {
+    color: #4c4c4c;
+}
+/* header-top  */
+.header_top_left.header-links-custom-wrapper {
+    display: flex !important;
+    align-items: center !important;
+}
+
+/* Unutrašnji div — također flex */
+.header-links-custom {
+    display: flex !important;
+    align-items: center !important;
+}
+
+/* Razmak između EU slike i prvog linka 
+.header-links-custom img {
+    margin-right: 100px !important;
+}*/
+
+/* Razmak između WEB MAIL i INTRANET */
+.header-links-custom a.header-link {
+    display: inline-block !important;
+    margin: 0 10px !important;
+    white-space: nowrap; /* sprječava spajanje i prijelome */
+}/
+
+/* Samo prvi link da ne ima lijevi razmak prema slici */
+.header-links-custom a.header-link:first-of-type {
+    margin-left: 0 !important;
+}
+/* Vertikalno centriranje EU slike unutar header-top */
+.header-links-custom img {
+    display: block;              /* uklanja inline baseline offset */
+    height: 20px !important;     /*garantirana visina */
+    width: auto !important;       /*ispravan omjer */
+   margin: 0 10px 0 0 !important; /* razmak desno 
+    align-self: center !important; /* vertikalni centar u flex-u */
+}
+
+
+</style>
+</head>
+<body class="wp-singular post-template-default single single-post postid-48448 single-format-standard wp-theme-medical-clinic wp-child-theme-medical-clinic-child">
+
+<div class="cmsmasters_header_search_form">
+			<span class="cmsmasters_header_search_form_close cmsmasters_theme_icon_cancel"></span><form method="get" action="https://www.bolnica-zadar.hr/">
+			<div class="cmsmasters_header_search_form_field">
+				<button type="submit" class="cmsmasters_theme_icon_search"></button>
+				<input type="search" name="s" placeholder="Unesite ključne riječi" value="" />
+			</div>
+		</form></div>
+<!-- Start Page -->
+<div id="page" class="csstransition cmsmasters_liquid fixed_header enable_header_top cmsmasters_heading_after_header hfeed site">
+
+<!-- Start Main -->
+<div id="main">
+
+<!-- Start Header -->
+<header id="header">
+	<div class="header_top" data-height="30"><div class="header_top_outer"><div class="header_top_inner"><div class="header_top_right">
+<div class="social_wrap">
+	<div class="social_wrap_inner">
+		<ul>
+				<li>
+					<a href="https://www.youtube.com/@OpcabolnicaZadar1887" class="cmsmasters_social_icon cmsmasters_social_icon_1 cmsmasters-icon-youtube-play cmsmasters_social_icon_color" title="YouTube OBZ" target="_blank"></a>
+				</li>
+				<li>
+					<a href="https://www.instagram.com/opcabolnicazadar/#" class="cmsmasters_social_icon cmsmasters_social_icon_2 cmsmasters-icon-instagram cmsmasters_social_icon_color" title="Instagram OBZ" target="_blank"></a>
+				</li>
+		</ul>
+	</div>
+</div></div><div class="header_top_left"><a href="https://european-union.europa.eu/index_hr" target="_blank" rel="noopener noreferrer"><img src="https://www.bolnica-zadar.hr/wp-content/uploads/2024/12/EU1.jpg" alt="Europska unija" width="30" height="20" style="vertical-align:middle; margin-right:10px;" /></a><a href="https://mail.cdu.gov.hr/" target="_blank" style="vertical-align:middle;">WEB MAIL</a><span style="margin:0 10px; color:#ccc;"></span><a href="https://bolnica-zadar.hr/nedostupan-sadrzaj" style="vertical-align:middle;">INTRANET</a></div></div></div><div class="header_top_but closed"><span class="cmsmasters_theme_icon_slide_bottom_mini"></span></div></div><div class="header_mid" data-height="100"><div class="header_mid_outer"><div class="header_mid_inner"><div class="logo_wrap"><a href="https://www.bolnica-zadar.hr/" title="Opća bolnica Zadar" class="logo">
+	<img src="https://www.bolnica-zadar.hr/wp-content/uploads/2018/09/logo_j.png" alt="Opća bolnica Zadar" /><img class="logo_retina" src="https://www.bolnica-zadar.hr/wp-content/uploads/2020/03/OB_ZD_logo_blue2X.png" alt="Opća bolnica Zadar" width="80" height="80" /></a>
+</div><div class="resp_mid_nav_wrap"><div class="resp_mid_nav_outer"><a class="responsive_nav resp_mid_nav cmsmasters_theme_icon_resp_nav" href="javascript:void(0)"></a></div></div><div class="mid_search_but_wrap"><a href="javascript:void(0)" class="mid_search_but cmsmasters_header_search_but cmsmasters_theme_icon_search"></a></div><!-- Start Navigation --><div class="mid_nav_wrap"><nav><div class="menu-main-menu-container"><ul id="navigation" class="mid_nav navigation"><li id="menu-item-24044" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-24044 menu-item-depth-0"><a href="https://www.bolnica-zadar.hr/o-nama/"><span class="nav_item_wrap"><span class="nav_title">O nama</span></span></a>
+<ul class="sub-menu">
+	<li id="menu-item-24965" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-24965 menu-item-depth-1"><a href="https://www.bolnica-zadar.hr/o-nama/kontakt/"><span class="nav_item_wrap"><span class="nav_title">Kontakt</span></span></a>	</li>
+	<li id="menu-item-24969" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-24969 menu-item-depth-1"><a href="https://www.bolnica-zadar.hr/o-nama/povijest-sadasnjost-buducnost-obz/"><span class="nav_item_wrap"><span class="nav_title">Povijest, sadašnjost, budućnost</span></span></a>	</li>
+	<li id="menu-item-24052" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-24052 menu-item-depth-1"><a href="https://www.bolnica-zadar.hr/o-nama/ravnateljstvo/"><span class="nav_item_wrap"><span class="nav_title">Ravnateljstvo</span></span></a>
+	<ul class="sub-menu">
+		<li id="menu-item-24053" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-24053 menu-item-depth-subitem"><a href="https://www.bolnica-zadar.hr/o-nama/ravnateljstvo/ured-ravnatelja/"><span class="nav_item_wrap"><span class="nav_title">Ured ravnatelja</span></span></a>		</li>
+		<li id="menu-item-14988" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-14988 menu-item-depth-subitem"><a href="https://www.bolnica-zadar.hr/o-nama/ravnateljstvo/osiguranje-i-unapredenje-kvalitete-zdravstvene-zastite/"><span class="nav_item_wrap"><span class="nav_title">Odjel za osiguranje i unapređenje kvalitete zdravstvene zaštite</span></span></a>		</li>
+		<li id="menu-item-42778" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-42778 menu-item-depth-subitem"><a href="https://www.bolnica-zadar.hr/o-nama/ravnateljstvo/odjel-medicinske-fizike/"><span class="nav_item_wrap"><span class="nav_title">Medicinska fizika</span></span></a>		</li>
+	</ul>
+	</li>
+	<li id="menu-item-14979" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-14979 menu-item-depth-1"><a href="https://www.bolnica-zadar.hr/o-nama/sestrinstvo/"><span class="nav_item_wrap"><span class="nav_title">Sestrinstvo</span></span></a>	</li>
+	<li id="menu-item-24067" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-24067 menu-item-depth-1"><a href="https://www.bolnica-zadar.hr/o-nama/nezdravstvene-sluzbe-i-odjeli/"><span class="nav_item_wrap"><span class="nav_title">Nezdravstvene službe i odjeli</span></span></a>
+	<ul class="sub-menu">
+		<li id="menu-item-14644" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-14644 menu-item-depth-subitem"><a href="https://www.bolnica-zadar.hr/o-nama/nezdravstvene-sluzbe-i-odjeli/ekonomsko-financijski-poslovi/"><span class="nav_item_wrap"><span class="nav_title">Služba ekonomsko financijskih poslova</span></span></a>
+		<ul class="sub-menu">
+			<li id="menu-item-15974" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-15974 menu-item-depth-subitem"><a href="https://www.bolnica-zadar.hr/o-nama/nezdravstvene-sluzbe-i-odjeli/ekonomsko-financijski-poslovi/racunovodstvo-i-financije/"><span class="nav_item_wrap"><span class="nav_title">Odjel za računovodstvo i financije</span></span></a>			</li>
+			<li id="menu-item-15973" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-15973 menu-item-depth-subitem"><a href="https://www.bolnica-zadar.hr/o-nama/nezdravstvene-sluzbe-i-odjeli/ekonomsko-financijski-poslovi/nabava-i-investicije/"><span class="nav_item_wrap"><span class="nav_title">Odjel za nabavu i investicije EU fondova</span></span></a>			</li>
+			<li id="menu-item-18799" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-18799 menu-item-depth-subitem"><a href="https://www.bolnica-zadar.hr/o-nama/nezdravstvene-sluzbe-i-odjeli/ekonomsko-financijski-poslovi/upravljanje-prodaja-eu-obracun-i-fakturiranje/"><span class="nav_item_wrap"><span class="nav_title">Odjel za upravljanje imovinom, prodaju, obračun i fakturiranje</span></span></a>			</li>
+		</ul>
+		</li>
+		<li id="menu-item-14651" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-14651 menu-item-depth-subitem"><a href="https://www.bolnica-zadar.hr/o-nama/nezdravstvene-sluzbe-i-odjeli/pravni-kadrovski-i-opci-poslovi/"><span class="nav_item_wrap"><span class="nav_title">Služba pravnih poslova</span></span></a>
+		<ul class="sub-menu">
+			<li id="menu-item-15971" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-15971 menu-item-depth-subitem"><a href="https://www.bolnica-zadar.hr/o-nama/nezdravstvene-sluzbe-i-odjeli/pravni-kadrovski-i-opci-poslovi/odjel-za-opce-i-pravne-poslove/"><span class="nav_item_wrap"><span class="nav_title">Odjel za opće i pravne poslove</span></span></a>			</li>
+			<li id="menu-item-15970" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-15970 menu-item-depth-subitem"><a href="https://www.bolnica-zadar.hr/o-nama/nezdravstvene-sluzbe-i-odjeli/pravni-kadrovski-i-opci-poslovi/odjel-za-kadrovske-poslove/"><span class="nav_item_wrap"><span class="nav_title">Odjel za kadrovske poslove</span></span></a>			</li>
+			<li id="menu-item-15969" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-15969 menu-item-depth-subitem"><a href="https://www.bolnica-zadar.hr/o-nama/nezdravstvene-sluzbe-i-odjeli/pravni-kadrovski-i-opci-poslovi/odjel-zastite-na-radu/"><span class="nav_item_wrap"><span class="nav_title">Odjel zaštite na radu</span></span></a>			</li>
+		</ul>
+		</li>
+		<li id="menu-item-15966" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-15966 menu-item-depth-subitem"><a href="https://www.bolnica-zadar.hr/o-nama/nezdravstvene-sluzbe-i-odjeli/odjel-za-informaticke-poslove/"><span class="nav_item_wrap"><span class="nav_title">Odjel za informatičke poslove</span></span></a>		</li>
+		<li id="menu-item-15965" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-15965 menu-item-depth-subitem"><a href="https://www.bolnica-zadar.hr/o-nama/nezdravstvene-sluzbe-i-odjeli/tehnicki-poslovi-i-higijena-prostora/"><span class="nav_item_wrap"><span class="nav_title">Odjel za tehničke poslove i higijenu prostora</span></span></a>		</li>
+		<li id="menu-item-24084" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-24084 menu-item-depth-subitem"><a href="https://www.bolnica-zadar.hr/o-nama/nezdravstvene-sluzbe-i-odjeli/prehrana-i-dijetetika/"><span class="nav_item_wrap"><span class="nav_title">Odjel za prehranu i dijetetiku</span></span></a>		</li>
+	</ul>
+	</li>
+	<li id="menu-item-14041" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-14041 menu-item-depth-1"><a href="https://www.bolnica-zadar.hr/o-nama/zakoni-propisi-i-akti/"><span class="nav_item_wrap"><span class="nav_title">Zakoni, propisi i akti</span></span></a>	</li>
+	<li id="menu-item-13792" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-13792 menu-item-depth-1"><a href="https://www.bolnica-zadar.hr/o-nama/tijela-bolnice/"><span class="nav_item_wrap"><span class="nav_title">Tijela Bolnice</span></span></a>	</li>
+	<li id="menu-item-19072" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-19072 menu-item-depth-1"><a href="https://www.bolnica-zadar.hr/o-nama/financijski-plan-i-izvjesca/"><span class="nav_item_wrap"><span class="nav_title">Financijski plan i izvješća</span></span></a>	</li>
+	<li id="menu-item-27185" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-27185 menu-item-depth-1"><a href="https://www.bolnica-zadar.hr/o-nama/medica-jadertina/"><span class="nav_item_wrap"><span class="nav_title">Medica Jadertina</span></span></a>	</li>
+	<li id="menu-item-30052" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-30052 menu-item-depth-1"><a href="https://www.bolnica-zadar.hr/o-nama/biblioteka/"><span class="nav_item_wrap"><span class="nav_title">Biblioteka</span></span></a>	</li>
+</ul>
+</li>
+<li id="menu-item-14806" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-14806 menu-item-depth-0"><a href="https://www.bolnica-zadar.hr/klinike-zavodi-sluzbe-odjeli/"><span class="nav_item_wrap"><span class="nav_title">Klinike, Zavodi, Službe, Odjeli…</span></span></a>
+<ul class="sub-menu">
+	<li id="menu-item-45377" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-45377 menu-item-depth-1"><a href="https://www.bolnica-zadar.hr/klinike-zavodi-sluzbe-odjeli/klinika-za-internu-medicinu/"><span class="nav_item_wrap"><span class="nav_title">Klinika za Internu medicinu</span></span></a>
+	<ul class="sub-menu">
+		<li id="menu-item-45599" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-45599 menu-item-depth-subitem"><a href="https://www.bolnica-zadar.hr/klinike-zavodi-sluzbe-odjeli/klinika-za-internu-medicinu/zavod-za-kardiologiju-koronarnu-skrb-pulmologiju-i-hematologiju/"><span class="nav_item_wrap"><span class="nav_title">Zavod za kardiologiju, koronarnu skrb, pulmologiju i hematologiju</span></span></a>
+		<ul class="sub-menu">
+			<li id="menu-item-14564" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-14564 menu-item-depth-subitem"><a href="https://www.bolnica-zadar.hr/klinike-zavodi-sluzbe-odjeli/klinika-za-internu-medicinu/zavod-za-kardiologiju-koronarnu-skrb-pulmologiju-i-hematologiju/kardiologija/"><span class="nav_item_wrap"><span class="nav_title">Odjel za kardiologiju</span></span></a>			</li>
+			<li id="menu-item-14571" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-14571 menu-item-depth-subitem"><a href="https://www.bolnica-zadar.hr/klinike-zavodi-sluzbe-odjeli/klinika-za-internu-medicinu/zavod-za-kardiologiju-koronarnu-skrb-pulmologiju-i-hematologiju/koronarna-skrb/"><span class="nav_item_wrap"><span class="nav_title">Odjel za koronarnu skrb</span></span></a>			</li>
+			<li id="menu-item-14579" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-14579 menu-item-depth-subitem"><a href="https://www.bolnica-zadar.hr/klinike-zavodi-sluzbe-odjeli/klinika-za-internu-medicinu/hematologija/"><span class="nav_item_wrap"><span class="nav_title">Odjel za hematologiju</span></span></a>			</li>
+			<li id="menu-item-14594" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-14594 menu-item-depth-subitem"><a href="https://www.bolnica-zadar.hr/klinike-zavodi-sluzbe-odjeli/klinika-za-internu-medicinu/pulmologija/"><span class="nav_item_wrap"><span class="nav_title">Odjel za pulmologiju</span></span></a>			</li>
+		</ul>
+		</li>
+		<li id="menu-item-45598" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-45598 menu-item-depth-subitem"><a href="https://www.bolnica-zadar.hr/klinike-zavodi-sluzbe-odjeli/klinika-za-internu-medicinu/zavod-za-gastroenterologiju-nefrologiju-hemodijalizu-endokrinologiju-i-intenzivnu-internisticku-skrb/"><span class="nav_item_wrap"><span class="nav_title">Zavod za gastroenterologiju, nefrologiju, hemodijalizu, endokrinologiju i intenzivnu internističku skrb</span></span></a>
+		<ul class="sub-menu">
+			<li id="menu-item-14538" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-14538 menu-item-depth-subitem"><a href="https://www.bolnica-zadar.hr/klinike-zavodi-sluzbe-odjeli/klinika-za-internu-medicinu/zavod-za-gastroenterologiju-nefrologiju-hemodijalizu-endokrinologiju-i-intenzivnu-internisticku-skrb/gastroenterologija/"><span class="nav_item_wrap"><span class="nav_title">Odjel za gastroenterologiju</span></span></a>			</li>
+			<li id="menu-item-14550" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-14550 menu-item-depth-subitem"><a href="https://www.bolnica-zadar.hr/klinike-zavodi-sluzbe-odjeli/klinika-za-internu-medicinu/zavod-za-gastroenterologiju-nefrologiju-hemodijalizu-endokrinologiju-i-intenzivnu-internisticku-skrb/nefrologija/"><span class="nav_item_wrap"><span class="nav_title">Odjel za nefrologiju</span></span></a>			</li>
+			<li id="menu-item-16706" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-16706 menu-item-depth-subitem"><a href="https://www.bolnica-zadar.hr/klinike-zavodi-sluzbe-odjeli/klinika-za-internu-medicinu/zavod-za-gastroenterologiju-nefrologiju-hemodijalizu-endokrinologiju-i-intenzivnu-internisticku-skrb/hemodijaliza/"><span class="nav_item_wrap"><span class="nav_title">Odjel za hemodijalizu</span></span></a>			</li>
+			<li id="menu-item-14586" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-14586 menu-item-depth-subitem"><a href="https://www.bolnica-zadar.hr/klinike-zavodi-sluzbe-odjeli/klinika-za-internu-medicinu/zavod-za-gastroenterologiju-nefrologiju-hemodijalizu-endokrinologiju-i-intenzivnu-internisticku-skrb/endokrinologija/"><span class="nav_item_wrap"><span class="nav_title">Odjel za endokrinologiju</span></span></a>			</li>
+			<li id="menu-item-14542" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-14542 menu-item-depth-subitem"><a href="https://www.bolnica-zadar.hr/klinike-zavodi-sluzbe-odjeli/klinika-za-internu-medicinu/zavod-za-gastroenterologiju-nefrologiju-hemodijalizu-endokrinologiju-i-intenzivnu-internisticku-skrb/odjel-za-intenzivnu-internisticku-skrb/"><span class="nav_item_wrap"><span class="nav_title">Odjel za intenzivnu internističku skrb</span></span></a>			</li>
+		</ul>
+		</li>
+		<li id="menu-item-16992" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-16992 menu-item-depth-subitem"><a href="https://www.bolnica-zadar.hr/klinike-zavodi-sluzbe-odjeli/klinika-za-internu-medicinu/poliklinika-klinike-za-internu-medicinu/"><span class="nav_item_wrap"><span class="nav_title">Poliklinika Klinike za internu medicinu</span></span></a>		</li>
+		<li id="menu-item-16990" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-16990 menu-item-depth-subitem"><a href="https://www.bolnica-zadar.hr/klinike-zavodi-sluzbe-odjeli/klinika-za-internu-medicinu/dnevne-bolnice-klinike-za-internu-medicinu/"><span class="nav_item_wrap"><span class="nav_title">Dnevne bolnice Klinike za internu medicinu</span></span></a>		</li>
+	</ul>
+	</li>
+	<li id="menu-item-15597" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-15597 menu-item-depth-1"><a href="https://www.bolnica-zadar.hr/klinike-zavodi-sluzbe-odjeli/sluzba-za-kirurgiju/"><span class="nav_item_wrap"><span class="nav_title">Služba za kirurgiju</span></span></a>
+	<ul class="sub-menu">
+		<li id="menu-item-16993" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-16993 menu-item-depth-subitem"><a href="https://www.bolnica-zadar.hr/klinike-zavodi-sluzbe-odjeli/sluzba-za-kirurgiju/poliklinika-sluzbe-za-kirurgiju/"><span class="nav_item_wrap"><span class="nav_title">Poliklinika Službe za kirurgiju</span></span></a>		</li>
+		<li id="menu-item-14386" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-14386 menu-item-depth-subitem"><a href="https://www.bolnica-zadar.hr/klinike-zavodi-sluzbe-odjeli/sluzba-za-kirurgiju/abdominalna-kirurgija/"><span class="nav_item_wrap"><span class="nav_title">Odjel za abdominalnu kirurgiju</span></span></a>		</li>
+		<li id="menu-item-14402" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-14402 menu-item-depth-subitem"><a href="https://www.bolnica-zadar.hr/klinike-zavodi-sluzbe-odjeli/sluzba-za-kirurgiju/neurokirurgija/"><span class="nav_item_wrap"><span class="nav_title">Odjel za neurokirurgiju</span></span></a>		</li>
+		<li id="menu-item-18677" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-18677 menu-item-depth-subitem"><a href="https://www.bolnica-zadar.hr/klinike-zavodi-sluzbe-odjeli/sluzba-za-kirurgiju/vaskularna-kirurgija/"><span class="nav_item_wrap"><span class="nav_title">Odjel za Vaskularnu kirurgiju</span></span></a>		</li>
+		<li id="menu-item-14377" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-14377 menu-item-depth-subitem"><a href="https://www.bolnica-zadar.hr/klinike-zavodi-sluzbe-odjeli/sluzba-za-kirurgiju/opca-i-djecja-kirurgija/"><span class="nav_item_wrap"><span class="nav_title">Odjel za opću i dječju kirurgiju</span></span></a>		</li>
+		<li id="menu-item-14371" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-14371 menu-item-depth-subitem"><a href="https://www.bolnica-zadar.hr/klinike-zavodi-sluzbe-odjeli/sluzba-za-kirurgiju/operacijski-blok-kirurgije/"><span class="nav_item_wrap"><span class="nav_title">Odjel za operacijski blok kirurgije</span></span></a>		</li>
+		<li id="menu-item-14374" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-14374 menu-item-depth-subitem"><a href="https://www.bolnica-zadar.hr/klinike-zavodi-sluzbe-odjeli/sluzba-za-kirurgiju/ortopedija-i-traumatologija/"><span class="nav_item_wrap"><span class="nav_title">Odjel za ortopediju i traumatologiju</span></span></a>		</li>
+		<li id="menu-item-14394" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-14394 menu-item-depth-subitem"><a href="https://www.bolnica-zadar.hr/klinike-zavodi-sluzbe-odjeli/sluzba-za-kirurgiju/torakalna-kirurgija/"><span class="nav_item_wrap"><span class="nav_title">Odjel za torakalnu kirurgiju</span></span></a>		</li>
+		<li id="menu-item-24016" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-24016 menu-item-depth-subitem"><a href="https://www.bolnica-zadar.hr/klinike-zavodi-sluzbe-odjeli/sluzba-za-kirurgiju/dnevna-bolnica-sluzbe-za-kirurgiju/"><span class="nav_item_wrap"><span class="nav_title">Dnevna bolnica službe za kirurgiju</span></span></a>		</li>
+	</ul>
+	</li>
+	<li id="menu-item-14467" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-14467 menu-item-depth-1"><a href="https://www.bolnica-zadar.hr/klinike-zavodi-sluzbe-odjeli/sluzba-za-ginekologiju-i-opstetriciju/"><span class="nav_item_wrap"><span class="nav_title">Služba za ginekologiju i opstetriciju</span></span></a>
+	<ul class="sub-menu">
+		<li id="menu-item-15498" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-15498 menu-item-depth-subitem"><a href="https://www.bolnica-zadar.hr/klinike-zavodi-sluzbe-odjeli/sluzba-za-ginekologiju-i-opstetriciju/poliklinika-ginekologije/"><span class="nav_item_wrap"><span class="nav_title">Poliklinika službe za ginekologiju i opstetriciju</span></span></a>		</li>
+		<li id="menu-item-14478" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-14478 menu-item-depth-subitem"><a href="https://www.bolnica-zadar.hr/klinike-zavodi-sluzbe-odjeli/sluzba-za-ginekologiju-i-opstetriciju/ginekologija/"><span class="nav_item_wrap"><span class="nav_title">Odjel za ginekologiju</span></span></a>		</li>
+		<li id="menu-item-14522" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-14522 menu-item-depth-subitem"><a href="https://www.bolnica-zadar.hr/klinike-zavodi-sluzbe-odjeli/sluzba-za-ginekologiju-i-opstetriciju/neonatologija/"><span class="nav_item_wrap"><span class="nav_title">Odjel za neonatologiju</span></span></a>		</li>
+		<li id="menu-item-14514" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-14514 menu-item-depth-subitem"><a href="https://www.bolnica-zadar.hr/klinike-zavodi-sluzbe-odjeli/sluzba-za-ginekologiju-i-opstetriciju/operacijski-blok-ginekologija/"><span class="nav_item_wrap"><span class="nav_title">Odjel za operacijski blok ginekologije</span></span></a>		</li>
+		<li id="menu-item-14497" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-14497 menu-item-depth-subitem"><a href="https://www.bolnica-zadar.hr/klinike-zavodi-sluzbe-odjeli/sluzba-za-ginekologiju-i-opstetriciju/patologija-trudnoce/"><span class="nav_item_wrap"><span class="nav_title">Odjel za patologiju trudnoće</span></span></a>		</li>
+		<li id="menu-item-14506" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-14506 menu-item-depth-subitem"><a href="https://www.bolnica-zadar.hr/klinike-zavodi-sluzbe-odjeli/sluzba-za-ginekologiju-i-opstetriciju/rodiliste-i-radaona/"><span class="nav_item_wrap"><span class="nav_title">Odjel rodilišta i rađaone</span></span></a>		</li>
+		<li id="menu-item-24015" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-24015 menu-item-depth-subitem"><a href="https://www.bolnica-zadar.hr/klinike-zavodi-sluzbe-odjeli/sluzba-za-ginekologiju-i-opstetriciju/dnevna-bolnica-sluzbe-za-ginekologiju-i-opstetriciju/"><span class="nav_item_wrap"><span class="nav_title">Dnevna bolnica ginekologije</span></span></a>		</li>
+	</ul>
+	</li>
+	<li id="menu-item-36678" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-36678 menu-item-depth-1"><a href="https://www.bolnica-zadar.hr/klinike-zavodi-sluzbe-odjeli/odjeli/"><span class="nav_item_wrap"><span class="nav_title">Odjeli</span></span></a>
+	<ul class="sub-menu">
+		<li id="menu-item-14279" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-14279 menu-item-depth-subitem"><a href="https://www.bolnica-zadar.hr/klinike-zavodi-sluzbe-odjeli/anesteziologija-reanimatologija-i-intenzivna-medicina/"><span class="nav_item_wrap"><span class="nav_title">Odjel za anesteziologiju, reanimatologiju i intenzivnu medicinu</span></span></a>		</li>
+		<li id="menu-item-15492" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-15492 menu-item-depth-subitem"><a href="https://www.bolnica-zadar.hr/klinike-zavodi-sluzbe-odjeli/fizikalna-medicina-i-rehabilitacija/"><span class="nav_item_wrap"><span class="nav_title">Odjel za fizikalnu medicinu i rehabilitaciju</span></span></a>		</li>
+		<li id="menu-item-14610" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-14610 menu-item-depth-subitem"><a href="https://www.bolnica-zadar.hr/klinike-zavodi-sluzbe-odjeli/infektologija/"><span class="nav_item_wrap"><span class="nav_title">Odjel za infektologiju</span></span></a>		</li>
+		<li id="menu-item-14445" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-14445 menu-item-depth-subitem"><a href="https://www.bolnica-zadar.hr/klinike-zavodi-sluzbe-odjeli/laboratorijska-dijagnostika/"><span class="nav_item_wrap"><span class="nav_title">Odjel za laboratorijsku dijagnostiku</span></span></a>		</li>
+		<li id="menu-item-14301" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-14301 menu-item-depth-subitem"><a href="https://www.bolnica-zadar.hr/klinike-zavodi-sluzbe-odjeli/klinicka-radiologija/"><span class="nav_item_wrap"><span class="nav_title">Odjel za kliničku radiologiju</span></span></a>		</li>
+		<li id="menu-item-14288" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-14288 menu-item-depth-subitem"><a href="https://www.bolnica-zadar.hr/klinike-zavodi-sluzbe-odjeli/neurologija/"><span class="nav_item_wrap"><span class="nav_title">Odjel za neurologiju</span></span></a>		</li>
+		<li id="menu-item-14339" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-14339 menu-item-depth-subitem"><a href="https://www.bolnica-zadar.hr/klinike-zavodi-sluzbe-odjeli/odjel-za-oftalmologiju-i-optometriju/"><span class="nav_item_wrap"><span class="nav_title">Odjel za oftalmologiju i optometriju</span></span></a>		</li>
+		<li id="menu-item-14603" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-14603 menu-item-depth-subitem"><a href="https://www.bolnica-zadar.hr/klinike-zavodi-sluzbe-odjeli/onkologija-i-nuklearna-medicina/"><span class="nav_item_wrap"><span class="nav_title">Odjel za onkologiju i nuklearnu medicinu</span></span></a>		</li>
+		<li id="menu-item-14411" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-14411 menu-item-depth-subitem"><a href="https://www.bolnica-zadar.hr/klinike-zavodi-sluzbe-odjeli/otorinolaringologija/"><span class="nav_item_wrap"><span class="nav_title">Odjel za otorinolaringologiju</span></span></a>		</li>
+		<li id="menu-item-14365" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-14365 menu-item-depth-subitem"><a href="https://www.bolnica-zadar.hr/klinike-zavodi-sluzbe-odjeli/patologija-i-citologija/"><span class="nav_item_wrap"><span class="nav_title">Odjel za patologiju i citologiju</span></span></a>		</li>
+		<li id="menu-item-15475" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-15475 menu-item-depth-subitem"><a href="https://www.bolnica-zadar.hr/klinike-zavodi-sluzbe-odjeli/pedijatrija/"><span class="nav_item_wrap"><span class="nav_title">Odjel za pedijatriju</span></span></a>		</li>
+		<li id="menu-item-14459" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-14459 menu-item-depth-subitem"><a href="https://www.bolnica-zadar.hr/klinike-zavodi-sluzbe-odjeli/psihijatrija/"><span class="nav_item_wrap"><span class="nav_title">Odjel za psihijatriju</span></span></a>		</li>
+		<li id="menu-item-13946" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-13946 menu-item-depth-subitem"><a href="https://www.bolnica-zadar.hr/klinike-zavodi-sluzbe-odjeli/transfuzijska-medicina/"><span class="nav_item_wrap"><span class="nav_title">Odjel za transfuzijsku medicinu</span></span></a>		</li>
+		<li id="menu-item-14331" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-14331 menu-item-depth-subitem"><a href="https://www.bolnica-zadar.hr/klinike-zavodi-sluzbe-odjeli/urologija/"><span class="nav_item_wrap"><span class="nav_title">Odjel za urologiju</span></span></a>		</li>
+		<li id="menu-item-14631" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-14631 menu-item-depth-subitem"><a href="https://www.bolnica-zadar.hr/klinike-zavodi-sluzbe-odjeli/bolnicka-ljekarna/"><span class="nav_item_wrap"><span class="nav_title">Odjel bolničke ljekarne</span></span></a>		</li>
+		<li id="menu-item-14637" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-14637 menu-item-depth-subitem"><a href="https://www.bolnica-zadar.hr/klinike-zavodi-sluzbe-odjeli/centralna-sterilizacija/"><span class="nav_item_wrap"><span class="nav_title">Odjel centralne sterilizacije</span></span></a>		</li>
+	</ul>
+	</li>
+	<li id="menu-item-13943" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-13943 menu-item-depth-1"><a href="https://www.bolnica-zadar.hr/klinike-zavodi-sluzbe-odjeli/centar-za-hitnu-medicinu-i-ohbp/"><span class="nav_item_wrap"><span class="nav_title">OHBP &#8211; Objedinjeni hitni bolnički prijem</span></span></a>	</li>
+</ul>
+</li>
+<li id="menu-item-24266" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-24266 menu-item-depth-0"><a href="https://www.bolnica-zadar.hr/pacijenti-i-posjetitelji/"><span class="nav_item_wrap"><span class="nav_title">Pacijenti i posjetitelji</span></span></a>
+<ul class="sub-menu">
+	<li id="menu-item-39458" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-39458 menu-item-depth-1"><a href="https://www.bolnica-zadar.hr/zalihe-i-darivanja-krvi/"><span class="nav_item_wrap"><span class="nav_title">Zalihe i darivanje krvi</span></span></a>	</li>
+	<li id="menu-item-13990" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-13990 menu-item-depth-1"><a href="https://www.bolnica-zadar.hr/pacijenti-i-posjetitelji/liste-cekanja/"><span class="nav_item_wrap"><span class="nav_title">Liste čekanja</span></span></a>	</li>
+	<li id="menu-item-38304" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-38304 menu-item-depth-1 menu-item-icon"><a href="https://patient2portal.bolnica-zadar.hr/"><span class="nav_item_wrap"><span class="nav_title cmsmasters-icon-user">Portal za pacijente</span></span></a>	</li>
+	<li id="menu-item-13907" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-13907 menu-item-depth-1"><a href="https://www.bolnica-zadar.hr/pacijenti-i-posjetitelji/odgovori-na-najcesca-pitanja/"><span class="nav_item_wrap"><span class="nav_title">Odgovori na najčešća pitanja</span></span></a>	</li>
+	<li id="menu-item-13996" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-13996 menu-item-depth-1"><a href="https://www.bolnica-zadar.hr/pacijenti-i-posjetitelji/centralno-narucivanje/"><span class="nav_item_wrap"><span class="nav_title">Centralno naručivanje Naručite se</span></span></a>	</li>
+	<li id="menu-item-28567" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-28567 menu-item-depth-1"><a href="https://www.bolnica-zadar.hr/pacijenti-i-posjetitelji/hrvatski-branitelji/"><span class="nav_item_wrap"><span class="nav_title">Hrvatski branitelji</span></span></a>	</li>
+	<li id="menu-item-24242" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-24242 menu-item-depth-1"><a href="https://www.bolnica-zadar.hr/pacijenti-i-posjetitelji/prava/"><span class="nav_item_wrap"><span class="nav_title">Prava, informacije i zaštita podataka</span></span></a>
+	<ul class="sub-menu">
+		<li id="menu-item-14211" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-14211 menu-item-depth-subitem"><a href="https://www.bolnica-zadar.hr/pacijenti-i-posjetitelji/prava/prava-pacijenata/"><span class="nav_item_wrap"><span class="nav_title">Prava pacijenata</span></span></a>		</li>
+		<li id="menu-item-17822" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-17822 menu-item-depth-subitem"><a href="https://www.bolnica-zadar.hr/pacijenti-i-posjetitelji/prava/pravo-na-pristup-informacijama/"><span class="nav_item_wrap"><span class="nav_title">Pristup informacijama</span></span></a>		</li>
+		<li id="menu-item-17824" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-17824 menu-item-depth-subitem"><a href="https://www.bolnica-zadar.hr/pacijenti-i-posjetitelji/prava/zastita-osobnih-podataka/"><span class="nav_item_wrap"><span class="nav_title">Zaštita osobnih podataka</span></span></a>		</li>
+	</ul>
+	</li>
+	<li id="menu-item-14207" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-14207 menu-item-depth-1"><a href="https://www.bolnica-zadar.hr/pacijenti-i-posjetitelji/palijativna-skrb/"><span class="nav_item_wrap"><span class="nav_title">Palijativna skrb</span></span></a>	</li>
+	<li id="menu-item-17799" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-17799 menu-item-depth-1"><a href="https://www.bolnica-zadar.hr/pacijenti-i-posjetitelji/ankete/"><span class="nav_item_wrap"><span class="nav_title">Ankete</span></span></a>	</li>
+	<li id="menu-item-23867" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-23867 menu-item-depth-1"><a href="https://www.bolnica-zadar.hr/izjava-o-pristupacnosti/"><span class="nav_item_wrap"><span class="nav_title">Izjava o pristupačnosti</span></span></a>	</li>
+	<li id="menu-item-41357" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-41357 menu-item-depth-1"><a href="https://www.bolnica-zadar.hr/cjenik-zdravstvenih-usluga/"><span class="nav_item_wrap"><span class="nav_title">Cjenik zdravstvenih usluga</span></span></a>	</li>
+	<li id="menu-item-22251" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-22251 menu-item-depth-1"><a href="https://www.bolnica-zadar.hr/pacijenti-i-posjetitelji/prijavljivanje-nepravilnosti/"><span class="nav_item_wrap"><span class="nav_title">Prijavljivanje nepravilnosti</span></span></a>	</li>
+	<li id="menu-item-15480" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-15480 menu-item-depth-1"><a href="https://www.bolnica-zadar.hr/pacijenti-i-posjetitelji/donacije/"><span class="nav_item_wrap"><span class="nav_title">Donacije</span></span></a>	</li>
+	<li id="menu-item-47804" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-47804 menu-item-depth-1 menu-item-icon"><a href="https://www.bolnica-zadar.hr/parking-opce-bolnice-zadar/"><span class="nav_item_wrap"><span class="nav_title cmsmasters-icon-cab">Parking</span></span></a>	</li>
+</ul>
+</li>
+<li id="menu-item-24293" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-24293 menu-item-depth-0"><a href="https://www.bolnica-zadar.hr/aktualnosti/"><span class="nav_item_wrap"><span class="nav_title">Aktualnosti</span></span></a>
+<ul class="sub-menu">
+	<li id="menu-item-14018" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-14018 menu-item-depth-1"><a href="https://www.bolnica-zadar.hr/aktualnosti/vijesti/"><span class="nav_item_wrap"><span class="nav_title">Vijesti</span></span></a>	</li>
+	<li id="menu-item-14048" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-14048 menu-item-depth-1"><a href="https://www.bolnica-zadar.hr/aktualnosti/javna-nabava/"><span class="nav_item_wrap"><span class="nav_title">Javna nabava – Natječaji</span></span></a>	</li>
+	<li id="menu-item-14054" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-14054 menu-item-depth-1"><a href="https://www.bolnica-zadar.hr/aktualnosti/natjecaji-za-zaposljavanje/"><span class="nav_item_wrap"><span class="nav_title">Natječaji za zapošljavanje</span></span></a>	</li>
+	<li id="menu-item-26817" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-26817 menu-item-depth-1"><a href="https://www.bolnica-zadar.hr/fotogalerija/"><span class="nav_item_wrap"><span class="nav_title">Fotogalerija</span></span></a>	</li>
+	<li id="menu-item-46816" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-46816 menu-item-depth-1"><a href="https://www.bolnica-zadar.hr/poslovni-domjenci/"><span class="nav_item_wrap"><span class="nav_title">Poslovni domjenci</span></span></a>	</li>
+</ul>
+</li>
+<li id="menu-item-24431" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-24431 menu-item-depth-0"><a href="https://www.bolnica-zadar.hr/eu-projekti/"><span class="nav_item_wrap"><span class="nav_title">EU projekti</span></span></a></li>
+<li class="cmsmasters_mov_bar"><span></span></li></ul></div></nav></div><!-- Finish Navigation --></div></div></div></header>
+<!-- Finish Header -->
+
+
+<!-- Start Middle -->
+<div id="middle">
+<div class="headline cmsmasters_color_scheme_default">
+				<div class="headline_outer cmsmasters_headline_disabled">
+					<div class="headline_color"></div></div></div><div class="middle_inner">
+<div class="content_wrap r_sidebar">
+
+<!-- Start Content -->
+<div class="content entry">
+	<div class="blog opened-article"><!-- Start Post Single Article -->
+<article id="post-48448" class="cmsmasters_open_post post-48448 post type-post status-publish format-standard has-post-thumbnail hentry category-vijesti">
+	<figure class="cmsmasters_img_wrap"><a href="https://www.bolnica-zadar.hr/wp-content/uploads/2026/09/komem-45-scaled.jpg" title="ČOVJEK KOJI JE OSTAVIO NEIZBRISIV TRAG U ZADARSKOM ZDRAVSTVU" rel="ilightbox[cmsmasters_open_post_img_6aec92d16d77b]" class="cmsmasters_img_link"><img width="860" height="573" src="https://www.bolnica-zadar.hr/wp-content/uploads/2026/09/komem-45-860x573.jpg" class=" wp-post-image" alt="ČOVJEK KOJI JE OSTAVIO NEIZBRISIV TRAG U ZADARSKOM ZDRAVSTVU" title="ČOVJEK KOJI JE OSTAVIO NEIZBRISIV TRAG U ZADARSKOM ZDRAVSTVU" decoding="async" fetchpriority="high" srcset="https://www.bolnica-zadar.hr/wp-content/uploads/2026/09/komem-45-860x573.jpg 860w, https://www.bolnica-zadar.hr/wp-content/uploads/2026/09/komem-45-768x512.jpg 768w, https://www.bolnica-zadar.hr/wp-content/uploads/2026/09/komem-45-1536x1024.jpg 1536w, https://www.bolnica-zadar.hr/wp-content/uploads/2026/09/komem-45-2048x1366.jpg 2048w, https://www.bolnica-zadar.hr/wp-content/uploads/2026/09/komem-45-580x387.jpg 580w, https://www.bolnica-zadar.hr/wp-content/uploads/2026/09/komem-45-1160x773.jpg 1160w" sizes="(max-width: 860px) 100vw, 860px" /></a></figure><div class="cmsmasters_post_cont_info entry-meta"><span class="cmsmasters_post_date cmsmasters-icon-calendar-3"><abbr class="published" title="05/11/2026"><span class="cmsmasters_day_mon">05 studenoga</span><span class="cmsmasters_year">, 2026</span></abbr><abbr class="dn date updated" title="05/11/2026">05/11/2026</abbr></span><div class="cmsmasters_post_cont_info_meta"><span class="cmsmasters_likes cmsmasters_post_likes"><a href="#" onclick="cmsmastersLike(48448, false); return false;" id="cmsmastersLike-48448" class="cmsmastersLike cmsmasters_theme_icon_like"><span>0 </span></a></span></div></div><header class="cmsmasters_post_header entry-header"><h2 class="cmsmasters_post_title entry-title">ČOVJEK KOJI JE OSTAVIO NEIZBRISIV TRAG U ZADARSKOM ZDRAVSTVU</h2></header><div class="cmsmasters_post_content entry-content"><p>Na prijedlog Opće bolnice Zadar, Nagrada Grada Zadra za životno djelo posthumno se dodjeljuje izv. prof. dr. sc. Tomislavu Soriću, za izvanredne rezultate, naročite uspjehe i osobite zasluge ostvarene u području zdravstva te za djela humanosti i požrtvovnosti. Odluka je to Odbora za dodjelu javnih priznanja Grada Zadra, kojom se odaje priznanje njegovu iznimnom profesionalnom doprinosu, predanom radu i humanosti.</p>
+<p>Opća bolnica Zadar s ponosom je predložila dodjelu ovog priznanja, smatrajući ga trajnim izrazom zahvalnosti i poštovanja prema čovjeku koji je svojim radom i zalaganjem ostavio dubok trag u zadarskom zdravstvu.</p>
+<p>Sjećanje na našeg Tomu i njegov doprinos ostaje tako trajno utkano u našu bolnicu.</p>
+</div></article>
+<!-- Finish Post Single Article -->
+</div></div>
+<!-- Finish Content -->
+
+
+<!-- Start Sidebar -->
+<div class="sidebar">
+<aside id="block-28" class="widget widget_block">
+<div style="height:0px" aria-hidden="true" class="wp-block-spacer"></div>
+</aside><aside id="block-46" class="widget widget_block widget_media_image">
+<figure class="wp-block-image size-full"><a href="https://ced.bolnica-zadar.hr/" target="_blank" rel=" noreferrer noopener"><img decoding="async" width="380" height="214" src="https://www.bolnica-zadar.hr/wp-content/uploads/2025/02/Es_Dermatologija.jpg" alt="" class="wp-image-40276"/></a></figure>
+</aside><aside id="block-86" class="widget widget_block widget_media_image">
+<figure class="wp-block-image size-full"><a href="https://zdoctor.hr/en"><img decoding="async" width="450" height="264" src="https://www.bolnica-zadar.hr/wp-content/uploads/2026/06/ZDRinfo.jpg" alt="" class="wp-image-46787"/></a></figure>
+</aside><aside id="block-47" class="widget widget_block widget_media_image">
+<figure class="wp-block-image size-full"><a href="https://cpm.bolnica-zadar.hr/nutricionisticko-savjetovaliste/" target="_blank" rel=" noreferrer noopener"><img loading="lazy" decoding="async" width="380" height="214" src="https://www.bolnica-zadar.hr/wp-content/uploads/2025/02/Nu_Savjetovaliste.jpg" alt="" class="wp-image-40277"/></a></figure>
+</aside><aside id="block-74" class="widget widget_block widget_media_image">
+<figure class="wp-block-image size-full"><a href="https://www.bolnica-zadar.hr/ako-niije-hitno-nije-za-hitnu/"><img loading="lazy" decoding="async" width="351" height="150" src="https://www.bolnica-zadar.hr/wp-content/uploads/2026/06/Hitni-bann.jpg" alt="" class="wp-image-46697"/></a></figure>
+</aside><aside id="block-45" class="widget widget_block widget_media_image">
+<figure class="wp-block-image size-full"><a href="https://cpm.bolnica-zadar.hr/sistematski-pregledi/" target="_blank" rel=" noreferrer noopener"><img loading="lazy" decoding="async" width="380" height="214" src="https://www.bolnica-zadar.hr/wp-content/uploads/2025/02/Sistematski.jpg" alt="" class="wp-image-40278"/></a></figure>
+</aside><aside id="media_image-17" class="widget widget_media_image"><a href="https://www.bolnica-zadar.hr/zalihe-i-darivanja-krvi/"><img width="300" height="265" src="https://www.bolnica-zadar.hr/wp-content/uploads/2020/03/viber_image_2019-09-16_15-42-39-300x265.jpg" class="image wp-image-22644  attachment-medium size-medium" alt="Druj krv" style="max-width: 100%; height: auto;" decoding="async" loading="lazy" srcset="https://www.bolnica-zadar.hr/wp-content/uploads/2020/03/viber_image_2019-09-16_15-42-39-300x265.jpg 300w, https://www.bolnica-zadar.hr/wp-content/uploads/2020/03/viber_image_2019-09-16_15-42-39-1024x905.jpg 1024w, https://www.bolnica-zadar.hr/wp-content/uploads/2020/03/viber_image_2019-09-16_15-42-39-768x679.jpg 768w, https://www.bolnica-zadar.hr/wp-content/uploads/2020/03/viber_image_2019-09-16_15-42-39-580x512.jpg 580w, https://www.bolnica-zadar.hr/wp-content/uploads/2020/03/viber_image_2019-09-16_15-42-39-860x760.jpg 860w, https://www.bolnica-zadar.hr/wp-content/uploads/2020/03/viber_image_2019-09-16_15-42-39.jpg 1048w" sizes="auto, (max-width: 300px) 100vw, 300px" /></a></aside>
+</div>
+<!-- Finish Sidebar -->
+
+
+		</div>
+	</div>
+</div>
+<!-- Finish Middle -->
+	<!-- Start Bottom -->
+	<div id="bottom" class="cmsmasters_color_scheme_footer">
+		<div class="bottom_bg">
+			<div class="bottom_outer">
+				<div class="bottom_inner sidebar_layout_14141414">
+	<aside id="block-8" class="widget widget_block widget_media_image"><div class="wp-block-image">
+<figure class="alignleft size-full"><a href="https://www.bolnica-zadar.hr/"><img loading="lazy" decoding="async" width="194" height="238" src="https://www.bolnica-zadar.hr/wp-content/uploads/2024/11/LogoWT2.png" alt="" class="wp-image-38838"/></a></figure>
+</div></aside><aside id="nav_menu-10" class="widget widget_nav_menu"><h3 class="widgettitle">Poveznice</h3><div class="menu-poveznice-container"><ul id="menu-poveznice" class="menu"><li id="menu-item-40111" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-40111"><a href="https://www.bolnica-zadar.hr/pacijenti-i-posjetitelji/liste-cekanja/">Liste čekanja</a></li>
+<li id="menu-item-40112" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-40112"><a href="https://www.bolnica-zadar.hr/pacijenti-i-posjetitelji/odgovori-na-najcesca-pitanja/">Odgovori na najčešća pitanja</a></li>
+<li id="menu-item-40113" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-40113"><a href="https://patient2portal.bolnica-zadar.hr/">Portal za pacijente</a></li>
+<li id="menu-item-40114" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-40114"><a href="https://www.bolnica-zadar.hr/fotogalerija/">Fotogalerija</a></li>
+<li id="menu-item-40116" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-40116"><a href="https://www.bolnica-zadar.hr/pacijenti-i-posjetitelji/prava/">Prava, informacije i zaštita podataka</a></li>
+</ul></div></aside><aside id="block-5" class="widget widget_block widget_media_image"><div class="wp-block-image">
+<figure class="aligncenter size-full"><a href="https://www.unizd.hr/"><img loading="lazy" decoding="async" width="194" height="238" src="https://www.bolnica-zadar.hr/wp-content/uploads/2024/11/UniZD_Logo.png" alt="" class="wp-image-38834"/></a></figure>
+</div></aside><aside id="custom-contact-info-3" class="widget widget_custom_contact_info_entries"><h3 class="widgettitle">Kontakt </h3><div class="adr adress_wrap cmsmasters_theme_icon_user_address"><span class="street-address contact_widget_address">Bože Peričića 5</span><span class="locality contact_widget_city">23000 Zadar</span><span class="region contact_widget_state">Hrvatska</span></div><span class="contact_widget_email cmsmasters_theme_icon_user_mail"><a class="email" href="mailto:&#112;i&#115;&#97;%72n&#105;&#99;&#97;%40&#98;&#111;%6c%6e&#105;&#99;a%2d%7aa%64%61%72&#46;%68&#114;">&#112;&#105;&#115;&#97;&#114;n&#105;&#99;a&#64;b&#111;l&#110;&#105;&#99;a&#45;z&#97;&#100;a&#114;.&#104;r</a></span><span class="contact_widget_phone cmsmasters_theme_icon_user_phone"><span class="tel">+385 23 505 505</span></span></aside>				</div>
+			</div>
+		</div>
+	</div>
+	<!-- Finish Bottom -->
+	<a href="javascript:void(0)" id="slide_top" class="cmsmasters_theme_icon_slide_top"><span></span></a>
+</div>
+<!-- Finish Main -->
+
+<!-- Start Footer -->
+<footer id="footer">
+	<div class="footer cmsmasters_color_scheme_footer cmsmasters_footer_small">
+	<div class="footer_inner">
+		<div class="footer_custom_html_wrap"><div class="footer_custom_html">Opća bolnica Zadar © 2019 / <a href="https://www.bolnica-zadar.hr/politika-privatnosti/"><span style="color: #1c87c9"> Politika privatnosti</span></a></div></div>		<span class="footer_copyright copyright">
+					</span>
+	</div>
+</div></footer>
+<!-- Finish Footer -->
+
+</div>
+<span class="cmsmasters_responsive_width"></span>
+<!-- Finish Page -->
+
+<script type="speculationrules">
+{"prefetch":[{"source":"document","where":{"and":[{"href_matches":"/*"},{"not":{"href_matches":["/wp-*.php","/wp-admin/*","/wp-content/uploads/*","/wp-content/*","/wp-content/plugins/*","/wp-content/themes/medical-clinic-child/*","/wp-content/themes/medical-clinic/*","/*\\?(.+)"]}},{"not":{"selector_matches":"a[rel~=\"nofollow\"]"}},{"not":{"selector_matches":".no-prefetch, .no-prefetch a"}}]},"eagerness":"conservative"}]}
+</script>
+<script id="ckyBannerTemplate" type="text/template"><div class="cky-overlay cky-hide"></div><div class="cky-consent-container cky-hide" tabindex="0"> <div class="cky-consent-bar" data-cky-tag="notice" style="background-color:#FFFFFF;border-color:#f4f4f4">  <div class="cky-notice"> <p class="cky-title" role="heading" aria-level="2" data-cky-tag="title" style="color:#212121">Cijenimo vašu privatnost</p><div class="cky-notice-group"> <div class="cky-notice-des" data-cky-tag="description" style="color:#212121"> <p>Koristimo kolačiće za poboljšanje vašeg iskustva<br>pregledavanja, posluživanje prilagođenih oglasa ili<br>sadržaja i analizu našeg prometa. Klikom na<br>"Prihvati sve" pristajete na našu upotrebu kolačića.</p> </div><div class="cky-notice-btn-wrapper" data-cky-tag="notice-buttons"> <button class="cky-btn cky-btn-customize" aria-label="Podesi" aria-haspopup="true" aria-controls="ckyPreferenceCenter" data-cky-tag="settings-button" style="color:#1863DC;background-color:transparent;border-color:#1863DC">Podesi</button> <button class="cky-btn cky-btn-reject" aria-label="Odbij sve" data-cky-tag="reject-button" style="color:#1863DC;background-color:transparent;border-color:#1863DC">Odbij sve</button> <button class="cky-btn cky-btn-accept" aria-label="Prihvati sve" data-cky-tag="accept-button" style="color:#FFFFFF;background-color:#1863DC;border-color:#1863DC">Prihvati sve</button>  </div></div></div></div></div><div class="cky-modal" tabindex="0"> <div class="cky-preference-center" id="ckyPreferenceCenter" data-cky-tag="detail" style="color:#212121;background-color:#FFFFFF;border-color:#f4f4f4"> <div class="cky-preference-header"> <span class="cky-preference-title" role="heading" aria-level="2" data-cky-tag="detail-title" style="color:#212121">Podešavanje postavki suglasnosti</span> <button class="cky-btn-close" aria-label="Close" data-cky-tag="detail-close"> <img src="https://www.bolnica-zadar.hr/wp-content/plugins/cookie-law-info/lite/frontend/images/close.svg" alt=""> </button> </div><div class="cky-preference-body-wrapper"> <div class="cky-preference-content-wrapper" data-cky-tag="detail-description" style="color:#212121"> <p>Koristimo kolačiće kako bismo vam pomogli u učinkovitoj navigaciji i izvršavanju određenih funkcija. U nastavku ćete pronaći detaljne informacije o svim kolačićima pod svakom kategorijom pristanka.</p>
+<p>Kolačići koji su kategorizirani kao "Potrebni" pohranjuju se u vašem pregledniku jer su neophodni za omogućavanje osnovnih funkcija stranice.</p>
+<p>Također koristimo kolačiće trećih strana koji nam pomažu analizirati kako koristite ovo web mjesto, pohranjuju vaše postavke i pružaju sadržaj i oglase koji su vam relevantni. Ovi kolačići će biti pohranjeni u vašem pregledniku samo uz vaš prethodni pristanak.</p>
+<p>Možete odlučiti omogućiti ili onemogućiti neke ili sve ove kolačiće, ali onemogućavanje nekih od njih može utjecati na vaše iskustvo pregledavanja.</p>
+<pre id="tw-target-text" class="tw-data-text tw-text-large tw-ta" dir="ltr" data-placeholder="Prijevod" data-ved="2ahUKEwjDorS-6MiEAxWFOXoKHc-iCmMQ3ewLegQIBRAU"><span class="Y2IQFc" lang="hr">
+<br></span></pre> </div><div class="cky-accordion-wrapper" data-cky-tag="detail-categories"> <div class="cky-accordion" id="ckyDetailCategorynecessary"> <div class="cky-accordion-item"> <div class="cky-accordion-chevron"><i class="cky-chevron-right"></i></div> <div class="cky-accordion-header-wrapper"> <div class="cky-accordion-header"><button class="cky-accordion-btn" aria-label="Necessary" data-cky-tag="detail-category-title" style="color:#212121">Necessary</button><span class="cky-always-active">Uvijek aktivan</span> <div class="cky-switch" data-cky-tag="detail-category-toggle"><input type="checkbox" id="ckySwitchnecessary"></div> </div> <div class="cky-accordion-header-des" data-cky-tag="detail-category-description" style="color:#212121"> <p>Necessary cookies are required to enable the basic features of this site, such as providing secure log-in or adjusting your consent preferences. These cookies do not store any personally identifiable data.</p></div> </div> </div> <div class="cky-accordion-body"> <div class="cky-audit-table" data-cky-tag="audit-table" style="color:#212121;background-color:#f4f4f4;border-color:#ebebeb"><p class="cky-empty-cookies-text">Nema kolačića za prikaz.</p></div> </div> </div><div class="cky-accordion" id="ckyDetailCategoryfunctional"> <div class="cky-accordion-item"> <div class="cky-accordion-chevron"><i class="cky-chevron-right"></i></div> <div class="cky-accordion-header-wrapper"> <div class="cky-accordion-header"><button class="cky-accordion-btn" aria-label="Functional" data-cky-tag="detail-category-title" style="color:#212121">Functional</button><span class="cky-always-active">Uvijek aktivan</span> <div class="cky-switch" data-cky-tag="detail-category-toggle"><input type="checkbox" id="ckySwitchfunctional"></div> </div> <div class="cky-accordion-header-des" data-cky-tag="detail-category-description" style="color:#212121"> <p>Functional cookies help perform certain functionalities like sharing the content of the website on social media platforms, collecting feedback, and other third-party features.</p></div> </div> </div> <div class="cky-accordion-body"> <div class="cky-audit-table" data-cky-tag="audit-table" style="color:#212121;background-color:#f4f4f4;border-color:#ebebeb"><p class="cky-empty-cookies-text">Nema kolačića za prikaz.</p></div> </div> </div><div class="cky-accordion" id="ckyDetailCategoryanalytics"> <div class="cky-accordion-item"> <div class="cky-accordion-chevron"><i class="cky-chevron-right"></i></div> <div class="cky-accordion-header-wrapper"> <div class="cky-accordion-header"><button class="cky-accordion-btn" aria-label="Analytics" data-cky-tag="detail-category-title" style="color:#212121">Analytics</button><span class="cky-always-active">Uvijek aktivan</span> <div class="cky-switch" data-cky-tag="detail-category-toggle"><input type="checkbox" id="ckySwitchanalytics"></div> </div> <div class="cky-accordion-header-des" data-cky-tag="detail-category-description" style="color:#212121"> <p>Analytical cookies are used to understand how visitors interact with the website. These cookies help provide information on metrics such as the number of visitors, bounce rate, traffic source, etc.</p></div> </div> </div> <div class="cky-accordion-body"> <div class="cky-audit-table" data-cky-tag="audit-table" style="color:#212121;background-color:#f4f4f4;border-color:#ebebeb"><p class="cky-empty-cookies-text">Nema kolačića za prikaz.</p></div> </div> </div><div class="cky-accordion" id="ckyDetailCategoryperformance"> <div class="cky-accordion-item"> <div class="cky-accordion-chevron"><i class="cky-chevron-right"></i></div> <div class="cky-accordion-header-wrapper"> <div class="cky-accordion-header"><button class="cky-accordion-btn" aria-label="Performance" data-cky-tag="detail-category-title" style="color:#212121">Performance</button><span class="cky-always-active">Uvijek aktivan</span> <div class="cky-switch" data-cky-tag="detail-category-toggle"><input type="checkbox" id="ckySwitchperformance"></div> </div> <div class="cky-accordion-header-des" data-cky-tag="detail-category-description" style="color:#212121"> <p>Performance cookies are used to understand and analyze the key performance indexes of the website which helps in delivering a better user experience for the visitors.</p></div> </div> </div> <div class="cky-accordion-body"> <div class="cky-audit-table" data-cky-tag="audit-table" style="color:#212121;background-color:#f4f4f4;border-color:#ebebeb"><p class="cky-empty-cookies-text">Nema kolačića za prikaz.</p></div> </div> </div><div class="cky-accordion" id="ckyDetailCategoryadvertisement"> <div class="cky-accordion-item"> <div class="cky-accordion-chevron"><i class="cky-chevron-right"></i></div> <div class="cky-accordion-header-wrapper"> <div class="cky-accordion-header"><button class="cky-accordion-btn" aria-label="Advertisement" data-cky-tag="detail-category-title" style="color:#212121">Advertisement</button><span class="cky-always-active">Uvijek aktivan</span> <div class="cky-switch" data-cky-tag="detail-category-toggle"><input type="checkbox" id="ckySwitchadvertisement"></div> </div> <div class="cky-accordion-header-des" data-cky-tag="detail-category-description" style="color:#212121"> <p>Advertisement cookies are used to provide visitors with customized advertisements based on the pages you visited previously and to analyze the effectiveness of the ad campaigns.</p></div> </div> </div> <div class="cky-accordion-body"> <div class="cky-audit-table" data-cky-tag="audit-table" style="color:#212121;background-color:#f4f4f4;border-color:#ebebeb"><p class="cky-empty-cookies-text">Nema kolačića za prikaz.</p></div> </div> </div> </div></div><div class="cky-footer-wrapper"> <span class="cky-footer-shadow"></span> <div class="cky-prefrence-btn-wrapper" data-cky-tag="detail-buttons"> <button class="cky-btn cky-btn-reject" aria-label="Odbij sve" data-cky-tag="detail-reject-button" style="color:#1863DC;background-color:transparent;border-color:#1863DC"> Odbij sve </button> <button class="cky-btn cky-btn-preferences" aria-label="Spremi moje postavke" data-cky-tag="detail-save-button" style="color:#1863DC;background-color:transparent;border-color:#1863DC"> Spremi moje postavke </button> <button class="cky-btn cky-btn-accept" aria-label="Prihvati sve" data-cky-tag="detail-accept-button" style="color:#FFFFFF;background-color:#1863DC;border-color:#1863DC"> Prihvati sve </button> </div></div></div></div></script><script>
+              (function(e){
+                  var el = document.createElement('script');
+                  el.setAttribute('data-account', '5pNXwLztyn');
+                  el.setAttribute('src', 'https://cdn.userway.org/widget.js');
+                  document.body.appendChild(el);
+                })();
+              </script><script id="megamenu-js" src="https://www.bolnica-zadar.hr/wp-content/plugins/cmsmasters-mega-menu/js/jquery.megaMenu.js?ver=1.2.9"></script>
+<script id="cmsmasters-hover-slider-js" src="https://www.bolnica-zadar.hr/wp-content/themes/medical-clinic/js/cmsmasters-hover-slider.min.js?ver=1.0.0"></script>
+<script id="easing-js" src="https://www.bolnica-zadar.hr/wp-content/themes/medical-clinic/js/easing.min.js?ver=1.0.0"></script>
+<script id="easy-pie-chart-js" src="https://www.bolnica-zadar.hr/wp-content/themes/medical-clinic/js/easy-pie-chart.min.js?ver=1.0.0"></script>
+<script id="mousewheel-js" src="https://www.bolnica-zadar.hr/wp-content/themes/medical-clinic/js/mousewheel.min.js?ver=1.0.0"></script>
+<script id="owlcarousel-js" src="https://www.bolnica-zadar.hr/wp-content/themes/medical-clinic/js/owlcarousel.min.js?ver=1.0.0"></script>
+<script id="imagesloaded-js" src="https://www.bolnica-zadar.hr/wp-includes/js/imagesloaded.min.js?ver=5.0.0"></script>
+<script id="request-animation-frame-js" src="https://www.bolnica-zadar.hr/wp-content/themes/medical-clinic/js/request-animation-frame.min.js?ver=1.0.0"></script>
+<script id="scrollspy-js" src="https://www.bolnica-zadar.hr/wp-content/themes/medical-clinic/js/scrollspy.js?ver=1.0.0"></script>
+<script id="scroll-to-js" src="https://www.bolnica-zadar.hr/wp-content/themes/medical-clinic/js/scroll-to.min.js?ver=1.0.0"></script>
+<script id="stellar-js" src="https://www.bolnica-zadar.hr/wp-content/themes/medical-clinic/js/stellar.min.js?ver=1.0.0"></script>
+<script id="waypoints-js" src="https://www.bolnica-zadar.hr/wp-content/themes/medical-clinic/js/waypoints.min.js?ver=1.0.0"></script>
+<script id="medical-clinic-script-js-extra">
+var cmsmasters_script = {"theme_url":"https://www.bolnica-zadar.hr/wp-content/themes/medical-clinic","site_url":"https://www.bolnica-zadar.hr/","ajaxurl":"https://www.bolnica-zadar.hr/wp-admin/admin-ajax.php","nonce_ajax_like":"4a2121db88","nonce_ajax_view":"8d53921f0c","project_puzzle_proportion":"0.6875","gmap_api_key":"AIzaSyAcr8jIkHeJAlHlDOt4szIf46aoDgFTyls","gmap_api_key_notice":"Please add your Google Maps API key","gmap_api_key_notice_link":"read more how","primary_color":"#1c87c9","ilightbox_skin":"dark","ilightbox_path":"vertical","ilightbox_infinite":"0","ilightbox_aspect_ratio":"1","ilightbox_mobile_optimizer":"1","ilightbox_max_scale":"1","ilightbox_min_scale":"0.2","ilightbox_inner_toolbar":"0","ilightbox_smart_recognition":"1","ilightbox_fullscreen_one_slide":"0","ilightbox_fullscreen_viewport":"center","ilightbox_controls_toolbar":"1","ilightbox_controls_arrows":"0","ilightbox_controls_fullscreen":"1","ilightbox_controls_thumbnail":"1","ilightbox_controls_keyboard":"1","ilightbox_controls_mousewheel":"1","ilightbox_controls_swipe":"1","ilightbox_controls_slideshow":"0","ilightbox_close_text":"Close","ilightbox_enter_fullscreen_text":"Enter Fullscreen (Shift+Enter)","ilightbox_exit_fullscreen_text":"Exit Fullscreen (Shift+Enter)","ilightbox_slideshow_text":"Slideshow","ilightbox_next_text":"Next","ilightbox_previous_text":"Previous","ilightbox_load_image_error":"An error occurred when trying to load photo.","ilightbox_load_contents_error":"An error occurred when trying to load contents.","ilightbox_missing_plugin_error":"The content your are attempting to view requires the \u003Ca href='{pluginspage}' target='_blank'\u003E{type} plugin\u003C\\/a\u003E."};
+//# sourceURL=medical-clinic-script-js-extra
+</script>
+<script id="medical-clinic-script-js" src="https://www.bolnica-zadar.hr/wp-content/themes/medical-clinic/js/jquery.script.js?ver=1.0.0"></script>
+<script id="medical-clinic-theme-script-js-extra">
+var cmsmasters_theme_script = {"primary_color":"#1c87c9"};
+//# sourceURL=medical-clinic-theme-script-js-extra
+</script>
+<script id="medical-clinic-theme-script-js" src="https://www.bolnica-zadar.hr/wp-content/themes/medical-clinic/theme-framework/theme-style/js/jquery.theme-script.js?ver=1.0.0"></script>
+<script id="twitter-js" src="https://www.bolnica-zadar.hr/wp-content/themes/medical-clinic/js/jquery.tweet.min.js?ver=1.3.1"></script>
+<script id="smooth-sticky-js" src="https://www.bolnica-zadar.hr/wp-content/themes/medical-clinic/js/smooth-sticky.min.js?ver=1.0.2"></script>
+<script id="mimetypes-link-icons-js-extra">
+var i18n_mtli = {"hidethings":"1","enable_async":"","enable_async_debug":"","avoid_selector":".wp-caption"};
+//# sourceURL=mimetypes-link-icons-js-extra
+</script>
+<script id="mimetypes-link-icons-js" src="https://www.bolnica-zadar.hr/wp-content/plugins/mimetypes-link-icons/js/mtli-str-replace.min.js?ver=3.1.0"></script>
+<script id="wp-emoji-settings" type="application/json">
+{"baseUrl":"https://s.w.org/images/core/emoji/17.0.2/72x72/","ext":".png","svgUrl":"https://s.w.org/images/core/emoji/17.0.2/svg/","svgExt":".svg","source":{"concatemoji":"https://www.bolnica-zadar.hr/wp-includes/js/wp-emoji-release.min.js?ver=67da287cdee034ee51cebb0824e6589d"}}
+</script>
+<script type="module">
+/*! This file is auto-generated */
+var e="script#wp-emoji-settings",t=document.querySelector(e);if(!(t instanceof HTMLScriptElement))throw new Error("Element missing: "+e);const r=JSON.parse(t.text),s=(window._wpemojiSettings=r,"wpEmojiSettingsSupports"),o=["flag","emoji"];function i(e){try{var t={supportTests:e,timestamp:(new Date).valueOf()};sessionStorage.setItem(s,JSON.stringify(t))}catch(e){}}function c(e,t,n){e.clearRect(0,0,e.canvas.width,e.canvas.height),e.fillText(t,0,0);t=new Uint32Array(e.getImageData(0,0,e.canvas.width,e.canvas.height).data);e.clearRect(0,0,e.canvas.width,e.canvas.height),e.fillText(n,0,0);const r=new Uint32Array(e.getImageData(0,0,e.canvas.width,e.canvas.height).data);return t.every((e,t)=>e===r[t])}function p(e,t){e.clearRect(0,0,e.canvas.width,e.canvas.height),e.fillText(t,0,0);var n=e.getImageData(16,16,1,1);for(let e=0;e<n.data.length;e++)if(0!==n.data[e])return!1;return!0}function u(e,t,n,r){switch(t){case"flag":return n(e,"\ud83c\udff3\ufe0f\u200d\u26a7\ufe0f","\ud83c\udff3\ufe0f\u200b\u26a7\ufe0f")?!1:!n(e,"\ud83c\udde8\ud83c\uddf6","\ud83c\udde8\u200b\ud83c\uddf6")&&!n(e,"\ud83c\udff4\udb40\udc67\udb40\udc62\udb40\udc65\udb40\udc6e\udb40\udc67\udb40\udc7f","\ud83c\udff4\u200b\udb40\udc67\u200b\udb40\udc62\u200b\udb40\udc65\u200b\udb40\udc6e\u200b\udb40\udc67\u200b\udb40\udc7f");case"emoji":return!r(e,"\ud83e\u1fac8")}return!1}function f(e,t,n,r){let a;const s=(a="undefined"!=typeof WorkerGlobalScope&&self instanceof WorkerGlobalScope?new OffscreenCanvas(300,150):document.createElement("canvas")).getContext("2d",{willReadFrequently:!0}),o=(s.textBaseline="top",s.font="600 32px Arial",{});return e.forEach(e=>{o[e]=t(s,e,n,r)}),o}function a(e){var t=document.createElement("script");t.src=e,t.defer=!0,document.head.appendChild(t)}r.supports={everything:!0,everythingExceptFlag:!0},new Promise(t=>{let n=function(){try{var e=JSON.parse(sessionStorage.getItem(s));if("object"==typeof e&&"number"==typeof e.timestamp&&(new Date).valueOf()<e.timestamp+604800&&"object"==typeof e.supportTests)return e.supportTests}catch(e){}return null}();if(!n){if("undefined"!=typeof Worker&&"undefined"!=typeof OffscreenCanvas&&"undefined"!=typeof URL&&URL.createObjectURL&&"undefined"!=typeof Blob)try{var e="postMessage("+f.toString()+"("+[JSON.stringify(o),u.toString(),c.toString(),p.toString()].join(",")+"));",r=new Blob([e],{type:"text/javascript"});const a=new Worker(URL.createObjectURL(r),{name:"wpTestEmojiSupports"});return void(a.onmessage=e=>{i(n=e.data),a.terminate(),t(n)})}catch(e){}i(n=f(o,u,c,p))}t(n)}).then(e=>{for(const n in e)r.supports[n]=e[n],r.supports.everything=r.supports.everything&&r.supports[n],"flag"!==n&&(r.supports.everythingExceptFlag=r.supports.everythingExceptFlag&&r.supports[n]);var t;r.supports.everythingExceptFlag=r.supports.everythingExceptFlag&&!r.supports.flag,r.supports.everything||((t=r.source||{}).concatemoji?a(t.concatemoji):t.wpemoji&&t.twemoji&&(a(t.twemoji),a(t.wpemoji)))});
+//# sourceURL=https://www.bolnica-zadar.hr/wp-includes/js/wp-emoji-loader.min.js
+</script>
+</body>
+</html>
