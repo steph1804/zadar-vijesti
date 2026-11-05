@@ -230,6 +230,11 @@
  ],
  "reddit": [
   {
+   "title": "Susjedi",
+   "link": "https://www.reddit.com/r/Zadar/comments/1xotb0s/susjedi/",
+   "date": "2026-11-05T20:26:33+00:00"
+  },
+  {
    "title": "Kaljeva peć",
    "link": "https://www.reddit.com/r/Zadar/comments/1xor57x/kaljeva_peć/",
    "date": "2026-11-05T19:01:28+00:00"
@@ -263,11 +268,6 @@
    "title": "Meštar za centralno grijanje",
    "link": "https://www.reddit.com/r/Zadar/comments/1xnwatk/meštar_za_centralno_grijanje/",
    "date": "2026-11-04T18:45:46+00:00"
-  },
-  {
-   "title": "Servis mobitela Zadar",
-   "link": "https://www.reddit.com/r/Zadar/comments/1xnw0w3/servis_mobitela_zadar/",
-   "date": "2026-11-04T18:35:16+00:00"
   }
  ],
  "retro": [
@@ -547,7 +547,7 @@
  ],
  "videos": {
   "v": 2,
-  "fetched": "2026-11-05T19:33:16.394962+00:00",
+  "fetched": "2026-11-05T20:33:20.320213+00:00",
   "items": [
    {
     "id": "I4MG0kvNBQY",
