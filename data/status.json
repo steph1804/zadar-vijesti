@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-05T06:15:48.209309+00:00",
+ "updated": "2026-11-05T06:31:02.453288+00:00",
  "sources": [
   {
    "name": "Antena Zadar",
@@ -10,7 +10,7 @@
   },
   {
    "name": "Zadarski list",
-   "count": 5,
+   "count": 7,
    "ok": true,
    "feed": null,
    "errors": []
@@ -98,7 +98,7 @@
   },
   {
    "name": "Sveučilište u Zadru",
-   "count": 4,
+   "count": 3,
    "ok": true,
    "feed": null,
    "errors": []
@@ -189,8 +189,8 @@
   },
   {
    "name": "Novi list",
-   "count": 1,
-   "ok": true,
+   "count": 0,
+   "ok": false,
    "feed": null,
    "errors": []
   },
@@ -273,8 +273,8 @@
   },
   {
    "name": "Sportske novosti",
-   "count": 0,
-   "ok": false,
+   "count": 1,
+   "ok": true,
    "feed": null,
    "errors": []
   },
