@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-05T16:31:06.243151+00:00",
+ "updated": "2026-11-05T16:45:47.407479+00:00",
  "sources": [
   {
    "name": "Antena Zadar",
@@ -166,8 +166,8 @@
   },
   {
    "name": "tportal",
-   "count": 0,
-   "ok": false,
+   "count": 1,
+   "ok": true,
    "feed": null,
    "errors": []
   },
@@ -194,8 +194,8 @@
   },
   {
    "name": "Novi list",
-   "count": 0,
-   "ok": false,
+   "count": 1,
+   "ok": true,
    "feed": null,
    "errors": []
   },
