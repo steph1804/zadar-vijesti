@@ -123,11 +123,19 @@
  "power": [
   {
    "day": "05.11.2026",
-   "place": "Miletići",
-   "street": "Cijelo mjesto",
-   "note": "",
-   "time": "08:00 - 13:00",
-   "unplanned": false
+   "place": "Šopot",
+   "street": "",
+   "note": "Derete (kvar dalekovoda)",
+   "time": "19:00 - 23:59",
+   "unplanned": true
+  },
+  {
+   "day": "05.11.2026",
+   "place": "Podlug",
+   "street": "",
+   "note": "dio mjesta (kvar dalekovoda)",
+   "time": "19:00 - 23:59",
+   "unplanned": true
   },
   {
    "day": "05.11.2026",
@@ -140,17 +148,49 @@
   {
    "day": "05.11.2026",
    "place": "Ražanac",
+   "street": "8 ulica",
+   "note": "Povremeni prekidi",
+   "time": "12:00 - 14:00",
+   "unplanned": false
+  },
+  {
+   "day": "05.11.2026",
+   "place": "Miletići",
+   "street": "Cijelo mjesto",
+   "note": "",
+   "time": "08:00 - 13:00",
+   "unplanned": false
+  },
+  {
+   "day": "05.11.2026",
+   "place": "Ražanac",
    "street": "7 ulica",
    "note": "Povremeni prekidi",
    "time": "10:00 - 12:00",
    "unplanned": false
   },
   {
-   "day": "05.11.2026",
-   "place": "Ražanac",
-   "street": "8 ulica",
-   "note": "Povremeni prekidi",
-   "time": "12:00 - 14:00",
+   "day": "06.11.2026",
+   "place": "Šopot",
+   "street": "",
+   "note": "Derete (kvar dalekovoda)",
+   "time": "00:00 - 12:00",
+   "unplanned": true
+  },
+  {
+   "day": "06.11.2026",
+   "place": "Podlug",
+   "street": "",
+   "note": "dio mjesta (kvar dalekovoda)",
+   "time": "00:00 - 12:00",
+   "unplanned": true
+  },
+  {
+   "day": "06.11.2026",
+   "place": "Privlaka",
+   "street": "Predio Punta i južni dio predjela Mletak",
+   "note": "",
+   "time": "08:30 - 14:30",
    "unplanned": false
   },
   {
@@ -159,14 +199,6 @@
    "street": "Predio oko trajektne luke",
    "note": "",
    "time": "09:00 - 13:00",
-   "unplanned": false
-  },
-  {
-   "day": "06.11.2026",
-   "place": "Privlaka",
-   "street": "Predio Punta i južni dio predjela Mletak",
-   "note": "",
-   "time": "08:30 - 14:30",
    "unplanned": false
   }
  ],
