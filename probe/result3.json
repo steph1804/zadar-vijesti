@@ -1,28 +1,17 @@
 {
  "https://idassa.click/facebook/idassa-ig-objava-1.png": {
-  "err": "<HTTPError 404: 'Not Found'>",
-  "hdr": {
-   "Connection": "close",
-   "Content-Length": "9379",
-   "Server": "GitHub.com",
-   "Content-Type": "text/html; charset=utf-8",
-   "Access-Control-Allow-Origin": "*",
-   "ETag": "\"6abcf5c5-24a3\"",
-   "Content-Security-Policy": "default-src 'none'; style-src 'unsafe-inline'; img-src data:; connect-src 'self'",
-   "x-proxy-cache": "MISS",
-   "X-GitHub-Request-Id": "976E:31E51E:26B6E6:29D525:6AEC99E6",
-   "x-github-edge-region": "iad",
-   "Accept-Ranges": "bytes",
-   "Age": "0",
-   "Date": "Thu, 05 Nov 2026 14:59:50 GMT",
-   "Via": "1.1 varnish",
-   "X-Served-By": "cache-dfw-kdfw8210076-DFW",
-   "X-Cache": "MISS",
-   "X-Cache-Hits": "0",
-   "X-Timer": "S1793890791.844806,VS0,VE61",
-   "Vary": "Accept-Encoding",
-   "X-Fastly-Request-ID": "02a21a1c15ad6b045cb823ba38e56a96b47947a9"
-  },
-  "body": "<!DOCTYPE html>\n<html>\n  <head>\n    <meta http-equiv=\"Content-type\" content=\"text/html; charset=utf-8\">\n    <meta http-equiv=\"Content-Security-Policy\" content=\"default-src 'none'; style-src 'unsafe-inline'; img-src data:; connect-src 'self'\">\n    <title>Page not found &middot; GitHub Pages</title>\n    <style type=\"text/css\" media=\"screen\">\n      body {\n        background-color: #f1f1f1;\n        ma"
+  "status": 200,
+  "final": "https://idassa.click/facebook/idassa-ig-objava-1.png",
+  "len": 542820,
+  "ctype": "image/png",
+  "alt": [],
+  "links": [],
+  "api": [],
+  "next": false,
+  "head": "�PNG\r\n\u001a\n\u0000\u0000\u0000\rIHDR\u0000\u0000\u00048\u0000\u0000\u0005F\b\u0002\u0000\u0000\u0000�-��\u0000\u0000\u0010\u0000IDATx�Խ[�-��%�\u0015�y��t�L�kg�C�\u0003���x�9�:��hm���\u0011���\u0000)������\u000f�'\u0002��\u0007���?��yA��O�O9�t��\fӟ��I��\\��\u001a�t��z�����O\u000b� k�\t��`<�\u000b�^V���y���d�$_��OR������\u001eIn^��6\u0019:���<C�\u000e�!\u001f��3>��M���\u0017J/%\u0019���\u0006\u0017�6�6\t\u0013J��.ɍ�ޠ�z�5J\u0017\u001e�o�`�\u0015����P�|�E]d�\u001a�\b���q9�<~��k�~�ҟk0��Qz�̙\u000e��w(-:x<\u000e��9�q�y",
+  "items": 0,
+  "chan": "",
+  "title": "",
+  "osm": []
  }
 }
