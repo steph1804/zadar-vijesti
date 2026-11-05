@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-05T10:45:47.791778+00:00",
+ "updated": "2026-11-05T11:01:19.855220+00:00",
  "sources": [
   {
    "name": "Antena Zadar",
@@ -31,7 +31,7 @@
   },
   {
    "name": "eZadar",
-   "count": 19,
+   "count": 18,
    "ok": true,
    "feed": null,
    "errors": []
@@ -89,7 +89,7 @@
   },
   {
    "name": "HRT Radio Zadar",
-   "count": 12,
+   "count": 13,
    "ok": true,
    "feed": null,
    "errors": []
@@ -166,14 +166,14 @@
   },
   {
    "name": "tportal",
-   "count": 2,
+   "count": 1,
    "ok": true,
    "feed": null,
    "errors": []
   },
   {
    "name": "N1",
-   "count": 3,
+   "count": 4,
    "ok": true,
    "feed": null,
    "errors": []
