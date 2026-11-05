@@ -1,5 +1,33 @@
 [
  {
+  "title": "Index doznaje: Novac od velike međunarodne prevare završio i u apartmanima kod Zadra",
+  "link": "https://www.index.hr/vijesti/clanak/index-doznaje-novac-od-velike-medjunarodne-prevare-zavrsio-i-u-apartmanima-kod-zadra/2853728.aspx",
+  "date": "2026-11-05T17:55:00+00:00",
+  "summary": "NOVI detalji međunarodne akcije koja je jučer započela u koordinaciji europskog tužiteljstva.",
+  "image": "https://ip.index.hr/remote/bucket.index.hr/b/index/402fe827-6cf9-4fd4-9662-be2264eadc31.jpg?fb_wtrmrk=vijesti.jpg&width=1200&height=630&mode=crop&format=png",
+  "source": "Index.hr",
+  "topics": [
+   "Zadar"
+  ],
+  "source_url": "https://www.index.hr/",
+  "face": null,
+  "face_img": "https://ip.index.hr/remote/bucket.index.hr/b/index/402fe827-6cf9-4fd4-9662-be2264eadc31.jpg?fb_wtrmrk=vijesti.jpg&width=1200&height=630&mode=crop&format=png"
+ },
+ {
+  "title": "Deveta bibinjska Tunjada i Lignjada oduševila razinom organizacije i odazivom. Na tunjadi lovilo 57 juniora a na lignjadi 59 brodica.",
+  "link": "https://www.novilist.hr/more/deveta-bibinjska-tunjada-i-lignjada-odusevila-razinom-organizacije-i-odazivom-na-tunjadi-lovilo-57-juniora-a-na-lignjadi-59-brodica/",
+  "date": "2026-11-05T17:48:37+00:00",
+  "summary": "Foto: Borna Škornjak i Leo Banić Kada je u pitanju nekakav razvikani veliki sportskoribolovni klub tada se od natjecanja koje taj klub organizira očekuje jako puno, no kada je u pitanju neki manji klub čije se ime zapravo  Objava Deveta bibinjska Tunjada i Lignjada oduševila razinom organizacije i odazivom.",
+  "image": "https://www.novilist.hr/wp-content/uploads/2026/11/NLR3540-UVODNA.jpg",
+  "source": "Novi list",
+  "topics": [
+   "Županija"
+  ],
+  "source_url": "https://www.novilist.hr/",
+  "face": null,
+  "face_img": "https://www.novilist.hr/wp-content/uploads/2026/11/NLR3540-UVODNA.jpg"
+ },
+ {
   "title": "Dvije su puške trebale za svladavanje ovog kapitalca: ‘Očišćena teži 20 kilograma’",
   "link": "https://zadarskilist.novilist.hr/plodovi-zemlje-i-mora/dvije-su-puske-trebale-za-svladavanje-ovog-kapitalca-ociscena-tezi-20-kilograma/",
   "date": "2026-11-05T17:30:38+00:00",
@@ -152,7 +180,7 @@
   "link": "https://www.jutarnji.hr/sportske/nogomet/sto-radimo-pa-pijemo-pusti-nam-misu-kovaca-tip-iz-europskog-parlamenta-nam-je-htio-zvati-policiju-15762739",
   "date": "2026-11-05T16:26:00+00:00",
   "summary": "Pitanje u hrvatskom kvizu bilo je koja cesta u Europi prelazi preko aerodromske piste ili obrnuto pista preko ceste, a odgovor je bio u Donjem Zemuniku pokraj Zadra. Ipak, već na ulazu u Gibraltar kviz odgovor pada u vodu jer crveno svjetlo na semaforu, rampa i ograda priječe put dok slijeće EasyJet...",
-  "image": "https://media.jutarnji.hr/images/slike/2026/11/05/f_39910720_1280.jpg?1793900512",
+  "image": "https://media.jutarnji.hr/images/slike/2026/11/05/f_39910720_1280.jpg?1793901524",
   "source": "Sportske novosti",
   "source_topic": "Sport",
   "topics": [
@@ -167,7 +195,27 @@
    22.0,
    61.1
   ],
-  "face_img": "https://media.jutarnji.hr/images/slike/2026/11/05/f_39910720_1280.jpg?1793900512"
+  "face_img": "https://media.jutarnji.hr/images/slike/2026/11/05/f_39910720_1280.jpg?1793901524"
+ },
+ {
+  "title": "Spartak – Zadar: Novo izjednačenje, Modrić pozvao timeout",
+  "link": "https://ezadar.net.hr/sport/3589962/spartak-zadar-novo-izjednacenje-modric-pozvao-timeout/",
+  "date": "2026-11-05T16:15:00+00:00",
+  "summary": "Zadar u Subotici kod Spartaka igra 7. kolo ABA lige",
+  "image": "https://cdn-ezadar.net.hr/wp-content/uploads/20261105-173945-20261105_kkspartakkkzadar_1004_teodora-06ce575aba704f64b9323c51-1052x696.jpg",
+  "source": "eZadar",
+  "topics": [
+   "Zadar",
+   "Sport"
+  ],
+  "source_url": "https://ezadar.net.hr/",
+  "face": [
+   43.5,
+   60.5,
+   40.4,
+   52.6
+  ],
+  "face_img": "https://cdn-ezadar.net.hr/wp-content/uploads/20261105-173945-20261105_kkspartakkkzadar_1004_teodora-06ce575aba704f64b9323c51-1052x696.jpg"
  },
  {
   "title": "Spartak – Zadar: Domaći žele stopirati Šaru, egal u Subotici",
@@ -313,7 +361,7 @@
   "link": "https://zadarskilist.novilist.hr/zadar-zupanija/zupanija/veliki-misterij-policija-jos-uvijek-ne-zna-sto-je-izazvalo-pozar-u-kali-tuni/",
   "date": "2026-11-05T15:23:01+00:00",
   "summary": "Za požar koji je 14. listopada izbio u tvrtki Kali tuna u Kalima na otoku Ugljanu, policija još uvijek ne zna uzrok. Vatra je zahvatila površinu veličine 100×50 metara i nije se proširila izvan otvorenog skladišta u kojemu je buknuo požar.",
-  "image": "https://zadarskilist.novilist.hr/wp-content/uploads/2026/11/PXL_141026_160467267.jpg",
+  "image": "https://zadarskilist.novilist.hr/wp-content/uploads/2026/11/KRUG-5.png",
   "source": "Zadarski list",
   "topics": [
    "Zadar",
@@ -322,7 +370,7 @@
   ],
   "source_url": "https://zadarskilist.novilist.hr/",
   "face": null,
-  "face_img": "https://zadarskilist.novilist.hr/wp-content/uploads/2026/11/PXL_141026_160467267.jpg"
+  "face_img": "https://zadarskilist.novilist.hr/wp-content/uploads/2026/11/KRUG-5.png"
  },
  {
   "title": "HDZ-ov župan nakon optužbi o uhljebljivanju: ‘Neka se oporba zapita koliko im članova obitelji radi u Županiji’",
@@ -1887,7 +1935,7 @@
   "link": "https://www.jutarnji.hr/sportske/kosarka/aba-liga/zadar-bez-mihailovica-na-spartak-treci-okrsaj-u-sest-dana-15762523",
   "date": "2026-11-05T06:18:11+00:00",
   "summary": "Kucnuo je čas – zadarska sedmodnevna ekskurzija klizi k svom svršetku. Košarkaši Zadra tako će u šest dana odigrati tri utakmice, na dva kontinenta i u sklopu dviju liga. A u četvrtak od 18 sati Zadrani gostuju kod posljednjeg protivnika na ovoj turneji – subotičkog Spartaka.",
-  "image": "https://media.jutarnji.hr/images/slike/2026/11/04/f_39724919_1280.jpg?1793900512",
+  "image": "https://media.jutarnji.hr/images/slike/2026/11/04/f_39724919_1280.jpg?1793901524",
   "source": "Sportske novosti",
   "source_topic": "Sport",
   "topics": [
@@ -1901,7 +1949,7 @@
    4.0,
    64.8
   ],
-  "face_img": "https://media.jutarnji.hr/images/slike/2026/11/04/f_39724919_1280.jpg?1793900512"
+  "face_img": "https://media.jutarnji.hr/images/slike/2026/11/04/f_39724919_1280.jpg?1793901524"
  },
  {
   "title": "Na Jadranu pretežno sunčano uz umjerenu buru",
@@ -5127,53 +5175,6 @@
    77.4
   ],
   "face_img": "https://www.grad-zadar.hr/data/images/image/grad550x325/35382/SIZ_1681.jpg"
- },
- {
-  "title": "Lopov upao u cvjećarnicu na Poluotoku i pobjegao s novcem!",
-  "link": "https://zadarskilist.novilist.hr/crna-kronika/lopov-upao-u-cvjecarnicu-na-poluotoku-i-pobjegao-s-novcem/",
-  "date": "2026-11-03T13:45:03+00:00",
-  "summary": "Proteklog dana, 2./3. studenog na području Policijske uprave zadarske evidentirana je jedna teška krađa: – dana 1./2. studenog u Zadru na predjelu Poluotoka nepoznati počinitelj je provalio u cvjećarnicu u vlasništvu 54-godišnjakinje odakle je otuđio novac. Materijalna šteta bit će utvrđena naknadno.",
-  "image": "https://zadarskilist.novilist.hr/wp-content/uploads/2026/05/pol.auto_.jpg",
-  "source": "Zadarski list",
-  "topics": [
-   "Zadar"
-  ],
-  "source_url": "https://zadarskilist.novilist.hr/",
-  "face": null,
-  "face_img": "https://zadarskilist.novilist.hr/wp-content/uploads/2026/05/pol.auto_.jpg"
- },
- {
-  "title": "Nakon bubnjeva, u fokusu su bas-gitare: Stipe Surać priredio novu rock izložbu",
-  "link": "https://ezadar.net.hr/kultura/3589475/nakon-bubnjeva-u-fokusu-su-bas-gitare-stipe-surac-priredio-novu-rock-izlozbu/",
-  "date": "2026-11-03T13:44:00+00:00",
-  "summary": "Nakon izložbe „Let there be Drums”, poznati zadarski fotograf nastavlja rock-fotografski ciklus, a otvorenje će pratiti i koncert zadarskog sastava Rich Men te premijera njihova novog videospota. Rock priča koju",
-  "image": "https://cdn-ezadar.net.hr/wp-content/uploads/2f58f2fd-f57b-4e38-8278-987905fce107-1052x696.jpg",
-  "source": "eZadar",
-  "topics": [
-   "Zadar"
-  ],
-  "source_url": "https://ezadar.net.hr/",
-  "face": [
-   18.2,
-   41.2,
-   26.3,
-   96.3
-  ],
-  "face_img": "https://cdn-ezadar.net.hr/wp-content/uploads/2f58f2fd-f57b-4e38-8278-987905fce107-1052x696.jpg"
- },
- {
-  "title": "NAKON 19 GODINA / Blagdan sv. Krševana opet će se slaviti u crkvi sv. Krševana u Zadru",
-  "link": "https://www.znet.hr/2026/11/03/nakon-19-godina-blagdan-sv-krsevana-opet-ce-se-slaviti-u-crkvi-sv-krsevana-u-zadru/",
-  "date": "2026-11-03T13:31:28+00:00",
-  "summary": "Blagdan sv. Krševana, zaštitnika Grada Zadra, ove godine svečano će se proslaviti opet u svojoj naslovnoj crkvi – u crkvi sv. Krševana u Zadru!",
-  "image": "https://www.znet.hr/wp-content/uploads/2026/11/Sv.-Krsevan-plakat-2026-1000x600.png",
-  "source": "Znet",
-  "topics": [
-   "Zadar"
-  ],
-  "source_url": "https://www.znet.hr/",
-  "face": null,
-  "face_img": "https://www.znet.hr/wp-content/uploads/2026/11/Sv.-Krsevan-plakat-2026-1000x600.png"
  },
  {
   "title": "Tihi otrov koji ostaje desetljećima: Opasni otpad već je ozbiljan problem Hrvatske, a znanstvenici upozoravaju na još jednu prijetnju koju je iznimno teško ukloniti",
