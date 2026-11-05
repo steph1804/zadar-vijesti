@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-05T04:01:13.546827+00:00",
+ "updated": "2026-11-05T04:15:45.061734+00:00",
  "sources": [
   {
    "name": "Antena Zadar",
@@ -133,22 +133,17 @@
   },
   {
    "name": "Jadrolinija",
-   "count": 0,
-   "ok": false,
+   "count": 1,
+   "ok": true,
    "feed": null,
-   "errors": [
-    "https://www.jadrolinija.hr/feeds/vijesti: <urlopen error timed out>"
-   ]
+   "errors": []
   },
   {
    "name": "Index.hr",
-   "count": 0,
-   "ok": false,
+   "count": 1,
+   "ok": true,
    "feed": null,
-   "errors": [
-    "https://www.index.hr/rss: HTTP Error 403: Forbidden",
-    "https://www.index.hr/rss/vijesti: HTTP Error 403: Forbidden"
-   ]
+   "errors": []
   },
   {
    "name": "Jutarnji list",
