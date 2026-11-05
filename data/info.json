@@ -172,6 +172,10 @@
  ],
  "water": [
   {
+   "day": "2026-11-05",
+   "text": "Tijekom izvođenja zemljanih radova tvrtke GOLEMI u ulici don. Marka Kršlovića u Privlaci, dana 04.11. u kasnim poslijepodnevnim satima, oštećeno je više vodoopskrbnih cjevovoda i priključnih vodova, zbog čega je došlo do prekida isporuke vode za veći broj korisnika.  Ekipe Vodovoda d.o.o. Zadar nalaze se na terenu te intenzivno rade na sanaciji nastalih oštećenja i ponovnoj uspostavi vodoopskrbe u najkraćem mogućem roku."
+  },
+  {
    "day": "2026-11-04",
    "text": "Zbog radova na vodoopskrbnom sustavu, u četvrtak 05. 11. 2026., u vremenu od 09:00 do 11:00 sati, opskrba vodom će biti privremeno obustavljena u gradu Zadru, u sljedećim ulicama:  • Josipa Jurja Strossmayera  • Brodarska ulica  • Prilaz Stara Voštarnica  • Ivana Brkanovića"
   },
@@ -190,10 +194,6 @@
   {
    "day": "2026-10-31",
    "text": "Zbog izvođenja građevinskih radova tvrtke Cestogradnja d.o.o., u ponedjeljak 02.11.2026., u vremenu od 08:00 do 16:00 sati, opskrba vodom će biti privremeno obustavljena u gradu Zadru, na području gradskog predjela Plovanija."
-  },
-  {
-   "day": "2026-10-30",
-   "text": "Prema rezultatima ispitanih pokazatelja uzorak   uzet na vodoopskrbnoj mreži naselja Bruvno   sukladan je odredbama Zakona o vodi za ljudsku potrošnju.   Vodu nije potrebno prokuhavati."
   }
  ],
  "reddit": [
