@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-05T13:15:44.989345+00:00",
+ "updated": "2026-11-05T13:31:03.620547+00:00",
  "sources": [
   {
    "name": "Antena Zadar",
@@ -217,7 +217,7 @@
   },
   {
    "name": "Morski.hr",
-   "count": 2,
+   "count": 3,
    "ok": true,
    "feed": null,
    "errors": []
