@@ -1,6 +1,6 @@
 import json, re, urllib.request
 UA = "Mozilla/5.0 (compatible; LokalniAgregator/1.0; +https://idassa.click)"
-urls = ['https://www.bolnica-zadar.hr/covjek-koji-je-ostavio-neizbrisiv-trag-u-zadarskom-zdravstvu/', 'https://www.bolnica-zadar.hr/feed/']
+urls = ['https://idassa.click/facebook/idassa-ig-objava-1.png']
 out = {}
 for u in urls:
     try:
@@ -20,3 +20,4 @@ json.dump(out, open("probe/result3.json", "w"), ensure_ascii=False, indent=1)
 # 2 1793871174
 # 3 1793871187
 # r1 1793871274
+# i1 1793890707
