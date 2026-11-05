@@ -154,6 +154,17 @@
     ]
   },
   {
+    "name": "Čistoća Zadar",
+    "site": "https://www.cistoca-zadar.hr/novosti/novosti-1/",
+    "feeds": [
+      "https://www.cistoca-zadar.hr/novosti/novosti-1/"
+    ],
+    "parser": "cistoca",
+    "local_only": false,
+    "exclude_title": "natječaj|natjecaj|nabav|odluk[aeu] o odabiru|savjetovanj|postanite član|zapošljav",
+    "note": "Obavijesti Čistoće (odvoz, reciklažna dvorišta); bez natječaja i nabave"
+  },
+  {
     "name": "Opća bolnica Zadar",
     "site": "https://www.bolnica-zadar.hr/aktualnosti/vijesti/",
     "feeds": [

@@ -602,7 +602,31 @@ def parse_unizd(data, base_url):
     return items
 
 
-PARSERS = {"mup": parse_mup_news, "hrt_radio": parse_hrt_radio, "unizd": parse_unizd}
+_CISTOCA_ITEM = re.compile(r'<a class="newsitem[^"]*" href="([^"]+)">(.*?)</a>', re.S)
+
+
+def parse_cistoca(data, base_url):
+    """Novosti Čistoće Zadar (cistoca-zadar.hr/novosti/novosti-1/, nema RSS-a)."""
+    page = data.decode("utf-8", "replace")
+    today = datetime.now(ZAGREB).date()
+    items = []
+    for link, body in _CISTOCA_ITEM.findall(page):
+        title = re.search(r"<h3>(.*?)</h3>", body, re.S)
+        day = re.search(r'datetime="(\d{4})-(\d{2})-(\d{2})"', body)
+        if not title or not day:
+            continue
+        img = re.search(r'<img[^>]+src="([^"]+)"', body)
+        summary = re.search(r"<p>(.*?)</p>", body, re.S)
+        clean = lambda t: html.unescape(re.sub(r"<[^>]+>", "", t)).strip()
+        it = _item(clean(title.group(1)), link, None, clean(summary.group(1)) if summary else "", "",
+                   img.group(1) if img else None, base_url, [])
+        d = datetime(*map(int, day.groups()), 12, tzinfo=ZAGREB)
+        it["date"] = None if d.date() == today else d.astimezone(timezone.utc).isoformat()
+        items.append(it)
+    return items
+
+
+PARSERS = {"mup": parse_mup_news, "hrt_radio": parse_hrt_radio, "unizd": parse_unizd, "cistoca": parse_cistoca}
 
 
 def load_combined(src):
@@ -669,7 +693,10 @@ def finish_items(src, items, errors):
         letters = [c for c in i["title"] if c.isalpha()]
         if len(letters) > 8 and sum(c.isupper() for c in letters) > 0.8 * len(letters):
             t = i["title"].lower()
-            i["title"] = re.sub(r"\w", lambda m: m.group(0).upper(), t, count=1)
+            t = re.sub(r"\w", lambda m: m.group(0).upper(), t, count=1)
+            # imena mjesta (Diklo, Zadar, Ugljan...) ponovno velikim početnim slovom
+            i["title"] = re.sub(r"\w+", lambda m: m.group(0).capitalize()
+                                if (p := PLACES.search(m.group(0))) and p.span() == (0, len(m.group(0))) else m.group(0), t)
         i["source"] = src["name"]
         if src.get("topic"):
             i["source_topic"] = src["topic"]
