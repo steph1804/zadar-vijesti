@@ -1,29 +1,18 @@
 {
  "https://idassa.click/reset/": {
-  "err": "<HTTPError 404: 'Not Found'>",
-  "hdr": {
-   "Connection": "close",
-   "Content-Length": "9379",
-   "Server": "GitHub.com",
-   "Content-Type": "text/html; charset=utf-8",
-   "Access-Control-Allow-Origin": "*",
-   "ETag": "\"6abcf5c5-24a3\"",
-   "Content-Security-Policy": "default-src 'none'; style-src 'unsafe-inline'; img-src data:; connect-src 'self'",
-   "x-proxy-cache": "MISS",
-   "X-GitHub-Request-Id": "49DA:843B5:328E9:569E3:6AEC4D5C",
-   "x-github-edge-region": "westus2",
-   "Accept-Ranges": "bytes",
-   "Age": "0",
-   "Date": "Thu, 05 Nov 2026 09:33:16 GMT",
-   "Via": "1.1 varnish",
-   "X-Served-By": "cache-bfi-krnt7300035-BFI",
-   "X-Cache": "MISS",
-   "X-Cache-Hits": "0",
-   "X-Timer": "S1793871196.224982,VS0,VE85",
-   "Vary": "Accept-Encoding",
-   "X-Fastly-Request-ID": "23b1e51b359e96254195750ebf89b33c2a5c8c83"
-  },
-  "body": "<!DOCTYPE html>\n<html>\n  <head>\n    <meta http-equiv=\"Content-type\" content=\"text/html; charset=utf-8\">\n    <meta http-equiv=\"Content-Security-Policy\" content=\"default-src 'none'; style-src 'unsafe-inline'; img-src data:; connect-src 'self'\">\n    <title>Page not found &middot; GitHub Pages</title>\n    <style type=\"text/css\" media=\"screen\">\n      body {\n        background-color: #f1f1f1;\n        ma"
+  "status": 200,
+  "final": "https://idassa.click/reset/",
+  "len": 1014,
+  "ctype": "text/html; charset=utf-8",
+  "alt": [],
+  "links": [],
+  "api": [],
+  "next": false,
+  "head": "<!doctype html>\n<html lang=\"hr\"><head><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\">\n<meta name=\"robots\" content=\"noindex\"><title>Čišćenje – idassa.click</title>\n<style>body{margin:0;font:18px/1.5 system-ui,sans-serif;background:#fff;color:#14213d;padding:3",
+  "items": 0,
+  "chan": "",
+  "title": "Čišćenje – idassa.click",
+  "osm": []
  },
  "https://idassa.click/sw.js": {
   "status": 200,
