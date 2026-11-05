@@ -1,5 +1,25 @@
 [
  {
+  "title": "SPARTAK - ZADAR 67-51: Poraz Zadra u regionalnoj ligi",
+  "link": "https://www.dalmacijadanas.hr/spartak-zadar-67-51-poraz-zadra-u-regionalnoj-ligi/",
+  "date": "2026-11-05T19:46:19+00:00",
+  "summary": "Zadru je ovo četvrti poraz u ABA ligi",
+  "image": "https://www.dalmacijadanas.hr/wp-content/uploads/2026/11/spartak-zadar-1200x675.jpg",
+  "source": "Dalmacija Danas",
+  "topics": [
+   "Zadar",
+   "Sport"
+  ],
+  "source_url": "https://www.dalmacijadanas.hr/",
+  "face": [
+   11.1,
+   28.7,
+   55.3,
+   75.9
+  ],
+  "face_img": "https://www.dalmacijadanas.hr/wp-content/uploads/2026/11/spartak-zadar-1200x675.jpg"
+ },
+ {
   "title": "Zadar poražen u Subotici",
   "link": "https://kkzadar.hr/zadar-porazen-u-subotici/",
   "date": "2026-11-05T19:45:05+00:00",
@@ -40,6 +60,26 @@
    92.8
   ],
   "face_img": "https://zadarskilist.novilist.hr/wp-content/uploads/2026/11/ipiccy_image-7.jpg"
+ },
+ {
+  "title": "Modrić: U zadnjoj četvrtini na parketu je bila samo jedna ekipa, Jovanović: Definitivno nekvalitetna utakmica",
+  "link": "https://ezadar.net.hr/sport/3589976/modric-u-zadnjoj-cetvrtini-na-parketu-je-bila-samo-jedna-ekipa-jovanovic-definitivno-nekvalitetna-utakmica/",
+  "date": "2026-11-05T19:33:14+00:00",
+  "summary": "Zadar je u Subotici kod Spartaka u sklopu 7. kola ABA lige poražen s rezultatom 67:51",
+  "image": "https://cdn-ezadar.net.hr/wp-content/uploads/ajv04100-scaled-07adbfd3211aade90d0af47d-1052x696.jpg",
+  "source": "eZadar",
+  "topics": [
+   "Zadar",
+   "Sport"
+  ],
+  "source_url": "https://ezadar.net.hr/",
+  "face": [
+   8.5,
+   53.4,
+   48.4,
+   99.2
+  ],
+  "face_img": "https://cdn-ezadar.net.hr/wp-content/uploads/ajv04100-scaled-07adbfd3211aade90d0af47d-1052x696.jpg"
  },
  {
   "title": "Brkove nikad nije obrijao jer su skrivali ožiljak iz Citroëna smrskanog kod Pakoštana",
@@ -135,7 +175,7 @@
   "link": "https://www.jutarnji.hr/sportske/kosarka/aba-liga/spartak-nije-morao-biti-ni-dobar-da-bi-pobijedio-ovakav-zadar-sramotna-predstava-u-dudovoj-sumi-15762781",
   "date": "2026-11-05T19:07:00+00:00",
   "summary": "SPARTAK SUBOTICA – ZADAR 67:51 (12:13, 17:16, 14:9, 24:13) SUBOTICA – Hala sportova Dudova šuma. Gledatelja: 1200. Suci: Mordal, Danilović, Šešević.",
-  "image": "https://media.jutarnji.hr/images/slike/2026/11/05/f_39828152_1280.jpg?1793907801",
+  "image": "https://media.jutarnji.hr/images/slike/2026/11/05/f_39828152_1280.jpg?1793908132",
   "source": "Sportske novosti",
   "source_topic": "Sport",
   "topics": [
@@ -149,7 +189,7 @@
    12.4,
    85.9
   ],
-  "face_img": "https://media.jutarnji.hr/images/slike/2026/11/05/f_39828152_1280.jpg?1793907801"
+  "face_img": "https://media.jutarnji.hr/images/slike/2026/11/05/f_39828152_1280.jpg?1793908132"
  },
  {
   "title": "PORAZ U SUBOTICI Modrić se prepao kao grlica, dao Mirčeti i Bičiću mizerne dvije minute – direktor Jurlina otkrio gde je Mihailović!",
@@ -444,7 +484,7 @@
   "link": "https://www.jutarnji.hr/sportske/nogomet/sto-radimo-pa-pijemo-pusti-nam-misu-kovaca-tip-iz-europskog-parlamenta-nam-je-htio-zvati-policiju-15762739",
   "date": "2026-11-05T16:26:00+00:00",
   "summary": "Pitanje u hrvatskom kvizu bilo je koja cesta u Europi prelazi preko aerodromske piste ili obrnuto pista preko ceste, a odgovor je bio u Donjem Zemuniku pokraj Zadra. Ipak, već na ulazu u Gibraltar kviz odgovor pada u vodu jer crveno svjetlo na semaforu, rampa i ograda priječe put dok slijeće EasyJet...",
-  "image": "https://media.jutarnji.hr/images/slike/2026/11/05/f_39910720_1280.jpg?1793907801",
+  "image": "https://media.jutarnji.hr/images/slike/2026/11/05/f_39910720_1280.jpg?1793908132",
   "source": "Sportske novosti",
   "source_topic": "Sport",
   "topics": [
@@ -459,7 +499,7 @@
    22.0,
    61.1
   ],
-  "face_img": "https://media.jutarnji.hr/images/slike/2026/11/05/f_39910720_1280.jpg?1793907801"
+  "face_img": "https://media.jutarnji.hr/images/slike/2026/11/05/f_39910720_1280.jpg?1793908132"
  },
  {
   "title": "Zadar u Subotici odigrao najgoru utakmicu sezone",
@@ -5164,34 +5204,6 @@
    53.3
   ],
   "face_img": "https://cdn-ezadar.net.hr/wp-content/uploads/67ca8a9b148882314c7fcf3361149dda-view_article_new.jpg"
- },
- {
-  "title": "Grad želi znati što se nalazi na 750 adresa na Smiljevcu – stvarno stanje snimat će dronom",
-  "link": "https://ezadar.net.hr/info/3589810/grad-zeli-znati-sto-se-nalazi-na-750-adresa-na-smiljevcu-stvarno-stanje-snimat-ce-dronom/",
-  "date": "2026-11-03T15:22:00+00:00",
-  "summary": "Grad će dronom snimati 750 adresa i provjeravati odgovaraju li podaci o nekretninama stvarnom stanju. Na Smiljevcu će se provjeriti odgovaraju li podaci u evidenciji komunalne naknade stvarnom stanju nekretnina.",
-  "image": "https://cdn-ezadar.net.hr/wp-content/uploads/fc8befd3b0bba639aa772c57989c49f6-view_article_new.jpg",
-  "source": "eZadar",
-  "topics": [
-   "Zadar"
-  ],
-  "source_url": "https://ezadar.net.hr/",
-  "face": null,
-  "face_img": "https://cdn-ezadar.net.hr/wp-content/uploads/fc8befd3b0bba639aa772c57989c49f6-view_article_new.jpg"
- },
- {
-  "title": "Mise se vraćaju u crkvu sv. Krševana! Nadbiskup Zgrablić pozvao Zadrane na povijesno slavlje",
-  "link": "https://zadarskilist.novilist.hr/zadar-zupanija/zadar/mise-se-vracaju-u-crkvu-sv-krsevana-nadbiskup-zgrablic-pozvao-zadrane-na-povijesno-slavlje/",
-  "date": "2026-11-03T15:15:37+00:00",
-  "summary": "Blagdan sv. Krševana, zaštitnika Grada Zadra, ove godine svečano će se proslaviti opet u svojoj naslovnoj crkvi – u crkvi sv. Krševana u Zadru!",
-  "image": "https://zadarskilist.novilist.hr/wp-content/uploads/2024/11/10083378.jpg",
-  "source": "Zadarski list",
-  "topics": [
-   "Zadar"
-  ],
-  "source_url": "https://zadarskilist.novilist.hr/",
-  "face": null,
-  "face_img": "https://zadarskilist.novilist.hr/wp-content/uploads/2024/11/10083378.jpg"
  },
  {
   "title": "Tihi otrov koji ostaje desetljećima: Opasni otpad već je ozbiljan problem Hrvatske, a znanstvenici upozoravaju na još jednu prijetnju koju je iznimno teško ukloniti",
