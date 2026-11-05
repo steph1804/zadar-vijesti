@@ -17,7 +17,7 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-        	<title>Čistoća Zadar - komunalne usluge</title>
+        	<title>Novosti - Čistoća Zadar</title>
         <meta name="description" content="Čuvajmo prirodu. Ostavimo ljepši svijet za buduće naraštaje.">
     <meta name="google-site-verification" content="ia12k0x6JnLuRYtvDmFm6OxyfqLWlopDbaUHP509pA0">
     <link rel="icon" href="https://www.cistoca-zadar.hr/img/favicon.png">
@@ -204,7 +204,6 @@
                   <div id="navbar" class="navbar-collapse collapse">
                     <ul class="nav navbar-nav navbar-right">
                       <li
-                                            	class="active"
                                             ><a href="https://www.cistoca-zadar.hr/">Naslovnica</a></li>
                                             		<li class="
                       		                      			submenu
@@ -368,283 +367,147 @@
             </nav>
             <img class="globe hidden-md hidden-sm hidden-xs" src="https://www.cistoca-zadar.hr/img/globe.gif" alt="">
         </header>
-	        
-        <div id="homeslider" class="carousel slide" data-ride="carousel">
-          <ol class="carousel-indicators">
-          	            	<li data-target="#homeslider" data-slide-to="0" class="active" ><img class="slide1" src="https://www.cistoca-zadar.hr/data/images/image/8746/cistoca_head_thumb/moja-cistoca-banner.jpg" alt=""></li>
-			            	<li data-target="#homeslider" data-slide-to="1" ><img class="slide2" src="https://www.cistoca-zadar.hr/data/images/image/8734/cistoca_head_thumb/glomazni-web-0026_b.jpg" alt=""></li>
-			            	<li data-target="#homeslider" data-slide-to="2" ><img class="slide3" src="https://www.cistoca-zadar.hr/data/images/image/2330/cistoca_head_thumb/mapa.jpg" alt=""></li>
-			            	<li data-target="#homeslider" data-slide-to="3" ><img class="slide4" src="https://www.cistoca-zadar.hr/data/images/image/2329/cistoca_head_thumb/anketa[2].jpg" alt=""></li>
-			            	<li data-target="#homeslider" data-slide-to="4" ><img class="slide5" src="https://www.cistoca-zadar.hr/data/images/image/1098/cistoca_head_thumb/monografija.jpg" alt=""></li>
-			          </ol>
-          <div class="carousel-inner" role="listbox">
-          		            <a href="https://moja.cistoca-zadar.hr/login" class="item active ">
-	              <strong>Nova online usluga - „MOJA ČISTOĆA“</strong>
-	              <h2>Prijavite se i aktivirajte e-Račun</h2>
-	              	              	<img class="slide1" src="https://www.cistoca-zadar.hr/data/images/image/8746/moja-cistoca-banner.jpg" alt="">
-	              	            </a>
-            	            <a href="http://www.cistoca-zadar.hr/usluge-2/zahtjevi-za-odvoz-glomaznog-otpada-68/" class="item ">
-	              <strong></strong>
-	              <h2></h2>
-	              	              	<img class="slide2" src="https://www.cistoca-zadar.hr/data/images/image/8734/glomazni-web-0026_b.jpg" alt="">
-	              	            </a>
-            	            <a href="http://www.cistoca-zadar.hr/interaktivna-karta/" class="item ">
-	              <strong>INTERAKTIVNA KARTA</strong>
-	              <h2>spremnici, reciklažna dvorišta, zeleni otoci....</h2>
-	              	              	<img class="slide3" src="https://www.cistoca-zadar.hr/data/images/image/2330/mapa.jpg" alt="">
-	              	            </a>
-            	            <a href="http://www.cistoca-zadar.hr/usluge-2/anketa-29/" class="item ">
-	              <strong>Anketa</strong>
-	              <h2>Procjenite kvalitetu naših usluga</h2>
-	              	              	<img class="slide4" src="https://www.cistoca-zadar.hr/data/images/image/2329/anketa[2].jpg" alt="">
-	              	            </a>
-            	            <a href="https://issuu.com/cistocazadar/docs/cistoca_zadar_monografija" class="item ">
-	              <strong>MONOGRAFIJA</strong>
-	              <h2>Zadar je lijep koliko je čist</h2>
-	              	              	<img class="slide5" src="https://www.cistoca-zadar.hr/data/images/image/1098/monografija.jpg" alt="">
-	              	            </a>
-                      </div>
-          <!-- 
-          <a class="left carousel-control" href="#homeslider" role="button" data-slide="prev">
-            <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
-            <span class="sr-only">Previous</span>
-          </a>
-          <a class="right carousel-control" href="#homeslider" role="button" data-slide="next">
-            <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
-            <span class="sr-only">Next</span>
-          </a>
-          -->
-        </div><!-- #homeslider carousel -->
-       <div class="content row clearfix">
-        	<section class="calendar">
-            	<h2>Kalendar (raspored) odvoza otpada!</h2>
-                <p>Za pregled kalendara unesite šifru objekta s uplatnice ili upišite prvih nekoliko slova Vaše adrese i odaberite adresu i kućni broj s popisa ponuđenih.</p>
-                <div id="pretraga-form" class="search frontpage-search">
-                    <input id="pretraga-search" class="searchfield" type="text" name="search" placeholder="Unesite adresu ili šifru objekta">
-                    <a class="searchbutton" href="#" title="Prikaži" onclick="otvoriKalendar(); return false;">Prikaži</a>
-                </div>
-                <a class="helpbutton" href="https://www.cistoca-zadar.hr/kontakt/">Trebate pomoć?</a>
-              <ul class="typeselector">
-                	<li class="mijesani"><a href="https://www.cistoca-zadar.hr/usluge-2/odvoz-otpada-21/">Miješani komunalni otpad</a></li>
-                    <li class="polimeri"><a href="https://www.cistoca-zadar.hr/usluge-2/odvoz-polimera-plastike-23/">Polimeri i papir</a></li>
-                    <li class="glomazni"><a href="https://www.cistoca-zadar.hr/usluge-2/glomazni-otpad-22/">Glomazni otpad</a></li>
-                    <li class="odvojeno"><a href="https://www.cistoca-zadar.hr/usluge-2/odvojeno-sakupljanje-otpada-24/">Odvojeno sakupljanje</a></li>
-                </ul>
-            </section>
-        	<div class="news row">
-            	<section class="lastnews col-xs-12 col-sm-8">
-                	<h2 class="clearfix">Novosti <a href="https://www.cistoca-zadar.hr/novosti/novosti-1/" class="arhiva">Arhiva novosti</a></h2>
-                		                    <a class="newsitem col-xs-12 col-sm-6" href="https://www.cistoca-zadar.hr/novosti/novosti-1/radno-vrijeme-reciklaznog-dvorista-diklo-508.html">
-	                    			                    	<img class="img-responsive" src="https://www.cistoca-zadar.hr/data/images/image/novosti_list/2071/naslov.jpeg" alt="">
-		                    	                    	<time datetime="2026-11-05">Objavljeno 5. studenog 2026.</time>
-		                    <h3>RADNO VRIJEME RECIKLAŽNOG DVORIŠTA DIKLO </h3>
-		                    <p>Obavještavamo fizičke osobe s područja Grada Zadra da će reciklažno dvorište u Diklu od ponedjeljka, 9. studenoga 2026. godine, raditi prema sljedećem rasporedu:</p>
+	        <div class="content row clearfix">
+        	<h2 class="maintitle row">
+        	    Novosti        	</h2>
+            <div class="news archive row">
+            	<section class="col-xs-12 autoclear">
+
+            			                    <div class="medianews col-sm-6 col-md-4 col-lg-4 pull-right hidden-xs">
+	                        <h2 class="clearfix">Iz medija <a href="https://www.cistoca-zadar.hr/o-nama-1/iz-medija-16/" class="arhiva">Arhiva</a></h2>
+	                        <div id="mediaslider" class="carousel slide" data-ride="carousel">
+	                          <ul class="mediaitems carousel-inner" role="listbox">
+	                            <li class="item active">
+	                            			                                <a href="https://www.cistoca-zadar.hr/o-nama-1/iz-medija-16/zadarska-cistoca-ustupila-cistilicu-i-vozaca-kao-ispomoc-kolegama-u-splitu-nakon-nevremena-481.html">
+		                                    <time datetime="2025-07-10">10.07.2025.</time>
+		                                    <h3>Zadarska Čistoća ustupila čistilicu i vozača kao ispomoć kolegama u Splitu nakon nevremena</h3>
+		                                </a>
+	                                		                                <a href="https://www.cistoca-zadar.hr/o-nama-1/iz-medija-16/nagradeni-djelatnik-cistoce-josip-jovic-volim-svoj-posao-ni-dana-nisam-bio-na-bolovanju-444.html">
+		                                    <time datetime="2024-02-27">27.02.2024.</time>
+		                                    <h3>Nagrađeni djelatnik Čistoće Josip Jović: Volim svoj posao, ni dana nisam bio na bolovanju!</h3>
+		                                </a>
+	                                		                                <a href="https://www.cistoca-zadar.hr/o-nama-1/iz-medija-16/cistoca-postavila-nove-pametne-kante-po-povijesnoj-jezgri-439.html">
+		                                    <time datetime="2023-11-02">02.11.2023.</time>
+		                                    <h3>Čistoća postavila nove pametne kante po povijesnoj jezgri</h3>
+		                                </a>
+	                                
+	                            </li>
+	                          </ul>
+	                          <!--
+	                          <ol class="carousel-indicators">
+	                            <li data-target="#mediaslider" data-slide-to="0" class="active"></li>
+	                            <li data-target="#mediaslider" data-slide-to="1"></li>
+	                            <li data-target="#mediaslider" data-slide-to="2"></li>
+	                            <li data-target="#mediaslider" data-slide-to="3"></li>
+	                          </ol>
+	                          -->
+	                        </div><!-- #mediaslider carousel -->
+	                    </div>
+                    
+                    	                    <a class="newsitem col-xs-12 col-sm-6 col-md-4 col-lg-4" href="https://www.cistoca-zadar.hr/novosti/novosti-1/radno-vrijeme-reciklaznog-dvorista-diklo-508.html">
+	                    		                    		<img class="img-responsive" src="https://www.cistoca-zadar.hr/data/images/image/novosti_list/2071/naslov.jpeg" alt="">
+	                    		                        <time datetime="2026-11-05">Objavljeno 5. studenog 2026.</time>
+	                        <h3>RADNO VRIJEME RECIKLAŽNOG DVORIŠTA DIKLO </h3>
+	                        <p>Obavještavamo fizičke osobe s područja Grada Zadra da će reciklažno dvorište u Diklu od ponedjeljka, 9. studenoga 2026. godine, raditi prema sljedećem rasporedu:</p>
 	                    </a>
-                    	                    <a class="newsitem col-xs-12 col-sm-6" href="https://www.cistoca-zadar.hr/novosti/novosti-1/obavijest-o-zbrinjavanju-gradevinskog-otpada-i-viska-iskopa-507.html">
-	                    			                    	<img class="img-responsive" src="https://www.cistoca-zadar.hr/data/images/image/novosti_list/2089/1793094251602.jpg" alt="">
-		                    	                    	<time datetime="2026-11-02">Objavljeno 2. studenog 2026.</time>
-		                    <h3>OBAVIJEST O ZBRINJAVANJU GRAĐEVINSKOG OTPADA I VIŠKA ISKOPA</h3>
-		                    <p>Zatvaranjem odlagališta otpada u Diklu obustavljena je mogućnost odlaganja svih vrsta otpada na navedenoj lokaciji.
+                    	                    <a class="newsitem col-xs-12 col-sm-6 col-md-4 col-lg-4" href="https://www.cistoca-zadar.hr/novosti/novosti-1/obavijest-o-zbrinjavanju-gradevinskog-otpada-i-viska-iskopa-507.html">
+	                    		                    		<img class="img-responsive" src="https://www.cistoca-zadar.hr/data/images/image/novosti_list/2089/1793094251602.jpg" alt="">
+	                    		                        <time datetime="2026-11-02">Objavljeno 2. studenog 2026.</time>
+	                        <h3>OBAVIJEST O ZBRINJAVANJU GRAĐEVINSKOG OTPADA I VIŠKA ISKOPA</h3>
+	                        <p>Zatvaranjem odlagališta otpada u Diklu obustavljena je mogućnost odlaganja svih vrsta otpada na navedenoj lokaciji.
 Vezano uz zbrinjavanje građevinskog otpada, građanima su na raspolaganju sljedeće mogućnosti:
 </p>
 	                    </a>
-                                    </section>
-            	<section class="medianews col-xs-12 col-sm-4">
-                	<h2 class="clearfix">Iz medija <a href="https://www.cistoca-zadar.hr/o-nama-1/iz-medija-16/" class="arhiva">Arhiva</a></h2>
-                    <div id="mediaslider" class="carousel slide" data-ride="carousel">
-                      <ul class="mediaitems carousel-inner" role="listbox">
-                        <li class="item active">
-                        		                                <a href="https://www.cistoca-zadar.hr/o-nama-1/iz-medija-16/zadarska-cistoca-ustupila-cistilicu-i-vozaca-kao-ispomoc-kolegama-u-splitu-nakon-nevremena-481.html">
-	                                    <!--<img src="https://www.cistoca-zadar.hr/img/default.png" alt="Zadarski list">-->
-	                                    <time datetime="2025-07-10">10.07.2025.</time>
-	                                    <h3>Zadarska Čistoća ustupila čistilicu i vozača kao ispomoć kolegama u Splitu nakon nevremena</h3>
-	                                </a>
-	                                                             	                                <a href="https://www.cistoca-zadar.hr/o-nama-1/iz-medija-16/nagradeni-djelatnik-cistoce-josip-jovic-volim-svoj-posao-ni-dana-nisam-bio-na-bolovanju-444.html">
-	                                    <!--<img src="https://www.cistoca-zadar.hr/img/default.png" alt="Zadarski list">-->
-	                                    <time datetime="2024-02-27">27.02.2024.</time>
-	                                    <h3>Nagrađeni djelatnik Čistoće Josip Jović: Volim svoj posao, ni dana nisam bio na bolovanju!</h3>
-	                                </a>
-	                                                             	                                <a href="https://www.cistoca-zadar.hr/o-nama-1/iz-medija-16/cistoca-postavila-nove-pametne-kante-po-povijesnoj-jezgri-439.html">
-	                                    <!--<img src="https://www.cistoca-zadar.hr/img/default.png" alt="Zadarski list">-->
-	                                    <time datetime="2023-11-02">02.11.2023.</time>
-	                                    <h3>Čistoća postavila nove pametne kante po povijesnoj jezgri</h3>
-	                                </a>
-	                                	                                	</li>
-                            			<li class="item">
-	                                                             	                                <a href="https://www.cistoca-zadar.hr/o-nama-1/iz-medija-16/cistoca-otvara-podzemne-spremnike-u-ulici-bana-jelacica-a-onda-se-okrecu-prema-podrucju-bilog-briga-vostarnice-brodarice-i-jazina-438.html">
-	                                    <!--<img src="https://www.cistoca-zadar.hr/img/default.png" alt="Zadarski list">-->
-	                                    <time datetime="2023-11-02">02.11.2023.</time>
-	                                    <h3>"Čistoća" otvara podzemne spremnike u Ulici bana Jelačića, a onda se okreću prema području Bilog Briga, Voštarnice, Brodarice i Jazina</h3>
-	                                </a>
-	                                                             	                                <a href="https://www.cistoca-zadar.hr/o-nama-1/iz-medija-16/radnici-cistoce-ocistili-staklene-ploce-na-trgu-petra-zoranica-437.html">
-	                                    <!--<img src="https://www.cistoca-zadar.hr/img/default.png" alt="Zadarski list">-->
-	                                    <time datetime="2023-10-04">04.10.2023.</time>
-	                                    <h3>Radnici Čistoće očistili staklene ploče na Trgu Petra Zoranića </h3>
-	                                </a>
-	                                                             	                                <a href="https://www.cistoca-zadar.hr/o-nama-1/iz-medija-16/sinoc-je-iza-navijacke-ludnice-ostalo-nekoliko-tona-raznoraznog-smeca-jutros-je-trg-unatoc-kisi-osvanuo-kao-po-spagu-435.html">
-	                                    <!--<img src="https://www.cistoca-zadar.hr/img/default.png" alt="Zadarski list">-->
-	                                    <time datetime="2023-06-05">05.06.2023.</time>
-	                                    <h3>Sinoć je iza navijačke ludnice ostalo nekoliko tona raznoraznog smeća. Jutros je Trg, unatoč kiši, osvanuo kao po špagu...</h3>
-	                                </a>
-	                                	                                	</li>
-                            			<li class="item">
-	                                                             	                                <a href="https://www.cistoca-zadar.hr/o-nama-1/iz-medija-16/u-cistoci-se-nadaju-sto-skorijem-preseljenju-u-crno-415.html">
-	                                    <!--<img src="https://www.cistoca-zadar.hr/img/default.png" alt="Zadarski list">-->
-	                                    <time datetime="2022-01-19">19.01.2022.</time>
-	                                    <h3>U Čistoći se nadaju što skorijem preseljenju u Crno</h3>
-	                                </a>
-	                                                             	                                <a href="https://www.cistoca-zadar.hr/o-nama-1/iz-medija-16/kalendar-radnika-zadarske-cistoce-414.html">
-	                                    <!--<img src="https://www.cistoca-zadar.hr/img/default.png" alt="Zadarski list">-->
-	                                    <time datetime="2022-01-17">17.01.2022.</time>
-	                                    <h3>Kalendar radnika zadarske Čistoće</h3>
-	                                </a>
-	                                                             	                                <a href="https://www.cistoca-zadar.hr/o-nama-1/iz-medija-16/akcija-donesi-cep-za-skupi-lijek--za-oboljele-od-leukemije-402.html">
-	                                    <!--<img src="https://www.cistoca-zadar.hr/img/default.png" alt="Zadarski list">-->
-	                                    <time datetime="2021-05-07">07.05.2021.</time>
-	                                    <h3>Akcija "Donesi čep za skupi lijek " za oboljele od leukemije</h3>
-	                                </a>
-	                                	                                	</li>
-                            			<li class="item">
-	                                                             	                                <a href="https://www.cistoca-zadar.hr/o-nama-1/iz-medija-16/cistoca-zadar-o-proljetnom-ciscenju--kako-i-gdje-zbrinuti-glomazni-otpad-394.html">
-	                                    <!--<img src="https://www.cistoca-zadar.hr/img/default.png" alt="Zadarski list">-->
-	                                    <time datetime="2021-03-19">19.03.2021.</time>
-	                                    <h3>ČISTOĆA ZADAR O proljetnom čišćenju – kako i gdje zbrinuti glomazni otpad</h3>
-	                                </a>
-	                                                             	                                <a href="https://www.cistoca-zadar.hr/o-nama-1/iz-medija-16/u-zadru-postavljeno-tisucu-narancastih-spremnika-za-reciklabilni-otpad-392.html">
-	                                    <!--<img src="https://www.cistoca-zadar.hr/img/default.png" alt="Zadarski list">-->
-	                                    <time datetime="2021-03-12">12.03.2021.</time>
-	                                    <h3>U Zadru postavljeno tisuću narančastih spremnika za reciklabilni otpad</h3>
-	                                </a>
-	                                                             	                                <a href="https://www.cistoca-zadar.hr/o-nama-1/iz-medija-16/neki-ljudi-i-dalje-na-ovaj-posao-gledaju-kao-na-sramotu-a-mi-smo-kao-nogometna-ekipa-385.html">
-	                                    <!--<img src="https://www.cistoca-zadar.hr/img/default.png" alt="Zadarski list">-->
-	                                    <time datetime="2021-01-11">11.01.2021.</time>
-	                                    <h3>Neki ljudi i dalje na ovaj posao gledaju kao na sramotu, a mi smo kao nogometna ekipa</h3>
-	                                </a>
-	                                                                                     </li>
-                      </ul>
-                      <ol class="carousel-indicators">
-                        <li data-target="#mediaslider" data-slide-to="0" class="active"></li>
-                        <li data-target="#mediaslider" data-slide-to="1"></li>
-                        <li data-target="#mediaslider" data-slide-to="2"></li>
-                        <li data-target="#mediaslider" data-slide-to="3"></li>
-                      </ol>
-                    </div><!-- #mediaslider carousel -->
-                </section>
-            </div><!-- news -->
-                            <div class="news2 row">
-                	<section class="lastnews col-xs-12">
-                    	    	                    <a class="newsitem col-xs-12 col-sm-4" href="https://www.cistoca-zadar.hr/novosti/novosti-1/obavijest-o-trajnom-zatvaranju-odlagalista-otpada-u-diklu-506.html">
-    	                    	    		                    	<img class="img-responsive" src="https://www.cistoca-zadar.hr/data/images/image/novosti_list/2071/naslov.jpeg" alt="">
-    		                        	                    	<time datetime="2026-10-15">Objavljeno 15. listopada 2026.</time>
-    		                    <h3>OBAVIJEST O TRAJNOM ZATVARANJU ODLAGALIŠTA OTPADA U DIKLU</h3>
-    		                    <p>Obavještavamo građane da se odlagalište otpada u Diklu, sukladno Odluci Grada Zadra, trajno zatvara 31. listopada 2026. godine.</p>
-    	                    </a>
-                            	                    <a class="newsitem col-xs-12 col-sm-4" href="https://www.cistoca-zadar.hr/novosti/novosti-1/upute-za-preuzimanje-glomaznog-otpada-505.html">
-    	                    	    		                    	<img class="img-responsive" src="https://www.cistoca-zadar.hr/data/images/image/novosti_list/2088/glomazni.jpg" alt="">
-    		                        	                    	<time datetime="2026-10-05">Objavljeno 5. listopada 2026.</time>
-    		                    <h3>UPUTE ZA PREUZIMANJE GLOMAZNOG OTPADA</h3>
-    		                    <p>Čistoća d.o.o. omogućuje svojim korisnicima besplatan odvoz glomaznog otpada jednom godišnje do 4 m3. Naručivanje usluge moguće je isključivo putem popunjenog zahtjeva koji možete preuzeti kod nas (Stjepana Radića 33, Zadar) ili na našoj internetskoj stranici.</p>
-    	                    </a>
-                            	                    <a class="newsitem col-xs-12 col-sm-4" href="https://www.cistoca-zadar.hr/novosti/novosti-1/humanitarna-akcija-donesi-cep-za-skupi-lijek-nazalost-prekida-se-zbog-tehnickih-razloga-504.html">
-    	                    	    		                    	<img class="img-responsive" src="https://www.cistoca-zadar.hr/data/images/image/novosti_list/2087/808414644_122176610660962451_1681703044386602486_n.jpg" alt="">
-    		                        	                    	<time datetime="2026-09-14">Objavljeno 14. rujna 2026.</time>
-    		                    <h3>Humanitarna akcija „Donesi čep za skupi lijek“, nažalost prekida se zbog tehničkih razloga</h3>
-    		                    <p>Poštovani sugrađani,
+                    	                    <a class="newsitem col-xs-12 col-sm-6 col-md-4 col-lg-4" href="https://www.cistoca-zadar.hr/novosti/novosti-1/obavijest-o-trajnom-zatvaranju-odlagalista-otpada-u-diklu-506.html">
+	                    		                    		<img class="img-responsive" src="https://www.cistoca-zadar.hr/data/images/image/novosti_list/2071/naslov.jpeg" alt="">
+	                    		                        <time datetime="2026-10-15">Objavljeno 15. listopada 2026.</time>
+	                        <h3>OBAVIJEST O TRAJNOM ZATVARANJU ODLAGALIŠTA OTPADA U DIKLU</h3>
+	                        <p>Obavještavamo građane da se odlagalište otpada u Diklu, sukladno Odluci Grada Zadra, trajno zatvara 31. listopada 2026. godine.</p>
+	                    </a>
+                    	                    <a class="newsitem col-xs-12 col-sm-6 col-md-4 col-lg-4" href="https://www.cistoca-zadar.hr/novosti/novosti-1/upute-za-preuzimanje-glomaznog-otpada-505.html">
+	                    		                    		<img class="img-responsive" src="https://www.cistoca-zadar.hr/data/images/image/novosti_list/2088/glomazni.jpg" alt="">
+	                    		                        <time datetime="2026-10-05">Objavljeno 5. listopada 2026.</time>
+	                        <h3>UPUTE ZA PREUZIMANJE GLOMAZNOG OTPADA</h3>
+	                        <p>Čistoća d.o.o. omogućuje svojim korisnicima besplatan odvoz glomaznog otpada jednom godišnje do 4 m3. Naručivanje usluge moguće je isključivo putem popunjenog zahtjeva koji možete preuzeti kod nas (Stjepana Radića 33, Zadar) ili na našoj internetskoj stranici.</p>
+	                    </a>
+                    	                    <a class="newsitem col-xs-12 col-sm-6 col-md-4 col-lg-4" href="https://www.cistoca-zadar.hr/novosti/novosti-1/humanitarna-akcija-donesi-cep-za-skupi-lijek-nazalost-prekida-se-zbog-tehnickih-razloga-504.html">
+	                    		                    		<img class="img-responsive" src="https://www.cistoca-zadar.hr/data/images/image/novosti_list/2087/808414644_122176610660962451_1681703044386602486_n.jpg" alt="">
+	                    		                        <time datetime="2026-09-14">Objavljeno 14. rujna 2026.</time>
+	                        <h3>Humanitarna akcija „Donesi čep za skupi lijek“, nažalost prekida se zbog tehničkih razloga</h3>
+	                        <p>Poštovani sugrađani,
 humanitarna akcija „Donesi čep za skupi lijek“, koju je Čistoća d.o.o. Zadar pokrenula još 2016. godine, nažalost se prekida zbog tehničkih razloga.
 
 </p>
-    	                    </a>
-                                            </section>
-                </div><!-- news -->
-                        <div class="row no-margin">
-            	<div class="col-xs-12 col-sm-6 col-md-8 clearfix">
-                	<ul class="special clearfix">
-                    	<li class="spectit">
-                        	Izdvojeno
-                        </li>
-                                                    <li>
-                            	<a href="/dostava-oiba/">DOSTAVA OIB-A</a>
-                            </li>
-                                                    <li>
-                            	<a href="/kontakt/">KONTAKTI</a>
-                            </li>
-                                                    <li>
-                            	<a href="/posao/">PRIJAVA ZA POSAO</a>
-                            </li>
-                                                                            <li>
-                            	<a href="https://www.cistoca-zadar.hr/repos/doc/Odluka o nacinu pruzanja javne usluge sakupljanja komunalnog otpada na podrucju Grada Zadra.pdf" class="pdf" target="_blank">Odluka o nacinu pruzanja javne usluge sakupljanja komunalnog otpada na podrucju Grada Zadra.pdf</a>
-                            </li>
-                                                    <li>
-                            	<a href="https://www.cistoca-zadar.hr/repos/doc/CJENIK JAVNE USLUGE SAKUPLJANJA KOMUNALNOG OTPADA NA PODRUCJU GRADA ZADRA U PRIMJENI OD 01.08.2024..pdf" class="pdf" target="_blank">CJENIK JAVNE USLUGE SAKUPLJANJA KOMUNALNOG OTPADA NA PODRUCJU GRADA ZADRA U PRIMJENI OD 01.08.2024..pdf</a>
-                            </li>
-                                                    <li>
-                            	<a href="https://www.cistoca-zadar.hr/repos/doc/VODIC S KRATKIM OBJASNJENJIMA NOVOG SUSTAVA NAPLATE[1].pdf" class="pdf" target="_blank">VODIC S KRATKIM OBJASNJENJIMA NOVOG SUSTAVA NAPLATE.pdf</a>
-                            </li>
-                                                    <li>
-                            	<a href="https://www.cistoca-zadar.hr/repos/doc/Edukativna brosura za gradane.pdf" class="pdf" target="_blank">Edukativna brosura za gradane.pdf</a>
-                            </li>
-                                                    <li>
-                            	<a href="https://www.cistoca-zadar.hr/repos/doc/Informativni letak za gradane.pdf" class="pdf" target="_blank">Informativni letak za gradane.pdf</a>
-                            </li>
-                                                    <li>
-                            	<a href="https://www.cistoca-zadar.hr/repos/doc/Edukativna bojanka za djecu vrticke dobi.pdf" class="pdf" target="_blank">Edukativna bojanka za djecu vrticke dobi.pdf</a>
-                            </li>
-                                
-                    </ul><!-- special -->
-                    
-                    <ul class="special nepravilnosti clearfix">
-                    	<li class="spectit">
-                        	UNUTARNJE PRIJAVLJIVANJE NEPRAVILNOSTI
-                        </li>
-                            <li>
-                            	<p>SAMO ZA ZAPOSLENIKE ČISTOĆE D.O.O. ZADAR</p>
-                            	<a href="https://www.prijave.eu/AdminNepravilnosti/Create?id=be1c73fc-e56d-4408-ad52-86253c864a74" rel="nofollow" target="_blank">
-                            	    <img class="img-responsive" src="https://www.cistoca-zadar.hr/img/layout/prijave-logo.png" alt="Prijave nepravilnosti">
-                            	</a>
-                            </li>
-                    </ul><!-- special -->
-                    
-            </div><!-- col -->
-            	<section class="nabava index col-xs-12 col-sm-6 col-md-4">
-                	<h2 class="clearfix">Javna nabava <a href="https://www.cistoca-zadar.hr/o-nama-1/javna-nabava-17/" class="arhiva">Više</a></h2>
-                	                                    </section>
-                
-                 <!-- natjecaji  -->
-                 
-            	<section class="nabava index col-xs-12 col-sm-6 col-md-4">
-                	<h2 class="clearfix">Javni natječaji <a href="https://www.cistoca-zadar.hr/o-nama-1/javni-natjecaji-83/" class="arhiva">Više</a></h2> 
-                		                    <a href="https://www.cistoca-zadar.hr/javni-natjecaji/odluka-o-odabiru-kandidata--samostalni-referent-za-korisnicku-podrsku-852.html" class="nabavaitem">
-	                    	<time datetime="2026-11-05">2. rujna 2026.</time>
-	                        <h3>ODLUKA O ODABIRU KANDIDATA - SAMOSTALNI REFERENT ZA KORISNIČKU PODRŠKU</h3>
 	                    </a>
-                                        	                    <a href="https://www.cistoca-zadar.hr/javni-natjecaji/odluka-o-odabiru-kandidata--strucni-suradnik-za-korisnicku-podrsku-promidzbu-i-edukaciju-849.html" class="nabavaitem">
-	                    	<time datetime="2026-11-05">14. kolovoza 2026.</time>
-	                        <h3>ODLUKA O ODABIRU KANDIDATA - STRUČNI SURADNIK ZA KORISNIČKU PODRŠKU, PROMIDŽBU I EDUKACIJU</h3>
+                    	                    <a class="newsitem col-xs-12 col-sm-6 col-md-4 col-lg-4" href="https://www.cistoca-zadar.hr/novosti/novosti-1/obavijest-o-promjeni-ljetnog-rasporeda-odvoza-otpada-500.html">
+	                    		                    		<img class="img-responsive" src="https://www.cistoca-zadar.hr/data/images/image/novosti_list/1962/truck003.png" alt="">
+	                    		                        <time datetime="2026-06-19">Objavljeno 19. lipnja 2026.</time>
+	                        <h3>OBAVIJEST O PROMJENI LJETNOG RASPOREDA ODVOZA OTPADA</h3>
+	                        <p>Poštovani korisnici,
+
+obavještavamo vas da će se ljetni raspored odvoza otpada u pjedinim općinama početi primjenjivati od ponedjeljka 29. 6. 2026. godine, a ne od 15. 6. 2026. godine kako je predviđeno rasporedom koji je aktualan na našoj mrežnoj stranici.</p>
 	                    </a>
-                                    </section>  
-            </div><!-- row -->
+                    	                    <a class="newsitem col-xs-12 col-sm-6 col-md-4 col-lg-4" href="https://www.cistoca-zadar.hr/novosti/novosti-1/obavijest-korisnicima-javne-usluge-sakupljanja-komunalnog-otpada-499.html">
+	                    		                    		<img class="img-responsive" src="https://www.cistoca-zadar.hr/data/images/image/novosti_list/1962/truck003.png" alt="">
+	                    		                        <time datetime="2026-06-09">Objavljeno 9. lipnja 2026.</time>
+	                        <h3>Obavijest korisnicima javne usluge sakupljanja komunalnog otpada</h3>
+	                        <p>Poštovani,
+navedena obavijest poslana je svima uz račune, jer je to bio jedini mogući način dostave. 
+</p>
+	                    </a>
+                    	                    <a class="newsitem col-xs-12 col-sm-6 col-md-4 col-lg-4" href="https://www.cistoca-zadar.hr/novosti/novosti-1/obavijest-za-predstavnike-stanara-na-podrucju-grada-zadra-497.html">
+	                    		                    		<img class="img-responsive" src="https://www.cistoca-zadar.hr/data/images/image/novosti_list/2081/brave.png" alt="">
+	                    		                        <time datetime="2026-05-04">Objavljeno 4. svibnja 2026.</time>
+	                        <h3>Obavijest za predstavnike stanara na području Grada Zadra</h3>
+	                        <p>Obavještavamo predstavnike stanara na području Grada Zadra da će od 5. svibnja 2026. evidentičari društva Čistoća d.o.o. započeti s podjelom lokota i ključeva namijenjenih zaštiti spremnika za miješani komunalni otpad (MKO) zapremine 1100 litara.</p>
+	                    </a>
+                    	                    <a class="newsitem col-xs-12 col-sm-6 col-md-4 col-lg-4" href="https://www.cistoca-zadar.hr/novosti/novosti-1/odlaganje-novogodisnjih-borova-i-jelki-489.html">
+	                    		                    		<img class="img-responsive" src="https://www.cistoca-zadar.hr/data/images/image/novosti_list/1285/jelke.jpg" alt="">
+	                    		                        <time datetime="2026-01-07">Objavljeno 7. siječnja 2026.</time>
+	                        <h3>ODLAGANJE NOVOGODIŠNJIH BOROVA I JELKI</h3>
+	                        <p>Poštovani korisnici naših usluga, molimo Vas da pri odlaganju božićnih drvaca slijedite ove naputke:</p>
+	                    </a>
+                    	                    <a class="newsitem col-xs-12 col-sm-6 col-md-4 col-lg-4" href="https://www.cistoca-zadar.hr/novosti/novosti-1/obavijest-korisnicima-488.html">
+	                    		                    		<img class="img-responsive" src="https://www.cistoca-zadar.hr/data/images/image/novosti_list/1702/_009_kamioni_cistoca.JPG" alt="">
+	                    		                        <time datetime="2025-12-23">Objavljeno 23. prosinca 2025.</time>
+	                        <h3>OBAVIJEST KORISNICIMA</h3>
+	                        <p>Poštovani korisnici, u četvrtak 25. prosinca 2025. godine (Božić) i 1. siječnja 2026. godine (Nova godina) Društvo Čistoća d.o.o. neće obavljati uslugu odvoza miješanog komunalnog i reciklabilnog otpada.</p>
+	                    </a>
+                    	                    <a class="newsitem col-xs-12 col-sm-6 col-md-4 col-lg-4" href="https://www.cistoca-zadar.hr/novosti/novosti-1/postanite-clan-naseg-tima-482.html">
+	                    		                    		<img class="img-responsive" src="https://www.cistoca-zadar.hr/data/images/image/novosti_list/1962/truck003.png" alt="">
+	                    		                        <time datetime="2025-09-29">Objavljeno 29. rujna 2025.</time>
+	                        <h3>POSTANITE ČLAN NAŠEG TIMA!</h3>
+	                        <p>Ako želite biti dio motiviranog tima koji ostvaruje izvrsne rezultate, te svojim radom pridonijeti u daljnjem uspjehu organizacije, postanite član našeg tima.</p>
+	                    </a>
+                      
+                </section>
+            </div><!-- news -->
             
-            <div class="row clearfix">
-                <div class="col-xs-12">
-                    <div class="embed-responsive embed-responsive-16by9">
-                        <iframe class="embed-responsive-item" src="https://www.youtube-nocookie.com/embed/lrDJFEfHeGo?rel=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
-                    </div>
-                </div>
-            </div><!-- row -->
+                        <div class="actions row">
+                <ul class="pagination">
 
-            <div class="nabavakarta row clearfix"> 
+                	                    	<li class="prev"><a href="https://www.cistoca-zadar.hr/novosti/novosti-1/"><strong>&larr;</strong> Prethodna</a></li>
+                    
+                    <li
+                                        	class="active"
+                                        ><a href="https://www.cistoca-zadar.hr/novosti/novosti-1/">1</a></li>
 
-                <a href="https://www.cistoca-zadar.hr/interaktivna-karta/" class="interaktivna col-xs-12 col-sm-6 col-md-7 clearfix">
-                	<img class="img-responsive-XX" src="https://www.cistoca-zadar.hr/img/karta.jpg" alt="Interaktivna karta">
-                	<h2>
-                    	Interaktivna karta
-                        <strong>zone, reciklažna dvorišta, reciklažni otoci...</strong>
-                    </h2>
-                </a>
-                <a class="hidden-xs col-sm-6 col-md-5">
-                	<img class="img-responsive" src="https://www.cistoca-zadar.hr/img/layout/naslovna-zeleni-otoci.png" alt="Zeleni otoci">
-                </a>
-            </div><!-- nabavakarta -->
+                    
+                                        	                                        	                                        	                                        	                    		<li
+                    		                    		><a href="https://www.cistoca-zadar.hr/novosti/novosti-1/1/">2</a></li>
+                    	                                        	                    		<li
+                    		                    		><a href="https://www.cistoca-zadar.hr/novosti/novosti-1/2/">3</a></li>
+                    	                    
+                                        	<li class="spacer"><span>. . .</span></li>
+                    
+                    	                    <li
+	                    	                    ><a href="https://www.cistoca-zadar.hr/novosti/novosti-1/29/">30</a></li>
+	                
+					                    	<li class="next"><a href="https://www.cistoca-zadar.hr/novosti/novosti-1/1/">Sljedeća <strong>&rarr;</strong></a></li>
+                    
+                </ul>
+            </div>
+                        
 
             <div class="pubedu row clear clearfix">
     <section class="publikacije col-xs-12 col-sm-4">
@@ -668,8 +531,7 @@ humanitarna akcija „Donesi čep za skupi lijek“, koju je Čistoća d.o.o. Za
     </section>
 </div><!-- edukacija -->
 
-
-   	    </div><!-- content -->
+			</div><!-- content -->
 
     </div><!-- container -->
  	<footer class="footer">
