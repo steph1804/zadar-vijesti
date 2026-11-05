@@ -1,64 +1,65 @@
 {
- "https://www.cistoca-zadar.hr/novosti/novosti-1/": {
+ "https://idassa.click/": {
   "status": 200,
-  "final": "https://www.cistoca-zadar.hr/novosti/novosti-1/",
-  "len": 47219,
-  "ctype": "text/html; charset=UTF-8",
-  "alt": [],
+  "final": "https://idassa.click/",
+  "len": 377163,
+  "ctype": "text/html; charset=utf-8",
+  "alt": [
+   "<link rel=\"alternate\" type=\"application/rss+xml\" title=\"idassa.click – vijesti iz Zadra\" href=\"./feed.xml\">"
+  ],
   "links": [
-   "https://www.cistoca-zadar.hr/data/images/image/novosti_list/1285/jelke.jpg",
-   "https://www.cistoca-zadar.hr/data/images/image/novosti_list/1702/_009_kamioni_cistoca.JPG",
-   "https://www.cistoca-zadar.hr/data/images/image/novosti_list/1962/truck003.png",
-   "https://www.cistoca-zadar.hr/data/images/image/novosti_list/2071/naslov.jpeg",
-   "https://www.cistoca-zadar.hr/data/images/image/novosti_list/2081/brave.png",
-   "https://www.cistoca-zadar.hr/data/images/image/novosti_list/2087/808414644_122176610660962451_1681703044386602486_n.jpg",
-   "https://www.cistoca-zadar.hr/data/images/image/novosti_list/2088/glomazni.jpg",
-   "https://www.cistoca-zadar.hr/data/images/image/novosti_list/2089/1793094251602.jpg",
-   "https://www.cistoca-zadar.hr/img/bulb.png",
-   "https://www.cistoca-zadar.hr/img/layout/TZ-Zadar_ZnakVektor-03.png",
-   "https://www.cistoca-zadar.hr/img/layout/certifikati.png",
-   "https://www.cistoca-zadar.hr/img/layout/eko_doo_logo.png",
-   "https://www.cistoca-zadar.hr/img/layout/pogodipravikos.png",
-   "https://www.cistoca-zadar.hr/img/layout/zadar.png",
-   "https://www.cistoca-zadar.hr/img/layout/zatostovolimzadar.png",
-   "https://www.cistoca-zadar.hr/img/layout/zupanija.png",
-   "https://www.futuro.hr/futuro_weather/IKONE/big_icons/22.png"
+   "https://idassa.click/share.png"
   ],
   "api": [],
   "next": false,
-  "head": "<!DOCTYPE html>\n<html lang=\"hr\">\n  <head>\n      \n    \n\n\t<!-- Google tag (gtag.js) --> \n\t<!--<script async src=\"https://www.googletagmanager.com/gtag/js?id=G-T5KMCFS4KS\"></script>-->\n    <script type=\"text/plain\" data-type=\"application/javascript\" data-src=\"https://www.googletagmanager.com/gtag/js?id",
+  "head": "<!doctype html>\n<html lang=\"hr\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1, viewport-fit=cover\">\n<title>idassa.click – vijesti iz Zadra</title>\n<meta name=\"description\" content=\"Najnovije vijesti iz Zadra i Zadarske županije s lokalnih portala n",
   "items": 0,
   "chan": "",
-  "title": "Novosti - Čistoća Zadar",
-  "osm": []
+  "title": "idassa.click – vijesti iz Zadra",
+  "osm": [
+   "https://zadarskilist.novilist.hr/zadar-zupanija/zupanija/donosimo-raspored-danasnjih-sprovoda-u-zadru-i-zupaniji-55/"
+  ]
  },
- "https://www.cistoca-zadar.hr/novosti/novosti-1/obavijest-o-trajnom-zatvaranju-odlagalista-otpada-u-diklu-506.html": {
+ "https://idassa.click/?v=1": {
   "status": 200,
-  "final": "https://www.cistoca-zadar.hr/novosti/novosti-1/obavijest-o-trajnom-zatvaranju-odlagalista-otpada-u-diklu-506.html",
-  "len": 53374,
-  "ctype": "text/html; charset=UTF-8",
-  "alt": [],
+  "final": "https://idassa.click/?v=1",
+  "len": 377163,
+  "ctype": "text/html; charset=utf-8",
+  "alt": [
+   "<link rel=\"alternate\" type=\"application/rss+xml\" title=\"idassa.click – vijesti iz Zadra\" href=\"./feed.xml\">"
+  ],
   "links": [
-   "https://www.cistoca-zadar.hr/data/images/image/8764/naslov.jpeg",
-   "https://www.cistoca-zadar.hr/data/images/image/novosti_list/2071/naslov.jpeg",
-   "https://www.cistoca-zadar.hr/data/images/image/novosti_list/2089/1793094251602.jpg",
-   "https://www.cistoca-zadar.hr/img/bulb.png",
-   "https://www.cistoca-zadar.hr/img/layout/TZ-Zadar_ZnakVektor-03.png",
-   "https://www.cistoca-zadar.hr/img/layout/certifikati.png",
-   "https://www.cistoca-zadar.hr/img/layout/eko_doo_logo.png",
-   "https://www.cistoca-zadar.hr/img/layout/pogodipravikos.png",
-   "https://www.cistoca-zadar.hr/img/layout/zadar.png",
-   "https://www.cistoca-zadar.hr/img/layout/zatostovolimzadar.png",
-   "https://www.cistoca-zadar.hr/img/layout/zupanija.png",
-   "https://www.futuro.hr/futuro_weather/IKONE/big_icons/22.png",
-   "img/zadarski.png"
+   "https://idassa.click/share.png"
   ],
   "api": [],
   "next": false,
-  "head": "<!DOCTYPE html>\n<html lang=\"hr\">\n  <head>\n      \n    \n\n\t<!-- Google tag (gtag.js) --> \n\t<!--<script async src=\"https://www.googletagmanager.com/gtag/js?id=G-T5KMCFS4KS\"></script>-->\n    <script type=\"text/plain\" data-type=\"application/javascript\" data-src=\"https://www.googletagmanager.com/gtag/js?id",
+  "head": "<!doctype html>\n<html lang=\"hr\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1, viewport-fit=cover\">\n<title>idassa.click – vijesti iz Zadra</title>\n<meta name=\"description\" content=\"Najnovije vijesti iz Zadra i Zadarske županije s lokalnih portala n",
   "items": 0,
   "chan": "",
-  "title": "OBAVIJEST O TRAJNOM ZATVARANJU ODLAGALIŠTA OTPADA U DIKLU - Čistoća Zadar",
-  "osm": []
+  "title": "idassa.click – vijesti iz Zadra",
+  "osm": [
+   "https://zadarskilist.novilist.hr/zadar-zupanija/zupanija/donosimo-raspored-danasnjih-sprovoda-u-zadru-i-zupaniji-55/"
+  ]
+ },
+ "https://steph1804.github.io/zadar-vijesti/": {
+  "status": 200,
+  "final": "https://idassa.click/",
+  "len": 377163,
+  "ctype": "text/html; charset=utf-8",
+  "alt": [
+   "<link rel=\"alternate\" type=\"application/rss+xml\" title=\"idassa.click – vijesti iz Zadra\" href=\"./feed.xml\">"
+  ],
+  "links": [
+   "https://idassa.click/share.png"
+  ],
+  "api": [],
+  "next": false,
+  "head": "<!doctype html>\n<html lang=\"hr\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1, viewport-fit=cover\">\n<title>idassa.click – vijesti iz Zadra</title>\n<meta name=\"description\" content=\"Najnovije vijesti iz Zadra i Zadarske županije s lokalnih portala n",
+  "items": 0,
+  "chan": "",
+  "title": "idassa.click – vijesti iz Zadra",
+  "osm": [
+   "https://zadarskilist.novilist.hr/zadar-zupanija/zupanija/donosimo-raspored-danasnjih-sprovoda-u-zadru-i-zupaniji-55/"
+  ]
  }
 }
