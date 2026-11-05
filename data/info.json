@@ -36,42 +36,6 @@
  ],
  "flights": [
   {
-   "dir": "dolazak",
-   "flight": "OU674",
-   "airline": "Croatia Airlines",
-   "city": "Zagreb",
-   "via": "",
-   "time": "2026-11-05T14:55:00",
-   "est": "2026-11-05T14:53:00",
-   "act": "",
-   "status": "",
-   "gate": ""
-  },
-  {
-   "dir": "odlazak",
-   "flight": "OU674",
-   "airline": "Croatia Airlines",
-   "city": "Zagreb",
-   "via": "Pula",
-   "time": "2026-11-05T15:20:00",
-   "est": "2026-11-05T15:20:00",
-   "act": "",
-   "status": "",
-   "gate": "05"
-  },
-  {
-   "dir": "dolazak",
-   "flight": "OU675",
-   "airline": "Croatia Airlines",
-   "city": "Zagreb",
-   "via": "Pula",
-   "time": "2026-11-05T23:00:00",
-   "est": "2026-11-05T23:00:00",
-   "act": "",
-   "status": "",
-   "gate": ""
-  },
-  {
    "dir": "odlazak",
    "flight": "OU4674",
    "airline": "Croatia Airlines",
@@ -121,54 +85,6 @@
   }
  ],
  "power": [
-  {
-   "day": "05.11.2026",
-   "place": "Šopot",
-   "street": "",
-   "note": "Derete (kvar dalekovoda)",
-   "time": "19:00 - 23:59",
-   "unplanned": true
-  },
-  {
-   "day": "05.11.2026",
-   "place": "Podlug",
-   "street": "",
-   "note": "dio mjesta (kvar dalekovoda)",
-   "time": "19:00 - 23:59",
-   "unplanned": true
-  },
-  {
-   "day": "05.11.2026",
-   "place": "Ražanac",
-   "street": "12 ulica",
-   "note": "Povremeni prekidi",
-   "time": "08:00 - 10:00",
-   "unplanned": false
-  },
-  {
-   "day": "05.11.2026",
-   "place": "Ražanac",
-   "street": "8 ulica",
-   "note": "Povremeni prekidi",
-   "time": "12:00 - 14:00",
-   "unplanned": false
-  },
-  {
-   "day": "05.11.2026",
-   "place": "Miletići",
-   "street": "Cijelo mjesto",
-   "note": "",
-   "time": "08:00 - 13:00",
-   "unplanned": false
-  },
-  {
-   "day": "05.11.2026",
-   "place": "Ražanac",
-   "street": "7 ulica",
-   "note": "Povremeni prekidi",
-   "time": "10:00 - 12:00",
-   "unplanned": false
-  },
   {
    "day": "06.11.2026",
    "place": "Šopot",
@@ -228,7 +144,48 @@
    "text": "Zbog radova na vodoopskrbnom sustavu, u utorak 03. 11. 2026., u vremenu od 08:00 do 14:00 sati, opskrba vodom će biti privremeno obustavljena u gradu Zadru, u sljedećim ulicama:  • Nikole Jurišića  • Matije Škarića  • Zlatka Balokovića  • Stjepana Miletića  • Sidonije Rubido  • Albine Nagy  • Franje Krežme  • Vojmira Rabadana  • Julija Benešića  • Slavka Batušića"
   }
  ],
- "reddit": null,
+ "reddit": [
+  {
+   "title": "Susjedi",
+   "link": "https://www.reddit.com/r/Zadar/comments/1xotb0s/susjedi/",
+   "date": "2026-11-05T20:26:33+00:00"
+  },
+  {
+   "title": "Kaljeva peć",
+   "link": "https://www.reddit.com/r/Zadar/comments/1xor57x/kaljeva_peć/",
+   "date": "2026-11-05T19:01:28+00:00"
+  },
+  {
+   "title": "Pjesma o poštaru",
+   "link": "https://www.reddit.com/r/Zadar/comments/1xonwb7/pjesma_o_poštaru/",
+   "date": "2026-11-05T16:59:33+00:00"
+  },
+  {
+   "title": "Preporuke za popravak klime",
+   "link": "https://www.reddit.com/r/Zadar/comments/1xoitw2/preporuke_za_popravak_klime/",
+   "date": "2026-11-05T13:37:02+00:00"
+  },
+  {
+   "title": "Cijene elektromaterijala",
+   "link": "https://www.reddit.com/r/Zadar/comments/1xohj9w/cijene_elektromaterijala/",
+   "date": "2026-11-05T12:35:01+00:00"
+  },
+  {
+   "title": "Prebacivanje gyms4you ugovora",
+   "link": "https://www.reddit.com/r/Zadar/comments/1xoh8q0/prebacivanje_gyms4you_ugovora/",
+   "date": "2026-11-05T12:19:50+00:00"
+  },
+  {
+   "title": "Čistoća krade na odvozu smeća",
+   "link": "https://www.reddit.com/r/Zadar/comments/1xoc54f/čistoća_krade_na_odvozu_smeća/",
+   "date": "2026-11-05T07:00:16+00:00"
+  },
+  {
+   "title": "Meštar za centralno grijanje",
+   "link": "https://www.reddit.com/r/Zadar/comments/1xnwatk/meštar_za_centralno_grijanje/",
+   "date": "2026-11-04T18:45:46+00:00"
+  }
+ ],
  "retro": [
   {
    "title": "2. studenoga 1943.: Zadar u zapisima nakon bombardiranja",
