@@ -1,65 +1,43 @@
 {
- "https://idassa.click/": {
-  "status": 200,
-  "final": "https://idassa.click/",
-  "len": 377163,
-  "ctype": "text/html; charset=utf-8",
-  "alt": [
-   "<link rel=\"alternate\" type=\"application/rss+xml\" title=\"idassa.click – vijesti iz Zadra\" href=\"./feed.xml\">"
-  ],
-  "links": [
-   "https://idassa.click/share.png"
-  ],
-  "api": [],
-  "next": false,
-  "head": "<!doctype html>\n<html lang=\"hr\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1, viewport-fit=cover\">\n<title>idassa.click – vijesti iz Zadra</title>\n<meta name=\"description\" content=\"Najnovije vijesti iz Zadra i Zadarske županije s lokalnih portala n",
-  "items": 0,
-  "chan": "",
-  "title": "idassa.click – vijesti iz Zadra",
-  "osm": [
-   "https://zadarskilist.novilist.hr/zadar-zupanija/zupanija/donosimo-raspored-danasnjih-sprovoda-u-zadru-i-zupaniji-55/"
-  ]
+ "https://idassa.click/reset/": {
+  "err": "<HTTPError 404: 'Not Found'>",
+  "hdr": {
+   "Connection": "close",
+   "Content-Length": "9379",
+   "Server": "GitHub.com",
+   "Content-Type": "text/html; charset=utf-8",
+   "Access-Control-Allow-Origin": "*",
+   "ETag": "\"6abcf5c5-24a3\"",
+   "Content-Security-Policy": "default-src 'none'; style-src 'unsafe-inline'; img-src data:; connect-src 'self'",
+   "x-proxy-cache": "MISS",
+   "X-GitHub-Request-Id": "1A6A:20F549:194B1F3:1BA4A9A:6AEC4D22",
+   "x-github-edge-region": "iad",
+   "Accept-Ranges": "bytes",
+   "Age": "0",
+   "Date": "Thu, 05 Nov 2026 09:32:19 GMT",
+   "Via": "1.1 varnish",
+   "X-Served-By": "cache-chi-kmdw8640036-CHI",
+   "X-Cache": "MISS",
+   "X-Cache-Hits": "0",
+   "X-Timer": "S1793871139.210824,VS0,VE51",
+   "Vary": "Accept-Encoding",
+   "X-Fastly-Request-ID": "4303c6a9bedd67355d651568cf8c903ae91a7d3f"
+  },
+  "body": "<!DOCTYPE html>\n<html>\n  <head>\n    <meta http-equiv=\"Content-type\" content=\"text/html; charset=utf-8\">\n    <meta http-equiv=\"Content-Security-Policy\" content=\"default-src 'none'; style-src 'unsafe-inline'; img-src data:; connect-src 'self'\">\n    <title>Page not found &middot; GitHub Pages</title>\n    <style type=\"text/css\" media=\"screen\">\n      body {\n        background-color: #f1f1f1;\n        ma"
  },
- "https://idassa.click/?v=1": {
+ "https://idassa.click/sw.js": {
   "status": 200,
-  "final": "https://idassa.click/?v=1",
-  "len": 377163,
-  "ctype": "text/html; charset=utf-8",
-  "alt": [
-   "<link rel=\"alternate\" type=\"application/rss+xml\" title=\"idassa.click – vijesti iz Zadra\" href=\"./feed.xml\">"
-  ],
-  "links": [
-   "https://idassa.click/share.png"
-  ],
+  "final": "https://idassa.click/sw.js",
+  "len": 1327,
+  "ctype": "application/javascript; charset=utf-8",
+  "alt": [],
+  "links": [],
   "api": [],
   "next": false,
-  "head": "<!doctype html>\n<html lang=\"hr\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1, viewport-fit=cover\">\n<title>idassa.click – vijesti iz Zadra</title>\n<meta name=\"description\" content=\"Najnovije vijesti iz Zadra i Zadarske županije s lokalnih portala n",
+  "head": "// Uvijek prvo mreža; spremljena kopija služi samo kad nema veze (npr. na trajektu).\n// Sprema se jedna kopija po stranici, bez ?v=/?r= oznaka (inače bi se svaka provjera\n// svježine spremala zasebno i memorija bi rasla). v2 briše stare, napuhane spremnike.\nconst CACHE = \"idassa-v2\";\n\nself.addEventL",
   "items": 0,
   "chan": "",
-  "title": "idassa.click – vijesti iz Zadra",
-  "osm": [
-   "https://zadarskilist.novilist.hr/zadar-zupanija/zupanija/donosimo-raspored-danasnjih-sprovoda-u-zadru-i-zupaniji-55/"
-  ]
- },
- "https://steph1804.github.io/zadar-vijesti/": {
-  "status": 200,
-  "final": "https://idassa.click/",
-  "len": 377163,
-  "ctype": "text/html; charset=utf-8",
-  "alt": [
-   "<link rel=\"alternate\" type=\"application/rss+xml\" title=\"idassa.click – vijesti iz Zadra\" href=\"./feed.xml\">"
-  ],
-  "links": [
-   "https://idassa.click/share.png"
-  ],
-  "api": [],
-  "next": false,
-  "head": "<!doctype html>\n<html lang=\"hr\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1, viewport-fit=cover\">\n<title>idassa.click – vijesti iz Zadra</title>\n<meta name=\"description\" content=\"Najnovije vijesti iz Zadra i Zadarske županije s lokalnih portala n",
-  "items": 0,
-  "chan": "",
-  "title": "idassa.click – vijesti iz Zadra",
-  "osm": [
-   "https://zadarskilist.novilist.hr/zadar-zupanija/zupanija/donosimo-raspored-danasnjih-sprovoda-u-zadru-i-zupaniji-55/"
-  ]
+  "title": "",
+  "osm": []
  }
 }
