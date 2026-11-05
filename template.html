@@ -1101,6 +1101,10 @@ async function checkFresh() {
     const r = await fetch(location.pathname + "?v=" + Date.now(), { cache: "no-store" });
     const m = (await r.text()).match(/"updated": "([^"]+)"\}/);
     if (m && new Date(m[1]) > new Date(DATA.updated)) {
+      // zaštita od petlje: najviše jedno osvježavanje u minuti
+      let last = 0;
+      try { last = +sessionStorage.getItem("reloadAt") || 0; sessionStorage.setItem("reloadAt", Date.now()); } catch (e) {}
+      if (Date.now() - last < 60e3) return;
       try { sessionStorage.setItem("pos", JSON.stringify({ path: location.pathname, y: scrollY, shown: state.shown, t: Date.now() })); } catch (e) {}
       location.replace(location.pathname + "?r=" + Date.now() + location.hash);
     }
