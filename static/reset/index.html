@@ -1,0 +1,18 @@
+<!doctype html>
+<html lang="hr"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="robots" content="noindex"><title>Čišćenje – idassa.click</title>
+<style>body{margin:0;font:18px/1.5 system-ui,sans-serif;background:#fff;color:#14213d;padding:32px 20px}a{color:#1765c0;font-weight:700}</style>
+</head><body>
+<p id="m">Brišem spremljenu kopiju stranice…</p>
+<script>
+(async () => {
+  const m = document.getElementById("m");
+  try { const regs = await navigator.serviceWorker.getRegistrations(); await Promise.all(regs.map(r => r.unregister())); } catch (e) {}
+  try { const keys = await caches.keys(); await Promise.all(keys.map(k => caches.delete(k))); } catch (e) {}
+  try { sessionStorage.clear(); } catch (e) {}
+  try { localStorage.removeItem("themeChoice"); } catch (e) {}
+  m.innerHTML = 'Gotovo. <a href="/?r=' + Date.now() + '">Otvori idassa.click</a>';
+  setTimeout(() => location.replace("/?r=" + Date.now()), 1500);
+})();
+</script>
+</body></html>
