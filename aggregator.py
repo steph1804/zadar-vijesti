@@ -213,6 +213,12 @@ def og_meta(url):
         c = _CONTENT.search(m.group(0))
         if c:
             image = urllib.parse.urljoin(final, html.unescape(c.group(1)))
+    if not image:
+        # WordPress bez og:image (npr. Opća bolnica): istaknuta slika članka ima klasu wp-post-image
+        m = re.search(r'<img\b[^>]*\bwp-post-image\b[^>]*>', page)
+        c = m and re.search(r'\ssrc="([^"]+)"', m.group(0))
+        if c:
+            image = urllib.parse.urljoin(final, html.unescape(c.group(1)))
     m = _OG_DESC.search(page)
     if m:
         c = _CONTENT.search(m.group(0))
