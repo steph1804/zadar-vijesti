@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-06T14:15:48.199841+00:00",
+ "updated": "2026-11-06T14:31:03.897360+00:00",
  "sources": [
   {
    "name": "Antena Zadar",
@@ -24,14 +24,14 @@
   },
   {
    "name": "Znet",
-   "count": 7,
+   "count": 6,
    "ok": true,
    "feed": null,
    "errors": []
   },
   {
    "name": "eZadar",
-   "count": 22,
+   "count": 23,
    "ok": true,
    "feed": null,
    "errors": []
@@ -68,10 +68,12 @@
   },
   {
    "name": "Naši školji",
-   "count": 10,
-   "ok": true,
+   "count": 0,
+   "ok": false,
    "feed": null,
-   "errors": []
+   "errors": [
+    "https://www.nasiskolji.hr/feed/: <urlopen error timed out>"
+   ]
   },
   {
    "name": "Grad Zadar",
@@ -110,7 +112,7 @@
   },
   {
    "name": "Opća bolnica Zadar",
-   "count": 5,
+   "count": 3,
    "ok": true,
    "feed": null,
    "errors": []
@@ -145,7 +147,7 @@
   },
   {
    "name": "Index.hr",
-   "count": 2,
+   "count": 1,
    "ok": true,
    "feed": null,
    "errors": []
