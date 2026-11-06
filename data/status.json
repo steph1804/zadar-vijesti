@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-06T18:01:18.148909+00:00",
+ "updated": "2026-11-06T18:15:45.417425+00:00",
  "sources": [
   {
    "name": "Antena Zadar",
@@ -68,12 +68,10 @@
   },
   {
    "name": "Naši školji",
-   "count": 0,
-   "ok": false,
+   "count": 10,
+   "ok": true,
    "feed": null,
-   "errors": [
-    "https://www.nasiskolji.hr/feed/: <urlopen error timed out>"
-   ]
+   "errors": []
   },
   {
    "name": "Grad Zadar",
@@ -259,12 +257,10 @@
   },
   {
    "name": "Nacional",
-   "count": 0,
-   "ok": false,
+   "count": 30,
+   "ok": true,
    "feed": null,
-   "errors": [
-    "https://www.nacional.hr/?s=zadar&feed=rss2: IncompleteRead(0 bytes read)"
-   ]
+   "errors": []
   },
   {
    "name": "Hrvatska danas",
