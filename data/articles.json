@@ -1,5 +1,36 @@
 [
  {
+  "title": "Upozorenje građanima na lažno predstavljanje te pokušaje prijevare putem telefonskih poziva",
+  "link": "https://zadarska-policija.gov.hr/vijesti/upozorenje-gradjanima-na-lazno-predstavljanje-te-pokusaje-prijevare-putem-telefonskih-poziva-18820/18820",
+  "date": "2026-11-06T09:31:02.086360+00:00",
+  "summary": "Upozoravamo kako telefonske pozive osoba koje traže podatke vaših bankovnih računa ne upućuje policija već se radi o osobama- prevarantima koji se lažno predstavljaju kao službenici banke ili policije",
+  "image": "https://zadarska-policija.gov.hr/UserDocsImages//2024/POLICIJA/369.jpg",
+  "source": "Policija Zadar",
+  "topics": [],
+  "source_url": "https://zadarska-policija.gov.hr/vijesti/8",
+  "face": null,
+  "face_img": "https://zadarska-policija.gov.hr/UserDocsImages//2024/POLICIJA/369.jpg"
+ },
+ {
+  "title": "Zadranka krenula prodati auto pa je snervali oglasi za stanove: ‘Jadni studenti, a tek obitelji!‘; Razumjet ćete je...",
+  "link": "https://slobodnadalmacija.hr/dalmacija/zadar/zadranka-krenula-prodati-auto-pa-je-snervali-oglasi-za-stanove-jadni-studenti-a-tek-obitelji-razumjet-cete-je-1588811",
+  "date": "2026-11-06T09:21:00+00:00",
+  "summary": "Zadranka Loreta Bačić vjerojatno nije ni slutila da će je pokušaj prodaje vozila putem popularne platforme Marketplace odvesti u sasvim dugom smjeru i uzrokovati joj skroz neočekivano živciranje. Iako je krenula prodati svoj stari automobil, pažnju su joj zaokupili oglasi za iznajmljivanje stanova,...",
+  "image": "https://static.slobodnadalmacija.hr/images/slike/2026/11/05/32805474.png",
+  "source": "Slobodna Dalmacija/Zadar",
+  "topics": [
+   "Zadar"
+  ],
+  "source_url": "https://slobodnadalmacija.hr/dalmacija/zadar",
+  "face": [
+   3.3,
+   82.8,
+   55.4,
+   87.9
+  ],
+  "face_img": "https://static.slobodnadalmacija.hr/images/slike/2026/11/05/32805474.png"
+ },
+ {
   "title": "Na Pagu pokušao ubiti mladića kuhinjskim nožem, podignuta optužnica",
   "link": "https://www.morski.hr/na-pagu-pokusao-ubiti-mladica-kuhinjskim-nozem-podignuta-optuznica/",
   "date": "2026-11-06T09:09:45+00:00",
@@ -67,6 +98,20 @@
    63.5
   ],
   "face_img": "https://www.nacional.hr/wp-content/uploads/2026/11/Ana-i-Krsto-Matulic-3.jpg"
+ },
+ {
+  "title": "Čistoća objavila nevjerojatan prizor iz zadarske ulice: ‘Je li ovo bunar želja ili nova lokalna deponija?’",
+  "link": "https://zadarskilist.novilist.hr/zadar-zupanija/zadar/cistoca-objavila-nevjerojatan-prizor-iz-zadarske-ulice-je-li-ovo-bunar-zelja-ili-nova-lokalna-deponija/",
+  "date": "2026-11-06T08:50:46+00:00",
+  "summary": "Je li ovo kameni bunar želja ili nova lokalna deponija?, pitaju se iz zadarske Čistoće uz fotografiju kamenog kućišta u Ulici Tomislava Ivčića, gdje nesavjesni građani često bacaju svoj otpad, umjesto da ga besplatno odlože na za to predviđenim lokacijama. – Zahvaljujemo zabrinutom sugrađaninu na fotografiji koja…",
+  "image": "https://zadarskilist.novilist.hr/wp-content/uploads/2026/11/891772280_122184377144962451_5051338293362983204_n-e1793952360926.jpg",
+  "source": "Zadarski list",
+  "topics": [
+   "Zadar"
+  ],
+  "source_url": "https://zadarskilist.novilist.hr/",
+  "face": null,
+  "face_img": "https://zadarskilist.novilist.hr/wp-content/uploads/2026/11/891772280_122184377144962451_5051338293362983204_n-e1793952360926.jpg"
  },
  {
   "title": "SVAKA ČAST! Nije u oporbi, a kritizirao je stanje prometnica; Mate Marić (HDZ): “Na pojedinim mikrolokacijama došlo je do propadanja asfalta, oštećenja kolnika i problema oko šahtova”",
@@ -278,7 +323,7 @@
   "link": "https://www.jutarnji.hr/vijesti/crna-kronika/svada-na-pagu-prerasla-u-krvavi-obracun-mladicu-21-zario-noz-u-prsa-dok-je-lezao-na-kaucu-15762909",
   "date": "2026-11-06T08:03:58+00:00",
   "summary": "Četiri mjeseca od svirepog pokušaja ubojstva 21-godišnjaka u Mandrama na otoku Pagu, Županijsko državno odvjetništvo je podignulo optužnicu protiv 36-godišnjeg muškarca. Riječ je o zločinu od 9. srpnja u jutarnjim satima koji je usred turističke sezone uznemirio žitelje i turiste. Kako je otkriveno...",
-  "image": "https://media.jutarnji.hr/images/slike/2026/11/06/f_39417286_1280.jpg?1793956599",
+  "image": "https://media.jutarnji.hr/images/slike/2026/11/06/f_39417286_1280.jpg?1793957430",
   "source": "Jutarnji list",
   "topics": [
    "Otoci"
@@ -290,7 +335,7 @@
    58.2,
    63.5
   ],
-  "face_img": "https://media.jutarnji.hr/images/slike/2026/11/06/f_39417286_1280.jpg?1793956599"
+  "face_img": "https://media.jutarnji.hr/images/slike/2026/11/06/f_39417286_1280.jpg?1793957430"
  },
  {
   "title": "Šopot - dovršen očevid požara u skladištu",
@@ -5131,55 +5176,6 @@
    83.3
   ],
   "face_img": "https://www.antenazadar.hr/wp-content/uploads/2026/11/NK-Abeceda-scaled.jpg"
- },
- {
-  "title": "U Svetom Filipu i Jakovu uređuje se plaža Iza Banja, gradi se i nova obalna šetnica",
-  "link": "https://ezadar.net.hr/info/3589804/u-svetom-filipu-i-jakovu-ureduje-se-plaza-iza-banja-gradi-se-i-nova-obalna-setnica/",
-  "date": "2026-11-04T08:00:00+00:00",
-  "summary": "Plaža Iza Banja dobiva novo lice: Počinje uređenje vrijedno više od 215 tisuća eura Plaža Iza Banja u Svetom Filipu i Jakovu ulazi u prvu fazu uređenja. Općina je potpisala",
-  "image": "https://cdn-ezadar.net.hr/wp-content/uploads/886895616_974409975743252_527235510337424085_n-fca39ab62790656bb39c3192-1052x696.jpg",
-  "source": "eZadar",
-  "topics": [
-   "Županija"
-  ],
-  "source_url": "https://ezadar.net.hr/",
-  "face": [
-   27.7,
-   52.9,
-   26.8,
-   81.9
-  ],
-  "face_img": "https://cdn-ezadar.net.hr/wp-content/uploads/886895616_974409975743252_527235510337424085_n-fca39ab62790656bb39c3192-1052x696.jpg"
- },
- {
-  "title": "Domaća spiza, peka i mlado maslinovo ulje: 17 domaćina otvara vrata, evo što nude po posebnim cijenama",
-  "link": "https://ezadar.net.hr/biznis/3589867/domaca-spiza-peka-i-mlado-maslinovo-ulje-17-domacina-otvara-vrata-evo-sto-nude-po-posebnim-cijenama/",
-  "date": "2026-11-04T07:52:57+00:00",
-  "summary": "Ručak s pekom za 20 eura, degustacije i popusti: Evo kamo možete u studenom Turistička zajednica Zadarske županije u studenom organizira manifestaciju „Mjesec domaćih okusa” u kojoj lokalni proizvođači Zadarske",
-  "image": "https://cdn-ezadar.net.hr/wp-content/uploads/PXL_190825_136981588-1052x696.jpg",
-  "source": "eZadar",
-  "topics": [
-   "Zadar",
-   "Županija"
-  ],
-  "source_url": "https://ezadar.net.hr/",
-  "face": null,
-  "face_img": "https://cdn-ezadar.net.hr/wp-content/uploads/PXL_190825_136981588-1052x696.jpg"
- },
- {
-  "title": "Ovakvo nešto ne postoji nigdje drugdje u Hrvatskoj: Pacijenti Psihijatrijske bolnice Ugljan izlaze na kazališnu pozornicu!",
-  "link": "https://zadarskilist.novilist.hr/ostalo/kultura/ovakvo-nesto-ne-postoji-nigdje-drugdje-u-hrvatskoj-pacijenti-psihijatrijske-bolnice-ugljan-izlaze-na-kazalisnu-pozornicu/",
-  "date": "2026-11-04T07:50:16+00:00",
-  "summary": "Šest mjeseci ideja, pisanja, improvizacija i zajedničkog stvaranja oblikovalo se u cjelovitu scensku izvedbu. Sada je vrijeme da taj rad susretne svoju publiku.",
-  "image": "https://zadarskilist.novilist.hr/wp-content/uploads/2026/11/10672017.jpg",
-  "source": "Zadarski list",
-  "topics": [
-   "Zadar",
-   "Otoci"
-  ],
-  "source_url": "https://zadarskilist.novilist.hr/",
-  "face": null,
-  "face_img": "https://zadarskilist.novilist.hr/wp-content/uploads/2026/11/10672017.jpg"
  },
  {
   "title": "Zadar i okolica uživaju u suncu do nedjelje, a potom nastupa kišno razdoblje",
