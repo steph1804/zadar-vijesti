@@ -36,96 +36,43 @@
  ],
  "flights": [
   {
-   "dir": "odlazak",
-   "flight": "OU4674",
-   "airline": "Croatia Airlines",
-   "city": "Munich",
-   "via": "",
-   "time": "2026-11-06T06:30:00",
-   "est": "2026-11-06T06:30:00",
-   "act": "2026-11-06T06:18:30",
-   "status": "Departed",
-   "gate": "05"
-  },
-  {
    "dir": "dolazak",
-   "flight": "OU4675",
-   "airline": "Croatia Airlines",
-   "city": "Munich",
-   "via": "",
-   "time": "2026-11-06T15:10:00",
-   "est": "2026-11-06T15:10:00",
-   "act": "",
-   "status": "",
-   "gate": ""
-  },
-  {
-   "dir": "odlazak",
-   "flight": "OU674",
+   "flight": "OU634",
    "airline": "Croatia Airlines",
    "city": "Zagreb",
    "via": "Pula",
-   "time": "2026-11-06T15:40:00",
-   "est": "2026-11-06T15:40:00",
+   "time": "2026-11-08T15:50:00",
+   "est": "2026-11-08T15:50:00",
+   "act": "",
+   "status": "",
+   "gate": ""
+  },
+  {
+   "dir": "odlazak",
+   "flight": "OU634",
+   "airline": "Croatia Airlines",
+   "city": "Zagreb",
+   "via": "",
+   "time": "2026-11-08T16:20:00",
+   "est": "2026-11-08T16:20:00",
    "act": "",
    "status": "",
    "gate": ""
   },
   {
    "dir": "dolazak",
-   "flight": "HBLWW",
-   "airline": "Nepoznati Prijevoznik",
-   "city": "Bern",
-   "via": "",
-   "time": "2026-11-06T16:00:00",
-   "est": "2026-11-06T16:00:00",
+   "flight": "OU675",
+   "airline": "Croatia Airlines",
+   "city": "Zagreb",
+   "via": "Pula",
+   "time": "2026-11-08T23:00:00",
+   "est": "2026-11-08T23:00:00",
    "act": "",
    "status": "",
    "gate": ""
   }
  ],
- "power": [
-  {
-   "day": "06.11.2026",
-   "place": "Šopot",
-   "street": "",
-   "note": "Derete (kvar dalekovoda)",
-   "time": "00:00 - 09:00",
-   "unplanned": true
-  },
-  {
-   "day": "06.11.2026",
-   "place": "Jasenice",
-   "street": "",
-   "note": "cijelo mjesto - popravak kvara na dalekovodu",
-   "time": "08:30 - 09:30",
-   "unplanned": true
-  },
-  {
-   "day": "06.11.2026",
-   "place": "Podlug",
-   "street": "",
-   "note": "dio mjesta (kvar dalekovoda)",
-   "time": "00:00 - 09:00",
-   "unplanned": true
-  },
-  {
-   "day": "06.11.2026",
-   "place": "Privlaka",
-   "street": "Predio Punta i južni dio predjela Mletak",
-   "note": "",
-   "time": "08:30 - 14:30",
-   "unplanned": false
-  },
-  {
-   "day": "06.11.2026",
-   "place": "Tkon",
-   "street": "Predio oko trajektne luke",
-   "note": "",
-   "time": "09:00 - 13:00",
-   "unplanned": false
-  }
- ],
+ "power": [],
  "water": [
   {
    "day": "2026-11-06",

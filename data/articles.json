@@ -702,32 +702,6 @@
   "face_img": "https://api.hrt.hr/media/aa/eb/slavonia-band-advent-u-zadru-2122018-foto-iva-perincic-31-1600-1068-20221122143701.webp"
  },
  {
-  "title": "Na biogradskom području policija oduzela automatsko i lovačko oružje",
-  "link": "https://zadarska-policija.gov.hr/vijesti/na-biogradskom-podrucju-policija-oduzela-automatsko-i-lovacko-oruzje/18823",
-  "date": "2026-11-06T13:31:03.350182+00:00",
-  "summary": "Protiv osumnjičenog muškarca policija je nadležnom državnom odvjetništvu podnijela kaznenu priijavu, a zbog počinjenog prekršaja je sankcioniran temeljem odredbi Zakona o nabavi i posjedovanja oružja građana",
-  "image": "https://zadarska-policija.gov.hr/UserDocsImages//2026/POLICIJA/policija%201.jpg",
-  "source": "Policija Zadar",
-  "topics": [
-   "Županija"
-  ],
-  "source_url": "https://zadarska-policija.gov.hr/vijesti/8",
-  "face": null,
-  "face_img": "https://zadarska-policija.gov.hr/UserDocsImages//2026/POLICIJA/policija%201.jpg"
- },
- {
-  "title": "Najava snimanja javnog okupljanja",
-  "link": "https://zadarska-policija.gov.hr/vijesti/najava-snimanja-javnog-okupljanja-18824/18824",
-  "date": "2026-11-06T13:31:03.350182+00:00",
-  "summary": "",
-  "image": "https://zadarska-policija.gov.hr/UserDocsImages//2025/POLICIJA/visnjik10.jpg",
-  "source": "Policija Zadar",
-  "topics": [],
-  "source_url": "https://zadarska-policija.gov.hr/vijesti/8",
-  "face": null,
-  "face_img": "https://zadarska-policija.gov.hr/UserDocsImages//2025/POLICIJA/visnjik10.jpg"
- },
- {
   "title": "ZADRANI POBJEDNICI Osmislili sustav za praćenje onečišćenja mora",
   "link": "https://www.antenazadar.hr/clanak/2026/11/zadrani-pobjednici-osmislili-sustav-za-pracenje-oneciscenja-mora/",
   "date": "2026-11-06T13:30:10+00:00",
@@ -1105,6 +1079,97 @@
   "face_img": "https://www.antenazadar.hr/wp-content/uploads/2026/11/891956292_1796109822523643_9201451833604746285_n.jpg"
  },
  {
+  "title": "Na biogradskom području policija oduzela automatsko i lovačko oružje",
+  "link": "https://zadarska-policija.gov.hr/vijesti/na-biogradskom-podrucju-policija-oduzela-automatsko-i-lovacko-oruzje/18823",
+  "date": "2026-11-06T11:00:00+00:00",
+  "summary": "Protiv osumnjičenog muškarca policija je nadležnom državnom odvjetništvu podnijela kaznenu priijavu, a zbog počinjenog prekršaja je sankcioniran temeljem odredbi Zakona o nabavi i posjedovanja oružja građana",
+  "image": "https://zadarska-policija.gov.hr/UserDocsImages//2026/POLICIJA/policija%201.jpg",
+  "source": "Policija Zadar",
+  "topics": [
+   "Županija"
+  ],
+  "source_url": "https://zadarska-policija.gov.hr/vijesti/8",
+  "face": null,
+  "face_img": "https://zadarska-policija.gov.hr/UserDocsImages//2026/POLICIJA/policija%201.jpg"
+ },
+ {
+  "title": "Najava snimanja javnog okupljanja",
+  "link": "https://zadarska-policija.gov.hr/vijesti/najava-snimanja-javnog-okupljanja-18824/18824",
+  "date": "2026-11-06T11:00:00+00:00",
+  "summary": "",
+  "image": "https://zadarska-policija.gov.hr/UserDocsImages//2025/POLICIJA/visnjik10.jpg",
+  "source": "Policija Zadar",
+  "topics": [],
+  "source_url": "https://zadarska-policija.gov.hr/vijesti/8",
+  "face": null,
+  "face_img": "https://zadarska-policija.gov.hr/UserDocsImages//2025/POLICIJA/visnjik10.jpg"
+ },
+ {
+  "title": "Upozorenje građanima na lažno predstavljanje te pokušaje prijevare putem telefonskih poziva",
+  "link": "https://zadarska-policija.gov.hr/vijesti/upozorenje-gradjanima-na-lazno-predstavljanje-te-pokusaje-prijevare-putem-telefonskih-poziva-18820/18820",
+  "date": "2026-11-06T11:00:00+00:00",
+  "summary": "Upozoravamo kako telefonske pozive osoba koje traže podatke vaših bankovnih računa ne upućuje policija već se radi o osobama- prevarantima koji se lažno predstavljaju kao službenici banke ili policije",
+  "image": "https://zadarska-policija.gov.hr/UserDocsImages//2024/POLICIJA/369.jpg",
+  "source": "Policija Zadar",
+  "topics": [],
+  "source_url": "https://zadarska-policija.gov.hr/vijesti/8",
+  "face": null,
+  "face_img": "https://zadarska-policija.gov.hr/UserDocsImages//2024/POLICIJA/369.jpg"
+ },
+ {
+  "title": "Komemoracija za prof. dr. sc. Ivicu Zdrilića",
+  "link": "https://www.unizd.hr/obavijesti/view/komemoracija-za-prof-dr-sc-ivicu-zdrilica",
+  "date": "2026-11-06T11:00:00+00:00",
+  "summary": "U petak, 13. studenoga 2026. s početkom u 12:00 sati u Svečanoj dvorani Sveučilišta održat će se komemoracija za prof.dr.sc. Ivicu...",
+  "image": "https://www.unizd.hr/Portals/0/EasyDNNNews/61370/images/image002-320-256-c-L-97.jpg",
+  "source": "Sveučilište u Zadru",
+  "topics": [],
+  "source_url": "https://www.unizd.hr/obavijesti/novosti",
+  "face": [
+   19.5,
+   63.4,
+   41.4,
+   60.6
+  ],
+  "face_img": "https://www.unizd.hr/Portals/0/EasyDNNNews/61370/images/image002-320-256-c-L-97.jpg"
+ },
+ {
+  "title": "Sažetak dnevnih događaja",
+  "link": "https://zadarska-policija.gov.hr/vijesti/sazetak-dnevnih-dogadjaja-18821/18821",
+  "date": "2026-11-06T11:00:00+00:00",
+  "summary": "",
+  "image": "https://zadarska-policija.gov.hr/UserDocsImages//2024/POLICIJA/policija%201.jpg",
+  "source": "Policija Zadar",
+  "topics": [],
+  "source_url": "https://zadarska-policija.gov.hr/vijesti/8",
+  "face": null,
+  "face_img": "https://zadarska-policija.gov.hr/UserDocsImages//2024/POLICIJA/policija%201.jpg"
+ },
+ {
+  "title": "Šopot - dovršen očevid požara u skladištu",
+  "link": "https://zadarska-policija.gov.hr/vijesti/sopot-dovrsen-ocevid-pozara-u-skladistu/18822",
+  "date": "2026-11-06T11:00:00+00:00",
+  "summary": "",
+  "image": "https://zadarska-policija.gov.hr/UserDocsImages//2021/rotacija.jpg",
+  "source": "Policija Zadar",
+  "topics": [],
+  "source_url": "https://zadarska-policija.gov.hr/vijesti/8",
+  "face": null,
+  "face_img": "https://zadarska-policija.gov.hr/UserDocsImages//2021/rotacija.jpg"
+ },
+ {
+  "title": "Izložba “Morem vođeni – Liburni i njihov svijet” u Trstu",
+  "link": "https://www.unizd.hr/obavijesti/view/izlozba-morem-vodeni-liburni-i-njihov-svijet-u-trstu",
+  "date": "2026-11-06T11:00:00+00:00",
+  "summary": "Kako su živjeli Liburni? Kakav je bio njihov svijet i koliko je more oblikovalo njihovu kulturu, svakodnevicu i identitet? Odgovore donosi izložba...",
+  "image": "https://www.unizd.hr/Portals/0/EasyDNNNews/61369/images/lib-320-256-c-L-97.jpg",
+  "source": "Sveučilište u Zadru",
+  "topics": [],
+  "source_url": "https://www.unizd.hr/obavijesti/novosti",
+  "face": null,
+  "face_img": "https://www.unizd.hr/Portals/0/EasyDNNNews/61369/images/lib-320-256-c-L-97.jpg"
+ },
+ {
   "title": "ModernA se vraća u Zadar, Anita Maričić: “Uvijek želimo napraviti korak više i publici prirediti neko novo iznenađenje”",
   "link": "https://ezadar.net.hr/lifestyle/3589990/moderna-se-vraca-u-zadar-anita-maricic-uvijek-zelimo-napraviti-korak-vise-i-publici-prirediti-neko-novo-iznenadenje/",
   "date": "2026-11-06T10:57:01+00:00",
@@ -1415,18 +1480,6 @@
   "face_img": "https://static.slobodnadalmacija.hr/images/slike/2026/11/06/31640827.jpg"
  },
  {
-  "title": "Upozorenje građanima na lažno predstavljanje te pokušaje prijevare putem telefonskih poziva",
-  "link": "https://zadarska-policija.gov.hr/vijesti/upozorenje-gradjanima-na-lazno-predstavljanje-te-pokusaje-prijevare-putem-telefonskih-poziva-18820/18820",
-  "date": "2026-11-06T09:31:02.086360+00:00",
-  "summary": "Upozoravamo kako telefonske pozive osoba koje traže podatke vaših bankovnih računa ne upućuje policija već se radi o osobama- prevarantima koji se lažno predstavljaju kao službenici banke ili policije",
-  "image": "https://zadarska-policija.gov.hr/UserDocsImages//2024/POLICIJA/369.jpg",
-  "source": "Policija Zadar",
-  "topics": [],
-  "source_url": "https://zadarska-policija.gov.hr/vijesti/8",
-  "face": null,
-  "face_img": "https://zadarska-policija.gov.hr/UserDocsImages//2024/POLICIJA/369.jpg"
- },
- {
   "title": "Zadranka krenula prodati auto pa je ‘snervali‘ oglasi za stanove: ‘Kako vi to mislite?!‘ Jadni ljudi‘; Razumjet ćete je",
   "link": "https://slobodnadalmacija.hr/dalmacija/zadar/zadranka-krenula-prodati-auto-pa-je-snervali-oglasi-za-stanove-jadni-studenti-a-tek-obitelji-razumjet-cete-je-1588811",
   "date": "2026-11-06T09:21:00+00:00",
@@ -1579,23 +1632,6 @@
   "face_img": "https://net.hr/media/2026/11/06/1629988/H-d9e0d812-28f4-4a68-9171-b623b8110174-1200.webp"
  },
  {
-  "title": "Komemoracija za prof. dr. sc. Ivicu Zdrilića",
-  "link": "https://www.unizd.hr/obavijesti/view/komemoracija-za-prof-dr-sc-ivicu-zdrilica",
-  "date": "2026-11-06T08:45:44.983199+00:00",
-  "summary": "U petak, 13. studenoga 2026. s početkom u 12:00 sati u Svečanoj dvorani Sveučilišta održat će se komemoracija za prof.dr.sc. Ivicu...",
-  "image": "https://www.unizd.hr/Portals/0/EasyDNNNews/61370/images/image002-320-256-c-L-97.jpg",
-  "source": "Sveučilište u Zadru",
-  "topics": [],
-  "source_url": "https://www.unizd.hr/obavijesti/novosti",
-  "face": [
-   19.5,
-   63.4,
-   41.4,
-   60.6
-  ],
-  "face_img": "https://www.unizd.hr/Portals/0/EasyDNNNews/61370/images/image002-320-256-c-L-97.jpg"
- },
- {
   "title": "Podignuta optužnica protiv 36-godišnjaka: Na Pagu pokušao ubiti mladića kuhinjskim nožem",
   "link": "https://n1info.hr/crna-kronika/optuzen-36-godinjak-osumnjien-da-je-kuhinjskim-nozem-pokusao-ubiti-mladica-na-pagu/",
   "date": "2026-11-06T08:45:39+00:00",
@@ -1675,18 +1711,6 @@
   "face_img": "https://www.bolnica-zadar.hr/wp-content/uploads/2026/11/kardio-1-860x512.jpg"
  },
  {
-  "title": "Sažetak dnevnih događaja",
-  "link": "https://zadarska-policija.gov.hr/vijesti/sazetak-dnevnih-dogadjaja-18821/18821",
-  "date": "2026-11-06T08:16:08.923181+00:00",
-  "summary": "",
-  "image": "https://zadarska-policija.gov.hr/UserDocsImages//2024/POLICIJA/policija%201.jpg",
-  "source": "Policija Zadar",
-  "topics": [],
-  "source_url": "https://zadarska-policija.gov.hr/vijesti/8",
-  "face": null,
-  "face_img": "https://zadarska-policija.gov.hr/UserDocsImages//2024/POLICIJA/policija%201.jpg"
- },
- {
   "title": "Cijenjeni zadarski liječnik posthumno predložen za nagradu Grada Zadra za životno djelo",
   "link": "https://www.morski.hr/cijenjeni-zadarski-lijecnik-posthumno-predlozen-za-nagradu-grada-zadra-za-zivotno-djelo/",
   "date": "2026-11-06T08:13:26+00:00",
@@ -1752,18 +1776,6 @@
    63.5
   ],
   "face_img": "https://media.jutarnji.hr/images/slike/2026/11/06/f_39417286_1280.jpg?1793968215"
- },
- {
-  "title": "Šopot - dovršen očevid požara u skladištu",
-  "link": "https://zadarska-policija.gov.hr/vijesti/sopot-dovrsen-ocevid-pozara-u-skladistu/18822",
-  "date": "2026-11-06T08:01:17.316937+00:00",
-  "summary": "",
-  "image": "https://zadarska-policija.gov.hr/UserDocsImages//2021/rotacija.jpg",
-  "source": "Policija Zadar",
-  "topics": [],
-  "source_url": "https://zadarska-policija.gov.hr/vijesti/8",
-  "face": null,
-  "face_img": "https://zadarska-policija.gov.hr/UserDocsImages//2021/rotacija.jpg"
  },
  {
   "title": "Život u Zadru postaje sve skuplji: Stanarine dosežu 1500 eura, stiže nova financijska pomoć",
@@ -1877,18 +1889,6 @@
   "source_url": "https://visnjik.hr/novosti/",
   "face": null,
   "face_img": "https://visnjik.hr/wp-content/uploads/2026/03/dron-dvorana-03-03-2026.jpg"
- },
- {
-  "title": "Izložba “Morem vođeni – Liburni i njihov svijet” u Trstu",
-  "link": "https://www.unizd.hr/obavijesti/view/izlozba-morem-vodeni-liburni-i-njihov-svijet-u-trstu",
-  "date": "2026-11-06T07:45:44.265260+00:00",
-  "summary": "Kako su živjeli Liburni? Kakav je bio njihov svijet i koliko je more oblikovalo njihovu kulturu, svakodnevicu i identitet? Odgovore donosi izložba...",
-  "image": "https://www.unizd.hr/Portals/0/EasyDNNNews/61369/images/lib-320-256-c-L-97.jpg",
-  "source": "Sveučilište u Zadru",
-  "topics": [],
-  "source_url": "https://www.unizd.hr/obavijesti/novosti",
-  "face": null,
-  "face_img": "https://www.unizd.hr/Portals/0/EasyDNNNews/61369/images/lib-320-256-c-L-97.jpg"
  },
  {
   "title": "Istraživanje dr. sc. Tome Marelića objavljeno na uglednom znanstvenom portalu Big Think",
