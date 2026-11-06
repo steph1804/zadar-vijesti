@@ -146,6 +146,11 @@
  ],
  "reddit": [
   {
+   "title": "Kino.",
+   "link": "https://www.reddit.com/r/Zadar/comments/1xp5rf4/kino/",
+   "date": "2026-11-06T06:21:52+00:00"
+  },
+  {
    "title": "Susjedi",
    "link": "https://www.reddit.com/r/Zadar/comments/1xotb0s/susjedi/",
    "date": "2026-11-05T20:26:33+00:00"
@@ -179,11 +184,6 @@
    "title": "Čistoća krade na odvozu smeća",
    "link": "https://www.reddit.com/r/Zadar/comments/1xoc54f/čistoća_krade_na_odvozu_smeća/",
    "date": "2026-11-05T07:00:16+00:00"
-  },
-  {
-   "title": "Meštar za centralno grijanje",
-   "link": "https://www.reddit.com/r/Zadar/comments/1xnwatk/meštar_za_centralno_grijanje/",
-   "date": "2026-11-04T18:45:46+00:00"
   }
  ],
  "retro": [
@@ -463,7 +463,7 @@
  ],
  "videos": {
   "v": 2,
-  "fetched": "2026-11-06T05:35:53.431506+00:00",
+  "fetched": "2026-11-06T06:33:22.566598+00:00",
   "items": [
    {
     "id": "I4MG0kvNBQY",
