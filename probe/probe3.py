@@ -1,6 +1,6 @@
 import json, re, urllib.request
 UA = "Mozilla/5.0 (compatible; LokalniAgregator/1.0; +https://idassa.click)"
-urls = ['https://www.kalelargainfo.hr/feed/', 'https://www.kalelargainfo.hr/', 'https://www.kalelargainfo.hr/robots.txt']
+urls = ['https://sport023.hr/2026/11/06/zadranke-ana-mandic-i-iva-borovic-gregov-u-hrvatskoj-reprezentaciji-za-nastavak-kvalifikacija-za-eurobasket/']
 out = {}
 for u in urls:
     try:
