@@ -1,5 +1,25 @@
 [
  {
+  "title": "ATLETSKA BUDUĆNOST Fortius Zadar ima novu generaciju za velike stvari – četvero atletičara u reprezentaciji!",
+  "link": "https://www.antenazadar.hr/clanak/2026/11/atletska-buducnost-fortius-zadar-ima-novu-generaciju-za-velike-stvari-cetvero-atleticara-u-reprezentaciji/",
+  "date": "2026-11-06T11:10:27+00:00",
+  "summary": "Atletski klub Fortius Zadar iza sebe ima najuspješniju sezonu u svojoj povijesti, a potvrda kvalitetnog rada stigla je i pozivima u hrvatsku atletsku reprezentaciju.",
+  "image": "https://www.antenazadar.hr/wp-content/uploads/2026/11/891956292_1796109822523643_9201451833604746285_n.jpg",
+  "source": "Antena Zadar",
+  "topics": [
+   "Zadar",
+   "Sport"
+  ],
+  "source_url": "https://www.antenazadar.hr/",
+  "face": [
+   36.9,
+   48.3,
+   30.1,
+   70.6
+  ],
+  "face_img": "https://www.antenazadar.hr/wp-content/uploads/2026/11/891956292_1796109822523643_9201451833604746285_n.jpg"
+ },
+ {
   "title": "ModernA se vraća u Zadar, Anita Maričić: “Uvijek želimo napraviti korak više i publici prirediti neko novo iznenađenje”",
   "link": "https://ezadar.net.hr/lifestyle/3589990/moderna-se-vraca-u-zadar-anita-maricic-uvijek-zelimo-napraviti-korak-vise-i-publici-prirediti-neko-novo-iznenadenje/",
   "date": "2026-11-06T10:57:01+00:00",
@@ -33,19 +53,44 @@
   "face_img": "https://www.antenazadar.hr/wp-content/uploads/2026/10/policija-telefon.jpg"
  },
  {
-  "title": "Mladić ležao na kauču, a napadač ga nožem ubo u prsa - sada je optužen za pokušaj ubojstva",
-  "link": "https://slobodnadalmacija.hr/dalmacija/zadar/nakon-krvavog-napada-u-mandrama-podignuta-optuznica-za-pokusaj-ubojstva-21-godisnjaka-1588837",
+  "title": "Krvavi zločin na Pagu: kuhinjski nož mladiću zabo u prsa dok je ležao u stanu na kauču; liječnici mu spasili život",
+  "link": "https://slobodnadalmacija.hr/dalmacija/s-mora-i-kraja/nakon-krvavog-napada-u-mandrama-podignuta-optuznica-za-pokusaj-ubojstva-21-godisnjaka-1588837",
   "date": "2026-11-06T10:52:00+00:00",
   "summary": "Županijsko državno odvjetništvo u Zadru (ŽDO) podignulo je optužnicu protiv 36-godišnjeg hrvatskog državljanina zbog pokušaja ubojstva mladića na otoku Pagu, kojeg je početkom srpnja kuhinjskim nožem ubo u prsa nakon verbalnog i fizičkog sukoba. Tužiteljstvo je ujedno predložilo produljenje istražno...",
-  "image": "https://static.slobodnadalmacija.hr/images/slike/2026/11/06/10029211.jpg",
+  "image": "https://static.slobodnadalmacija.hr/images/slike/2026/11/06/32808424.jpg",
   "source": "Slobodna Dalmacija/Zadar",
   "topics": [
    "Zadar",
    "Otoci"
   ],
   "source_url": "https://slobodnadalmacija.hr/dalmacija/zadar",
-  "face": null,
-  "face_img": "https://static.slobodnadalmacija.hr/images/slike/2026/11/06/10029211.jpg"
+  "face": [
+   31.9,
+   37.8,
+   67.9,
+   70.4
+  ],
+  "face_img": "https://static.slobodnadalmacija.hr/images/slike/2026/11/06/32808424.jpg"
+ },
+ {
+  "title": "POMELI KONKURENCIJU Dečki iz zadarskog Bronxa osmislili sustav koji otkriva onečišćenje mora: ‘Brojne kemikalije ljudi uopće ne vide’",
+  "link": "https://zadarskilist.novilist.hr/zadar-zupanija/zadar/pomeli-konkurenciju-decki-iz-zadarskog-bronxa-osmislili-sustav-koji-otkriva-oneciscenje-mora-brojne-kemikalije-ljudi-uopce-ne-vide/",
+  "date": "2026-11-06T10:50:26+00:00",
+  "summary": "Tim Bronx Croatia pobjednik je regionalnog EIT Water & PDJF Hackathona 2026., čije je finale održano na Sveučilištu u Zadru. Riječ je o natjecanju inovativnih timova, studenata, istraživača i startupa koji razvijaju rješenja za stvarne izazove povezane s upravljanjem vodom, morem i obalom.",
+  "image": "https://zadarskilist.novilist.hr/wp-content/uploads/2026/11/hackathon-3.jpg",
+  "source": "Zadarski list",
+  "topics": [
+   "Zadar",
+   "Županija"
+  ],
+  "source_url": "https://zadarskilist.novilist.hr/",
+  "face": [
+   19.5,
+   38.9,
+   20.8,
+   72.7
+  ],
+  "face_img": "https://zadarskilist.novilist.hr/wp-content/uploads/2026/11/hackathon-3.jpg"
  },
  {
   "title": "Juniori Zadra unatoč izostancima uvjerljivi kod Šibenke",
@@ -624,7 +669,7 @@
   "link": "https://www.jutarnji.hr/vijesti/crna-kronika/svada-na-pagu-prerasla-u-krvavi-obracun-mladicu-21-zario-noz-u-prsa-dok-je-lezao-na-kaucu-15762909",
   "date": "2026-11-06T08:03:58+00:00",
   "summary": "Četiri mjeseca od svirepog pokušaja ubojstva 21-godišnjaka u Mandrama na otoku Pagu, Županijsko državno odvjetništvo je podignulo optužnicu protiv 36-godišnjeg muškarca. Riječ je o zločinu od 9. srpnja u jutarnjim satima koji je usred turističke sezone uznemirio žitelje i turiste. Kako je otkriveno...",
-  "image": "https://media.jutarnji.hr/images/slike/2026/11/06/f_39417286_1280.jpg?1793962795",
+  "image": "https://media.jutarnji.hr/images/slike/2026/11/06/f_39417286_1280.jpg?1793963730",
   "source": "Jutarnji list",
   "topics": [
    "Otoci"
@@ -636,7 +681,7 @@
    58.2,
    63.5
   ],
-  "face_img": "https://media.jutarnji.hr/images/slike/2026/11/06/f_39417286_1280.jpg?1793962795"
+  "face_img": "https://media.jutarnji.hr/images/slike/2026/11/06/f_39417286_1280.jpg?1793963730"
  },
  {
   "title": "Šopot - dovršen očevid požara u skladištu",
@@ -1424,7 +1469,7 @@
   "link": "https://www.jutarnji.hr/sportske/kosarka/aba-liga/spartak-nije-morao-biti-ni-dobar-da-bi-pobijedio-ovakav-zadar-sramotna-predstava-u-dudovoj-sumi-15762781",
   "date": "2026-11-05T19:07:00+00:00",
   "summary": "SPARTAK SUBOTICA – ZADAR 67:51 (12:13, 17:16, 14:9, 24:13) SUBOTICA – Hala sportova Dudova šuma. Gledatelja: 1200. Suci: Mordal, Danilović, Šešević.",
-  "image": "https://media.jutarnji.hr/images/slike/2026/11/05/f_39828152_1280.jpg?1793962806",
+  "image": "https://media.jutarnji.hr/images/slike/2026/11/05/f_39828152_1280.jpg?1793963710",
   "source": "Sportske novosti",
   "source_topic": "Sport",
   "topics": [
@@ -1438,7 +1483,7 @@
    12.4,
    85.9
   ],
-  "face_img": "https://media.jutarnji.hr/images/slike/2026/11/05/f_39828152_1280.jpg?1793962806"
+  "face_img": "https://media.jutarnji.hr/images/slike/2026/11/05/f_39828152_1280.jpg?1793963710"
  },
  {
   "title": "PORAZ U SUBOTICI Modrić se prepao kao grlica, dao Mirčeti i Bičiću mizerne dvije minute – direktor Jurlina otkrio gde je Mihailović!",
@@ -5152,35 +5197,6 @@
    52.0
   ],
   "face_img": "https://zadarskilist.novilist.hr/wp-content/uploads/2026/11/11415880-e1793785317271.jpg"
- },
- {
-  "title": "Ušao u trgovinu na Smiljevcu i odnio blagajnu s novcem",
-  "link": "https://ezadar.net.hr/crna-kronika/3589869/usao-u-trgovinu-na-smiljevcu-i-odnio-blagajnu-s-novcem/",
-  "date": "2026-11-04T09:29:34+00:00",
-  "summary": "Policijski službenici Policijske postaje Zadar s Ispostavom Nin proveli su kriminalističko istraživanje nad 24-godišnjim hrvatskim državljaninom, kojeg se sumnjiči da je 12. svibnja 2026. godine oko 21 sati u Zadru",
-  "image": "https://cdn-ezadar.net.hr/wp-content/uploads/22b476251ffe5141d7d1e52a42e93001-view_article_new.jpg",
-  "source": "eZadar",
-  "topics": [
-   "Zadar",
-   "Županija"
-  ],
-  "source_url": "https://ezadar.net.hr/",
-  "face": null,
-  "face_img": "https://cdn-ezadar.net.hr/wp-content/uploads/22b476251ffe5141d7d1e52a42e93001-view_article_new.jpg"
- },
- {
-  "title": "Poslušajte svjedočanstvo Albine Grčić u Zadru: Nakon tog iskustva u Međugorju odlučila sam živjeti u predbračnoj čistoći",
-  "link": "https://slobodnadalmacija.hr/dalmacija/zadar/poslusajte-svjedocanstvo-albine-grcic-u-zadru-nakon-tog-iskustva-u-medugorju-odlucila-sam-zivjeti-u-predbracnoj-cistoci-1588370",
-  "date": "2026-11-04T09:16:00+00:00",
-  "summary": "Splitska pjevačica Albina Grčić, bivša hrvatska predstavnica na Eurosongu, održala je u crkvi sv. Frane u Zadru osobno svjedočanstvo tijekom kojeg je govorila o vjeri, iskustvima iz glazbenog svijeta i duhovnom putu koji je, kako ističe, u potpunosti promijenio njezin pogled na život. Okupljenima je...",
-  "image": "https://static.slobodnadalmacija.hr/images/slike/2026/11/04/32798177.gif",
-  "source": "Slobodna Dalmacija/Zadar",
-  "topics": [
-   "Zadar"
-  ],
-  "source_url": "https://slobodnadalmacija.hr/dalmacija/zadar",
-  "face": null,
-  "face_img": "https://static.slobodnadalmacija.hr/images/slike/2026/11/04/32798177.gif"
  },
  {
   "title": "Zadar i okolica uživaju u suncu do nedjelje, a potom nastupa kišno razdoblje",
