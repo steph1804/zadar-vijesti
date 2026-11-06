@@ -1,5 +1,31 @@
 [
  {
+  "title": "Na biogradskom području policija oduzela automatsko i lovačko oružje",
+  "link": "https://zadarska-policija.gov.hr/vijesti/na-biogradskom-podrucju-policija-oduzela-automatsko-i-lovacko-oruzje/18823",
+  "date": "2026-11-06T13:31:03.350182+00:00",
+  "summary": "Protiv osumnjičenog muškarca policija je nadležnom državnom odvjetništvu podnijela kaznenu priijavu, a zbog počinjenog prekršaja je sankcioniran temeljem odredbi Zakona o nabavi i posjedovanja oružja građana",
+  "image": "https://zadarska-policija.gov.hr/UserDocsImages//2026/POLICIJA/policija%201.jpg",
+  "source": "Policija Zadar",
+  "topics": [
+   "Županija"
+  ],
+  "source_url": "https://zadarska-policija.gov.hr/vijesti/8",
+  "face": null,
+  "face_img": "https://zadarska-policija.gov.hr/UserDocsImages//2026/POLICIJA/policija%201.jpg"
+ },
+ {
+  "title": "Najava snimanja javnog okupljanja",
+  "link": "https://zadarska-policija.gov.hr/vijesti/najava-snimanja-javnog-okupljanja-18824/18824",
+  "date": "2026-11-06T13:31:03.350182+00:00",
+  "summary": "",
+  "image": "https://zadarska-policija.gov.hr/UserDocsImages//2025/POLICIJA/visnjik10.jpg",
+  "source": "Policija Zadar",
+  "topics": [],
+  "source_url": "https://zadarska-policija.gov.hr/vijesti/8",
+  "face": null,
+  "face_img": "https://zadarska-policija.gov.hr/UserDocsImages//2025/POLICIJA/visnjik10.jpg"
+ },
+ {
   "title": "Martinje u Zadarskoj županiji: četiri vinarije otvaraju vrata posjetiteljima",
   "link": "https://slobodnadalmacija.hr/dalmacija/zadar/martinje-u-zadarskoj-zupaniji-cetiri-vinarije-otvaraju-vrata-posjetiteljima-1588882",
   "date": "2026-11-06T13:14:14+00:00",
@@ -40,10 +66,10 @@
   "face_img": "https://static.slobodnadalmacija.hr/images/slike/2026/10/11/32652384.jpg"
  },
  {
-  "title": "Općini Vir i Vodovodu Zadar uručeni ugovori za završetak projekta aglomeracije u vrijednosti 213,9 milijuna eura!",
+  "title": "Općini Vir i ‘Vodovodu‘ Zadar uručeni ugovori za završetak projekta aglomeracije u vrijednosti 213,9 milijuna eura!",
   "link": "https://slobodnadalmacija.hr/dalmacija/zadar/opcini-vir-i-vodovodu-zadar-uruceni-ugovori-za-zavrsetak-projekta-aglomeracije-u-vrijednosti-213-9-milijuna-eura-1588877",
-  "date": "2026-11-06T13:00:32+00:00",
-  "summary": "Potpisom ministrice zaštite okoliša i zelene tranzicije Marije Vučković, direktora Hrvatskih voda Zorana Đurokovića, načelnika Općine Vir Marina Radovića i direktora Vodovoda Zadar Ivana Bašića na ugovor o sufinanciranju aglomeracije Vir, završena je priča koja je počela osnutkom općinskog poduzeća...",
+  "date": "2026-11-06T13:00:00+00:00",
+  "summary": "Potpisom ministrice zaštite okoliša i zelene tranzicije Marije Vučković, direktora Hrvatskih voda Zorana Đurokovića, načelnika Općine Vir Marina Radovića i direktora \"Vodovoda\" Zadar Ivana Bašića na ugovor o sufinanciranju aglomeracije Vir, završena je priča koja je počela osnutkom općinskog poduzeć...",
   "image": "https://static.slobodnadalmacija.hr/images/slike/2026/11/06/32808798.jpg",
   "source": "Slobodna Dalmacija/Zadar",
   "topics": [
@@ -58,6 +84,26 @@
    91.8
   ],
   "face_img": "https://static.slobodnadalmacija.hr/images/slike/2026/11/06/32808798.jpg"
+ },
+ {
+  "title": "Jurica Zanki: Najveći su uspjeh dječji osmjesi, zdrav razvoj i pune tribine",
+  "link": "https://ezadar.net.hr/sport/3590015/jurica-zanki-najveci-su-uspjeh-djecji-osmjesi-zdrav-razvoj-i-pune-tribine/",
+  "date": "2026-11-06T13:00:00+00:00",
+  "summary": "O radu Škole nogometa NK SABUNJAR u koju je uključeno četrdesetak djece s otoka Vira ili 150 djece iz cijele ninske mikroregije, govori voditelj nogometne škole i profesor tjelesne i zdravstvene kulture Jurica Zanki",
+  "image": "https://cdn-ezadar.net.hr/wp-content/uploads/01_sabunjar-b5529c79f0b3e8f2bd2f1899-1052x696.jpeg",
+  "source": "eZadar",
+  "topics": [
+   "Županija",
+   "Sport"
+  ],
+  "source_url": "https://ezadar.net.hr/",
+  "face": [
+   0.0,
+   37.2,
+   14.7,
+   98.0
+  ],
+  "face_img": "https://cdn-ezadar.net.hr/wp-content/uploads/01_sabunjar-b5529c79f0b3e8f2bd2f1899-1052x696.jpeg"
  },
  {
   "title": "AGRRA Ravni kotari zajedno grade eko-kulturni turizam",
@@ -5171,46 +5217,6 @@
   "source_url": "https://vijesti.hrt.hr/",
   "face": null,
   "face_img": "https://api.hrt.hr/media/eb/d2/740x438-pxl-231026-161077741-20261104110410.jpg"
- },
- {
-  "title": "Upravljao automobilom kojem je isteklo važenje prometne dozvole i police osiguranja",
-  "link": "https://zadarska-policija.gov.hr/vijesti/upravljao-automobilom-kojem-je-isteklo-vazenje-prometne-dozvole-i-police-osiguranja/18816",
-  "date": "2026-11-04T11:00:00+00:00",
-  "summary": "Vozilo je isključeno iz prometa",
-  "image": "https://zadarska-policija.gov.hr/UserDocsImages//2025/POLICIJA/policija25.jpg",
-  "source": "Policija Zadar",
-  "topics": [],
-  "source_url": "https://zadarska-policija.gov.hr/vijesti/8",
-  "face": null,
-  "face_img": "https://zadarska-policija.gov.hr/UserDocsImages//2025/POLICIJA/policija25.jpg"
- },
- {
-  "title": "Prijavljen zbog drske krađe",
-  "link": "https://zadarska-policija.gov.hr/vijesti/prijavljen-zbog-drske-kradje-18815/18815",
-  "date": "2026-11-04T11:00:00+00:00",
-  "summary": "Policija podnosi kaznenu prijavu nadležnom državnom odvjetništvu u Zadru",
-  "image": "https://zadarska-policija.gov.hr/UserDocsImages//2025/POLICIJA/policija31.jpg",
-  "source": "Policija Zadar",
-  "topics": [
-   "Zadar"
-  ],
-  "source_url": "https://zadarska-policija.gov.hr/vijesti/8",
-  "face": null,
-  "face_img": "https://zadarska-policija.gov.hr/UserDocsImages//2025/POLICIJA/policija31.jpg"
- },
- {
-  "title": "Sažetak dnevnih događanja PU zadarske, 4. 11.",
-  "link": "https://zadarska-policija.gov.hr/vijesti/sazetak-dnevnih-dogadjanja-18814/18814",
-  "date": "2026-11-04T11:00:00+00:00",
-  "summary": "",
-  "image": "https://zadarska-policija.gov.hr/UserDocsImages//2022/POLICIJA/policija%20natpis2.jpg",
-  "source": "Policija Zadar",
-  "topics": [
-   "Zadar"
-  ],
-  "source_url": "https://zadarska-policija.gov.hr/vijesti/8",
-  "face": null,
-  "face_img": "https://zadarska-policija.gov.hr/UserDocsImages//2022/POLICIJA/policija%20natpis2.jpg"
  },
  {
   "title": "Zadar i okolica uživaju u suncu do nedjelje, a potom nastupa kišno razdoblje",
