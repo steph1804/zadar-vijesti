@@ -1,17 +1,17 @@
 {
- "https://idassa.click/facebook/idassa-ig-objava-1.png": {
-  "status": 200,
-  "final": "https://idassa.click/facebook/idassa-ig-objava-1.png",
-  "len": 542820,
-  "ctype": "image/png",
-  "alt": [],
-  "links": [],
-  "api": [],
-  "next": false,
-  "head": "�PNG\r\n\u001a\n\u0000\u0000\u0000\rIHDR\u0000\u0000\u00048\u0000\u0000\u0005F\b\u0002\u0000\u0000\u0000�-��\u0000\u0000\u0010\u0000IDATx�Խ[�-��%�\u0015�y��t�L�kg�C�\u0003���x�9�:��hm���\u0011���\u0000)������\u000f�'\u0002��\u0007���?��yA��O�O9�t��\fӟ��I��\\��\u001a�t��z�����O\u000b� k�\t��`<�\u000b�^V���y���d�$_��OR������\u001eIn^��6\u0019:���<C�\u000e�!\u001f��3>��M���\u0017J/%\u0019���\u0006\u0017�6�6\t\u0013J��.ɍ�ޠ�z�5J\u0017\u001e�o�`�\u0015����P�|�E]d�\u001a�\b���q9�<~��k�~�ҟk0��Qz�̙\u000e��w(-:x<\u000e��9�q�y",
-  "items": 0,
-  "chan": "",
-  "title": "",
-  "osm": []
+ "https://www.noviradio.hr/feed/": {
+  "err": "URLError(TimeoutError('timed out'))",
+  "hdr": {},
+  "body": ""
+ },
+ "https://www.noviradio.hr/": {
+  "err": "URLError(TimeoutError('timed out'))",
+  "hdr": {},
+  "body": ""
+ },
+ "https://noviradio.hr/feed/": {
+  "err": "URLError(TimeoutError('timed out'))",
+  "hdr": {},
+  "body": ""
  }
 }
