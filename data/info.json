@@ -1,6 +1,12 @@
 {
  "Jadrolinija": [
   {
+   "title": "Linije u prekidu 07.11.2026.",
+   "link": "https://www.jadrolinija.hr/news-single/linije-u-prekidu-07112026",
+   "date": "2026-11-06T19:29:00+00:00",
+   "summary": "Red plovidbe u subotu, 07.11.2026"
+  },
+  {
    "title": "Linije u prekidu 06.11.2026.",
    "link": "https://www.jadrolinija.hr/news-single/linije-u-prekidu-06112026",
    "date": "2026-11-06T18:19:00+00:00",
@@ -8,6 +14,11 @@
   }
  ],
  "buses": [
+  {
+   "title": "Obavijest za autobusne linije Belafuža,Puntamika,Diklo te prigradske linije iz smjera Nina i Ražanca prema kolodvoru",
+   "link": "https://liburnija-zadar.hr/obavijest-za-autobusne-linije-belafuzapuntamikadiklo-te-prigradske-linije-iz-smjera-nina-i-razanca-prema-kolodvoru/",
+   "date": "2026-11-06T18:33:23+00:00"
+  },
   {
    "title": "Obavijest za liniju Poluotok – Arbanasi",
    "link": "https://liburnija-zadar.hr/obavijest-za-liniju-poluotok-arbanasi/",
@@ -27,11 +38,6 @@
    "title": "Obavijest za blagdan Svih svetih",
    "link": "https://liburnija-zadar.hr/obavijest-za-blagdan-svih-svetih/",
    "date": "2026-10-27T07:40:38+00:00"
-  },
-  {
-   "title": "Obavijest za linije u smjeru Gradskog groblja i Bibinja",
-   "link": "https://liburnija-zadar.hr/obavijest-za-linije-u-smjeru-gradskog-groblja-i-bibinja/",
-   "date": "2026-10-13T09:31:40+00:00"
   }
  ],
  "flights": [
