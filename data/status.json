@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-06T10:33:15.813505+00:00",
+ "updated": "2026-11-06T10:45:48.185547+00:00",
  "sources": [
   {
    "name": "Antena Zadar",
@@ -10,7 +10,7 @@
   },
   {
    "name": "Zadarski list",
-   "count": 8,
+   "count": 7,
    "ok": true,
    "feed": null,
    "errors": []
@@ -257,13 +257,10 @@
   },
   {
    "name": "Nacional",
-   "count": 0,
-   "ok": false,
+   "count": 30,
+   "ok": true,
    "feed": null,
-   "errors": [
-    "https://www.nacional.hr/feed/: The read operation timed out",
-    "https://www.nacional.hr/?s=zadar&feed=rss2: The read operation timed out"
-   ]
+   "errors": []
   },
   {
    "name": "Hrvatska danas",
