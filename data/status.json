@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-06T19:01:19.243601+00:00",
+ "updated": "2026-11-06T19:15:46.729375+00:00",
  "sources": [
   {
    "name": "Antena Zadar",
@@ -276,9 +276,7 @@
    "count": 0,
    "ok": false,
    "feed": null,
-   "errors": [
-    "https://hrturizam.hr/feed/: <urlopen error [Errno 111] Connection refused>"
-   ]
+   "errors": []
   },
   {
    "name": "Sportske novosti",
