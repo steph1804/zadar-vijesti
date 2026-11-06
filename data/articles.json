@@ -1,5 +1,24 @@
 [
  {
+  "title": "Hoće li i Zadar ograničiti cijene na Adventu ? Evo što kaže gradonačelnik Erlić",
+  "link": "https://radio.hrt.hr/radio-zadar/vijesti/hoce-li-i-zadar-ograniciti-cijene-na-adventu-evo-sto-kaze-gradonacelnik-erlic-12996618",
+  "date": "2026-11-06T13:40:54+00:00",
+  "summary": "Sve više hrvatskih gradova uvodi ograničenja maksimalnih cijena za dio ugostiteljske ponude na predstojećem Adventu kako bi sadržaj učinili pristupačnijim domaćim gostima.&nbsp;",
+  "image": "https://api.hrt.hr/media/aa/eb/slavonia-band-advent-u-zadru-2122018-foto-iva-perincic-31-1600-1068-20221122143701.webp",
+  "source": "HRT Radio Zadar",
+  "topics": [
+   "Zadar"
+  ],
+  "source_url": "https://radio.hrt.hr/radio-zadar",
+  "face": [
+   53.0,
+   64.8,
+   10.7,
+   92.2
+  ],
+  "face_img": "https://api.hrt.hr/media/aa/eb/slavonia-band-advent-u-zadru-2122018-foto-iva-perincic-31-1600-1068-20221122143701.webp"
+ },
+ {
   "title": "Na biogradskom području policija oduzela automatsko i lovačko oružje",
   "link": "https://zadarska-policija.gov.hr/vijesti/na-biogradskom-podrucju-policija-oduzela-automatsko-i-lovacko-oruzje/18823",
   "date": "2026-11-06T13:31:03.350182+00:00",
@@ -24,6 +43,26 @@
   "source_url": "https://zadarska-policija.gov.hr/vijesti/8",
   "face": null,
   "face_img": "https://zadarska-policija.gov.hr/UserDocsImages//2025/POLICIJA/visnjik10.jpg"
+ },
+ {
+  "title": "ZADRANI POBJEDNICI Osmislili sustav za praćenje onečišćenja mora",
+  "link": "https://www.antenazadar.hr/clanak/2026/11/zadrani-pobjednici-osmislili-sustav-za-pracenje-oneciscenja-mora/",
+  "date": "2026-11-06T13:30:10+00:00",
+  "summary": "Tim Bronx Croatia pobjednik je regionalnog EIT Water & PDJF Hackathona 2026., čije je finale održano na Sveučilištu u Zadru. Riječ je o natjecanju inovativnih timova, studenata, istraživača i startupa koji razvijaju rješenja za stvarne izazove povezane s upravljanjem vodom, morem i obalom.",
+  "image": "https://www.antenazadar.hr/wp-content/uploads/2026/11/hackathon-6.jpg",
+  "source": "Antena Zadar",
+  "topics": [
+   "Zadar",
+   "Županija"
+  ],
+  "source_url": "https://www.antenazadar.hr/",
+  "face": [
+   39.8,
+   50.9,
+   7.3,
+   90.0
+  ],
+  "face_img": "https://www.antenazadar.hr/wp-content/uploads/2026/11/hackathon-6.jpg"
  },
  {
   "title": "Martinje u Zadarskoj županiji: četiri vinarije otvaraju vrata posjetiteljima",
@@ -5188,35 +5227,6 @@
    84.7
   ],
   "face_img": "https://www.antenazadar.hr/wp-content/uploads/2026/11/h1.jpeg"
- },
- {
-  "title": "Dok drugi samo otvore slavinu, oni čekaju cisternu. Ovo naselje kod Benkovca napokon dobiva vodovod",
-  "link": "https://zadarskilist.novilist.hr/zadar-zupanija/zupanija/dok-drugi-samo-otvore-slavinu-oni-cekaju-cisternu-ovo-naselje-kod-benkovca-napokon-dobiva-vodovod/",
-  "date": "2026-11-04T11:15:12+00:00",
-  "summary": "Više od 3,2 milijuna eura koštat će izgradnja 13,1 kilometra nove vodovodne mreže Naselje Popovići na području Grada Benkovca, koje do sada nije imalo sustav javne vodoopskrbe.",
-  "image": "https://zadarskilist.novilist.hr/wp-content/uploads/2026/11/popovici-pano.jpg",
-  "source": "Zadarski list",
-  "topics": [
-   "Zadar",
-   "Županija"
-  ],
-  "source_url": "https://zadarskilist.novilist.hr/",
-  "face": null,
-  "face_img": "https://zadarskilist.novilist.hr/wp-content/uploads/2026/11/popovici-pano.jpg"
- },
- {
-  "title": "Kemis-Termoclean Troskotu: Nismo predavali otpad u Gospiću ili Benkovcu",
-  "link": "https://vijesti.hrt.hr/hrvatska/kemis-termoclean-troskotu-nismo-predavali-otpad-u-gospicu-ili-benkovcu-12992558",
-  "date": "2026-11-04T11:10:53+00:00",
-  "summary": "Iz tvrtke Kemis-Termoclean u srijedu su izvijestili da nikada nisu predavali otpad na lokacijama u Gospiću ili Benkovcu te poručili da \"odlučno odbacuju\" pokušaje saborskog zastupnika Zvonimira Troskota (Most) da ih, kako kažu, \"bez ikakvih dokaza\" poveže s nezakonitim aktivnostima.",
-  "image": "https://api.hrt.hr/media/eb/d2/740x438-pxl-231026-161077741-20261104110410.jpg",
-  "source": "HRT",
-  "topics": [
-   "Županija"
-  ],
-  "source_url": "https://vijesti.hrt.hr/",
-  "face": null,
-  "face_img": "https://api.hrt.hr/media/eb/d2/740x438-pxl-231026-161077741-20261104110410.jpg"
  },
  {
   "title": "Zadar i okolica uživaju u suncu do nedjelje, a potom nastupa kišno razdoblje",
