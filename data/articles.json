@@ -1,5 +1,39 @@
 [
  {
+  "title": "ZA VUKOVARSKI STADION HEROJA Zadarska županija donira 30.000 eura",
+  "link": "https://www.antenazadar.hr/clanak/2026/11/za-vukovarski-stadion-heroja-zadarska-zupanija-donira-30-000-eura/",
+  "date": "2026-11-06T16:00:24+00:00",
+  "summary": "Zadarska županija pridružila se brojnim hrvatskim županijama, gradovima i općinama u potpori izgradnji stadiona „12 redarstvenika“ u Vukovaru. Za ovaj je projekt osigurano 30.000 eura, a sredstva su planirana nedavno usvojenim rebalansom županijskog proračuna za 2026. godinu.",
+  "image": "https://www.antenazadar.hr/wp-content/uploads/2026/11/8e4ab90d0a55b1137b644422c23bd7d2_XL.jpg",
+  "source": "Antena Zadar",
+  "topics": [
+   "Zadar",
+   "Županija"
+  ],
+  "source_url": "https://www.antenazadar.hr/",
+  "face": null,
+  "face_img": "https://www.antenazadar.hr/wp-content/uploads/2026/11/8e4ab90d0a55b1137b644422c23bd7d2_XL.jpg"
+ },
+ {
+  "title": "Mali Zadrani zavirili u bolnički laboratorij, a interes je nadmašio sva očekivanja",
+  "link": "https://zadarskilist.novilist.hr/zadar-zupanija/mali-zadrani-zavirili-u-bolnicki-laboratorij-a-interes-je-nadmasio-sva-ocekivanja/",
+  "date": "2026-11-06T15:45:47+00:00",
+  "summary": "Kako izgleda laboratorij iznutra, što se događa s uzorkom krvi nakon vađenja i što sve mogu otkriti veliki laboratorijski uređaji?",
+  "image": "https://zadarskilist.novilist.hr/wp-content/uploads/2026/11/lab-16-scaled-1.jpg",
+  "source": "Zadarski list",
+  "topics": [
+   "Zadar"
+  ],
+  "source_url": "https://zadarskilist.novilist.hr/",
+  "face": [
+   18.8,
+   62.5,
+   18.6,
+   61.6
+  ],
+  "face_img": "https://zadarskilist.novilist.hr/wp-content/uploads/2026/11/lab-16-scaled-1.jpg"
+ },
+ {
   "title": "OGLEDALCE Kazališta lutaka Zadar na 31. reviji lutkarskih kazališta u Rijeci",
   "link": "https://www.antenazadar.hr/clanak/2026/11/ogledalce-kazalista-lutaka-zadar-na-31-reviji-lutkarskih-kazalista-u-rijeci/",
   "date": "2026-11-06T15:38:07+00:00",
@@ -5175,44 +5209,6 @@
   "source_url": "https://ezadar.net.hr/",
   "face": null,
   "face_img": "https://cdn-ezadar.net.hr/wp-content/uploads/858412425_1527608839400804_6315174988701556912_n-d56bce7d51e1ba9a0447e38d-1052x696.jpg"
- },
- {
-  "title": "HNK ZADAR / U četvrtak premijera predstave “Obiteljsko vijeće”",
-  "link": "https://www.znet.hr/2026/11/04/hnk-zadar-u-cetvrtak-premijera-predstave-obiteljsko-vijece/",
-  "date": "2026-11-04T12:36:54+00:00",
-  "summary": "5. studenoga u 20 sati u HNK Zadar održat će se prva ovosezonska premijeru predstave „OBITELJSKO VIJEĆE”, katalonske dramatičarke Cristine Clemente, u režiji, prijevodu i adaptaciji Nenni Delmestre.",
-  "image": "https://www.znet.hr/wp-content/uploads/2026/11/865725966_29159151060377712_1431976419456430055_n-1000x600.jpg",
-  "source": "Znet",
-  "topics": [
-   "Zadar"
-  ],
-  "source_url": "https://www.znet.hr/",
-  "face": [
-   26.9,
-   70.8,
-   11.0,
-   89.0
-  ],
-  "face_img": "https://www.znet.hr/wp-content/uploads/2026/11/865725966_29159151060377712_1431976419456430055_n-1000x600.jpg"
- },
- {
-  "title": "Radeta o nalazu DIRH-a, novom prosvjedu zbog Dikla, povećanju poreza na nekretnine",
-  "link": "https://radio.hrt.hr/radio-zadar/vijesti/radeta-o-nalazu-dirh-a-novom-prosvjedu-zbog-dikla-povecanju-poreza-na-nekretnine-12992669",
-  "date": "2026-11-04T12:34:30+00:00",
-  "summary": "U programu Radio Zadra ove srijede gostovao je nezavisni gradski vijećnik Daniel Radeta. Odlagalište Diklo, novi prosvjed,&nbsp;poskupljenje poreza na nekretnine,&nbsp;turistička ponuda i građanska incijatva RED - neke su od teme razgovora.&nbsp; &nbsp;&nbsp;",
-  "image": "https://api.hrt.hr/media/4f/a1/041fd22b-945f-4847-8c6a-261f53d9c7e4-20261104123411.webp",
-  "source": "HRT Radio Zadar",
-  "topics": [
-   "Zadar"
-  ],
-  "source_url": "https://radio.hrt.hr/radio-zadar",
-  "face": [
-   34.3,
-   53.6,
-   52.0,
-   58.5
-  ],
-  "face_img": "https://api.hrt.hr/media/4f/a1/041fd22b-945f-4847-8c6a-261f53d9c7e4-20261104123411.webp"
  },
  {
   "title": "Zadar i okolica uživaju u suncu do nedjelje, a potom nastupa kišno razdoblje",
