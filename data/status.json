@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-06T08:31:02.817624+00:00",
+ "updated": "2026-11-06T08:45:44.983199+00:00",
  "sources": [
   {
    "name": "Antena Zadar",
@@ -98,7 +98,7 @@
   },
   {
    "name": "Sveučilište u Zadru",
-   "count": 4,
+   "count": 5,
    "ok": true,
    "feed": null,
    "errors": []
@@ -168,8 +168,8 @@
   },
   {
    "name": "tportal",
-   "count": 0,
-   "ok": false,
+   "count": 1,
+   "ok": true,
    "feed": null,
    "errors": []
   },
@@ -238,7 +238,7 @@
   },
   {
    "name": "Poslovni dnevnik",
-   "count": 18,
+   "count": 19,
    "ok": true,
    "feed": null,
    "errors": []
