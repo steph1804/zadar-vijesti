@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-06T11:31:06.179119+00:00",
+ "updated": "2026-11-06T11:34:31.653265+00:00",
  "sources": [
   {
    "name": "Antena Zadar",
@@ -112,7 +112,7 @@
   },
   {
    "name": "Opća bolnica Zadar",
-   "count": 6,
+   "count": 5,
    "ok": true,
    "feed": null,
    "errors": []
@@ -238,7 +238,7 @@
   },
   {
    "name": "Poslovni dnevnik",
-   "count": 19,
+   "count": 18,
    "ok": true,
    "feed": null,
    "errors": []
