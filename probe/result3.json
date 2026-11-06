@@ -1,17 +1,35 @@
 {
- "https://www.noviradio.hr/feed/": {
-  "err": "URLError(TimeoutError('timed out'))",
+ "https://kalelarga.info/feed/": {
+  "err": "URLError(gaierror(-2, 'Name or service not known'))",
   "hdr": {},
   "body": ""
  },
- "https://www.noviradio.hr/": {
-  "err": "URLError(TimeoutError('timed out'))",
+ "https://www.kalelarga.info/": {
+  "err": "URLError(gaierror(-2, 'Name or service not known'))",
   "hdr": {},
   "body": ""
  },
- "https://noviradio.hr/feed/": {
-  "err": "URLError(TimeoutError('timed out'))",
+ "https://kalelarga.info/robots.txt": {
+  "err": "URLError(gaierror(-2, 'Name or service not known'))",
   "hdr": {},
   "body": ""
+ },
+ "https://www.kalelarga.hr/feed/": {
+  "status": 200,
+  "final": "https://www.kalelarga.net/en/",
+  "len": 53959,
+  "ctype": "text/html; charset=utf-8",
+  "alt": [],
+  "links": [
+   "/images/xarrow_scroll.png.pagespeed.ic.ye0qDn5fS_.png",
+   "https://www.kalelarga.net/images/logo.png"
+  ],
+  "api": [],
+  "next": false,
+  "head": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<script async src=\"https://www.googletagmanager.com/gtag/js?id=G-4GRBN1WH92\"></script>\n<script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('js',new Date());gtag('config','G-4GRBN1WH92');</script>\n<script>!function(f,b,",
+  "items": 0,
+  "chan": "",
+  "title": "Web development - Custom made web design",
+  "osm": []
  }
 }
