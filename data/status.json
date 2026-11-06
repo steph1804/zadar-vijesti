@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-06T08:45:44.983199+00:00",
+ "updated": "2026-11-06T09:01:17.634927+00:00",
  "sources": [
   {
    "name": "Antena Zadar",
@@ -31,7 +31,7 @@
   },
   {
    "name": "eZadar",
-   "count": 20,
+   "count": 19,
    "ok": true,
    "feed": null,
    "errors": []
@@ -175,22 +175,22 @@
   },
   {
    "name": "N1",
-   "count": 0,
-   "ok": false,
+   "count": 1,
+   "ok": true,
    "feed": null,
    "errors": []
   },
   {
    "name": "Net.hr",
-   "count": 0,
-   "ok": false,
+   "count": 1,
+   "ok": true,
    "feed": null,
    "errors": []
   },
   {
    "name": "Telegram",
-   "count": 1,
-   "ok": true,
+   "count": 0,
+   "ok": false,
    "feed": null,
    "errors": []
   },
