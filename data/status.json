@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-06T08:01:17.316937+00:00",
+ "updated": "2026-11-06T08:13:51.850258+00:00",
  "sources": [
   {
    "name": "Antena Zadar",
@@ -10,7 +10,7 @@
   },
   {
    "name": "Zadarski list",
-   "count": 8,
+   "count": 9,
    "ok": true,
    "feed": null,
    "errors": []
@@ -47,7 +47,7 @@
   },
   {
    "name": "Sport023",
-   "count": 10,
+   "count": 9,
    "ok": true,
    "feed": null,
    "errors": []
@@ -96,7 +96,7 @@
   },
   {
    "name": "Sveučilište u Zadru",
-   "count": 5,
+   "count": 4,
    "ok": true,
    "feed": null,
    "errors": []
@@ -152,8 +152,8 @@
   },
   {
    "name": "Jutarnji list",
-   "count": 0,
-   "ok": false,
+   "count": 1,
+   "ok": true,
    "feed": null,
    "errors": []
   },
@@ -187,8 +187,8 @@
   },
   {
    "name": "Telegram",
-   "count": 0,
-   "ok": false,
+   "count": 1,
+   "ok": true,
    "feed": null,
    "errors": []
   },
@@ -215,7 +215,7 @@
   },
   {
    "name": "Morski.hr",
-   "count": 2,
+   "count": 3,
    "ok": true,
    "feed": null,
    "errors": []

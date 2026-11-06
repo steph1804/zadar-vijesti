@@ -1,5 +1,84 @@
 [
  {
+  "title": "Sažetak dnevnih događaja",
+  "link": "https://zadarska-policija.gov.hr/vijesti/sazetak-dnevnih-dogadjaja-18821/18821",
+  "date": "2026-11-06T08:13:51.850258+00:00",
+  "summary": "",
+  "image": "https://zadarska-policija.gov.hr/UserDocsImages//2024/POLICIJA/policija%201.jpg",
+  "source": "Policija Zadar",
+  "topics": [],
+  "source_url": "https://zadarska-policija.gov.hr/vijesti/8",
+  "face": null,
+  "face_img": "https://zadarska-policija.gov.hr/UserDocsImages//2024/POLICIJA/policija%201.jpg"
+ },
+ {
+  "title": "Cijenjeni zadarski liječnik posthumno predložen za nagradu Grada Zadra za životno djelo",
+  "link": "https://www.morski.hr/cijenjeni-zadarski-lijecnik-posthumno-predlozen-za-nagradu-grada-zadra-za-zivotno-djelo/",
+  "date": "2026-11-06T08:13:26+00:00",
+  "summary": "Gradsko vijeće Grada Zadra na sjednici u četvrtak, 12. listopada, donijet će odluke o dodjeli javnih priznanja za 2026. godinu. Javna priznanja za 2026. godinu bit će uručena u povodu Dana Grada Zadra i blagdana sv. Krševana, na Svečanoj",
+  "image": "https://storage.ghost.io/c/8c/e6/8ce68df1-b8bf-474a-a3e0-701a018ef40d/content/images/2026/11/dr-soric-naslovnica-1200x630-6b1de6542f9c5f0584577fb8-1052x630.webp",
+  "source": "Morski.hr",
+  "topics": [
+   "Zadar",
+   "Otoci"
+  ],
+  "source_url": "https://www.morski.hr/",
+  "face": [
+   6.0,
+   59.7,
+   40.0,
+   58.9
+  ],
+  "face_img": "https://storage.ghost.io/c/8c/e6/8ce68df1-b8bf-474a-a3e0-701a018ef40d/content/images/2026/11/dr-soric-naslovnica-1200x630-6b1de6542f9c5f0584577fb8-1052x630.webp"
+ },
+ {
+  "title": "Studenti u Zadru mogu dobiti novčanu pomoć za stanarinu, evo tko ima pravo i do kada se može prijaviti",
+  "link": "https://zadarskilist.novilist.hr/zadar-zupanija/zadar/studenti-u-zadru-mogu-dobiti-novcanu-pomoc-za-stanarinu-evo-tko-ima-pravo-i-do-kada-se-moze-prijaviti/",
+  "date": "2026-11-06T08:10:38+00:00",
+  "summary": "Sveučilište u Zadru objavilo je Natječaj za dodjelu subvencije smještaja kod privatnog stanodavca studentima u redovitom statusu Sveučilišta u Zadru i Veleučilišta Nikole Tesle u Gospiću u akademskoj godini 2026./2027. Studenti se natječu za subvenciju kod privatnog stanodavca za 50 mjesta u Zadru i 60 mjesta u…",
+  "image": "https://zadarskilist.novilist.hr/wp-content/uploads/2026/10/7907876.jpg",
+  "source": "Zadarski list",
+  "topics": [
+   "Zadar"
+  ],
+  "source_url": "https://zadarskilist.novilist.hr/",
+  "face": null,
+  "face_img": "https://zadarskilist.novilist.hr/wp-content/uploads/2026/10/7907876.jpg"
+ },
+ {
+  "title": "Optužnica otkriva detalje pokušaja ubojstva na Pagu: mladiću zabio nož u prsa dok je ležao na kauču",
+  "link": "https://www.telegram.hr/politika-kriminal/optuznica-otkriva-detalje-pokusaja-ubojstva-na-pagu-mladicu-zabio-noz-u-prsa-dok-je-lezao-na-kaucu/",
+  "date": "2026-11-06T08:04:02+00:00",
+  "summary": "Do zločina je došlo nakon verbalnog i fizičkog sukoba sa žrtvom",
+  "image": "https://www.telegram.hr/wp-content/uploads/2026/04/pxl-100326-148109497-1-150x150.jpg",
+  "source": "Telegram",
+  "topics": [
+   "Otoci"
+  ],
+  "source_url": "https://www.telegram.hr/",
+  "face": null,
+  "face_img": "https://www.telegram.hr/wp-content/uploads/2026/04/pxl-100326-148109497-1-150x150.jpg"
+ },
+ {
+  "title": "Svađa na Pagu prerasla u krvavi obračun: Mladiću (21) zario nož u prsa dok je ležao na kauču",
+  "link": "https://www.jutarnji.hr/vijesti/crna-kronika/svada-na-pagu-prerasla-u-krvavi-obracun-mladicu-21-zario-noz-u-prsa-dok-je-lezao-na-kaucu-15762909",
+  "date": "2026-11-06T08:03:58+00:00",
+  "summary": "Četiri mjeseca od svirepog pokušaja ubojstva 21-godišnjaka u Mandrama na otoku Pagu, Županijsko državno odvjetništvo je podignulo optužnicu protiv 36-godišnjeg muškarca. Riječ je o zločinu od 9. srpnja u jutarnjim satima koji je usred turističke sezone uznemirio žitelje i turiste. Kako je otkriveno...",
+  "image": "https://media.jutarnji.hr/images/slike/2026/11/06/f_39417286_1280.jpg?1793952800",
+  "source": "Jutarnji list",
+  "topics": [
+   "Otoci"
+  ],
+  "source_url": "https://www.jutarnji.hr/",
+  "face": [
+   14.0,
+   35.5,
+   58.2,
+   63.5
+  ],
+  "face_img": "https://media.jutarnji.hr/images/slike/2026/11/06/f_39417286_1280.jpg?1793952800"
+ },
+ {
   "title": "Šopot - dovršen očevid požara u skladištu",
   "link": "https://zadarska-policija.gov.hr/vijesti/sopot-dovrsen-ocevid-pozara-u-skladistu/18822",
   "date": "2026-11-06T08:01:17.316937+00:00",
@@ -44,14 +123,16 @@
   "link": "https://sport023.hr/2026/11/06/zadranke-ana-mandic-i-iva-borovic-gregov-u-hrvatskoj-reprezentaciji-za-nastavak-kvalifikacija-za-eurobasket/",
   "date": "2026-11-06T07:56:52+00:00",
   "summary": "Zadarska košarka ponovno ima svoje predstavnice u hrvatskoj ženskoj reprezentaciji. Ana Mandić našla se na popisu od 14 igračica izbornika... Objava Zadranke Ana Mandić i Iva Borović Gregov u hrvatskoj reprezentaciji za nastavak kvalifikacija za EuroBasket! pojavila se prvi puta na Sport023.",
-  "image": null,
+  "image": "https://sport023.hr/wp-content/uploads/2022/05/ana-mandic-iva-borovic-e1793951768206.jpg",
   "source": "Sport023",
   "source_topic": "Sport",
   "topics": [
    "Zadar",
    "Sport"
   ],
-  "source_url": "https://sport023.hr/"
+  "source_url": "https://sport023.hr/",
+  "face": null,
+  "face_img": "https://sport023.hr/wp-content/uploads/2022/05/ana-mandic-iva-borovic-e1793951768206.jpg"
  },
  {
   "title": "KK Zadar ima novog partnera: Slana soba brinut će se za zdravlje košarkaša",
@@ -776,7 +857,7 @@
   "link": "https://www.jutarnji.hr/sportske/kosarka/aba-liga/spartak-nije-morao-biti-ni-dobar-da-bi-pobijedio-ovakav-zadar-sramotna-predstava-u-dudovoj-sumi-15762781",
   "date": "2026-11-05T19:07:00+00:00",
   "summary": "SPARTAK SUBOTICA – ZADAR 67:51 (12:13, 17:16, 14:9, 24:13) SUBOTICA – Hala sportova Dudova šuma. Gledatelja: 1200. Suci: Mordal, Danilović, Šešević.",
-  "image": "https://media.jutarnji.hr/images/slike/2026/11/05/f_39828152_1280.jpg?1793952049",
+  "image": "https://media.jutarnji.hr/images/slike/2026/11/05/f_39828152_1280.jpg?1793952495",
   "source": "Sportske novosti",
   "source_topic": "Sport",
   "topics": [
@@ -790,7 +871,7 @@
    12.4,
    85.9
   ],
-  "face_img": "https://media.jutarnji.hr/images/slike/2026/11/05/f_39828152_1280.jpg?1793952049"
+  "face_img": "https://media.jutarnji.hr/images/slike/2026/11/05/f_39828152_1280.jpg?1793952495"
  },
  {
   "title": "PORAZ U SUBOTICI Modrić se prepao kao grlica, dao Mirčeti i Bičiću mizerne dvije minute – direktor Jurlina otkrio gde je Mihailović!",
@@ -1119,7 +1200,7 @@
   "link": "https://www.jutarnji.hr/sportske/nogomet/sto-radimo-pa-pijemo-pusti-nam-misu-kovaca-tip-iz-europskog-parlamenta-nam-je-htio-zvati-policiju-15762739",
   "date": "2026-11-05T16:26:00+00:00",
   "summary": "Pitanje u hrvatskom kvizu bilo je koja cesta u Europi prelazi preko aerodromske piste ili obrnuto pista preko ceste, a odgovor je bio u Donjem Zemuniku pokraj Zadra. Ipak, već na ulazu u Gibraltar kviz odgovor pada u vodu jer crveno svjetlo na semaforu, rampa i ograda priječe put dok slijeće EasyJet...",
-  "image": "https://media.jutarnji.hr/images/slike/2026/11/05/f_39788654_1280.jpg?1793952049",
+  "image": "https://media.jutarnji.hr/images/slike/2026/11/05/f_39788654_1280.jpg?1793952495",
   "source": "Sportske novosti",
   "source_topic": "Sport",
   "topics": [
@@ -1134,7 +1215,7 @@
    0.7,
    95.7
   ],
-  "face_img": "https://media.jutarnji.hr/images/slike/2026/11/05/f_39788654_1280.jpg?1793952049"
+  "face_img": "https://media.jutarnji.hr/images/slike/2026/11/05/f_39788654_1280.jpg?1793952495"
  },
  {
   "title": "Zadar u Subotici odigrao najgoru utakmicu sezone",
@@ -2004,18 +2085,6 @@
   "source_url": "https://zadarska-policija.gov.hr/vijesti/8",
   "face": null,
   "face_img": "https://zadarska-policija.gov.hr/UserDocsImages//2024/POLICIJA/policija%20%2024.jpg"
- },
- {
-  "title": "Sažetak dnevnih događaja",
-  "link": "https://zadarska-policija.gov.hr/vijesti/sazetak-dnevnih-dogadjaja-18818/18818",
-  "date": "2026-11-05T11:00:00+00:00",
-  "summary": "",
-  "image": "https://zadarska-policija.gov.hr/UserDocsImages//2024/POLICIJA/pol.auto.4.jpg",
-  "source": "Policija Zadar",
-  "topics": [],
-  "source_url": "https://zadarska-policija.gov.hr/vijesti/8",
-  "face": null,
-  "face_img": "https://zadarska-policija.gov.hr/UserDocsImages//2024/POLICIJA/pol.auto.4.jpg"
  },
  {
   "title": "Radno vrijeme reciklažnog dvorišta Diklo",
@@ -5122,70 +5191,6 @@
    100.0
   ],
   "face_img": "https://www.znet.hr/wp-content/uploads/2026/11/1e1056e8d0cf2314e3ffc4fe7a7a3282_XL-1000x600.jpg"
- },
- {
-  "title": "Kako su podaci iz sustava MUP-a završavali kod gradonačelnikove kćeri: otkrivamo detalje korupcijske afere...",
-  "link": "https://slobodnadalmacija.hr/dalmacija/s-mora-i-kraja/sustav-mup-a-kao-baza-za-lov-na-birace-otkrivamo-detalje-afere-podaci-zavrsavali-kod-gradonacelnikove-kceri-1588332",
-  "date": "2026-11-04T06:37:00+00:00",
-  "summary": "Potvrđivanje najnovije optužnice Županijskog suda u Splitu tek se očekuje protiv policijske službenice M. M. (37), K. B. (36) – kćeri bivšeg dugogodišnjeg paškog gradonačelnika Ante Fabijanića, te B.",
-  "image": "https://static.slobodnadalmacija.hr/images/slike/2026/11/03/32798133.png",
-  "source": "Slobodna Dalmacija/Zadar",
-  "topics": [],
-  "source_url": "https://slobodnadalmacija.hr/dalmacija/zadar",
-  "face": null,
-  "face_img": "https://static.slobodnadalmacija.hr/images/slike/2026/11/03/32798133.png"
- },
- {
-  "title": "Albina Grčić u Zadru otvoreno progovorila o ljubavnim vezama: ‘Od svakog dečka napravila bih idola. Mislila sam da ću se udati za sva tri’",
-  "link": "https://zadarskilist.novilist.hr/zadar-zupanija/zadar/albina-grcic-u-zadru-otvoreno-progovorila-o-ljubavnim-vezama-od-svakog-decka-napravila-bih-idola-mislila-sam-da-cu-se-udati-za-sva-tri/",
-  "date": "2026-11-04T06:35:58+00:00",
-  "summary": "Nekadašnja hrvatska predstavnica na Eurosongu Albina Grčić u crkvi sv. Frane u Zadru održala je osobno svjedočanstvo o vjeri, životu na estradi i duhovnom preokretu zbog kojeg je odlučila promijeniti životne prioritete.",
-  "image": "https://zadarskilist.novilist.hr/wp-content/uploads/2026/11/PXL_170526_151989054.jpg",
-  "source": "Zadarski list",
-  "topics": [
-   "Zadar"
-  ],
-  "source_url": "https://zadarskilist.novilist.hr/",
-  "face": [
-   6.1,
-   30.0,
-   50.1,
-   61.0
-  ],
-  "face_img": "https://zadarskilist.novilist.hr/wp-content/uploads/2026/11/PXL_170526_151989054.jpg"
- },
- {
-  "title": "Stotine Zadrana ispratile Mišu uz baklje, pjesmu i vatromet",
-  "link": "https://www.index.hr/magazin/clanak/stotine-zadrana-ispratile-misu-uz-baklje-pjesmu-i-vatromet/2853043.aspx",
-  "date": "2026-11-04T06:26:00+00:00",
-  "summary": "POVORKU su dočekali uz baklje, vatromet i pjesmu na putu za posljednje počivalište u Zagrebu.",
-  "image": "https://ip.index.hr/remote/bucket.index.hr/b/index/d65a276a-1f05-49e4-9218-5770cb899b3f.png?fb_wtrmrk=magazin.jpg&width=1200&height=630&mode=crop&format=png",
-  "source": "Index.hr",
-  "topics": [
-   "Zadar"
-  ],
-  "source_url": "https://www.index.hr/",
-  "face": [
-   63.1,
-   72.5,
-   29.0,
-   32.1
-  ],
-  "face_img": "https://ip.index.hr/remote/bucket.index.hr/b/index/d65a276a-1f05-49e4-9218-5770cb899b3f.png?fb_wtrmrk=magazin.jpg&width=1200&height=630&mode=crop&format=png"
- },
- {
-  "title": "Na Jadranu pretežno sunčano",
-  "link": "https://zadarskilist.novilist.hr/zadar-zupanija/zadar/na-jadranu-pretezno-suncano-15/",
-  "date": "2026-11-04T06:17:57+00:00",
-  "summary": "U većini predjela unutrašnjosti oblačno, uglavnom u prvom dijelu dana mjestimice uz malo kiše, osobito na istoku, prognoza je Državnog hidrometeorološkog zavoda. Vjetar slab do umjeren sjeveroistočni i sjeverni. Na Jadranu te u unutrašnjosti Istre i Dalmacije djelomice, ponegdje i pretežno sunčano.",
-  "image": "https://zadarskilist.novilist.hr/wp-content/uploads/2024/03/9220369.jpg",
-  "source": "Zadarski list",
-  "topics": [
-   "Zadar"
-  ],
-  "source_url": "https://zadarskilist.novilist.hr/",
-  "face": null,
-  "face_img": "https://zadarskilist.novilist.hr/wp-content/uploads/2024/03/9220369.jpg"
  },
  {
   "title": "Zadar i okolica uživaju u suncu do nedjelje, a potom nastupa kišno razdoblje",
