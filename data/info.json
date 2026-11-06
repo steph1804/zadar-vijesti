@@ -90,7 +90,15 @@
    "place": "Šopot",
    "street": "",
    "note": "Derete (kvar dalekovoda)",
-   "time": "00:00 - 12:00",
+   "time": "00:00 - 09:00",
+   "unplanned": true
+  },
+  {
+   "day": "06.11.2026",
+   "place": "Jasenice",
+   "street": "",
+   "note": "cijelo mjesto - popravak kvara na dalekovodu",
+   "time": "08:30 - 09:30",
    "unplanned": true
   },
   {
@@ -98,7 +106,7 @@
    "place": "Podlug",
    "street": "",
    "note": "dio mjesta (kvar dalekovoda)",
-   "time": "00:00 - 12:00",
+   "time": "00:00 - 09:00",
    "unplanned": true
   },
   {

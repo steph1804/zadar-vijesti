@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-06T07:31:05.462467+00:00",
+ "updated": "2026-11-06T07:45:44.265260+00:00",
  "sources": [
   {
    "name": "Antena Zadar",
@@ -98,7 +98,7 @@
   },
   {
    "name": "Sveučilište u Zadru",
-   "count": 3,
+   "count": 5,
    "ok": true,
    "feed": null,
    "errors": []
