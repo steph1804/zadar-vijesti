@@ -103,7 +103,7 @@ suhovar\w*
 [otoci]
 # Samo imena zadarskih otoka i mjesta na njima; opće riječi (otok, otočni) i Paški most ne računaju se.
 pag|paga|pagu|pagom|pažan(?:i|a|ima|k\w*)
-kolan\w*
+kolan(?:a|u|om|ac|ci|cima|ca|jsk\w*|sk\w*|k\w*)?
 povljan\w*
 ?vir|viru|virjan\w*
 ugljan(?!e\b|ima\b)\w*
