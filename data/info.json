@@ -5,12 +5,6 @@
    "link": "https://www.jadrolinija.hr/news-single/linije-u-prekidu-08112026",
    "date": "2026-11-07T16:54:00+00:00",
    "summary": "Red plovidbe u nedjelju, 08.11.2026"
-  },
-  {
-   "title": "Linije u prekidu 07.11.2026.",
-   "link": "https://www.jadrolinija.hr/news-single/linije-u-prekidu-07112026",
-   "date": "2026-11-06T19:29:00+00:00",
-   "summary": "Red plovidbe u subotu, 07.11.2026"
   }
  ],
  "buses": [
@@ -76,16 +70,68 @@
    "act": "",
    "status": "",
    "gate": ""
+  },
+  {
+   "dir": "odlazak",
+   "flight": "OU4674",
+   "airline": "Croatia Airlines",
+   "city": "Munich",
+   "via": "",
+   "time": "2026-11-09T06:30:00",
+   "est": "2026-11-09T06:30:00",
+   "act": "",
+   "status": "",
+   "gate": ""
+  },
+  {
+   "dir": "dolazak",
+   "flight": "OU4675",
+   "airline": "Croatia Airlines",
+   "city": "Munich",
+   "via": "",
+   "time": "2026-11-09T15:10:00",
+   "est": "2026-11-09T15:10:00",
+   "act": "",
+   "status": "",
+   "gate": ""
+  },
+  {
+   "dir": "odlazak",
+   "flight": "OU674",
+   "airline": "Croatia Airlines",
+   "city": "Zagreb",
+   "via": "Pula",
+   "time": "2026-11-09T15:40:00",
+   "est": "2026-11-09T15:40:00",
+   "act": "",
+   "status": "",
+   "gate": ""
   }
  ],
  "power": [
   {
-   "day": "07.11.2026",
-   "place": "Poljica",
-   "street": "",
-   "note": "cijelo mjesto",
-   "time": "12:00 - 22:00",
-   "unplanned": true
+   "day": "09.11.2026",
+   "place": "Privlaka",
+   "street": "Put Brtalića",
+   "note": "Povremeni prekidi",
+   "time": "08:00 - 12:00",
+   "unplanned": false
+  },
+  {
+   "day": "09.11.2026",
+   "place": "Donji Zemunik i Smoković",
+   "street": "u Donjem Zemuniku sve osim centra mjesta i cijelo mjesto Smoković",
+   "note": "u slučaju lošeg vremena radovi se odgađaju",
+   "time": "09:30 - 12:30",
+   "unplanned": false
+  },
+  {
+   "day": "09.11.2026",
+   "place": "Vir",
+   "street": "Pedinka",
+   "note": "Povremeni prekidi",
+   "time": "12:00 - 14:00",
+   "unplanned": false
   }
  ],
  "water": [
