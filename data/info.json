@@ -72,7 +72,16 @@
    "gate": ""
   }
  ],
- "power": [],
+ "power": [
+  {
+   "day": "07.11.2026",
+   "place": "Poljica",
+   "street": "",
+   "note": "cijelo mjesto",
+   "time": "12:00 - 22:00",
+   "unplanned": true
+  }
+ ],
  "water": [
   {
    "day": "2026-11-06",
