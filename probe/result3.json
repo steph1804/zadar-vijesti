@@ -1,23 +1,17 @@
 {
- "https://sport023.hr/2026/11/06/zadranke-ana-mandic-i-iva-borovic-gregov-u-hrvatskoj-reprezentaciji-za-nastavak-kvalifikacija-za-eurobasket/": {
+ "https://023.hr/feed/": {
   "status": 200,
-  "final": "https://sport023.hr/2026/11/06/zadranke-ana-mandic-i-iva-borovic-gregov-u-hrvatskoj-reprezentaciji-za-nastavak-kvalifikacija-za-eurobasket/",
-  "len": 233447,
-  "ctype": "text/html; charset=UTF-8",
-  "alt": [
-   "<link\nrel=alternate type=application/rss+xml title=\"Sport023 &raquo; Kanal\" href=https://sport023.hr/feed/ >",
-   "<link\nrel=alternate type=application/rss+xml title=\"Sport023 &raquo; Kanal komentara\" href=https://sport023.hr/comments/feed/ >"
-  ],
-  "links": [
-   "https://sport023.hr/wp-content/uploads/2020/11/cropped-sport023favicon-270x270.png",
-   "https://sport023.hr/wp-content/uploads/2022/05/ana-mandic-iva-borovic-e1793951768206.jpg"
-  ],
+  "final": "https://023.hr/feed/",
+  "len": 74394,
+  "ctype": "application/rss+xml; charset=UTF-8",
+  "alt": [],
+  "links": [],
   "api": [],
   "next": false,
-  "head": "<!DOCTYPE html><html\nlang=hr><head>\n <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':\nnew Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],\nj=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=\n'https://www.googletagmanager.com/gtm.js?id='+i+dl;f",
-  "items": 0,
+  "head": "<?xml version=\"1.0\" encoding=\"UTF-8\"?><rss version=\"2.0\"\n\txmlns:content=\"http://purl.org/rss/1.0/modules/content/\"\n\txmlns:wfw=\"http://wellformedweb.org/CommentAPI/\"\n\txmlns:dc=\"http://purl.org/dc/elements/1.1/\"\n\txmlns:atom=\"http://www.w3.org/2005/Atom\"\n\txmlns:sy=\"http://purl.org/rss/1.0/modules/syndi",
+  "items": 10,
   "chan": "",
-  "title": "Zadranke Ana Mandić i Iva Borović Gregov u hrvatskoj reprezentaciji za nastavak ",
+  "title": "023.hr",
   "osm": []
  }
 }
