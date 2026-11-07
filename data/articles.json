@@ -2451,6 +2451,35 @@
   "face_img": "https://www.antenazadar.hr/wp-content/uploads/2026/11/891956292_1796109822523643_9201451833604746285_n.jpg"
  },
  {
+  "title": "Komemoracija za prof. dr. sc. Ivicu Zdrilića",
+  "link": "https://www.unizd.hr/obavijesti/view/komemoracija-za-prof-dr-sc-ivicu-zdrilica",
+  "date": "2026-11-06T11:00:00+00:00",
+  "summary": "U petak, 13. studenoga 2026. s početkom u 12:00 sati u Svečanoj dvorani Sveučilišta održat će se komemoracija za prof.dr.sc. Ivicu...",
+  "image": "https://www.unizd.hr/Portals/0/EasyDNNNews/61370/images/image002-320-256-c-L-97.jpg",
+  "source": "Sveučilište u Zadru",
+  "topics": [],
+  "source_url": "https://www.unizd.hr/obavijesti/novosti",
+  "face": [
+   19.5,
+   63.4,
+   41.4,
+   60.6
+  ],
+  "face_img": "https://www.unizd.hr/Portals/0/EasyDNNNews/61370/images/image002-320-256-c-L-97.jpg"
+ },
+ {
+  "title": "Izložba “Morem vođeni – Liburni i njihov svijet” u Trstu",
+  "link": "https://www.unizd.hr/obavijesti/view/izlozba-morem-vodeni-liburni-i-njihov-svijet-u-trstu",
+  "date": "2026-11-06T11:00:00+00:00",
+  "summary": "Kako su živjeli Liburni? Kakav je bio njihov svijet i koliko je more oblikovalo njihovu kulturu, svakodnevicu i identitet? Odgovore donosi izložba...",
+  "image": "https://www.unizd.hr/Portals/0/EasyDNNNews/61369/images/lib-320-256-c-L-97.jpg",
+  "source": "Sveučilište u Zadru",
+  "topics": [],
+  "source_url": "https://www.unizd.hr/obavijesti/novosti",
+  "face": null,
+  "face_img": "https://www.unizd.hr/Portals/0/EasyDNNNews/61369/images/lib-320-256-c-L-97.jpg"
+ },
+ {
   "title": "Na biogradskom području policija oduzela automatsko i lovačko oružje",
   "link": "https://zadarska-policija.gov.hr/vijesti/na-biogradskom-podrucju-policija-oduzela-automatsko-i-lovacko-oruzje/18823",
   "date": "2026-11-06T11:00:00+00:00",
@@ -2489,23 +2518,6 @@
   "face_img": "https://zadarska-policija.gov.hr/UserDocsImages//2024/POLICIJA/369.jpg"
  },
  {
-  "title": "Komemoracija za prof. dr. sc. Ivicu Zdrilića",
-  "link": "https://www.unizd.hr/obavijesti/view/komemoracija-za-prof-dr-sc-ivicu-zdrilica",
-  "date": "2026-11-06T11:00:00+00:00",
-  "summary": "U petak, 13. studenoga 2026. s početkom u 12:00 sati u Svečanoj dvorani Sveučilišta održat će se komemoracija za prof.dr.sc. Ivicu...",
-  "image": "https://www.unizd.hr/Portals/0/EasyDNNNews/61370/images/image002-320-256-c-L-97.jpg",
-  "source": "Sveučilište u Zadru",
-  "topics": [],
-  "source_url": "https://www.unizd.hr/obavijesti/novosti",
-  "face": [
-   19.5,
-   63.4,
-   41.4,
-   60.6
-  ],
-  "face_img": "https://www.unizd.hr/Portals/0/EasyDNNNews/61370/images/image002-320-256-c-L-97.jpg"
- },
- {
   "title": "Sažetak dnevnih događaja",
   "link": "https://zadarska-policija.gov.hr/vijesti/sazetak-dnevnih-dogadjaja-18821/18821",
   "date": "2026-11-06T11:00:00+00:00",
@@ -2528,18 +2540,6 @@
   "source_url": "https://zadarska-policija.gov.hr/vijesti/8",
   "face": null,
   "face_img": "https://zadarska-policija.gov.hr/UserDocsImages//2021/rotacija.jpg"
- },
- {
-  "title": "Izložba “Morem vođeni – Liburni i njihov svijet” u Trstu",
-  "link": "https://www.unizd.hr/obavijesti/view/izlozba-morem-vodeni-liburni-i-njihov-svijet-u-trstu",
-  "date": "2026-11-06T11:00:00+00:00",
-  "summary": "Kako su živjeli Liburni? Kakav je bio njihov svijet i koliko je more oblikovalo njihovu kulturu, svakodnevicu i identitet? Odgovore donosi izložba...",
-  "image": "https://www.unizd.hr/Portals/0/EasyDNNNews/61369/images/lib-320-256-c-L-97.jpg",
-  "source": "Sveučilište u Zadru",
-  "topics": [],
-  "source_url": "https://www.unizd.hr/obavijesti/novosti",
-  "face": null,
-  "face_img": "https://www.unizd.hr/Portals/0/EasyDNNNews/61369/images/lib-320-256-c-L-97.jpg"
  },
  {
   "title": "ModernA se vraća u Zadar, Anita Maričić: “Uvijek želimo napraviti korak više i publici prirediti neko novo iznenađenje”",
@@ -5115,20 +5115,6 @@
   "face_img": "https://zadarskilist.novilist.hr/wp-content/uploads/2026/03/andrej-plenkovic-josip-bilaver-sime-erlic-ljel-13.jpg"
  },
  {
-  "title": "Osumnjičena za prijevaru pri ostvarivanju naknada",
-  "link": "https://zadarska-policija.gov.hr/vijesti/osumnjicena-za-prijevaru-pri-ostvarivanju-naknada/18819",
-  "date": "2026-11-05T11:00:00+00:00",
-  "summary": "Policija protiv osumnjičene podnosi kaznenu prijavu nadležnom državnom odvjetništvu u Zadru",
-  "image": "https://zadarska-policija.gov.hr/UserDocsImages//2024/POLICIJA/pol.auto.jpg",
-  "source": "Policija Zadar",
-  "topics": [
-   "Zadar"
-  ],
-  "source_url": "https://zadarska-policija.gov.hr/vijesti/8",
-  "face": null,
-  "face_img": "https://zadarska-policija.gov.hr/UserDocsImages//2024/POLICIJA/pol.auto.jpg"
- },
- {
   "title": "Radno vrijeme reciklažnog dvorišta Diklo",
   "link": "https://www.cistoca-zadar.hr/novosti/novosti-1/radno-vrijeme-reciklaznog-dvorista-diklo-508.html",
   "date": "2026-11-05T11:00:00+00:00",
@@ -5141,6 +5127,20 @@
   "source_url": "https://www.cistoca-zadar.hr/novosti/novosti-1/",
   "face": null,
   "face_img": "https://www.cistoca-zadar.hr/data/images/image/novosti_list/2071/naslov.jpeg"
+ },
+ {
+  "title": "Osumnjičena za prijevaru pri ostvarivanju naknada",
+  "link": "https://zadarska-policija.gov.hr/vijesti/osumnjicena-za-prijevaru-pri-ostvarivanju-naknada/18819",
+  "date": "2026-11-05T11:00:00+00:00",
+  "summary": "Policija protiv osumnjičene podnosi kaznenu prijavu nadležnom državnom odvjetništvu u Zadru",
+  "image": "https://zadarska-policija.gov.hr/UserDocsImages//2024/POLICIJA/pol.auto.jpg",
+  "source": "Policija Zadar",
+  "topics": [
+   "Zadar"
+  ],
+  "source_url": "https://zadarska-policija.gov.hr/vijesti/8",
+  "face": null,
+  "face_img": "https://zadarska-policija.gov.hr/UserDocsImages//2024/POLICIJA/pol.auto.jpg"
  },
  {
   "title": "Vozač posjedovao marihuanu ali odbio testiranje na droge, kažnjen novčanom kaznom i zabranom upravljanja motornim vozilom",
