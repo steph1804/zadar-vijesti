@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-07T21:15:49.353750+00:00",
+ "updated": "2026-11-07T21:31:00.171198+00:00",
  "sources": [
   {
    "name": "Antena Zadar",
@@ -89,7 +89,7 @@
   },
   {
    "name": "HRT Radio Zadar",
-   "count": 12,
+   "count": 11,
    "ok": true,
    "feed": null,
    "errors": []
