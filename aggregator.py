@@ -135,9 +135,29 @@ def _text(el, path):
     return (found.text or "").strip() if found is not None and found.text else ""
 
 
+def _parse_xml(data):
+    """XML feeda; neki WordPress dodaci dvaput upišu isti atribut u <rss> (npr. xmlns:media na 023.hr),
+    što je neispravan XML, pa ponovljene atribute u zaglavlju izbacimo i pokušamo opet."""
+    try:
+        return ET.fromstring(data)
+    except ET.ParseError:
+        text = data.decode("utf-8", "replace")
+        m = re.search(r"<(rss|feed|rdf:RDF)\b[^>]*>", text)
+        if not m:
+            raise
+        seen, attrs = set(), []
+        for a in re.findall(r'\s[\w:.-]+\s*=\s*"[^"]*"', m.group(0)):
+            name = a.split("=")[0].strip()
+            if name not in seen:
+                seen.add(name)
+                attrs.append(a)
+        fixed = text[:m.start()] + "<" + m.group(1) + "".join(attrs) + ">" + text[m.end():]
+        return ET.fromstring(fixed.encode("utf-8"))
+
+
 def parse_feed(data, base_url):
     """Vraća listu dict-ova: title, link, date, summary, image."""
-    root = ET.fromstring(data)
+    root = _parse_xml(data)
     items = []
     if root.tag.endswith("rss") or root.find("channel") is not None:
         for it in root.iter("item"):
