@@ -1,17 +1,56 @@
 {
- "https://023.hr/feed/": {
+ "https://023.hr/023.hr/wp-content/uploads/2026/11/20261106125249_310448.avif": {
+  "err": "<HTTPError 404: 'Not Found'>",
+  "hdr": {
+   "Date": "Sat, 07 Nov 2026 17:03:28 GMT",
+   "Content-Type": "text/html; charset=UTF-8",
+   "Transfer-Encoding": "chunked",
+   "Connection": "close",
+   "CF-Ray": "a56de9581cf2bcfd-ATL",
+   "CF-Cache-Status": "BYPASS",
+   "Cache-Control": "no-cache, must-revalidate, max-age=0, no-store, private",
+   "Expires": "Wed, 11 Jan 1984 05:00:00 GMT",
+   "Server": "cloudflare",
+   "Strict-Transport-Security": "max-age=15552000; includeSubDomains; preload",
+   "Vary": "User-Agent, accept-encoding",
+   "X-Content-Type-Options": "nosniff",
+   "cf-edge-cache": "cache,platform=wordpress",
+   "Speculation-Rules": "\"/cdn-cgi/speculation\"",
+   "Server-Timing": "cfCacheStatus;desc=\"BYPASS\"",
+   "Report-To": "{\"group\":\"cf-nel\",\"max_age\":604800,\"endpoints\":[{\"url\":\"https://a.nel.cloudflare.com/report/v4?s=0ux2nCJM0ivB05frRHlOaxr3E3w3FL2%2B8lXZJ8923r%2B972XSOcWVOsTMHWHyn2bPvC3w06pvCf0mgE5B%2FFuCuSXIzpXAYTCshUuV6%2FbwcC2sOShXK6SQXQ%3D%3D\"}]}",
+   "Nel": "{\"report_to\":\"cf-nel\",\"success_fraction\":0.0,\"max_age\":604800}",
+   "alt-svc": "h3=\":443\"; ma=86400"
+  },
+  "body": "<!\n           @@@@@@@@@@@@@@@@@@@@@@@@@@            @@@@@@@@@@@@@@@@@@@@@@@@@        @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@\n      @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@     @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@   @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@\n     @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@   @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@  @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@\n    @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@  @@@@@@@@@@"
+ },
+ "https://023.hr/wp-content/uploads/2026/11/20261106125249_310448.avif": {
   "status": 200,
-  "final": "https://023.hr/feed/",
-  "len": 74394,
-  "ctype": "application/rss+xml; charset=UTF-8",
+  "final": "https://023.hr/wp-content/uploads/2026/11/20261106125249_310448.avif",
+  "len": 117146,
+  "ctype": "image/avif",
   "alt": [],
   "links": [],
   "api": [],
   "next": false,
-  "head": "<?xml version=\"1.0\" encoding=\"UTF-8\"?><rss version=\"2.0\"\n\txmlns:content=\"http://purl.org/rss/1.0/modules/content/\"\n\txmlns:wfw=\"http://wellformedweb.org/CommentAPI/\"\n\txmlns:dc=\"http://purl.org/dc/elements/1.1/\"\n\txmlns:atom=\"http://www.w3.org/2005/Atom\"\n\txmlns:sy=\"http://purl.org/rss/1.0/modules/syndi",
-  "items": 10,
+  "head": "\u0000\u0000\u0000\u001cftypavif\u0000\u0000\u0000\u0000avifmif1miaf\u0000\u0000\u0000�meta\u0000\u0000\u0000\u0000\u0000\u0000\u0000!hdlr\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000pict\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u000epitm\u0000\u0000\u0000\u0000\u0000\u0001\u0000\u0000\u0000\"iloc\u0000\u0000\u0000\u0000D@\u0000\u0001\u0000\u0001\u0000\u0000\u0000\u0000\u0001\u000e\u0000\u0001\u0000\u0000\u0000\u0000\u0000\u0001��\u0000\u0000\u0000#iinf\u0000\u0000\u0000\u0000\u0000\u0001\u0000\u0000\u0000\u0015infe\u0002\u0000\u0000\u0000\u0000\u0001\u0000\u0000av01\u0000\u0000\u0000\u0000jiprp\u0000\u0000\u0000Kipco\u0000\u0000\u0000\u0013colrnclx\u0000\u0001\u0000\r\u0000\u0006�\u0000\u0000\u0000\fav1C�\u0004\f\u0000\u0000\u0000\u0000\u0014ispe\u0000\u0000\u0000\u0000\u0000\u0000\u0002�\u0000\u0000\u0001�\u0000\u0000\u0000\u0010pixi\u0000\u0000\u0000\u0000\u0003\b\b\b\u0000\u0000\u0000\u0017ipma\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0001\u0000\u0001\u0004\u0001�\u0003\u0004\u0000\u0001�\u0005mdat\u0012\u0000\n\n\u0019&*n�\u0004\u00044\u001a\u00102��\u0007\u0010�\u0000�\b!@�+G�1",
+  "items": 0,
   "chan": "",
-  "title": "023.hr",
+  "title": "",
+  "osm": []
+ },
+ "https://023.hr/wp-content/uploads/2026/11/20261107071640_925448.avif": {
+  "status": 200,
+  "final": "https://023.hr/wp-content/uploads/2026/11/20261107071640_925448.avif",
+  "len": 801807,
+  "ctype": "image/avif",
+  "alt": [],
+  "links": [],
+  "api": [],
+  "next": false,
+  "head": "\u0000\u0000\u0000\u001cftypavif\u0000\u0000\u0000\u0000avifmif1miaf\u0000\u0000\u0000�meta\u0000\u0000\u0000\u0000\u0000\u0000\u0000!hdlr\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000pict\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u000epitm\u0000\u0000\u0000\u0000\u0000\u0001\u0000\u0000\u0000\"iloc\u0000\u0000\u0000\u0000D@\u0000\u0001\u0000\u0001\u0000\u0000\u0000\u0000\u0001\u000e\u0000\u0001\u0000\u0000\u0000\u0000\u0000\f�o\u0000\u0000\u0000#iinf\u0000\u0000\u0000\u0000\u0000\u0001\u0000\u0000\u0000\u0015infe\u0002\u0000\u0000\u0000\u0000\u0001\u0000\u0000av01\u0000\u0000\u0000\u0000jiprp\u0000\u0000\u0000Kipco\u0000\u0000\u0000\u0013colrnclx\u0000\u0001\u0000\r\u0000\u0006�\u0000\u0000\u0000\fav1C�\f\f\u0000\u0000\u0000\u0000\u0014ispe\u0000\u0000\u0000\u0000\u0000\u0000\n\u0000\u0000\u0000\u0006�\u0000\u0000\u0000\u0010pixi\u0000\u0000\u0000\u0000\u0003\b\b\b\u0000\u0000\u0000\u0017ipma\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0001\u0000\u0001\u0004\u0001�\u0003\u0004\u0000\f�wmdat\u0012\u0000\n\n\u001b.��Up@CA�2��3\u0010�\u0000�\b!@�\fM�e",
+  "items": 0,
+  "chan": "",
+  "title": "",
   "osm": []
  }
 }
