@@ -18,7 +18,7 @@
   "title": "Enio Meštrović podnio ostavku na mjesto gradskog vijećnika!",
   "link": "https://radio.hrt.hr/radio-zadar/vijesti/enio-mestrovic-podnio-ostavku-na-mjesto-gradskog-vijecnika--12997904",
   "date": "2026-11-07T08:56:48+00:00",
-  "summary": "",
+  "summary": "Na adrese zadarskih medija sinoć je stigao dopis zadarskog vijećnika Enija Meštrovića. Je li riječ o još jednom njegovom perfomansu, ostaje za vidjeti. Dopis prenosimo u nastavku.",
   "image": "https://api.hrt.hr/media/96/f2/park-bokanjac-3-20230718122741.webp",
   "source": "HRT Radio Zadar",
   "topics": [
@@ -81,25 +81,6 @@
   "face_img": "https://ip.index.hr/remote/bucket.index.hr/b/index/ec15452a-9072-415d-8ebd-797842471daa.jpg?fb_wtrmrk=vijesti.jpg&width=1200&height=630&mode=crop&format=png"
  },
  {
-  "title": "BOMBA S BOKANJCA Druženje s vinom završilo neočekivano – Enio Meštrović objavio neopozivu ostavku!",
-  "link": "https://www.antenazadar.hr/clanak/2026/11/bomba-s-bokanjca-druzenje-s-vinom-zavrsilo-neocekivano-enio-mestrovic-objavio-neopozivu-ostavku/",
-  "date": "2026-11-07T08:48:53+00:00",
-  "summary": "Zadarski gradski vijećnik Enio Meštrović najavio je da podnosi neopozivu ostavku na svoju dužnost. Odluku je objavio u dopisu koji je sinoć poslao medijima, a kao razlog naveo je vlastito nedolično i društveno neprikladno ponašanje. Zasad nije poznato radi li se o još jednom Meštrovićevom performansu,.",
-  "image": "https://www.antenazadar.hr/wp-content/uploads/2026/11/gradsko-vijece-FOTO-Linda-Vidovic-6-9-22.jpg",
-  "source": "Antena Zadar",
-  "topics": [
-   "Zadar"
-  ],
-  "source_url": "https://www.antenazadar.hr/",
-  "face": [
-   18.9,
-   89.2,
-   45.6,
-   90.8
-  ],
-  "face_img": "https://www.antenazadar.hr/wp-content/uploads/2026/11/gradsko-vijece-FOTO-Linda-Vidovic-6-9-22.jpg"
- },
- {
   "title": "Nova suradnja za KK Zadar: Košarkaši dobili dodatnu podršku u brizi o zdravlju i regeneraciji",
   "link": "https://slobodnadalmacija.hr/dalmacija/zadar/nova-suradnja-za-kk-zadar-kosarkasi-dobili-dodatnu-podrsku-u-brizi-o-zdravlju-i-regeneraciji-1589004",
   "date": "2026-11-07T08:44:08+00:00",
@@ -129,9 +110,9 @@
   "face_img": "https://zadarskilist.novilist.hr/wp-content/uploads/2026/11/12471543.jpg"
  },
  {
-  "title": "Enio Meštrović podnio neopozivu ostavku: „Takvim ljudima nije mjesto na cesti, osjećam sram”",
+  "title": "Enio Meštrović ‘iz moralnog razloga‘ podnio neopozivu ostavku: ‘Takvim ljudima nije mjesto na cesti, osjećam sram‘",
   "link": "https://slobodnadalmacija.hr/dalmacija/zadar/enio-mestrovic-podnio-neopozivu-ostavku-takvim-ljudima-nije-mjesto-na-cesti-osjecam-sram-1589001",
-  "date": "2026-11-07T08:31:36+00:00",
+  "date": "2026-11-07T08:31:00+00:00",
   "summary": "Enio Meštrović podnio je ostavku na mjestu gradskog vijećnika, a svoju odluku objasnio je u maniri Ričarda: - POŠTOVANI PUČE... Imam obavezu da Vam se obratim nakon sinoćnjeg događaja. Razgovarajući sam sa sobom do kasnih sati družio sam se sa vinom i Caminom ... mojim pasom.",
   "image": "https://static.slobodnadalmacija.hr/images/slike/2026/11/07/29934736.jpg",
   "source": "Slobodna Dalmacija/Zadar",
@@ -146,6 +127,25 @@
    55.6
   ],
   "face_img": "https://static.slobodnadalmacija.hr/images/slike/2026/11/07/29934736.jpg"
+ },
+ {
+  "title": "BOMBA S BOKANJCA Druženje s vinom završilo neočekivano – Enio Meštrović objavio neopozivu ostavku!",
+  "link": "https://www.antenazadar.hr/clanak/2026/11/bomba-s-bokanjca-druzenje-s-vinom-zavrsilo-neocekivano-enio-mestrovic-objavio-neopozivu-ostavku/",
+  "date": "2026-11-07T08:30:53+00:00",
+  "summary": "Zadarski gradski vijećnik Enio Meštrović najavio je da podnosi neopozivu ostavku na svoju dužnost. Odluku je objavio u dopisu koji je sinoć poslao medijima, a kao razlog naveo je vlastito nedolično i društveno neprikladno ponašanje. Zasad nije poznato radi li se o još jednom Meštrovićevom performansu.",
+  "image": "https://www.antenazadar.hr/wp-content/uploads/2026/11/gradsko-vijece-FOTO-Linda-Vidovic-6-9-22.jpg",
+  "source": "Antena Zadar",
+  "topics": [
+   "Zadar"
+  ],
+  "source_url": "https://www.antenazadar.hr/",
+  "face": [
+   18.9,
+   89.2,
+   45.6,
+   90.8
+  ],
+  "face_img": "https://www.antenazadar.hr/wp-content/uploads/2026/11/gradsko-vijece-FOTO-Linda-Vidovic-6-9-22.jpg"
  },
  {
   "title": "Osebujni zadarski vijećnik najavio ostavku: ‘Posvađa san se s pasom, napija i jedva pronaša vrata od kuće’",
