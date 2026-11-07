@@ -110,6 +110,11 @@
  ],
  "reddit": [
   {
+   "title": "SDP prozvao Erlićeva obećanja",
+   "link": "https://www.reddit.com/r/Zadar/comments/1xq7fvf/sdp_prozvao_erlićeva_obećanja/",
+   "date": "2026-11-07T14:18:36+00:00"
+  },
+  {
    "title": "Intimno vjencanje",
    "link": "https://www.reddit.com/r/Zadar/comments/1xq4o1w/intimno_vjencanje/",
    "date": "2026-11-07T11:57:11+00:00"
@@ -143,11 +148,6 @@
    "title": "Kaljeva peć",
    "link": "https://www.reddit.com/r/Zadar/comments/1xor57x/kaljeva_peć/",
    "date": "2026-11-05T19:01:28+00:00"
-  },
-  {
-   "title": "Pjesma o poštaru",
-   "link": "https://www.reddit.com/r/Zadar/comments/1xonwb7/pjesma_o_poštaru/",
-   "date": "2026-11-05T16:59:33+00:00"
   }
  ],
  "retro": [
@@ -427,7 +427,7 @@
  ],
  "videos": {
   "v": 2,
-  "fetched": "2026-11-07T13:32:16.578683+00:00",
+  "fetched": "2026-11-07T14:28:41.882696+00:00",
   "items": [
    {
     "id": "I4MG0kvNBQY",
