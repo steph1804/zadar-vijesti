@@ -220,6 +220,17 @@ _FEED_LINK = re.compile(
 _HREF = re.compile(r'href=["\']([^"\']+)["\']', re.I)
 
 
+def fix_image_url(url):
+    if not url:
+        return url
+    p = urllib.parse.urlsplit(url)
+    host = p.netloc.removeprefix("www.")
+    for prefix in (f"/{host}/", f"/www.{host}/"):
+        if p.path.startswith(prefix):
+            return urllib.parse.urlunsplit(p._replace(path=p.path[len(prefix) - 1:]))
+    return url
+
+
 def og_meta(url):
     """Slika (og:image) i opis (og:description) sa same stranice članka."""
     try:
@@ -876,6 +887,10 @@ def main():
         for i, (img, desc) in zip(missing, pool.map(lambda i: og_meta(i["link"]), missing)):
             i["image"] = i["image"] or img
             i["summary"] = i["summary"] or desc or ""
+        # Neki portali (023.hr) u feed upišu adresu slike s udvostručenom domenom:
+        # https://023.hr/023.hr/wp-content/... (404) -> https://023.hr/wp-content/...
+        for i in fresh:
+            i["image"] = fix_image_url(i["image"])
         # Izvor bez slike u članku (npr. Sveučilište) dobije jednu od fotografija s vlastitog weba ("fallback_images").
         backups = {s["name"]: s["fallback_images"] for s in sources if s.get("fallback_images")}
         for i in fresh:
