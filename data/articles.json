@@ -15,6 +15,23 @@
   "face_img": "https://storage.ghost.io/c/8c/e6/8ce68df1-b8bf-474a-a3e0-701a018ef40d/content/images/2026/11/ffsffff.jpg"
  },
  {
+  "title": "Božinović: Naša je odgovornost danas čuvati ono što povezuje hrvatske ljude",
+  "link": "https://www.index.hr/vijesti/clanak/bozinovic-nasa-je-odgovornost-danas-cuvati-ono-sto-povezuje-hrvatske-ljude/2854589.aspx",
+  "date": "2026-11-08T14:10:00+00:00",
+  "summary": "MINISTAR Davor Božinović na 35. obljetnici obrane Paškog mosta poručio je da je zajedništvo pouka Domovinskog rata.",
+  "image": "https://ip.index.hr/remote/bucket.index.hr/b/index/6f78a0d4-02f6-41d8-b170-0cea994af7b6.jpg?fb_wtrmrk=vijesti.jpg&width=1200&height=630&mode=crop&format=png",
+  "source": "Index.hr",
+  "topics": [],
+  "source_url": "https://www.index.hr/",
+  "face": [
+   22.2,
+   53.8,
+   33.9,
+   89.5
+  ],
+  "face_img": "https://ip.index.hr/remote/bucket.index.hr/b/index/6f78a0d4-02f6-41d8-b170-0cea994af7b6.jpg?fb_wtrmrk=vijesti.jpg&width=1200&height=630&mode=crop&format=png"
+ },
+ {
   "title": "Ivana Šojat u Zadru predstavila “Tri carstva”: Rim, Istanbul i Beč kroz povijest, umjetnost i sudbine ljudi",
   "link": "https://ezadar.net.hr/kultura/3590184/ivana-sojat-u-zadru-predstavila-tri-carstva-rim-istanbul-i-bec-kroz-povijest-umjetnost-i-sudbine-ljudi/",
   "date": "2026-11-08T14:00:00+00:00",
@@ -123,7 +140,7 @@
   "link": "https://www.jutarnji.hr/sportske/kosarka/hrvatska-liga/nakon-debakla-nema-vremena-za-tugovanje-zadar-protiv-kvarnera-trazi-povratak-na-pobjednicke-staze-15763586",
   "date": "2026-11-08T13:27:54+00:00",
   "summary": "Neporaženi Zadar će u posljednjoj utakmici sedmog kola SuperSport Premijer lige dočekati mlađahnu momčad Kvarnera. Utakmica je na rasporedu u ponedjeljak s početkom u 19 sati. Teško su se, kako navijači, tako i igrači i stručni stožer, otrijeznili od subotičkog poraza.",
-  "image": "https://media.jutarnji.hr/images/slike/2026/11/08/f_39828136_1280.jpg?1794147815",
+  "image": "https://media.jutarnji.hr/images/slike/2026/11/08/f_39828136_1280.jpg?1794148161",
   "source": "Sportske novosti",
   "source_topic": "Sport",
   "topics": [
@@ -137,7 +154,7 @@
    14.6,
    94.2
   ],
-  "face_img": "https://media.jutarnji.hr/images/slike/2026/11/08/f_39828136_1280.jpg?1794147815"
+  "face_img": "https://media.jutarnji.hr/images/slike/2026/11/08/f_39828136_1280.jpg?1794148161"
  },
  {
   "title": "UNATOČ PROPISIMA Dio zadarskih firmi robu na Poluotok i dalje doprema izvan dozvoljenog termina",
@@ -5133,20 +5150,6 @@
    84.4
   ],
   "face_img": "https://www.antenazadar.hr/wp-content/uploads/2026/11/1c37ac47e3b55f294eb0f00c48a590df_XL.jpg"
- },
- {
-  "title": "Index doznaje: Novac od velike međunarodne prevare završio i u apartmanima kod Zadra",
-  "link": "https://www.index.hr/vijesti/clanak/index-doznaje-novac-od-velike-medjunarodne-prevare-zavrsio-i-u-apartmanima-kod-zadra/2853728.aspx",
-  "date": "2026-11-05T17:55:00+00:00",
-  "summary": "NOVI detalji međunarodne akcije koja je jučer započela u koordinaciji europskog tužiteljstva.",
-  "image": "https://ip.index.hr/remote/bucket.index.hr/b/index/402fe827-6cf9-4fd4-9662-be2264eadc31.jpg?fb_wtrmrk=vijesti.jpg&width=1200&height=630&mode=crop&format=png",
-  "source": "Index.hr",
-  "topics": [
-   "Zadar"
-  ],
-  "source_url": "https://www.index.hr/",
-  "face": null,
-  "face_img": "https://ip.index.hr/remote/bucket.index.hr/b/index/402fe827-6cf9-4fd4-9662-be2264eadc31.jpg?fb_wtrmrk=vijesti.jpg&width=1200&height=630&mode=crop&format=png"
  },
  {
   "title": "Radno vrijeme reciklažnog dvorišta Diklo",
