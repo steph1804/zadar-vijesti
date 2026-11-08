@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-08T10:17:58.354102+00:00",
+ "updated": "2026-11-08T10:31:00.481258+00:00",
  "sources": [
   {
    "name": "Antena Zadar",
@@ -194,8 +194,8 @@
   },
   {
    "name": "Novi list",
-   "count": 1,
-   "ok": true,
+   "count": 0,
+   "ok": false,
    "feed": null,
    "errors": []
   },
@@ -229,7 +229,7 @@
   },
   {
    "name": "Dalmacija Danas",
-   "count": 10,
+   "count": 11,
    "ok": true,
    "feed": null,
    "errors": []
