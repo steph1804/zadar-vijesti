@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-08T08:32:45.826036+00:00",
+ "updated": "2026-11-08T08:45:45.855446+00:00",
  "sources": [
   {
    "name": "Antena Zadar",
@@ -140,12 +140,10 @@
   },
   {
    "name": "Jadrolinija",
-   "count": 0,
-   "ok": false,
+   "count": 1,
+   "ok": true,
    "feed": null,
-   "errors": [
-    "https://www.jadrolinija.hr/feeds/vijesti: <urlopen error timed out>"
-   ]
+   "errors": []
   },
   {
    "name": "Index.hr",
