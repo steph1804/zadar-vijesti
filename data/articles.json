@@ -12,12 +12,7 @@
    "Sport"
   ],
   "source_url": "https://sport023.hr/",
-  "face": [
-   5.6,
-   45.5,
-   40.1,
-   88.3
-  ],
+  "face": null,
   "face_img": "https://sport023.hr/wp-content/uploads/2026/11/dominik-mavra-barcelona-breogan-08-11-26.jpg"
  },
  {
@@ -468,7 +463,7 @@
   "link": "https://www.jutarnji.hr/sportske/kosarka/hrvatska-liga/nakon-debakla-nema-vremena-za-tugovanje-zadar-protiv-kvarnera-trazi-povratak-na-pobjednicke-staze-15763586",
   "date": "2026-11-08T13:27:54+00:00",
   "summary": "Neporaženi Zadar će u posljednjoj utakmici sedmog kola SuperSport Premijer lige dočekati mlađahnu momčad Kvarnera. Utakmica je na rasporedu u ponedjeljak s početkom u 19 sati. Teško su se, kako navijači, tako i igrači i stručni stožer, otrijeznili od subotičkog poraza.",
-  "image": "https://media.jutarnji.hr/images/slike/2026/11/08/f_39828136_1280.jpg?1794158114",
+  "image": "https://media.jutarnji.hr/images/slike/2026/11/08/f_39828136_1280.jpg?1794158227",
   "source": "Sportske novosti",
   "source_topic": "Sport",
   "topics": [
@@ -482,7 +477,7 @@
    14.6,
    94.2
   ],
-  "face_img": "https://media.jutarnji.hr/images/slike/2026/11/08/f_39828136_1280.jpg?1794158114"
+  "face_img": "https://media.jutarnji.hr/images/slike/2026/11/08/f_39828136_1280.jpg?1794158227"
  },
  {
   "title": "UNATOČ PROPISIMA Dio zadarskih firmi robu na Poluotok i dalje doprema izvan dozvoljenog termina",
