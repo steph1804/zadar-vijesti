@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-08T16:01:22.352193+00:00",
+ "updated": "2026-11-08T16:15:47.800427+00:00",
  "sources": [
   {
    "name": "Antena Zadar",
@@ -10,7 +10,7 @@
   },
   {
    "name": "Zadarski list",
-   "count": 5,
+   "count": 6,
    "ok": true,
    "feed": null,
    "errors": []
@@ -145,7 +145,7 @@
   },
   {
    "name": "Index.hr",
-   "count": 2,
+   "count": 1,
    "ok": true,
    "feed": null,
    "errors": []
@@ -215,7 +215,7 @@
   },
   {
    "name": "Morski.hr",
-   "count": 4,
+   "count": 3,
    "ok": true,
    "feed": null,
    "errors": []
