@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-08T06:45:46.266271+00:00",
+ "updated": "2026-11-08T07:15:43.000877+00:00",
  "sources": [
   {
    "name": "Antena Zadar",
@@ -38,7 +38,7 @@
   },
   {
    "name": "023 portal",
-   "count": 8,
+   "count": 7,
    "ok": true,
    "feed": null,
    "errors": []
@@ -89,7 +89,7 @@
   },
   {
    "name": "HRT Radio Zadar",
-   "count": 10,
+   "count": 11,
    "ok": true,
    "feed": null,
    "errors": []
@@ -231,7 +231,7 @@
   },
   {
    "name": "Dalmacija Danas",
-   "count": 11,
+   "count": 10,
    "ok": true,
    "feed": null,
    "errors": []
