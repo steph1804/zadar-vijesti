@@ -1,10 +1,10 @@
 {
  "Jadrolinija": [
   {
-   "title": "Linije u prekidu, 08.11.2026.",
-   "link": "https://www.jadrolinija.hr/news-single/linije-u-prekidu-08112026",
-   "date": "2026-11-07T16:54:00+00:00",
-   "summary": "Red plovidbe u nedjelju, 08.11.2026"
+   "title": "Svi Jadrolinijini brodovi plove prema redu plovidbe",
+   "link": "https://www.jadrolinija.hr/news-single/stanje-u-pomorskom-prometu",
+   "date": "2026-11-08T23:50:02+00:00",
+   "summary": "U pomorskom prometu nema poteškoća, svi Jadrolinijini brodovi plove prema redu plovidbe."
   }
  ],
  "buses": [
@@ -35,42 +35,6 @@
   }
  ],
  "flights": [
-  {
-   "dir": "dolazak",
-   "flight": "OU634",
-   "airline": "Croatia Airlines",
-   "city": "Zagreb",
-   "via": "Pula",
-   "time": "2026-11-08T15:50:00",
-   "est": "2026-11-08T15:36:00",
-   "act": "2026-11-08T15:37:00",
-   "status": "Landed",
-   "gate": ""
-  },
-  {
-   "dir": "odlazak",
-   "flight": "OU634",
-   "airline": "Croatia Airlines",
-   "city": "Zagreb",
-   "via": "",
-   "time": "2026-11-08T16:20:00",
-   "est": "2026-11-08T16:20:00",
-   "act": "2026-11-08T16:03:44",
-   "status": "Departed",
-   "gate": "07"
-  },
-  {
-   "dir": "dolazak",
-   "flight": "OU675",
-   "airline": "Croatia Airlines",
-   "city": "Zagreb",
-   "via": "Pula",
-   "time": "2026-11-08T23:00:00",
-   "est": "2026-11-08T23:00:00",
-   "act": "",
-   "status": "",
-   "gate": ""
-  },
   {
    "dir": "odlazak",
    "flight": "OU4674",
@@ -106,6 +70,30 @@
    "act": "",
    "status": "",
    "gate": ""
+  },
+  {
+   "dir": "dolazak",
+   "flight": "OU674",
+   "airline": "Croatia Airlines",
+   "city": "Zagreb",
+   "via": "",
+   "time": "2026-11-10T14:55:00",
+   "est": "2026-11-10T14:55:00",
+   "act": "",
+   "status": "",
+   "gate": ""
+  },
+  {
+   "dir": "odlazak",
+   "flight": "OU674",
+   "airline": "Croatia Airlines",
+   "city": "Zagreb",
+   "via": "Pula",
+   "time": "2026-11-10T15:20:00",
+   "est": "2026-11-10T15:20:00",
+   "act": "",
+   "status": "",
+   "gate": ""
   }
  ],
  "power": [
@@ -131,6 +119,14 @@
    "street": "Pedinka",
    "note": "Povremeni prekidi",
    "time": "12:00 - 14:00",
+   "unplanned": false
+  },
+  {
+   "day": "10.11.2026",
+   "place": "Vrsi",
+   "street": "Bili put",
+   "note": "",
+   "time": "09:00 - 13:00",
    "unplanned": false
   }
  ],
