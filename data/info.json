@@ -55,8 +55,8 @@
    "via": "",
    "time": "2026-11-08T16:20:00",
    "est": "2026-11-08T16:20:00",
-   "act": "",
-   "status": "Gate closed",
+   "act": "2026-11-08T16:03:44",
+   "status": "Departed",
    "gate": "07"
   },
   {
@@ -162,6 +162,11 @@
  ],
  "reddit": [
   {
+   "title": "Voce i povrce",
+   "link": "https://www.reddit.com/r/Zadar/comments/1xr0js4/voce_i_povrce/",
+   "date": "2026-11-08T15:08:05+00:00"
+  },
+  {
    "title": "Gdje su curke koje traže vezu?",
    "link": "https://www.reddit.com/r/Zadar/comments/1xqxa7b/gdje_su_curke_koje_traže_vezu/",
    "date": "2026-11-08T12:26:44+00:00"
@@ -195,11 +200,6 @@
    "title": "Arsenal kao sala za vjenčanje",
    "link": "https://www.reddit.com/r/Zadar/comments/1xppk0y/arsenal_kao_sala_za_vjenčanje/",
    "date": "2026-11-06T22:03:55+00:00"
-  },
-  {
-   "title": "Ima li previse maslinova ulja",
-   "link": "https://www.reddit.com/r/Zadar/comments/1xpj4tn/ima_li_previse_maslinova_ulja/",
-   "date": "2026-11-06T17:45:17+00:00"
   }
  ],
  "retro": [
