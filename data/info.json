@@ -36,42 +36,6 @@
  ],
  "flights": [
   {
-   "dir": "odlazak",
-   "flight": "OU4674",
-   "airline": "Croatia Airlines",
-   "city": "Munich",
-   "via": "",
-   "time": "2026-11-09T06:30:00",
-   "est": "2026-11-09T06:30:00",
-   "act": "2026-11-09T06:30:00",
-   "status": "Departed",
-   "gate": "05"
-  },
-  {
-   "dir": "dolazak",
-   "flight": "OU4675",
-   "airline": "Croatia Airlines",
-   "city": "Munich",
-   "via": "",
-   "time": "2026-11-09T15:10:00",
-   "est": "2026-11-09T15:10:00",
-   "act": "",
-   "status": "",
-   "gate": ""
-  },
-  {
-   "dir": "odlazak",
-   "flight": "OU674",
-   "airline": "Croatia Airlines",
-   "city": "Zagreb",
-   "via": "Pula",
-   "time": "2026-11-09T15:40:00",
-   "est": "2026-11-09T15:40:00",
-   "act": "",
-   "status": "",
-   "gate": ""
-  },
-  {
    "dir": "dolazak",
    "flight": "OU674",
    "airline": "Croatia Airlines",
@@ -94,49 +58,33 @@
    "act": "",
    "status": "",
    "gate": ""
+  },
+  {
+   "dir": "dolazak",
+   "flight": "OU675",
+   "airline": "Croatia Airlines",
+   "city": "Zagreb",
+   "via": "Pula",
+   "time": "2026-11-11T15:50:00",
+   "est": "2026-11-11T15:50:00",
+   "act": "",
+   "status": "",
+   "gate": ""
+  },
+  {
+   "dir": "odlazak",
+   "flight": "OU675",
+   "airline": "Croatia Airlines",
+   "city": "Zagreb",
+   "via": "",
+   "time": "2026-11-11T16:20:00",
+   "est": "2026-11-11T16:20:00",
+   "act": "",
+   "status": "",
+   "gate": ""
   }
  ],
  "power": [
-  {
-   "day": "09.11.2026",
-   "place": "Škabrnja",
-   "street": "",
-   "note": "Predio Ambari",
-   "time": "12:18 - 15:00",
-   "unplanned": true
-  },
-  {
-   "day": "09.11.2026",
-   "place": "Zemunik Gornji",
-   "street": "",
-   "note": "Cijelo naselje",
-   "time": "12:18 - 15:00",
-   "unplanned": true
-  },
-  {
-   "day": "09.11.2026",
-   "place": "Donji Zemunik i Smoković",
-   "street": "u Donjem Zemuniku sve osim centra mjesta i cijelo mjesto Smoković",
-   "note": "u slučaju lošeg vremena radovi se odgađaju",
-   "time": "09:30 - 12:30",
-   "unplanned": false
-  },
-  {
-   "day": "09.11.2026",
-   "place": "Vir",
-   "street": "Pedinka",
-   "note": "Povremeni prekidi",
-   "time": "12:00 - 14:00",
-   "unplanned": false
-  },
-  {
-   "day": "09.11.2026",
-   "place": "Privlaka",
-   "street": "Put Brtalića",
-   "note": "Povremeni prekidi",
-   "time": "08:00 - 12:00",
-   "unplanned": false
-  },
   {
    "day": "10.11.2026",
    "place": "Prkos",
@@ -151,6 +99,54 @@
    "street": "Bili put",
    "note": "",
    "time": "09:00 - 13:00",
+   "unplanned": false
+  },
+  {
+   "day": "11.11.2026",
+   "place": "Ugrinić",
+   "street": "cijelo mjesto",
+   "note": "",
+   "time": "09:00 - 12:00",
+   "unplanned": false
+  },
+  {
+   "day": "11.11.2026",
+   "place": "Vir",
+   "street": "Put Straže",
+   "note": "Povremeni prekidi",
+   "time": "08:00 - 10:00",
+   "unplanned": false
+  },
+  {
+   "day": "11.11.2026",
+   "place": "Rtina Miočići",
+   "street": "ulica 2",
+   "note": "Povremeni prekidi",
+   "time": "12:00 - 14:00",
+   "unplanned": false
+  },
+  {
+   "day": "11.11.2026",
+   "place": "Ljubač",
+   "street": "4 ulica",
+   "note": "Povremeni prekidi",
+   "time": "08:00 - 10:00",
+   "unplanned": false
+  },
+  {
+   "day": "11.11.2026",
+   "place": "Ražanac",
+   "street": "8 ulica",
+   "note": "Povremeni prekidi",
+   "time": "10:00 - 12:00",
+   "unplanned": false
+  },
+  {
+   "day": "11.11.2026",
+   "place": "Vir",
+   "street": "Krčevine",
+   "note": "Povremeni prekidi",
+   "time": "10:00 - 13:00",
    "unplanned": false
   }
  ],
