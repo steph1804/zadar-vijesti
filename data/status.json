@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-09T09:01:21.085822+00:00",
+ "updated": "2026-11-09T09:15:51.064156+00:00",
  "sources": [
   {
    "name": "Antena Zadar",
@@ -38,7 +38,7 @@
   },
   {
    "name": "023 portal",
-   "count": 7,
+   "count": 8,
    "ok": true,
    "feed": null,
    "errors": []
@@ -124,12 +124,10 @@
   },
   {
    "name": "Policija Zadar",
-   "count": 0,
-   "ok": false,
+   "count": 10,
+   "ok": true,
    "feed": null,
-   "errors": [
-    "https://zadarska-policija.gov.hr/vijesti/8: <urlopen error [Errno 104] Connection reset by peer>"
-   ]
+   "errors": []
   },
   {
    "name": "Lučka uprava Zadar",
