@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-09T10:15:45.546627+00:00",
+ "updated": "2026-11-09T10:31:03.663003+00:00",
  "sources": [
   {
    "name": "Antena Zadar",
@@ -31,14 +31,14 @@
   },
   {
    "name": "eZadar",
-   "count": 19,
+   "count": 20,
    "ok": true,
    "feed": null,
    "errors": []
   },
   {
    "name": "023 portal",
-   "count": 8,
+   "count": 7,
    "ok": true,
    "feed": null,
    "errors": []
@@ -89,7 +89,7 @@
   },
   {
    "name": "HRT Radio Zadar",
-   "count": 13,
+   "count": 14,
    "ok": true,
    "feed": null,
    "errors": []
@@ -166,8 +166,8 @@
   },
   {
    "name": "tportal",
-   "count": 1,
-   "ok": true,
+   "count": 0,
+   "ok": false,
    "feed": null,
    "errors": []
   },
@@ -187,8 +187,8 @@
   },
   {
    "name": "Telegram",
-   "count": 1,
-   "ok": true,
+   "count": 0,
+   "ok": false,
    "feed": null,
    "errors": []
   },
@@ -215,7 +215,7 @@
   },
   {
    "name": "Morski.hr",
-   "count": 2,
+   "count": 1,
    "ok": true,
    "feed": null,
    "errors": []

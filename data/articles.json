@@ -1,5 +1,19 @@
 [
  {
+  "title": "Grad Zadar objavio natječaj za dodjelu stipendija",
+  "link": "https://radio.hrt.hr/radio-zadar/vijesti/grad-zadar-objavio-natjecaj-za-dodjelu-stipendija-13001032",
+  "date": "2026-11-09T10:20:04+00:00",
+  "summary": "Ove godine Grad Zadar dodijelit će ukupno 145 novih stipendija, namijenjenih učenicima srednjih škola i studentima, čime nastavlja pružati potporu obrazovanju, izvrsnosti i mladima u njihovu akademskom i profesionalnom razvoju.",
+  "image": "https://api.hrt.hr/media/d0/0c/download1-1-20261109101902.webp",
+  "source": "HRT Radio Zadar",
+  "topics": [
+   "Zadar"
+  ],
+  "source_url": "https://radio.hrt.hr/radio-zadar",
+  "face": null,
+  "face_img": "https://api.hrt.hr/media/d0/0c/download1-1-20261109101902.webp"
+ },
+ {
   "title": "Zadrani donose smijeh u Zagreb; Britka komedija „Infišacije” večeras osvaja Bobijeve dane smijeha",
   "link": "https://023.hr/2026/11/zadrani-donose-smijeh-u-zagreb-britka-komedija-infisacije-veceras-osvaja-bobijeve-dane-smijeha/",
   "date": "2026-11-09T10:14:26+00:00",
@@ -17,6 +31,25 @@
    88.0
   ],
   "face_img": "https://023.hr/wp-content/uploads/2026/03/20260327085816_398733.webp"
+ },
+ {
+  "title": "Barbie, ali na zadarski način! Anka već godinama odijeva lutke i stvara ovu modnu kolekciju",
+  "link": "https://ezadar.net.hr/lifestyle/3590181/barbie-ali-na-zadarski-nacin-anka-vec-godinama-odijeva-lutke-i-stvara-ovu-modnu-kolekciju/",
+  "date": "2026-11-09T10:07:20+00:00",
+  "summary": "Na skupnoj izložbi Udruge umirovljenika 3. dob u Kneževoj palači među radovima koji privlače pažnju našle su se i – lutke. Ne bilo kakve, nego Barbie i njezino društvo, odjeveni",
+  "image": "https://cdn-ezadar.net.hr/wp-content/uploads/knitted-dolls-in-gallery-light-1-c4a61a8e4c588a08142a0386-1052x696.png",
+  "source": "eZadar",
+  "topics": [
+   "Zadar"
+  ],
+  "source_url": "https://ezadar.net.hr/",
+  "face": [
+   15.2,
+   43.4,
+   32.1,
+   43.4
+  ],
+  "face_img": "https://cdn-ezadar.net.hr/wp-content/uploads/knitted-dolls-in-gallery-light-1-c4a61a8e4c588a08142a0386-1052x696.png"
  },
  {
   "title": "Doznajemo: Ove srijede počinju radovi na sanaciji Šepurina",
@@ -121,6 +154,26 @@
   "source_url": "https://023.hr/",
   "face": null,
   "face_img": "https://023.hr/wp-content/uploads/2026/11/20261109105631_462690-300x300.avif"
+ },
+ {
+  "title": "Na Molatu iznenada preminuo svećenik don Zbigniew Jacek Korcz – služio u brojnim zadarskim župama",
+  "link": "https://ezadar.net.hr/info/3590228/na-molatu-iznenada-preminuo-svecenik-don-zbigniew-jacek-korcz-sluzio-u-brojnim-zadarskim-zupama/",
+  "date": "2026-11-09T09:58:00+00:00",
+  "summary": "Don Zbigniew Jacek Korcz iznenada je preminuo u nedjelju, 8. studenoga, na otoku Molatu, gdje je obavljao svećeničku službu. Imao je 61 godinu, a iza njega je 25 godina svećeništva.",
+  "image": "https://cdn-ezadar.net.hr/wp-content/uploads/snimka-zaslona-2026-11-09-105245-7df8daca14b0c6d552bdb4f3.jpg",
+  "source": "eZadar",
+  "topics": [
+   "Zadar",
+   "Otoci"
+  ],
+  "source_url": "https://ezadar.net.hr/",
+  "face": [
+   13.2,
+   80.7,
+   35.4,
+   64.6
+  ],
+  "face_img": "https://cdn-ezadar.net.hr/wp-content/uploads/snimka-zaslona-2026-11-09-105245-7df8daca14b0c6d552bdb4f3.jpg"
  },
  {
   "title": "Svečano na Pagu; Položen kamen temeljac za memorijalni park, obrana Paškog mosta ide u Muzej Domovinskog rata",
@@ -504,7 +557,7 @@
   "link": "https://www.jutarnji.hr/vijesti/hrvatska/svecenik-iznenada-preminuo-tijekom-sluzbe-na-hrvatskom-otoku-15763806",
   "date": "2026-11-09T08:59:48+00:00",
   "summary": "Iznenada preminuo svećenik Zadarske nadbiskupije, imao je 60 godina Svećenik Zadarske nadbiskupije don Zbignew Jacek Korcz iznenada je preminuo u nedjelju, 8. studenoga, tijekom obavljanja svećeničke službe na otoku Molatu, izvijestila je Zadarska nadbiskupija. Don Zbignew preminuo je u 61. godini ž...",
-  "image": "https://media.jutarnji.hr/images/slike/2026/11/09/f_39933277_1280.jpg?1794219021",
+  "image": "https://media.jutarnji.hr/images/slike/2026/11/09/f_39933277_1280.jpg?1794220137",
   "source": "Jutarnji list",
   "topics": [
    "Zadar",
@@ -517,7 +570,7 @@
    30.1,
    63.1
   ],
-  "face_img": "https://media.jutarnji.hr/images/slike/2026/11/09/f_39933277_1280.jpg?1794219021"
+  "face_img": "https://media.jutarnji.hr/images/slike/2026/11/09/f_39933277_1280.jpg?1794220137"
  },
  {
   "title": "Još jedan “Pleši kao ti i ne možeš pogriješiti” iza nas",
@@ -5051,67 +5104,6 @@
   "source_url": "https://www.morski.hr/",
   "face": null,
   "face_img": "https://storage.ghost.io/c/8c/e6/8ce68df1-b8bf-474a-a3e0-701a018ef40d/content/images/2026/11/dendoktoor-container-ship-6631117--1-.jpg"
- },
- {
-  "title": "ŠKOLA NOGOMETA SABUNJAR Jurica Zanki: “Mobiteli su uzeli maha, djeci je lakše gledati u ekran nego se fizički potruditi”",
-  "link": "https://www.antenazadar.hr/clanak/2026/11/skola-nogometa-sabunjar-jurica-zanki-mobiteli-su-uzeli-maha-djeci-je-lakse-gledati-u-ekran-nego-se-fizicki-potruditi/",
-  "date": "2026-11-06T12:25:20+00:00",
-  "summary": "Nedavno održani Cataleya Cup na kojem su mladi nogometaši NK Sabunjar iz Privlake u finalu za U-8 selekciju uzeli zlatnu medalju i mjeru prvoligaškom Varaždinu (2-0), skrenuo je pozornost na Školu nogometa u Privlaci koju vodi bivši nogometaš i profesor tjelesne i zdravstvene kulture Jurica Zanki.",
-  "image": "https://www.antenazadar.hr/wp-content/uploads/2026/11/02_SABUNJAR.jpeg",
-  "source": "Antena Zadar",
-  "topics": [
-   "Zadar",
-   "Županija",
-   "Sport"
-  ],
-  "source_url": "https://www.antenazadar.hr/",
-  "face": [
-   11.7,
-   40.5,
-   16.8,
-   96.2
-  ],
-  "face_img": "https://www.antenazadar.hr/wp-content/uploads/2026/11/02_SABUNJAR.jpeg"
- },
- {
-  "title": "Zadrani iz tima Bronx Croatia pobjednici Hackathona- osmislili sustav za praćenje onečišćenja mora",
-  "link": "https://ezadar.net.hr/info/3589992/zadrani-iz-tima-bronx-croatia-pobjednici-hackathona-osmislili-sustav-za-pracenje-oneciscenja-mora/",
-  "date": "2026-11-06T12:13:02+00:00",
-  "summary": "Tim Bronx Croatia pobjednik je regionalnog EIT Water & PDJF Hackathona 2026., čije je finale održano na Sveučilištu u Zadru. Riječ je o natjecanju inovativnih timova, studenata, istraživača i startupa koji razvijaju rješenja za stvarne izazove povezane s upravljanjem vodom, morem i obalom.",
-  "image": "https://cdn-ezadar.net.hr/wp-content/uploads/hackathon-3-d7c290843b480b708a5aa3ed-1052x696.jpg",
-  "source": "eZadar",
-  "topics": [
-   "Zadar",
-   "Županija"
-  ],
-  "source_url": "https://ezadar.net.hr/",
-  "face": [
-   19.4,
-   38.5,
-   20.9,
-   72.9
-  ],
-  "face_img": "https://cdn-ezadar.net.hr/wp-content/uploads/hackathon-3-d7c290843b480b708a5aa3ed-1052x696.jpg"
- },
- {
-  "title": "Zadar sa samo osam igrača do pobjede u dalmatinskom derbiju",
-  "link": "https://ezadar.net.hr/sport/3590011/zadar-sa-samo-osam-igraca-do-pobjede-u-dalmatinskom-derbiju/",
-  "date": "2026-11-06T11:59:17+00:00",
-  "summary": "Juniori Zadra u U-19 ligi Dalmacije – Skupina Jug jučer su u gostima slavili protiv Šibenke rezultatom 63:91 (15:23, 17:33, 17:14, 14:21)",
-  "image": "https://cdn-ezadar.net.hr/wp-content/uploads/ajv03946-scaled-e4385a03603bbab8545bfd37-1052x696.jpg",
-  "source": "eZadar",
-  "topics": [
-   "Zadar",
-   "Sport"
-  ],
-  "source_url": "https://ezadar.net.hr/",
-  "face": [
-   11.1,
-   60.5,
-   46.3,
-   65.4
-  ],
-  "face_img": "https://cdn-ezadar.net.hr/wp-content/uploads/ajv03946-scaled-e4385a03603bbab8545bfd37-1052x696.jpg"
  },
  {
   "title": "Naš laboratorij ima najveseliju klapu!",
