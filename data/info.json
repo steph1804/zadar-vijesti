@@ -158,6 +158,11 @@
  ],
  "reddit": [
   {
+   "title": "Autoškola Zadar",
+   "link": "https://www.reddit.com/r/Zadar/comments/1xrnbgo/autoškola_zadar/",
+   "date": "2026-11-09T09:29:15+00:00"
+  },
+  {
    "title": "Tražim radnika!?",
    "link": "https://www.reddit.com/r/Zadar/comments/1xr8wjs/tražim_radnika/",
    "date": "2026-11-08T20:56:15+00:00"
@@ -166,11 +171,6 @@
    "title": "Uporabna dozvola",
    "link": "https://www.reddit.com/r/Zadar/comments/1xr8jy5/uporabna_dozvola/",
    "date": "2026-11-08T20:41:16+00:00"
-  },
-  {
-   "title": "U funkciji?",
-   "link": "https://www.reddit.com/r/Zadar/comments/1xr8gty/u_funkciji/",
-   "date": "2026-11-08T20:37:26+00:00"
   },
   {
    "title": "Grupni treninzi u Gyms4you",
@@ -475,7 +475,7 @@
  ],
  "videos": {
   "v": 2,
-  "fetched": "2026-11-09T08:32:39.936963+00:00",
+  "fetched": "2026-11-09T09:33:25.155447+00:00",
   "items": [
    {
     "id": "I4MG0kvNBQY",
