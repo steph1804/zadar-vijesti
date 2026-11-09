@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-09T05:31:01.977375+00:00",
+ "updated": "2026-11-09T05:43:43.736250+00:00",
  "sources": [
   {
    "name": "Antena Zadar",
@@ -66,10 +66,12 @@
   },
   {
    "name": "Naši školji",
-   "count": 10,
-   "ok": true,
+   "count": 0,
+   "ok": false,
    "feed": null,
-   "errors": []
+   "errors": [
+    "https://www.nasiskolji.hr/feed/: <urlopen error timed out>"
+   ]
   },
   {
    "name": "Grad Zadar",
@@ -198,7 +200,7 @@
    "ok": false,
    "feed": "https://www.novilist.hr/feed/",
    "errors": [
-    "https://www.novilist.hr/feed/: not well-formed (invalid token): line 102, column 11"
+    "https://www.novilist.hr/feed/: not well-formed (invalid token): line 200, column 11"
    ]
   },
   {
