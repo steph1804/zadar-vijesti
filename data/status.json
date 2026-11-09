@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-09T10:31:03.663003+00:00",
+ "updated": "2026-11-09T10:36:15.798816+00:00",
  "sources": [
   {
    "name": "Antena Zadar",
@@ -10,7 +10,7 @@
   },
   {
    "name": "Zadarski list",
-   "count": 9,
+   "count": 8,
    "ok": true,
    "feed": null,
    "errors": []
@@ -45,24 +45,30 @@
   },
   {
    "name": "Sport023",
-   "count": 9,
-   "ok": true,
+   "count": 0,
+   "ok": false,
    "feed": null,
-   "errors": []
+   "errors": [
+    "https://sport023.hr/feed/: mismatched tag: line 93, column 2"
+   ]
   },
   {
    "name": "KK Zadar",
-   "count": 10,
-   "ok": true,
+   "count": 0,
+   "ok": false,
    "feed": null,
-   "errors": []
+   "errors": [
+    "https://kkzadar.hr/feed/: mismatched tag: line 93, column 2"
+   ]
   },
   {
    "name": "SC Višnjik",
-   "count": 9,
-   "ok": true,
+   "count": 0,
+   "ok": false,
    "feed": null,
-   "errors": []
+   "errors": [
+    "https://visnjik.hr/feed/: mismatched tag: line 93, column 2"
+   ]
   },
   {
    "name": "Naši školji",
@@ -82,10 +88,12 @@
   },
   {
    "name": "Zadarska županija",
-   "count": 10,
-   "ok": true,
+   "count": 0,
+   "ok": false,
    "feed": null,
-   "errors": []
+   "errors": [
+    "https://www.zadarska-zupanija.hr/novosti-arhiva?format=feed&type=rss: mismatched tag: line 93, column 2"
+   ]
   },
   {
    "name": "HRT Radio Zadar",
@@ -110,10 +118,12 @@
   },
   {
    "name": "Opća bolnica Zadar",
-   "count": 3,
-   "ok": true,
+   "count": 0,
+   "ok": false,
    "feed": null,
-   "errors": []
+   "errors": [
+    "https://www.bolnica-zadar.hr/feed/: mismatched tag: line 93, column 2"
+   ]
   },
   {
    "name": "Liburnija Zadar",
@@ -145,7 +155,7 @@
   },
   {
    "name": "Index.hr",
-   "count": 1,
+   "count": 2,
    "ok": true,
    "feed": null,
    "errors": []
@@ -194,8 +204,8 @@
   },
   {
    "name": "Novi list",
-   "count": 0,
-   "ok": false,
+   "count": 1,
+   "ok": true,
    "feed": null,
    "errors": []
   },
@@ -215,7 +225,7 @@
   },
   {
    "name": "Morski.hr",
-   "count": 1,
+   "count": 2,
    "ok": true,
    "feed": null,
    "errors": []
@@ -267,7 +277,9 @@
    "count": 0,
    "ok": false,
    "feed": null,
-   "errors": []
+   "errors": [
+    "https://hrvatska-danas.com/feed/: mismatched tag: line 93, column 2"
+   ]
   },
   {
    "name": "HRTurizam",
