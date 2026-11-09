@@ -475,8 +475,16 @@
  ],
  "videos": {
   "v": 2,
-  "fetched": "2026-11-09T10:33:21.978896+00:00",
+  "fetched": "2026-11-09T11:33:22.812958+00:00",
   "items": [
+   {
+    "id": "tR5k84XrdFs",
+    "title": "KRONIKE ZADARSKE ŽUPANIJE 96  - 07.11.2026.",
+    "channel": "Diadora TV",
+    "date": "2026-11-08T17:30:27+00:00",
+    "link": "https://www.youtube.com/watch?v=tR5k84XrdFs",
+    "image": "https://i.ytimg.com/vi/tR5k84XrdFs/mqdefault.jpg"
+   },
    {
     "id": "I4MG0kvNBQY",
     "title": "ZADARSKA ZUPANIJA IZBLIZA 10 - 02.11.2026.",
@@ -588,14 +596,6 @@
     "date": "2026-10-15T11:50:08+00:00",
     "link": "https://www.youtube.com/watch?v=jKjGjUjVo9g",
     "image": "https://i.ytimg.com/vi/jKjGjUjVo9g/mqdefault.jpg"
-   },
-   {
-    "id": "Iev6xjGafI0",
-    "title": "ZADAR Low Season",
-    "channel": "Bob Zhong",
-    "date": "2026-10-12T17:25:24+00:00",
-    "link": "https://www.youtube.com/watch?v=Iev6xjGafI0",
-    "image": "https://i.ytimg.com/vi/Iev6xjGafI0/mqdefault.jpg"
    }
   ]
  }
