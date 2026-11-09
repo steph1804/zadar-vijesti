@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-09T21:04:11.196599+00:00",
+ "updated": "2026-11-09T21:15:46.006329+00:00",
  "sources": [
   {
    "name": "Antena Zadar",
@@ -236,7 +236,7 @@
   },
   {
    "name": "Poslovni dnevnik",
-   "count": 18,
+   "count": 19,
    "ok": true,
    "feed": null,
    "errors": []
