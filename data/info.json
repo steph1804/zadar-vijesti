@@ -99,11 +99,19 @@
  "power": [
   {
    "day": "09.11.2026",
-   "place": "Privlaka",
-   "street": "Put Brtalića",
-   "note": "Povremeni prekidi",
-   "time": "08:00 - 12:00",
-   "unplanned": false
+   "place": "Škabrnja",
+   "street": "",
+   "note": "Predio Ambari",
+   "time": "12:18 - 15:00",
+   "unplanned": true
+  },
+  {
+   "day": "09.11.2026",
+   "place": "Zemunik Gornji",
+   "street": "",
+   "note": "Cijelo naselje",
+   "time": "12:18 - 15:00",
+   "unplanned": true
   },
   {
    "day": "09.11.2026",
@@ -119,6 +127,14 @@
    "street": "Pedinka",
    "note": "Povremeni prekidi",
    "time": "12:00 - 14:00",
+   "unplanned": false
+  },
+  {
+   "day": "09.11.2026",
+   "place": "Privlaka",
+   "street": "Put Brtalića",
+   "note": "Povremeni prekidi",
+   "time": "08:00 - 12:00",
    "unplanned": false
   },
   {
