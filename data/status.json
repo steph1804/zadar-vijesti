@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-09T05:46:29.969946+00:00",
+ "updated": "2026-11-09T06:01:15.731984+00:00",
  "sources": [
   {
    "name": "Antena Zadar",
@@ -31,7 +31,7 @@
   },
   {
    "name": "eZadar",
-   "count": 18,
+   "count": 17,
    "ok": true,
    "feed": null,
    "errors": []
@@ -200,7 +200,7 @@
    "ok": false,
    "feed": "https://www.novilist.hr/feed/",
    "errors": [
-    "https://www.novilist.hr/feed/: not well-formed (invalid token): line 200, column 11"
+    "https://www.novilist.hr/feed/: not well-formed (invalid token): line 399, column 11"
    ]
   },
   {
