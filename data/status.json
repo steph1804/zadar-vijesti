@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-09T20:05:42.463778+00:00",
+ "updated": "2026-11-09T20:15:51.285963+00:00",
  "sources": [
   {
    "name": "Antena Zadar",
@@ -10,7 +10,7 @@
   },
   {
    "name": "Zadarski list",
-   "count": 3,
+   "count": 4,
    "ok": true,
    "feed": null,
    "errors": []
@@ -52,10 +52,12 @@
   },
   {
    "name": "KK Zadar",
-   "count": 10,
-   "ok": true,
+   "count": 0,
+   "ok": false,
    "feed": null,
-   "errors": []
+   "errors": [
+    "https://kkzadar.hr/feed/: HTTP Error 500: Internal Server Error"
+   ]
   },
   {
    "name": "SC Višnjik",
@@ -66,10 +68,12 @@
   },
   {
    "name": "Naši školji",
-   "count": 10,
-   "ok": true,
+   "count": 0,
+   "ok": false,
    "feed": null,
-   "errors": []
+   "errors": [
+    "https://www.nasiskolji.hr/feed/: <urlopen error timed out>"
+   ]
   },
   {
    "name": "Grad Zadar",
