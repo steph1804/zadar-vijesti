@@ -5,12 +5,6 @@
    "link": "https://www.jadrolinija.hr/news-single/linije-u-prekidu-11112026",
    "date": "2026-11-10T09:36:00+00:00",
    "summary": "Red plovidbe u srijedu, 11.11.2026"
-  },
-  {
-   "title": "Linije u prekidu u utorak 10.11.2026.",
-   "link": "https://www.jadrolinija.hr/news-single/linije-u-prekidu-u-utorak-10112026",
-   "date": "2026-11-09T18:40:00+00:00",
-   "summary": "Red plovidbe za utorak 10.11."
   }
  ],
  "buses": [
@@ -43,30 +37,6 @@
  "flights": [
   {
    "dir": "dolazak",
-   "flight": "OU674",
-   "airline": "Croatia Airlines",
-   "city": "Zagreb",
-   "via": "",
-   "time": "2026-11-10T14:55:00",
-   "est": "2026-11-10T15:12:00",
-   "act": "",
-   "status": "",
-   "gate": ""
-  },
-  {
-   "dir": "odlazak",
-   "flight": "OU674",
-   "airline": "Croatia Airlines",
-   "city": "Zagreb",
-   "via": "Pula",
-   "time": "2026-11-10T15:20:00",
-   "est": "2026-11-10T15:20:00",
-   "act": "",
-   "status": "",
-   "gate": "07"
-  },
-  {
-   "dir": "dolazak",
    "flight": "OU675",
    "airline": "Croatia Airlines",
    "city": "Zagreb",
@@ -88,17 +58,45 @@
    "act": "",
    "status": "",
    "gate": ""
+  },
+  {
+   "dir": "dolazak",
+   "flight": "OU674",
+   "airline": "Croatia Airlines",
+   "city": "Zagreb",
+   "via": "",
+   "time": "2026-11-12T14:55:00",
+   "est": "2026-11-12T14:55:00",
+   "act": "",
+   "status": "",
+   "gate": ""
+  },
+  {
+   "dir": "odlazak",
+   "flight": "OU674",
+   "airline": "Croatia Airlines",
+   "city": "Zagreb",
+   "via": "Pula",
+   "time": "2026-11-12T15:20:00",
+   "est": "2026-11-12T15:20:00",
+   "act": "",
+   "status": "",
+   "gate": ""
+  },
+  {
+   "dir": "dolazak",
+   "flight": "OU675",
+   "airline": "Croatia Airlines",
+   "city": "Zagreb",
+   "via": "Pula",
+   "time": "2026-11-12T23:00:00",
+   "est": "2026-11-12T23:00:00",
+   "act": "",
+   "status": "",
+   "gate": ""
   }
  ],
  "power": [
-  {
-   "day": "10.11.2026",
-   "place": "Vrsi",
-   "street": "Bili put",
-   "note": "",
-   "time": "09:00 - 13:00",
-   "unplanned": false
-  },
   {
    "day": "11.11.2026",
    "place": "Ugrinić",
