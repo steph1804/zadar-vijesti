@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-10T07:31:02.863329+00:00",
+ "updated": "2026-11-10T07:45:16.733010+00:00",
  "sources": [
   {
    "name": "Antena Zadar",
@@ -24,21 +24,21 @@
   },
   {
    "name": "Znet",
-   "count": 9,
+   "count": 8,
    "ok": true,
    "feed": null,
    "errors": []
   },
   {
    "name": "eZadar",
-   "count": 20,
+   "count": 21,
    "ok": true,
    "feed": null,
    "errors": []
   },
   {
    "name": "023 portal",
-   "count": 7,
+   "count": 8,
    "ok": true,
    "feed": null,
    "errors": []
@@ -145,7 +145,7 @@
   },
   {
    "name": "Index.hr",
-   "count": 2,
+   "count": 1,
    "ok": true,
    "feed": null,
    "errors": []
