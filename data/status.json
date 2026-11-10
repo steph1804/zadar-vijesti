@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-10T11:48:31.359724+00:00",
+ "updated": "2026-11-10T12:01:16.659689+00:00",
  "sources": [
   {
    "name": "Antena Zadar",
@@ -10,7 +10,7 @@
   },
   {
    "name": "Zadarski list",
-   "count": 7,
+   "count": 8,
    "ok": true,
    "feed": null,
    "errors": []
@@ -31,7 +31,7 @@
   },
   {
    "name": "eZadar",
-   "count": 21,
+   "count": 19,
    "ok": true,
    "feed": null,
    "errors": []
@@ -59,7 +59,7 @@
   },
   {
    "name": "SC Višnjik",
-   "count": 9,
+   "count": 10,
    "ok": true,
    "feed": null,
    "errors": []
