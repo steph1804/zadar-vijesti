@@ -1,5 +1,59 @@
 [
  {
+  "title": "Zadrani nemaju kamo s otpadom: Hoće li buknuti divlja odlagališta?",
+  "link": "https://vijesti.hrt.hr/hrvatska/zadarska-zupanija-zatrpana-otpadom-13001232",
+  "date": "2026-11-10T06:00:37+00:00",
+  "summary": "Građevinski otpad koji se godinama odlagao u Diklu, ondje se više ne može zbrinjavati. Građani i prijevoznici ostali su bez rješenja, a sve je veća opasnost od širenja divljih odlagališta. Naša ekipa provjerila je kako općine na području Zadarske županije pokušavaju riješiti ovaj problem.",
+  "image": "https://api.hrt.hr/media/7e/06/740x438-zd-rd-divlja-odlagalista-akolanovic-frame-294-20261109135153.jpg",
+  "source": "HRT",
+  "topics": [
+   "Zadar",
+   "Županija"
+  ],
+  "source_url": "https://vijesti.hrt.hr/",
+  "face": null,
+  "face_img": "https://api.hrt.hr/media/7e/06/740x438-zd-rd-divlja-odlagalista-akolanovic-frame-294-20261109135153.jpg"
+ },
+ {
+  "title": "U novoj bibinjskoj uljari radi čak sedmero članova obitelji: ‘Roditelji bi bili ponosni na nas’",
+  "link": "https://zadarskilist.novilist.hr/zadar-zupanija/zupanija/u-novoj-bibinjskoj-uljari-radi-cak-sedmero-clanova-obitelji-roditelji-bi-bili-ponosni-na-nas/",
+  "date": "2026-11-10T06:00:03+00:00",
+  "summary": "Lijepo vrijeme i dobar urod izmamili su maslinare u našoj županiji u maslinike. Maslinici su puni berača, a maslinari biraju gdje će preraditi svoj urod pa termini ni u podne ni u ponoć nisu problem – glavno je da ga zabilježimo pa ćemo lako za sve ostalo. Tako svaka ubrana maslina ima isti put, put",
+  "image": "https://zadarskilist.novilist.hr/wp-content/uploads/2026/11/12470904.jpg",
+  "source": "Zadarski list",
+  "topics": [
+   "Zadar",
+   "Županija"
+  ],
+  "source_url": "https://zadarskilist.novilist.hr/",
+  "face": [
+   7.8,
+   24.5,
+   39.6,
+   52.8
+  ],
+  "face_img": "https://zadarskilist.novilist.hr/wp-content/uploads/2026/11/12470904.jpg"
+ },
+ {
+  "title": "Išli su u sveti rat protiv muslimana, ali ubijali su samo kršćane u Zadru",
+  "link": "https://www.index.hr/vijesti/clanak/isli-su-u-sveti-rat-protiv-muslimana-ali-ubijali-su-samo-krscane-u-zadru/2613850.aspx",
+  "date": "2026-11-10T06:00:00+00:00",
+  "summary": "NA DANAŠNJI dan križari su napali kršćanski grad Zadar.",
+  "image": "https://ip.index.hr/remote/bucket.index.hr/b/index/06a3bf71-9210-42cb-bf97-b95e8de1265c.jpg?fb_wtrmrk=vijesti.jpg&width=1200&height=630&mode=crop&format=png",
+  "source": "Index.hr",
+  "topics": [
+   "Zadar"
+  ],
+  "source_url": "https://www.index.hr/",
+  "face": [
+   37.7,
+   55.9,
+   42.5,
+   92.7
+  ],
+  "face_img": "https://ip.index.hr/remote/bucket.index.hr/b/index/06a3bf71-9210-42cb-bf97-b95e8de1265c.jpg?fb_wtrmrk=vijesti.jpg&width=1200&height=630&mode=crop&format=png"
+ },
+ {
   "title": "SASTANAK ERLIĆA I BILOGLAVA 9.000 zadarskih umirovljenika dobit će božićnice od 100 eura!",
   "link": "https://www.antenazadar.hr/clanak/2026/11/sastanak-erlica-i-biloglava-9-000-zadarskih-umirovljenika-dobit-ce-bozicnice-od-100-eura/",
   "date": "2026-11-10T05:28:27+00:00",
@@ -288,7 +342,7 @@
   "link": "https://www.jutarnji.hr/sportske/kosarka/hrvatska-liga/zadar-se-nakon-subotice-iskupio-pred-domacom-publikom-i-uvjerljivo-svladao-kvarner-15764015",
   "date": "2026-11-09T19:50:51+00:00",
   "summary": "ZADAR – KVARNER 109:80 (28:19, 29:23, 26:22, 26:16) ZADAR – Dvorana Krešimir Ćosić. Gledatelja: 800. Suci: Galić, Hartman, Lipovac.",
-  "image": "https://media.jutarnji.hr/images/slike/2026/11/09/f_39936482_1280.jpg?1794289487",
+  "image": "https://media.jutarnji.hr/images/slike/2026/11/09/f_39936482_1280.jpg?1794289910",
   "source": "Sportske novosti",
   "source_topic": "Sport",
   "topics": [
@@ -302,7 +356,7 @@
    56.3,
    62.7
   ],
-  "face_img": "https://media.jutarnji.hr/images/slike/2026/11/09/f_39936482_1280.jpg?1794289487"
+  "face_img": "https://media.jutarnji.hr/images/slike/2026/11/09/f_39936482_1280.jpg?1794289910"
  },
  {
   "title": "Zadrani napunili koš Kvarnera i na najbolji mogući način najavili dolazak Partizana",
@@ -5129,54 +5183,6 @@
   "source_url": "https://radio.hrt.hr/radio-zadar",
   "face": null,
   "face_img": "https://api.hrt.hr/media/1c/bd/stadion-20261107122752.webp"
- },
- {
-  "title": "DIVLJI DEPONIJI Zadarska županija predlaže kamere na 165 lokacija u 25 gradova i općina",
-  "link": "https://www.morski.hr/divlji-deponiji-zadarska-zupanija-predlaze-kamere-na-165-lokacija-u-25-gradova-i-opcina/",
-  "date": "2026-11-07T12:00:28+00:00",
-  "summary": "Na radnom sastanku župana Josipa Bilavera s gradonačelnicima i načelnicima predstavljen je model korištenja mobilnih i fiksnih kamera, a dosad su prikupljeni podaci za 165 potencijalnih lokacija na području 25 gradova i općina. Problem su naravno - divlja odlagališ",
-  "image": "https://storage.ghost.io/c/8c/e6/8ce68df1-b8bf-474a-a3e0-701a018ef40d/content/images/2026/11/unnamed--49-.jpg",
-  "source": "Morski.hr",
-  "topics": [
-   "Zadar",
-   "Županija"
-  ],
-  "source_url": "https://www.morski.hr/",
-  "face": null,
-  "face_img": "https://storage.ghost.io/c/8c/e6/8ce68df1-b8bf-474a-a3e0-701a018ef40d/content/images/2026/11/unnamed--49-.jpg"
- },
- {
-  "title": "Fotografije iz Zadra izazvale raspravu, kontejneri izvan ograđenog prostora ometaju promet i pješake?",
-  "link": "https://zadarskilist.novilist.hr/zadar-zupanija/fotografije-iz-zadra-izazvale-raspravu-kontejneri-izvan-ogradenog-prostora-ometaju-promet-i-pjesake/",
-  "date": "2026-11-07T12:00:05+00:00",
-  "summary": "Nepropisno odloženi spremnici za otpad ponovno su otvorili pitanje komunalnog reda i sigurnosti u Zadru. Na problem je upozoreno putem Facebook grupe „Trn u oku… Zadar”, gdje su objavljene fotografije kontejnera koji se nalaze izvan ograđenog prostora predviđenog za njihovo odlaganje.",
-  "image": "https://zadarskilist.novilist.hr/wp-content/uploads/2026/11/kontejneri_naslovna_2.jpg",
-  "source": "Zadarski list",
-  "topics": [
-   "Zadar"
-  ],
-  "source_url": "https://zadarskilist.novilist.hr/",
-  "face": null,
-  "face_img": "https://zadarskilist.novilist.hr/wp-content/uploads/2026/11/kontejneri_naslovna_2.jpg"
- },
- {
-  "title": "Zadarske Beštije slave 20 godina: Zimski moto susret u sjećanje na Zmaju",
-  "link": "https://ezadar.net.hr/zabava/3588654/zadarske-bestije-slave-20-godina-zimski-moto-susret-u-sjecanje-na-zmaju/",
-  "date": "2026-11-07T12:00:00+00:00",
-  "summary": "Dvadeset godina na cesti zaslužuje dobru feštu, a Moto klub Beštije Zadar svoj će okrugli rođendan proslaviti uz glasne gitare i druženje. Njihov Winter Party održat će se u subotu,",
-  "image": "https://cdn-ezadar.net.hr/wp-content/uploads/789926573_10229429494156371_5320076748932111670_n-c6e03309e028e968d2d72cd0-1052x696.jpg",
-  "source": "eZadar",
-  "topics": [
-   "Zadar"
-  ],
-  "source_url": "https://ezadar.net.hr/",
-  "face": [
-   0.0,
-   51.1,
-   23.1,
-   81.8
-  ],
-  "face_img": "https://cdn-ezadar.net.hr/wp-content/uploads/789926573_10229429494156371_5320076748932111670_n-c6e03309e028e968d2d72cd0-1052x696.jpg"
  },
  {
   "title": "Obavijest za autobusne linije Belafuža,Puntamika,Diklo te prigradske linije iz smjera Nina i Ražanca prema kolodvoru",
