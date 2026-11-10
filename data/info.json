@@ -150,6 +150,10 @@
  ],
  "water": [
   {
+   "day": "2026-11-10",
+   "text": "Zbog radova na vodoopskrbnom sustavu, u srijedu 11. 11. 2026., u vremenu od 08:00 do 12:00 sati, opskrba vodom će biti privremeno obustavljena u gradu Zadru, u sljedećim ulicama:  • Brodarska ulica  • Prilaz Stara Voštarnica  • Ivana Brkanovića    U slučaju nepovoljnih vremenskih uvjeta radovi se odgađaju."
+  },
+  {
    "day": "2026-11-06",
    "text": "Zbog izvođenja građevinskih radova tvrtke Cestogradnja d.o.o., dana 09.11.2026. (ponedjeljak) u vremenu od 08:00 h do 17:00 h opskrba vodom će biti privremeno obustavljena u gradu Zadru u slijedećim ulicama:  • Otokara Keršovanija - kućni brojevi od 1 do 13   • Šime Starčevića  • Nikole Tesle - kućni brojevi od 52 do 77  • Ivana Kukuljevića Sakcinskog  • Petra Hektorovića  • Paklenička ulica  • Kožinski prilaz  • Privlačka ulica - neparni kućni brojevi od 11 do 23  • Vrška ulica – neparni kućni brojevi od 1 do 7  • Admirala Jakova Šubića od Cezana - kućni brojevi od 23 do 50 B  • Đure Basaričeka"
   },
@@ -168,10 +172,6 @@
   {
    "day": "2026-11-04",
    "text": "Zbog izvođenja građevinskih radova tvrtke Cestogradnja d.o.o., u četvrtak 05.11.2026., u vremenu od 08:00 do 14:00 sati, opskrba vodom će biti privremeno obustavljena u gradu Zadru, u ulici Kožinski Prilaz."
-  },
-  {
-   "day": "2026-11-03",
-   "text": "Zbog izvođenja građevinskih radova tvrtke TIM d.o.o. Nadin došlo je do oštećenja vodoopskrbnog cjevovoda uslijed čega je dio mjesta Zemunik Donji (istočno od trgovine \"Tommy\") ostalo bez opskrbe vodom.    Ekipe Vodovoda d.o.o. Zadar nalaze se na terenu te intenzivno rade na otklanjanju nastalog kvara i ponovnoj uspostavi vodoopskrbe.    Normalizaciju vodoopskrbe očekujemo najkasnije sutra u prijepodnevnim satima.    Molimo stanovnike za strpljenje i razumijevanje."
   }
  ],
  "reddit": [
@@ -493,7 +493,7 @@
  ],
  "videos": {
   "v": 2,
-  "fetched": "2026-11-10T12:33:23.151974+00:00",
+  "fetched": "2026-11-10T13:33:18.401449+00:00",
   "items": [
    {
     "id": "tR5k84XrdFs",

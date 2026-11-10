@@ -21,6 +21,18 @@
   "face_img": "https://sport023.hr/wp-content/uploads/2026/11/IMG-20261109-WA0016.jpg"
  },
  {
+  "title": "Započeli radovi na sanaciji Vrata sv. Roka",
+  "link": "https://www.grad-zadar.hr/vijest/opce-vijesti-28/zapoceli-radovi-na-sanaciji-vrata-sv-roka-10124.html",
+  "date": "2026-11-10T13:13:00+00:00",
+  "summary": "Radovi će trajati približno četiri mjeseca.",
+  "image": "https://www.grad-zadar.hr/data/images/image/grad550x325/35490/SIZ_3527.jpg",
+  "source": "Grad Zadar",
+  "topics": [],
+  "source_url": "https://www.grad-zadar.hr/",
+  "face": null,
+  "face_img": "https://www.grad-zadar.hr/data/images/image/grad550x325/35490/SIZ_3527.jpg"
+ },
+ {
   "title": "(FOTOGALERIJA) Kiša je najavljivala nevrijeme, a Camino Zadar donio je nešto sasvim drugo – 60-ak hodočasnika dočekala su otvorena srca i vrata Dalmacije",
   "link": "https://www.znet.hr/2026/11/10/fotogalerija-kisa-je-najavljivala-nevrijeme-a-camino-zadar-donio-je-nesto-sasvim-drugo-60-ak-hodocasnika-docekala-su-otvorena-srca-i-vrata-dalmacije/",
   "date": "2026-11-10T13:10:00+00:00",
@@ -73,6 +85,27 @@
    90.9
   ],
   "face_img": "https://023.hr/wp-content/uploads/2025/10/20251001125425_302224.webp"
+ },
+ {
+  "title": "Zadrani traže polufinale Kupa protiv kluba s kojim igraju u idućem kolu lige",
+  "link": "https://ezadar.net.hr/sport/3590319/zadrani-traze-polufinale-kupa-protiv-kluba-s-kojim-igraju-u-iducem-kolu-lige/",
+  "date": "2026-11-10T13:00:00+00:00",
+  "summary": "Rukometaši Zadra traže plasman u polufinale kvalifikacijskog turnira Kupa. U osmini finala Zadrani su bili bolji od županijskog rivala Biograda, no sad ih čeka kvalitetniji protivnik- Vodice. Zanimljivo, protiv iste",
+  "image": "https://cdn-ezadar.net.hr/wp-content/uploads/Lovre-Duvnjak-RK-Zadar-2013-1052x696.jpg",
+  "source": "eZadar",
+  "topics": [
+   "Zadar",
+   "Županija",
+   "Sport"
+  ],
+  "source_url": "https://ezadar.net.hr/",
+  "face": [
+   2.4,
+   34.6,
+   43.1,
+   75.8
+  ],
+  "face_img": "https://cdn-ezadar.net.hr/wp-content/uploads/Lovre-Duvnjak-RK-Zadar-2013-1052x696.jpg"
  },
  {
   "title": "Mladić s 1,66 promila uhvaćen za volanom na Pašmanu, dobio paprenu kaznu i zabrana vožnje",
@@ -790,7 +823,7 @@
   "face_img": "https://zadarskilist.novilist.hr/wp-content/uploads/2026/11/defibrilator-290415-04-792x495-1.jpg"
  },
  {
-  "title": "Dvodnevno događanje : humanitarni koncert  i susret s liječnicima",
+  "title": "Dvodnevno događanje: humanitarni koncert  i susret s liječnicima",
   "link": "https://radio.hrt.hr/radio-zadar/vijesti/humanitarni-koncert-pod-nazivom-zivot-za-zivot-na-kojem-ce-nastupiti-grupa-forum-i-ivana-kindl-13002535",
   "date": "2026-11-10T08:46:39+00:00",
   "summary": "Zadarska podružnica Hrvatske udruge leukemija i limfomi (HULL) trinaestu godinu zaredom priprema dvodnevno događanje koje povezuje humanitarne aktivnosti, stručnu edukaciju i neposrednu podršku bolesnicima.U petak, 13. studenoga u 20 sati u HNK Zadar, održat će se humanitarni koncert pod nazivom „Život za život”, na…",
@@ -1741,7 +1774,7 @@
   "link": "https://www.jutarnji.hr/sportske/kosarka/hrvatska-liga/zadar-se-nakon-subotice-iskupio-pred-domacom-publikom-i-uvjerljivo-svladao-kvarner-15764015",
   "date": "2026-11-09T19:50:51+00:00",
   "summary": "ZADAR – KVARNER 109:80 (28:19, 29:23, 26:22, 26:16) ZADAR – Dvorana Krešimir Ćosić. Gledatelja: 800. Suci: Galić, Hartman, Lipovac.",
-  "image": "https://media.jutarnji.hr/images/slike/2026/11/09/f_39936482_1280.jpg?1794316411",
+  "image": "https://media.jutarnji.hr/images/slike/2026/11/09/f_39936482_1280.jpg?1794317421",
   "source": "Sportske novosti",
   "source_topic": "Sport",
   "topics": [
@@ -1755,7 +1788,7 @@
    56.3,
    62.7
   ],
-  "face_img": "https://media.jutarnji.hr/images/slike/2026/11/09/f_39936482_1280.jpg?1794316411"
+  "face_img": "https://media.jutarnji.hr/images/slike/2026/11/09/f_39936482_1280.jpg?1794317421"
  },
  {
   "title": "Zadrani napunili koš Kvarnera i na najbolji mogući način najavili dolazak Partizana",
@@ -5117,45 +5150,6 @@
    89.5
   ],
   "face_img": "https://ip.index.hr/remote/bucket.index.hr/b/index/6f78a0d4-02f6-41d8-b170-0cea994af7b6.jpg?fb_wtrmrk=vijesti.jpg&width=1200&height=630&mode=crop&format=png"
- },
- {
-  "title": "Ivana Šojat u Zadru predstavila “Tri carstva”: Rim, Istanbul i Beč kroz povijest, umjetnost i sudbine ljudi",
-  "link": "https://ezadar.net.hr/kultura/3590184/ivana-sojat-u-zadru-predstavila-tri-carstva-rim-istanbul-i-bec-kroz-povijest-umjetnost-i-sudbine-ljudi/",
-  "date": "2026-11-08T14:00:00+00:00",
-  "summary": "Nagrađivana osječka književnica u Gradskoj knjižnici Zadar predstavila je knjigu koja nadilazi klasični putopis. Razgovor o „Tri carstva” moderirala je Karmela Zagorac. U Gradskoj knjižnici Zadar gostovala je jedna od",
-  "image": "https://cdn-ezadar.net.hr/wp-content/uploads/img_5952-8f9b9f30d2753a3df31d66ef.jpg",
-  "source": "eZadar",
-  "topics": [
-   "Zadar"
-  ],
-  "source_url": "https://ezadar.net.hr/",
-  "face": [
-   32.2,
-   44.3,
-   31.8,
-   49.7
-  ],
-  "face_img": "https://cdn-ezadar.net.hr/wp-content/uploads/img_5952-8f9b9f30d2753a3df31d66ef.jpg"
- },
- {
-  "title": "Bičić je ponovno zaigrao u žutom dresu, ali to nije bilo dovoljno kako bi se zaustavili “Narančasti” Zadrani",
-  "link": "https://ezadar.net.hr/sport/3590191/bicic-je-ponovno-zaigrao-u-zutom-dresu-ali-to-nije-bilo-dovoljno-kako-bi-jazine-zaustavile-sibenku/",
-  "date": "2026-11-08T13:58:39+00:00",
-  "summary": "Košarkaši Jazina Arbanasa, razvojne momčadi KK Zadar, doživjeli su drugi poraz u Prvoj muškoj ligi, kao domaćini izgubili su od lidera Šibenke rezultatom 85:98",
-  "image": "https://cdn-ezadar.net.hr/wp-content/uploads/594289159_1493598995811073_1389677924163056803_n-1052x696.jpg",
-  "source": "eZadar",
-  "topics": [
-   "Zadar",
-   "Sport"
-  ],
-  "source_url": "https://ezadar.net.hr/",
-  "face": [
-   9.8,
-   27.7,
-   44.3,
-   70.3
-  ],
-  "face_img": "https://cdn-ezadar.net.hr/wp-content/uploads/594289159_1493598995811073_1389677924163056803_n-1052x696.jpg"
  },
  {
   "title": "Zadranke privukle poglede na ulicama, a ove ljepotice nisu prošle nezapaženo",
