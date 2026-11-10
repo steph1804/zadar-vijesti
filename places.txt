@@ -36,7 +36,7 @@ sv\.? stošij\w*|svet\w* stošij\w*
 
 [zupanija]
 zadarsk\w* županij\w*|županij\w* zadar\w*|žnl
-benkov\w*
+benkov(?:ac|ca|cu|cem|cima|ačk\w*|šćin\w*)
 biograd\w*
 ?nin|ninu|ninom|ninsk\w*|ninjan\w*
 obrov\w*
