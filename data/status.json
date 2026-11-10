@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-10T22:01:17.682119+00:00",
+ "updated": "2026-11-10T22:14:28.222050+00:00",
  "sources": [
   {
    "name": "Antena Zadar",
@@ -31,7 +31,7 @@
   },
   {
    "name": "eZadar",
-   "count": 20,
+   "count": 19,
    "ok": true,
    "feed": null,
    "errors": []
