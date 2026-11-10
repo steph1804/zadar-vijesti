@@ -87,14 +87,6 @@
  "power": [
   {
    "day": "10.11.2026",
-   "place": "Prkos",
-   "street": "predio Gravići",
-   "note": "",
-   "time": "08:30 - 11:30",
-   "unplanned": false
-  },
-  {
-   "day": "10.11.2026",
    "place": "Vrsi",
    "street": "Bili put",
    "note": "",
