@@ -493,7 +493,7 @@
  ],
  "videos": {
   "v": 2,
-  "fetched": "2026-11-10T15:33:19.261789+00:00",
+  "fetched": "2026-11-10T16:31:27.669462+00:00",
   "items": [
    {
     "id": "tR5k84XrdFs",
@@ -502,6 +502,14 @@
     "date": "2026-11-08T17:30:27+00:00",
     "link": "https://www.youtube.com/watch?v=tR5k84XrdFs",
     "image": "https://i.ytimg.com/vi/tR5k84XrdFs/mqdefault.jpg"
+   },
+   {
+    "id": "S9rxnpymhuo",
+    "title": "Oproštaj Miše Kovača u Zadru (03.11.2026)",
+    "channel": "Hrvatski Poslovi",
+    "date": "2026-11-04T19:59:56+00:00",
+    "link": "https://www.youtube.com/watch?v=S9rxnpymhuo",
+    "image": "https://i.ytimg.com/vi/S9rxnpymhuo/mqdefault.jpg"
    },
    {
     "id": "I4MG0kvNBQY",
@@ -606,14 +614,6 @@
     "date": "2026-10-15T20:32:28+00:00",
     "link": "https://www.youtube.com/watch?v=u5Ihcu1p2HU",
     "image": "https://i.ytimg.com/vi/u5Ihcu1p2HU/mqdefault.jpg"
-   },
-   {
-    "id": "jKjGjUjVo9g",
-    "title": "9. sjednica Županijske skupštine Zadarske županije",
-    "channel": "ZADARSKA ZUPANIJA",
-    "date": "2026-10-15T11:50:08+00:00",
-    "link": "https://www.youtube.com/watch?v=jKjGjUjVo9g",
-    "image": "https://i.ytimg.com/vi/jKjGjUjVo9g/mqdefault.jpg"
    }
   ]
  }
