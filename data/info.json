@@ -1,16 +1,16 @@
 {
  "Jadrolinija": [
   {
-   "title": "Linije u prekidu u utorak 10.11.2026.",
-   "link": "https://www.jadrolinija.hr/news-single/linije-u-prekidu-u-utorak-10112026",
-   "date": "2026-11-09T18:40:00+00:00",
-   "summary": "Red plovidbe za utorak 10.11."
-  },
-  {
    "title": "Linije u prekidu 11.11.2026.",
    "link": "https://www.jadrolinija.hr/news-single/linije-u-prekidu-11112026",
    "date": "2026-11-10T09:36:00+00:00",
    "summary": "Red plovidbe u srijedu, 11.11.2026"
+  },
+  {
+   "title": "Linije u prekidu u utorak 10.11.2026.",
+   "link": "https://www.jadrolinija.hr/news-single/linije-u-prekidu-u-utorak-10112026",
+   "date": "2026-11-09T18:40:00+00:00",
+   "summary": "Red plovidbe za utorak 10.11."
   }
  ],
  "buses": [
@@ -493,7 +493,7 @@
  ],
  "videos": {
   "v": 2,
-  "fetched": "2026-11-10T16:31:27.669462+00:00",
+  "fetched": "2026-11-10T17:33:16.880390+00:00",
   "items": [
    {
     "id": "tR5k84XrdFs",
