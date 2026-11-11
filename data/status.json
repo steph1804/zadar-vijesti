@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-11T10:15:47.372354+00:00",
+ "updated": "2026-11-11T10:31:02.082682+00:00",
  "sources": [
   {
    "name": "Antena Zadar",
@@ -94,10 +94,12 @@
   },
   {
    "name": "Sveučilište u Zadru",
-   "count": 8,
-   "ok": true,
+   "count": 0,
+   "ok": false,
    "feed": null,
-   "errors": []
+   "errors": [
+    "https://www.unizd.hr/obavijesti/novosti: The read operation timed out"
+   ]
   },
   {
    "name": "Čistoća Zadar",
@@ -196,7 +198,7 @@
    "ok": false,
    "feed": "https://www.novilist.hr/feed/",
    "errors": [
-    "https://www.novilist.hr/feed/: not well-formed (invalid token): line 381, column 11"
+    "https://www.novilist.hr/feed/: not well-formed (invalid token): line 412, column 11"
    ]
   },
   {
