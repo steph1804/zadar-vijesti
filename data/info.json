@@ -43,8 +43,8 @@
    "via": "Pula",
    "time": "2026-11-11T15:50:00",
    "est": "2026-11-11T15:25:00",
-   "act": "",
-   "status": "",
+   "act": "2026-11-11T15:22:00",
+   "status": "Landed",
    "gate": ""
   },
   {
@@ -56,7 +56,7 @@
    "time": "2026-11-11T16:20:00",
    "est": "2026-11-11T16:20:00",
    "act": "",
-   "status": "",
+   "status": "Boarding",
    "gate": "05"
   },
   {
@@ -491,7 +491,7 @@
  ],
  "videos": {
   "v": 2,
-  "fetched": "2026-11-11T13:32:17.440268+00:00",
+  "fetched": "2026-11-11T14:33:19.450139+00:00",
   "items": [
    {
     "id": "tR5k84XrdFs",
@@ -592,7 +592,7 @@
    {
     "id": "CmrpQo8ckVk",
     "title": "😱🚨Breaking News: M 2.7 potres pogodio Kruševo, Grad Obrovac, Zadarska županija, Hrvatska.!",
-    "channel": "lindunow",
+    "channel": "SpectaGlobeTV",
     "date": "2026-10-19T17:18:08+00:00",
     "link": "https://www.youtube.com/watch?v=CmrpQo8ckVk",
     "image": "https://i.ytimg.com/vi/CmrpQo8ckVk/mqdefault.jpg"
