@@ -174,6 +174,11 @@
  ],
  "reddit": [
   {
+   "title": "Posao",
+   "link": "https://www.reddit.com/r/Zadar/comments/1xtfgxi/posao/",
+   "date": "2026-11-11T11:32:41+00:00"
+  },
+  {
    "title": "Vodovod",
    "link": "https://www.reddit.com/r/Zadar/comments/1xtcgsc/vodovod/",
    "date": "2026-11-11T08:23:51+00:00"
@@ -207,11 +212,6 @@
    "title": "poznati ljudi naseg grad",
    "link": "https://www.reddit.com/r/Zadar/comments/1xrxttq/poznati_ljudi_naseg_grad/",
    "date": "2026-11-09T17:26:46+00:00"
-  },
-  {
-   "title": "Domjenak i crkva za vjencanje",
-   "link": "https://www.reddit.com/r/Zadar/comments/1xrq4co/domjenak_i_crkva_za_vjencanje/",
-   "date": "2026-11-09T12:13:40+00:00"
   }
  ],
  "retro": [
@@ -491,7 +491,7 @@
  ],
  "videos": {
   "v": 2,
-  "fetched": "2026-11-11T10:32:55.936252+00:00",
+  "fetched": "2026-11-11T11:33:16.005251+00:00",
   "items": [
    {
     "id": "tR5k84XrdFs",
