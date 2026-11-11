@@ -1,5 +1,40 @@
 [
  {
+  "title": "LEPURI Svečana proslava Sv. Martina",
+  "link": "https://www.antenazadar.hr/clanak/2026/11/lepuri-svecana-proslava-sv-martina/",
+  "date": "2026-11-11T16:00:24+00:00",
+  "summary": "Svečanim euharistijskim slavljem, 11. studenoga, u crkvi sv. Martina u Lepurima proslavljen je nebeski zaštitnik ovoga mjesta – sv. Martin.",
+  "image": "https://www.antenazadar.hr/wp-content/uploads/2026/11/901372609_1176081735085547_4713309235525957947_n.jpg",
+  "source": "Antena Zadar",
+  "topics": [
+   "Zadar",
+   "Županija"
+  ],
+  "source_url": "https://www.antenazadar.hr/",
+  "face": [
+   12.3,
+   44.9,
+   23.5,
+   95.6
+  ],
+  "face_img": "https://www.antenazadar.hr/wp-content/uploads/2026/11/901372609_1176081735085547_4713309235525957947_n.jpg"
+ },
+ {
+  "title": "Trojica Hrvata i Poljakinja optuženi zbog podmetanja požara: Prouzročili veliku štetu",
+  "link": "https://www.tportal.hr/vijesti/clanak/trojica-hrvata-i-poljakinja-optuzeni-zbog-podmetanja-pozara-prouzrocili-veliku-stetu-20261111",
+  "date": "2026-11-11T15:58:00+00:00",
+  "summary": "Općinsko državno odvjetništvo u Zadru podiglo je optužnicu pred zadarskim Općinskim sudom protiv trojice hrvatskih državljana i državljanke Poljske zbog podmetanja požara na području Zadarske županije sredinom kolovoza ove godine",
+  "image": "https://www.tportal.hr/media/thumbnail/500x300/2813669.jpeg?cropId=4310218",
+  "source": "tportal",
+  "topics": [
+   "Zadar",
+   "Županija"
+  ],
+  "source_url": "https://www.tportal.hr/",
+  "face": null,
+  "face_img": "https://www.tportal.hr/media/thumbnail/500x300/2813669.jpeg?cropId=4310218"
+ },
+ {
   "title": "Tragedija u Zadru, 80-godišnjak prešao u suprotnu traku i frontalno se zabio u drugi auto, umro u bolnici",
   "link": "https://www.telegram.hr/vijesti/tragedija-u-zadru-80-godisnjak-presao-u-suprotnu-traku-i-frontalno-se-zabio-u-drugi-auto-umro-u-bolnici/",
   "date": "2026-11-11T15:56:30+00:00",
@@ -5025,39 +5060,6 @@
   "face_img": "https://023.hr/wp-content/uploads/2026/11/20261109123131_385306-scaled.avif"
  },
  {
-  "title": "Kako je Almayer u Kampo Kaštelu preuzeo odgovornost za novu stvarnost zadarskog gostoprimstva",
-  "link": "https://slobodnadalmacija.hr/dalmacija/zadar/kako-je-almayer-na-campo-kastelu-preuzeo-odgovornost-za-novu-stvarnost-zadarskog-gostoprimstva-1589385",
-  "date": "2026-11-09T14:06:00+00:00",
-  "summary": "U vremenu kad masovni turizam često briše autentičnost povijesnih gradova, u samom srcu zadarske stare jezgre, u povijesnom Kampo Kaštelu, najmirnijem i estetski najčišćem dijelu grada, pulsira oaza koja se opire zatiranju prave kulture putovanja i hrabro postavlja svoje standarde luksuza za one koj...",
-  "image": "https://static.slobodnadalmacija.hr/images/slike/2026/11/06/32794002.jpg",
-  "source": "Slobodna Dalmacija/Zadar",
-  "topics": [
-   "Zadar"
-  ],
-  "source_url": "https://slobodnadalmacija.hr/dalmacija/zadar",
-  "face": [
-   33.5,
-   47.1,
-   31.9,
-   90.0
-  ],
-  "face_img": "https://static.slobodnadalmacija.hr/images/slike/2026/11/06/32794002.jpg"
- },
- {
-  "title": "Poznata grupacija u novom zaletu; ulažu 15 milijuna € u obnovu hotela i kampova širom Dalmacije, ovo je najveći projekt",
-  "link": "https://slobodnadalmacija.hr/turizam/turisticke-vijesti/poznata-grupacija-u-novom-zaletu-ulazu-15-milijuna-u-obnovu-hotela-i-kampova-sirom-dalmacije-ovo-je-najveci-projekt-1589384",
-  "date": "2026-11-09T14:01:18+00:00",
-  "summary": "Rudan Hotels & Camps nastavlja ulaganja u svoje turističke objekte novim investicijskim ciklusom vrijednim približno 15 milijuna eura, koji će obuhvatiti hotele i kampove u Omišu, Vodicama i Biogradu na Moru. Najveći pojedinačni projekt je obnova turističkog naselja Sagitta u Lokvi Rogoznici kod Omi...",
-  "image": "https://static.slobodnadalmacija.hr/images/slike/2026/11/09/32827758.png",
-  "source": "Slobodna Dalmacija/Zadar",
-  "topics": [
-   "Županija"
-  ],
-  "source_url": "https://slobodnadalmacija.hr/dalmacija/zadar",
-  "face": null,
-  "face_img": "https://static.slobodnadalmacija.hr/images/slike/2026/11/09/32827758.png"
- },
- {
   "title": "Sinj organizira besplatan prijevoz u Škabrnju povodom 35. obljetnice stradanja: Evo kako osigurati svoje mjesto u autobusu!",
   "link": "https://www.dalmacijadanas.hr/sinj-organizira-besplatan-prijevoz-u-skabrnju-povodom-35-obljetnice-stradanja-evo-kako-osigurati-svoje-mjesto-u-autobusu/",
   "date": "2026-11-09T10:42:41+00:00",
@@ -5075,26 +5077,6 @@
    100.0
   ],
   "face_img": "https://www.dalmacijadanas.hr/wp-content/uploads/2024/11/sinj-vukovar-cvijece-svijece-59.jpg"
- },
- {
-  "title": "Iznenada preminuo svećenik Zadarske nadbiskupije",
-  "link": "https://www.tportal.hr/vijesti/clanak/iznenada-preminuo-svecenik-zadarske-nadbiskupije-20261109",
-  "date": "2026-11-09T09:08:00+00:00",
-  "summary": "Zadarska nadbiskupija objavila je da je don Zbigniew Jacek Korcz, svećenik te nadbiskupije, iznenada preminuo u nedjelju, 8. studenoga, tijekom obavljanja svećeničke službe na otoku Molatu.",
-  "image": "https://www.tportal.hr/media/thumbnail/500x300/2824483.jpeg?cropId=4337902",
-  "source": "tportal",
-  "topics": [
-   "Zadar",
-   "Otoci"
-  ],
-  "source_url": "https://www.tportal.hr/",
-  "face": [
-   0.0,
-   98.9,
-   23.7,
-   68.6
-  ],
-  "face_img": "https://www.tportal.hr/media/thumbnail/500x300/2824483.jpeg?cropId=4337902"
  },
  {
   "title": "Svećenik iznenada preminuo tijekom službe na hrvatskom otoku",
