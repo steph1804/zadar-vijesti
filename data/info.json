@@ -174,6 +174,11 @@
  ],
  "reddit": [
   {
+   "title": "Vodovod",
+   "link": "https://www.reddit.com/r/Zadar/comments/1xtcgsc/vodovod/",
+   "date": "2026-11-11T08:23:51+00:00"
+  },
+  {
    "title": "Braćo brata sprovodimo",
    "link": "https://www.reddit.com/r/Zadar/comments/1xssdwu/braćo_brata_sprovodimo/",
    "date": "2026-11-10T17:05:52+00:00"
@@ -207,11 +212,6 @@
    "title": "Domjenak i crkva za vjencanje",
    "link": "https://www.reddit.com/r/Zadar/comments/1xrq4co/domjenak_i_crkva_za_vjencanje/",
    "date": "2026-11-09T12:13:40+00:00"
-  },
-  {
-   "title": "Što je s trooperom",
-   "link": "https://www.reddit.com/r/Zadar/comments/1xrns9l/što_je_s_trooperom/",
-   "date": "2026-11-09T09:59:19+00:00"
   }
  ],
  "retro": [
@@ -491,7 +491,7 @@
  ],
  "videos": {
   "v": 2,
-  "fetched": "2026-11-11T07:32:14.399006+00:00",
+  "fetched": "2026-11-11T08:33:56.611104+00:00",
   "items": [
    {
     "id": "tR5k84XrdFs",
