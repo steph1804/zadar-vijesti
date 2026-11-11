@@ -19,14 +19,31 @@
   "link": "https://www.bolnica-zadar.hr/movember-donosi-besplatne-uroloske-preglede-u-ob-zadar/",
   "date": "2026-11-11T08:04:36+00:00",
   "summary": "Movember ili Brkati studeni mjesec je posvećen podizanju svijesti o muškom zdravlju i važnosti prevencije, osobito kada je riječ o bolestima prostate i drugim urološkim bolestima. Za one koji možda oklijevaju, prvi su korak ove godine napravili Odjel za urologiju Opće bolnice Zadar, studio MR.",
-  "image": "https://www.bolnica-zadar.hr/wp-content/uploads/2026/11/move-0-860x556.jpg",
+  "image": null,
   "source": "Opća bolnica Zadar",
   "topics": [
    "Zadar"
   ],
-  "source_url": "https://www.bolnica-zadar.hr/aktualnosti/vijesti/",
-  "face": null,
-  "face_img": "https://www.bolnica-zadar.hr/wp-content/uploads/2026/11/move-0-860x556.jpg"
+  "source_url": "https://www.bolnica-zadar.hr/aktualnosti/vijesti/"
+ },
+ {
+  "title": "Punktum slavi deset godina: Knjigozemska se vraća u vrijeme prvih dana nezavisne kulture",
+  "link": "https://ezadar.net.hr/kultura/3590374/punktum-slavi-deset-godina-knjigozemska-se-vraca-u-vrijeme-prvih-dana-nezavisne-kulture/",
+  "date": "2026-11-11T08:00:00+00:00",
+  "summary": "Gdje je nekad živjela nezavisna kultura Zadra? Izložba vraća u život izgubljene prostore Udruga za kulturu i umjetnost Punktum obilježava deset godina djelovanja, a proslava će se održati u petak,",
+  "image": "https://cdn-ezadar.net.hr/wp-content/uploads/1000130776-27ecdab8b750d661eddb52da-1052x696.jpg",
+  "source": "eZadar",
+  "topics": [
+   "Zadar"
+  ],
+  "source_url": "https://ezadar.net.hr/",
+  "face": [
+   41.7,
+   69.7,
+   4.2,
+   82.4
+  ],
+  "face_img": "https://cdn-ezadar.net.hr/wp-content/uploads/1000130776-27ecdab8b750d661eddb52da-1052x696.jpg"
  },
  {
   "title": "Treba li i Zadar ograničiti cijene na Adventu? ‘Ugostitelj ima pravo na cijenu, posjetitelj na izbor’",
@@ -81,20 +98,6 @@
    64.6
   ],
   "face_img": "https://cdn-ezadar.net.hr/wp-content/uploads/bb1_5375-0ae5ef2b54ba90d97dfa9abe-1052x696.jpg"
- },
- {
-  "title": "Zbog puknuća cijevi dvije ulice u Zagrebu ostaju bez vode",
-  "link": "https://www.jutarnji.hr/vijesti/zagreb/zbog-puknuca-cijevi-dvije-ulice-u-zagrebu-ostaju-bez-vode-15764365",
-  "date": "2026-11-11T07:47:41+00:00",
-  "summary": "Zbog puknuća cjevovoda u srijedu, 11. studenoga, dio Zagrepčana u Gornjoj Dubravi privremeno će ostati bez vode u svojim domovima. Riječ je o korisnicima u Slanovečkoj cesti, od kućnog broja 13 do 126, koji vodu neće imati do 14 sati, a oni u Škabrnjskoj ulici do 15 sati. - Za vrijeme trajanja radov...",
-  "image": "https://media.jutarnji.hr/images/slike/2026/11/11/f_31626813_1280.jpg?1794384826",
-  "source": "Jutarnji list",
-  "topics": [
-   "Županija"
-  ],
-  "source_url": "https://www.jutarnji.hr/",
-  "face": null,
-  "face_img": "https://media.jutarnji.hr/images/slike/2026/11/11/f_31626813_1280.jpg?1794384826"
  },
  {
   "title": "MLADI IMAJU RIJEČ Zadarski srednjoškolci županu predstavili sedam prijedloga za bolji život",
@@ -372,22 +375,6 @@
    77.5
   ],
   "face_img": "https://zadarskilist.novilist.hr/wp-content/uploads/2026/11/KRUG-19.png"
- },
- {
-  "title": "Tri zadarske ulice do podneva bez vode, struja se isključuje u pet mjesta, a jugo navečer jača",
-  "link": "https://023.hr/2026/11/tri-zadarske-ulice-do-podneva-bez-vode-struja-se-iskljucuje-u-pet-mjesta-a-jugo-navecer-jaca/",
-  "date": "2026-11-11T05:43:37+00:00",
-  "summary": "Srijeda počinje oblačno, uz oko 16°C i mogućnost slabe kiše. Vozače na A1 i u Strossmayerovoj čekaju ograničenja i obilasci. Ujutro je moguća slaba, prolazna kiša, a vjerojatnost oborine tijekom dana raste do 60%.",
-  "image": "https://023.hr/wp-content/uploads/2026/09/20260917074952_570263.avif",
-  "source": "023 portal",
-  "topics": [
-   "Zadar",
-   "Županija",
-   "Otoci"
-  ],
-  "source_url": "https://023.hr/",
-  "face": null,
-  "face_img": "https://023.hr/wp-content/uploads/2026/09/20260917074952_570263.avif"
  },
  {
   "title": "35. OBLJETNICA ŠKABRNJE Škara: Pozvali smo Milanovića, Plenkovića i Jandrokovića, očekujemo oko 15.000 ljudi",
@@ -3031,21 +3018,6 @@
   "face_img": "https://www.antenazadar.hr/wp-content/uploads/2026/11/DSC_4054-scaled.jpgvvbbb.jpg"
  },
  {
-  "title": "OBNOVE ZADARSKIH CESTA Zatvara se dio Strossmayerove, pogledajte koje su još prometnice na popisu",
-  "link": "https://www.antenazadar.hr/clanak/2026/11/obnove-zadarskih-cesta-zatvara-se-dio-strossmayerove-pogledajte-koje-su-jos-prometnice-na-popisu/",
-  "date": "2026-11-09T19:00:08+00:00",
-  "summary": "U Ulici Josipa Jurja Strossmayera sanira se asfalt i rekonstruira vodovodni cjevovod, a radovi bi trebali trajati 30 dana.",
-  "image": "https://www.antenazadar.hr/wp-content/uploads/2026/11/SIZ_3209.jpg",
-  "source": "Antena Zadar",
-  "topics": [
-   "Zadar",
-   "Županija"
-  ],
-  "source_url": "https://www.antenazadar.hr/",
-  "face": null,
-  "face_img": "https://www.antenazadar.hr/wp-content/uploads/2026/11/SIZ_3209.jpg"
- },
- {
   "title": "Kako spriječiti da povoljne parcele za mlade obitelji u Zadru završe u krivim rukama? SDP-ovac predlaže konkretne korake",
   "link": "https://slobodnadalmacija.hr/dalmacija/zadar/kako-sprijeciti-da-povoljne-parcele-za-mlade-obitelji-u-zadru-zavrse-u-krivim-rukama-sdp-ovac-predlaze-konkretne-korake-1589427",
   "date": "2026-11-09T18:40:01+00:00",
@@ -3545,25 +3517,6 @@
   "face_img": "https://static.slobodnadalmacija.hr/images/slike/2026/11/09/32827758.png"
  },
  {
-  "title": "U FOTOOBJEKTIVU Kišna špica na ulice je izmamila prve ozbiljnije jesenske outfite",
-  "link": "https://zadarskilist.novilist.hr/style/u-fotoobjektivu-kisna-spica-na-ulice-je-izmamila-prve-ozbiljnije-jesenske-outfite/",
-  "date": "2026-11-09T14:01:05+00:00",
-  "summary": "Studeni je na zadarske ulice izmamio kapute, kožne jakne, čizme i prve ozbiljnije jesenske modne kombinacije. Ipak, sudeći prema prizorima koje smo zabilježili u šetnji gradom, tmurniji dani nisu razlog za odustajanje od boja, zanimljivih krojeva i pomno odabranih detalja.",
-  "image": "https://zadarskilist.novilist.hr/wp-content/uploads/2026/11/ipiccy_image-31.jpg",
-  "source": "Zadarski list",
-  "topics": [
-   "Zadar"
-  ],
-  "source_url": "https://zadarskilist.novilist.hr/",
-  "face": [
-   11.9,
-   25.4,
-   9.4,
-   90.8
-  ],
-  "face_img": "https://zadarskilist.novilist.hr/wp-content/uploads/2026/11/ipiccy_image-31.jpg"
- },
- {
   "title": "Branitelji se okupili na 16. Memorijalu Darija Čurkovića: Šest juniora posebno razveselilo sudionike",
   "link": "https://ezadar.net.hr/sport/3590256/branitelji-se-okupili-na-16-memorijalu-darija-curkovica-sest-juniora-posebno-razveselilo-sudionike/",
   "date": "2026-11-09T14:00:00+00:00",
@@ -3929,21 +3882,6 @@
    82.0
   ],
   "face_img": "https://www.antenazadar.hr/wp-content/uploads/2026/11/IMG_1737-scaled.jpeg"
- },
- {
-  "title": "Kreće velika obnova zadarskih ulica; Doznajte koje su sve ceste na popisu za novi asfalt do kraja godine i u 2027.!",
-  "link": "https://023.hr/2026/11/krece-velika-obnova-zadarskih-ulica-doznajte-koje-su-sve-ceste-na-popisu-za-novi-asfalt-do-kraja-godine-i-u-2027/",
-  "date": "2026-11-09T11:54:38+00:00",
-  "summary": "Zbog izvođenja radova održavanja društva Filius d.o.o. na sanaciji asfaltnog zastora i radova društva Vodovod d.o.o. na rekonstrukciji vodoopskrbnog cjevovoda u Ulici Josipa Jurja Strossmayera od danas, 9. studenoga 2026. godine, na snazi je privremena regulacija prometa u trajanju od 30 radnih dana ovisno o…",
-  "image": "https://023.hr/wp-content/uploads/2026/11/20261109125324_003860-300x200.avif",
-  "source": "023 portal",
-  "topics": [
-   "Zadar",
-   "Županija"
-  ],
-  "source_url": "https://023.hr/",
-  "face": null,
-  "face_img": "https://023.hr/wp-content/uploads/2026/11/20261109125324_003860-300x200.avif"
  },
  {
   "title": "Podučavajući baštinu i sam postao baština: Profesor Jurić imenovan počasnim turističkim vodičem",
@@ -5067,6 +5005,87 @@
    68.6
   ],
   "face_img": "https://www.tportal.hr/media/thumbnail/500x300/2824483.jpeg?cropId=4337902"
+ },
+ {
+  "title": "[FOTO] Mladi i umirovljenici zajedno zaplesali: ‘Od početnog “ajme, neću, sram me” došli do toga da su se potpuno opustili’",
+  "link": "https://zadarskilist.novilist.hr/zadar-zupanija/foto-mladi-i-umirovljenici-zajedno-zaplesali-od-pocetnog-ajme-necu-sram-me-dosli-do-toga-da-su-se-potpuno-opustili/",
+  "date": "2026-11-09T09:00:46+00:00",
+  "summary": "Roku Dorkinu bio je to prvi susret s plesnim koracima, ali i pomalo neobično iskustvo druženja sa starijim generacijama. U početku mu je, priznaje, sve bilo pomalo čudno, no kako su se nizali susreti, tako je nestajala i početna suzdržanost. – Kad sam prvi put plesao, učili smo engleski valcer i diskofox i bilo je",
+  "image": "https://zadarskilist.novilist.hr/wp-content/uploads/2026/11/ipiccy_image-29.jpg",
+  "source": "Zadarski list",
+  "topics": [
+   "Zadar"
+  ],
+  "source_url": "https://zadarskilist.novilist.hr/",
+  "face": [
+   5.4,
+   72.4,
+   12.8,
+   88.0
+  ],
+  "face_img": "https://zadarskilist.novilist.hr/wp-content/uploads/2026/11/ipiccy_image-29.jpg"
+ },
+ {
+  "title": "Svećenik iznenada preminuo tijekom službe na hrvatskom otoku",
+  "link": "https://www.jutarnji.hr/vijesti/hrvatska/svecenik-iznenada-preminuo-tijekom-sluzbe-na-hrvatskom-otoku-15763806",
+  "date": "2026-11-09T08:59:48+00:00",
+  "summary": "Iznenada preminuo svećenik Zadarske nadbiskupije, imao je 60 godina Svećenik Zadarske nadbiskupije don Zbignew Jacek Korcz iznenada je preminuo u nedjelju, 8. studenoga, tijekom obavljanja svećeničke službe na otoku Molatu, izvijestila je Zadarska nadbiskupija. Don Zbignew preminuo je u 61. godini ž...",
+  "image": "https://media.jutarnji.hr/images/slike/2026/11/09/f_39933277_1280.jpg?1794230056",
+  "source": "Jutarnji list",
+  "topics": [
+   "Zadar",
+   "Otoci"
+  ],
+  "source_url": "https://www.jutarnji.hr/",
+  "face": [
+   0.0,
+   92.4,
+   30.1,
+   63.1
+  ],
+  "face_img": "https://media.jutarnji.hr/images/slike/2026/11/09/f_39933277_1280.jpg?1794230056"
+ },
+ {
+  "title": "Još jedan “Pleši kao ti i ne možeš pogriješiti” iza nas",
+  "link": "https://visnjik.hr/planet-visnjik/jos-jedan-plesi-kao-ti-i-ne-mozes-pogrijesiti-iza-nas-09-11-2026/",
+  "date": "2026-11-09T08:54:42+00:00",
+  "summary": "FOTO: Nenad Opačić Sinoć se na Višnjiku u organizaciji Ide Štulić održao još jedan, osmi po redu, plesno-humanitarni projekt “Pleši kao ti i ne možeš pogriješiti”. Ove godine plesalo se za udrugu za pomoć djeci i obiteljima suočenim s malignim bolestima Krijesnica.",
+  "image": "https://visnjik.hr/wp-content/uploads/2026/11/plesi-kao-ti-i-ne-mozes-pogrijesiti-ples-09-11-2026-21.jpg",
+  "source": "SC Višnjik",
+  "source_topic": "Sport",
+  "topics": [
+   "Zadar",
+   "Sport"
+  ],
+  "source_url": "https://visnjik.hr/novosti/",
+  "face": [
+   10.8,
+   26.1,
+   49.1,
+   55.0
+  ],
+  "face_img": "https://visnjik.hr/wp-content/uploads/2026/11/plesi-kao-ti-i-ne-mozes-pogrijesiti-ples-09-11-2026-21.jpg"
+ },
+ {
+  "title": "LUKA BUOVAC TAKTIKA NASTAVLJA S NIZOM USPJEHA: Novo zlato na Zagreb Openu!",
+  "link": "https://sport023.hr/2026/11/09/luka-buovac-taktika-nastavlja-s-nizom-uspjeha-novo-zlato-na-zagreb-openu/",
+  "date": "2026-11-09T08:45:33+00:00",
+  "summary": "Nakon osvojenog zlata 31. listopada na turniru u Slavoniji, Luka Buovac Taktika (Boksački klub Zadar) nastavio je pobjednički niz. Samo... Objava LUKA BUOVAC TAKTIKA NASTAVLJA S NIZOM USPJEHA: Novo zlato na Zagreb Openu! pojavila se prvi puta na Sport023.",
+  "image": "https://sport023.hr/wp-content/uploads/2025/10/luka-buovac-e1761924914273.jpg",
+  "source": "Sport023",
+  "source_topic": "Sport",
+  "topics": [
+   "Zadar",
+   "Sport"
+  ],
+  "source_url": "https://sport023.hr/",
+  "face": [
+   6.2,
+   49.6,
+   32.8,
+   68.8
+  ],
+  "face_img": "https://sport023.hr/wp-content/uploads/2025/10/luka-buovac-e1761924914273.jpg"
  },
  {
   "title": "Krevet po vašoj mjeri, od prve zamisli do posljednjeg šava – Mistral Zadar predstavio novu internetsku trgovinu",
