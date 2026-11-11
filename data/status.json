@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-11T10:01:11.849935+00:00",
+ "updated": "2026-11-11T10:15:47.372354+00:00",
  "sources": [
   {
    "name": "Antena Zadar",
@@ -10,7 +10,7 @@
   },
   {
    "name": "Zadarski list",
-   "count": 8,
+   "count": 7,
    "ok": true,
    "feed": null,
    "errors": []
@@ -31,14 +31,14 @@
   },
   {
    "name": "eZadar",
-   "count": 21,
+   "count": 22,
    "ok": true,
    "feed": null,
    "errors": []
   },
   {
    "name": "023 portal",
-   "count": 6,
+   "count": 7,
    "ok": true,
    "feed": null,
    "errors": []
@@ -66,12 +66,10 @@
   },
   {
    "name": "Naši školji",
-   "count": 0,
-   "ok": false,
+   "count": 10,
+   "ok": true,
    "feed": null,
-   "errors": [
-    "https://www.nasiskolji.hr/feed/: <urlopen error timed out>"
-   ]
+   "errors": []
   },
   {
    "name": "Grad Zadar",
@@ -198,7 +196,7 @@
    "ok": false,
    "feed": "https://www.novilist.hr/feed/",
    "errors": [
-    "https://www.novilist.hr/feed/: not well-formed (invalid token): line 223, column 11"
+    "https://www.novilist.hr/feed/: not well-formed (invalid token): line 381, column 11"
    ]
   },
   {
