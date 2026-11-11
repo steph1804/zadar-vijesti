@@ -805,8 +805,13 @@ _MEMORIAL = re.compile(r"vukovar\w*\s+i\s+[šs]kabrnj\w*|[šs]kabrnj\w*\s+i\s+vu
 _OFFICIALS = re.compile(r"\b(?:glavn\w* )?(?:sud(?:ac|ci|ije|ica)|pomoćn\w* sud\w*|delegat|opunomoćenik|kontrolor\w*)\s*:[^.\n]*", re.I)
 
 
+# Ulice nazvane po mjestima ("Škabrnjska ulica" u Zagrebu, "Zadarska cesta" u Splitu) ne čine vijest zadarskom
+# (Stipe, 2026-11-11: jutarnji.hr, Zagreb bez vode u Škabrnjskoj ulici).
+_STREETS = re.compile(r"\b\w+(?:sk|čk|šk|ck)\w*\s+(?:ulic\w*|cest\w*|trg\w*)", re.I)
+
+
 def _no_memorial(text):
-    return _OFFICIALS.sub(" ", _MEMORIAL.sub(" ", text))
+    return _STREETS.sub(" ", _OFFICIALS.sub(" ", _MEMORIAL.sub(" ", text)))
 
 
 def _haystack(item, full=True):
