@@ -57,7 +57,7 @@
    "est": "2026-11-11T16:20:00",
    "act": "",
    "status": "",
-   "gate": "07"
+   "gate": "05"
   },
   {
    "dir": "dolazak",
@@ -148,6 +148,10 @@
  ],
  "water": [
   {
+   "day": "2026-11-11",
+   "text": "Zbog radova na vodoopskrbnom sustavu, u četvrtak 12. 11. 2026., u vremenu od 08:00 do 12:00 sati, opskrba vodom će biti privremeno obustavljena u mjestu Privlaka, u sljedećim ulicama:  • Ivana Vučetića  • Ruđera Boškovića  • Vladimira Preloga  • Nikole Tesle  • Fausta Vrančića  • Put Gornjih Begonjića  • Put Donjih Begonjića    U slučaju nepovoljnih vremenskih uvjeta radovi se odgađaju."
+  },
+  {
    "day": "2026-11-10",
    "text": "Zbog radova na vodoopskrbnom sustavu, u srijedu 11. 11. 2026., u vremenu od 08:00 do 12:00 sati, opskrba vodom će biti privremeno obustavljena u gradu Zadru, u sljedećim ulicama:  • Brodarska ulica  • Prilaz Stara Voštarnica  • Ivana Brkanovića    U slučaju nepovoljnih vremenskih uvjeta radovi se odgađaju."
   },
@@ -166,10 +170,6 @@
   {
    "day": "2026-11-04",
    "text": "Zbog radova na vodoopskrbnom sustavu, u četvrtak 05. 11. 2026., u vremenu od 09:00 do 11:00 sati, opskrba vodom će biti privremeno obustavljena u gradu Zadru, u sljedećim ulicama:  • Josipa Jurja Strossmayera  • Brodarska ulica  • Prilaz Stara Voštarnica  • Ivana Brkanovića"
-  },
-  {
-   "day": "2026-11-04",
-   "text": "Zbog izvođenja građevinskih radova tvrtke Cestogradnja d.o.o., u četvrtak 05.11.2026., u vremenu od 08:00 do 14:00 sati, opskrba vodom će biti privremeno obustavljena u gradu Zadru, u ulici Kožinski Prilaz."
   }
  ],
  "reddit": [
