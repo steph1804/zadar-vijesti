@@ -565,18 +565,6 @@
   "face_img": "https://static.slobodnadalmacija.hr/images/slike/2026/11/11/32839850.jpg"
  },
  {
-  "title": "Pojačani nadzor prometa u studenom i prosincu te u danima „Martinja“",
-  "link": "https://zadarska-policija.gov.hr/vijesti/pojacani-nadzor-prometa-u-studenom-i-prosincu-te-u-danima-martinja/18850",
-  "date": "2026-11-11T15:01:17.873552+00:00",
-  "summary": "Policija će svoje aktivnosti dodatno usmjeriti na sprečavanje i sankcioniranje vožnje pod utjecajem alkohola",
-  "image": "https://zadarska-policija.gov.hr/UserDocsImages//2022/martinje22.jpg",
-  "source": "Policija Zadar",
-  "topics": [],
-  "source_url": "https://zadarska-policija.gov.hr/vijesti/8",
-  "face": null,
-  "face_img": "https://zadarska-policija.gov.hr/UserDocsImages//2022/martinje22.jpg"
- },
- {
   "title": "Uklanja se gotovo 54 tisuće tona otpada s područja bivše vojarne u Šepurinama, radovi će trajati deset mjeseci",
   "link": "https://slobodnadalmacija.hr/dalmacija/zadar/uklanja-se-gotovo-54-tisuce-tona-otpada-u-sepurinama-radovi-ce-trajati-deset-mjeseci-1589824",
   "date": "2026-11-11T14:50:00+00:00",
@@ -980,18 +968,6 @@
   "face_img": "https://zadarskilist.novilist.hr/wp-content/uploads/2026/11/KRUG-21.png"
  },
  {
-  "title": "Izazvao prometnu nesreću upravljajući vozilom prije položenog vozačkog ispita i pod utjecajem alkohola, doveden na sud",
-  "link": "https://zadarska-policija.gov.hr/vijesti/izazvao-prometnu-nesrecu-upravljajuci-vozilom-prije-polozenog-vozackog-ispita-i-pod-utjecajem-alkohola-doveden-na-sud/18847",
-  "date": "2026-11-11T12:45:43.234797+00:00",
-  "summary": "U prometnoj nesreći nije bilo ozlijeđenih osoba",
-  "image": "https://zadarska-policija.gov.hr/UserDocsImages//2024/POLICIJA/13.jpg",
-  "source": "Policija Zadar",
-  "topics": [],
-  "source_url": "https://zadarska-policija.gov.hr/vijesti/8",
-  "face": null,
-  "face_img": "https://zadarska-policija.gov.hr/UserDocsImages//2024/POLICIJA/13.jpg"
- },
- {
   "title": "Od petka do srijede: Donosimo program obilježavanja obljetnice stradanja Škabrnje",
   "link": "https://zadarskilist.novilist.hr/zadar-zupanija/od-petka-do-srijede-donosimo-program-obiljezavanja-obljetnice-stradanja-skabrnje/",
   "date": "2026-11-11T12:44:34+00:00",
@@ -1074,32 +1050,6 @@
    29.5
   ],
   "face_img": "https://zadarskilist.novilist.hr/wp-content/uploads/2026/11/12463606.jpeg"
- },
- {
-  "title": "Informacija o događaju u prometu",
-  "link": "https://zadarska-policija.gov.hr/vijesti/informacija-o-dogadjaju-u-prometu/18848",
-  "date": "2026-11-11T12:31:03.123011+00:00",
-  "summary": "Policijski službenici nastavljaju s kriminalističkim istraživanjem navedenog događaja",
-  "image": "https://zadarska-policija.gov.hr/UserDocsImages//2022/POLICIJA/policija%20natpis2.jpg",
-  "source": "Policija Zadar",
-  "topics": [],
-  "source_url": "https://zadarska-policija.gov.hr/vijesti/8",
-  "face": null,
-  "face_img": "https://zadarska-policija.gov.hr/UserDocsImages//2022/POLICIJA/policija%20natpis2.jpg"
- },
- {
-  "title": "Kolan: Vozač odbio testiranje na droge",
-  "link": "https://zadarska-policija.gov.hr/vijesti/kolan-vozac-odbio-testiranje-na-droge/18849",
-  "date": "2026-11-11T12:31:03.123011+00:00",
-  "summary": "Vozač je novčano kažnjen zbog počinjenih prekršaja iz Zakona o sigurnosti prometa na cestama i Zakona o osobnoj iskaznici",
-  "image": "https://zadarska-policija.gov.hr/UserDocsImages//2022/POLICIJA/POLICIJA%206.jpg",
-  "source": "Policija Zadar",
-  "topics": [
-   "Otoci"
-  ],
-  "source_url": "https://zadarska-policija.gov.hr/vijesti/8",
-  "face": null,
-  "face_img": "https://zadarska-policija.gov.hr/UserDocsImages//2022/POLICIJA/POLICIJA%206.jpg"
  },
  {
   "title": "VELIKA NAGRADA ZADRA Teška nesreća, ozlijeđeni i velika neizvjesnost, Goran Ban: “Policija može reći da se utrka sljedeće godine ne održi”",
@@ -1367,6 +1317,96 @@
   "source_url": "https://www.antenazadar.hr/",
   "face": null,
   "face_img": "https://www.antenazadar.hr/wp-content/uploads/2026/11/medical-563427-860x573-1.jpg"
+ },
+ {
+  "title": "Pojačani nadzor prometa u studenom i prosincu te u danima „Martinja“",
+  "link": "https://zadarska-policija.gov.hr/vijesti/pojacani-nadzor-prometa-u-studenom-i-prosincu-te-u-danima-martinja/18850",
+  "date": "2026-11-11T11:00:00+00:00",
+  "summary": "Policija će svoje aktivnosti dodatno usmjeriti na sprečavanje i sankcioniranje vožnje pod utjecajem alkohola",
+  "image": "https://zadarska-policija.gov.hr/UserDocsImages//2022/martinje22.jpg",
+  "source": "Policija Zadar",
+  "topics": [],
+  "source_url": "https://zadarska-policija.gov.hr/vijesti/8",
+  "face": null,
+  "face_img": "https://zadarska-policija.gov.hr/UserDocsImages//2022/martinje22.jpg"
+ },
+ {
+  "title": "Izazvao prometnu nesreću upravljajući vozilom prije položenog vozačkog ispita i pod utjecajem alkohola, doveden na sud",
+  "link": "https://zadarska-policija.gov.hr/vijesti/izazvao-prometnu-nesrecu-upravljajuci-vozilom-prije-polozenog-vozackog-ispita-i-pod-utjecajem-alkohola-doveden-na-sud/18847",
+  "date": "2026-11-11T11:00:00+00:00",
+  "summary": "U prometnoj nesreći nije bilo ozlijeđenih osoba",
+  "image": "https://zadarska-policija.gov.hr/UserDocsImages//2024/POLICIJA/13.jpg",
+  "source": "Policija Zadar",
+  "topics": [],
+  "source_url": "https://zadarska-policija.gov.hr/vijesti/8",
+  "face": null,
+  "face_img": "https://zadarska-policija.gov.hr/UserDocsImages//2024/POLICIJA/13.jpg"
+ },
+ {
+  "title": "Informacija o događaju u prometu",
+  "link": "https://zadarska-policija.gov.hr/vijesti/informacija-o-dogadjaju-u-prometu/18848",
+  "date": "2026-11-11T11:00:00+00:00",
+  "summary": "Policijski službenici nastavljaju s kriminalističkim istraživanjem navedenog događaja",
+  "image": "https://zadarska-policija.gov.hr/UserDocsImages//2022/POLICIJA/policija%20natpis2.jpg",
+  "source": "Policija Zadar",
+  "topics": [],
+  "source_url": "https://zadarska-policija.gov.hr/vijesti/8",
+  "face": null,
+  "face_img": "https://zadarska-policija.gov.hr/UserDocsImages//2022/POLICIJA/policija%20natpis2.jpg"
+ },
+ {
+  "title": "Kolan: Vozač odbio testiranje na droge",
+  "link": "https://zadarska-policija.gov.hr/vijesti/kolan-vozac-odbio-testiranje-na-droge/18849",
+  "date": "2026-11-11T11:00:00+00:00",
+  "summary": "Vozač je novčano kažnjen zbog počinjenih prekršaja iz Zakona o sigurnosti prometa na cestama i Zakona o osobnoj iskaznici",
+  "image": "https://zadarska-policija.gov.hr/UserDocsImages//2022/POLICIJA/POLICIJA%206.jpg",
+  "source": "Policija Zadar",
+  "topics": [
+   "Otoci"
+  ],
+  "source_url": "https://zadarska-policija.gov.hr/vijesti/8",
+  "face": null,
+  "face_img": "https://zadarska-policija.gov.hr/UserDocsImages//2022/POLICIJA/POLICIJA%206.jpg"
+ },
+ {
+  "title": "Kazneno prijavljen zbog nedozvoljenog posjedovanja automatskog oružja",
+  "link": "https://zadarska-policija.gov.hr/vijesti/kazneno-prijavljen-zbog-nedozvoljenog-posjedovanja-automatskog-oruzja/18843",
+  "date": "2026-11-11T11:00:00+00:00",
+  "summary": "",
+  "image": "https://zadarska-policija.gov.hr/UserDocsImages//2026/POLICIJA/policija%201.jpg",
+  "source": "Policija Zadar",
+  "topics": [],
+  "source_url": "https://zadarska-policija.gov.hr/vijesti/8",
+  "face": null,
+  "face_img": "https://zadarska-policija.gov.hr/UserDocsImages//2026/POLICIJA/policija%201.jpg"
+ },
+ {
+  "title": "Dvojica muškaraca prijavljeni zbog krađa",
+  "link": "https://zadarska-policija.gov.hr/vijesti/dvojica-muskaraca-prijavljeni-zbog-kradja/18845",
+  "date": "2026-11-11T11:00:00+00:00",
+  "summary": "Nakon provedenog kriminalističkog istraživanja 19-godišnjak je predan pritvorskom nadzorniku Policijske uprave zadarske, dok se protiv 21-godišnjaka kaznena prijava podnosi u redovnom postupku",
+  "image": "https://zadarska-policija.gov.hr/UserDocsImages//2023/POLICIJA/95.jpg",
+  "source": "Policija Zadar",
+  "topics": [
+   "Zadar"
+  ],
+  "source_url": "https://zadarska-policija.gov.hr/vijesti/8",
+  "face": null,
+  "face_img": "https://zadarska-policija.gov.hr/UserDocsImages//2023/POLICIJA/95.jpg"
+ },
+ {
+  "title": "Sažetak dnevnih događanja PU zadarske, 11. 11.",
+  "link": "https://zadarska-policija.gov.hr/vijesti/sazetak-dnevnih-dogadjanja-18844/18844",
+  "date": "2026-11-11T11:00:00+00:00",
+  "summary": "",
+  "image": "https://zadarska-policija.gov.hr/UserDocsImages//2023/POLICIJA/policija%205.jpg",
+  "source": "Policija Zadar",
+  "topics": [
+   "Zadar"
+  ],
+  "source_url": "https://zadarska-policija.gov.hr/vijesti/8",
+  "face": null,
+  "face_img": "https://zadarska-policija.gov.hr/UserDocsImages//2023/POLICIJA/policija%205.jpg"
  },
  {
   "title": "Iz Supernove ukradeni parfemi vrijedni više od sedam tisuća eura: Policija razotkrila dvojac osumnjičen za krađe!",
@@ -1637,46 +1677,6 @@
    43.0
   ],
   "face_img": "https://zadarskilist.novilist.hr/wp-content/uploads/2026/11/unnamed-3.jpg"
- },
- {
-  "title": "Kazneno prijavljen zbog nedozvoljenog posjedovanja automatskog oružja",
-  "link": "https://zadarska-policija.gov.hr/vijesti/kazneno-prijavljen-zbog-nedozvoljenog-posjedovanja-automatskog-oruzja/18843",
-  "date": "2026-11-11T09:31:00.516584+00:00",
-  "summary": "",
-  "image": "https://zadarska-policija.gov.hr/UserDocsImages//2026/POLICIJA/policija%201.jpg",
-  "source": "Policija Zadar",
-  "topics": [],
-  "source_url": "https://zadarska-policija.gov.hr/vijesti/8",
-  "face": null,
-  "face_img": "https://zadarska-policija.gov.hr/UserDocsImages//2026/POLICIJA/policija%201.jpg"
- },
- {
-  "title": "Dvojica muškaraca prijavljeni zbog krađa",
-  "link": "https://zadarska-policija.gov.hr/vijesti/dvojica-muskaraca-prijavljeni-zbog-kradja/18845",
-  "date": "2026-11-11T09:15:43.939918+00:00",
-  "summary": "Nakon provedenog kriminalističkog istraživanja 19-godišnjak je predan pritvorskom nadzorniku Policijske uprave zadarske, dok se protiv 21-godišnjaka kaznena prijava podnosi u redovnom postupku",
-  "image": "https://zadarska-policija.gov.hr/UserDocsImages//2023/POLICIJA/95.jpg",
-  "source": "Policija Zadar",
-  "topics": [
-   "Zadar"
-  ],
-  "source_url": "https://zadarska-policija.gov.hr/vijesti/8",
-  "face": null,
-  "face_img": "https://zadarska-policija.gov.hr/UserDocsImages//2023/POLICIJA/95.jpg"
- },
- {
-  "title": "Sažetak dnevnih događanja PU zadarske, 11. 11.",
-  "link": "https://zadarska-policija.gov.hr/vijesti/sazetak-dnevnih-dogadjanja-18844/18844",
-  "date": "2026-11-11T09:15:43.939918+00:00",
-  "summary": "",
-  "image": "https://zadarska-policija.gov.hr/UserDocsImages//2023/POLICIJA/policija%205.jpg",
-  "source": "Policija Zadar",
-  "topics": [
-   "Zadar"
-  ],
-  "source_url": "https://zadarska-policija.gov.hr/vijesti/8",
-  "face": null,
-  "face_img": "https://zadarska-policija.gov.hr/UserDocsImages//2023/POLICIJA/policija%205.jpg"
  },
  {
   "title": "Gotovo 100 tisuća eura stiže zadarskim poduzetnicima: Evo tko je dobio potporu",

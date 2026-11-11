@@ -1,10 +1,10 @@
 {
  "Jadrolinija": [
   {
-   "title": "Linije u prekidu 11.11.2026.",
-   "link": "https://www.jadrolinija.hr/news-single/linije-u-prekidu-11112026",
-   "date": "2026-11-10T09:36:00+00:00",
-   "summary": "Red plovidbe u srijedu, 11.11.2026"
+   "title": "Svi Jadrolinijini brodovi plove prema redu plovidbe",
+   "link": "https://www.jadrolinija.hr/news-single/stanje-u-pomorskom-prometu",
+   "date": "2026-11-11T23:50:02+00:00",
+   "summary": "U pomorskom prometu nema poteškoća, svi Jadrolinijini brodovi plove prema redu plovidbe."
   }
  ],
  "buses": [
@@ -35,30 +35,6 @@
   }
  ],
  "flights": [
-  {
-   "dir": "dolazak",
-   "flight": "OU675",
-   "airline": "Croatia Airlines",
-   "city": "Zagreb",
-   "via": "Pula",
-   "time": "2026-11-11T15:50:00",
-   "est": "2026-11-11T15:25:00",
-   "act": "2026-11-11T15:22:00",
-   "status": "Landed",
-   "gate": ""
-  },
-  {
-   "dir": "odlazak",
-   "flight": "OU675",
-   "airline": "Croatia Airlines",
-   "city": "Zagreb",
-   "via": "",
-   "time": "2026-11-11T16:20:00",
-   "est": "2026-11-11T16:20:00",
-   "act": "2026-11-11T15:56:00",
-   "status": "Departed",
-   "gate": "05"
-  },
   {
    "dir": "dolazak",
    "flight": "OU674",
@@ -94,55 +70,67 @@
    "act": "",
    "status": "",
    "gate": ""
+  },
+  {
+   "dir": "odlazak",
+   "flight": "OU4674",
+   "airline": "Croatia Airlines",
+   "city": "Munich",
+   "via": "",
+   "time": "2026-11-13T06:30:00",
+   "est": "2026-11-13T06:30:00",
+   "act": "",
+   "status": "",
+   "gate": ""
+  },
+  {
+   "dir": "dolazak",
+   "flight": "OU4675",
+   "airline": "Croatia Airlines",
+   "city": "Munich",
+   "via": "",
+   "time": "2026-11-13T15:10:00",
+   "est": "2026-11-13T15:10:00",
+   "act": "",
+   "status": "",
+   "gate": ""
+  },
+  {
+   "dir": "odlazak",
+   "flight": "OU674",
+   "airline": "Croatia Airlines",
+   "city": "Zagreb",
+   "via": "Pula",
+   "time": "2026-11-13T15:40:00",
+   "est": "2026-11-13T15:40:00",
+   "act": "",
+   "status": "",
+   "gate": ""
   }
  ],
  "power": [
   {
-   "day": "11.11.2026",
-   "place": "Ugrinić",
-   "street": "cijelo mjesto",
+   "day": "13.11.2026",
+   "place": "Zadar",
+   "street": "Pavla Rittera Vitezovića",
    "note": "",
-   "time": "09:00 - 12:00",
+   "time": "08:30 - 11:30",
    "unplanned": false
   },
   {
-   "day": "11.11.2026",
-   "place": "Vir",
-   "street": "Put Straže",
+   "day": "13.11.2026",
+   "place": "Žerava",
+   "street": "Južni dio naselja",
    "note": "Povremeni prekidi",
-   "time": "08:00 - 10:00",
+   "time": "11:00 - 14:00",
    "unplanned": false
   },
   {
-   "day": "11.11.2026",
-   "place": "Rtina Miočići",
-   "street": "ulica 2",
+   "day": "13.11.2026",
+   "place": "Nin",
+   "street": "Obala Kneza Branimira",
    "note": "Povremeni prekidi",
-   "time": "12:00 - 14:00",
-   "unplanned": false
-  },
-  {
-   "day": "11.11.2026",
-   "place": "Ljubač",
-   "street": "4 ulica",
-   "note": "Povremeni prekidi",
-   "time": "08:00 - 10:00",
-   "unplanned": false
-  },
-  {
-   "day": "11.11.2026",
-   "place": "Ražanac",
-   "street": "8 ulica",
-   "note": "Povremeni prekidi",
-   "time": "10:00 - 12:00",
-   "unplanned": false
-  },
-  {
-   "day": "11.11.2026",
-   "place": "Vir",
-   "street": "Krčevine",
-   "note": "Povremeni prekidi",
-   "time": "10:00 - 13:00",
+   "time": "08:00 - 11:00",
    "unplanned": false
   }
  ],
@@ -491,7 +479,7 @@
  ],
  "videos": {
   "v": 2,
-  "fetched": "2026-11-11T22:01:45.488162+00:00",
+  "fetched": "2026-11-11T23:03:36.034478+00:00",
   "items": [
    {
     "id": "tR5k84XrdFs",
