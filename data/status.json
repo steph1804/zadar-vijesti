@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-11T06:01:14.777473+00:00",
+ "updated": "2026-11-11T06:15:48.064586+00:00",
  "sources": [
   {
    "name": "Antena Zadar",
@@ -255,13 +255,10 @@
   },
   {
    "name": "Nacional",
-   "count": 0,
-   "ok": false,
+   "count": 30,
+   "ok": true,
    "feed": null,
-   "errors": [
-    "https://www.nacional.hr/feed/: The read operation timed out",
-    "https://www.nacional.hr/?s=zadar&feed=rss2: The read operation timed out"
-   ]
+   "errors": []
   },
   {
    "name": "Hrvatska danas",
