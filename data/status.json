@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-11T09:01:17.067610+00:00",
+ "updated": "2026-11-11T09:15:43.939918+00:00",
  "sources": [
   {
    "name": "Antena Zadar",
@@ -10,7 +10,7 @@
   },
   {
    "name": "Zadarski list",
-   "count": 8,
+   "count": 7,
    "ok": true,
    "feed": null,
    "errors": []
@@ -196,8 +196,10 @@
    "name": "Novi list",
    "count": 0,
    "ok": false,
-   "feed": null,
-   "errors": []
+   "feed": "https://www.novilist.hr/feed/",
+   "errors": [
+    "https://www.novilist.hr/feed/: not well-formed (invalid token): line 49, column 11"
+   ]
   },
   {
    "name": "HRT",
@@ -215,7 +217,7 @@
   },
   {
    "name": "Morski.hr",
-   "count": 2,
+   "count": 1,
    "ok": true,
    "feed": null,
    "errors": []
