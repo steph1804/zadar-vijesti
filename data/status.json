@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-11T05:45:44.165317+00:00",
+ "updated": "2026-11-11T06:01:14.777473+00:00",
  "sources": [
   {
    "name": "Antena Zadar",
@@ -66,12 +66,10 @@
   },
   {
    "name": "Naši školji",
-   "count": 0,
-   "ok": false,
+   "count": 10,
+   "ok": true,
    "feed": null,
-   "errors": [
-    "https://www.nasiskolji.hr/feed/: <urlopen error timed out>"
-   ]
+   "errors": []
   },
   {
    "name": "Grad Zadar",
