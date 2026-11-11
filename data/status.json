@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-11T09:15:43.939918+00:00",
+ "updated": "2026-11-11T09:31:00.516584+00:00",
  "sources": [
   {
    "name": "Antena Zadar",
@@ -31,14 +31,14 @@
   },
   {
    "name": "eZadar",
-   "count": 20,
+   "count": 21,
    "ok": true,
    "feed": null,
    "errors": []
   },
   {
    "name": "023 portal",
-   "count": 7,
+   "count": 6,
    "ok": true,
    "feed": null,
    "errors": []
@@ -198,7 +198,7 @@
    "ok": false,
    "feed": "https://www.novilist.hr/feed/",
    "errors": [
-    "https://www.novilist.hr/feed/: not well-formed (invalid token): line 49, column 11"
+    "https://www.novilist.hr/feed/: not well-formed (invalid token): line 113, column 11"
    ]
   },
   {
