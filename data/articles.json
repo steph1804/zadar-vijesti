@@ -1,5 +1,35 @@
 [
  {
+  "title": "Zadar protiv Partizana igra i za humanitarni cilj. Evo kako navijači mogu pomoći",
+  "link": "https://www.index.hr/sport/clanak/zadar-protiv-partizana-igra-i-za-humanitarni-cilj-evo-kako-navijaci-mogu-pomoci/2856140.aspx",
+  "date": "2026-11-12T09:42:00+00:00",
+  "summary": "KK ZADAR u subotu dočekuje Partizan u 8. kolu ABA lige. Utakmica je humanitarna: od svake prodane ulaznice jedan euro ide Ligi protiv raka za kupnju cistoskopa.",
+  "image": "https://ip.index.hr/remote/bucket.index.hr/b/index/a1c454de-75dd-4a53-a6fb-6c8693377728.png?fb_wtrmrk=sport.jpg&width=1200&height=630&mode=crop&format=png",
+  "source": "Index.hr",
+  "topics": [
+   "Zadar",
+   "Sport"
+  ],
+  "source_url": "https://www.index.hr/",
+  "face": null,
+  "face_img": "https://ip.index.hr/remote/bucket.index.hr/b/index/a1c454de-75dd-4a53-a6fb-6c8693377728.png?fb_wtrmrk=sport.jpg&width=1200&height=630&mode=crop&format=png"
+ },
+ {
+  "title": "PROMETNA NESREĆA Bez položenog ispita pod utjecajem alkohola, sletio s ceste",
+  "link": "https://www.antenazadar.hr/clanak/2026/11/prometna-nesreca-bez-polozenog-ispita-pod-utjecajem-alkohola-sletio-s-ceste/",
+  "date": "2026-11-12T09:35:48+00:00",
+  "summary": "U utorak, 10. studenog oko 19.05 sati u Biogradu na lokalnoj cesti LC-63180 dogodila se prometna nesreća u kojoj je nastupila materijalna šteta.",
+  "image": "https://www.antenazadar.hr/wp-content/uploads/2026/09/policija-35.jpg",
+  "source": "Antena Zadar",
+  "topics": [
+   "Zadar",
+   "Županija"
+  ],
+  "source_url": "https://www.antenazadar.hr/",
+  "face": null,
+  "face_img": "https://www.antenazadar.hr/wp-content/uploads/2026/09/policija-35.jpg"
+ },
+ {
   "title": "SKUPA VOŽNJA 52-godišnjaka zaustavili u Zagrebačkoj ulici, napuhao je 1,59 promila",
   "link": "https://zadarskilist.novilist.hr/crna-kronika/skupa-voznja-52-godisnjaka-zaustavili-u-zagrebackoj-ulici-napuhao-je-159-promila/",
   "date": "2026-11-12T09:20:52+00:00",
@@ -53,14 +83,16 @@
   "link": "https://sport023.hr/2026/11/12/kk-zadar-svi-na-partizan-kupi-ulaznicu-i-budi-dio-humanitarne-price/",
   "date": "2026-11-12T09:11:39+00:00",
   "summary": "Bliži nam se utakmica 8. kola ABA lige, jedna od onih koje se u gradu košarke iščekuju s posebnim zanimanjem.... Objava KK ZADAR: “Svi na Partizan! Kupi ulaznicu i budi dio humanitarne priče!” pojavila se prvi puta na Sport023.",
-  "image": null,
+  "image": "https://sport023.hr/wp-content/uploads/2026/11/kk-zadar-partizan-najava-grafika-11-26.jpg",
   "source": "Sport023",
   "source_topic": "Sport",
   "topics": [
    "Zadar",
    "Sport"
   ],
-  "source_url": "https://sport023.hr/"
+  "source_url": "https://sport023.hr/",
+  "face": null,
+  "face_img": "https://sport023.hr/wp-content/uploads/2026/11/kk-zadar-partizan-najava-grafika-11-26.jpg"
  },
  {
   "title": "SDP i Možemo! napustili sjednicu Gradskog vijeća: ‘Gradska uprava nije HDZ-ov stranački servis’",
@@ -790,14 +822,21 @@
   "link": "https://sport023.hr/2026/11/11/reprezentacija-na-popisu-tomislava-mijatovica-cetvorica-zadrana-dvojica-iz-kk-zadar/",
   "date": "2026-11-11T22:11:00+00:00",
   "summary": "Izbornik hrvatske muške seniorske košarkaške reprezentacije Tomislav Mijatović objavio je popis 15 igrača za predstojeći kvalifikacijski ciklus za Svjetsko prvenstvo... Objava REPREZENTACIJA Na popisu Tomislava Mijatovića četvorica Zadrana, dvojica iz KK Zadar pojavila se prvi puta na Sport023.",
-  "image": null,
+  "image": "https://sport023.hr/wp-content/uploads/2024/11/david-skara-ivan-vranes-reprezentacija-hrvatska-18-11-24.jpg",
   "source": "Sport023",
   "source_topic": "Sport",
   "topics": [
    "Zadar",
    "Sport"
   ],
-  "source_url": "https://sport023.hr/"
+  "source_url": "https://sport023.hr/",
+  "face": [
+   8.9,
+   43.7,
+   17.4,
+   76.4
+  ],
+  "face_img": "https://sport023.hr/wp-content/uploads/2024/11/david-skara-ivan-vranes-reprezentacija-hrvatska-18-11-24.jpg"
  },
  {
   "title": "PREGLED DANA Što će biti s cijenama na Adventu, u Zadru otrovana stabla, krenulo čišćenje Šepurina",
@@ -4898,39 +4937,6 @@
    96.3
   ],
   "face_img": "https://zadarskilist.novilist.hr/wp-content/uploads/2026/11/12472832.jpg"
- },
- {
-  "title": "JA, GLUMICA! / Daria Lorenci Flatz večeras u HNK Zadar!",
-  "link": "https://www.znet.hr/2026/11/10/ja-glumica-daria-lorenci-flatz-veceras-u-hnk-zadar/",
-  "date": "2026-11-10T08:13:05+00:00",
-  "summary": "Večeras u 20 sati u HNK Zadar ne propustite nagrađivanu monodramu „JA, GLUMICA!” u izvedbi sjajne Darije Lorenci Flatz. Može li se imati sve? Biti uspješna, svoja, ispunjavati tuđa očekivanja, ostvarivati vlastite ambicije i pritom ne izgubiti sebe?",
-  "image": "https://www.znet.hr/wp-content/uploads/2026/11/895709374_1077602501992482_8400656425930090011_n-1000x600.jpg",
-  "source": "Znet",
-  "topics": [
-   "Zadar"
-  ],
-  "source_url": "https://www.znet.hr/",
-  "face": null,
-  "face_img": "https://www.znet.hr/wp-content/uploads/2026/11/895709374_1077602501992482_8400656425930090011_n-1000x600.jpg"
- },
- {
-  "title": "Otvaraju se nove prijave za „Licem u lice s Mirkom Filipovićem” u Zadru",
-  "link": "https://ezadar.net.hr/info/3590317/otvaraju-se-nove-prijave-za-licem-u-lice-s-mirkom-filipovicem-u-zadru/",
-  "date": "2026-11-10T08:05:14+00:00",
-  "summary": "Odbrojavanje je počelo! Legendarni hrvatski borac Mirko Filipović – Cro Cop ove subote, 14. studenoga, stiže u Zadar, gdje će u Hrvatskom narodnom kazalištu biti gost sportsko-edukativnog događaja „Licem u lice s Mirkom Filipovićem”",
-  "image": "https://cdn-ezadar.net.hr/wp-content/uploads/cbcefe4d7c3fc60f235ad36b55605d53-view_article_new.jpg",
-  "source": "eZadar",
-  "topics": [
-   "Zadar"
-  ],
-  "source_url": "https://ezadar.net.hr/",
-  "face": [
-   11.0,
-   100.0,
-   41.4,
-   68.9
-  ],
-  "face_img": "https://cdn-ezadar.net.hr/wp-content/uploads/cbcefe4d7c3fc60f235ad36b55605d53-view_article_new.jpg"
  },
  {
   "title": "Zadar razbio Kvarner i nastavio savršeni niz u prvenstvu",
