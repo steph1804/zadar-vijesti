@@ -183,11 +183,6 @@
    "date": "2026-11-11T22:10:16+00:00"
   },
   {
-   "title": "Planinarenje",
-   "link": "https://www.reddit.com/r/Zadar/comments/1xtqe0d/planinarenje/",
-   "date": "2026-11-11T19:00:31+00:00"
-  },
-  {
    "title": "Posao",
    "link": "https://www.reddit.com/r/Zadar/comments/1xtfgxi/posao/",
    "date": "2026-11-11T11:32:41+00:00"
@@ -206,6 +201,11 @@
    "title": "Studij logipedije ZD",
    "link": "https://www.reddit.com/r/Zadar/comments/1xsp0hv/studij_logipedije_zd/",
    "date": "2026-11-10T14:58:19+00:00"
+  },
+  {
+   "title": "Praonica",
+   "link": "https://www.reddit.com/r/Zadar/comments/1xsoc1a/praonica/",
+   "date": "2026-11-10T14:30:16+00:00"
   }
  ],
  "retro": [
@@ -485,7 +485,7 @@
  ],
  "videos": {
   "v": 2,
-  "fetched": "2026-11-12T14:04:54.892635+00:00",
+  "fetched": "2026-11-12T15:02:47.836575+00:00",
   "items": [
    {
     "id": "77WYoRm2jgk",
