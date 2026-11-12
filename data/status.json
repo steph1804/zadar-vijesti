@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-12T19:31:01.732588+00:00",
+ "updated": "2026-11-12T19:45:45.509021+00:00",
  "sources": [
   {
    "name": "Antena Zadar",
@@ -10,7 +10,7 @@
   },
   {
    "name": "Zadarski list",
-   "count": 7,
+   "count": 6,
    "ok": true,
    "feed": null,
    "errors": []
@@ -38,7 +38,7 @@
   },
   {
    "name": "023 portal",
-   "count": 5,
+   "count": 4,
    "ok": true,
    "feed": null,
    "errors": []
@@ -152,7 +152,7 @@
   },
   {
    "name": "Jutarnji list",
-   "count": 2,
+   "count": 1,
    "ok": true,
    "feed": null,
    "errors": []
@@ -180,8 +180,8 @@
   },
   {
    "name": "Net.hr",
-   "count": 0,
-   "ok": false,
+   "count": 1,
+   "ok": true,
    "feed": null,
    "errors": []
   },
