@@ -5,12 +5,6 @@
    "link": "https://www.jadrolinija.hr/news-single/linije-u-prekidu--13112026",
    "date": "2026-11-12T08:04:00+00:00",
    "summary": "Red plovidbe u petak, 13.11.2026."
-  },
-  {
-   "title": "Linije u prekidu, 12.11.2026.",
-   "link": "https://www.jadrolinija.hr/news-single/linije-u-prekidu-12112026",
-   "date": "2026-11-12T07:21:00+00:00",
-   "summary": "Red plovidbe u četvrtak, 12.11.2026."
   }
  ],
  "buses": [
@@ -41,42 +35,6 @@
   }
  ],
  "flights": [
-  {
-   "dir": "dolazak",
-   "flight": "OU674",
-   "airline": "Croatia Airlines",
-   "city": "Zagreb",
-   "via": "",
-   "time": "2026-11-12T14:55:00",
-   "est": "2026-11-12T15:08:00",
-   "act": "2026-11-12T15:05:00",
-   "status": "Landed",
-   "gate": ""
-  },
-  {
-   "dir": "odlazak",
-   "flight": "OU674",
-   "airline": "Croatia Airlines",
-   "city": "Zagreb",
-   "via": "Pula",
-   "time": "2026-11-12T15:20:00",
-   "est": "2026-11-12T15:34:00",
-   "act": "",
-   "status": "Boarding",
-   "gate": "05"
-  },
-  {
-   "dir": "dolazak",
-   "flight": "OU675",
-   "airline": "Croatia Airlines",
-   "city": "Zagreb",
-   "via": "Pula",
-   "time": "2026-11-12T23:00:00",
-   "est": "2026-11-12T23:00:00",
-   "act": "",
-   "status": "",
-   "gate": ""
-  },
   {
    "dir": "odlazak",
    "flight": "OU4674",
@@ -168,6 +126,11 @@
  ],
  "reddit": [
   {
+   "title": "Pozdrav,M 35",
+   "link": "https://www.reddit.com/r/Zadar/comments/1xurc25/pozdravm_35/",
+   "date": "2026-11-12T22:52:19+00:00"
+  },
+  {
    "title": "Igra tko Mobile Legends?",
    "link": "https://www.reddit.com/r/Zadar/comments/1xucser/igra_tko_mobile_legends/",
    "date": "2026-11-12T13:29:54+00:00"
@@ -201,11 +164,6 @@
    "title": "Studij logipedije ZD",
    "link": "https://www.reddit.com/r/Zadar/comments/1xsp0hv/studij_logipedije_zd/",
    "date": "2026-11-10T14:58:19+00:00"
-  },
-  {
-   "title": "Praonica",
-   "link": "https://www.reddit.com/r/Zadar/comments/1xsoc1a/praonica/",
-   "date": "2026-11-10T14:30:16+00:00"
   }
  ],
  "retro": [
@@ -485,7 +443,7 @@
  ],
  "videos": {
   "v": 2,
-  "fetched": "2026-11-12T22:02:29.697897+00:00",
+  "fetched": "2026-11-12T23:01:33.247544+00:00",
   "items": [
    {
     "id": "77WYoRm2jgk",
