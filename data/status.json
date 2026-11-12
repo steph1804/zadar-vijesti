@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-12T23:01:07.616558+00:00",
+ "updated": "2026-11-12T23:15:53.428163+00:00",
  "sources": [
   {
    "name": "Antena Zadar",
@@ -255,12 +255,10 @@
   },
   {
    "name": "Nacional",
-   "count": 0,
-   "ok": false,
+   "count": 30,
+   "ok": true,
    "feed": null,
-   "errors": [
-    "https://www.nacional.hr/?s=zadar&feed=rss2: IncompleteRead(64385 bytes read)"
-   ]
+   "errors": []
   },
   {
    "name": "Hrvatska danas",
