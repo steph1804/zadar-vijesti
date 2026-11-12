@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-12T02:15:46.143082+00:00",
+ "updated": "2026-11-12T02:31:23.160311+00:00",
  "sources": [
   {
    "name": "Antena Zadar",
@@ -80,12 +80,10 @@
   },
   {
    "name": "Zadarska županija",
-   "count": 0,
-   "ok": false,
+   "count": 10,
+   "ok": true,
    "feed": null,
-   "errors": [
-    "https://www.zadarska-zupanija.hr/novosti-arhiva?format=feed&type=rss: The read operation timed out"
-   ]
+   "errors": []
   },
   {
    "name": "HRT Radio Zadar",
