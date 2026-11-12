@@ -68,20 +68,6 @@
   "face_img": "https://zadarskilist.novilist.hr/wp-content/uploads/2026/11/IMG_2116.jpeg"
  },
  {
-  "title": "No Stressu se vraća štekat na splitskoj Pjaci, novi stiže i u Kružićevu ulicu: \"Klošarluk, teški klošarluk. Mi nećemo sudjelovati\"",
-  "link": "https://www.dalmacijadanas.hr/no-stressu-se-vraca-stekat-na-splitskoj-pjaci-novi-stize-i-u-kruzicevu-ulicu-klosarluk-teski-klosarluk-mi-necemo-sudjelovati/",
-  "date": "2026-11-12T16:22:54+00:00",
-  "summary": "\"Sajam u Benkovcu je akademska razina za vas\", oštar je bio Prkić. Nakon toga je napustio sjednicu GV-a Grada Splita",
-  "image": "https://www.dalmacijadanas.hr/wp-content/uploads/2023/01/1-12-nostress-demont-stekata-3-1.jpg",
-  "source": "Dalmacija Danas",
-  "topics": [
-   "Županija"
-  ],
-  "source_url": "https://www.dalmacijadanas.hr/",
-  "face": null,
-  "face_img": "https://www.dalmacijadanas.hr/wp-content/uploads/2023/01/1-12-nostress-demont-stekata-3-1.jpg"
- },
- {
   "title": "NADMAŠENA OČEKIVANJA Vir ostavio Zadar iza sebe i ušao među deset najjačih turističkih destinacija! Hrvatske",
   "link": "https://zadarskilist.novilist.hr/zadar-zupanija/zupanija/nadmasena-ocekivanja-vir-ostavio-zadar-iza-sebe-i-usao-medu-deset-najjacih-turistickih-destinacija-hrvatske/",
   "date": "2026-11-12T16:10:17+00:00",
@@ -489,7 +475,7 @@
   "link": "https://www.jutarnji.hr/vijesti/hrvatska/cirkus-na-zadarskom-gradskom-vijecu-oporbeni-vijecnik-se-zavezao-za-govornicu-ostajem-tu-do-jutra-15764814",
   "date": "2026-11-12T14:02:00+00:00",
   "summary": "Petnaesta sjednica Gradskog vijeća Grada Zadra prekinuta je u četvrtak nešto poslije podneva, a njezin nastavak zakazan je za petak u 9 sati. Predsjednik Gradskog vijeća Ivica Žuvela prekinuo je sjednicu nakon što se nezavisni vijećnik Daniel Radeta i promatrač na sjednici Danijel Mijatović, član st...",
-  "image": "https://media.jutarnji.hr/images/slike/2026/11/12/f_39952196_1280.png?1794502690",
+  "image": "https://media.jutarnji.hr/images/slike/2026/11/12/f_39952196_1280.png?1794502786",
   "source": "Jutarnji list",
   "topics": [
    "Zadar"
@@ -501,7 +487,7 @@
    37.1,
    47.0
   ],
-  "face_img": "https://media.jutarnji.hr/images/slike/2026/11/12/f_39952196_1280.png?1794502690"
+  "face_img": "https://media.jutarnji.hr/images/slike/2026/11/12/f_39952196_1280.png?1794502786"
  },
  {
   "title": "Od zadarske hitne do čela Jankomira: Zašto je Majda Grah snimku pogledala tek nakon 14 dana?",
@@ -4981,6 +4967,27 @@
    86.9
   ],
   "face_img": "https://cdn-ezadar.net.hr/wp-content/uploads/a43d55c08b16f7f72226d324ec86a896-view_article_new.jpg"
+ },
+ {
+  "title": "Mladi imaju riječ: Zadarski srednjoškolci županu Bilaveru predstavili sedam prijedloga za bolji život",
+  "link": "https://www.zadarska-zupanija.hr/novosti-arhiva/item/4607-mladi-imaju-rijec-zadarski-srednjoskolci-zupanu-bilaveru-predstavili-sedam-prijedloga-za-bolji-zivot",
+  "date": "2026-11-10T15:31:00+00:00",
+  "summary": "Od kvalitetnije stručne prakse i dostupnijih sportskih sadržaja do novih autobusnih linija, zelenih površina i bolje povezanosti otoka – učenici Ekonomsko-birotehničke i trgovačke škole Zadar predstavili su županu Josipu Bilaveru sedam projektnih prijedloga usmjerenih na poboljšanje kvalitete života mladih u Zadru i…",
+  "image": "https://www.zadarska-zupanija.hr/media/k2/items/cache/810e8f1b228749d9ddfbc629210c1bd3_M.jpg",
+  "source": "Zadarska županija",
+  "source_topic": "Županija",
+  "topics": [
+   "Zadar",
+   "Županija"
+  ],
+  "source_url": "https://www.zadarska-zupanija.hr/",
+  "face": [
+   29.2,
+   61.4,
+   9.8,
+   90.7
+  ],
+  "face_img": "https://www.zadarska-zupanija.hr/media/k2/items/cache/810e8f1b228749d9ddfbc629210c1bd3_M.jpg"
  },
  {
   "title": "Predstavljanje autobiografskog romana “260 dana” Marijana Gubine",
