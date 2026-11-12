@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-12T13:01:16.644254+00:00",
+ "updated": "2026-11-12T13:15:48.909183+00:00",
  "sources": [
   {
    "name": "Antena Zadar",
@@ -66,12 +66,10 @@
   },
   {
    "name": "Naši školji",
-   "count": 0,
-   "ok": false,
+   "count": 10,
+   "ok": true,
    "feed": null,
-   "errors": [
-    "https://www.nasiskolji.hr/feed/: <urlopen error timed out>"
-   ]
+   "errors": []
   },
   {
    "name": "Grad Zadar",
@@ -96,10 +94,12 @@
   },
   {
    "name": "Sveučilište u Zadru",
-   "count": 7,
-   "ok": true,
+   "count": 0,
+   "ok": false,
    "feed": null,
-   "errors": []
+   "errors": [
+    "https://www.unizd.hr/obavijesti/novosti: The read operation timed out"
+   ]
   },
   {
    "name": "Čistoća Zadar",
