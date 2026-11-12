@@ -63,7 +63,7 @@
    "est": "2026-11-12T15:20:00",
    "act": "",
    "status": "",
-   "gate": ""
+   "gate": "05"
   },
   {
    "dir": "dolazak",
@@ -168,6 +168,11 @@
  ],
  "reddit": [
   {
+   "title": "Semafor na Bokanjcu kod Ninaja",
+   "link": "https://www.reddit.com/r/Zadar/comments/1xu88u6/semafor_na_bokanjcu_kod_ninaja/",
+   "date": "2026-11-12T09:18:30+00:00"
+  },
+  {
    "title": "Opticki internet",
    "link": "https://www.reddit.com/r/Zadar/comments/1xtv9jt/opticki_internet/",
    "date": "2026-11-11T22:10:16+00:00"
@@ -201,11 +206,6 @@
    "title": "Praonica",
    "link": "https://www.reddit.com/r/Zadar/comments/1xsoc1a/praonica/",
    "date": "2026-11-10T14:30:16+00:00"
-  },
-  {
-   "title": "Druzenje i kave",
-   "link": "https://www.reddit.com/r/Zadar/comments/1xs5qx0/druzenje_i_kave/",
-   "date": "2026-11-09T22:24:01+00:00"
   }
  ],
  "retro": [
