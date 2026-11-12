@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-12T18:15:46.592987+00:00",
+ "updated": "2026-11-12T18:31:16.769880+00:00",
  "sources": [
   {
    "name": "Antena Zadar",
@@ -143,7 +143,7 @@
   },
   {
    "name": "Index.hr",
-   "count": 2,
+   "count": 3,
    "ok": true,
    "feed": null,
    "errors": []
@@ -171,8 +171,8 @@
   },
   {
    "name": "N1",
-   "count": 0,
-   "ok": false,
+   "count": 1,
+   "ok": true,
    "feed": null,
    "errors": []
   },
