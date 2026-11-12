@@ -1,16 +1,16 @@
 {
  "Jadrolinija": [
   {
-   "title": "Linije u prekidu, 12.11.2026.",
-   "link": "https://www.jadrolinija.hr/news-single/linije-u-prekidu-12112026",
-   "date": "2026-11-12T07:21:00+00:00",
-   "summary": "Red plovidbe u četvrtak, 12.11.2026"
-  },
-  {
    "title": "Linije u prekidu , 13.11.2026.",
    "link": "https://www.jadrolinija.hr/news-single/linije-u-prekidu--13112026",
    "date": "2026-11-12T08:04:00+00:00",
    "summary": "Red plovidbe 13.11.2026."
+  },
+  {
+   "title": "Linije u prekidu, 12.11.2026.",
+   "link": "https://www.jadrolinija.hr/news-single/linije-u-prekidu-12112026",
+   "date": "2026-11-12T07:21:00+00:00",
+   "summary": "Red plovidbe u četvrtak, 12.11.2026"
   }
  ],
  "buses": [
@@ -485,8 +485,16 @@
  ],
  "videos": {
   "v": 2,
-  "fetched": "2026-11-12T09:02:13.567562+00:00",
+  "fetched": "2026-11-12T10:03:38.572724+00:00",
   "items": [
+   {
+    "id": "77WYoRm2jgk",
+    "title": "ZADARSKA ZUPANIJA IZBLIZA 11 - 16.11.2026.",
+    "channel": "Diadora TV",
+    "date": "2026-11-12T09:32:21+00:00",
+    "link": "https://www.youtube.com/watch?v=77WYoRm2jgk",
+    "image": "https://i.ytimg.com/vi/77WYoRm2jgk/mqdefault.jpg"
+   },
    {
     "id": "tR5k84XrdFs",
     "title": "KRONIKE ZADARSKE ŽUPANIJE 96  - 07.11.2026.",
@@ -598,14 +606,6 @@
     "date": "2026-10-18T16:00:34+00:00",
     "link": "https://www.youtube.com/watch?v=b3d_63o9h-k",
     "image": "https://i.ytimg.com/vi/b3d_63o9h-k/mqdefault.jpg"
-   },
-   {
-    "id": "u5Ihcu1p2HU",
-    "title": "#hotelpinija #zadar #october",
-    "channel": "Bob Zhong",
-    "date": "2026-10-15T20:32:28+00:00",
-    "link": "https://www.youtube.com/watch?v=u5Ihcu1p2HU",
-    "image": "https://i.ytimg.com/vi/u5Ihcu1p2HU/mqdefault.jpg"
    }
   ]
  }
