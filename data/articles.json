@@ -1,5 +1,43 @@
 [
  {
+  "title": "Bivši šef zadarskog SDP-a završio na hitnoj: ‘Sedam osoba me u vijećnici udaralo i gušilo’",
+  "link": "https://www.telegram.hr/politika-kriminal/bivsi-sef-zadarskog-sdp-a-zavrsio-na-hitnoj-sedam-osoba-me-u-vijecnici-udaralo-i-gusilo/",
+  "date": "2026-11-12T18:44:18+00:00",
+  "summary": "Sve je objavio na društvenim mrežama",
+  "image": "https://www.telegram.hr/wp-content/uploads/2026/11/tg-naslovna-2026-11-12-1-4-150x150.jpg",
+  "source": "Telegram",
+  "topics": [
+   "Zadar"
+  ],
+  "source_url": "https://www.telegram.hr/",
+  "face": [
+   0.0,
+   56.7,
+   0.9,
+   100.0
+  ],
+  "face_img": "https://www.telegram.hr/wp-content/uploads/2026/11/tg-naslovna-2026-11-12-1-4-150x150.jpg"
+ },
+ {
+  "title": "Vijećnik se zavezao strujnim kabelom, zaštitari ga izbacili: ‘Gušili su me, njih sedam, kao zvijeri‘",
+  "link": "https://www.jutarnji.hr/vijesti/hrvatska/vijecnik-se-zavezao-strujnim-kabelom-zastitari-ga-izbacili-gusili-su-me-njih-sedam-kao-zvijeri-15764902",
+  "date": "2026-11-12T18:37:05+00:00",
+  "summary": "Sedam zaštitara nešto prije 18 sati fizički je izbacilo Daniela Radetu iz Velike vijećnice Grada Zadra, piše Slobodna Dalmacija. - Gušili su me njih sedam! K‘o zvijeri! - kazao nam je Radeta nakon našeg telefonskog poziva. Rekao nam je da se trenutačno nalazi u zadarskoj bolnici gdje čeka red za pre...",
+  "image": "https://media.jutarnji.hr/images/slike/2026/11/12/f_39953711_1280.jpg?1794509124",
+  "source": "Jutarnji list",
+  "topics": [
+   "Zadar"
+  ],
+  "source_url": "https://www.jutarnji.hr/",
+  "face": [
+   0.0,
+   81.0,
+   16.0,
+   83.1
+  ],
+  "face_img": "https://media.jutarnji.hr/images/slike/2026/11/12/f_39953711_1280.jpg?1794509124"
+ },
+ {
   "title": "Kaos u zadarskoj vijećnici: Zaštitari izbacili Radetu, vezao se za govornicu",
   "link": "https://n1info.hr/vijesti/kaos-u-zadarskoj-vijecnici-zastitari-izbacili-radetu-vezao-se-za-govornicu/",
   "date": "2026-11-12T18:29:38+00:00",
@@ -750,7 +788,7 @@
   "link": "https://www.jutarnji.hr/vijesti/hrvatska/cirkus-na-zadarskom-gradskom-vijecu-oporbeni-vijecnik-se-zavezao-za-govornicu-ostajem-tu-do-jutra-15764814",
   "date": "2026-11-12T14:02:00+00:00",
   "summary": "Petnaesta sjednica Gradskog vijeća Grada Zadra prekinuta je u četvrtak nešto poslije podneva, a njezin nastavak zakazan je za petak u 9 sati. Predsjednik Gradskog vijeća Ivica Žuvela prekinuo je sjednicu nakon što se nezavisni vijećnik Daniel Radeta i promatrač na sjednici Danijel Mijatović, član st...",
-  "image": "https://media.jutarnji.hr/images/slike/2026/11/12/f_39952196_1280.png?1794508258",
+  "image": "https://media.jutarnji.hr/images/slike/2026/11/12/f_39952196_1280.png?1794509124",
   "source": "Jutarnji list",
   "topics": [
    "Zadar"
@@ -762,7 +800,7 @@
    37.1,
    47.0
   ],
-  "face_img": "https://media.jutarnji.hr/images/slike/2026/11/12/f_39952196_1280.png?1794508258"
+  "face_img": "https://media.jutarnji.hr/images/slike/2026/11/12/f_39952196_1280.png?1794509124"
  },
  {
   "title": "Od zadarske hitne do čela Jankomira: Zašto je Majda Grah snimku pogledala tek nakon 14 dana?",
@@ -1326,7 +1364,7 @@
   "link": "https://www.jutarnji.hr/sportske/kosarka/aba-liga/euroligaski-partizan-stize-u-zadar-no-modriceva-momcad-mora-pronaci-odgovore-na-vlastita-pitanja-15764741",
   "date": "2026-11-12T11:24:14+00:00",
   "summary": "Zadrom se širi miris najjače moguće utakmice u realnim okvirima. Što to točno znači? Pa da u subotu, od 18.30, u dvorani Krešimira Ćosića gostuje euroligaš i negdašnji mrski rival Partizan.",
-  "image": "https://media.jutarnji.hr/images/slike/2026/11/12/f_39936489_1280.jpg?1794508190",
+  "image": "https://media.jutarnji.hr/images/slike/2026/11/12/f_39936489_1280.jpg?1794509144",
   "source": "Sportske novosti",
   "source_topic": "Sport",
   "topics": [
@@ -1340,7 +1378,7 @@
    65.9,
    96.2
   ],
-  "face_img": "https://media.jutarnji.hr/images/slike/2026/11/12/f_39936489_1280.jpg?1794508190"
+  "face_img": "https://media.jutarnji.hr/images/slike/2026/11/12/f_39936489_1280.jpg?1794509144"
  },
  {
   "title": "Mocire obnovljene, Jazine čekaju veliki zahvat: Žilavec otkrio što se sve planira u 2027.",
@@ -4993,46 +5031,6 @@
   "source_url": "https://www.antenazadar.hr/",
   "face": null,
   "face_img": "https://www.antenazadar.hr/wp-content/uploads/2026/03/ZADARSKA-ZUPANIJA-ZGRADA.jpg"
- },
- {
-  "title": "Evo što zadarski srednjoškolci žele promijeniti: Žele kvalitetniju praksu, više autobusa, sportskih aktivnosti…",
-  "link": "https://zadarskilist.novilist.hr/zadar-zupanija/evo-sto-zadarski-srednjoskolci-zele-promijeniti-zele-kvalitetniju-praksu-vise-autobusa-sportskih-aktivnosti/",
-  "date": "2026-11-10T19:00:20+00:00",
-  "summary": "Učenici Ekonomsko-birotehničke i trgovačke škole Zadar predstavili su županu Josipu Bilaveru sedam projektnih prijedloga usmjerenih na poboljšanje kvalitete života mladih u Zadru i Zadarskoj županiji.",
-  "image": "https://zadarskilist.novilist.hr/wp-content/uploads/2026/11/ipiccy_image-36.jpg",
-  "source": "Zadarski list",
-  "topics": [
-   "Zadar",
-   "Županija",
-   "Sport"
-  ],
-  "source_url": "https://zadarskilist.novilist.hr/",
-  "face": [
-   1.9,
-   80.0,
-   3.5,
-   84.5
-  ],
-  "face_img": "https://zadarskilist.novilist.hr/wp-content/uploads/2026/11/ipiccy_image-36.jpg"
- },
- {
-  "title": "Zadar na karti regionalne elektroničke scene: Evo tko je nominiran za Ambasadora",
-  "link": "https://ezadar.net.hr/zabava/3588966/zadar-na-karti-regionalne-elektronicke-scene-evo-tko-je-nominiran-za-ambasadora/",
-  "date": "2026-11-10T19:00:00+00:00",
-  "summary": "Priznanja za vrhunska ostvarenja u elektroničkoj glazbi Hrvatske i regije deseti put dodjeljuje portal Klubska Scena, a projekt realizira Udruga Klubska kultura. Jubilarna dodjela održat će se u srijedu, 11.",
-  "image": "https://cdn-ezadar.net.hr/wp-content/uploads/Petar-Dundov-3-1052x696.jpg",
-  "source": "eZadar",
-  "topics": [
-   "Zadar"
-  ],
-  "source_url": "https://ezadar.net.hr/",
-  "face": [
-   14.8,
-   38.3,
-   62.8,
-   71.3
-  ],
-  "face_img": "https://cdn-ezadar.net.hr/wp-content/uploads/Petar-Dundov-3-1052x696.jpg"
  },
  {
   "title": "Predstavljanje autobiografskog romana “260 dana” Marijana Gubine",
