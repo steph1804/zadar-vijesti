@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-13T12:25:19.643681+00:00",
+ "updated": "2026-11-13T12:30:58.347294+00:00",
  "sources": [
   {
    "name": "Antena Zadar",
@@ -59,10 +59,12 @@
   },
   {
    "name": "SC Višnjik",
-   "count": 10,
-   "ok": true,
-   "feed": null,
-   "errors": []
+   "count": 0,
+   "ok": false,
+   "feed": "https://visnjik.hr/feed/",
+   "errors": [
+    "https://visnjik.hr/feed/: HTTP Error 507: Insufficient Storage"
+   ]
   },
   {
    "name": "Naši školji",
