@@ -75,6 +75,14 @@
  "power": [
   {
    "day": "13.11.2026",
+   "place": "Sukošan",
+   "street": "",
+   "note": "predio prema selu",
+   "time": "09:00 - 09:45",
+   "unplanned": true
+  },
+  {
+   "day": "13.11.2026",
    "place": "Ždrelac",
    "street": "",
    "note": "predio ograde",
@@ -91,6 +99,14 @@
   },
   {
    "day": "13.11.2026",
+   "place": "Zadar",
+   "street": "Pavla Rittera Vitezovića",
+   "note": "",
+   "time": "08:30 - 11:30",
+   "unplanned": false
+  },
+  {
+   "day": "13.11.2026",
    "place": "Nin",
    "street": "Obala Kneza Branimira",
    "note": "Povremeni prekidi",
@@ -103,14 +119,6 @@
    "street": "Diklovac (ul. Romansa, Poljana Dragutina Domjanića, Put Mičića, Krešimirova Obala i Andrije Buvine) - KVAR TRAFOSTANICE",
    "note": "",
    "time": "00:00 - 12:00",
-   "unplanned": false
-  },
-  {
-   "day": "13.11.2026",
-   "place": "Zadar",
-   "street": "Pavla Rittera Vitezovića",
-   "note": "",
-   "time": "08:30 - 11:30",
    "unplanned": false
   }
  ],
@@ -459,7 +467,7 @@
  ],
  "videos": {
   "v": 2,
-  "fetched": "2026-11-13T07:03:29.078513+00:00",
+  "fetched": "2026-11-13T08:03:00.842286+00:00",
   "items": [
    {
     "id": "77WYoRm2jgk",
