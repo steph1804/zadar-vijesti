@@ -1,5 +1,44 @@
 [
  {
+  "title": "Vijećnik koji se vezao za govornicu ponovno nije mogao na sjednicu: \"Ovo je diktatura\"",
+  "link": "https://n1info.hr/vijesti/daniel-radeta-zadar-vijecnica-zastitari-optuzbe/",
+  "date": "2026-11-13T09:36:27+00:00",
+  "summary": "Nezavisni zadarski vijećnik Daniel Radeta u petak nije uspio ući u zgradu gradske uprave na nastavak sjednice Gradskog vijeća s koje je u četvrtak izb",
+  "image": "https://n1info.hr/media/images/2026/11/13/1794562434_PXL_080925_138057489.width-1200.jpg",
+  "source": "N1",
+  "topics": [
+   "Zadar"
+  ],
+  "source_url": "https://n1info.hr/",
+  "face": [
+   4.9,
+   100.0,
+   42.3,
+   86.3
+  ],
+  "face_img": "https://n1info.hr/media/images/2026/11/13/1794562434_PXL_080925_138057489.width-1200.jpg"
+ },
+ {
+  "title": "Od Benkovačkog sajma do mesa ispod peke: Gosti iz Europe upoznali bogatstvo Ravnih kotara",
+  "link": "https://zadarskilist.novilist.hr/zadar-zupanija/od-benkovackog-sajma-do-mesa-ispod-peke-gosti-iz-europe-upoznali-bogatstvo-ravnih-kotara/",
+  "date": "2026-11-13T09:31:30+00:00",
+  "summary": "Ravni kotari bili su 10. i 11. studenoga 2026. u središtu europske suradnje. Agencija za ruralni razvoj Zadarske županije (AGRRA) bila je domaćin transnacionalnog projektnog sastanka projekta ENRICH-US, koji se provodi u sklopu programa Interreg Central Europe.",
+  "image": "https://zadarskilist.novilist.hr/wp-content/uploads/2026/11/ENRICH-US_Benkovac_kusanje_jabuka-1024x576-1.jpg",
+  "source": "Zadarski list",
+  "topics": [
+   "Zadar",
+   "Županija"
+  ],
+  "source_url": "https://zadarskilist.novilist.hr/",
+  "face": [
+   17.8,
+   47.6,
+   9.6,
+   76.7
+  ],
+  "face_img": "https://zadarskilist.novilist.hr/wp-content/uploads/2026/11/ENRICH-US_Benkovac_kusanje_jabuka-1024x576-1.jpg"
+ },
+ {
   "title": "ERLIĆ O RADETI: Zadar ne zaslužuje da ga se lažima i manipulacijama gura na naslovnice",
   "link": "https://www.antenazadar.hr/clanak/2026/11/erlic-o-radeti-zadar-ne-zasluzuje-da-ga-se-lazima-i-manipulacijama-gura-na-naslovnice/",
   "date": "2026-11-13T09:26:48+00:00",
@@ -17,6 +56,25 @@
    76.9
   ],
   "face_img": "https://www.antenazadar.hr/wp-content/uploads/2026/03/GV_27_03_2026-082-scaled.jpg"
+ },
+ {
+  "title": "Radeti zabranjen ulazak na sjednicu Gradskog vijeća",
+  "link": "https://radio.hrt.hr/radio-zadar/vijesti/radeti-zabranjen-ulazak-na-sjednicu-gradskog-vijeca-13008033",
+  "date": "2026-11-13T09:26:47+00:00",
+  "summary": "Nakon jučerašnjeg incidenta u vijećnici zadarskog Gradskog vijeća, nezavisni vijećnik Daniel Radeta jutros se obratio novinarima i iznio svoju stranu događaja.",
+  "image": "https://api.hrt.hr/media/88/62/snimka-zaslona-2026-11-13-101956-20261113092136.webp",
+  "source": "HRT Radio Zadar",
+  "topics": [
+   "Zadar"
+  ],
+  "source_url": "https://radio.hrt.hr/radio-zadar",
+  "face": [
+   5.6,
+   34.5,
+   53.9,
+   96.9
+  ],
+  "face_img": "https://api.hrt.hr/media/88/62/snimka-zaslona-2026-11-13-101956-20261113092136.webp"
  },
  {
   "title": "Zadarska liječnica upozorava: ‘Situacija u Hrvatskoj je porazna, po pretilosti prednjačimo u odnosu na europski prosjek’",
@@ -495,7 +553,7 @@
   "link": "https://www.jutarnji.hr/vijesti/hrvatska/u-prekidu-brojne-brodske-trajektne-i-katamaranske-linije-veliki-problemi-i-na-cestama-diljem-zemlje-15764994",
   "date": "2026-11-13T06:33:15+00:00",
   "summary": "U prekidu su pojedine trajektne, katamaranske i brodske linije, izvijestili su iz Hrvatskog autokluba (HAK) u petak. U prekidu su trajektne linije: Valbiska–Merag, Zadar/Gaženica–Ist/Kosirača–Olib–Silba–Premuda/Krijal–Mali Lošinj, Šibenik–Zlarin–Kaprije–Žirje, Sućuraj–Drvenik, Dubrovnik–Koločep–Lopu...",
-  "image": "https://media.jutarnji.hr/images/slike/2026/11/13/f_32894821_1280.jpg?1794561666",
+  "image": "https://media.jutarnji.hr/images/slike/2026/11/13/f_32894821_1280.jpg?1794563129",
   "source": "Jutarnji list",
   "topics": [
    "Zadar",
@@ -503,7 +561,7 @@
   ],
   "source_url": "https://www.jutarnji.hr/",
   "face": null,
-  "face_img": "https://media.jutarnji.hr/images/slike/2026/11/13/f_32894821_1280.jpg?1794561666"
+  "face_img": "https://media.jutarnji.hr/images/slike/2026/11/13/f_32894821_1280.jpg?1794563129"
  },
  {
   "title": "DHMZ najavio promjenjivo vrijeme: Mogući izraženiji pljuskovi i olujni udari bure",
@@ -5028,59 +5086,6 @@
   "source_url": "https://www.antenazadar.hr/",
   "face": null,
   "face_img": "https://www.antenazadar.hr/wp-content/uploads/2026/07/policija-ANTENA-e1784715248987.jpg"
- },
- {
-  "title": "Sjećanje na Vukovar: U Biogradu na Moru potresno svjedočanstvo Damira Plavšića",
-  "link": "https://ezadar.net.hr/info/3590382/sjecanje-na-vukovar-u-biogradu-na-moru-potresno-svjedocanstvo-damira-plavsica/",
-  "date": "2026-11-11T10:00:00+00:00",
-  "summary": "U Poduzetničkom inkubatoru u Biogradu na Moru u četvrtak, 12. studenoga 2026. godine, s početkom u 18 sati, održat će se glazbeno-scenska predstava „Bitka za Vukovar“, koja donosi potresno svjedočanstvo",
-  "image": "https://cdn-ezadar.net.hr/wp-content/uploads/83b20aef1924aa80816874513ed7d425-view_article_new.jpg",
-  "source": "eZadar",
-  "topics": [
-   "Županija"
-  ],
-  "source_url": "https://ezadar.net.hr/",
-  "face": null,
-  "face_img": "https://cdn-ezadar.net.hr/wp-content/uploads/83b20aef1924aa80816874513ed7d425-view_article_new.jpg"
- },
- {
-  "title": "VIŠE OD POBJEDE Diadora pokazala snagu zajedništva – Vigo Stipić upisao sjajnih 10+10",
-  "link": "https://www.antenazadar.hr/clanak/2026/11/vise-od-pobjede-diadora-pokazala-snagu-zajednistva-vigo-stipic-upisao-sjajnih-1010/",
-  "date": "2026-11-11T09:58:19+00:00",
-  "summary": "Juniori Diadore upisali su uvjerljivu pobjedu u susretu U-18 košarkaškog Prevensta Dalmacije. U dvorani Jazine svladali su Aletu Puntamiku rezultatom s ogromnih +34, (69:35), a do pobjede su stigli zahvaljujući čvrstoj obrani i dobroj timskoj igri.",
-  "image": "https://www.antenazadar.hr/wp-content/uploads/2026/11/11ww.jpg",
-  "source": "Antena Zadar",
-  "topics": [
-   "Zadar",
-   "Sport"
-  ],
-  "source_url": "https://www.antenazadar.hr/",
-  "face": [
-   15.7,
-   36.0,
-   13.6,
-   55.8
-  ],
-  "face_img": "https://www.antenazadar.hr/wp-content/uploads/2026/11/11ww.jpg"
- },
- {
-  "title": "Posljednji ispraćaj don Zbignewa Jaceka Korcza u petak na Gradskom groblju u Zadru",
-  "link": "https://ezadar.net.hr/info/3590574/posljednji-ispracaj-don-zbignewa-jaceka-korcza-u-petak-na-gradskom-groblju-u-zadru/",
-  "date": "2026-11-11T09:56:45+00:00",
-  "summary": "Posljednji ispraćaj don Zbignewa Jaceka Korcza bit će na Gradskom groblju u Zadru – Zadarska nadbiskupija objavila je ovu obavijest vjernicima koji ga žele doći posljednji put ispratiti, pozdraviti i",
-  "image": "https://cdn-ezadar.net.hr/wp-content/uploads/snimka-zaslona-2026-11-09-105245-7df8daca14b0c6d552bdb4f3.jpg",
-  "source": "eZadar",
-  "topics": [
-   "Zadar"
-  ],
-  "source_url": "https://ezadar.net.hr/",
-  "face": [
-   13.2,
-   80.7,
-   35.4,
-   64.6
-  ],
-  "face_img": "https://cdn-ezadar.net.hr/wp-content/uploads/snimka-zaslona-2026-11-09-105245-7df8daca14b0c6d552bdb4f3.jpg"
  },
  {
   "title": "Movember donosi besplatne urološke preglede u ob Zadar",
