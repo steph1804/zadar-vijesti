@@ -1,5 +1,87 @@
 [
  {
+  "title": "Priopćenje o događaju",
+  "link": "https://zadarska-policija.gov.hr/vijesti/priopcenje-o-dogadjaju/18858",
+  "date": "2026-11-13T17:01:19.378817+00:00",
+  "summary": "",
+  "image": "https://zadarska-policija.gov.hr/UserDocsImages//2023/POLICIJA/policija%20natpis4.jpg",
+  "source": "Policija Zadar",
+  "topics": [],
+  "source_url": "https://zadarska-policija.gov.hr/vijesti/8",
+  "face": null,
+  "face_img": "https://zadarska-policija.gov.hr/UserDocsImages//2023/POLICIJA/policija%20natpis4.jpg"
+ },
+ {
+  "title": "U Opatiji predstavljeni najbolji aduti Zadarske županije",
+  "link": "https://www.novilist.hr/rijeka-regija/opatija/u-opatiji-predstavljeni-najbolji-aduti-zadarske-zupanije/",
+  "date": "2026-11-13T17:00:32+00:00",
+  "summary": "OPATIJA – Vrhunska vina, nagrađivani sirevi, ekstradjevičanska maslinova ulja, suhomesnati specijaliteti, craft piva i autentični likeri preplavili su Event room Garden Hotela Continental u Opatiji.",
+  "image": "https://www.novilist.hr/wp-content/uploads/2026/11/12475296-717x478.jpg",
+  "source": "Novi list",
+  "topics": [
+   "Zadar",
+   "Županija",
+   "Otoci"
+  ],
+  "source_url": "https://www.novilist.hr/",
+  "face": [
+   4.1,
+   30.1,
+   18.4,
+   30.4
+  ],
+  "face_img": "https://www.novilist.hr/wp-content/uploads/2026/11/12475296-717x478.jpg"
+ },
+ {
+  "title": "GK ZADAR Najava događanja za tjedan od 16. do 21. studenoga 2026.",
+  "link": "https://www.antenazadar.hr/clanak/2026/11/gk-zadar-najava-dogadanja-za-tjedan-od-16-do-21-studenoga-2026/",
+  "date": "2026-11-13T17:00:01+00:00",
+  "summary": "13. studenoga 2026. Izbor iz događanja u Gradskoj knjižnici Zadar u tjednu u tjednu od 16. do 21. studenoga 2026. 16. studenoga 2026.",
+  "image": "https://www.antenazadar.hr/wp-content/uploads/2026/11/FOTO-Matija-Lipar_-8-1-jpg-1-2-1-1-1-1-1-1-1-1-1.webp",
+  "source": "Antena Zadar",
+  "topics": [
+   "Zadar",
+   "Županija",
+   "Otoci"
+  ],
+  "source_url": "https://www.antenazadar.hr/",
+  "face": null,
+  "face_img": "https://www.antenazadar.hr/wp-content/uploads/2026/11/FOTO-Matija-Lipar_-8-1-jpg-1-2-1-1-1-1-1-1-1-1-1.webp"
+ },
+ {
+  "title": "Na Sveučilištu održana komemoracija za Ivicu Zdrilića",
+  "link": "https://radio.hrt.hr/radio-zadar/vijesti/na-sveucilistu-odrzana-komemoracija-za-ivicu-zdrilica-13008598",
+  "date": "2026-11-13T16:50:06+00:00",
+  "summary": "Na Sveučilištu u Zadru danas je održana komemoracija za prof. dr. sc. Ivicu Zdrilića, profesora Odjela za ekonomiju, koji je 2. listopada 2026. godine preminuo u 54. godini života nakon kratke i teške bolesti.",
+  "image": "https://api.hrt.hr/media/c8/eb/komemoracija-zdrilic-1-20261113164924.webp",
+  "source": "HRT Radio Zadar",
+  "topics": [
+   "Zadar"
+  ],
+  "source_url": "https://radio.hrt.hr/radio-zadar",
+  "face": [
+   39.7,
+   53.2,
+   40.8,
+   46.3
+  ],
+  "face_img": "https://api.hrt.hr/media/c8/eb/komemoracija-zdrilic-1-20261113164924.webp"
+ },
+ {
+  "title": "Burno u Zadru: Izglasano veliko poskupljenje komunalne naknade, oporba bojkotirala sjednicu, a jednom vijećniku zabranjen ulazak",
+  "link": "https://www.dalmacijadanas.hr/burno-u-zadru-izglasano-veliko-poskupljenje-komunalne-naknade-oporba-bojkotirala-sjednicu-a-jednom-vijecniku-zabranjen-ulazak/",
+  "date": "2026-11-13T16:49:02+00:00",
+  "summary": "Šesnaest nazočnih vijećnika izglasalo je povećanje komunalne naknade koje će građani osjetiti od 2027. godine",
+  "image": "https://www.dalmacijadanas.hr/wp-content/uploads/2026/11/gradsko-vijece-zadar-1200x675.jpg",
+  "source": "Dalmacija Danas",
+  "topics": [
+   "Zadar"
+  ],
+  "source_url": "https://www.dalmacijadanas.hr/",
+  "face": null,
+  "face_img": "https://www.dalmacijadanas.hr/wp-content/uploads/2026/11/gradsko-vijece-zadar-1200x675.jpg"
+ },
+ {
   "title": "Otišao u banku u zadarskom trgovačkom centru, završio na operaciji! Noga mu ostala kraća, sud presudio u njegovu korist",
   "link": "https://slobodnadalmacija.hr/dalmacija/zadar/otisao-u-banku-u-zadarskom-trgovackom-centru-zavrsio-na-operaciji-noga-mu-ostala-kraca-sud-presudio-u-njegovu-korist-1590253",
   "date": "2026-11-13T16:31:00+00:00",
@@ -12,6 +94,25 @@
   "source_url": "https://slobodnadalmacija.hr/dalmacija/zadar",
   "face": null,
   "face_img": "https://static.slobodnadalmacija.hr/images/slike/2026/11/11/32839220.jpg"
+ },
+ {
+  "title": "Mijatović tvrdi da mu je zabranjen ulazak na sjednicu i u gradsku pisarnicu, zatražio očitovanje",
+  "link": "https://zadarskilist.novilist.hr/zadar-zupanija/mijatovic-tvrdi-da-mu-je-zabranjen-ulazak-na-sjednicu-i-u-gradsku-pisarnicu-zatrazio-ocitovanje/",
+  "date": "2026-11-13T16:30:26+00:00",
+  "summary": "Daniel Mijatović objavio je kako mu je jutros bio zabranjen ulazak na nastavak sjednice Gradskog vijeća Grada Zadra, ali i osobni pristup pisarnici Grada Zadra. Tvrdi da su ga na ulazu dočekala dvojica zaštitara koji su mu rekli da postupaju prema usmenom nalogu, ne navodeći tko ga je izdao. Kako je napisao u objavi na",
+  "image": "https://zadarskilist.novilist.hr/wp-content/uploads/2026/11/10416260.jpg",
+  "source": "Zadarski list",
+  "topics": [
+   "Zadar"
+  ],
+  "source_url": "https://zadarskilist.novilist.hr/",
+  "face": [
+   19.9,
+   60.7,
+   40.2,
+   56.0
+  ],
+  "face_img": "https://zadarskilist.novilist.hr/wp-content/uploads/2026/11/10416260.jpg"
  },
  {
   "title": "Radeta progovorio o nasilnom izbacivanju iz vijećnice: 'Kao 'Vučićevi batinaši'",
@@ -767,7 +868,7 @@
   "link": "https://www.jutarnji.hr/kultura/film-i-televizija/jedini-je-grad-iz-hrvatske-koji-se-nasao-na-ovoj-prestiznoj-listi-sad-je-o-njemu-snimljen-i-film-15765116",
   "date": "2026-11-13T12:11:13+00:00",
   "summary": "Dokumentarni film „Biograd na Moru – ždral u srcu Jadrana“ redateljice Irene Škorić imat će međunarodnu premijeru na filmskom festivalu u Hirošimi, koji se održava od 13. do 15. studenoga, a govori o ulozi hrvatskoga grada u međunarodnom pokretu za mir i nuklearno razoružanje u svijetu. Film povezuj...",
-  "image": "https://media.jutarnji.hr/images/slike/2026/11/13/f_39958148_1280.jpg?1794588233",
+  "image": "https://media.jutarnji.hr/images/slike/2026/11/13/f_39958148_1280.jpg?1794588814",
   "source": "Jutarnji list",
   "topics": [
    "Županija"
@@ -779,7 +880,7 @@
    25.3,
    36.6
   ],
-  "face_img": "https://media.jutarnji.hr/images/slike/2026/11/13/f_39958148_1280.jpg?1794588233"
+  "face_img": "https://media.jutarnji.hr/images/slike/2026/11/13/f_39958148_1280.jpg?1794588814"
  },
  {
   "title": "PREPORUKA GRAĐANIMA Vodovod: Prokuhavajte vodu, zbog obilnijih oborina došlo je do zamućenja",
@@ -5022,102 +5123,6 @@
   "source_url": "https://www.antenazadar.hr/",
   "face": null,
   "face_img": "https://www.antenazadar.hr/wp-content/uploads/2026/11/spanjolska.jpg"
- },
- {
-  "title": "NOVI PODACI Zračna luka Zadar bilježi rast, dok dva velika konkurenta gube putnike",
-  "link": "https://zadarskilist.novilist.hr/zadar-zupanija/zadar/novi-podaci-zracna-luka-zadar-biljezi-rast-dok-dva-velika-konkurenta-gube-putnike/",
-  "date": "2026-11-11T18:50:35+00:00",
-  "summary": "Kroz hrvatske zračne luke u rujnu je prošlo 1,8 milijuna putnika ili 1,3 posto više nego u istom lanjskom mjesecu, a najviše putnika, ukupno 537,9 tisuća, uslužila je zračna luka Split, za koju je to na mjesečnoj razini 3,6 posto manje, pokazuju podaci Državnog zavoda za statistiku (DZS).",
-  "image": "https://zadarskilist.novilist.hr/wp-content/uploads/2026/07/12416559.jpg",
-  "source": "Zadarski list",
-  "topics": [
-   "Zadar"
-  ],
-  "source_url": "https://zadarskilist.novilist.hr/",
-  "face": null,
-  "face_img": "https://zadarskilist.novilist.hr/wp-content/uploads/2026/07/12416559.jpg"
- },
- {
-  "title": "CENTAR ZA MLADE / Od 16. studenog izložba “Promatranje obala iz svemira: znanstveni pogled na obale pomoću snimki sa satelita Sentinel-2”",
-  "link": "https://www.znet.hr/2026/11/11/centar-za-mlade-od-16-studenog-izlozba-promatranje-obala-iz-svemira-znanstveni-pogled-na-obale-pomocu-snimki-sa-satelita-sentinel-2/",
-  "date": "2026-11-11T18:38:06+00:00",
-  "summary": "Izložba koju organiziraju Veleposlanstvo Španjolske u Hrvatskoj i Sveučilište u Zadru u suradnji sa španjolskim znanstvenim institucijama poput CSIC (Španjolsko nacionalno vijeće za znanstvena istraživanja), pruža osobit znanstveni pogled na obale pomoću snimki sa satelita Sentinel-2.",
-  "image": "https://www.znet.hr/wp-content/uploads/2026/11/spanjolska-1000x600.jpg",
-  "source": "Znet",
-  "topics": [
-   "Zadar"
-  ],
-  "source_url": "https://www.znet.hr/",
-  "face": null,
-  "face_img": "https://www.znet.hr/wp-content/uploads/2026/11/spanjolska-1000x600.jpg"
- },
- {
-  "title": "Dva mladića po Supernovi krali parfeme",
-  "link": "https://ezadar.net.hr/crna-kronika/3590615/dva-mladica-po-supernovi-krali-parfeme/",
-  "date": "2026-11-11T18:35:00+00:00",
-  "summary": "Nakon provedenog kriminalističkog istraživanja 19-godišnjak je predan pritvorskom nadzorniku Policijske uprave zadarske, dok se protiv 21-godišnjaka kaznena prijava podnosi u redovnom postupku",
-  "image": "https://cdn-ezadar.net.hr/wp-content/uploads/2c0d8ea078fdcf711a56f5f860abb350-view_article_new.jpg",
-  "source": "eZadar",
-  "topics": [
-   "Zadar"
-  ],
-  "source_url": "https://ezadar.net.hr/",
-  "face": null,
-  "face_img": "https://cdn-ezadar.net.hr/wp-content/uploads/2c0d8ea078fdcf711a56f5f860abb350-view_article_new.jpg"
- },
- {
-  "title": "TAKO SLIČNE, A TAKO RAZLIČITE ZEMLJE Zadarski studenti su upoznali čari Kazahstana i Uzbekistana",
-  "link": "https://zadarskilist.novilist.hr/zadar-zupanija/zadar/tako-slicne-a-tako-razlicite-zemlje-zadarski-studenti-su-upoznali-cari-kazahstana-i-uzbekistana/",
-  "date": "2026-11-11T18:30:52+00:00",
-  "summary": "Studenti Odjela za rusistiku Sveučilišta u Zadru kroz kratkoročni Erasmus+ program od 15. do 30. listopada boravili su u Kazahstanu, nekadašnjoj sastavnici Sovjetskog Saveza u kojoj je ruski jezik još uvijek u širokoj upotrebi, posebice u Almatiju, četveromilijunskom megapolisu i bivšoj prijestolnici države.",
-  "image": "https://zadarskilist.novilist.hr/wp-content/uploads/2026/11/snimka-zaslona-2026-11-11-160501-cb7f66ae39124b86647dcc77-1052x655-1.webp",
-  "source": "Zadarski list",
-  "topics": [
-   "Zadar"
-  ],
-  "source_url": "https://zadarskilist.novilist.hr/",
-  "face": [
-   34.6,
-   55.9,
-   5.8,
-   94.1
-  ],
-  "face_img": "https://zadarskilist.novilist.hr/wp-content/uploads/2026/11/snimka-zaslona-2026-11-11-160501-cb7f66ae39124b86647dcc77-1052x655-1.webp"
- },
- {
-  "title": "Vozaču u Kolanu istekli dokumenti, odbio test na droge, pa zaradio paprenu kaznu",
-  "link": "https://zadarskilist.novilist.hr/crna-kronika/vozacu-u-kolanu-istekli-dokumenti-odbio-test-na-droge-pa-zaradio-paprenu-kaznu/",
-  "date": "2026-11-11T18:10:25+00:00",
-  "summary": "U utorak, 10. studenog u 00.15 sati na državnoj cesti DC-106 u Kolanu policijski službenici Policijske postaje Pag zaustavili su automobil riječkih registarskih oznaka kojim je upravljao 44-godišnji hrvatski državljanin.",
-  "image": "https://zadarskilist.novilist.hr/wp-content/uploads/2026/02/11975733.jpg",
-  "source": "Zadarski list",
-  "topics": [
-   "Zadar",
-   "Otoci"
-  ],
-  "source_url": "https://zadarskilist.novilist.hr/",
-  "face": null,
-  "face_img": "https://zadarskilist.novilist.hr/wp-content/uploads/2026/02/11975733.jpg"
- },
- {
-  "title": "Kadeti s genijalnim preokretom srušili Zagoru, juniori se vratili na pobjedničke staze",
-  "link": "https://ezadar.net.hr/sport/3590614/kadeti-s-genijalnim-preokretom-srusili-zagoru-juniori-se-vratili-na-pobjednicke-staze/",
-  "date": "2026-11-11T18:00:00+00:00",
-  "summary": "Kadeti i juniori Zadra su na gostovanju kod Zagore odigrali utakmice 10. kola 2. HNL",
-  "image": "https://cdn-ezadar.net.hr/wp-content/uploads/hnk-zadar-kadeti-525c494899f658e84d0ed780-1052x696.jpg",
-  "source": "eZadar",
-  "topics": [
-   "Zadar",
-   "Sport"
-  ],
-  "source_url": "https://ezadar.net.hr/",
-  "face": [
-   23.3,
-   59.2,
-   7.0,
-   93.6
-  ],
-  "face_img": "https://cdn-ezadar.net.hr/wp-content/uploads/hnk-zadar-kadeti-525c494899f658e84d0ed780-1052x696.jpg"
  },
  {
   "title": "Movember donosi besplatne urološke preglede u ob Zadar",
