@@ -5,12 +5,6 @@
    "link": "https://www.jadrolinija.hr/news-single/linije-u-prekidu-14112026",
    "date": "2026-11-13T10:38:00+00:00",
    "summary": "Red plovidbe u subotu 14.11.2026"
-  },
-  {
-   "title": "Linije u prekidu, 13.11.2026.",
-   "link": "https://www.jadrolinija.hr/news-single/linije-u-prekidu--13112026",
-   "date": "2026-11-12T08:04:00+00:00",
-   "summary": "Red plovidbe u petak, 13.11.2026."
   }
  ],
  "buses": [
@@ -42,92 +36,43 @@
  ],
  "flights": [
   {
-   "dir": "odlazak",
-   "flight": "OU4674",
-   "airline": "Croatia Airlines",
-   "city": "Munich",
-   "via": "",
-   "time": "2026-11-13T06:30:00",
-   "est": "2026-11-13T06:30:00",
-   "act": "2026-11-13T06:11:00",
-   "status": "Departed",
-   "gate": "05"
-  },
-  {
    "dir": "dolazak",
-   "flight": "OU4675",
-   "airline": "Croatia Airlines",
-   "city": "Munich",
-   "via": "",
-   "time": "2026-11-13T15:10:00",
-   "est": "2026-11-13T14:59:00",
-   "act": "",
-   "status": "",
-   "gate": ""
-  },
-  {
-   "dir": "odlazak",
-   "flight": "OU674",
+   "flight": "OU634",
    "airline": "Croatia Airlines",
    "city": "Zagreb",
    "via": "Pula",
-   "time": "2026-11-13T15:40:00",
-   "est": "2026-11-13T15:40:00",
+   "time": "2026-11-15T15:50:00",
+   "est": "2026-11-15T15:50:00",
+   "act": "",
+   "status": "",
+   "gate": ""
+  },
+  {
+   "dir": "odlazak",
+   "flight": "OU634",
+   "airline": "Croatia Airlines",
+   "city": "Zagreb",
+   "via": "",
+   "time": "2026-11-15T16:20:00",
+   "est": "2026-11-15T16:20:00",
+   "act": "",
+   "status": "",
+   "gate": ""
+  },
+  {
+   "dir": "dolazak",
+   "flight": "OU675",
+   "airline": "Croatia Airlines",
+   "city": "Zagreb",
+   "via": "Pula",
+   "time": "2026-11-15T23:00:00",
+   "est": "2026-11-15T23:00:00",
    "act": "",
    "status": "",
    "gate": ""
   }
  ],
- "power": [
-  {
-   "day": "13.11.2026",
-   "place": "Zaglav",
-   "street": "",
-   "note": "cijelo mjesto - kvar na dalekovodu",
-   "time": "14:30 - 17:30",
-   "unplanned": true
-  },
-  {
-   "day": "13.11.2026",
-   "place": "Privlaka",
-   "street": "",
-   "note": "predio Blajnovica, kvar na dalekovodu",
-   "time": "18:30 - 23:59",
-   "unplanned": true
-  },
-  {
-   "day": "13.11.2026",
-   "place": "Nin",
-   "street": "Obala Kneza Branimira",
-   "note": "Povremeni prekidi",
-   "time": "08:00 - 11:00",
-   "unplanned": false
-  },
-  {
-   "day": "13.11.2026",
-   "place": "Zadar",
-   "street": "Pavla Rittera Vitezovića",
-   "note": "",
-   "time": "08:30 - 11:30",
-   "unplanned": false
-  },
-  {
-   "day": "13.11.2026",
-   "place": "Žerava",
-   "street": "Južni dio naselja",
-   "note": "Povremeni prekidi",
-   "time": "11:00 - 14:00",
-   "unplanned": false
-  },
-  {
-   "day": "13.11.2026",
-   "place": "Zadar",
-   "street": "Diklovac (ul. Romansa, Poljana Dragutina Domjanića, Put Mičića, Krešimirova Obala i Andrije Buvine) - KVAR TRAFOSTANICE",
-   "note": "",
-   "time": "00:00 - 12:00",
-   "unplanned": false
-  }
- ],
+ "power": [],
  "water": [
   {
    "day": "2026-11-13",
@@ -473,7 +418,7 @@
  ],
  "videos": {
   "v": 2,
-  "fetched": "2026-11-13T22:03:21.502932+00:00",
+  "fetched": "2026-11-13T23:03:30.640734+00:00",
   "items": [
    {
     "id": "77WYoRm2jgk",
