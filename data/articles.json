@@ -1,5 +1,95 @@
 [
  {
+  "title": "Sažetak dnevnih događanja PU zadarske, 13. 11.",
+  "link": "https://zadarska-policija.gov.hr/vijesti/sazetak-dnevnih-dogadjanja-18854/18854",
+  "date": "2026-11-13T10:15:44.679469+00:00",
+  "summary": "",
+  "image": "https://zadarska-policija.gov.hr/UserDocsImages//2023/POLICIJA/policija%205.jpg",
+  "source": "Policija Zadar",
+  "topics": [
+   "Zadar"
+  ],
+  "source_url": "https://zadarska-policija.gov.hr/vijesti/8",
+  "face": null,
+  "face_img": "https://zadarska-policija.gov.hr/UserDocsImages//2023/POLICIJA/policija%205.jpg"
+ },
+ {
+  "title": "Okusi i mirisi zadarskog kraja stižu u Opatiju – dvadesetak izlagača predstavlja najbolje od zadarske gastronomije",
+  "link": "https://www.novilist.hr/novosti/okusi-i-mirisi-zadarskog-kraja-stizu-u-opatiju-dvadesetak-izlagaca-predstavlja-najbolje-od-zadarske-gastronomije/",
+  "date": "2026-11-13T10:15:05+00:00",
+  "summary": "Vrhunska vina, nagrađivani sirevi, maslinova ulja, suhomesnati proizvodi, likeri, gin i druge delicije zadarskoga kraja predstavit će se u petak, 13. studenoga 2026. godine, u Opatiji, na promotivno-prodajnoj manifestaciji „Okusi i mirisi zadarskog kraja“.",
+  "image": "https://www.novilist.hr/wp-content/uploads/2026/11/ZAD00849-717x478.jpg",
+  "source": "Novi list",
+  "topics": [
+   "Zadar",
+   "Županija",
+   "Otoci"
+  ],
+  "source_url": "https://www.novilist.hr/",
+  "face": [
+   28.0,
+   46.8,
+   33.9,
+   67.4
+  ],
+  "face_img": "https://www.novilist.hr/wp-content/uploads/2026/11/ZAD00849-717x478.jpg"
+ },
+ {
+  "title": "Košarkaši Zadra posjetili OŠ Zemunik i razveselili učenike ulaznicama za Partizan",
+  "link": "https://kkzadar.hr/kosarkasi-zadra-posjetili-os-zemunik-i-razveselili-ucenike-ulaznicama-za-partizan/",
+  "date": "2026-11-13T10:14:36+00:00",
+  "summary": "Košarkaši Zadra Krševan Klarica, Andro Mirčeta, Luka Bičić i Niko Šare posjetili su Osnovnu školu Zemunik u Zemuniku Donjem. Mladi zadarski košarkaši družili su se s učenicima, odgovarali na njihova pitanja, dijelili autograme i rado pozirali za zajedničke fotografije i selfieje.",
+  "image": "https://kkzadar.hr/wp-content/uploads/2026/11/AJV05507-scaled.jpg",
+  "source": "KK Zadar",
+  "source_topic": "Sport",
+  "topics": [
+   "Zadar",
+   "Županija",
+   "Sport"
+  ],
+  "source_url": "https://kkzadar.hr/novosti/",
+  "face": null,
+  "face_img": "https://kkzadar.hr/wp-content/uploads/2026/11/AJV05507-scaled.jpg"
+ },
+ {
+  "title": "Zadar: Radeta izbačen sa sjednice, optužuje gradsku vlast za diktaturu",
+  "link": "https://vijesti.hrt.hr/hrvatska/zadar-radeta-izbacen-sa-sjednice-optuzuje-gradsku-vlast-za-diktaturu-13008076",
+  "date": "2026-11-13T10:05:44+00:00",
+  "summary": "Nezavisni zadarski vijećnik Daniel Radeta u petak nije uspio ući u zgradu gradske uprave na nastavak sjednice Gradskog vijeća s koje je u četvrtak izbačen i pritom lakše ozlijeđen, zbog čega je na konferenciji za novinare optužio gradsku vlast za diktaturu.",
+  "image": "https://api.hrt.hr/media/f6/31/740x438-pxl-101125-141694114-20261113100513.jpg",
+  "source": "HRT",
+  "topics": [
+   "Zadar"
+  ],
+  "source_url": "https://vijesti.hrt.hr/",
+  "face": [
+   2.9,
+   37.4,
+   52.9,
+   63.9
+  ],
+  "face_img": "https://api.hrt.hr/media/f6/31/740x438-pxl-101125-141694114-20261113100513.jpg"
+ },
+ {
+  "title": "Drama u Zadru: Vijećnika zaštitari izbacili sa sjednice, pa optužio gradsku vlast za diktaturu",
+  "link": "https://www.tportal.hr/vijesti/clanak/drama-u-zadru-vijecnika-zastitari-izbacili-sa-sjednice-pa-optuzio-gradsku-vlast-za-diktaturu-20261113",
+  "date": "2026-11-13T10:01:00+00:00",
+  "summary": "Nezavisni zadarski vijećnik Daniel Radeta u petak nije uspio ući u zgradu gradske uprave na nastavak sjednice Gradskog vijeća s koje je u četvrtak izbačen i pritom lakše ozlijeđen, zbog čega je na konferenciji za novinare optužio gradsku vlast za diktaturu",
+  "image": "https://www.tportal.hr/media/thumbnail/500x300/2826781.jpeg?cropId=0",
+  "source": "tportal",
+  "topics": [
+   "Zadar"
+  ],
+  "source_url": "https://www.tportal.hr/",
+  "face": [
+   0.0,
+   45.9,
+   41.9,
+   66.9
+  ],
+  "face_img": "https://www.tportal.hr/media/thumbnail/500x300/2826781.jpeg?cropId=0"
+ },
+ {
   "title": "Humanitarni koncert u Kneževoj palači: Pokažimo da Zadar stoji uz slijepe i slabovidne sportaše",
   "link": "https://ezadar.net.hr/kultura/3590029/humanitarni-koncert-u-knezevoj-palaci-pokazimo-da-zadar-stoji-uz-slijepe-i-slabovidne-sportase/",
   "date": "2026-11-13T10:00:00+00:00",
@@ -18,6 +108,26 @@
    74.8
   ],
   "face_img": "https://cdn-ezadar.net.hr/wp-content/uploads/danko1-89ab3caeda24c788e0b75f89-1052x696.jpg"
+ },
+ {
+  "title": "ŽDRAL U SRCU JADRANA Hrvatski dokumentarac o Biogradu na Moru i Hirošimi",
+  "link": "https://www.antenazadar.hr/clanak/2026/11/zdral-u-srcu-jadrana-hrvatski-dokumentarac-o-biogradu-na-moru-i-hirosimi/",
+  "date": "2026-11-13T09:58:52+00:00",
+  "summary": "Dokumentarni film „Biograd na Moru – ždral u srcu Jadrana“ redateljice Irene Škorić međunarodnu premijeru ima na Hiroshima International Film Festivalu (HIFF 2026) u Japanu koji se od 13. do 15. studenoga 2026. održava u Hirošimi.",
+  "image": "https://www.antenazadar.hr/wp-content/uploads/2026/11/Irena-Skoric_na-snimanju-scaled.jpg",
+  "source": "Antena Zadar",
+  "topics": [
+   "Zadar",
+   "Županija"
+  ],
+  "source_url": "https://www.antenazadar.hr/",
+  "face": [
+   16.3,
+   45.9,
+   25.5,
+   36.6
+  ],
+  "face_img": "https://www.antenazadar.hr/wp-content/uploads/2026/11/Irena-Skoric_na-snimanju-scaled.jpg"
  },
  {
   "title": "Radeta novinarima pokazivao fizičke ozljede od ‘napada sedam osoba‘. Erlić uzvraća: ‘On manipulira, sve je snimljeno!‘",
@@ -555,25 +665,6 @@
   "face_img": "https://sport023.hr/wp-content/uploads/2026/08/IMG-20260822-WA0004.jpg"
  },
  {
-  "title": "Bivša Miss otvoreno o zaručniku: ‘Prsten na ruci ne znači mi apsolutno ništa’",
-  "link": "https://www.tportal.hr/showtime/clanak/bivsa-miss-otvoreno-o-zarucniku-prsten-na-ruci-ne-znaci-mi-apsolutno-nista-foto-20261113",
-  "date": "2026-11-13T07:10:00+00:00",
-  "summary": "Laura Gnjatović na zadarskoj modnoj manifestaciji govorila je o svojem poslu u dubrovačkoj hitnoj službi, povratku na pistu i planovima za vjenčanje s košarkašem Filipom Vujičićem",
-  "image": "https://www.tportal.hr/media/thumbnail/500x300/2822860.jpeg?cropId=4333145",
-  "source": "tportal",
-  "topics": [
-   "Zadar"
-  ],
-  "source_url": "https://www.tportal.hr/",
-  "face": [
-   9.2,
-   47.9,
-   49.7,
-   64.7
-  ],
-  "face_img": "https://www.tportal.hr/media/thumbnail/500x300/2822860.jpeg?cropId=4333145"
- },
- {
   "title": "Radeta pozvao gradske vijećnike na bojkot sjednice: ‘Na pitanja se odgovara opomenama, izbacivanjem i nasiljem’",
   "link": "https://zadarskilist.novilist.hr/zadar-zupanija/radeta-pozvao-gradske-vijecnike-na-bojkot-sjednice-na-pitanja-se-odgovara-opomenama-izbacivanjem-i-nasiljem/",
   "date": "2026-11-13T07:06:47+00:00",
@@ -630,7 +721,7 @@
   "link": "https://www.jutarnji.hr/vijesti/hrvatska/u-prekidu-brojne-brodske-trajektne-i-katamaranske-linije-veliki-problemi-i-na-cestama-diljem-zemlje-15764994",
   "date": "2026-11-13T06:33:15+00:00",
   "summary": "U prekidu su pojedine trajektne, katamaranske i brodske linije, izvijestili su iz Hrvatskog autokluba (HAK) u petak. U prekidu su trajektne linije: Valbiska–Merag, Zadar/Gaženica–Ist/Kosirača–Olib–Silba–Premuda/Krijal–Mali Lošinj, Šibenik–Zlarin–Kaprije–Žirje, Sućuraj–Drvenik, Dubrovnik–Koločep–Lopu...",
-  "image": "https://media.jutarnji.hr/images/slike/2026/11/13/f_32894821_1280.jpg?1794563391",
+  "image": "https://media.jutarnji.hr/images/slike/2026/11/13/f_32894821_1280.jpg?1794564583",
   "source": "Jutarnji list",
   "topics": [
    "Zadar",
@@ -638,7 +729,7 @@
   ],
   "source_url": "https://www.jutarnji.hr/",
   "face": null,
-  "face_img": "https://media.jutarnji.hr/images/slike/2026/11/13/f_32894821_1280.jpg?1794563391"
+  "face_img": "https://media.jutarnji.hr/images/slike/2026/11/13/f_32894821_1280.jpg?1794564583"
  },
  {
   "title": "DHMZ najavio promjenjivo vrijeme: Mogući izraženiji pljuskovi i olujni udari bure",
@@ -5014,86 +5105,6 @@
   "source_url": "https://zadarska-policija.gov.hr/vijesti/8",
   "face": null,
   "face_img": "https://zadarska-policija.gov.hr/UserDocsImages//2023/POLICIJA/policija%205.jpg"
- },
- {
-  "title": "Iz Supernove ukradeni parfemi vrijedni više od sedam tisuća eura: Policija razotkrila dvojac osumnjičen za krađe!",
-  "link": "https://slobodnadalmacija.hr/dalmacija/zadar/iz-supernove-nestalo-parfema-vrijednih-vise-od-pet-tisuca-eura-mladi-zadranin-osumnjicen-za-drsku-kradu-1589764",
-  "date": "2026-11-11T10:56:00+00:00",
-  "summary": "Zadarska policija dovršila je kriminalističko istraživanje nad dvojicom mladića u dobi od 19 i 21 godinu koje sumnjiči za niz krađa u Zadru i Privlaci. Prema sumnjama policije, dvojac je 18. kolovoza iz trgovine u Ulici Akcije Maslenice u Zadru ukrao više različitih parfema, ukupne vrijednosti veće...",
-  "image": "https://static.slobodnadalmacija.hr/images/slike/2026/11/11/25305921.jpg",
-  "source": "Slobodna Dalmacija/Zadar",
-  "topics": [
-   "Zadar",
-   "Županija"
-  ],
-  "source_url": "https://slobodnadalmacija.hr/dalmacija/zadar",
-  "face": null,
-  "face_img": "https://static.slobodnadalmacija.hr/images/slike/2026/11/11/25305921.jpg"
- },
- {
-  "title": "Policijska akcija u zadarskom kraju dobila neočekivan rasplet: Ono što su zatekli kod umirovljenika iznenadilo ih je!",
-  "link": "https://slobodnadalmacija.hr/dalmacija/zadar/policijska-akcija-u-zadarskom-kraju-dobila-neocekivan-rasplet-ono-sto-su-zatekli-kod-umirovljenika-iznenadilo-ih-je-1589759",
-  "date": "2026-11-11T10:45:55+00:00",
-  "summary": "Policija je na širem zadarskom području provela kriminalističko istraživanje nad 84-godišnjim hrvatskim državljaninom zbog sumnje u nedozvoljeno posjedovanje oružja i eksplozivnih tvari. Tijekom istraživanja policijski službenici Policijske postaje Zadar s ispostavom Nin u utorak su od osumnjičenog...",
-  "image": "https://static.slobodnadalmacija.hr/images/slike/2026/11/11/28781038.jpg",
-  "source": "Slobodna Dalmacija/Zadar",
-  "topics": [
-   "Zadar",
-   "Županija"
-  ],
-  "source_url": "https://slobodnadalmacija.hr/dalmacija/zadar",
-  "face": null,
-  "face_img": "https://static.slobodnadalmacija.hr/images/slike/2026/11/11/28781038.jpg"
- },
- {
-  "title": "Dvojica mladića iz Supernove ukrala parfeme vrijedne više tisuća eura, 19-godišnjak je “operirao” i po Privlaci",
-  "link": "https://zadarskilist.novilist.hr/crna-kronika/dvojica-mladica-iz-supernove-ukrala-parfeme-vrijedne-vise-tisuca-eura-19-godisnjak-je-operirao-i-po-privlaci/",
-  "date": "2026-11-11T10:44:01+00:00",
-  "summary": "Policijski službenici Policijske postaje Zadar s Ispostavom Nin proveli su kriminalističko istraživanje nad dvojicom hrvatskih državljanina u dobi od 19 i 21 godinu koji se sumnjiče za imovinska kaznena djela.",
-  "image": "https://zadarskilist.novilist.hr/wp-content/uploads/2026/11/KRUG-23.png",
-  "source": "Zadarski list",
-  "topics": [
-   "Zadar",
-   "Županija"
-  ],
-  "source_url": "https://zadarskilist.novilist.hr/",
-  "face": null,
-  "face_img": "https://zadarskilist.novilist.hr/wp-content/uploads/2026/11/KRUG-23.png"
- },
- {
-  "title": "Zadar dobiva nova stabla i drvorede, ali neka su već namjerno otrovana i uklonjena",
-  "link": "https://zadarskilist.novilist.hr/zadar-zupanija/zadar-dobiva-nova-stabla-i-drvorede-ali-neka-su-vec-namjerno-otrovana-i-uklonjena/",
-  "date": "2026-11-11T10:31:12+00:00",
-  "summary": "Iako se Zadrani često s pravom bune kako grad postaje pun betona sa sve manje zelenih površina, Zadar je tijekom prošle godine postao bogatiji za gotovo tisuću novih stabala i gotovo 48 tisuća sadnica ukrasnog bilja, a uređeni su i novi drvoredi od Crvenih kuća do Petrčana te su nastavljeni radovi na gradskim…",
-  "image": "https://zadarskilist.novilist.hr/wp-content/uploads/2026/11/KRUG-18-1.png",
-  "source": "Zadarski list",
-  "topics": [
-   "Zadar",
-   "Županija"
-  ],
-  "source_url": "https://zadarskilist.novilist.hr/",
-  "face": [
-   14.0,
-   61.3,
-   24.1,
-   40.5
-  ],
-  "face_img": "https://zadarskilist.novilist.hr/wp-content/uploads/2026/11/KRUG-18-1.png"
- },
- {
-  "title": "U Privlaci i Zadru krali skupe parfeme i alkohol",
-  "link": "https://ezadar.net.hr/crna-kronika/3590581/u-privlaci-i-zadru-krali-skupe-parfeme-i-alkohol/",
-  "date": "2026-11-11T10:23:58+00:00",
-  "summary": "Policijski službenici Policijske postaje Zadar s Ispostavom Nin proveli su kriminalističko istraživanje nad dvojicom hrvatskih državljanina u dobi od 19 i 21 godinu koji se sumnjiče za imovinska kaznena djela.",
-  "image": "https://cdn-ezadar.net.hr/wp-content/uploads/65f850937c0b5ffa3930012784006ccc-view_article_new.jpg",
-  "source": "eZadar",
-  "topics": [
-   "Zadar",
-   "Županija"
-  ],
-  "source_url": "https://ezadar.net.hr/",
-  "face": null,
-  "face_img": "https://cdn-ezadar.net.hr/wp-content/uploads/65f850937c0b5ffa3930012784006ccc-view_article_new.jpg"
  },
  {
   "title": "Movember donosi besplatne urološke preglede u ob Zadar",

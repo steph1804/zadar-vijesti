@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-13T10:01:07.355481+00:00",
+ "updated": "2026-11-13T10:15:44.679469+00:00",
  "sources": [
   {
    "name": "Antena Zadar",
@@ -10,7 +10,7 @@
   },
   {
    "name": "Zadarski list",
-   "count": 9,
+   "count": 8,
    "ok": true,
    "feed": null,
    "errors": []
@@ -166,8 +166,8 @@
   },
   {
    "name": "tportal",
-   "count": 0,
-   "ok": false,
+   "count": 1,
+   "ok": true,
    "feed": null,
    "errors": []
   },
@@ -194,15 +194,15 @@
   },
   {
    "name": "Novi list",
-   "count": 0,
-   "ok": false,
+   "count": 1,
+   "ok": true,
    "feed": null,
    "errors": []
   },
   {
    "name": "HRT",
-   "count": 0,
-   "ok": false,
+   "count": 1,
+   "ok": true,
    "feed": null,
    "errors": []
   },
