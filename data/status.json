@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-13T12:30:58.347294+00:00",
+ "updated": "2026-11-13T12:45:44.799391+00:00",
  "sources": [
   {
    "name": "Antena Zadar",
@@ -10,7 +10,7 @@
   },
   {
    "name": "Zadarski list",
-   "count": 8,
+   "count": 7,
    "ok": true,
    "feed": null,
    "errors": []
@@ -59,12 +59,10 @@
   },
   {
    "name": "SC Višnjik",
-   "count": 0,
-   "ok": false,
-   "feed": "https://visnjik.hr/feed/",
-   "errors": [
-    "https://visnjik.hr/feed/: HTTP Error 507: Insufficient Storage"
-   ]
+   "count": 10,
+   "ok": true,
+   "feed": null,
+   "errors": []
   },
   {
    "name": "Naši školji",
@@ -219,8 +217,8 @@
   },
   {
    "name": "Morski.hr",
-   "count": 1,
-   "ok": true,
+   "count": 0,
+   "ok": false,
    "feed": null,
    "errors": []
   },
