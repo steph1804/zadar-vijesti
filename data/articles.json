@@ -1,5 +1,58 @@
 [
  {
+  "title": "Zadarski vijećnik tvrdi da su ga zaštitari udarali i gušili, oglasila se policija",
+  "link": "https://n1info.hr/vijesti/zadarski-vijecnik-tvrdi-da-su-ga-zastitari-udarali-i-gusili-oglasila-se-policija/",
+  "date": "2026-11-13T18:15:11+00:00",
+  "summary": "Policija je potvrdila da je zaprimila prijavu zadarskog gradskog vijećnika Daniela Radete, koji tvrdi da ga je sedam zaštitara fizički napalo i izbaci",
+  "image": "https://n1info.hr/media/images/2026/11/13/1794593615_radeta.width-1200.jpg",
+  "source": "N1",
+  "topics": [
+   "Zadar"
+  ],
+  "source_url": "https://n1info.hr/",
+  "face": [
+   0.0,
+   35.4,
+   17.5,
+   35.0
+  ],
+  "face_img": "https://n1info.hr/media/images/2026/11/13/1794593615_radeta.width-1200.jpg"
+ },
+ {
+  "title": "Palo stablo na cestu iznad benzinske postaje od Supernove prema gradu, promet zaustavljen",
+  "link": "https://zadarskilist.novilist.hr/zadar-zupanija/palo-stablo-na-cestu-iznad-benzinske-postaje-od-supernove-prema-gradu-promet-zaustavljen/",
+  "date": "2026-11-13T18:11:48+00:00",
+  "summary": "Pad stabla na cestu iznad benzinske postaje u blizini trgovačkog centra Supernova u Zadru izazvao je prometni zastoj. Prema objavi građanina u Facebook grupi Policija zaustavlja – Zadarska županija, stablo je palo na kolnik, zbog čega je promet zaustavljen, a stvorila se i velika gužva.",
+  "image": "https://zadarskilist.novilist.hr/wp-content/uploads/2026/11/stablo.jpg",
+  "source": "Zadarski list",
+  "topics": [
+   "Zadar",
+   "Županija"
+  ],
+  "source_url": "https://zadarskilist.novilist.hr/",
+  "face": null,
+  "face_img": "https://zadarskilist.novilist.hr/wp-content/uploads/2026/11/stablo.jpg"
+ },
+ {
+  "title": "Zadar se oprostio od Ivice Zdrilića, studentima je bio više od profesora, a gradu će jako nedostajati",
+  "link": "https://zadarskilist.novilist.hr/zadar-zupanija/zadar-se-oprostio-od-ivice-zdrilica-studentima-je-bio-vise-od-profesora-a-gradu-ce-jako-nedostajati/",
+  "date": "2026-11-13T18:00:04+00:00",
+  "summary": "Na Sveučilištu u Zadru održana je komemoracija za prof. dr. sc. Ivicu Zdrilića, profesora Odjela za ekonomiju koji je 2. listopada preminuo u 54. godini života nakon kratke i teške bolesti.",
+  "image": "https://zadarskilist.novilist.hr/wp-content/uploads/2026/11/komemoracija-zdrilic-1.jpg",
+  "source": "Zadarski list",
+  "topics": [
+   "Zadar"
+  ],
+  "source_url": "https://zadarskilist.novilist.hr/",
+  "face": [
+   39.7,
+   53.2,
+   40.8,
+   46.3
+  ],
+  "face_img": "https://zadarskilist.novilist.hr/wp-content/uploads/2026/11/komemoracija-zdrilic-1.jpg"
+ },
+ {
   "title": "Zadarski vijećnik se vezao za govornicu, izbacili ga zaštitari. Oglasila se policija",
   "link": "https://www.index.hr/vijesti/clanak/zadarski-vijecnik-se-vezao-za-govornicu-izbacili-ga-zastitari-oglasila-se-policija/2856795.aspx",
   "date": "2026-11-13T17:47:00+00:00",
@@ -57,6 +110,26 @@
   "source_url": "https://zadarska-policija.gov.hr/vijesti/8",
   "face": null,
   "face_img": "https://zadarska-policija.gov.hr/UserDocsImages//2023/POLICIJA/policija%20natpis4.jpg"
+ },
+ {
+  "title": "Zadrani briljirali u Zagrebu, osvojili tri zlata i srebro, Iva Batur proglašena najboljom boksačicom",
+  "link": "https://zadarskilist.novilist.hr/sport/zadrani-briljirali-u-zagrebu-osvojili-tri-zlata-i-srebro-iva-batur-proglasena-najboljom-boksacicom/",
+  "date": "2026-11-13T17:00:47+00:00",
+  "summary": "Ukupno 12 boksača Ares Diabolika nastupilo je na 15. međunarodnom boksačkom turniru Zagreb Open 2026., koji je okupio 90 natjecatelja iz šest zemalja u kadetskoj i juniorskoj konkurenciji. Zadrani su se iz Zagreba vratili s tri zlatne i jednom srebrnom medaljom, što je najbolji klupski rezultat u kadetskom uzrastu.",
+  "image": "https://zadarskilist.novilist.hr/wp-content/uploads/2026/11/12474675.jpg",
+  "source": "Zadarski list",
+  "topics": [
+   "Zadar",
+   "Sport"
+  ],
+  "source_url": "https://zadarskilist.novilist.hr/",
+  "face": [
+   4.8,
+   30.2,
+   24.9,
+   89.6
+  ],
+  "face_img": "https://zadarskilist.novilist.hr/wp-content/uploads/2026/11/12474675.jpg"
  },
  {
   "title": "U Opatiji predstavljeni najbolji aduti Zadarske županije",
@@ -5057,72 +5130,6 @@
    94.3
   ],
   "face_img": "https://www.antenazadar.hr/wp-content/uploads/2026/11/dan-grada-zadra-24.11.2025.-snimio-arif-sitnica-hfhfd-scaled-1.jpg"
- },
- {
-  "title": "Privlaka do podneva bez vode, naredna dva tjedna gužva na Lipotici, a trajekt s Molata danas isplovljava ranije",
-  "link": "https://023.hr/2026/11/privlaka-do-podneva-bez-vode-trajekt-s-molata-danas-isplovljava-sat-i-pol-ranije/",
-  "date": "2026-11-12T05:10:30+00:00",
-  "summary": "Na A1 prema Dubrovniku vozi se sporije na tri mjesta zbog oštećenih ograda i kolnika. Brodska ljekarna obilazi Olib, Silbu i Premudu, a navečer se u gradu u isti sat otvaraju dva programa.",
-  "image": "https://023.hr/wp-content/uploads/2026/07/20260706170811_939453-scaled.avif",
-  "source": "023 portal",
-  "topics": [
-   "Zadar",
-   "Županija",
-   "Otoci"
-  ],
-  "source_url": "https://023.hr/",
-  "face": null,
-  "face_img": "https://023.hr/wp-content/uploads/2026/07/20260706170811_939453-scaled.avif"
- },
- {
-  "title": "Više od 15 mm kiše u samo dva sata: petak predvečer donosi pljuskove i grmljavinu, a subota sunce",
-  "link": "https://023.hr/2026/11/vise-od-15-mm-kise-u-samo-dva-sata-petak-predvecer-donosi-pljuskove-i-grmljavinu-a-subota-sunce/",
-  "date": "2026-11-12T03:13:18+00:00",
-  "summary": "Jugo danas poslijepodne mjestimice jača do olujnog, a temperatura se ni noću ne spušta ispod 16°C. Pravi preokret stiže sutra u drugom dijelu dana. Četvrtak u Zadru prolazi pod oblacima i uz jugo, koje je na Jadranu umjereno i jako, a poslijepodne mjestimice i olujno.",
-  "image": "https://023.hr/wp-content/uploads/2026/10/20261021121125_835068.avif",
-  "source": "023 portal",
-  "topics": [
-   "Zadar"
-  ],
-  "source_url": "https://023.hr/",
-  "face": null,
-  "face_img": "https://023.hr/wp-content/uploads/2026/10/20261021121125_835068.avif"
- },
- {
-  "title": "REPREZENTACIJA Na popisu Tomislava Mijatovića četvorica Zadrana, dvojica iz KK Zadar",
-  "link": "https://sport023.hr/2026/11/11/reprezentacija-na-popisu-tomislava-mijatovica-cetvorica-zadrana-dvojica-iz-kk-zadar/",
-  "date": "2026-11-11T22:11:00+00:00",
-  "summary": "Izbornik hrvatske muške seniorske košarkaške reprezentacije Tomislav Mijatović objavio je popis 15 igrača za predstojeći kvalifikacijski ciklus za Svjetsko prvenstvo... Objava REPREZENTACIJA Na popisu Tomislava Mijatovića četvorica Zadrana, dvojica iz KK Zadar pojavila se prvi puta na Sport023.",
-  "image": "https://sport023.hr/wp-content/uploads/2024/11/david-skara-ivan-vranes-reprezentacija-hrvatska-18-11-24.jpg",
-  "source": "Sport023",
-  "source_topic": "Sport",
-  "topics": [
-   "Zadar",
-   "Sport"
-  ],
-  "source_url": "https://sport023.hr/",
-  "face": [
-   8.9,
-   43.7,
-   17.4,
-   76.4
-  ],
-  "face_img": "https://sport023.hr/wp-content/uploads/2024/11/david-skara-ivan-vranes-reprezentacija-hrvatska-18-11-24.jpg"
- },
- {
-  "title": "PREGLED DANA Što će biti s cijenama na Adventu, u Zadru otrovana stabla, krenulo čišćenje Šepurina",
-  "link": "https://zadarskilist.novilist.hr/zadar-zupanija/zadar/pregled-dana-sto-ce-biti-s-cijenama-na-adventu-u-zadru-otrovana-stabla-krenulo-ciscenje-sepurina/",
-  "date": "2026-11-11T20:45:45+00:00",
-  "summary": "Donosimo pregled vijesti koje su obilježile dan u Zadru i županiji: Treba li i Zadar ograničiti cijene na Adventu? ‘Ugostitelj ima pravo na cijenu, posjetitelj na izbor’ Kako se bliži Advent, tako se diljem zemlje pripremaju adventski programi koji će upotpuniti doživljaj, ali i adventske teme i dileme kao,…",
-  "image": "https://zadarskilist.novilist.hr/wp-content/uploads/2026/11/5vijesti.jpg",
-  "source": "Zadarski list",
-  "topics": [
-   "Zadar",
-   "Županija"
-  ],
-  "source_url": "https://zadarskilist.novilist.hr/",
-  "face": null,
-  "face_img": "https://zadarskilist.novilist.hr/wp-content/uploads/2026/11/5vijesti.jpg"
  },
  {
   "title": "Movember donosi besplatne urološke preglede u ob Zadar",

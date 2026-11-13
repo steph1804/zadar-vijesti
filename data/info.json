@@ -89,11 +89,11 @@
   },
   {
    "day": "13.11.2026",
-   "place": "Žerava",
-   "street": "Južni dio naselja",
-   "note": "Povremeni prekidi",
-   "time": "11:00 - 14:00",
-   "unplanned": false
+   "place": "Privlaka",
+   "street": "",
+   "note": "predio Blajnovica, kvar na dalekovodu",
+   "time": "18:30 - 23:59",
+   "unplanned": true
   },
   {
    "day": "13.11.2026",
@@ -106,17 +106,25 @@
   {
    "day": "13.11.2026",
    "place": "Zadar",
-   "street": "Diklovac (ul. Romansa, Poljana Dragutina Domjanića, Put Mičića, Krešimirova Obala i Andrije Buvine) - KVAR TRAFOSTANICE",
+   "street": "Pavla Rittera Vitezovića",
    "note": "",
-   "time": "00:00 - 12:00",
+   "time": "08:30 - 11:30",
+   "unplanned": false
+  },
+  {
+   "day": "13.11.2026",
+   "place": "Žerava",
+   "street": "Južni dio naselja",
+   "note": "Povremeni prekidi",
+   "time": "11:00 - 14:00",
    "unplanned": false
   },
   {
    "day": "13.11.2026",
    "place": "Zadar",
-   "street": "Pavla Rittera Vitezovića",
+   "street": "Diklovac (ul. Romansa, Poljana Dragutina Domjanića, Put Mičića, Krešimirova Obala i Andrije Buvine) - KVAR TRAFOSTANICE",
    "note": "",
-   "time": "08:30 - 11:30",
+   "time": "00:00 - 12:00",
    "unplanned": false
   }
  ],
