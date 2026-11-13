@@ -1,5 +1,61 @@
 [
  {
+  "title": "Policija se oglasila o incidentu u Zadru: Vijećnik tvrdi da ga je sedam zaštitara napalo i gušilo",
+  "link": "https://www.vecernji.hr/vijesti/policija-se-oglasila-o-incidentu-u-zadru-vijecnik-tvrdi-da-ga-je-sedam-zastitara-napalo-i-gusilo-2013399",
+  "date": "2026-11-13T20:21:00+00:00",
+  "summary": "Vijećnik tvrdi da su ga pritom fizički napali, udarali i gušili te da se policija nije odazvala na njegova četiri poziva.",
+  "image": "https://www.vecernji.hr/media/img/ef/7f/4a02cd20359218864b5c.jpeg",
+  "source": "Večernji list",
+  "topics": [
+   "Zadar"
+  ],
+  "source_url": "https://www.vecernji.hr/",
+  "face": [
+   0.5,
+   30.8,
+   54.8,
+   65.7
+  ],
+  "face_img": "https://www.vecernji.hr/media/img/ef/7f/4a02cd20359218864b5c.jpeg"
+ },
+ {
+  "title": "Bura zatvorila A1 između Svetog Roka i Posedarja, u prekidu brojne trajektne i katamaranske linije i na zadarskom području",
+  "link": "https://zadarskilist.novilist.hr/novosti/hrvatska/bura-zatvorila-a1-izmedu-svetog-roka-i-posedarja-u-prekidu-brojne-trajektne-i-katamaranske-linije-i-na-zadarskom-podrucju/",
+  "date": "2026-11-13T20:07:34+00:00",
+  "summary": "Zbog vjetra, za sav promet zatvorena je dionica A1 između čvorova Sveti Rok i Posedarje te dionica Jadranske magistrale Karlobag-Sveta Marija Magdalena, upozoravaju u petak navečer iz Hrvatskog autokluba (HAK) dodajući kako su u prekidu i neke trajektne, katamaranske i brodske linije.",
+  "image": "https://zadarskilist.novilist.hr/wp-content/uploads/2026/11/3459466.jpg",
+  "source": "Zadarski list",
+  "topics": [
+   "Zadar",
+   "Županija",
+   "Otoci"
+  ],
+  "source_url": "https://zadarskilist.novilist.hr/",
+  "face": null,
+  "face_img": "https://zadarskilist.novilist.hr/wp-content/uploads/2026/11/3459466.jpg"
+ },
+ {
+  "title": "Don Zbigniew Korcz ispraćen u Zadru, nakon više od 24 godine svećeničke službe bit će pokopan u rodnoj Poljskoj",
+  "link": "https://zadarskilist.novilist.hr/zadar-zupanija/don-zbigniew-korcz-ispracen-u-zadru-nakon-vise-od-24-godine-svecenicke-sluzbe-bit-ce-pokopan-u-rodnoj-poljskoj/",
+  "date": "2026-11-13T19:51:46+00:00",
+  "summary": "Na Gradskom groblju u Zadru održan je posljednji ispraćaj don Zbigniewa Jaceka Korcza, svećenika Zadarske nadbiskupije koji je iznenada preminuo 8. studenoga na otoku Molatu.",
+  "image": "https://zadarskilist.novilist.hr/wp-content/uploads/2026/11/DSC_5018-1280x854-1.jpg",
+  "source": "Zadarski list",
+  "topics": [
+   "Zadar",
+   "Županija",
+   "Otoci"
+  ],
+  "source_url": "https://zadarskilist.novilist.hr/",
+  "face": [
+   32.8,
+   41.1,
+   6.8,
+   13.8
+  ],
+  "face_img": "https://zadarskilist.novilist.hr/wp-content/uploads/2026/11/DSC_5018-1280x854-1.jpg"
+ },
+ {
   "title": "Bura zatvorila A1 od Svetog Roka do Posedarja i magistralu kod Karlobaga, Paški most samo za osobna vozila",
   "link": "https://023.hr/2026/11/bura-zatvorila-a1-od-svetog-roka-do-posedarja-i-magistralu-kod-karlobaga-paski-most-samo-za-osobna-vozila/",
   "date": "2026-11-13T19:25:33+00:00",
@@ -106,7 +162,7 @@
   "title": "Zadar se oprostio od Ivice Zdrilića, studentima je bio više od profesora, a gradu će jako nedostajati",
   "link": "https://zadarskilist.novilist.hr/zadar-zupanija/zadar-se-oprostio-od-ivice-zdrilica-studentima-je-bio-vise-od-profesora-a-gradu-ce-jako-nedostajati/",
   "date": "2026-11-13T18:00:04+00:00",
-  "summary": "Na Sveučilištu u Zadru održana je komemoracija za prof. dr. sc. Ivicu Zdrilića, profesora Odjela za ekonomiju koji je 2. listopada preminuo u 54. godini života nakon kratke i teške bolesti.",
+  "summary": "Komemoracijom u povodu smrti prof. dr. sc.",
   "image": "https://zadarskilist.novilist.hr/wp-content/uploads/2026/11/12475185.jpg",
   "source": "Zadarski list",
   "topics": [
@@ -5078,53 +5134,6 @@
   "source_url": "https://hrturizam.hr/",
   "face": null,
   "face_img": "https://hrturizam.hr/storage/images/2026/11/screenshot-2026-11-12-at-08-800x600.jpg"
- },
- {
-  "title": "NOVA PROČELJA Obnova na devet adresa, prva zgrada već zasjala u novom ruhu",
-  "link": "https://www.antenazadar.hr/clanak/2026/11/nova-procelja-obnova-na-devet-adresa-prva-zgrada-vec-zasjala-u-novom-ruhu/",
-  "date": "2026-11-12T07:19:58+00:00",
-  "summary": "Započela je obnova pročelja stambenih zgrada u povijesnoj jezgri Zadra. Prvi završeni radovi u Ulici Elizabete Kotromanić već su vidljivi, a uklanjanjem skele otkriveno je obnovljeno pročelje.",
-  "image": "https://www.antenazadar.hr/wp-content/uploads/2026/11/IMG_7343.jpeg",
-  "source": "Antena Zadar",
-  "topics": [
-   "Zadar"
-  ],
-  "source_url": "https://www.antenazadar.hr/",
-  "face": null,
-  "face_img": "https://www.antenazadar.hr/wp-content/uploads/2026/11/IMG_7343.jpeg"
- },
- {
-  "title": "Gotovo 20 godina fotografira buru, a sada je njezine najljepše prizore predstavio u Zadru",
-  "link": "https://zadarskilist.novilist.hr/ostalo/gotovo-20-godina-fotografira-buru-a-sada-je-njezine-najljepse-prizore-predstavio-u-zadru/",
-  "date": "2026-11-12T07:14:49+00:00",
-  "summary": "Krunoslav Rac uspio je barem nakratko zaustaviti buru. U 23 fotografska kadra, predstavljena na izložbi »Bura« u Gradskoj loži, zabilježio je različita lica vjetra duboko utkanog u život uz obalu – od dojmljivih prizora koje stvara na moru do njegove nepredvidive snage i utjecaja na svakodnevicu i živi svijet.",
-  "image": "https://zadarskilist.novilist.hr/wp-content/uploads/2026/11/ipiccy_image-3-1.jpg",
-  "source": "Zadarski list",
-  "topics": [
-   "Zadar"
-  ],
-  "source_url": "https://zadarskilist.novilist.hr/",
-  "face": [
-   21.9,
-   43.2,
-   68.6,
-   76.5
-  ],
-  "face_img": "https://zadarskilist.novilist.hr/wp-content/uploads/2026/11/ipiccy_image-3-1.jpg"
- },
- {
-  "title": "Poluotok dobiva nova pročelja: Obnova na devet adresa, prva zgrada već zasjala u novom ruhu",
-  "link": "https://www.grad-zadar.hr/vijest/opce-vijesti-28/poluotok-dobiva-nova-procelja-obnova-na-devet-adresa-prva-zgrada-vec-zasjala-u-novom-ruhu-10130.html",
-  "date": "2026-11-12T07:08:00+00:00",
-  "summary": "Riječ je o početku sustavnijeg uređenja zgrada na Poluotoku, koje Grad Zadar potiče posebnim programom bespovratnog sufinanciranja.",
-  "image": "https://www.grad-zadar.hr/data/images/image/grad550x325/35501/Untitled%2Bdesign.png",
-  "source": "Grad Zadar",
-  "topics": [
-   "Zadar"
-  ],
-  "source_url": "https://www.grad-zadar.hr/",
-  "face": null,
-  "face_img": "https://www.grad-zadar.hr/data/images/image/grad550x325/35501/Untitled%2Bdesign.png"
  },
  {
   "title": "Movember donosi besplatne urološke preglede u ob Zadar",
