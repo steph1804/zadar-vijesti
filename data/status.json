@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-13T09:15:57.991762+00:00",
+ "updated": "2026-11-13T09:30:56.747134+00:00",
  "sources": [
   {
    "name": "Antena Zadar",
@@ -89,7 +89,7 @@
   },
   {
    "name": "HRT Radio Zadar",
-   "count": 13,
+   "count": 12,
    "ok": true,
    "feed": null,
    "errors": []
@@ -159,8 +159,8 @@
   },
   {
    "name": "Večernji list",
-   "count": 1,
-   "ok": true,
+   "count": 0,
+   "ok": false,
    "feed": null,
    "errors": []
   },
