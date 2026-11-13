@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-13T22:18:34.290125+00:00",
+ "updated": "2026-11-13T22:31:00.335608+00:00",
  "sources": [
   {
    "name": "Antena Zadar",
@@ -66,12 +66,10 @@
   },
   {
    "name": "Naši školji",
-   "count": 0,
-   "ok": false,
+   "count": 10,
+   "ok": true,
    "feed": null,
-   "errors": [
-    "https://www.nasiskolji.hr/feed/: <urlopen error timed out>"
-   ]
+   "errors": []
   },
   {
    "name": "Grad Zadar",
@@ -145,7 +143,7 @@
   },
   {
    "name": "Index.hr",
-   "count": 3,
+   "count": 2,
    "ok": true,
    "feed": null,
    "errors": []
@@ -243,10 +241,12 @@
   },
   {
    "name": "Sportklub",
-   "count": 30,
-   "ok": true,
+   "count": 0,
+   "ok": false,
    "feed": null,
-   "errors": []
+   "errors": [
+    "https://sportklub.hr/?s=zadar&feed=rss2: HTTP Error 500: Internal Server Error"
+   ]
   },
   {
    "name": "Dalmacija News",
