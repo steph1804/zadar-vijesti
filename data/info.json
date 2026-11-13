@@ -122,6 +122,10 @@
  ],
  "water": [
   {
+   "day": "2026-11-13",
+   "text": "Obavještavamo potrošače da je zbog obilnijih oborina došlo do zamućenja vode u dijelovima   vodoopskrbnog sustava koji se snabdijeva sa crpilišta Dolac, Muškovci, zbog čega se preporuča   preventivno prokuhavanje vode za piće za bolesne i osjetljive osobe, malu djecu i stariju populaciju.   Osim mutnoće, svi ostali pokazatelji zdravstvene ispravnosti vode za ljudsku potrošnju   sukladni su važećim zakonskim propisima.   Voda je pod stalnom kontrolom laboratorija Vodovoda d.o.o. Zadar i Zavoda za javno zdravstvo Zadar."
+  },
+  {
    "day": "2026-11-11",
    "text": "Zbog radova na vodoopskrbnom sustavu, u četvrtak 12. 11. 2026., u vremenu od 08:00 do 12:00 sati, opskrba vodom će biti privremeno obustavljena u mjestu Privlaka, u sljedećim ulicama:  • Ivana Vučetića  • Ruđera Boškovića  • Vladimira Preloga  • Nikole Tesle  • Fausta Vrančića  • Put Gornjih Begonjića  • Put Donjih Begonjića    U slučaju nepovoljnih vremenskih uvjeta radovi se odgađaju."
   },
@@ -140,10 +144,6 @@
   {
    "day": "2026-11-05",
    "text": "Zbog intervencije na javnom sustavu odvodnje u Rapskoj ulici Zadar, za promet će biti zatvorena jedna kolnička traka. Vrijeme izvođenja radova od 05.11.2026 do 06.11.2026. g."
-  },
-  {
-   "day": "2026-11-04",
-   "text": "Zbog radova na vodoopskrbnom sustavu, u četvrtak 05. 11. 2026., u vremenu od 09:00 do 11:00 sati, opskrba vodom će biti privremeno obustavljena u gradu Zadru, u sljedećim ulicama:  • Josipa Jurja Strossmayera  • Brodarska ulica  • Prilaz Stara Voštarnica  • Ivana Brkanovića"
   }
  ],
  "reddit": [
