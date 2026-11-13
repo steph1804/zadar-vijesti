@@ -1,5 +1,43 @@
 [
  {
+  "title": "U JESENSKOM IZDANJU Glazbeni studio Libreto snimio novu verziju pjesme „Volim osmijeh tvoj”",
+  "link": "https://www.antenazadar.hr/clanak/2026/11/u-jesenskom-izdanju-glazbeni-studio-libreto-snimio-novu-verziju-pjesme-volim-osmijeh-tvoj/",
+  "date": "2026-11-13T19:00:46+00:00",
+  "summary": "Dječji zbor Libretići, u sastavu Mlađe i Starije skupine Glazbenog studija Libreto iz Zadra, krajem listopada snimio je audio i videospot za jednu od najpoznatijih i najomiljenijih domaćih pop-pjesama – „Volim osmijeh tvoj”, a koju u originalu izvode Toše Proeski i Antonija Šola.",
+  "image": "https://www.antenazadar.hr/wp-content/uploads/2026/11/Mediji-35-e1794586387567.jpg",
+  "source": "Antena Zadar",
+  "topics": [
+   "Zadar"
+  ],
+  "source_url": "https://www.antenazadar.hr/",
+  "face": [
+   23.9,
+   47.8,
+   11.9,
+   83.7
+  ],
+  "face_img": "https://www.antenazadar.hr/wp-content/uploads/2026/11/Mediji-35-e1794586387567.jpg"
+ },
+ {
+  "title": "Od Nina i zadarskih otoka do Italije: nastaje nova karta jadranskih okusa",
+  "link": "https://ezadar.net.hr/info/3590741/od-nina-i-zadarskih-otoka-do-italije-nastaje-nova-karta-jadranskih-okusa/",
+  "date": "2026-11-13T18:33:00+00:00",
+  "summary": "Od lokalnih okusa do zajedničke jadranske priče: projekt AdriFLAVOUR povezuje gastronomiju, kulturnu baštinu i održivi turizam U Kneževoj palači u Zadru 12. studenoga 2026. godine održana je početna konferencija projekta",
+  "image": "https://cdn-ezadar.net.hr/wp-content/uploads/adriflavour-48-c92fb94cdceb5451d8fbe28b-1052x696.jpg",
+  "source": "eZadar",
+  "topics": [
+   "Zadar"
+  ],
+  "source_url": "https://ezadar.net.hr/",
+  "face": [
+   39.9,
+   52.3,
+   8.6,
+   95.8
+  ],
+  "face_img": "https://cdn-ezadar.net.hr/wp-content/uploads/adriflavour-48-c92fb94cdceb5451d8fbe28b-1052x696.jpg"
+ },
+ {
   "title": "Stablo se srušilo na cestu od Supernove prema gradu, promet prema Bulevaru u kolapsu",
   "link": "https://023.hr/2026/11/stablo-se-srusilo-na-cestu-od-supernove-prema-gradu-promet-prema-bulevaru-u-kolapsu/",
   "date": "2026-11-13T18:16:41+00:00",
@@ -116,6 +154,20 @@
   "source_url": "https://www.vecernji.hr/",
   "face": null,
   "face_img": "https://www.vecernji.hr/media/img/ec/c4/4f6a6fbbdb5a9ea85815.jpeg"
+ },
+ {
+  "title": "Dionica A1 zatvorena za sva vozila zbog orkanske bure, na A6 su opasni zimski uvjeti",
+  "link": "https://www.tportal.hr/vijesti/clanak/dionica-a1-zatvorena-za-sva-vozila-zbog-orkanske-bure-na-a6-su-opasni-zimski-uvjeti-20261113",
+  "date": "2026-11-13T17:34:00+00:00",
+  "summary": "Zbog bure i zimskih uvjeta niz cesta prema obali zatvoren je ili otvoren uz ograničenja. Autocestom A1 između Svetog Roka i Posedarja ne može prometovati nijedno vozilo, dok je dionica A6 između Kikovice i Delnica otvorena samo za osobne automobile, izvijestio je HAK.",
+  "image": "https://www.tportal.hr/media/thumbnail/500x300/2827078.jpeg?cropId=0",
+  "source": "tportal",
+  "topics": [
+   "Županija"
+  ],
+  "source_url": "https://www.tportal.hr/",
+  "face": null,
+  "face_img": "https://www.tportal.hr/media/thumbnail/500x300/2827078.jpeg?cropId=0"
  },
  {
   "title": "Imamo aplikacije za sve, ali snalazimo li se u njima? Evo kako stoji Zadar u velikoj analizi digitalnih usluga",
@@ -284,25 +336,6 @@
    56.0
   ],
   "face_img": "https://zadarskilist.novilist.hr/wp-content/uploads/2026/11/10416260.jpg"
- },
- {
-  "title": "Radeta progovorio o nasilnom izbacivanju iz vijećnice: 'Kao 'Vučićevi batinaši'",
-  "link": "https://www.tportal.hr/vijesti/clanak/radeta-najavljuje-prijave-zbog-izbacivanja-iz-vijecnice-kao-vucicevi-batinasi-20261113",
-  "date": "2026-11-13T16:24:00+00:00",
-  "summary": "Nezavisni zadarski vijećnik Daniel Radeta najavljuje prijave protiv Grada nakon što ga je sedam zaštitara izbacilo iz Velike vijećnice. Tvrdi da je ozlijeđen i da mu je uskraćeno pravo na govor, dok gradonačelnik Šime Erlić poručuje da su zaštitari postupali profesionalno, uz minimalnu uporabu sile.",
-  "image": "https://www.tportal.hr/media/thumbnail/500x300/2827053.jpeg?cropId=0",
-  "source": "tportal",
-  "topics": [
-   "Zadar"
-  ],
-  "source_url": "https://www.tportal.hr/",
-  "face": [
-   17.0,
-   60.5,
-   16.2,
-   31.0
-  ],
-  "face_img": "https://www.tportal.hr/media/thumbnail/500x300/2827053.jpeg?cropId=0"
  },
  {
   "title": "Zadar očima najmlađih: pošaljite nam svoje radove i postanite dio posebne priče!",
@@ -5090,39 +5123,6 @@
   "source_url": "https://zadarskilist.novilist.hr/",
   "face": null,
   "face_img": "https://zadarskilist.novilist.hr/wp-content/uploads/2026/11/ipiccy_image-4-1.jpg"
- },
- {
-  "title": "DHMZ: Povremeno s kišom, mjestimice obilna oborina",
-  "link": "https://zadarskilist.novilist.hr/zadar-zupanija/dhmz-povremeno-s-kisom-mjestimice-obilna-oborina/",
-  "date": "2026-11-12T06:11:40+00:00",
-  "summary": "Pretežno oblačno, povremeno s kišom. U Gorskom kotaru te na sjevernom Jadranu mjestimice obilna oborina, navečer može biti i grmljavine, prognozira Državni hidrometeorološki zavod (DHMZ). Sunčana razdoblja moguća su u Dalmaciji.",
-  "image": "https://zadarskilist.novilist.hr/wp-content/uploads/2025/12/11678012.jpg",
-  "source": "Zadarski list",
-  "topics": [
-   "Zadar"
-  ],
-  "source_url": "https://zadarskilist.novilist.hr/",
-  "face": null,
-  "face_img": "https://zadarskilist.novilist.hr/wp-content/uploads/2025/12/11678012.jpg"
- },
- {
-  "title": "OD RATNIH SKLONIŠTA DO POZORNICA Zadarski plesni ansambl proslavio 35 godina, ali i dalje se bori s istim izazovima",
-  "link": "https://zadarskilist.novilist.hr/ostalo/scena/od-ratnih-sklonista-do-pozornica-zadarski-plesni-ansambl-proslavio-35-godina-ali-i-dalje-se-bori-s-istim-izazovima/",
-  "date": "2026-11-12T06:00:40+00:00",
-  "summary": "Najstariji ansambl suvremenog plesa u Dalmaciji, Zadarski plesni ansambl (ZPA), obilježio je 35 godina umjetničkog rada i djelovanja prigodnim programom u Kazalištu lutaka Zadar (KLZ).",
-  "image": "https://zadarskilist.novilist.hr/wp-content/uploads/2026/11/12473689.jpg",
-  "source": "Zadarski list",
-  "topics": [
-   "Zadar"
-  ],
-  "source_url": "https://zadarskilist.novilist.hr/",
-  "face": [
-   20.7,
-   35.4,
-   11.1,
-   80.5
-  ],
-  "face_img": "https://zadarskilist.novilist.hr/wp-content/uploads/2026/11/12473689.jpg"
  },
  {
   "title": "Movember donosi besplatne urološke preglede u ob Zadar",
