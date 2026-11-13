@@ -1,16 +1,16 @@
 {
  "Jadrolinija": [
   {
-   "title": "Linije u prekidu, 13.11.2026.",
-   "link": "https://www.jadrolinija.hr/news-single/linije-u-prekidu--13112026",
-   "date": "2026-11-12T08:04:00+00:00",
-   "summary": "Red plovidbe u petak, 13.11.2026."
-  },
-  {
    "title": "Linije u prekidu, 14.11.2026",
    "link": "https://www.jadrolinija.hr/news-single/linije-u-prekidu-14112026",
    "date": "2026-11-13T10:38:00+00:00",
    "summary": "Red plovidbe u subotu 14.11.2026"
+  },
+  {
+   "title": "Linije u prekidu, 13.11.2026.",
+   "link": "https://www.jadrolinija.hr/news-single/linije-u-prekidu--13112026",
+   "date": "2026-11-12T08:04:00+00:00",
+   "summary": "Red plovidbe u petak, 13.11.2026."
   }
  ],
  "buses": [
@@ -146,48 +146,7 @@
    "text": "Zbog intervencije na javnom sustavu odvodnje u Rapskoj ulici Zadar, za promet će biti zatvorena jedna kolnička traka. Vrijeme izvođenja radova od 05.11.2026 do 06.11.2026. g."
   }
  ],
- "reddit": [
-  {
-   "title": "Medicinska pedikura u Zadru?",
-   "link": "https://www.reddit.com/r/Zadar/comments/1xutlxs/medicinska_pedikura_u_zadru/",
-   "date": "2026-11-13T00:33:06+00:00"
-  },
-  {
-   "title": "Igra tko Mobile Legends?",
-   "link": "https://www.reddit.com/r/Zadar/comments/1xucser/igra_tko_mobile_legends/",
-   "date": "2026-11-12T13:29:54+00:00"
-  },
-  {
-   "title": "Semafor na Bokanjcu kod Ninaja",
-   "link": "https://www.reddit.com/r/Zadar/comments/1xu88u6/semafor_na_bokanjcu_kod_ninaja/",
-   "date": "2026-11-12T09:18:30+00:00"
-  },
-  {
-   "title": "Opticki internet",
-   "link": "https://www.reddit.com/r/Zadar/comments/1xtv9jt/opticki_internet/",
-   "date": "2026-11-11T22:10:16+00:00"
-  },
-  {
-   "title": "Posao",
-   "link": "https://www.reddit.com/r/Zadar/comments/1xtfgxi/posao/",
-   "date": "2026-11-11T11:32:41+00:00"
-  },
-  {
-   "title": "Vodovod",
-   "link": "https://www.reddit.com/r/Zadar/comments/1xtcgsc/vodovod/",
-   "date": "2026-11-11T08:23:51+00:00"
-  },
-  {
-   "title": "Braćo brata sprovodimo",
-   "link": "https://www.reddit.com/r/Zadar/comments/1xssdwu/braćo_brata_sprovodimo/",
-   "date": "2026-11-10T17:05:52+00:00"
-  },
-  {
-   "title": "Studij logipedije ZD",
-   "link": "https://www.reddit.com/r/Zadar/comments/1xsp0hv/studij_logipedije_zd/",
-   "date": "2026-11-10T14:58:19+00:00"
-  }
- ],
+ "reddit": null,
  "retro": [
   {
    "title": "2. studenoga 1943.: Zadar u zapisima nakon bombardiranja",
