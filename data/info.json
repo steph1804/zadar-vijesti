@@ -75,11 +75,11 @@
  "power": [
   {
    "day": "13.11.2026",
-   "place": "Zadar",
-   "street": "Diklovac (ul. Romansa, Poljana Dragutina Domjanića, Put Mičića, Krešimirova Obala i Andrije Buvine) - KVAR TRAFOSTANICE",
-   "note": "",
-   "time": "00:00 - 12:00",
-   "unplanned": false
+   "place": "Ždrelac",
+   "street": "",
+   "note": "predio ograde",
+   "time": "08:45 - 10:30",
+   "unplanned": true
   },
   {
    "day": "13.11.2026",
@@ -95,6 +95,14 @@
    "street": "Obala Kneza Branimira",
    "note": "Povremeni prekidi",
    "time": "08:00 - 11:00",
+   "unplanned": false
+  },
+  {
+   "day": "13.11.2026",
+   "place": "Zadar",
+   "street": "Diklovac (ul. Romansa, Poljana Dragutina Domjanića, Put Mičića, Krešimirova Obala i Andrije Buvine) - KVAR TRAFOSTANICE",
+   "note": "",
+   "time": "00:00 - 12:00",
    "unplanned": false
   },
   {
