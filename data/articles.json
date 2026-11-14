@@ -187,11 +187,27 @@
   "face_img": "https://sportklub.hr/wp-content/uploads/2026/11/11/1794429095-split-1200x800.webp"
  },
  {
+  "title": "DRAMA U JAZINAMA Mario Fantina u posljednjim sekundama produžetka donio pobjedu Puntamičanima",
+  "link": "https://sport023.hr/2026/11/14/drama-u-jazinama-puntamika-crikvenica/",
+  "date": "2026-11-14T20:00:00+00:00",
+  "summary": "U 6. kolu Prve muške lige košarkaši Aleta Puntamike slavili su protiv Crikvenice rezultatom 82:80 nakon produžetka u dramatičnoj utakmici... Objava DRAMA U JAZINAMA Mario Fantina u posljednjim sekundama produžetka donio pobjedu Puntamičanima pojavila se prvi puta na Sport023.",
+  "image": "https://sport023.hr/wp-content/uploads/2026/11/kk-puntamika-crikvenica-14-11-26.jpg",
+  "source": "Sport023",
+  "source_topic": "Sport",
+  "topics": [
+   "Zadar",
+   "Sport"
+  ],
+  "source_url": "https://sport023.hr/",
+  "face": null,
+  "face_img": "https://sport023.hr/wp-content/uploads/2026/11/kk-puntamika-crikvenica-14-11-26.jpg"
+ },
+ {
   "title": "Modrićev Zadar u Krešinom domu srušio trideset puta skuplji euroligaški Partizan",
   "link": "https://www.jutarnji.hr/sportske/kosarka/aba-liga/zadar-u-kresinom-domu-srusio-partizan-i-nanio-mu-prvi-poraz-sezone-15765495",
   "date": "2026-11-14T19:51:00+00:00",
   "summary": "Zadar - Partizan 81:74 (27:23, 26:10, 11:16, 17:25) ZADAR Dvorana Krešimira Ćosića. Gledatelja 5.500. Suci: Kaluđerović, Popović i Vujović (Crna Gora).",
-  "image": "https://media.jutarnji.hr/images/slike/2026/11/14/f_39966810_1280.jpg?1794690908",
+  "image": "https://media.jutarnji.hr/images/slike/2026/11/14/f_39966810_1280.jpg?1794691853",
   "source": "Sportske novosti",
   "source_topic": "Sport",
   "topics": [
@@ -205,7 +221,7 @@
    5.0,
    87.7
   ],
-  "face_img": "https://media.jutarnji.hr/images/slike/2026/11/14/f_39966810_1280.jpg?1794690908"
+  "face_img": "https://media.jutarnji.hr/images/slike/2026/11/14/f_39966810_1280.jpg?1794691853"
  },
  {
   "title": "Zadar je na Višnjiku ugostio Partizan, a u Beograd su se gosti vratili praznih ruku",
@@ -468,6 +484,22 @@
    59.8
   ],
   "face_img": "https://www.dalmacijadanas.hr/wp-content/uploads/2026/11/storije-o-spize-1200x675.jpg"
+ },
+ {
+  "title": "PRVA MUŠKA LIGA Badrak, Šarić, Obeng i Porobić predvodili Jazine do pobjede u Novom Zagrebu",
+  "link": "https://sport023.hr/2026/11/14/prva-muska-liga-novi-zagreb-jazine/",
+  "date": "2026-11-14T19:01:00+00:00",
+  "summary": "U 6. kolu Prve muške lige košarkaši Jazina Arbanasa ostvarili su vrijednu gostujuću pobjedu protiv Novog Zagreba rezultatom 65:76. Zadrani... Objava PRVA MUŠKA LIGA Badrak, Šarić, Obeng i Porobić predvodili Jazine do pobjede u Novom Zagrebu pojavila se prvi puta na Sport023.",
+  "image": "https://sport023.hr/wp-content/uploads/2026/11/kk-novi-zagreb-kk-jazine-14-11-26.jpg",
+  "source": "Sport023",
+  "source_topic": "Sport",
+  "topics": [
+   "Zadar",
+   "Sport"
+  ],
+  "source_url": "https://sport023.hr/",
+  "face": null,
+  "face_img": "https://sport023.hr/wp-content/uploads/2026/11/kk-novi-zagreb-kk-jazine-14-11-26.jpg"
  },
  {
   "title": "Trčanjem i bicikliranjem odaju počast žrtvama Škabrnje i Vukovara",
@@ -807,7 +839,7 @@
   "link": "https://www.jutarnji.hr/vijesti/hrvatska/djevojcica-iz-skabrnje-je-nacrtala-jeziv-prizor-lijecnik-ga-je-cuvao-35-godina-pomozite-nam-da-je-nademo-15765435",
   "date": "2026-11-14T14:31:13+00:00",
   "summary": "Jedan dječji crtež, nastao nakon tragedije koja je zauvijek obilježila Škabrnju, gotovo 35 godina čuvao je zadarski liječnik. Nacrtala ga je djevojčica koja je tada imala samo sedam ili osam godina, a ono što je stavila na papir i danas izaziva jezu. Sada je žele pronaći, piše Slobodna Dalmacija. --...",
-  "image": "https://media.jutarnji.hr/images/slike/2026/11/14/f_39964753_1280.jpg?1794689888",
+  "image": "https://media.jutarnji.hr/images/slike/2026/11/14/f_39964753_1280.jpg?1794691704",
   "source": "Jutarnji list",
   "topics": [
    "Zadar",
@@ -815,7 +847,7 @@
   ],
   "source_url": "https://www.jutarnji.hr/",
   "face": null,
-  "face_img": "https://media.jutarnji.hr/images/slike/2026/11/14/f_39964753_1280.jpg?1794689888"
+  "face_img": "https://media.jutarnji.hr/images/slike/2026/11/14/f_39964753_1280.jpg?1794691704"
  },
  {
   "title": "Zadar se s uvjerljivom pobjedom vratio na travnjak Višnjika i učvrstio na vrhu tablice",
@@ -5225,45 +5257,6 @@
    99.5
   ],
   "face_img": "https://api.hrt.hr/media/ab/10/dad034c2-1696-4882-ab36-b2aaec089f8d-20261112153238.webp"
- },
- {
-  "title": "Miljenik zadarskih navijača otkrio što ga najviše smeta u Zadru: ‘Osjećam se kao kod kuće, ali…’",
-  "link": "https://zadarskilist.novilist.hr/sport/kk-zadar/miljenik-zadarskih-navijaca-otkrio-sto-ga-najvise-smeta-u-zadru-osjecam-se-kao-kod-kuce-ali/",
-  "date": "2026-11-12T15:30:25+00:00",
-  "summary": "Crnogorski košarkaš Vladimir Mihailović, član Košarkaškog kluba Zadar, gostovao je na Novom radiju u emisiji „Jutro je utroje“ gdje je otvoreno govorio o životu u Zadru, odnosu s navijačima, košarkaškoj karijeri, ozljedama i izazovima oporavka.",
-  "image": "https://zadarskilist.novilist.hr/wp-content/uploads/2026/11/12201388.jpg",
-  "source": "Zadarski list",
-  "topics": [
-   "Zadar",
-   "Sport"
-  ],
-  "source_url": "https://zadarskilist.novilist.hr/",
-  "face": [
-   13.6,
-   67.2,
-   37.3,
-   97.3
-  ],
-  "face_img": "https://zadarskilist.novilist.hr/wp-content/uploads/2026/11/12201388.jpg"
- },
- {
-  "title": "Nakon Mocira slijedi uređenje Jazina, Žilavec: Dvorana zahtijeva dosta obnove",
-  "link": "https://ezadar.net.hr/info/3590684/nakon-mocira-slijedi-uredenje-jazina-zilavec-dvorana-zahtijeva-dosta-obnove/",
-  "date": "2026-11-12T15:22:35+00:00",
-  "summary": "Dvorana Mocire završila je prvu fazu obnove vrijednu 352 tisuće eura, Dvorana Jazine zahtijeva opsežne zahvate, a u planu su i nova ulaganja u sportsku infrastrukturu.",
-  "image": "https://cdn-ezadar.net.hr/wp-content/uploads/125fa16b233c98a695f2c904090abe2c-view_article_new-dd362e0d66943302ce1cf202.jpg",
-  "source": "eZadar",
-  "topics": [
-   "Zadar"
-  ],
-  "source_url": "https://ezadar.net.hr/",
-  "face": [
-   0.0,
-   63.2,
-   31.1,
-   55.3
-  ],
-  "face_img": "https://cdn-ezadar.net.hr/wp-content/uploads/125fa16b233c98a695f2c904090abe2c-view_article_new-dd362e0d66943302ce1cf202.jpg"
  },
  {
   "title": "Rudan Hotels & Camps nastavlja investicijski ciklus: Oko 15 milijuna eura za obnovu hotela i kampova u Dalmaciji",
