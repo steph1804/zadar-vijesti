@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-14T20:01:10.973349+00:00",
+ "updated": "2026-11-14T20:07:46.128092+00:00",
  "sources": [
   {
    "name": "Antena Zadar",
@@ -10,7 +10,7 @@
   },
   {
    "name": "Zadarski list",
-   "count": 4,
+   "count": 3,
    "ok": true,
    "feed": null,
    "errors": []
@@ -250,7 +250,7 @@
   },
   {
    "name": "Dalmacija News",
-   "count": 6,
+   "count": 7,
    "ok": true,
    "feed": null,
    "errors": []
