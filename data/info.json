@@ -70,9 +70,62 @@
    "act": "",
    "status": "",
    "gate": ""
+  },
+  {
+   "dir": "odlazak",
+   "flight": "OU4674",
+   "airline": "Croatia Airlines",
+   "city": "Munich",
+   "via": "",
+   "time": "2026-11-16T06:30:00",
+   "est": "2026-11-16T06:30:00",
+   "act": "",
+   "status": "",
+   "gate": ""
+  },
+  {
+   "dir": "dolazak",
+   "flight": "OU4675",
+   "airline": "Croatia Airlines",
+   "city": "Munich",
+   "via": "",
+   "time": "2026-11-16T15:10:00",
+   "est": "2026-11-16T15:10:00",
+   "act": "",
+   "status": "",
+   "gate": ""
+  },
+  {
+   "dir": "odlazak",
+   "flight": "OU674",
+   "airline": "Croatia Airlines",
+   "city": "Zagreb",
+   "via": "Pula",
+   "time": "2026-11-16T15:40:00",
+   "est": "2026-11-16T15:40:00",
+   "act": "",
+   "status": "",
+   "gate": ""
   }
  ],
- "power": [],
+ "power": [
+  {
+   "day": "16.11.2026",
+   "place": "Zadar",
+   "street": "Rampada",
+   "note": "",
+   "time": "08:30 - 12:00",
+   "unplanned": false
+  },
+  {
+   "day": "16.11.2026",
+   "place": "Petrčane",
+   "street": "Punta Radman",
+   "note": "Povremeni prekidi",
+   "time": "08:30 - 12:00",
+   "unplanned": false
+  }
+ ],
  "water": [
   {
    "day": "2026-11-13",
@@ -418,7 +471,7 @@
  ],
  "videos": {
   "v": 2,
-  "fetched": "2026-11-14T22:03:33.072312+00:00",
+  "fetched": "2026-11-14T23:01:40.181247+00:00",
   "items": [
    {
     "id": "77WYoRm2jgk",
