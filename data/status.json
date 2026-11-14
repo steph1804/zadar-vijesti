@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-14T19:45:44.455823+00:00",
+ "updated": "2026-11-14T20:01:10.973349+00:00",
  "sources": [
   {
    "name": "Antena Zadar",
@@ -145,22 +145,22 @@
   },
   {
    "name": "Index.hr",
-   "count": 1,
+   "count": 2,
    "ok": true,
    "feed": null,
    "errors": []
   },
   {
    "name": "Jutarnji list",
-   "count": 1,
+   "count": 2,
    "ok": true,
    "feed": null,
    "errors": []
   },
   {
    "name": "Večernji list",
-   "count": 0,
-   "ok": false,
+   "count": 1,
+   "ok": true,
    "feed": null,
    "errors": []
   },
@@ -187,8 +187,8 @@
   },
   {
    "name": "Telegram",
-   "count": 0,
-   "ok": false,
+   "count": 1,
+   "ok": true,
    "feed": null,
    "errors": []
   },
@@ -278,8 +278,8 @@
   },
   {
    "name": "Sportske novosti",
-   "count": 0,
-   "ok": false,
+   "count": 1,
+   "ok": true,
    "feed": null,
    "errors": []
   },
