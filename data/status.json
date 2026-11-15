@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-15T19:31:01.001242+00:00",
+ "updated": "2026-11-15T19:45:45.719485+00:00",
  "sources": [
   {
    "name": "Antena Zadar",
@@ -187,8 +187,8 @@
   },
   {
    "name": "Telegram",
-   "count": 0,
-   "ok": false,
+   "count": 1,
+   "ok": true,
    "feed": null,
    "errors": []
   },
@@ -229,7 +229,7 @@
   },
   {
    "name": "Dalmacija Danas",
-   "count": 11,
+   "count": 10,
    "ok": true,
    "feed": null,
    "errors": []
@@ -254,6 +254,7 @@
    "ok": false,
    "feed": null,
    "errors": [
+    "https://www.dalmacijanews.hr/feed/: The read operation timed out",
     "https://www.dalmacijanews.hr/?s=zadar&feed=rss2: The read operation timed out"
    ]
   },
