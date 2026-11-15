@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-15T08:31:02.389118+00:00",
+ "updated": "2026-11-15T08:45:43.518908+00:00",
  "sources": [
   {
    "name": "Antena Zadar",
@@ -70,7 +70,7 @@
    "ok": false,
    "feed": null,
    "errors": [
-    "https://www.nasiskolji.hr/feed/: <urlopen error timed out>"
+    "https://www.nasiskolji.hr/feed/: <urlopen error [Errno 111] Connection refused>"
    ]
   },
   {
