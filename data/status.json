@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-15T08:45:43.518908+00:00",
+ "updated": "2026-11-15T09:00:19.533325+00:00",
  "sources": [
   {
    "name": "Antena Zadar",
@@ -66,12 +66,10 @@
   },
   {
    "name": "Naši školji",
-   "count": 0,
-   "ok": false,
+   "count": 10,
+   "ok": true,
    "feed": null,
-   "errors": [
-    "https://www.nasiskolji.hr/feed/: <urlopen error [Errno 111] Connection refused>"
-   ]
+   "errors": []
   },
   {
    "name": "Grad Zadar",
@@ -89,7 +87,7 @@
   },
   {
    "name": "HRT Radio Zadar",
-   "count": 12,
+   "count": 11,
    "ok": true,
    "feed": null,
    "errors": []

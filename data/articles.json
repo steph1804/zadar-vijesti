@@ -1,5 +1,63 @@
 [
  {
+  "title": "Upravljao automobilom s nepripadajućim registarskim oznakama",
+  "link": "https://zadarska-policija.gov.hr/vijesti/upravljao-automobilom-s-nepripadajucim-registarskim-oznakama/18862",
+  "date": "2026-11-15T09:00:19.533325+00:00",
+  "summary": "Zbog kaznenog djela Krivotvorenje isprava policija protiv vozača podnosi kaznenu prijavu",
+  "image": "https://zadarska-policija.gov.hr/UserDocsImages//2022/POLICIJA/POLICIJA%206.jpg",
+  "source": "Policija Zadar",
+  "topics": [],
+  "source_url": "https://zadarska-policija.gov.hr/vijesti/8",
+  "face": null,
+  "face_img": "https://zadarska-policija.gov.hr/UserDocsImages//2022/POLICIJA/POLICIJA%206.jpg"
+ },
+ {
+  "title": "U prometnoj nesreći ozlijeđen motociklist",
+  "link": "https://zadarska-policija.gov.hr/vijesti/u-prometnoj-nesreci-ozlijedjen-motociklist-18861/18861",
+  "date": "2026-11-15T09:00:19.533325+00:00",
+  "summary": "Na mjestu događaja policijski službenici su proveli očevid",
+  "image": "https://zadarska-policija.gov.hr/UserDocsImages//2022/POLICIJA/policija%20natpis2.jpg",
+  "source": "Policija Zadar",
+  "topics": [],
+  "source_url": "https://zadarska-policija.gov.hr/vijesti/8",
+  "face": null,
+  "face_img": "https://zadarska-policija.gov.hr/UserDocsImages//2022/POLICIJA/policija%20natpis2.jpg"
+ },
+ {
+  "title": "Sažetak dnevnih događanja PU zadarske, 15. 11.",
+  "link": "https://zadarska-policija.gov.hr/vijesti/sazetak-dnevnih-dogadjanja-18860/18860",
+  "date": "2026-11-15T09:00:19.533325+00:00",
+  "summary": "",
+  "image": "https://zadarska-policija.gov.hr/UserDocsImages//2023/POLICIJA/pol.%20auto%2023.jpg",
+  "source": "Policija Zadar",
+  "topics": [
+   "Zadar"
+  ],
+  "source_url": "https://zadarska-policija.gov.hr/vijesti/8",
+  "face": null,
+  "face_img": "https://zadarska-policija.gov.hr/UserDocsImages//2023/POLICIJA/pol.%20auto%2023.jpg"
+ },
+ {
+  "title": "Na Ugljanu su pacijenti vezani i po 10 sati! Ravnatelj objasnio kako sve funkcionira: ‘Obilaze se svakih 10 minuta...‘",
+  "link": "https://slobodnadalmacija.hr/dalmacija/zadar/na-ugljanu-su-pacijenti-vezani-i-po-10-sati-ravnatelj-objasnio-kako-sve-funkcionira-obilaze-se-svakih-10-minuta-1590495",
+  "date": "2026-11-15T08:53:47+00:00",
+  "summary": "Smrt 32-godišnjeg Kristiana Josipa Periša u Klinici za psihijatriju Sveti Ivan u zagrebačkom Jankomiru otvorila je pitanje nadzora nad pacijentima koji su podvrgnuti fizičkom sputavanju. O tome kako se takvi postupci provode u drugim psihijatrijskim ustanovama u HRT-ovoj emisiji Otvoreno govorio je...",
+  "image": "https://static.slobodnadalmacija.hr/images/slike/2026/11/15/32863796.png",
+  "source": "Slobodna Dalmacija/Zadar",
+  "topics": [
+   "Zadar",
+   "Otoci"
+  ],
+  "source_url": "https://slobodnadalmacija.hr/dalmacija/zadar",
+  "face": [
+   13.2,
+   59.7,
+   71.8,
+   87.4
+  ],
+  "face_img": "https://static.slobodnadalmacija.hr/images/slike/2026/11/15/32863796.png"
+ },
+ {
   "title": "PROSLAVA DANA GRADA / Opet se slavi u crkvi sv. Krševana, u ostatku programa kultura, sport, tradicija i zajedništvo",
   "link": "https://www.znet.hr/2026/11/15/proslava-dana-grada-opet-se-slavi-u-crkvi-sv-krsevana-u-ostatku-programa-kultura-sport-tradicija-i-zajednistvo/",
   "date": "2026-11-15T08:44:00+00:00",
@@ -522,7 +580,7 @@
   "link": "https://www.jutarnji.hr/sportske/kosarka/aba-liga/zadar-u-kresinom-domu-srusio-partizan-i-nanio-mu-prvi-poraz-sezone-15765495",
   "date": "2026-11-14T19:51:00+00:00",
   "summary": "Zadar - Partizan 81:74 (27:23, 26:10, 11:16, 17:25) ZADAR Dvorana Krešimira Ćosića. Gledatelja 5.500. Suci: Kaluđerović, Popović i Vujović (Crna Gora).",
-  "image": "https://media.jutarnji.hr/images/slike/2026/11/14/f_39966810_1280.jpg?1794731421",
+  "image": "https://media.jutarnji.hr/images/slike/2026/11/14/f_39966810_1280.jpg?1794733013",
   "source": "Sportske novosti",
   "source_topic": "Sport",
   "topics": [
@@ -536,7 +594,7 @@
    5.0,
    87.7
   ],
-  "face_img": "https://media.jutarnji.hr/images/slike/2026/11/14/f_39966810_1280.jpg?1794731421"
+  "face_img": "https://media.jutarnji.hr/images/slike/2026/11/14/f_39966810_1280.jpg?1794733013"
  },
  {
   "title": "Zadar je na Višnjiku ugostio Partizan, a u Beograd su se gosti vratili praznih ruku",
@@ -5166,80 +5224,6 @@
    32.6
   ],
   "face_img": "https://ip.index.hr/remote/bucket.index.hr/b/index/9cb6ff03-28a2-4405-b473-4c00430d71c3.png?fb_wtrmrk=vijesti.jpg&width=1200&height=630&mode=crop&format=png"
- },
- {
-  "title": "Poznati franjevac u Zadru otvorio škakljivo pitanje: ‘Što učiniti s praznim samostanima?’",
-  "link": "https://zadarskilist.novilist.hr/zadar-zupanija/zadar/poznati-franjevac-u-zadru-otvorio-skakljivo-pitanje-sto-uciniti-s-praznim-samostanima/",
-  "date": "2026-11-12T17:35:50+00:00",
-  "summary": "U crkvi sv. Marije u Zadru u srijedu, 11. studenoga, održana je prva rekolekcija redovnica Zadarske nadbiskupije u pastoralnoj godini 2026./2027. Predavanje je održao fra Ante Vučković, koji je, u povodu Godine sv.",
-  "image": "https://zadarskilist.novilist.hr/wp-content/uploads/2026/11/DSC_2-2-1152x1536-1-e1794504804699.jpg",
-  "source": "Zadarski list",
-  "topics": [
-   "Zadar"
-  ],
-  "source_url": "https://zadarskilist.novilist.hr/",
-  "face": [
-   14.4,
-   39.9,
-   45.8,
-   54.1
-  ],
-  "face_img": "https://zadarskilist.novilist.hr/wp-content/uploads/2026/11/DSC_2-2-1152x1536-1-e1794504804699.jpg"
- },
- {
-  "title": "ZADARSKI GIMNASTIČKI BISER NA VRHU HRVATSKE Niko Nevešćanin apsolutni je juniorski prvak države!",
-  "link": "https://sport023.hr/2026/11/12/zadarski-gimnasticki-biser-na-vrhu-hrvatske-niko-nevescanin-apsolutni-je-juniorski-prvak-drzave/",
-  "date": "2026-11-12T17:25:53+00:00",
-  "summary": "Zadar ima još jedan veliki razlog za ponos. Mladi gimnastičar Niko Nevešćanin, član Gimnastičkog kluba Salto, osvojio je naslov pobjednika... Objava ZADARSKI GIMNASTIČKI BISER NA VRHU HRVATSKE Niko Nevešćanin apsolutni je juniorski prvak države! pojavila se prvi puta na Sport023.",
-  "image": "https://sport023.hr/wp-content/uploads/2025/11/Niko-Zadar-e1781442857829.jpg",
-  "source": "Sport023",
-  "source_topic": "Sport",
-  "topics": [
-   "Zadar",
-   "Sport"
-  ],
-  "source_url": "https://sport023.hr/",
-  "face": null,
-  "face_img": "https://sport023.hr/wp-content/uploads/2025/11/Niko-Zadar-e1781442857829.jpg"
- },
- {
-  "title": "Sedam zaštitara izbacilo Radetu iz vijećnice: ‘Gušili su me ko zvijeri! Policija nije htjela doći, sad sam u bolnici!‘",
-  "link": "https://slobodnadalmacija.hr/dalmacija/zadar/sedam-zastitara-izbacilo-redetu-iz-vijecnice-gusili-su-me-k-o-zvijeri-policija-nije-htjela-doci-sad-sam-u-bolnici-1590072",
-  "date": "2026-11-12T17:21:00+00:00",
-  "summary": "Sedam je zaštitara nešto prije 18 sati fizički izbacilo Daniela Radetu iz Velike vijećnice Grada Zadra. – Gušili su me njih sedam! Ko zvijeri! – kazao nam je Radeta nakon našeg telefonskog poziva. Radeta samozatočen u Gradskoj vijećnici, poslao nam je video: Izgasili mi svjetla, dali vodu.",
-  "image": "https://static.slobodnadalmacija.hr/images/slike/2026/11/12/32847087.jpg",
-  "source": "Slobodna Dalmacija/Zadar",
-  "topics": [
-   "Zadar"
-  ],
-  "source_url": "https://slobodnadalmacija.hr/dalmacija/zadar",
-  "face": [
-   0.0,
-   56.6,
-   16.1,
-   82.4
-  ],
-  "face_img": "https://static.slobodnadalmacija.hr/images/slike/2026/11/12/32847087.jpg"
- },
- {
-  "title": "Deseto izdanje Atletske utrke „Dani sjećanja od Škabrnje do Vukovara” okuplja 500 sudionika",
-  "link": "https://ezadar.net.hr/info/3590692/deseto-izdanje-atletske-utrke-dani-sjecanja-od-skabrnje-do-vukovara-okuplja-500-sudionika/",
-  "date": "2026-11-12T17:19:41+00:00",
-  "summary": "U Škabrnji će se u subotu 14. studenoga održati 10. Atletska utrka „Dani sjećanja od Škabrnje do Vukovara”, sportsko-edukativni događaj koji će i ove godine okupiti velik broj sportaša, djece i mladih",
-  "image": "https://cdn-ezadar.net.hr/wp-content/uploads/dani-sjecanja-od-skabrnje-do-vukovara-naslovna-31ce6b9eee10f728ec43ce69-1052x696.jpg",
-  "source": "eZadar",
-  "topics": [
-   "Županija",
-   "Sport"
-  ],
-  "source_url": "https://ezadar.net.hr/",
-  "face": [
-   28.2,
-   39.9,
-   39.4,
-   99.2
-  ],
-  "face_img": "https://cdn-ezadar.net.hr/wp-content/uploads/dani-sjecanja-od-skabrnje-do-vukovara-naslovna-31ce6b9eee10f728ec43ce69-1052x696.jpg"
  },
  {
   "title": "Ponovno neugodna situacija u zadarskom rodilištu: Rodilje bez tople vode, pogledajte kako se pravdaju iz bolnice",
