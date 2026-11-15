@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-15T08:01:13.547839+00:00",
+ "updated": "2026-11-15T08:04:08.754240+00:00",
  "sources": [
   {
    "name": "Antena Zadar",
@@ -52,6 +52,20 @@
   },
   {
    "name": "KK Zadar",
+   "count": 10,
+   "ok": true,
+   "feed": null,
+   "errors": []
+  },
+  {
+   "name": "SC Višnjik",
+   "count": 10,
+   "ok": true,
+   "feed": null,
+   "errors": []
+  },
+  {
+   "name": "Naši školji",
    "count": 10,
    "ok": true,
    "feed": null,
