@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-15T19:01:13.972307+00:00",
+ "updated": "2026-11-15T19:15:50.331920+00:00",
  "sources": [
   {
    "name": "Antena Zadar",
@@ -94,10 +94,12 @@
   },
   {
    "name": "Sveučilište u Zadru",
-   "count": 8,
-   "ok": true,
+   "count": 0,
+   "ok": false,
    "feed": null,
-   "errors": []
+   "errors": [
+    "https://www.unizd.hr/obavijesti/novosti: The read operation timed out"
+   ]
   },
   {
    "name": "Čistoća Zadar",
@@ -150,8 +152,8 @@
   },
   {
    "name": "Jutarnji list",
-   "count": 0,
-   "ok": false,
+   "count": 1,
+   "ok": true,
    "feed": null,
    "errors": []
   },
