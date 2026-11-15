@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-15T15:31:07.497764+00:00",
+ "updated": "2026-11-15T15:36:21.376339+00:00",
  "sources": [
   {
    "name": "Antena Zadar",
@@ -276,8 +276,8 @@
   },
   {
    "name": "Sportske novosti",
-   "count": 1,
-   "ok": true,
+   "count": 0,
+   "ok": false,
    "feed": null,
    "errors": []
   },
