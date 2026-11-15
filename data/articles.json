@@ -708,7 +708,7 @@
   "link": "https://www.jutarnji.hr/sportske/kosarka/aba-liga/zadar-u-kresinom-domu-srusio-partizan-i-nanio-mu-prvi-poraz-sezone-15765495",
   "date": "2026-11-14T19:51:00+00:00",
   "summary": "Zadar - Partizan 81:74 (27:23, 26:10, 11:16, 17:25) ZADAR Dvorana Krešimira Ćosića. Gledatelja 5.500. Suci: Kaluđerović, Popović i Vujović (Crna Gora).",
-  "image": "https://media.jutarnji.hr/images/slike/2026/11/14/f_39966810_1280.jpg?1794736857",
+  "image": "https://media.jutarnji.hr/images/slike/2026/11/14/f_39966810_1280.jpg?1794737740",
   "source": "Sportske novosti",
   "source_topic": "Sport",
   "topics": [
@@ -722,7 +722,7 @@
    5.0,
    87.7
   ],
-  "face_img": "https://media.jutarnji.hr/images/slike/2026/11/14/f_39966810_1280.jpg?1794736857"
+  "face_img": "https://media.jutarnji.hr/images/slike/2026/11/14/f_39966810_1280.jpg?1794737740"
  },
  {
   "title": "Zadar je na Višnjiku ugostio Partizan, a u Beograd su se gosti vratili praznih ruku",
@@ -790,26 +790,6 @@
   "face_img": "https://023.hr/wp-content/uploads/2026/11/20261114203406_342359.avif"
  },
  {
-  "title": "Zadarski tornado pomeo euroligaški Partizan u prvom poluvremenu, prvi poraz Beograđana u regionalnoj ligi",
-  "link": "https://slobodnadalmacija.hr/sport/kosarka/zadarski-tornado-pomeo-euroligaski-partizan-u-prvom-poluvremenu-prvi-poraz-beogradana-u-regionalnoj-ligi-1590450",
-  "date": "2026-11-14T19:33:00+00:00",
-  "summary": "Zadar je iznenađujuće nanio prvi poraz u regionalnoj ligi favoriziranom euroligaškom Partizan Mozzart Betu. Jako dobro je utakmicu otvorio Šare, nastavio je Mihailović, a cijelo prvo poluvrijeme fantastičan je bio Williams. Zadar je poput tornada pomeo Beograđane u prvom poluvremenu.",
-  "image": "https://static.slobodnadalmacija.hr/images/slike/2026/11/14/32859846.jpg",
-  "source": "Slobodna Dalmacija/Zadar",
-  "topics": [
-   "Zadar",
-   "Sport"
-  ],
-  "source_url": "https://slobodnadalmacija.hr/dalmacija/zadar",
-  "face": [
-   48.2,
-   95.5,
-   54.9,
-   96.7
-  ],
-  "face_img": "https://static.slobodnadalmacija.hr/images/slike/2026/11/14/32859846.jpg"
- },
- {
   "title": "Zadar senzacionalno pobijedio Partizan u ABA ligi",
   "link": "https://www.index.hr/sport/clanak/zadar-nanio-partizanu-prvi-poraz-u-sezoni-prvi-put-nakon-gotovo-tri-godine/2857047.aspx",
   "date": "2026-11-14T19:33:00+00:00",
@@ -828,6 +808,26 @@
    90.2
   ],
   "face_img": "https://ip.index.hr/remote/bucket.index.hr/b/index/d0aec516-7735-4aff-8b87-7d4c9ca5e5d8.jpg?fb_wtrmrk=sport.jpg&width=1200&height=630&mode=crop&format=png"
+ },
+ {
+  "title": "Zadarski tornado pomeo euroligaški Partizan u prvom poluvremenu, prvi poraz Beograđana u regionalnoj ligi",
+  "link": "https://slobodnadalmacija.hr/sport/kosarka/zadarski-tornado-pomeo-euroligaski-partizan-u-prvom-poluvremenu-prvi-poraz-beogradana-u-regionalnoj-ligi-1590450",
+  "date": "2026-11-14T19:33:00+00:00",
+  "summary": "Zadar je iznenađujuće nanio prvi poraz u regionalnoj ligi favoriziranom euroligaškom Partizan Mozzart Betu. Jako dobro je utakmicu otvorio Šare, nastavio je Mihailović, a cijelo prvo poluvrijeme fantastičan je bio Williams. Zadar je poput tornada pomeo Beograđane u prvom poluvremenu.",
+  "image": "https://static.slobodnadalmacija.hr/images/slike/2026/11/14/32859846.jpg",
+  "source": "Slobodna Dalmacija/Zadar",
+  "topics": [
+   "Zadar",
+   "Sport"
+  ],
+  "source_url": "https://slobodnadalmacija.hr/dalmacija/zadar",
+  "face": [
+   48.2,
+   95.5,
+   54.9,
+   96.7
+  ],
+  "face_img": "https://static.slobodnadalmacija.hr/images/slike/2026/11/14/32859846.jpg"
  },
  {
   "title": "Zadar pobijedio Partizan!",
