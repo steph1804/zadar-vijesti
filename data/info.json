@@ -36,42 +36,6 @@
  ],
  "flights": [
   {
-   "dir": "dolazak",
-   "flight": "OU634",
-   "airline": "Croatia Airlines",
-   "city": "Zagreb",
-   "via": "Pula",
-   "time": "2026-11-15T15:50:00",
-   "est": "2026-11-15T15:50:00",
-   "act": "",
-   "status": "",
-   "gate": ""
-  },
-  {
-   "dir": "odlazak",
-   "flight": "OU634",
-   "airline": "Croatia Airlines",
-   "city": "Zagreb",
-   "via": "",
-   "time": "2026-11-15T16:20:00",
-   "est": "2026-11-15T16:20:00",
-   "act": "",
-   "status": "",
-   "gate": ""
-  },
-  {
-   "dir": "dolazak",
-   "flight": "OU675",
-   "airline": "Croatia Airlines",
-   "city": "Zagreb",
-   "via": "Pula",
-   "time": "2026-11-15T23:00:00",
-   "est": "2026-11-15T23:00:00",
-   "act": "",
-   "status": "",
-   "gate": ""
-  },
-  {
    "dir": "odlazak",
    "flight": "OU4674",
    "airline": "Croatia Airlines",
@@ -103,6 +67,30 @@
    "via": "Pula",
    "time": "2026-11-16T15:40:00",
    "est": "2026-11-16T15:40:00",
+   "act": "",
+   "status": "",
+   "gate": ""
+  },
+  {
+   "dir": "dolazak",
+   "flight": "OU674",
+   "airline": "Croatia Airlines",
+   "city": "Zagreb",
+   "via": "",
+   "time": "2026-11-17T14:55:00",
+   "est": "2026-11-17T14:55:00",
+   "act": "",
+   "status": "",
+   "gate": ""
+  },
+  {
+   "dir": "odlazak",
+   "flight": "OU674",
+   "airline": "Croatia Airlines",
+   "city": "Zagreb",
+   "via": "Pula",
+   "time": "2026-11-17T15:20:00",
+   "est": "2026-11-17T15:20:00",
    "act": "",
    "status": "",
    "gate": ""
@@ -471,7 +459,7 @@
  ],
  "videos": {
   "v": 2,
-  "fetched": "2026-11-15T22:03:32.732518+00:00",
+  "fetched": "2026-11-15T23:01:41.557863+00:00",
   "items": [
    {
     "id": "77WYoRm2jgk",
