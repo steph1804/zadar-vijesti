@@ -39,7 +39,7 @@ zadarsk\w* županij\w*|županij\w* zadar\w*|žnl
 benkov(?:ac|ca|cu|cem|cima|ačk\w*|šćin\w*)
 biograd\w*
 ?nin|ninu|ninom|ninsk\w*|ninjan\w*
-obrov\w*
+obrov(?:ac|ca|cu|cem|čk\w*)
 bibinj\w*
 ?galovc\w*|galovac
 gračac|gračc\w*|gračk\w*
