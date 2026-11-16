@@ -14,11 +14,6 @@
    "date": "2026-11-06T18:33:23+00:00"
   },
   {
-   "title": "Obavijest za liniju Poluotok – Arbanasi",
-   "link": "https://liburnija-zadar.hr/obavijest-za-liniju-poluotok-arbanasi/",
-   "date": "2026-11-03T07:44:48+00:00"
-  },
-  {
    "title": "Obavijest o linijama koje prometuju Ulicom Put Nina",
    "link": "https://liburnija-zadar.hr/obavijest-o-linijama-koje-prometuju-ulicom-put-nina/",
    "date": "2026-10-28T10:42:41+00:00"
@@ -32,6 +27,11 @@
    "title": "Obavijest za blagdan Svih svetih",
    "link": "https://liburnija-zadar.hr/obavijest-za-blagdan-svih-svetih/",
    "date": "2026-10-27T07:40:38+00:00"
+  },
+  {
+   "title": "Obavijest za linije u smjeru Gradskog groblja i Bibinja",
+   "link": "https://liburnija-zadar.hr/obavijest-za-linije-u-smjeru-gradskog-groblja-i-bibinja/",
+   "date": "2026-10-13T09:31:40+00:00"
   }
  ],
  "flights": [
@@ -142,6 +142,11 @@
  ],
  "reddit": [
   {
+   "title": "Koncert Urban",
+   "link": "https://www.reddit.com/r/Zadar/comments/1xxiplf/koncert_urban/",
+   "date": "2026-11-16T06:56:42+00:00"
+  },
+  {
    "title": "Preporuke za restorane u Zadru",
    "link": "https://www.reddit.com/r/Zadar/comments/1xx6uoy/preporuke_za_restorane_u_zadru/",
    "date": "2026-11-15T21:10:01+00:00"
@@ -150,11 +155,6 @@
    "title": "posao",
    "link": "https://www.reddit.com/r/Zadar/comments/1xx6cew/posao/",
    "date": "2026-11-15T20:48:46+00:00"
-  },
-  {
-   "title": "Slike",
-   "link": "https://www.reddit.com/r/Zadar/comments/1xx00fl/slike/",
-   "date": "2026-11-15T16:38:31+00:00"
   },
   {
    "title": "Koliko plaćate pričuvu?",
@@ -459,7 +459,7 @@
  ],
  "videos": {
   "v": 2,
-  "fetched": "2026-11-16T06:01:40.817321+00:00",
+  "fetched": "2026-11-16T07:01:46.896342+00:00",
   "items": [
    {
     "id": "77WYoRm2jgk",
