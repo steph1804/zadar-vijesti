@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-16T17:31:02.885695+00:00",
+ "updated": "2026-11-16T17:45:45.277019+00:00",
  "sources": [
   {
    "name": "Antena Zadar",
@@ -252,12 +252,10 @@
   },
   {
    "name": "Dalmacija News",
-   "count": 0,
-   "ok": false,
+   "count": 6,
+   "ok": true,
    "feed": null,
-   "errors": [
-    "https://www.dalmacijanews.hr/?s=zadar&feed=rss2: The read operation timed out"
-   ]
+   "errors": []
   },
   {
    "name": "Nacional",
