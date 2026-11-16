@@ -1,9 +1,60 @@
 [
  {
-  "title": "NK DRAGOVOLJAC POLIČNIK Dogovorena suradnja s Kustošijom, tri generacije u Crikvenici",
+  "title": "NOVI DRNIŠKI ORAO Mladi Ivan Buha prešao u redove KK Zadar",
+  "link": "https://sport023.hr/2026/11/16/novi-drniski-orao-mladi-ivan-buha-presao-u-redove-kk-zadar/",
+  "date": "2026-11-16T21:21:42+00:00",
+  "summary": "KK Zadar dobio je još jednog talentiranog mladog igrača. Ivan Buha, 2012. godište, odlučio je svoj daljnji košarkaški razvoj nastaviti... Objava NOVI DRNIŠKI ORAO Mladi Ivan Buha prešao u redove KK Zadar pojavila se prvi puta na Sport023.",
+  "image": "https://sport023.hr/wp-content/uploads/2026/11/ivan-buha-kk-zadar-11-2026.jpg",
+  "source": "Sport023",
+  "source_topic": "Sport",
+  "topics": [
+   "Zadar",
+   "Sport"
+  ],
+  "source_url": "https://sport023.hr/",
+  "face": null,
+  "face_img": "https://sport023.hr/wp-content/uploads/2026/11/ivan-buha-kk-zadar-11-2026.jpg"
+ },
+ {
+  "title": "Rijeka odala počast Vukovaru, Škabrnji i svim žrtvama Domovinskog rata",
+  "link": "https://radio.hrt.hr/radio-rijeka/vijesti/rijeka-odala-pocast-vukovaru-skabrnji-i-svim-zrtvama-domovinskog-rata-13013406",
+  "date": "2026-11-16T21:21:40+00:00",
+  "summary": "Više stotina građana sudjelovalo je večeras u Koloni sjećanja koja je prošla središtem Rijeke, a završila na Mostu hrvatskih branitelja paljenjem svijeća i bakljadom.",
+  "image": "https://api.hrt.hr/media/51/12/740x438-img-9329-20261116211633.jpg",
+  "source": "HRT",
+  "topics": [
+   "Županija"
+  ],
+  "source_url": "https://vijesti.hrt.hr/",
+  "face": [
+   41.3,
+   53.1,
+   0.0,
+   26.3
+  ],
+  "face_img": "https://api.hrt.hr/media/51/12/740x438-img-9329-20261116211633.jpg"
+ },
+ {
+  "title": "1. ŽNL Zlatna luka zaustavila Raštane, Abeceda uhvatila priključak, tri pobjede domaćina",
+  "link": "https://sport023.hr/2026/11/16/1-znl-10-kolo-izvjestaj/",
+  "date": "2026-11-16T21:14:11+00:00",
+  "summary": "Nakon prvih pet susreta 10. kola 1. ŽNL ponovno je došlo do promjene na vrhu. Zlatna luka je, naime, zaustavila...",
+  "image": "https://sport023.hr/wp-content/uploads/2026/11/seniori-nk-abeceda-velebit-benkovac-14-11-2026.jpg",
+  "source": "Sport023",
+  "source_topic": "Sport",
+  "topics": [
+   "Županija",
+   "Sport"
+  ],
+  "source_url": "https://sport023.hr/",
+  "face": null,
+  "face_img": "https://sport023.hr/wp-content/uploads/2026/11/seniori-nk-abeceda-velebit-benkovac-14-11-2026.jpg"
+ },
+ {
+  "title": "NK DRAGOVOLJAC POLIČNIK Dogovorena suradnja s Kustošijom, tri generacije put Crikvenice",
   "link": "https://sport023.hr/2026/11/16/nk-dragovoljac-policnik-skola-nogometa/",
   "date": "2026-11-16T21:13:20+00:00",
-  "summary": "Dragovoljac i Kustošija dogovorili suradnju škola nogometa. S veseljem objavljujemo da su škole nogometa NK Dragovoljca Poličnik i NK Kustošije... Objava NK DRAGOVOLJAC POLIČNIK Dogovorena suradnja s Kustošijom, tri generacije u Crikvenici pojavila se prvi puta na Sport023.",
+  "summary": "Osim što se privodi kraju izgradnja novog, modernog nogometnog kompleksa, u Nogometnom klubu Dragovoljac iz Poličnika aktivni su i na... Objava NK DRAGOVOLJAC POLIČNIK Dogovorena suradnja s Kustošijom, tri generacije put Crikvenice pojavila se prvi puta na Sport023.",
   "image": "https://sport023.hr/wp-content/uploads/2026/11/nk-dragovoljac-policnik-ilu.jpg",
   "source": "Sport023",
   "source_topic": "Sport",
@@ -35,22 +86,6 @@
    56.7
   ],
   "face_img": "https://kkzadar.hr/wp-content/uploads/2026/11/AJV05154.jpg"
- },
- {
-  "title": "1. ŽNL Zlatna luka zaustavila Raštane, Abeceda uhvatila priključak, tri pobjede domaćina",
-  "link": "https://sport023.hr/2026/11/16/1-znl-10-kolo-izvjestaj/",
-  "date": "2026-11-16T21:04:11+00:00",
-  "summary": "Nakon prvih pet susreta 10. kola 1. ŽNL ponovno je došlo do promjene na vrhu. Zlatna luka je, naime, zaustavila...",
-  "image": "https://sport023.hr/wp-content/uploads/2026/11/seniori-nk-abeceda-velebit-benkovac-14-11-2026.jpg",
-  "source": "Sport023",
-  "source_topic": "Sport",
-  "topics": [
-   "Županija",
-   "Sport"
-  ],
-  "source_url": "https://sport023.hr/",
-  "face": null,
-  "face_img": "https://sport023.hr/wp-content/uploads/2026/11/seniori-nk-abeceda-velebit-benkovac-14-11-2026.jpg"
  },
  {
   "title": "KUP HRVATSKE Jug uvjerljiv protiv Zadra i u uzvratu na Višnjiku",
@@ -1397,7 +1432,7 @@
   "link": "https://www.jutarnji.hr/sportske/kosarka/aba-liga/stigao-je-na-najuzareniji-stolac-u-hrvatskoj-a-sada-sredio-30-puta-skuplji-partizan-i-prosao-inicijaciju-15765902",
   "date": "2026-11-16T11:31:00+00:00",
   "summary": "Kad stigneš na najužareniji klupski stolac nakon trofejnog niza kakav se nije dogodio nikada u povijesti, kad preuzmeš Zadar koji je bio tri puta prvak u posljednje četiri sezone, a pri tome je tu stigao i jedan Kup, onda ti posao nije lak. Stipe Modrić je dečko iz Sinja, koji se odškolovao i kao ig...",
-  "image": "https://media.jutarnji.hr/images/slike/2026/11/15/f_39966441_1280.jpg?1794863697",
+  "image": "https://media.jutarnji.hr/images/slike/2026/11/15/f_39966441_1280.jpg?1794864637",
   "source": "Sportske novosti",
   "source_topic": "Sport",
   "topics": [
@@ -1411,7 +1446,7 @@
    2.4,
    65.4
   ],
-  "face_img": "https://media.jutarnji.hr/images/slike/2026/11/15/f_39966441_1280.jpg?1794863697"
+  "face_img": "https://media.jutarnji.hr/images/slike/2026/11/15/f_39966441_1280.jpg?1794864637"
  },
  {
   "title": "Dirigent Davor Kelić i tri mlade solistice na koncertu Zadarskog komornog orkestra",
@@ -5201,46 +5236,6 @@
    62.5
   ],
   "face_img": "https://static.slobodnadalmacija.hr/images/slike/2026/11/14/32851080.jpg"
- },
- {
-  "title": "Spektakl na Višnjiku, dolazi moćni Partizan. Modrić: ‘Ako dobijemo priliku, znat ćemo je iskoristiti!’",
-  "link": "https://slobodnadalmacija.hr/sport/kosarka/spektakl-na-visnjiku-dolazi-mocni-partizan-modric-ako-dobijemo-priliku-znat-cemo-je-iskoristiti-1590366",
-  "date": "2026-11-14T10:38:11+00:00",
-  "summary": "U sklopu 8. kola skupine B Admiral Bet ABA lige Zadar će na Višnjiku ugostiti lidera, neporaženi Partizan Mozzart Bet (subota, 18.30 sati – prijenos ArenaSport 1). Euroligaški sastav iz Beograda i ove sezone je jedan od favorita za titulu najbolje momčadi regionalne lige. Partizan je na skoru 6-0 (p...",
-  "image": "https://static.slobodnadalmacija.hr/images/slike/2026/11/13/32734692.jpg",
-  "source": "Slobodna Dalmacija/Zadar",
-  "topics": [
-   "Zadar",
-   "Sport"
-  ],
-  "source_url": "https://slobodnadalmacija.hr/dalmacija/zadar",
-  "face": [
-   6.4,
-   71.1,
-   35.9,
-   92.5
-  ],
-  "face_img": "https://static.slobodnadalmacija.hr/images/slike/2026/11/13/32734692.jpg"
- },
- {
-  "title": "ZADAR Misa zadušnica za don Zbigniewa Korcza",
-  "link": "https://www.antenazadar.hr/clanak/2026/11/zadar-misa-zadusnica-za-don-zbigniewa-korcza/",
-  "date": "2026-11-14T10:34:41+00:00",
-  "summary": "Misu zadušnicu za don Zbigniewa Korcza, svećenika Zadarske nadbiskupije, u župnoj crkvi Uznesenja BDM na Belafuži u Zadru gdje je don Zbigniew zadnje tri godine bio župni vikar, predvodio je zadarski nadbiskup Milan Zgrablić, u petak, 13. studenog. Propovijed nadbiskupa Zgrablića objavljujemo u cijelosti.",
-  "image": "https://www.antenazadar.hr/wp-content/uploads/2026/11/DSC_5294-1-1280x750-1.jpg",
-  "source": "Antena Zadar",
-  "topics": [
-   "Zadar",
-   "Otoci"
-  ],
-  "source_url": "https://www.antenazadar.hr/",
-  "face": [
-   17.3,
-   37.8,
-   5.5,
-   91.9
-  ],
-  "face_img": "https://www.antenazadar.hr/wp-content/uploads/2026/11/DSC_5294-1-1280x750-1.jpg"
  },
  {
   "title": "Zadarski vijećnik tvrdi da su ga zaštitari udarali i gušili, oglasila se policija",
