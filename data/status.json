@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-16T22:45:44.942095+00:00",
+ "updated": "2026-11-16T23:01:13.675798+00:00",
  "sources": [
   {
    "name": "Antena Zadar",
@@ -138,7 +138,7 @@
   },
   {
    "name": "Jadrolinija",
-   "count": 2,
+   "count": 1,
    "ok": true,
    "feed": null,
    "errors": []

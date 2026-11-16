@@ -846,25 +846,6 @@
   "face_img": "https://cdn-ezadar.net.hr/wp-content/uploads/586972669_1450527967076462_3856260472215655087_n-1052x696.jpg"
  },
  {
-  "title": "Osvojene dvije zlatne medalje policijskog službenika zadarske policijske uprave",
-  "link": "https://zadarska-policija.gov.hr/vijesti/osvojene-dvije-zlatne-medalje-policijskog-sluzbenika-zadarske-policijske-uprave/18869",
-  "date": "2026-11-16T14:15:46.992135+00:00",
-  "summary": "Ante Verunica, policijski službenik Interventne jedinice policije „Poskoci“ europski je prvak u kickboxingu",
-  "image": "https://zadarska-policija.gov.hr/UserDocsImages//2026/Verunica/Verunica%20(2).jpeg",
-  "source": "Policija Zadar",
-  "topics": [
-   "Zadar"
-  ],
-  "source_url": "https://zadarska-policija.gov.hr/vijesti/8",
-  "face": [
-   26.1,
-   39.6,
-   30.6,
-   85.5
-  ],
-  "face_img": "https://zadarska-policija.gov.hr/UserDocsImages//2026/Verunica/Verunica%20(2).jpeg"
- },
- {
   "title": "Zadarski profesor upozorava: ‘ Uzaludne su sve mitske bitke ako nam je sutra voda zatrovana, a zrak nečist’",
   "link": "https://zadarskilist.novilist.hr/zadar-zupanija/zadarski-profesor-upozorava-uzaludne-su-sve-mitske-bitke-ako-nam-je-sutra-voda-zatrovana-a-zrak-necist/",
   "date": "2026-11-16T14:14:54+00:00",
@@ -1432,7 +1413,7 @@
   "link": "https://www.jutarnji.hr/sportske/kosarka/aba-liga/stigao-je-na-najuzareniji-stolac-u-hrvatskoj-a-sada-sredio-30-puta-skuplji-partizan-i-prosao-inicijaciju-15765902",
   "date": "2026-11-16T11:31:00+00:00",
   "summary": "Kad stigneš na najužareniji klupski stolac nakon trofejnog niza kakav se nije dogodio nikada u povijesti, kad preuzmeš Zadar koji je bio tri puta prvak u posljednje četiri sezone, a pri tome je tu stigao i jedan Kup, onda ti posao nije lak. Stipe Modrić je dečko iz Sinja, koji se odškolovao i kao ig...",
-  "image": "https://media.jutarnji.hr/images/slike/2026/11/15/f_39966441_1280.jpg?1794869053",
+  "image": "https://media.jutarnji.hr/images/slike/2026/11/15/f_39966441_1280.jpg?1794869164",
   "source": "Sportske novosti",
   "source_topic": "Sport",
   "topics": [
@@ -1446,7 +1427,7 @@
    2.4,
    65.4
   ],
-  "face_img": "https://media.jutarnji.hr/images/slike/2026/11/15/f_39966441_1280.jpg?1794869053"
+  "face_img": "https://media.jutarnji.hr/images/slike/2026/11/15/f_39966441_1280.jpg?1794869164"
  },
  {
   "title": "Dirigent Davor Kelić i tri mlade solistice na koncertu Zadarskog komornog orkestra",
@@ -1578,6 +1559,87 @@
   "face_img": "https://www.zadarska-zupanija.hr/media/k2/items/cache/da974d8033c96f020eb778a7edc59549_M.jpg"
  },
  {
+  "title": "Osvojene dvije zlatne medalje policijskog službenika zadarske policijske uprave",
+  "link": "https://zadarska-policija.gov.hr/vijesti/osvojene-dvije-zlatne-medalje-policijskog-sluzbenika-zadarske-policijske-uprave/18869",
+  "date": "2026-11-16T11:00:00+00:00",
+  "summary": "Ante Verunica, policijski službenik Interventne jedinice policije „Poskoci“ europski je prvak u kickboxingu",
+  "image": "https://zadarska-policija.gov.hr/UserDocsImages//2026/Verunica/Verunica%20(2).jpeg",
+  "source": "Policija Zadar",
+  "topics": [
+   "Zadar"
+  ],
+  "source_url": "https://zadarska-policija.gov.hr/vijesti/8",
+  "face": [
+   26.1,
+   39.6,
+   30.6,
+   85.5
+  ],
+  "face_img": "https://zadarska-policija.gov.hr/UserDocsImages//2026/Verunica/Verunica%20(2).jpeg"
+ },
+ {
+  "title": "Preventivne aktivnosti policije „Tajna otiska prsta“ u  Gradskoj knjižnici u Zadru",
+  "link": "https://zadarska-policija.gov.hr/vijesti/preventivne-aktivnosti-policije-tajna-otiska-prsta-u-gradskoj-knjiznici-u-zadru/18867",
+  "date": "2026-11-16T11:00:00+00:00",
+  "summary": "",
+  "image": "https://zadarska-policija.gov.hr/UserDocsImages//2026/PREVENCIJA/knjizica3.jpg",
+  "source": "Policija Zadar",
+  "topics": [
+   "Zadar"
+  ],
+  "source_url": "https://zadarska-policija.gov.hr/vijesti/8",
+  "face": [
+   10.5,
+   43.4,
+   35.9,
+   57.3
+  ],
+  "face_img": "https://zadarska-policija.gov.hr/UserDocsImages//2026/PREVENCIJA/knjizica3.jpg"
+ },
+ {
+  "title": "Nadzorom prometa za vikend policija utvrdila 121 prekršaj",
+  "link": "https://zadarska-policija.gov.hr/vijesti/nadzorom-prometa-za-vikend-policija-utvrdila-121-prekrsaj/18866",
+  "date": "2026-11-16T11:00:00+00:00",
+  "summary": "Tijekom vikenda zadarska policija je na prometnicama kontrolirala ukupno 1 002 vozila i vozača",
+  "image": "https://zadarska-policija.gov.hr/UserDocsImages//2023/POLICIJA/policija35.jpg",
+  "source": "Policija Zadar",
+  "topics": [
+   "Zadar"
+  ],
+  "source_url": "https://zadarska-policija.gov.hr/vijesti/8",
+  "face": null,
+  "face_img": "https://zadarska-policija.gov.hr/UserDocsImages//2023/POLICIJA/policija35.jpg"
+ },
+ {
+  "title": "Benkovac: Vozio pod utjecajem alkohola i odbio test na drogu",
+  "link": "https://zadarska-policija.gov.hr/vijesti/benkovac-vozio-pod-utjecajem-alkohola-i-odbio-test-na-drogu/18865",
+  "date": "2026-11-16T11:00:00+00:00",
+  "summary": "Uz optužni prijedlog vozač je doveden na Prekršajni odjel Općinskog suda u Zadru",
+  "image": "https://zadarska-policija.gov.hr/UserDocsImages//2023/POLICIJA/95.jpg",
+  "source": "Policija Zadar",
+  "topics": [
+   "Zadar",
+   "Županija"
+  ],
+  "source_url": "https://zadarska-policija.gov.hr/vijesti/8",
+  "face": null,
+  "face_img": "https://zadarska-policija.gov.hr/UserDocsImages//2023/POLICIJA/95.jpg"
+ },
+ {
+  "title": "Sažetak dnevnih događanja PU zadarske, 16. 11.",
+  "link": "https://zadarska-policija.gov.hr/vijesti/sazetak-dnevnih-dogadjanja-18864/18864",
+  "date": "2026-11-16T11:00:00+00:00",
+  "summary": "",
+  "image": "https://zadarska-policija.gov.hr/UserDocsImages//2023/POLICIJA/pol.%20auto%2023.jpg",
+  "source": "Policija Zadar",
+  "topics": [
+   "Zadar"
+  ],
+  "source_url": "https://zadarska-policija.gov.hr/vijesti/8",
+  "face": null,
+  "face_img": "https://zadarska-policija.gov.hr/UserDocsImages//2023/POLICIJA/pol.%20auto%2023.jpg"
+ },
+ {
   "title": "TAJNA OTISKA PRSTA Preventivne aktivnosti policije u Gradskoj knjižnici u Zadru",
   "link": "https://www.antenazadar.hr/clanak/2026/11/tajna-otiska-prsta-preventivne-aktivnosti-policije-u-gradskoj-knjiznici-u-zadru/",
   "date": "2026-11-16T10:55:01+00:00",
@@ -1686,25 +1748,6 @@
   "face_img": "https://api.hrt.hr/media/68/c5/dan-grada-20261116102440.webp"
  },
  {
-  "title": "Preventivne aktivnosti policije „Tajna otiska prsta“ u  Gradskoj knjižnici u Zadru",
-  "link": "https://zadarska-policija.gov.hr/vijesti/preventivne-aktivnosti-policije-tajna-otiska-prsta-u-gradskoj-knjiznici-u-zadru/18867",
-  "date": "2026-11-16T10:15:46.565809+00:00",
-  "summary": "",
-  "image": "https://zadarska-policija.gov.hr/UserDocsImages//2026/PREVENCIJA/knjizica3.jpg",
-  "source": "Policija Zadar",
-  "topics": [
-   "Zadar"
-  ],
-  "source_url": "https://zadarska-policija.gov.hr/vijesti/8",
-  "face": [
-   10.5,
-   43.4,
-   35.9,
-   57.3
-  ],
-  "face_img": "https://zadarska-policija.gov.hr/UserDocsImages//2026/PREVENCIJA/knjizica3.jpg"
- },
- {
   "title": "Težak poraz kadeta KK Zadra od Splita, Puntamika izgubila od Solina, poraz i Diadore!",
   "link": "https://sport023.hr/2026/11/16/tezak-poraz-kadeta-kk-zadra-od-splita-puntamika-izgubila-od-solina-poraz-i-diadore/",
   "date": "2026-11-16T10:03:52+00:00",
@@ -1803,49 +1846,6 @@
   "source_url": "https://023.hr/",
   "face": null,
   "face_img": "https://023.hr/wp-content/uploads/2024/11/20241108115042_784296-jpg.webp"
- },
- {
-  "title": "Nadzorom prometa za vikend policija utvrdila 121 prekršaj",
-  "link": "https://zadarska-policija.gov.hr/vijesti/nadzorom-prometa-za-vikend-policija-utvrdila-121-prekrsaj/18866",
-  "date": "2026-11-16T09:45:47.422988+00:00",
-  "summary": "Tijekom vikenda zadarska policija je na prometnicama kontrolirala ukupno 1 002 vozila i vozača",
-  "image": "https://zadarska-policija.gov.hr/UserDocsImages//2023/POLICIJA/policija35.jpg",
-  "source": "Policija Zadar",
-  "topics": [
-   "Zadar"
-  ],
-  "source_url": "https://zadarska-policija.gov.hr/vijesti/8",
-  "face": null,
-  "face_img": "https://zadarska-policija.gov.hr/UserDocsImages//2023/POLICIJA/policija35.jpg"
- },
- {
-  "title": "Benkovac: Vozio pod utjecajem alkohola i odbio test na drogu",
-  "link": "https://zadarska-policija.gov.hr/vijesti/benkovac-vozio-pod-utjecajem-alkohola-i-odbio-test-na-drogu/18865",
-  "date": "2026-11-16T09:31:03.065230+00:00",
-  "summary": "Uz optužni prijedlog vozač je doveden na Prekršajni odjel Općinskog suda u Zadru",
-  "image": "https://zadarska-policija.gov.hr/UserDocsImages//2023/POLICIJA/95.jpg",
-  "source": "Policija Zadar",
-  "topics": [
-   "Zadar",
-   "Županija"
-  ],
-  "source_url": "https://zadarska-policija.gov.hr/vijesti/8",
-  "face": null,
-  "face_img": "https://zadarska-policija.gov.hr/UserDocsImages//2023/POLICIJA/95.jpg"
- },
- {
-  "title": "Sažetak dnevnih događanja PU zadarske, 16. 11.",
-  "link": "https://zadarska-policija.gov.hr/vijesti/sazetak-dnevnih-dogadjanja-18864/18864",
-  "date": "2026-11-16T09:31:03.065230+00:00",
-  "summary": "",
-  "image": "https://zadarska-policija.gov.hr/UserDocsImages//2023/POLICIJA/pol.%20auto%2023.jpg",
-  "source": "Policija Zadar",
-  "topics": [
-   "Zadar"
-  ],
-  "source_url": "https://zadarska-policija.gov.hr/vijesti/8",
-  "face": null,
-  "face_img": "https://zadarska-policija.gov.hr/UserDocsImages//2023/POLICIJA/pol.%20auto%2023.jpg"
  },
  {
   "title": "Mladi u Zadru izlaze na ulice: ‘Predugo smo šutjeli, tretiraju nas kao građane drugog reda!’",
