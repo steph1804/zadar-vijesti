@@ -459,8 +459,16 @@
  ],
  "videos": {
   "v": 2,
-  "fetched": "2026-11-16T16:33:33.948762+00:00",
+  "fetched": "2026-11-16T17:29:52.003893+00:00",
   "items": [
+   {
+    "id": "Er1sWNusAFs",
+    "title": "KRONIKE ZADARSKE ŽUPANIJE 97 - 14.11.2026.",
+    "channel": "Diadora TV",
+    "date": "2026-11-15T17:00:29+00:00",
+    "link": "https://www.youtube.com/watch?v=Er1sWNusAFs",
+    "image": "https://i.ytimg.com/vi/Er1sWNusAFs/mqdefault.jpg"
+   },
    {
     "id": "77WYoRm2jgk",
     "title": "ZADARSKA ZUPANIJA IZBLIZA 11 - 16.11.2026.",
@@ -572,14 +580,6 @@
     "date": "2026-10-19T17:18:08+00:00",
     "link": "https://www.youtube.com/watch?v=CmrpQo8ckVk",
     "image": "https://i.ytimg.com/vi/CmrpQo8ckVk/mqdefault.jpg"
-   },
-   {
-    "id": "b3d_63o9h-k",
-    "title": "KRONIKE ZADARSKE ŽUPANIJE 93 - 17.10.2026.",
-    "channel": "Diadora TV",
-    "date": "2026-10-18T16:00:34+00:00",
-    "link": "https://www.youtube.com/watch?v=b3d_63o9h-k",
-    "image": "https://i.ytimg.com/vi/b3d_63o9h-k/mqdefault.jpg"
    }
   ]
  }
