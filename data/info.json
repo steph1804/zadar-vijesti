@@ -48,7 +48,7 @@
    "city": "Zagreb",
    "via": "",
    "time": "2026-11-17T14:55:00",
-   "est": "2026-11-17T14:55:00",
+   "est": "2026-11-17T15:00:00",
    "act": "",
    "status": "",
    "gate": ""
@@ -119,6 +119,11 @@
  ],
  "reddit": [
   {
+   "title": "Di izaći večeras",
+   "link": "https://www.reddit.com/r/Zadar/comments/1xykcw4/di_izaći_večeras/",
+   "date": "2026-11-17T13:24:25+00:00"
+  },
+  {
    "title": "Preporuke - trening",
    "link": "https://www.reddit.com/r/Zadar/comments/1xyjeew/preporuke_trening/",
    "date": "2026-11-17T12:39:02+00:00"
@@ -152,11 +157,6 @@
    "title": "Gdje u Zd kupiti tarot karte?",
    "link": "https://www.reddit.com/r/Zadar/comments/1xy6u4n/gdje_u_zd_kupiti_tarot_karte/",
    "date": "2026-11-17T01:00:52+00:00"
-  },
-  {
-   "title": "Vruljica",
-   "link": "https://www.reddit.com/r/Zadar/comments/1xxzqt7/vruljica/",
-   "date": "2026-11-16T20:08:27+00:00"
   }
  ],
  "retro": [
