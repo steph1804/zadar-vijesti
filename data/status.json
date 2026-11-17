@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-17T12:01:14.519774+00:00",
+ "updated": "2026-11-17T12:15:45.790490+00:00",
  "sources": [
   {
    "name": "Antena Zadar",
@@ -38,7 +38,7 @@
   },
   {
    "name": "023 portal",
-   "count": 9,
+   "count": 8,
    "ok": true,
    "feed": null,
    "errors": []
@@ -52,10 +52,12 @@
   },
   {
    "name": "KK Zadar",
-   "count": 10,
-   "ok": true,
+   "count": 0,
+   "ok": false,
    "feed": null,
-   "errors": []
+   "errors": [
+    "https://kkzadar.hr/feed/: HTTP Error 500: Internal Server Error"
+   ]
   },
   {
    "name": "SC Višnjik",
@@ -75,10 +77,12 @@
   },
   {
    "name": "Grad Zadar",
-   "count": 10,
-   "ok": true,
+   "count": 0,
+   "ok": false,
    "feed": null,
-   "errors": []
+   "errors": [
+    "https://www.grad-zadar.hr/rss/vijesti-s-pocetne-stranice-0.xml: The read operation timed out"
+   ]
   },
   {
    "name": "Zadarska županija",
@@ -159,15 +163,15 @@
   },
   {
    "name": "Večernji list",
-   "count": 0,
-   "ok": false,
+   "count": 1,
+   "ok": true,
    "feed": null,
    "errors": []
   },
   {
    "name": "tportal",
-   "count": 0,
-   "ok": false,
+   "count": 1,
+   "ok": true,
    "feed": null,
    "errors": []
   },
@@ -201,8 +205,8 @@
   },
   {
    "name": "HRT",
-   "count": 0,
-   "ok": false,
+   "count": 1,
+   "ok": true,
    "feed": null,
    "errors": []
   },
