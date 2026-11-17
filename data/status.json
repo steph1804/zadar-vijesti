@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-17T09:15:45.497919+00:00",
+ "updated": "2026-11-17T09:31:01.687077+00:00",
  "sources": [
   {
    "name": "Antena Zadar",
@@ -31,14 +31,14 @@
   },
   {
    "name": "eZadar",
-   "count": 19,
+   "count": 18,
    "ok": true,
    "feed": null,
    "errors": []
   },
   {
    "name": "023 portal",
-   "count": 8,
+   "count": 9,
    "ok": true,
    "feed": null,
    "errors": []
@@ -96,10 +96,12 @@
   },
   {
    "name": "Sveučilište u Zadru",
-   "count": 8,
-   "ok": true,
+   "count": 0,
+   "ok": false,
    "feed": null,
-   "errors": []
+   "errors": [
+    "https://www.unizd.hr/obavijesti/novosti: The read operation timed out"
+   ]
   },
   {
    "name": "Čistoća Zadar",
@@ -117,10 +119,12 @@
   },
   {
    "name": "Liburnija Zadar",
-   "count": 10,
-   "ok": true,
+   "count": 0,
+   "ok": false,
    "feed": null,
-   "errors": []
+   "errors": [
+    "https://liburnija-zadar.hr/category/novosti/feed/: <urlopen error timed out>"
+   ]
   },
   {
    "name": "Policija Zadar",
