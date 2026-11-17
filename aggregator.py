@@ -798,7 +798,7 @@ TOPICS = ["Zadar", "Županija", "Otoci", "Sport"]
 
 # "Dan sjećanja na žrtvu Vukovara i Škabrnje" (18. 11.) spominje Škabrnju u gotovo svakom članku o Vukovaru;
 # sam taj izraz ne čini vijest zadarskom (Stipe, 2026-11-04). Škabrnja se broji samo kad se spominje drukčije.
-_MEMORIAL = re.compile(r"vukovar\w*\s+i\s+[šs]kabrnj\w*|[šs]kabrnj\w*\s+i\s+vukovar\w*", re.I)
+_MEMORIAL = re.compile(r"vukovar\w*\s*(?:,|\si)\s*[šs]kabrnj\w*|[šs]kabrnj\w*\s*(?:,|\si)\s*vukovar\w*", re.I)
 
 
 # U zapisnicima utakmica ("Sudac: Ivan Vukančić (Benkovac)") mjesto suca ne čini utakmicu zadarskom.
