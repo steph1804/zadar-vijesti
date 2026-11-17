@@ -24,7 +24,7 @@
   "link": "https://www.jutarnji.hr/sportske/nogomet/hnl/kup-hnl/koncentracija-kvalitete-pojela-je-bazu-talenta-godinama-obecavana-elita-pretvorila-se-u-zatvoreni-krug-15766409",
   "date": "2026-11-17T21:16:00+00:00",
   "summary": "Kada se odlučilo elitzirati hrvatsku nogometnu ligu onda se najčešće tvrdilo kao argument da će koncentracija kvalitete biti spas domaćeg nogometa. Od 2013.godine taj spas nam je \"odnio\" snagu nekih jako važnih izvora kvalitete igrača, kao što su primjer Zadar, Slavonski Brod, Šibenik, Vinkovci. Ist...",
-  "image": "https://media.jutarnji.hr/images/slike/2026/11/17/f_39695164_1280.jpg?1794954185",
+  "image": "https://media.jutarnji.hr/images/slike/2026/11/17/f_39695164_1280.jpg?1794956434",
   "source": "Sportske novosti",
   "source_topic": "Sport",
   "topics": [
@@ -38,7 +38,7 @@
    16.8,
    92.4
   ],
-  "face_img": "https://media.jutarnji.hr/images/slike/2026/11/17/f_39695164_1280.jpg?1794954185"
+  "face_img": "https://media.jutarnji.hr/images/slike/2026/11/17/f_39695164_1280.jpg?1794956434"
  },
  {
   "title": "Sukošanci u tišini prošli mjestom i zapalili lampione kod murala na zgradi Pošte",
@@ -1048,20 +1048,6 @@
   "face_img": "https://zadarskilist.novilist.hr/wp-content/uploads/2026/11/9995681.jpg"
  },
  {
-  "title": "Osumnjičeni za iznudu",
-  "link": "https://zadarska-policija.gov.hr/vijesti/osumnjiceni-za-iznudu/18876",
-  "date": "2026-11-17T14:15:47.001839+00:00",
-  "summary": "Protiv 44-godišnjaka i 32-godišnjaka je Općinskom državnom odvjetništvu u Zadru podnesena kaznena prijava te su predani pritvorskom nadzorniku Policijske uprave zadarske",
-  "image": "https://zadarska-policija.gov.hr/UserDocsImages//2023/POLICIJA/pol.%20auto%2023.jpg",
-  "source": "Policija Zadar",
-  "topics": [
-   "Zadar"
-  ],
-  "source_url": "https://zadarska-policija.gov.hr/vijesti/8",
-  "face": null,
-  "face_img": "https://zadarska-policija.gov.hr/UserDocsImages//2023/POLICIJA/pol.%20auto%2023.jpg"
- },
- {
   "title": "POGLED IZ SVEMIRA NA ZADAR I MEDITERAN: U Centru za mlade otvorena spektakularna izložba satelitskih snimki koje otkrivaju stanje naših obala",
   "link": "https://www.morski.hr/pogled-iz-svemira-na-zadar-i-mediteran-u-centru-za-mlade-otvorena-spektakularna-izlozba-satelitskih-snimki-koje-otkrivaju-stanje-nasih-obala/",
   "date": "2026-11-17T14:13:28+00:00",
@@ -1703,9 +1689,23 @@
   "face_img": "https://023.hr/wp-content/uploads/2026/10/20261003130035_148170.avif"
  },
  {
+  "title": "Osumnjičeni za iznudu",
+  "link": "https://zadarska-policija.gov.hr/vijesti/osumnjiceni-za-iznudu/18876",
+  "date": "2026-11-17T11:00:00+00:00",
+  "summary": "Protiv 44-godišnjaka i 32-godišnjaka je Općinskom državnom odvjetništvu u Zadru podnesena kaznena prijava te su predani pritvorskom nadzorniku Policijske uprave zadarske",
+  "image": "https://zadarska-policija.gov.hr/UserDocsImages//2023/POLICIJA/pol.%20auto%2023.jpg",
+  "source": "Policija Zadar",
+  "topics": [
+   "Zadar"
+  ],
+  "source_url": "https://zadarska-policija.gov.hr/vijesti/8",
+  "face": null,
+  "face_img": "https://zadarska-policija.gov.hr/UserDocsImages//2023/POLICIJA/pol.%20auto%2023.jpg"
+ },
+ {
   "title": "Vožnja pod utjecajem alkohola, vozačica isključena iz prometa",
   "link": "https://zadarska-policija.gov.hr/vijesti/voznja-pod-utjecajem-alkohola-vozacica-iskljucena-iz-prometa/18873",
-  "date": "2026-11-17T11:01:21.974623+00:00",
+  "date": "2026-11-17T11:00:00+00:00",
   "summary": "Alkotestiranjem je kod vozačice utvrđena koncentracija alkohola u organizmu od 1,43 promila",
   "image": "https://zadarska-policija.gov.hr/UserDocsImages//2023/POLICIJA/policija%2055.jpg",
   "source": "Policija Zadar",
@@ -1713,6 +1713,75 @@
   "source_url": "https://zadarska-policija.gov.hr/vijesti/8",
   "face": null,
   "face_img": "https://zadarska-policija.gov.hr/UserDocsImages//2023/POLICIJA/policija%2055.jpg"
+ },
+ {
+  "title": "35. obljetnica stradanja Škabrnje - Obavijesti za građane i privremena regulacija prometa",
+  "link": "https://zadarska-policija.gov.hr/vijesti/35-obljetnica-stradanja-skabrnje-obavijesti-za-gradjane-i-privremena-regulacija-prometa/18868",
+  "date": "2026-11-17T11:00:00+00:00",
+  "summary": "Povodom obilježavanja 35. obljetnice stradanja Škabrnje, u srijedu 18. studenog 2026. godine, uspostavit će se posebna regulacija prometa",
+  "image": "https://zadarska-policija.gov.hr/UserDocsImages//2025/skabrnja%202025j/skabrnja2.jpeg",
+  "source": "Policija Zadar",
+  "topics": [
+   "Županija"
+  ],
+  "source_url": "https://zadarska-policija.gov.hr/vijesti/8",
+  "face": null,
+  "face_img": "https://zadarska-policija.gov.hr/UserDocsImages//2025/skabrnja%202025j/skabrnja2.jpeg"
+ },
+ {
+  "title": "Upravljao automobilom pod utjecajem droga, isključen iz prometa i kažnjen",
+  "link": "https://zadarska-policija.gov.hr/vijesti/upravljao-automobilom-pod-utjecajem-droga-iskljucen-iz-prometa-i-kaznjen-18872/18872",
+  "date": "2026-11-17T11:00:00+00:00",
+  "summary": "Vozaču je izdana novčana kazna od 1320 eura",
+  "image": "https://zadarska-policija.gov.hr/UserDocsImages//PU_ZD/slike/policija-no%c4%87.jpg",
+  "source": "Policija Zadar",
+  "topics": [],
+  "source_url": "https://zadarska-policija.gov.hr/vijesti/8",
+  "face": null,
+  "face_img": "https://zadarska-policija.gov.hr/UserDocsImages//PU_ZD/slike/policija-no%c4%87.jpg"
+ },
+ {
+  "title": "Osumnjičena za krađu kozmetičkih proizvoda",
+  "link": "https://zadarska-policija.gov.hr/vijesti/osumnjicena-za-kradju-kozmetickih-proizvoda/18871",
+  "date": "2026-11-17T11:00:00+00:00",
+  "summary": "Protiv 35-godišnjakinje policija podnosi kaznenu prijavu",
+  "image": "https://zadarska-policija.gov.hr/UserDocsImages//PU_ZD/slike/pol%20auto.jpg",
+  "source": "Policija Zadar",
+  "topics": [],
+  "source_url": "https://zadarska-policija.gov.hr/vijesti/8",
+  "face": null,
+  "face_img": "https://zadarska-policija.gov.hr/UserDocsImages//PU_ZD/slike/pol%20auto.jpg"
+ },
+ {
+  "title": "Sažetak dnevnih događanja PU zadarske, 17. 11.",
+  "link": "https://zadarska-policija.gov.hr/vijesti/sazetak-dnevnih-dogadjanja-18870/18870",
+  "date": "2026-11-17T11:00:00+00:00",
+  "summary": "",
+  "image": "https://zadarska-policija.gov.hr/UserDocsImages//2022/POLICIJA/POLICIJA11.jpg",
+  "source": "Policija Zadar",
+  "topics": [
+   "Zadar"
+  ],
+  "source_url": "https://zadarska-policija.gov.hr/vijesti/8",
+  "face": null,
+  "face_img": "https://zadarska-policija.gov.hr/UserDocsImages//2022/POLICIJA/POLICIJA11.jpg"
+ },
+ {
+  "title": "Digitalne tehnologije otvaraju nove mogućnosti praćenja prostora, okoliša i kvalitete života",
+  "link": "https://www.unizd.hr/obavijesti/view/digitalne-tehnologije-otvaraju-nove-mogucnosti-pracenja-prostora-okolisa-i-kvalitete-zivota",
+  "date": "2026-11-17T11:00:00+00:00",
+  "summary": "Sve izraženiji pritisak na prostor i gradsku infrastrukturu, intenzivna novogradnja, promjene zelenih površina, urbane poplave i kvaliteta života...",
+  "image": "https://www.unizd.hr/Portals/0/EasyDNNNews/61463/images/Silvija-Siljeg-320-256-c-L-97.jpg",
+  "source": "Sveučilište u Zadru",
+  "topics": [],
+  "source_url": "https://www.unizd.hr/obavijesti/novosti",
+  "face": [
+   18.6,
+   45.6,
+   64.9,
+   78.4
+  ],
+  "face_img": "https://www.unizd.hr/Portals/0/EasyDNNNews/61463/images/Silvija-Siljeg-320-256-c-L-97.jpg"
  },
  {
   "title": "Zbog radova u zadarskoj bolnici nekoliko odjela privremeno seli na novu lokaciju",
@@ -2224,20 +2293,6 @@
   "face_img": "https://www.znet.hr/wp-content/uploads/2026/11/Mediji-27-1000x600.jpg"
  },
  {
-  "title": "35. obljetnica stradanja Škabrnje - Obavijesti za građane i privremena regulacija prometa",
-  "link": "https://zadarska-policija.gov.hr/vijesti/35-obljetnica-stradanja-skabrnje-obavijesti-za-gradjane-i-privremena-regulacija-prometa/18868",
-  "date": "2026-11-17T09:01:15.724890+00:00",
-  "summary": "Povodom obilježavanja 35. obljetnice stradanja Škabrnje, u srijedu 18. studenog 2026. godine, uspostavit će se posebna regulacija prometa",
-  "image": "https://zadarska-policija.gov.hr/UserDocsImages//2025/skabrnja%202025j/skabrnja2.jpeg",
-  "source": "Policija Zadar",
-  "topics": [
-   "Županija"
-  ],
-  "source_url": "https://zadarska-policija.gov.hr/vijesti/8",
-  "face": null,
-  "face_img": "https://zadarska-policija.gov.hr/UserDocsImages//2025/skabrnja%202025j/skabrnja2.jpeg"
- },
- {
   "title": "KRIM ISTRAGA Policija traži počinitelje koji su u garaži TIZ-a u četvrtak uništili crni sportski BMW!",
   "link": "https://www.antenazadar.hr/clanak/2026/11/krim-istraga-policija-trazi-pocinitelje-koji-su-u-garazi-tiz-a-u-cetvrtak-unistili-crni-sportski-bmw/",
   "date": "2026-11-17T08:57:46+00:00",
@@ -2322,44 +2377,6 @@
   "face_img": "https://zadarskilist.novilist.hr/wp-content/uploads/2026/11/IMG_7692.jpeg"
  },
  {
-  "title": "Upravljao automobilom pod utjecajem droga, isključen iz prometa i kažnjen",
-  "link": "https://zadarska-policija.gov.hr/vijesti/upravljao-automobilom-pod-utjecajem-droga-iskljucen-iz-prometa-i-kaznjen-18872/18872",
-  "date": "2026-11-17T08:45:46.218692+00:00",
-  "summary": "Vozaču je izdana novčana kazna od 1320 eura",
-  "image": "https://zadarska-policija.gov.hr/UserDocsImages//PU_ZD/slike/policija-no%c4%87.jpg",
-  "source": "Policija Zadar",
-  "topics": [],
-  "source_url": "https://zadarska-policija.gov.hr/vijesti/8",
-  "face": null,
-  "face_img": "https://zadarska-policija.gov.hr/UserDocsImages//PU_ZD/slike/policija-no%c4%87.jpg"
- },
- {
-  "title": "Osumnjičena za krađu kozmetičkih proizvoda",
-  "link": "https://zadarska-policija.gov.hr/vijesti/osumnjicena-za-kradju-kozmetickih-proizvoda/18871",
-  "date": "2026-11-17T08:45:46.218692+00:00",
-  "summary": "Protiv 35-godišnjakinje policija podnosi kaznenu prijavu",
-  "image": "https://zadarska-policija.gov.hr/UserDocsImages//PU_ZD/slike/pol%20auto.jpg",
-  "source": "Policija Zadar",
-  "topics": [],
-  "source_url": "https://zadarska-policija.gov.hr/vijesti/8",
-  "face": null,
-  "face_img": "https://zadarska-policija.gov.hr/UserDocsImages//PU_ZD/slike/pol%20auto.jpg"
- },
- {
-  "title": "Sažetak dnevnih događanja PU zadarske, 17. 11.",
-  "link": "https://zadarska-policija.gov.hr/vijesti/sazetak-dnevnih-dogadjanja-18870/18870",
-  "date": "2026-11-17T08:45:46.218692+00:00",
-  "summary": "",
-  "image": "https://zadarska-policija.gov.hr/UserDocsImages//2022/POLICIJA/POLICIJA11.jpg",
-  "source": "Policija Zadar",
-  "topics": [
-   "Zadar"
-  ],
-  "source_url": "https://zadarska-policija.gov.hr/vijesti/8",
-  "face": null,
-  "face_img": "https://zadarska-policija.gov.hr/UserDocsImages//2022/POLICIJA/POLICIJA11.jpg"
- },
- {
   "title": "Na Višnjiku održan prijem za sportašice i sportaše: Osigurali smo dodatna sredstva za 28 sportskih klubova",
   "link": "https://ezadar.net.hr/info/3591344/na-visnjiku-odrzan-prijem-za-sportasice-i-sportase-osigurali-smo-dodatna-sredstva-za-28-sportskih-klubova/",
   "date": "2026-11-17T08:44:39+00:00",
@@ -2398,23 +2415,6 @@
    88.6
   ],
   "face_img": "https://zadarskilist.novilist.hr/wp-content/uploads/2023/11/nadin-dan-sjecanja-LJ-1.jpg"
- },
- {
-  "title": "Digitalne tehnologije otvaraju nove mogućnosti praćenja prostora, okoliša i kvalitete života",
-  "link": "https://www.unizd.hr/obavijesti/view/digitalne-tehnologije-otvaraju-nove-mogucnosti-pracenja-prostora-okolisa-i-kvalitete-zivota",
-  "date": "2026-11-17T08:15:48.713354+00:00",
-  "summary": "Sve izraženiji pritisak na prostor i gradsku infrastrukturu, intenzivna novogradnja, promjene zelenih površina, urbane poplave i kvaliteta života...",
-  "image": "https://www.unizd.hr/Portals/0/EasyDNNNews/61463/images/Silvija-Siljeg-320-256-c-L-97.jpg",
-  "source": "Sveučilište u Zadru",
-  "topics": [],
-  "source_url": "https://www.unizd.hr/obavijesti/novosti",
-  "face": [
-   18.6,
-   45.6,
-   64.9,
-   78.4
-  ],
-  "face_img": "https://www.unizd.hr/Portals/0/EasyDNNNews/61463/images/Silvija-Siljeg-320-256-c-L-97.jpg"
  },
  {
   "title": "Mladi hrvatski reprezentativac stiže u Zadar: ‘Velika mu je želja bila doći u naš klub’",
