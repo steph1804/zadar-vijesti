@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-17T13:04:09.145609+00:00",
+ "updated": "2026-11-17T13:15:46.179354+00:00",
  "sources": [
   {
    "name": "Antena Zadar",
@@ -66,17 +66,12 @@
   },
   {
    "name": "Naši školji",
-   "count": 10,
-   "ok": true,
+   "count": 0,
+   "ok": false,
    "feed": null,
-   "errors": []
-  },
-  {
-   "name": "Grad Zadar",
-   "count": 10,
-   "ok": true,
-   "feed": null,
-   "errors": []
+   "errors": [
+    "https://www.nasiskolji.hr/feed/: <urlopen error timed out>"
+   ]
   },
   {
    "name": "Grad Zadar",
@@ -136,12 +131,10 @@
   },
   {
    "name": "Lučka uprava Zadar",
-   "count": 0,
-   "ok": false,
-   "feed": "https://www.port-authority-zadar.hr/feed/",
-   "errors": [
-    "https://www.port-authority-zadar.hr/feed/: The read operation timed out"
-   ]
+   "count": 6,
+   "ok": true,
+   "feed": null,
+   "errors": []
   },
   {
    "name": "Jadrolinija",
@@ -166,15 +159,15 @@
   },
   {
    "name": "Večernji list",
-   "count": 1,
-   "ok": true,
+   "count": 0,
+   "ok": false,
    "feed": null,
    "errors": []
   },
   {
    "name": "tportal",
-   "count": 1,
-   "ok": true,
+   "count": 0,
+   "ok": false,
    "feed": null,
    "errors": []
   },
