@@ -436,8 +436,16 @@
  ],
  "videos": {
   "v": 2,
-  "fetched": "2026-11-17T11:03:47.165126+00:00",
+  "fetched": "2026-11-17T12:03:35.899034+00:00",
   "items": [
+   {
+    "id": "CjxvDS15YeI",
+    "title": "ROBIN 🎤 Glazba uživo Zadar | Svadbe, rođendani i sve vrste proslava 🎹",
+    "channel": "Robin Cakarun",
+    "date": "2026-11-17T11:30:04+00:00",
+    "link": "https://www.youtube.com/watch?v=CjxvDS15YeI",
+    "image": "https://i.ytimg.com/vi/CjxvDS15YeI/mqdefault.jpg"
+   },
    {
     "id": "Er1sWNusAFs",
     "title": "KRONIKE ZADARSKE ŽUPANIJE 97 - 14.11.2026.",
@@ -549,14 +557,6 @@
     "date": "2026-10-20T08:00:08+00:00",
     "link": "https://www.youtube.com/watch?v=lMjQSS_u584",
     "image": "https://i.ytimg.com/vi/lMjQSS_u584/mqdefault.jpg"
-   },
-   {
-    "id": "zvKl9P5wwfg",
-    "title": "Zadarski umirovljenici ponovno studenti: Za učenje nikad nije kasno",
-    "channel": "Hrvatska radiotelevizija",
-    "date": "2026-10-19T17:39:04+00:00",
-    "link": "https://www.youtube.com/watch?v=zvKl9P5wwfg",
-    "image": "https://i.ytimg.com/vi/zvKl9P5wwfg/mqdefault.jpg"
    }
   ]
  }
