@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-18T06:31:12.277076+00:00",
+ "updated": "2026-11-18T06:45:44.637495+00:00",
  "sources": [
   {
    "name": "Antena Zadar",
@@ -24,7 +24,7 @@
   },
   {
    "name": "Znet",
-   "count": 9,
+   "count": 8,
    "ok": true,
    "feed": null,
    "errors": []
@@ -87,7 +87,7 @@
   },
   {
    "name": "HRT Radio Zadar",
-   "count": 11,
+   "count": 10,
    "ok": true,
    "feed": null,
    "errors": []
@@ -143,7 +143,7 @@
   },
   {
    "name": "Index.hr",
-   "count": 1,
+   "count": 2,
    "ok": true,
    "feed": null,
    "errors": []
@@ -164,8 +164,8 @@
   },
   {
    "name": "tportal",
-   "count": 0,
-   "ok": false,
+   "count": 1,
+   "ok": true,
    "feed": null,
    "errors": []
   },
@@ -178,7 +178,7 @@
   },
   {
    "name": "Net.hr",
-   "count": 2,
+   "count": 1,
    "ok": true,
    "feed": null,
    "errors": []
@@ -192,14 +192,14 @@
   },
   {
    "name": "Novi list",
-   "count": 1,
-   "ok": true,
+   "count": 0,
+   "ok": false,
    "feed": null,
    "errors": []
   },
   {
    "name": "HRT",
-   "count": 2,
+   "count": 3,
    "ok": true,
    "feed": null,
    "errors": []
@@ -213,7 +213,7 @@
   },
   {
    "name": "Morski.hr",
-   "count": 4,
+   "count": 3,
    "ok": true,
    "feed": null,
    "errors": []
@@ -227,7 +227,7 @@
   },
   {
    "name": "Dalmacija Danas",
-   "count": 12,
+   "count": 11,
    "ok": true,
    "feed": null,
    "errors": []
