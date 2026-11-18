@@ -1,5 +1,34 @@
 [
  {
+  "title": "Mučna ispovijest zvonara iz Škabrnje: ‘Vezali su ih žicom, vukli po avliji pa ubili. Zajedno s konjem’",
+  "link": "https://www.telegram.hr/vijesti/mucna-ispovijest-zvonara-iz-skabrnje-vezali-su-ih-zicom-vukli-po-avliji-pa-ubili-zajedno-s-konjem/",
+  "date": "2026-11-18T06:55:37+00:00",
+  "summary": "Zoran Ražov prisjetio se mučnih trenutaka iz 1991. godine i masakra svoje obitelji",
+  "image": "https://www.telegram.hr/wp-content/uploads/2026/11/pxl-181125-142067753-150x150.jpg",
+  "source": "Telegram",
+  "topics": [
+   "Županija"
+  ],
+  "source_url": "https://www.telegram.hr/",
+  "face": null,
+  "face_img": "https://www.telegram.hr/wp-content/uploads/2026/11/pxl-181125-142067753-150x150.jpg"
+ },
+ {
+  "title": "Besplatna radionica u Centru za mlade: djeca u subotu postaju čuvari čarobnog zadarskog arhipelaga",
+  "link": "https://023.hr/2026/11/besplatna-radionica-u-centru-za-mlade-djeca-u-subotu-postaju-cuvari-carobnog-zadarskog-arhipelaga/",
+  "date": "2026-11-18T06:50:04+00:00",
+  "summary": "ANA – udruga za pomoć djeci i obiteljima u subotu, 21. studenoga, organizira novu besplatnu kreativno-edukativnu radionicu za djecu u Centru za mlade Zadar. Program financijski podupire Zadarska županija, a partner je Udruga Lampica. Radionica se zove „Čuvari čarobnog zadarskog arhipelaga”.",
+  "image": "https://023.hr/wp-content/uploads/2026/11/20261118074904_385110.avif",
+  "source": "023 portal",
+  "topics": [
+   "Zadar",
+   "Županija"
+  ],
+  "source_url": "https://023.hr/",
+  "face": null,
+  "face_img": "https://023.hr/wp-content/uploads/2026/11/20261118074904_385110.avif"
+ },
+ {
   "title": "Mladićevi vojnici tog su dana napravili zvjerski pokolj. Osuđena je samo jedna osoba",
   "link": "https://www.index.hr/vijesti/clanak/mladicevi-vojnici-tog-su-dana-napravili-zvjerski-pokolj-osudjena-je-samo-jedna-osoba/2615995.aspx",
   "date": "2026-11-18T06:45:06+00:00",
@@ -47,19 +76,14 @@
   "link": "https://www.tportal.hr/vijesti/clanak/do-danas-su-tek-dvije-osobe-kaznjene-zbog-zlocina-u-skabrnji-svi-ostali-izbjegli-kazne-foto-20261118",
   "date": "2026-11-18T06:39:00+00:00",
   "summary": "Uz Vukovar, i Škabrnja će 18. studenoga obilježiti 35. godišnjicu stradanja civila i branitelja u napadu koji su pod zapovjedništvom Ratka Mladića počinili pripadnici bivše JNA i srpskih paravojnih postrojba.",
-  "image": "https://www.tportal.hr/media/thumbnail/500x300/2829044.jpeg?cropId=0",
+  "image": "https://www.tportal.hr/media/thumbnail/500x300/2829172.jpeg?cropId=0",
   "source": "tportal",
   "topics": [
    "Županija"
   ],
   "source_url": "https://www.tportal.hr/",
-  "face": [
-   32.3,
-   43.8,
-   3.0,
-   57.3
-  ],
-  "face_img": "https://www.tportal.hr/media/thumbnail/500x300/2829044.jpeg?cropId=0"
+  "face": null,
+  "face_img": "https://www.tportal.hr/media/thumbnail/500x300/2829172.jpeg?cropId=0"
  },
  {
   "title": "Trideset pet godina od 18. studenoga: 2717 vukovarskih imena, 86 škabrnjskih i zločini za koje većina nikad nije odgovarala",
@@ -90,6 +114,25 @@
   "source_url": "https://023.hr/",
   "face": null,
   "face_img": "https://023.hr/wp-content/uploads/2026/11/20261117143839_533712.avif"
+ },
+ {
+  "title": "Na Jadranu promjenljivo oblačno uz kišu i pljuskove",
+  "link": "https://zadarskilist.novilist.hr/zadar-zupanija/zupanija/na-jadranu-promjenljivo-oblacno-uz-kisu-i-pljuskove/",
+  "date": "2026-11-18T06:15:15+00:00",
+  "summary": "Promjenljivo oblačno, iznadprosječno toplo i razmjerno nestabilno, prognoza je vremena Državnog hidrometeorološkog zavoda (DHMZ) za srijedu. Mjestimice kiša i pljuskovi, uglavnom prijepodne na sjevernom Jadranu, u gorju i unutrašnjosti Dalmacije te poslijepodne na istoku, a može biti i grmljavine.",
+  "image": "https://zadarskilist.novilist.hr/wp-content/uploads/2023/08/kisa-050916-06.jpg",
+  "source": "Zadarski list",
+  "topics": [
+   "Zadar"
+  ],
+  "source_url": "https://zadarskilist.novilist.hr/",
+  "face": [
+   34.3,
+   89.2,
+   26.4,
+   87.4
+  ],
+  "face_img": "https://zadarskilist.novilist.hr/wp-content/uploads/2023/08/kisa-050916-06.jpg"
  },
  {
   "title": "Škabrnja pamti, ali ide naprijed: Selo raste i privlači nove stanovnike",
@@ -5115,56 +5158,6 @@
   "source_url": "https://zadarskilist.novilist.hr/",
   "face": null,
   "face_img": "https://zadarskilist.novilist.hr/wp-content/uploads/2025/01/10115125.jpg"
- },
- {
-  "title": "Na Sveučilištu promocija monografije koja otkriva Jadranska maritimna hodočašća",
-  "link": "https://ezadar.net.hr/kultura/3591199/na-sveucilistu-promocija-monografije-koja-otkriva-jadranska-maritimna-hodocasca/",
-  "date": "2026-11-16T09:20:00+00:00",
-  "summary": "Sveučilište u Zadru i Odjel za etnologiju i antropologiju priređuju predstavljanje monografije „JADRANSKA MARITIMNA HODOČAŠĆA“ urednika Marija Katića u četvrtak 19. studenog 2026., s početkom u 12 sati, u SEP",
-  "image": "https://cdn-ezadar.net.hr/wp-content/uploads/mipro_otvaranje_2026_18-7a0aca7629cf602752ec92a6-1052x696.jpg",
-  "source": "eZadar",
-  "topics": [
-   "Zadar"
-  ],
-  "source_url": "https://ezadar.net.hr/",
-  "face": [
-   19.9,
-   47.1,
-   39.1,
-   51.0
-  ],
-  "face_img": "https://cdn-ezadar.net.hr/wp-content/uploads/mipro_otvaranje_2026_18-7a0aca7629cf602752ec92a6-1052x696.jpg"
- },
- {
-  "title": "ZADAR OPEN Jiu jitsu klub Zadar najbolji na domaćem turniru – čak 72 medalje za zadarske borce!",
-  "link": "https://www.antenazadar.hr/clanak/2026/11/zadar-open-jiu-jitsu-klub-zadar-najbolji-na-domacem-turniru-cak-72-medalje-za-zadarske-borce/",
-  "date": "2026-11-16T09:15:48+00:00",
-  "summary": "Još jedan uspješan sportski događaj iza je Jiu jitsu kluba Zadar, koji je organizirao Zadar Gi&No-Gi Open Championship 2026.",
-  "image": "https://www.antenazadar.hr/wp-content/uploads/2026/11/910420718_1609442964315994_5683615036906437868_n.jpg",
-  "source": "Antena Zadar",
-  "topics": [
-   "Zadar",
-   "Županija",
-   "Otoci",
-   "Sport"
-  ],
-  "source_url": "https://www.antenazadar.hr/",
-  "face": null,
-  "face_img": "https://www.antenazadar.hr/wp-content/uploads/2026/11/910420718_1609442964315994_5683615036906437868_n.jpg"
- },
- {
-  "title": "Nisu ih zaustavili ni kilometri ni loša prognoza, s Ovčare su krenuli prema Škabrnji",
-  "link": "https://www.vecernji.hr/vijesti/rodeni-vukovarac-biciklira-prema-skabrnji-najvaznije-je-da-se-ne-zaboravi-2013561",
-  "date": "2026-11-16T09:14:00+00:00",
-  "summary": "Pripadnik ATJ-a Lučko Kristijan Komljenović i hrvatski branitelj Alen Mikša krenuli su na put dug više od 600 kilometara kako bi povezali dva mjesta stradanja i odali počast poginulima u Domovinskom ratu",
-  "image": "https://www.vecernji.hr/media/img/75/d9/c0245e019869fff7227f.jpeg",
-  "source": "Večernji list",
-  "topics": [
-   "Županija"
-  ],
-  "source_url": "https://www.vecernji.hr/",
-  "face": null,
-  "face_img": "https://www.vecernji.hr/media/img/75/d9/c0245e019869fff7227f.jpeg"
  },
  {
   "title": "Zadar nakon pobjede protiv Partizana slavio i u prvenstvu Hrvatske za nastavak savršenog niza",
