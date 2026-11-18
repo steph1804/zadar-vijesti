@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-18T19:45:46.246192+00:00",
+ "updated": "2026-11-18T20:01:09.676097+00:00",
  "sources": [
   {
    "name": "Antena Zadar",
@@ -10,7 +10,7 @@
   },
   {
    "name": "Zadarski list",
-   "count": 7,
+   "count": 6,
    "ok": true,
    "feed": null,
    "errors": []
@@ -89,7 +89,7 @@
   },
   {
    "name": "HRT Radio Zadar",
-   "count": 10,
+   "count": 9,
    "ok": true,
    "feed": null,
    "errors": []
@@ -166,8 +166,8 @@
   },
   {
    "name": "tportal",
-   "count": 0,
-   "ok": false,
+   "count": 1,
+   "ok": true,
    "feed": null,
    "errors": []
   },
@@ -229,7 +229,7 @@
   },
   {
    "name": "Dalmacija Danas",
-   "count": 13,
+   "count": 14,
    "ok": true,
    "feed": null,
    "errors": []
@@ -250,7 +250,7 @@
   },
   {
    "name": "Dalmacija News",
-   "count": 6,
+   "count": 8,
    "ok": true,
    "feed": null,
    "errors": []
@@ -278,8 +278,8 @@
   },
   {
    "name": "Sportske novosti",
-   "count": 1,
-   "ok": true,
+   "count": 0,
+   "ok": false,
    "feed": null,
    "errors": []
   },
