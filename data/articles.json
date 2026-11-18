@@ -1,5 +1,67 @@
 [
  {
+  "title": "Zatečeni u provali na Pagu",
+  "link": "https://zadarska-policija.gov.hr/vijesti/zateceni-u-provali-na-pagu/18879",
+  "date": "2026-11-18T07:15:46.383376+00:00",
+  "summary": "Dvojicu muškaraca policija sumnjiči za dvije teške krađe",
+  "image": "https://zadarska-policija.gov.hr/UserDocsImages//2024/POLICIJA/policija300.jpg",
+  "source": "Policija Zadar",
+  "topics": [
+   "Otoci"
+  ],
+  "source_url": "https://zadarska-policija.gov.hr/vijesti/8",
+  "face": null,
+  "face_img": "https://zadarska-policija.gov.hr/UserDocsImages//2024/POLICIJA/policija300.jpg"
+ },
+ {
+  "title": "Sažetak dnevnih događanja PU zadarske, 18. 11.",
+  "link": "https://zadarska-policija.gov.hr/vijesti/sazetak-dnevnih-dogadjanja-18877/18877",
+  "date": "2026-11-18T07:15:46.383376+00:00",
+  "summary": "",
+  "image": "https://zadarska-policija.gov.hr/UserDocsImages//2023/POLICIJA/328.jpg",
+  "source": "Policija Zadar",
+  "topics": [
+   "Zadar"
+  ],
+  "source_url": "https://zadarska-policija.gov.hr/vijesti/8",
+  "face": null,
+  "face_img": "https://zadarska-policija.gov.hr/UserDocsImages//2023/POLICIJA/328.jpg"
+ },
+ {
+  "title": "(FOTO) “GRAD KOJI NIKADA NEĆEMO ZABORAVITI!” / Predstavnici Općine Sv. Filip i Jakov u Vukovaru odali počast svim poginulim hrvatskim braniteljima i civilnim žrtvama",
+  "link": "https://www.znet.hr/2026/11/18/foto-grad-koji-nikada-necemo-zaboraviti-predstavnici-opcine-sv-filip-i-jakov-u-vukovaru-odali-pocast-svim-poginulima/",
+  "date": "2026-11-18T07:05:43+00:00",
+  "summary": "Općina Sveti Filip i Jakov, predvođena načelnikom Zoranom Pelicarićem, zajedno s općinskim vijećnicima i brojnim mještanima, posjetila je Vukovar kako bi odala počast svim poginulim hrvatskim braniteljima i civilnim žrtvama Domovinskog rata.",
+  "image": "https://www.znet.hr/wp-content/uploads/2026/11/912661237_1850347682662388_1366403997060964619_n-1000x600.jpg",
+  "source": "Znet",
+  "topics": [
+   "Zadar",
+   "Županija"
+  ],
+  "source_url": "https://www.znet.hr/",
+  "face": null,
+  "face_img": "https://www.znet.hr/wp-content/uploads/2026/11/912661237_1850347682662388_1366403997060964619_n-1000x600.jpg"
+ },
+ {
+  "title": "Škabrnja se prisjeća stradanja civila i branitelja",
+  "link": "https://vijesti.hrt.hr/hrvatska/skabrnja-se-prisjeca-stradanja-civila-i-branitelja-13016018",
+  "date": "2026-11-18T07:04:33+00:00",
+  "summary": "Uz Vukovar, i Škabrnja će 18. studenoga obilježiti 35. godišnjicu stradanja civila i branitelja u napadu koji su pod zapovjedništvom Ratka Mladića počinili pripadnici bivše JNA i srpskih paravojnih postrojba.",
+  "image": "https://api.hrt.hr/media/7c/0a/740x438-pxl-181124-124300935-20261118060335.jpg",
+  "source": "HRT",
+  "topics": [
+   "Županija"
+  ],
+  "source_url": "https://vijesti.hrt.hr/",
+  "face": [
+   48.4,
+   59.9,
+   3.7,
+   97.7
+  ],
+  "face_img": "https://api.hrt.hr/media/7c/0a/740x438-pxl-181124-124300935-20261118060335.jpg"
+ },
+ {
   "title": "Mučna ispovijest zvonara iz Škabrnje: ‘Vezali su ih žicom, vukli po avliji pa ubili. Zajedno s konjem’",
   "link": "https://www.telegram.hr/vijesti/mucna-ispovijest-zvonara-iz-skabrnje-vezali-su-ih-zicom-vukli-po-avliji-pa-ubili-zajedno-s-konjem/",
   "date": "2026-11-18T06:55:37+00:00",
@@ -161,25 +223,6 @@
   "source_url": "https://n1info.hr/",
   "face": null,
   "face_img": "https://n1info.hr/media/images/2026/11/18/1794981976_PXL_171126_162678322.width-1200.jpg"
- },
- {
-  "title": "Škabrnja se prisjeća stradanja civila i branitelja",
-  "link": "https://vijesti.hrt.hr/hrvatska/skabrnja-se-prisjeca-stradanja-civila-i-branitelja-13016018",
-  "date": "2026-11-18T06:04:33+00:00",
-  "summary": "Uz Vukovar, i Škabrnja će 18. studenoga obilježiti 35. godišnjicu stradanja civila i branitelja u napadu koji su pod zapovjedništvom Ratka Mladića počinili pripadnici bivše JNA i srpskih paravojnih postrojba.",
-  "image": "https://api.hrt.hr/media/7c/0a/740x438-pxl-181124-124300935-20261118060335.jpg",
-  "source": "HRT",
-  "topics": [
-   "Županija"
-  ],
-  "source_url": "https://vijesti.hrt.hr/",
-  "face": [
-   48.4,
-   59.9,
-   3.7,
-   97.7
-  ],
-  "face_img": "https://api.hrt.hr/media/7c/0a/740x438-pxl-181124-124300935-20261118060335.jpg"
  },
  {
   "title": "‘Vidila san kako kolju. Vidila san sve zlo na svitu’: Potresna svjedočanstva iz Škabrnje koja je Zadarski list zabilježio prije 26 godina",
@@ -5114,50 +5157,6 @@
   "source_url": "https://023.hr/",
   "face": null,
   "face_img": "https://023.hr/wp-content/uploads/2026/11/20261116095533_134041.avif"
- },
- {
-  "title": "Nepoznati lopov operirao u Bibinjama, iz automobila 38-godišnjaka nestalo nekoliko stotina eura",
-  "link": "https://zadarskilist.novilist.hr/crna-kronika/nepoznati-lopov-operirao-u-bibinjama-iz-automobila-38-godisnjaka-nestalo-nekoliko-stotina-eura/",
-  "date": "2026-11-16T09:50:24+00:00",
-  "summary": "Proteklog dana, 15./16. studenog na području Policijske uprave zadarske evidentirana je jedna teška krađa: – dana 14./15. studenog u Bibinjama nepoznati počinitelj je iz automobila 38-godišnjeg vlasnika otuđio novac. Materijalna šteta je nekoliko stotina eura.",
-  "image": "https://zadarskilist.novilist.hr/wp-content/uploads/2022/11/provala-u-automobil-krada-pixa.jpg",
-  "source": "Zadarski list",
-  "topics": [
-   "Zadar",
-   "Županija"
-  ],
-  "source_url": "https://zadarskilist.novilist.hr/",
-  "face": null,
-  "face_img": "https://zadarskilist.novilist.hr/wp-content/uploads/2022/11/provala-u-automobil-krada-pixa.jpg"
- },
- {
-  "title": "Uhićen 20-godišnji vozač u Benkovcu; Zbog alkohola i odbijanja testa na droge predloženo 40 dana zatvora",
-  "link": "https://023.hr/2026/11/uhicen-20-godisnji-vozac-u-benkovcu-zbog-alkohola-i-odbijanja-testa-na-droge-predlozeno-40-dana-zatvora/",
-  "date": "2026-11-16T09:45:54+00:00",
-  "summary": "U nedjelju u 02.39 sati u Benkovcu u Vukovarskoj ulici policijski službenici Policijske postaje Benkovac – Obrovac u nadzoru prometa zaustavili su automobil zadarskih registarskih oznaka kojim je upravljao 20-godišnjak i vozilom se kretao izvan sredine obilježene kolničke trake.",
-  "image": "https://023.hr/wp-content/uploads/2024/11/20241108115042_784296-jpg.webp",
-  "source": "023 portal",
-  "topics": [
-   "Zadar",
-   "Županija"
-  ],
-  "source_url": "https://023.hr/",
-  "face": null,
-  "face_img": "https://023.hr/wp-content/uploads/2024/11/20241108115042_784296-jpg.webp"
- },
- {
-  "title": "Mladi u Zadru izlaze na ulice: ‘Predugo smo šutjeli, tretiraju nas kao građane drugog reda!’",
-  "link": "https://zadarskilist.novilist.hr/zadar-zupanija/zadar/mladi-u-zadru-izlaze-na-ulice-predugo-smo-sutjeli-tretiraju-nas-kao-gradane-drugog-reda/",
-  "date": "2026-11-16T09:25:26+00:00",
-  "summary": "Zadarski studenti, srednjoškolci i ostali mladi pridružit će se europskom pokretu Štrajka mladih, u sklopu kojeg je za petak, 20. studenoga, najavljeno prosvjedno okupljanje u Zadru.",
-  "image": "https://zadarskilist.novilist.hr/wp-content/uploads/2025/01/10115125.jpg",
-  "source": "Zadarski list",
-  "topics": [
-   "Zadar"
-  ],
-  "source_url": "https://zadarskilist.novilist.hr/",
-  "face": null,
-  "face_img": "https://zadarskilist.novilist.hr/wp-content/uploads/2025/01/10115125.jpg"
  },
  {
   "title": "Zadar nakon pobjede protiv Partizana slavio i u prvenstvu Hrvatske za nastavak savršenog niza",
