@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-18T12:15:45.968041+00:00",
+ "updated": "2026-11-18T12:31:03.226363+00:00",
  "sources": [
   {
    "name": "Antena Zadar",
@@ -145,7 +145,7 @@
   },
   {
    "name": "Index.hr",
-   "count": 6,
+   "count": 7,
    "ok": true,
    "feed": null,
    "errors": []
@@ -166,14 +166,14 @@
   },
   {
    "name": "tportal",
-   "count": 1,
-   "ok": true,
+   "count": 0,
+   "ok": false,
    "feed": null,
    "errors": []
   },
   {
    "name": "N1",
-   "count": 2,
+   "count": 1,
    "ok": true,
    "feed": null,
    "errors": []
@@ -215,7 +215,7 @@
   },
   {
    "name": "Morski.hr",
-   "count": 6,
+   "count": 5,
    "ok": true,
    "feed": null,
    "errors": []
@@ -264,7 +264,7 @@
   },
   {
    "name": "Hrvatska danas",
-   "count": 1,
+   "count": 2,
    "ok": true,
    "feed": null,
    "errors": []
