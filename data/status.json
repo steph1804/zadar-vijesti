@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-18T13:01:17.008324+00:00",
+ "updated": "2026-11-18T13:16:02.477642+00:00",
  "sources": [
   {
    "name": "Antena Zadar",
@@ -38,40 +38,44 @@
   },
   {
    "name": "023 portal",
-   "count": 9,
+   "count": 8,
    "ok": true,
    "feed": null,
    "errors": []
   },
   {
    "name": "Sport023",
-   "count": 10,
-   "ok": true,
-   "feed": null,
-   "errors": []
-  },
-  {
-   "name": "KK Zadar",
-   "count": 10,
-   "ok": true,
-   "feed": null,
-   "errors": []
-  },
-  {
-   "name": "SC Višnjik",
-   "count": 10,
-   "ok": true,
-   "feed": null,
-   "errors": []
-  },
-  {
-   "name": "Naši školji",
    "count": 0,
    "ok": false,
    "feed": null,
    "errors": [
-    "https://www.nasiskolji.hr/feed/: <urlopen error timed out>"
+    "https://sport023.hr/feed/: mismatched tag: line 93, column 2"
    ]
+  },
+  {
+   "name": "KK Zadar",
+   "count": 0,
+   "ok": false,
+   "feed": null,
+   "errors": [
+    "https://kkzadar.hr/feed/: mismatched tag: line 93, column 2"
+   ]
+  },
+  {
+   "name": "SC Višnjik",
+   "count": 0,
+   "ok": false,
+   "feed": null,
+   "errors": [
+    "https://visnjik.hr/feed/: mismatched tag: line 93, column 2"
+   ]
+  },
+  {
+   "name": "Naši školji",
+   "count": 10,
+   "ok": true,
+   "feed": null,
+   "errors": []
   },
   {
    "name": "Grad Zadar",
@@ -82,10 +86,12 @@
   },
   {
    "name": "Zadarska županija",
-   "count": 10,
-   "ok": true,
+   "count": 0,
+   "ok": false,
    "feed": null,
-   "errors": []
+   "errors": [
+    "https://www.zadarska-zupanija.hr/novosti-arhiva?format=feed&type=rss: mismatched tag: line 93, column 2"
+   ]
   },
   {
    "name": "HRT Radio Zadar",
@@ -110,10 +116,12 @@
   },
   {
    "name": "Opća bolnica Zadar",
-   "count": 5,
-   "ok": true,
+   "count": 0,
+   "ok": false,
    "feed": null,
-   "errors": []
+   "errors": [
+    "https://www.bolnica-zadar.hr/feed/: mismatched tag: line 93, column 2"
+   ]
   },
   {
    "name": "Liburnija Zadar",
@@ -159,15 +167,15 @@
   },
   {
    "name": "Večernji list",
-   "count": 1,
+   "count": 2,
    "ok": true,
    "feed": null,
    "errors": []
   },
   {
    "name": "tportal",
-   "count": 0,
-   "ok": false,
+   "count": 1,
+   "ok": true,
    "feed": null,
    "errors": []
   },
@@ -180,7 +188,7 @@
   },
   {
    "name": "Net.hr",
-   "count": 2,
+   "count": 3,
    "ok": true,
    "feed": null,
    "errors": []
@@ -194,8 +202,8 @@
   },
   {
    "name": "Novi list",
-   "count": 0,
-   "ok": false,
+   "count": 1,
+   "ok": true,
    "feed": null,
    "errors": []
   },
@@ -215,7 +223,7 @@
   },
   {
    "name": "Morski.hr",
-   "count": 5,
+   "count": 4,
    "ok": true,
    "feed": null,
    "errors": []
@@ -229,7 +237,7 @@
   },
   {
    "name": "Dalmacija Danas",
-   "count": 14,
+   "count": 13,
    "ok": true,
    "feed": null,
    "errors": []
@@ -264,10 +272,12 @@
   },
   {
    "name": "Hrvatska danas",
-   "count": 3,
-   "ok": true,
+   "count": 0,
+   "ok": false,
    "feed": null,
-   "errors": []
+   "errors": [
+    "https://hrvatska-danas.com/feed/: mismatched tag: line 93, column 2"
+   ]
   },
   {
    "name": "HRTurizam",
