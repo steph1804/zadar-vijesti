@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-18T09:15:46.645209+00:00",
+ "updated": "2026-11-18T09:30:59.967767+00:00",
  "sources": [
   {
    "name": "Antena Zadar",
@@ -159,8 +159,8 @@
   },
   {
    "name": "Večernji list",
-   "count": 1,
-   "ok": true,
+   "count": 0,
+   "ok": false,
    "feed": null,
    "errors": []
   },
@@ -180,8 +180,8 @@
   },
   {
    "name": "Net.hr",
-   "count": 1,
-   "ok": true,
+   "count": 0,
+   "ok": false,
    "feed": null,
    "errors": []
   },
@@ -229,7 +229,7 @@
   },
   {
    "name": "Dalmacija Danas",
-   "count": 13,
+   "count": 14,
    "ok": true,
    "feed": null,
    "errors": []
