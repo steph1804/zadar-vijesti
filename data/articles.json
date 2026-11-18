@@ -1,5 +1,72 @@
 [
  {
+  "title": "Škabrnja pamti, ali ide naprijed: Selo raste i privlači nove stanovnike",
+  "link": "https://magazin.hrt.hr/price-iz-hrvatske/skabrnja-pamti-ali-ide-naprijed-selo-raste-i-privlaci-nove-stanovnike-13014428",
+  "date": "2026-11-18T06:13:07+00:00",
+  "summary": "Trideset pet godina nakon tragedije u Škabrnji, studeni i dalje budi bolna sjećanja na žrtve Domovinskog rata. No Škabrnjani se ne predaju. Ponosni su na svoje selo koje se razvija, u kojem je sve više djece, proširuje se vrtić, grade nove kuće i doseljavaju mlade obitelji.",
+  "image": "https://api.hrt.hr/media/4f/b9/740x438-marko-babic-artplakata-20261117095053.jpg",
+  "source": "HRT",
+  "topics": [
+   "Županija"
+  ],
+  "source_url": "https://vijesti.hrt.hr/",
+  "face": null,
+  "face_img": "https://api.hrt.hr/media/4f/b9/740x438-marko-babic-artplakata-20261117095053.jpg"
+ },
+ {
+  "title": "Škabrnja obilježava 35 godina od stravičnog zločina: U jednom danu ubijeno 58 ljudi",
+  "link": "https://n1info.hr/vijesti/skabrnja-obiljezava-35-godina-od-stravicnog-zlocina-u-jednom-danu-ubijeno-58-ljudi/",
+  "date": "2026-11-18T06:06:31+00:00",
+  "summary": "Napad na Škabrnju počeo je 18. studenoga 1991. godine rano ujutro iz dva smjera. Jedna kolona tenkova i oklopnih transportera s kamionima pješaštva, u",
+  "image": "https://n1info.hr/media/images/2026/11/18/1794981976_PXL_171126_162678322.width-1200.jpg",
+  "source": "N1",
+  "topics": [
+   "Županija"
+  ],
+  "source_url": "https://n1info.hr/",
+  "face": null,
+  "face_img": "https://n1info.hr/media/images/2026/11/18/1794981976_PXL_171126_162678322.width-1200.jpg"
+ },
+ {
+  "title": "Škabrnja se prisjeća stradanja civila i branitelja",
+  "link": "https://vijesti.hrt.hr/hrvatska/skabrnja-se-prisjeca-stradanja-civila-i-branitelja-13016018",
+  "date": "2026-11-18T06:04:33+00:00",
+  "summary": "Uz Vukovar, i Škabrnja će 18. studenoga obilježiti 35. godišnjicu stradanja civila i branitelja u napadu koji su pod zapovjedništvom Ratka Mladića počinili pripadnici bivše JNA i srpskih paravojnih postrojba.",
+  "image": "https://api.hrt.hr/media/7c/0a/740x438-pxl-181124-124300935-20261118060335.jpg",
+  "source": "HRT",
+  "topics": [
+   "Županija"
+  ],
+  "source_url": "https://vijesti.hrt.hr/",
+  "face": [
+   48.4,
+   59.9,
+   3.7,
+   97.7
+  ],
+  "face_img": "https://api.hrt.hr/media/7c/0a/740x438-pxl-181124-124300935-20261118060335.jpg"
+ },
+ {
+  "title": "‘Vidila san kako kolju. Vidila san sve zlo na svitu’: Potresna svjedočanstva iz Škabrnje koja je Zadarski list zabilježio prije 26 godina",
+  "link": "https://zadarskilist.novilist.hr/zadar-zupanija/vidila-san-kako-kolju-vidila-san-sve-zlo-na-svitu-potresna-svjedocanstva-iz-skabrnje-koja-je-zadarski-list-zabiljezio-prije-26-godina/",
+  "date": "2026-11-18T06:01:37+00:00",
+  "summary": "Na današnji dan, 18. studenoga navršava se 35 godina od pokolja u Škabrnji. Sjećanja na stradanje mještana, razorene obitelji i zločine počinjene nad civilima ostala su duboko urezana u povijest ovoga ravnokotarskog mjesta.",
+  "image": "https://zadarskilist.novilist.hr/wp-content/uploads/2026/11/KRUG-12-2.png",
+  "source": "Zadarski list",
+  "topics": [
+   "Zadar",
+   "Županija"
+  ],
+  "source_url": "https://zadarskilist.novilist.hr/",
+  "face": [
+   51.8,
+   96.3,
+   71.8,
+   87.7
+  ],
+  "face_img": "https://zadarskilist.novilist.hr/wp-content/uploads/2026/11/KRUG-12-2.png"
+ },
+ {
   "title": "Za vrijeme Nerona imali su kupalište, a danas nemaju vodu u kućama",
   "link": "https://vijesti.hrt.hr/hrvatska/za-vrijeme-nerona-imali-su-kupaliste-a-danas-nemaju-vodu-u-kucama-13014417",
   "date": "2026-11-18T06:00:46+00:00",
@@ -17,6 +84,26 @@
    44.4
   ],
   "face_img": "https://api.hrt.hr/media/04/2e/740x438-zd-rd-popovici-konacno-voda-kvrsaljko-frame-0-20261117092829.jpg"
+ },
+ {
+  "title": "DAN SJEĆANJA Škara: Nismo pronašli osobu koja je nacrtala kostur, nadamo se da će nam se javiti",
+  "link": "https://www.antenazadar.hr/clanak/2026/11/dan-sjecanja-skara-nismo-pronasli-osobu-koja-je-nacrtala-kostur-nadamo-se-da-ce-nam-se-javiti/",
+  "date": "2026-11-18T06:00:12+00:00",
+  "summary": "Hrvatsku javnost ovih je dana potresao crtež kostura kojega je prije 35 godina nacrtala djevojčica iz Škabrnje. Svakojakih je crteža i uspomena na ovaj tragičan dan u Škabrnji bilo, no nitko se ne sjeća ovako jezivog crteža koji prikazuje ljudski skelet.",
+  "image": "https://www.antenazadar.hr/wp-content/uploads/2026/11/skabrnja_crtez.jpg",
+  "source": "Antena Zadar",
+  "topics": [
+   "Zadar",
+   "Županija"
+  ],
+  "source_url": "https://www.antenazadar.hr/",
+  "face": [
+   24.6,
+   29.7,
+   0.0,
+   1.5
+  ],
+  "face_img": "https://www.antenazadar.hr/wp-content/uploads/2026/11/skabrnja_crtez.jpg"
  },
  {
   "title": "35 godina od masakra u Škabrnji: Kako je moguće da su samo dvije osobe odslužile kaznu?",
@@ -5089,90 +5176,6 @@
   "source_url": "https://sport023.hr/",
   "face": null,
   "face_img": "https://sport023.hr/wp-content/uploads/2026/11/ares.jpg"
- },
- {
-  "title": "Četiri adventske kućice već su osvanule na Forumu",
-  "link": "https://ezadar.net.hr/info/3591270/cetiri-adventske-kucice-vec-su-osvanule-na-forumu/",
-  "date": "2026-11-16T08:34:58+00:00",
-  "summary": "Četiri adventske kućice već su postavljene na Poljani Ivana Pavla II., a Zadar se polako počinje pripremati za najveselije razdoblje godine. Iako je do početka Adventa ostalo još nekoliko tjedana,",
-  "image": "https://cdn-ezadar.net.hr/wp-content/uploads/8ca5dadd-8401-4a3e-82f6-3a1b1ef1c2a1-39df618b892b58ff561f673a-1052x696.jpg",
-  "source": "eZadar",
-  "topics": [
-   "Zadar"
-  ],
-  "source_url": "https://ezadar.net.hr/",
-  "face": null,
-  "face_img": "https://cdn-ezadar.net.hr/wp-content/uploads/8ca5dadd-8401-4a3e-82f6-3a1b1ef1c2a1-39df618b892b58ff561f673a-1052x696.jpg"
- },
- {
-  "title": "Cro Cop oduševio Zadar: Prepuno kazalište na večeri ‘Licem u lice s Mirkom Filipovićem‘",
-  "link": "https://slobodnadalmacija.hr/dalmacija/zadar/cro-cop-odusevio-zadar-prepuno-kazaliste-na-veceri-licem-u-lice-s-mirkom-filipovicem-1590641",
-  "date": "2026-11-16T08:30:23+00:00",
-  "summary": "Hrvatsko narodno kazalište Zadar bilo je ispunjeno do posljednjeg mjesta na događaju „Licem u lice s Mirkom Filipovićem”, koji je okupio brojne građane, djecu, roditelje i ljubitelje sporta. Velik interes bio je vidljiv već prilikom otvaranja prijava, kada su sva mjesta popunjena u svega nekoliko sa...",
-  "image": "https://static.slobodnadalmacija.hr/images/slike/2026/11/16/32870470.jpg",
-  "source": "Slobodna Dalmacija/Zadar",
-  "topics": [
-   "Zadar"
-  ],
-  "source_url": "https://slobodnadalmacija.hr/dalmacija/zadar",
-  "face": [
-   38.1,
-   56.5,
-   13.0,
-   89.3
-  ],
-  "face_img": "https://static.slobodnadalmacija.hr/images/slike/2026/11/16/32870470.jpg"
- },
- {
-  "title": "Forum i Ivana Kindl pjevali za život, a liječnici u Kneževoj palači odgovarali na pitanja pacijenata",
-  "link": "https://ezadar.net.hr/galerije/3591094/forum-i-ivana-kindl-pjevali-za-zivot-a-lijecnici-u-knezevoj-palaci-odgovarali-na-pitanja-pacijenata/",
-  "date": "2026-11-16T08:30:00+00:00",
-  "summary": "„Život za život” u Zadru: Humanitarni koncert i tribina okupili brojne građane U petak, 13. studenoga, održan je humanitarni koncert grupe Forum i Ivane Kindl pod nazivom „Život za život”.",
-  "image": "https://cdn-ezadar.net.hr/wp-content/uploads/mlb_0442-396d15f06a89d95d9e52d2f8-1052x696.jpg",
-  "source": "eZadar",
-  "topics": [
-   "Zadar"
-  ],
-  "source_url": "https://ezadar.net.hr/",
-  "face": [
-   24.4,
-   52.2,
-   19.2,
-   83.8
-  ],
-  "face_img": "https://cdn-ezadar.net.hr/wp-content/uploads/mlb_0442-396d15f06a89d95d9e52d2f8-1052x696.jpg"
- },
- {
-  "title": "PRVA B LIGA Odbojkašice Zadra nakon sedam kola u vrhu poretka",
-  "link": "https://sport023.hr/2026/11/16/prva-b-liga-odbojkasice-zadra-nakon-sedam-kola-u-vrhu-poretka/",
-  "date": "2026-11-16T08:29:03+00:00",
-  "summary": "U 7. kolu 1. B lige jug odbojkašice Zadra ostvarile su šestu pobjedu. Ovoga puta igračice trenera Domenika Kresoje na...",
-  "image": "https://sport023.hr/wp-content/uploads/2026/11/ok-zadar-zene-vs-vodice-11-26.jpg",
-  "source": "Sport023",
-  "source_topic": "Sport",
-  "topics": [
-   "Zadar",
-   "Sport"
-  ],
-  "source_url": "https://sport023.hr/",
-  "face": null,
-  "face_img": "https://sport023.hr/wp-content/uploads/2026/11/ok-zadar-zene-vs-vodice-11-26.jpg"
- },
- {
-  "title": "MR. RAZOR novi poslovni partner KK Zadar",
-  "link": "https://kkzadar.hr/mr-razor-novi-poslovni-partner-kk-zadar/",
-  "date": "2026-11-16T08:27:25+00:00",
-  "summary": "KK Zadar i MR. RAZOR Barbershop započinju suradnju u trajanju od godinu dana, čime se nastavlja povezivanje zadarskog sporta i lokalnih poduzetnika koji dijele ljubav prema gradu i njegovim vrijednostima.",
-  "image": "https://kkzadar.hr/wp-content/uploads/2026/11/zadrazor.jpg",
-  "source": "KK Zadar",
-  "source_topic": "Sport",
-  "topics": [
-   "Zadar",
-   "Sport"
-  ],
-  "source_url": "https://kkzadar.hr/novosti/",
-  "face": null,
-  "face_img": "https://kkzadar.hr/wp-content/uploads/2026/11/zadrazor.jpg"
  },
  {
   "title": "Zadar nakon pobjede protiv Partizana slavio i u prvenstvu Hrvatske za nastavak savršenog niza",
