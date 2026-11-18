@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-18T16:15:47.146867+00:00",
+ "updated": "2026-11-18T16:31:06.878875+00:00",
  "sources": [
   {
    "name": "Antena Zadar",
@@ -208,8 +208,8 @@
   },
   {
    "name": "Dnevnik.hr",
-   "count": 1,
-   "ok": true,
+   "count": 0,
+   "ok": false,
    "feed": null,
    "errors": []
   },
