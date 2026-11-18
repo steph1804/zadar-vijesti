@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-18T08:31:00.950245+00:00",
+ "updated": "2026-11-18T08:45:46.713255+00:00",
  "sources": [
   {
    "name": "Antena Zadar",
@@ -66,10 +66,12 @@
   },
   {
    "name": "Naši školji",
-   "count": 10,
-   "ok": true,
+   "count": 0,
+   "ok": false,
    "feed": null,
-   "errors": []
+   "errors": [
+    "https://www.nasiskolji.hr/feed/: <urlopen error timed out>"
+   ]
   },
   {
    "name": "Grad Zadar",
@@ -87,7 +89,7 @@
   },
   {
    "name": "HRT Radio Zadar",
-   "count": 10,
+   "count": 11,
    "ok": true,
    "feed": null,
    "errors": []
@@ -129,10 +131,12 @@
   },
   {
    "name": "Lučka uprava Zadar",
-   "count": 6,
-   "ok": true,
+   "count": 0,
+   "ok": false,
    "feed": null,
-   "errors": []
+   "errors": [
+    "https://www.port-authority-zadar.hr/feed/: The read operation timed out"
+   ]
   },
   {
    "name": "Jadrolinija",
@@ -150,7 +154,7 @@
   },
   {
    "name": "Jutarnji list",
-   "count": 2,
+   "count": 1,
    "ok": true,
    "feed": null,
    "errors": []
@@ -199,7 +203,7 @@
   },
   {
    "name": "HRT",
-   "count": 3,
+   "count": 1,
    "ok": true,
    "feed": null,
    "errors": []
@@ -220,14 +224,14 @@
   },
   {
    "name": "Croatian Aviation",
-   "count": 3,
+   "count": 4,
    "ok": true,
    "feed": null,
    "errors": []
   },
   {
    "name": "Dalmacija Danas",
-   "count": 12,
+   "count": 13,
    "ok": true,
    "feed": null,
    "errors": []
