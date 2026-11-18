@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-18T21:01:12.729816+00:00",
+ "updated": "2026-11-18T21:13:36.020950+00:00",
  "sources": [
   {
    "name": "Antena Zadar",
@@ -10,7 +10,7 @@
   },
   {
    "name": "Zadarski list",
-   "count": 5,
+   "count": 4,
    "ok": true,
    "feed": null,
    "errors": []
@@ -166,8 +166,8 @@
   },
   {
    "name": "tportal",
-   "count": 1,
-   "ok": true,
+   "count": 0,
+   "ok": false,
    "feed": null,
    "errors": []
   },
@@ -264,7 +264,7 @@
   },
   {
    "name": "Hrvatska danas",
-   "count": 5,
+   "count": 4,
    "ok": true,
    "feed": null,
    "errors": []
