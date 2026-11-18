@@ -37,30 +37,6 @@
  "flights": [
   {
    "dir": "dolazak",
-   "flight": "OU675",
-   "airline": "Croatia Airlines",
-   "city": "Zagreb",
-   "via": "Pula",
-   "time": "2026-11-18T15:50:00",
-   "est": "2026-11-18T15:43:00",
-   "act": "2026-11-18T15:42:00",
-   "status": "Landed",
-   "gate": ""
-  },
-  {
-   "dir": "odlazak",
-   "flight": "OU675",
-   "airline": "Croatia Airlines",
-   "city": "Zagreb",
-   "via": "",
-   "time": "2026-11-18T16:20:00",
-   "est": "2026-11-18T16:20:00",
-   "act": "2026-11-18T16:08:13",
-   "status": "Departed",
-   "gate": "05"
-  },
-  {
-   "dir": "dolazak",
    "flight": "OU674",
    "airline": "Croatia Airlines",
    "city": "Zagreb",
@@ -94,6 +70,42 @@
    "act": "",
    "status": "",
    "gate": ""
+  },
+  {
+   "dir": "odlazak",
+   "flight": "OU4674",
+   "airline": "Croatia Airlines",
+   "city": "Munich",
+   "via": "",
+   "time": "2026-11-20T06:30:00",
+   "est": "2026-11-20T06:30:00",
+   "act": "",
+   "status": "",
+   "gate": ""
+  },
+  {
+   "dir": "dolazak",
+   "flight": "OU4675",
+   "airline": "Croatia Airlines",
+   "city": "Munich",
+   "via": "",
+   "time": "2026-11-20T15:10:00",
+   "est": "2026-11-20T15:10:00",
+   "act": "",
+   "status": "",
+   "gate": ""
+  },
+  {
+   "dir": "odlazak",
+   "flight": "OU674",
+   "airline": "Croatia Airlines",
+   "city": "Zagreb",
+   "via": "Pula",
+   "time": "2026-11-20T15:40:00",
+   "est": "2026-11-20T15:40:00",
+   "act": "",
+   "status": "",
+   "gate": ""
   }
  ],
  "power": [
@@ -111,6 +123,30 @@
    "street": "Rampada",
    "note": "",
    "time": "08:30 - 12:30",
+   "unplanned": false
+  },
+  {
+   "day": "20.11.2026",
+   "place": "Poljica",
+   "street": "Cjelo naselje",
+   "note": "Povremeni prekidi",
+   "time": "08:00 - 12:00",
+   "unplanned": false
+  },
+  {
+   "day": "20.11.2026",
+   "place": "Briševo",
+   "street": "dio mjesta prema Donjoj Murvici",
+   "note": "",
+   "time": "08:30 - 13:00",
+   "unplanned": false
+  },
+  {
+   "day": "20.11.2026",
+   "place": "Donja Murvica",
+   "street": "dio mjesta od magistrale prema Briševu",
+   "note": "",
+   "time": "08:30 - 13:00",
    "unplanned": false
   }
  ],
@@ -418,7 +454,7 @@
  ],
  "videos": {
   "v": 2,
-  "fetched": "2026-11-18T22:01:49.758417+00:00",
+  "fetched": "2026-11-18T23:03:41.035305+00:00",
   "items": [
    {
     "id": "77WYoRm2jgk",
