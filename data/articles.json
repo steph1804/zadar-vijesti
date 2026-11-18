@@ -1,5 +1,24 @@
 [
  {
+  "title": "Škabrnja se prisjeća stradanja civila i branitelja",
+  "link": "https://vijesti.hrt.hr/hrvatska/skabrnja-se-prisjeca-stradanja-civila-i-branitelja-13016018",
+  "date": "2026-11-18T08:04:33+00:00",
+  "summary": "Uz Vukovar, i Škabrnja će 18. studenoga obilježiti 35. godišnjicu stradanja civila i branitelja u napadu koji su pod zapovjedništvom Ratka Mladića počinili pripadnici bivše JNA i srpskih paravojnih postrojba.",
+  "image": "https://api.hrt.hr/media/7c/0a/740x438-pxl-181124-124300935-20261118060335.jpg",
+  "source": "HRT",
+  "topics": [
+   "Županija"
+  ],
+  "source_url": "https://vijesti.hrt.hr/",
+  "face": [
+   48.4,
+   59.9,
+   3.7,
+   97.7
+  ],
+  "face_img": "https://api.hrt.hr/media/7c/0a/740x438-pxl-181124-124300935-20261118060335.jpg"
+ },
+ {
   "title": "Zadrani odali počast žrtvama Vukovara i Škabrnje",
   "link": "https://www.morski.hr/zadrani-odali-pocast-zrtvama-vukovara-i-skabrnje/",
   "date": "2026-11-18T08:00:51+00:00",
@@ -32,6 +51,21 @@
    67.3
   ],
   "face_img": "https://zadarskilist.novilist.hr/wp-content/uploads/2026/11/1000039957-1.jpg"
+ },
+ {
+  "title": "Dan kad su Škabrnju sravnili sa zemljom",
+  "link": "https://www.morski.hr/dan-kad-su-skabrnju-sravnili-sa-zemljom/",
+  "date": "2026-11-18T08:00:00+00:00",
+  "summary": "ŠKABRNJA - Hrvatska se s tugom i ponosom prisjeća najtežih dana u svojoj neovisnosti – žrtve Vukovara i Škabrnje. Posebno su teška sjećanja ovih dana u Škabrnji",
+  "image": "https://storage.ghost.io/c/8c/e6/8ce68df1-b8bf-474a-a3e0-701a018ef40d/content/images/wp-content/uploads/2020/11/-kabrnja-5.jpg",
+  "source": "Morski.hr",
+  "topics": [
+   "Zadar",
+   "Županija"
+  ],
+  "source_url": "https://www.morski.hr/",
+  "face": null,
+  "face_img": "https://storage.ghost.io/c/8c/e6/8ce68df1-b8bf-474a-a3e0-701a018ef40d/content/images/wp-content/uploads/2020/11/-kabrnja-5.jpg"
  },
  {
   "title": "ZAVRŠIO U PRITVORU Policija ga zatekla na Voštarnici, a onda je uslijedilo iznenađenje!",
@@ -80,15 +114,20 @@
   "title": "Državni vrh u Vukovaru, Kolona sjećanja i u Škabrnji, svijeće upaljene diljem Hrvatske",
   "link": "https://www.jutarnji.hr/vijesti/hrvatska/drzavni-vrh-u-vukovaru-kolona-sjecanja-i-u-skabrnji-svijece-upaljene-diljem-hrvatske-15766464",
   "date": "2026-11-18T07:42:00+00:00",
-  "summary": "NOVO 8.45 - Obilježavanje Dana sjećanja na žrtvu Vukovara, pod nazivom „Hrabrost, žrtva, sloboda“, počet će u 10 sati prigodnim programom u krugu vukovarske bolnice. Nakon programa krenut će Kolona sjećanja, koja će proći 5,5 kilometara do Memorijalnog groblja žrtava iz Domovinskog rata, gdje je oko...",
-  "image": "https://media.jutarnji.hr/images/slike/2026/11/18/f_37884973_1280.jpg?1794988713",
+  "summary": "NOVO 9:00 Građani su se počeli okupljati za Kolonu sjećanja. --- Križni put - mimohod Kolona sjećanja ulicama grada od bolnice do Memorijalnog groblja povodom Dana sjećanja na žrtve Domovinskog rata i Dana sjećanja na žrtvu Vukovara i Škabrnje Marin Franov/Cropix ------ Križni put - mimohod Kolona s...",
+  "image": "https://media.jutarnji.hr/images/slike/2026/11/18/f_39986989_1280.jpg?1794989676",
   "source": "Jutarnji list",
   "topics": [
    "Županija"
   ],
   "source_url": "https://www.jutarnji.hr/",
-  "face": null,
-  "face_img": "https://media.jutarnji.hr/images/slike/2026/11/18/f_37884973_1280.jpg?1794988713"
+  "face": [
+   13.1,
+   26.1,
+   0.2,
+   98.1
+  ],
+  "face_img": "https://media.jutarnji.hr/images/slike/2026/11/18/f_39986989_1280.jpg?1794989676"
  },
  {
   "title": "S 22 godine preuzeo je obranu Vukovara, danas živi u Zadru i otkriva dramatične detalje: \"Od ukupno 306 mojih pripadnika, njih 86 je poginulo\"",
@@ -274,6 +313,26 @@
   "face_img": "https://zadarska-policija.gov.hr/UserDocsImages//2023/POLICIJA/328.jpg"
  },
  {
+  "title": "Veliki prometni zaokret u Zadarskoj županiji: Stiže 4,9 milijuna eura za nove ceste i kružne tokove, a Butković najavio još veći projekt za sam Zadar!",
+  "link": "https://www.morski.hr/veliki-prometni-zaokret-u-zadarskoj-zupaniji-stize-4-9-milijuna-eura-za-nove-ceste-i-kruzne-tokove-a-butkovic-najavio-jos-veci-projekt-za-sam-zadar/",
+  "date": "2026-11-18T07:12:00+00:00",
+  "summary": "ZADAR - U Domu Zadarske županije potpisan je ugovor vrijedan gotovo 4,9 milijuna eura za realizaciju četiri prometna projekta na području županije. Izgradnjom i rekonstrukcijom ukupno 4,8 kilometara prometnica, uključujući dva nova kružna raskrižja, poboljš",
+  "image": "https://storage.ghost.io/c/8c/e6/8ce68df1-b8bf-474a-a3e0-701a018ef40d/content/images/2026/11/Zadar-Butkovi--.jpg",
+  "source": "Morski.hr",
+  "topics": [
+   "Zadar",
+   "Županija"
+  ],
+  "source_url": "https://www.morski.hr/",
+  "face": [
+   27.3,
+   62.2,
+   31.1,
+   42.1
+  ],
+  "face_img": "https://storage.ghost.io/c/8c/e6/8ce68df1-b8bf-474a-a3e0-701a018ef40d/content/images/2026/11/Zadar-Butkovi--.jpg"
+ },
+ {
   "title": "(FOTO) “GRAD KOJI NIKADA NEĆEMO ZABORAVITI!” / Predstavnici Općine Sv. Filip i Jakov u Vukovaru odali počast svim poginulim hrvatskim braniteljima i civilnim žrtvama",
   "link": "https://www.znet.hr/2026/11/18/foto-grad-koji-nikada-necemo-zaboraviti-predstavnici-opcine-sv-filip-i-jakov-u-vukovaru-odali-pocast-svim-poginulima/",
   "date": "2026-11-18T07:05:43+00:00",
@@ -287,25 +346,6 @@
   "source_url": "https://www.znet.hr/",
   "face": null,
   "face_img": "https://www.znet.hr/wp-content/uploads/2026/11/912661237_1850347682662388_1366403997060964619_n-1000x600.jpg"
- },
- {
-  "title": "Škabrnja se prisjeća stradanja civila i branitelja",
-  "link": "https://vijesti.hrt.hr/hrvatska/skabrnja-se-prisjeca-stradanja-civila-i-branitelja-13016018",
-  "date": "2026-11-18T07:04:33+00:00",
-  "summary": "Uz Vukovar, i Škabrnja će 18. studenoga obilježiti 35. godišnjicu stradanja civila i branitelja u napadu koji su pod zapovjedništvom Ratka Mladića počinili pripadnici bivše JNA i srpskih paravojnih postrojba.",
-  "image": "https://api.hrt.hr/media/7c/0a/740x438-pxl-181124-124300935-20261118060335.jpg",
-  "source": "HRT",
-  "topics": [
-   "Županija"
-  ],
-  "source_url": "https://vijesti.hrt.hr/",
-  "face": [
-   48.4,
-   59.9,
-   3.7,
-   97.7
-  ],
-  "face_img": "https://api.hrt.hr/media/7c/0a/740x438-pxl-181124-124300935-20261118060335.jpg"
  },
  {
   "title": "Mučna ispovijest zvonara iz Škabrnje: ‘Vezali su ih žicom, vukli po avliji pa ubili. Zajedno s konjem’",
@@ -712,7 +752,7 @@
   "link": "https://www.jutarnji.hr/sportske/nogomet/hnl/kup-hnl/koncentracija-kvalitete-pojela-je-bazu-talenta-godinama-obecavana-elita-pretvorila-se-u-zatvoreni-krug-15766409",
   "date": "2026-11-17T21:16:00+00:00",
   "summary": "Kada se odlučilo elitzirati hrvatsku nogometnu ligu onda se najčešće tvrdilo kao argument da će koncentracija kvalitete biti spas domaćeg nogometa. Od 2013.godine taj spas nam je \"odnio\" snagu nekih jako važnih izvora kvalitete igrača, kao što su primjer Zadar, Slavonski Brod, Šibenik, Vinkovci. Ist...",
-  "image": "https://media.jutarnji.hr/images/slike/2026/11/17/f_39695164_1280.jpg?1794988514",
+  "image": "https://media.jutarnji.hr/images/slike/2026/11/17/f_39695164_1280.jpg?1794988908",
   "source": "Sportske novosti",
   "source_topic": "Sport",
   "topics": [
@@ -726,7 +766,7 @@
    16.8,
    92.4
   ],
-  "face_img": "https://media.jutarnji.hr/images/slike/2026/11/17/f_39695164_1280.jpg?1794988514"
+  "face_img": "https://media.jutarnji.hr/images/slike/2026/11/17/f_39695164_1280.jpg?1794988908"
  },
  {
   "title": "Sukošanci u tišini prošli mjestom i zapalili lampione kod murala na zgradi Pošte",
@@ -5108,47 +5148,6 @@
   "source_url": "https://zadarskilist.novilist.hr/",
   "face": null,
   "face_img": "https://zadarskilist.novilist.hr/wp-content/uploads/2026/11/12462472.png"
- },
- {
-  "title": "Sveučilište u Zadru demantira da je šutjelo: Faričić odgovorio na pitanja Marka Pupića Bakrača",
-  "link": "https://ezadar.net.hr/info/3591285/sveuciliste-u-zadru-demantira-da-je-sutjelo-faricic-odgovorio-na-pitanja-marka-pupica-bakraca/",
-  "date": "2026-11-16T11:09:26+00:00",
-  "summary": "Sveučilište u Zadru reagiralo je na medijske napise o tome da mjesecima nije odgovorilo na pitanja županijskog vijećnika Marka Pupića Bakrača. Rektor Josip Faričić tvrdi kako su odgovori dostavljeni još",
-  "image": "https://cdn-ezadar.net.hr/wp-content/uploads/mipro_otvaranje_2026_18-7a0aca7629cf602752ec92a6-1052x696.jpg",
-  "source": "eZadar",
-  "topics": [
-   "Zadar"
-  ],
-  "source_url": "https://ezadar.net.hr/",
-  "face": [
-   19.9,
-   47.1,
-   39.1,
-   51.0
-  ],
-  "face_img": "https://cdn-ezadar.net.hr/wp-content/uploads/mipro_otvaranje_2026_18-7a0aca7629cf602752ec92a6-1052x696.jpg"
- },
- {
-  "title": "Širi se Zeleni val Zadarske županije: 200.000 eura za 12 projekata ozelenjavanja, novi poticaji za sadnju višnje maraške",
-  "link": "https://www.zadarska-zupanija.hr/novosti-arhiva/item/4613-siri-se-zeleni-val-zadarske-zupanije-200-000-eura-za-12-projekata-ozelenjavanja,-novi-poticaji-za-sadnju-visnje-maraske",
-  "date": "2026-11-16T11:05:52+00:00",
-  "summary": "Zadarska županija nastavlja s ulaganjima u zelenije i ugodnije životno okruženje te razvoj domaće poljoprivredne proizvodnje.",
-  "image": "https://www.zadarska-zupanija.hr/media/k2/items/cache/da974d8033c96f020eb778a7edc59549_M.jpg",
-  "source": "Zadarska županija",
-  "source_topic": "Županija",
-  "topics": [
-   "Zadar",
-   "Županija",
-   "Otoci"
-  ],
-  "source_url": "https://www.zadarska-zupanija.hr/",
-  "face": [
-   18.4,
-   40.1,
-   23.3,
-   81.3
-  ],
-  "face_img": "https://www.zadarska-zupanija.hr/media/k2/items/cache/da974d8033c96f020eb778a7edc59549_M.jpg"
  },
  {
   "title": "Zadar nakon pobjede protiv Partizana slavio i u prvenstvu Hrvatske za nastavak savršenog niza",
