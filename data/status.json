@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-18T15:45:47.223086+00:00",
+ "updated": "2026-11-18T15:57:27.796913+00:00",
  "sources": [
   {
    "name": "Antena Zadar",
@@ -110,12 +110,10 @@
   },
   {
    "name": "Opća bolnica Zadar",
-   "count": 0,
-   "ok": false,
-   "feed": "https://www.bolnica-zadar.hr/feed/",
-   "errors": [
-    "https://www.bolnica-zadar.hr/feed/: HTTP Error 503: Service Unavailable"
-   ]
+   "count": 5,
+   "ok": true,
+   "feed": null,
+   "errors": []
   },
   {
    "name": "Liburnija Zadar",
@@ -168,8 +166,8 @@
   },
   {
    "name": "tportal",
-   "count": 1,
-   "ok": true,
+   "count": 0,
+   "ok": false,
    "feed": null,
    "errors": []
   },
