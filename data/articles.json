@@ -1,5 +1,77 @@
 [
  {
+  "title": "Jedni love valove, drugi ne trebaju gitaru: LHD i Kriptidi stižu u Zadar!",
+  "link": "https://ezadar.net.hr/dogadaji/3591482/jedni-love-valove-drugi-ne-trebaju-gitaru-lhd-i-kriptidi-stizu-u-zadar/",
+  "date": "2026-11-18T19:00:00+00:00",
+  "summary": "Program AJMO! na Urbofon Live u svom nastavku donosi još jednu glazbenu poslasticu koja se ne propušta. 21. studenog u Polivalentnu dvoranu Providurove palače stiže sjajni sisački surf/rock bend LHD",
+  "image": "https://cdn-ezadar.net.hr/wp-content/uploads/lhd_01_promo-08196014bd9e1a477bbfeb1b-1052x696.jpg",
+  "source": "eZadar",
+  "topics": [
+   "Zadar"
+  ],
+  "source_url": "https://ezadar.net.hr/",
+  "face": [
+   20.0,
+   48.5,
+   20.5,
+   76.1
+  ],
+  "face_img": "https://cdn-ezadar.net.hr/wp-content/uploads/lhd_01_promo-08196014bd9e1a477bbfeb1b-1052x696.jpg"
+ },
+ {
+  "title": "Škabrnja 35 godina nakon rata: Potražnja za kućama i povratak mladih",
+  "link": "https://vijesti.hrt.hr/hrvatska/skabrnja-35-godina-nakon-rata-potraznja-za-kucama-i-povratak-mladih-13016664",
+  "date": "2026-11-18T18:55:29+00:00",
+  "summary": "Na stradanja u Škabrnji u Dnevniku HRT-a osvrnuo se i zadarski župan Josip Bilaver koji je istima osobno svjedočio kao petogodišnji dječak te poručio kako je u 35 godina nakon tragedije Škabrnja postala mladima primamljivo mjesto za život.",
+  "image": "https://api.hrt.hr/media/9d/b1/740x438-pxl-181126-162717750-20261118185217.jpg",
+  "source": "HRT",
+  "topics": [
+   "Zadar",
+   "Županija"
+  ],
+  "source_url": "https://vijesti.hrt.hr/",
+  "face": [
+   47.3,
+   62.4,
+   38.1,
+   45.2
+  ],
+  "face_img": "https://api.hrt.hr/media/9d/b1/740x438-pxl-181126-162717750-20261118185217.jpg"
+ },
+ {
+  "title": "Škabrnja pamti, pravda još čeka",
+  "link": "https://vijesti.hrt.hr/hrvatska/skabrnja-pamti-pravda-jos-ceka-13016563",
+  "date": "2026-11-18T18:54:00+00:00",
+  "summary": "Na dan pada Vukovara, na drugom kraju zemlje i ravnokotarsko mjesto Škabrnja doživjelo je najteži dan u svojoj povijesti. Pripadnici JNA i srpskih paravojnih postrojbi, pod zapovijedanjem ratnog zločinca Ratka Mladića, ušli su u Škabrnju i brutalno poubijali 43 civila i 15 hrvatskih branitelja.",
+  "image": "https://api.hrt.hr/media/aa/70/740x438-zd-tvd2-skabrnja-akolanovic-frame-4313-20261118155202.jpg",
+  "source": "HRT",
+  "topics": [
+   "Županija"
+  ],
+  "source_url": "https://vijesti.hrt.hr/",
+  "face": null,
+  "face_img": "https://api.hrt.hr/media/aa/70/740x438-zd-tvd2-skabrnja-akolanovic-frame-4313-20261118155202.jpg"
+ },
+ {
+  "title": "Škabrnja se prisjeća stradanja civila i branitelja",
+  "link": "https://vijesti.hrt.hr/hrvatska/skabrnja-se-prisjeca-stradanja-civila-i-branitelja-13016018",
+  "date": "2026-11-18T18:50:33+00:00",
+  "summary": "Uz Vukovar je i Škabrnja obilježila 35. godišnjicu stradanja civila i branitelja u napadu koji su pod zapovjedništvom Ratka Mladića počinili pripadnici bivše JNA i srpskih paravojnih postrojba.",
+  "image": "https://api.hrt.hr/media/c2/60/740x438-pxl-181126-162705516-20261118095933.jpg",
+  "source": "HRT",
+  "topics": [
+   "Županija"
+  ],
+  "source_url": "https://vijesti.hrt.hr/",
+  "face": [
+   33.3,
+   47.1,
+   7.5,
+   55.7
+  ],
+  "face_img": "https://api.hrt.hr/media/c2/60/740x438-pxl-181126-162705516-20261118095933.jpg"
+ },
+ {
   "title": "‘Škabrnja i Vukovar nisu učili mrziti’: Snažna propovijed biskupa Mede na 35. obljetnicu stradanja",
   "link": "https://zadarskilist.novilist.hr/zadar-zupanija/zupanija/skabrnja-i-vukovar-nisu-ucili-mrziti-snazna-propovijed-biskupa-mede-na-35-obljetnicu-stradanja/",
   "date": "2026-11-18T18:29:06+00:00",
@@ -580,25 +652,6 @@
   "face_img": "https://cdn-ezadar.net.hr/wp-content/uploads/kolaz_ucenici_klasicna_gimnazija-b6d45d0e2c5abedc7fdec22d.jpg"
  },
  {
-  "title": "Škabrnja se prisjeća stradanja civila i branitelja",
-  "link": "https://vijesti.hrt.hr/hrvatska/skabrnja-se-prisjeca-stradanja-civila-i-branitelja-13016018",
-  "date": "2026-11-18T14:50:33+00:00",
-  "summary": "Uz Vukovar je i Škabrnja obilježila 35. godišnjicu stradanja civila i branitelja u napadu koji su pod zapovjedništvom Ratka Mladića počinili pripadnici bivše JNA i srpskih paravojnih postrojba.",
-  "image": "https://api.hrt.hr/media/c2/60/740x438-pxl-181126-162705516-20261118095933.jpg",
-  "source": "HRT",
-  "topics": [
-   "Županija"
-  ],
-  "source_url": "https://vijesti.hrt.hr/",
-  "face": [
-   33.3,
-   47.1,
-   7.5,
-   55.7
-  ],
-  "face_img": "https://api.hrt.hr/media/c2/60/740x438-pxl-181126-162705516-20261118095933.jpg"
- },
- {
   "title": "Škabrnja je po kiši i buri odala počast žrtvama: pogledajte fotografije s 35. obljetnice stradanja",
   "link": "https://023.hr/2026/11/skabrnja-je-po-kisi-i-buri-odala-pocast-zrtvama-pogledajte-fotografije-s-35-obljetnice-stradanja/",
   "date": "2026-11-18T14:40:57+00:00",
@@ -690,7 +743,7 @@
   "link": "https://www.jutarnji.hr/vijesti/hrvatska/u-skabrnji-obiljezena-35-obljetnica-masakra-nasa-je-najveca-pobjeda-sto-se-u-obnovljeno-selo-vratio-zivot-15766556",
   "date": "2026-11-18T14:27:29+00:00",
   "summary": "Škabrnja, 18. studenoga 2026. Točno je 35 godina od stradanja tog ravnokotarskog sela u zadarskom zaleđu u Domovinskom ratu, u ratnom zločinu srpskog agresora u kojemu je ubijeno 55 civila i 25 hrvatskih branitelja, a još ih je šestero stradalo od mina nakon rata. Uporna kiša natapa korake do Ambara...",
-  "image": "https://media.jutarnji.hr/images/slike/2026/11/18/f_39987683_1280.jpg?1795027299",
+  "image": "https://media.jutarnji.hr/images/slike/2026/11/18/f_39987683_1280.jpg?1795028308",
   "source": "Jutarnji list",
   "topics": [
    "Zadar",
@@ -703,7 +756,7 @@
    6.7,
    99.6
   ],
-  "face_img": "https://media.jutarnji.hr/images/slike/2026/11/18/f_39987683_1280.jpg?1795027299"
+  "face_img": "https://media.jutarnji.hr/images/slike/2026/11/18/f_39987683_1280.jpg?1795028308"
  },
  {
   "title": "Zapovjednik obrane Škabrnje: Benčićka će mene učiti domoljublju?!",
@@ -3048,7 +3101,7 @@
   "link": "https://www.jutarnji.hr/sportske/nogomet/hnl/kup-hnl/koncentracija-kvalitete-pojela-je-bazu-talenta-godinama-obecavana-elita-pretvorila-se-u-zatvoreni-krug-15766409",
   "date": "2026-11-17T21:16:00+00:00",
   "summary": "Kada se odlučilo elitzirati hrvatsku nogometnu ligu onda se najčešće tvrdilo kao argument da će koncentracija kvalitete biti spas domaćeg nogometa. Od 2013.godine taj spas nam je \"odnio\" snagu nekih jako važnih izvora kvalitete igrača, kao što su primjer Zadar, Slavonski Brod, Šibenik, Vinkovci. Ist...",
-  "image": "https://media.jutarnji.hr/images/slike/2026/11/17/f_39695164_1280.jpg?1795027121",
+  "image": "https://media.jutarnji.hr/images/slike/2026/11/17/f_39695164_1280.jpg?1795028335",
   "source": "Sportske novosti",
   "source_topic": "Sport",
   "topics": [
@@ -3062,7 +3115,7 @@
    16.8,
    92.4
   ],
-  "face_img": "https://media.jutarnji.hr/images/slike/2026/11/17/f_39695164_1280.jpg?1795027121"
+  "face_img": "https://media.jutarnji.hr/images/slike/2026/11/17/f_39695164_1280.jpg?1795028335"
  },
  {
   "title": "Sukošanci u tišini prošli mjestom i zapalili lampione kod murala na zgradi Pošte",
@@ -5073,54 +5126,6 @@
    28.1
   ],
   "face_img": "https://storage.ghost.io/c/8c/e6/8ce68df1-b8bf-474a-a3e0-701a018ef40d/content/images/2026/11/dsadasddasdd.jpg"
- },
- {
-  "title": "VIDEO Drama na cesti prema Crnom; U sudaru dva vozila jedno se prevrnulo na krov, srećom nema ozlijeđenih",
-  "link": "https://023.hr/2026/11/video-drama-na-cesti-prema-crnom-u-sudaru-dva-vozila-jedno-se-prevrnulo-na-krov-srecom-nema-ozlijedenih/",
-  "date": "2026-11-17T09:56:20+00:00",
-  "summary": "Policijska uprava zadarska primila je danas u 9.10 dojavu o prometnoj nesreći na cesti Zadar – Crno. Prema prvim informacijama, u sudaru su sudjelovala dva osobna vozila. Na sreću, nema ozlijeđenih, već je pričinjena materijalna šteta.",
-  "image": "https://023.hr/wp-content/uploads/2026/11/20261117105340_667782.avif",
-  "source": "023 portal",
-  "topics": [
-   "Zadar"
-  ],
-  "source_url": "https://023.hr/",
-  "face": null,
-  "face_img": "https://023.hr/wp-content/uploads/2026/11/20261117105340_667782.avif"
- },
- {
-  "title": "Obavijest pacijentima o privremenom premještaju odjela",
-  "link": "https://www.bolnica-zadar.hr/obavijest-pacijentima-o-privremenom-premjestaju-odjela/",
-  "date": "2026-11-17T09:48:53+00:00",
-  "summary": "Obavještavamo pacijente i posjetitelje kako su, sukladno planiranoj dinamici radova na obnovi Klinike za internu medicinu, na novu lokaciju privremeno preseljeni sljedeći odjeli i djelatnosti: Odjel za nefrologiju, Odjel za endokrinologiju i dijabetologiju, Ambulanta za peritonejsku dijalizu i Dnevna bolnica…",
-  "image": "https://www.bolnica-zadar.hr/wp-content/uploads/2026/11/obav-860x573.jpg",
-  "source": "Opća bolnica Zadar",
-  "topics": [
-   "Zadar"
-  ],
-  "source_url": "https://www.bolnica-zadar.hr/aktualnosti/vijesti/",
-  "face": null,
-  "face_img": "https://www.bolnica-zadar.hr/wp-content/uploads/2026/11/obav-860x573.jpg"
- },
- {
-  "title": "Zadar časno pao u dvoboju s aktualnim prvakom",
-  "link": "https://ezadar.net.hr/sport/3591348/zadar-casno-pao-u-dvoboju-s-aktualnim-prvakom/",
-  "date": "2026-11-17T09:47:52+00:00",
-  "summary": "U 6. kolu Premijer ženske lige Zadar je na gostovanju kod Broda na Savi upisao poraz s rezultatom 91:74",
-  "image": "https://cdn-ezadar.net.hr/wp-content/uploads/brod-na-savi-zadar7-scaled-41773380e8c4237b161dade1-1052x696.jpg",
-  "source": "eZadar",
-  "topics": [
-   "Zadar",
-   "Sport"
-  ],
-  "source_url": "https://ezadar.net.hr/",
-  "face": [
-   56.2,
-   92.8,
-   2.8,
-   95.9
-  ],
-  "face_img": "https://cdn-ezadar.net.hr/wp-content/uploads/brod-na-savi-zadar7-scaled-41773380e8c4237b161dade1-1052x696.jpg"
  },
  {
   "title": "SAS ukida sezonsku liniju za Zadar nakon dvije godine",
