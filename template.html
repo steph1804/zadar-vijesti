@@ -1021,11 +1021,13 @@ function googleAnalytics() {
 // Instalirana aplikacija (ikona na početnom zaslonu): članci se otvaraju u istom prozoru,
 // pa tipka Natrag uvijek vraća na idassa.click (s novom karticom Android je slagao stare članke
 // jedan na drugi i nije bilo puta natrag). Položaj na popisu pamti se i vraća po povratku.
+const AWAY = 10 * 60e3;
+if ("scrollRestoration" in history) history.scrollRestoration = "manual";
 function appMode() {
   const app = matchMedia("(display-mode: standalone)").matches || navigator.standalone;
   let saved = null;
   try { saved = JSON.parse(sessionStorage.getItem("pos") || "null"); } catch (e) {}
-  if (saved && saved.path === location.pathname && Date.now() - saved.t < 3600e3) {
+  if (saved && saved.path === location.pathname && Date.now() - saved.t < AWAY) {
     if (saved.shown > state.shown) { state.shown = saved.shown; list(); }
     requestAnimationFrame(() => scrollTo(0, saved.y));
   }
@@ -1110,8 +1112,23 @@ async function checkFresh() {
     }
   } catch (e) {}
 }
-document.addEventListener("visibilitychange", checkFresh);
-addEventListener("pageshow", e => { if (e.persisted) { lastCheck = 0; checkFresh(); } });
+// Povratak na stranicu nakon duže odsutnosti (AWAY, npr. aplikacija otvorena od jučer): uvijek
+// učitaj najnovije izdanje i kreni od vrha (Stipe, 2026-11-19). Kratki povratak s članka čuva položaj.
+let hiddenAt = 0;
+function freshTop() {
+  try { sessionStorage.removeItem("pos"); } catch (e) {}
+  location.replace(location.pathname + "?r=" + Date.now());
+}
+function awayCheck() {
+  if (document.hidden) { hiddenAt = hiddenAt || Date.now(); return false; }
+  const away = hiddenAt && Date.now() - hiddenAt > AWAY;
+  hiddenAt = 0;
+  if (away) freshTop();
+  return away;
+}
+document.addEventListener("visibilitychange", () => { if (!awayCheck()) checkFresh(); });
+addEventListener("pagehide", () => { hiddenAt = hiddenAt || Date.now(); });
+addEventListener("pageshow", e => { if (e.persisted && !awayCheck()) { lastCheck = 0; checkFresh(); } });
 addEventListener("focus", checkFresh);
 setInterval(checkFresh, 5 * 60e3);
 checkFresh();
