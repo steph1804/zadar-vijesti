@@ -1,5 +1,18 @@
 {
- "Jadrolinija": [],
+ "Jadrolinija": [
+  {
+   "title": "Linije u prekidu, 20.11.2026.",
+   "link": "https://www.jadrolinija.hr/news-single/linije-u-prekidu-20112026",
+   "date": "2026-11-19T08:26:00+00:00",
+   "summary": "Red plovidbe za petak, 20.11.2026."
+  },
+  {
+   "title": "Linije u prekidu,19.11.2026.",
+   "link": "https://www.jadrolinija.hr/news-single/linije-u-prekidu19112026",
+   "date": "2026-11-18T14:39:00+00:00",
+   "summary": "Red plovidbe za četvrtak, 19.11.2026."
+  }
+ ],
  "buses": [
   {
    "title": "Obavijest za autobusne linije Belafuža,Puntamika,Diklo te prigradske linije iz smjera Nina i Ražanca prema kolodvoru",
@@ -447,7 +460,7 @@
  ],
  "videos": {
   "v": 2,
-  "fetched": "2026-11-19T21:03:30.522302+00:00",
+  "fetched": "2026-11-19T22:03:29.891142+00:00",
   "items": [
    {
     "id": "77WYoRm2jgk",
