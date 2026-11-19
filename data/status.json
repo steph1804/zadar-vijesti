@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-19T19:31:14.745225+00:00",
+ "updated": "2026-11-19T19:45:52.768665+00:00",
  "sources": [
   {
    "name": "Antena Zadar",
@@ -72,10 +72,12 @@
   },
   {
    "name": "Naši školji",
-   "count": 10,
-   "ok": true,
+   "count": 0,
+   "ok": false,
    "feed": null,
-   "errors": []
+   "errors": [
+    "https://www.nasiskolji.hr/feed/: <urlopen error timed out>"
+   ]
   },
   {
    "name": "Grad Zadar",
@@ -276,7 +278,7 @@
    "ok": false,
    "feed": null,
    "errors": [
-    "https://hrvatska-danas.com/feed/: <urlopen error [Errno 111] Connection refused>"
+    "https://hrvatska-danas.com/feed/: mismatched tag: line 93, column 2"
    ]
   },
   {
