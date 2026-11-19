@@ -5,12 +5,6 @@
    "link": "https://www.jadrolinija.hr/news-single/linije-u-prekidu-20112026",
    "date": "2026-11-19T08:26:00+00:00",
    "summary": "Red plovidbe za petak, 20.11.2026."
-  },
-  {
-   "title": "Linije u prekidu,19.11.2026.",
-   "link": "https://www.jadrolinija.hr/news-single/linije-u-prekidu19112026",
-   "date": "2026-11-18T14:39:00+00:00",
-   "summary": "Red plovidbe za četvrtak, 19.11.2026."
   }
  ],
  "buses": [
@@ -41,42 +35,6 @@
   }
  ],
  "flights": [
-  {
-   "dir": "dolazak",
-   "flight": "OU674",
-   "airline": "Croatia Airlines",
-   "city": "Zagreb",
-   "via": "",
-   "time": "2026-11-19T14:55:00",
-   "est": "2026-11-19T15:00:00",
-   "act": "2026-11-19T14:56:23",
-   "status": "Landed",
-   "gate": ""
-  },
-  {
-   "dir": "odlazak",
-   "flight": "OU674",
-   "airline": "Croatia Airlines",
-   "city": "Zagreb",
-   "via": "Pula",
-   "time": "2026-11-19T15:20:00",
-   "est": "2026-11-19T15:20:00",
-   "act": "",
-   "status": "Gate Closed",
-   "gate": "07"
-  },
-  {
-   "dir": "dolazak",
-   "flight": "OU675",
-   "airline": "Croatia Airlines",
-   "city": "Zagreb",
-   "via": "Pula",
-   "time": "2026-11-19T23:00:00",
-   "est": "2026-11-19T23:00:00",
-   "act": "",
-   "status": "",
-   "gate": ""
-  },
   {
    "dir": "odlazak",
    "flight": "OU4674",
@@ -115,22 +73,6 @@
   }
  ],
  "power": [
-  {
-   "day": "19.11.2026",
-   "place": "Zadar",
-   "street": "Celestina Medovića",
-   "note": "",
-   "time": "08:30 - 12:00",
-   "unplanned": false
-  },
-  {
-   "day": "19.11.2026",
-   "place": "Zadar",
-   "street": "Rampada",
-   "note": "",
-   "time": "08:30 - 12:30",
-   "unplanned": false
-  },
   {
    "day": "20.11.2026",
    "place": "Poljica",
@@ -460,7 +402,7 @@
  ],
  "videos": {
   "v": 2,
-  "fetched": "2026-11-19T22:03:29.891142+00:00",
+  "fetched": "2026-11-19T23:02:35.550442+00:00",
   "items": [
    {
     "id": "77WYoRm2jgk",
