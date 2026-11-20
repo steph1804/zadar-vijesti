@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-20T13:45:43.752463+00:00",
+ "updated": "2026-11-20T14:01:15.173884+00:00",
  "sources": [
   {
    "name": "Antena Zadar",
@@ -38,7 +38,7 @@
   },
   {
    "name": "023 portal",
-   "count": 6,
+   "count": 5,
    "ok": true,
    "feed": null,
    "errors": []
@@ -131,12 +131,10 @@
   },
   {
    "name": "Lučka uprava Zadar",
-   "count": 0,
-   "ok": false,
+   "count": 6,
+   "ok": true,
    "feed": null,
-   "errors": [
-    "https://www.port-authority-zadar.hr/feed/: The read operation timed out"
-   ]
+   "errors": []
   },
   {
    "name": "Jadrolinija",
