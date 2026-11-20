@@ -1,5 +1,37 @@
 [
  {
+  "title": "Vozač odbio testiranje na droge – izrečena novčana kazna i zaštitna mjera",
+  "link": "https://zadarska-policija.gov.hr/vijesti/vozac-odbio-testiranje-na-droge-izrecena-novcana-kazna-i-zastitna-mjera-18887/18887",
+  "date": "2026-11-20T09:15:43.992237+00:00",
+  "summary": "Vozaču je izdana novčana kazna od 1.320 eura i zabrana upravljanja u trajanju od 3 mjeseca",
+  "image": "https://zadarska-policija.gov.hr/UserDocsImages//2024/POLICIJA/promet1.jpg",
+  "source": "Policija Zadar",
+  "topics": [],
+  "source_url": "https://zadarska-policija.gov.hr/vijesti/8",
+  "face": null,
+  "face_img": "https://zadarska-policija.gov.hr/UserDocsImages//2024/POLICIJA/promet1.jpg"
+ },
+ {
+  "title": "Osmero zadarskih boksača u reprezentaciji, Marketin: U kratkom vremenu postavili smo temelje za budućnost hrvatskog boksa",
+  "link": "https://ezadar.net.hr/sport/3591651/osmero-zadarskih-boksaca-u-reprezentaciji-marketin-u-kratkom-vremenu-postavili-smo-temelje-za-buducnost-hrvatskog-boksa/",
+  "date": "2026-11-20T09:09:17+00:00",
+  "summary": "Hrvatska boksačka reprezentacija kadeta (U-15) od danas, 20. studenoga, do nedjelje, 22. studenoga, boravit će na trodnevnim pripremama u Istri, nastavljajući intenzivan program rada i razvoja najmlađe nacionalne selekcije.",
+  "image": "https://cdn-ezadar.net.hr/wp-content/uploads/boks-reprezentacija-2-7ce9a5a0739f5a56f820f79f-1052x696.jpg",
+  "source": "eZadar",
+  "topics": [
+   "Zadar",
+   "Sport"
+  ],
+  "source_url": "https://ezadar.net.hr/",
+  "face": [
+   8.1,
+   62.1,
+   14.9,
+   91.1
+  ],
+  "face_img": "https://cdn-ezadar.net.hr/wp-content/uploads/boks-reprezentacija-2-7ce9a5a0739f5a56f820f79f-1052x696.jpg"
+ },
+ {
   "title": "Sažetak dnevnih događanja PU zadarske, 20. 11.",
   "link": "https://zadarska-policija.gov.hr/vijesti/sazetak-dnevnih-dogadjanja-18886/18886",
   "date": "2026-11-20T09:01:13.313210+00:00",
@@ -33,6 +65,21 @@
   "face_img": "https://www.znet.hr/wp-content/uploads/2026/11/DSC_9140-1000x600.jpg"
  },
  {
+  "title": "HEP najavio isključenja struje u više naselja i ulica na zadarskom području",
+  "link": "https://ezadar.net.hr/info/3591648/hep-najavio-iskljucenja-struje-u-vise-naselja-i-ulica-na-zadarskom-podrucju/",
+  "date": "2026-11-20T08:54:12+00:00",
+  "summary": "U petak, 20. studenoga, zbog planiranih radova i otklanjanja kvara na elektroenergetskoj mreži, nekoliko područja Zadarske županije privremeno će ostati bez električne energije, izvijestili su iz HEP-a. Na području Zadra,",
+  "image": "https://cdn-ezadar.net.hr/wp-content/uploads/b0a40f46ef66f0808dfee48c36894b86-view_article_new.jpg",
+  "source": "eZadar",
+  "topics": [
+   "Zadar",
+   "Županija"
+  ],
+  "source_url": "https://ezadar.net.hr/",
+  "face": null,
+  "face_img": "https://cdn-ezadar.net.hr/wp-content/uploads/b0a40f46ef66f0808dfee48c36894b86-view_article_new.jpg"
+ },
+ {
   "title": "Vikend na Višnjiku: Tradicionalno penjačko natjecanje, županijski derbi i košarka",
   "link": "https://ezadar.net.hr/info/3591649/vikend-na-visnjiku-tradicionalno-penjacko-natjecanje-zupanijski-derbi-i-kosarka/",
   "date": "2026-11-20T08:52:06+00:00",
@@ -51,6 +98,26 @@
    78.9
   ],
   "face_img": "https://cdn-ezadar.net.hr/wp-content/uploads/914553834_1805900111207841_2703060163891734093_n-ed5f79f16b37a319df008c6e-1052x696.jpg"
+ },
+ {
+  "title": "BIJELA NOĆ Evo mene, moji ljudi – 30 godina NŠK Sv. Mihovil!",
+  "link": "https://www.nasiskolji.hr/2026/11/20/bijela-noc-evo-mene-moji-ljudi-30-godina-nsk-sv-mihovil/",
+  "date": "2026-11-20T08:52:01+00:00",
+  "summary": "Proslavimo zajedno 30 godina kluba! Pozivnicu šalje naš najdraži klub, NŠK Sv. Mihovil, koji veliku proslavu priprema u petak, 11. prosinca, u šatoru na Mulu u Preku.",
+  "image": "https://www.nasiskolji.hr/wp-content/uploads/2026/11/bijela-noc.jpg",
+  "source": "Naši školji",
+  "source_topic": "Otoci",
+  "topics": [
+   "Otoci"
+  ],
+  "source_url": "https://www.nasiskolji.hr/",
+  "face": [
+   12.9,
+   44.3,
+   14.3,
+   32.2
+  ],
+  "face_img": "https://www.nasiskolji.hr/wp-content/uploads/2026/11/bijela-noc.jpg"
  },
  {
   "title": "PRVENSTVO HRVATSKE Nekompletni protiv lidera, razlog je jasan – Zadrani čuvaju adute za puno važniji izazov",
@@ -151,7 +218,7 @@
   "face_img": "https://023.hr/wp-content/uploads/2026/10/20261026083544_029649.avif"
  },
  {
-  "title": "Za danas najavljen međunarodni Štrajk mladih",
+  "title": "Učenici i studenti diljem Hrvatske u štrajku, objavili svoje zahtjeve",
   "link": "https://vijesti.hrt.hr/hrvatska/za-danas-najavljen-medunarodni-strajk-mladih-13019342",
   "date": "2026-11-20T08:23:42+00:00",
   "summary": "U Zagrebu, Rijeci, Puli, Zadru i Osijeku započeli su bojkoti školske nastave i predavanja na fakultetima u sklopu inicijative Štrajk mladih.",
@@ -1598,7 +1665,7 @@
   "link": "https://www.jutarnji.hr/sportske/kosarka/aba-liga/pola-lige-igra-izvan-granica-hrvatske-povratak-europe-pod-toranj-i-na-gripe-bio-je-pun-pogodak-15766866",
   "date": "2026-11-19T14:11:04+00:00",
   "summary": "Košarkaška sezona je u punom jeku, utakmice se redaju \"kao na traci\", dok brojni hrvatski klubovi, točnije šest od 12 premijerligaša, sudjeluje u pet različitih međunarodnih natjecanja. \"Perjanice\" naše košarke, veliki trio Cibona - Zadar - Split, pokrivaju tri od pet tih natjecanja - ABA ligu, Ligu...",
-  "image": "https://media.jutarnji.hr/images/slike/2026/11/19/f_39966810_1280.jpg?1795164799",
+  "image": "https://media.jutarnji.hr/images/slike/2026/11/19/f_39966810_1280.jpg?1795165380",
   "source": "Sportske novosti",
   "source_topic": "Sport",
   "topics": [
@@ -1612,7 +1679,7 @@
    4.9,
    87.6
   ],
-  "face_img": "https://media.jutarnji.hr/images/slike/2026/11/19/f_39966810_1280.jpg?1795164799"
+  "face_img": "https://media.jutarnji.hr/images/slike/2026/11/19/f_39966810_1280.jpg?1795165380"
  },
  {
   "title": "Niko Šare: U Zaboku igraju dva naša Zadranina, bilo bi lijepo da Torbarina ozdravi",
@@ -5001,74 +5068,6 @@
   "face_img": "https://www.dalmacijadanas.hr/wp-content/uploads/2026/11/Kisni-dan-sjecanja-i-tradicije-1200x675.jpg"
  },
  {
-  "title": "Tragedija na putu prema Škabrnji: Troje poginulih krenulo odati počast žrtvama Domovinskog rata",
-  "link": "https://www.dalmacijadanas.hr/tragedija-na-putu-prema-skabrnji-troje-poginulih-krenulo-odati-pocast-zrtvama-domovinskog-rata/",
-  "date": "2026-11-18T11:28:25+00:00",
-  "summary": "Točne okolnosti i uzrok nesreće zasad nisu poznati",
-  "image": "https://www.dalmacijadanas.hr/wp-content/uploads/2023/11/12-14-policijska-akcija-policija-ilustracije-17.jpg",
-  "source": "Dalmacija Danas",
-  "topics": [
-   "Županija"
-  ],
-  "source_url": "https://www.dalmacijadanas.hr/",
-  "face": null,
-  "face_img": "https://www.dalmacijadanas.hr/wp-content/uploads/2023/11/12-14-policijska-akcija-policija-ilustracije-17.jpg"
- },
- {
-  "title": "A’mare slavi rođendan uz bogati buffet: Jedite koliko želite, za najmlađe ručak – besplatan!",
-  "link": "https://ezadar.net.hr/promo/3591488/amare-slavi-rodendan-uz-bogati-buffet-jedite-koliko-zelite-za-najmlade-rucak-besplatan/",
-  "date": "2026-11-18T11:16:47+00:00",
-  "summary": "Četiri godine, puno dobrih ručkova, kava i druženja – i još jedan razlog da se u nedjelju okupite na omiljenom mjestu. Zadarski restoran A’Mare slavi svoj četvrti rođendan i, već",
-  "image": "https://cdn-ezadar.net.hr/wp-content/uploads/IMG_1821-1.webp",
-  "source": "eZadar",
-  "topics": [
-   "Zadar"
-  ],
-  "source_url": "https://ezadar.net.hr/",
-  "face": [
-   19.7,
-   31.6,
-   53.0,
-   82.1
-  ],
-  "face_img": "https://cdn-ezadar.net.hr/wp-content/uploads/IMG_1821-1.webp"
- },
- {
-  "title": "Što otkrivaju brojke nakon košarkaškog derbija?",
-  "link": "https://www.dalmacijanews.hr/clanak/sto-otkrivaju-brojke-nakon-kosarkaskog-derbija/",
-  "date": "2026-11-18T11:16:10+00:00",
-  "summary": "Split je 18. listopada 2026. protiv Zadra vodio 43:34 na poluvremenu, a utakmicu izgubio 73:84. U posljednjih dvadeset minuta Zadrani su zabili 50 poena. Splićani su ostali na 30.",
-  "image": "https://www.dalmacijanews.hr/wp-content/uploads/2026/11/image-4-1024x682.png",
-  "source": "Dalmacija News",
-  "topics": [
-   "Zadar",
-   "Sport"
-  ],
-  "source_url": "https://www.dalmacijanews.hr/",
-  "face": [
-   48.5,
-   83.1,
-   37.6,
-   85.3
-  ],
-  "face_img": "https://www.dalmacijanews.hr/wp-content/uploads/2026/11/image-4-1024x682.png"
- },
- {
-  "title": "Gradonačelnica Slunja o tragičnoj prometnoj nesreći: ‘Ljudi koji su jutros poginuli išli su prema Škrabrnji’",
-  "link": "https://zadarskilist.novilist.hr/crna-kronika/gradonacelnica-slunja-o-tragicnoj-prometnoj-nesreci-ljudi-koji-su-jutros-poginuli-isli-su-prema-skrabrnji/",
-  "date": "2026-11-18T11:15:30+00:00",
-  "summary": "Tri osobe smrtno su stradale u teškoj prometnoj nesreći koja se jutros dogodila na državnoj cesti D1 u Blagaju kod Slunja, a prema prvim informacijama, poginuli su putovali prema Škabrnji, gdje se danas obilježava 35. obljetnica stradanja toga mjesta u Domovinskom ratu.",
-  "image": "https://zadarskilist.novilist.hr/wp-content/uploads/2026/04/prometna-nesreca5.jpg",
-  "source": "Zadarski list",
-  "topics": [
-   "Zadar",
-   "Županija"
-  ],
-  "source_url": "https://zadarskilist.novilist.hr/",
-  "face": null,
-  "face_img": "https://zadarskilist.novilist.hr/wp-content/uploads/2026/04/prometna-nesreca5.jpg"
- },
- {
   "title": "Neka im je vječna slava i hvala!",
   "link": "https://www.bolnica-zadar.hr/neka-im-je-vjecna-slava-i-hvala-2/",
   "date": "2026-11-17T23:05:43+00:00",
@@ -5173,26 +5172,6 @@
   "face_img": "https://sportklub.hr/wp-content/uploads/2026/11/14/1794684630-IMG_9825-1200x800.jpg"
  },
  {
-  "title": "„Bio sam logoraš kao 10-godišnje dijete, ali izabrao sam put na kojemu opraštam i ne mrzim“",
-  "link": "https://www.nasiskolji.hr/2026/11/14/bio-sam-logoras-kao-10-godisnje-dijete-ali-izabrao-sam-put-na-kojemu-oprastam-i-ne-mrzim/",
-  "date": "2026-11-14T11:19:21+00:00",
-  "summary": "U povodu obilježavanja Dana sjećanja na žrtve Vukovara i Škabrnje, u Centru za kulturu Općine Preko održano je predstavljanje romana „260 dana“ Marijana Gubine. Riječ o autobiografskom romanu čovjeka koji je kao 10-godišnje dijete prošao pakao zarobljeništva u selu pokraj Vukovara u vrijeme Domovinskog rata.",
-  "image": "https://www.nasiskolji.hr/wp-content/uploads/2026/11/1P8A3400_1588x1050.jpg",
-  "source": "Naši školji",
-  "source_topic": "Otoci",
-  "topics": [
-   "Otoci"
-  ],
-  "source_url": "https://www.nasiskolji.hr/",
-  "face": [
-   21.7,
-   29.0,
-   66.2,
-   68.9
-  ],
-  "face_img": "https://www.nasiskolji.hr/wp-content/uploads/2026/11/1P8A3400_1588x1050.jpg"
- },
- {
   "title": "Rudan Hotels & Camps nastavlja investicijski ciklus: Oko 15 milijuna eura za obnovu hotela i kampova u Dalmaciji",
   "link": "https://hrturizam.hr/rudan-hotels-camps-nastavlja-investicijski-ciklus-oko-15-milijuna-eura-za-obnovu-hotela-i-kampova-u-dalmaciji",
   "date": "2026-11-12T07:31:00+00:00",
@@ -5205,26 +5184,6 @@
   "source_url": "https://hrturizam.hr/",
   "face": null,
   "face_img": "https://hrturizam.hr/storage/images/2026/11/screenshot-2026-11-12-at-08-800x600.jpg"
- },
- {
-  "title": "Predstavljanje autobiografskog romana “260 dana” Marijana Gubine",
-  "link": "https://www.nasiskolji.hr/2026/11/10/predstavljanje-autobiografskog-romana-260-dana-marijana-gubine/",
-  "date": "2026-11-10T11:00:54+00:00",
-  "summary": "U petak, 13. studenoga u 17.30, u Centru za kulturu Općine Preko, u dvorani Dom na žalu, Marijan Gubina predstavit će svoj autobiografski roman “260 dana”. Prije promocije u Domu na žalu, Marijan Gubina gostovat će u 13 sati u OŠ Valentina Klarina u Preku, gdje će održati predavanje koje će biti otvoreno za javnost.…",
-  "image": "https://www.nasiskolji.hr/wp-content/uploads/2026/11/260-dana-plakat-1024x683.png",
-  "source": "Naši školji",
-  "source_topic": "Otoci",
-  "topics": [
-   "Otoci"
-  ],
-  "source_url": "https://www.nasiskolji.hr/",
-  "face": [
-   46.1,
-   82.4,
-   20.1,
-   34.2
-  ],
-  "face_img": "https://www.nasiskolji.hr/wp-content/uploads/2026/11/260-dana-plakat-1024x683.png"
  },
  {
   "title": "Zadar razbio Kvarner i nastavio savršeni niz u prvenstvu",
@@ -5246,26 +5205,6 @@
    94.0
   ],
   "face_img": "https://sportklub.hr/wp-content/uploads/2026/10/05/1791234861-Snimka-zaslona-2026-10-05-231410.png"
- },
- {
-  "title": "Dramska grupa „Iza granica“ pokazala da granice ne postoje!",
-  "link": "https://www.nasiskolji.hr/2026/11/09/dramska-grupa-pokazala-da-granice-ne-postoje/",
-  "date": "2026-11-09T09:18:43+00:00",
-  "summary": "Pod dramaturškom i redateljskom palicom dramaturginje Ane Dalbello, dramska grupa Psihijatrijske bolnice Ugljan „Iza granica“ pokazala je i dokazala da granice ne postoje, a ako se i pojave (nametnu), snagom volje, pozitivnom energijom, razumijevanjem i ljubavlju – mogu se izbrisati i poništiti.",
-  "image": "https://www.nasiskolji.hr/wp-content/uploads/2026/11/DSC_3452_1575x1050.jpg",
-  "source": "Naši školji",
-  "source_topic": "Otoci",
-  "topics": [
-   "Otoci"
-  ],
-  "source_url": "https://www.nasiskolji.hr/",
-  "face": [
-   44.3,
-   59.6,
-   18.4,
-   72.0
-  ],
-  "face_img": "https://www.nasiskolji.hr/wp-content/uploads/2026/11/DSC_3452_1575x1050.jpg"
  },
  {
   "title": "Obavijest za autobusne linije Belafuža,Puntamika,Diklo te prigradske linije iz smjera Nina i Ražanca prema kolodvoru",
