@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-20T19:33:17.505135+00:00",
+ "updated": "2026-11-20T19:45:44.689351+00:00",
  "sources": [
   {
    "name": "Antena Zadar",
@@ -201,8 +201,8 @@
   },
   {
    "name": "HRT",
-   "count": 1,
-   "ok": true,
+   "count": 0,
+   "ok": false,
    "feed": null,
    "errors": []
   },
