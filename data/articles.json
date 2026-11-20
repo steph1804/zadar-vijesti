@@ -1,5 +1,19 @@
 [
  {
+  "title": "Zadar je šampion turizma za 2026. godinu",
+  "link": "https://vijesti.hrt.hr/gospodarstvo/zadar-je-sampion-turizma-za-2026-godinu-13020226",
+  "date": "2026-11-20T21:49:14+00:00",
+  "summary": "Svečanom dodjelom turističkih nagrada najboljim pojedincima, tvrtkama i organizacijama ove godine, u Poreču su u petak navečer završili ovogodišnji Dani hrvatskog turizma (DHT), a šampionom turizma za 2026. godinu proglašen je Zadar, čijem je gradonačelniku Šimi Erliću nagradu uručio premijer Andrej Plenković.",
+  "image": "https://api.hrt.hr/media/74/df/740x438-tuizam12313-20261120214749.jpg",
+  "source": "HRT",
+  "topics": [
+   "Zadar"
+  ],
+  "source_url": "https://vijesti.hrt.hr/",
+  "face": null,
+  "face_img": "https://api.hrt.hr/media/74/df/740x438-tuizam12313-20261120214749.jpg"
+ },
+ {
   "title": "Zadar je turistički šampion Hrvatske za 2026. godinu!",
   "link": "https://ezadar.net.hr/info/3591808/zadar-je-turisticki-sampion-hrvatske-za-2026-godinu/",
   "date": "2026-11-20T21:35:32+00:00",
@@ -38,19 +52,19 @@
   "link": "https://zadarskilist.novilist.hr/zadar-zupanija/erlic-nakon-velikog-priznanja-zadar-je-sve-privlacniji-turistima-ali-mora-ostati-grad-kvalitetan-za-zivot/",
   "date": "2026-11-20T21:14:37+00:00",
   "summary": "Nakon što je Zadar večeras na Danima hrvatskog turizma u Poreču proglašen najboljom turističkom destinacijom 2026. godine, gradonačelnik Šime Erlić ekskluzivno je za Zadarski list poručio kako osvojena titula potvrđuje dosadašnji razvoj, ali potiče i odgovornost za budućnost grada. – Ova nagrada jasan je pokazatelj da…",
-  "image": "https://zadarskilist.novilist.hr/wp-content/uploads/2026/11/IMG_7403.jpeg",
+  "image": "https://zadarskilist.novilist.hr/wp-content/uploads/2026/11/IMG_7403-1.jpeg",
   "source": "Zadarski list",
   "topics": [
    "Zadar"
   ],
   "source_url": "https://zadarskilist.novilist.hr/",
   "face": [
-   10.7,
-   38.4,
+   12.3,
+   44.4,
    42.8,
    57.3
   ],
-  "face_img": "https://zadarskilist.novilist.hr/wp-content/uploads/2026/11/IMG_7403.jpeg"
+  "face_img": "https://zadarskilist.novilist.hr/wp-content/uploads/2026/11/IMG_7403-1.jpeg"
  },
  {
   "title": "Adventski hit bez kojeg je Split ostao, dobio Zadar - i to besplatno! Ovako je Erliću to uspjelo. Ali, ovdje je zapelo",
@@ -140,7 +154,7 @@
   "link": "https://www.jutarnji.hr/sportske/kosarka/hrvatska-liga/gnjidic-poveo-vukove-preko-rijecana-zadar-se-u-zagorju-ponovo-poigrao-s-omiljenom-musterijom-15767328",
   "date": "2026-11-20T20:15:38+00:00",
   "summary": "CIBONA - KVARNER 90:73 (20:26, 23:16, 26:17, 21:14) ZAGREB - KC Dražen Petrović. Gledatelja 300. Suci: Perlić, Mikulić i Hartman.",
-  "image": "https://media.jutarnji.hr/images/slike/2026/11/20/f_39782621_1280.jpg?1795211063",
+  "image": "https://media.jutarnji.hr/images/slike/2026/11/20/f_39782621_1280.jpg?1795212037",
   "source": "Sportske novosti",
   "source_topic": "Sport",
   "topics": [
@@ -154,7 +168,22 @@
    63.6,
    70.7
   ],
-  "face_img": "https://media.jutarnji.hr/images/slike/2026/11/20/f_39782621_1280.jpg?1795211063"
+  "face_img": "https://media.jutarnji.hr/images/slike/2026/11/20/f_39782621_1280.jpg?1795212037"
+ },
+ {
+  "title": "Kišna jesen u Dalmaciji; nabujali potoci i rijeke, podiglo se more",
+  "link": "https://magazin.hrt.hr/price-iz-hrvatske/kisna-jesen-u-dalmaciji-nabujali-potoci-i-rijeke-podiglo-se-more-13020094",
+  "date": "2026-11-20T20:14:07+00:00",
+  "summary": "Već tri tjedna kiša ne prestaje padati na zadarskom području. Nabujali su potoci i rijeke, podiglo se more. Poučeni katastrofalnom poplavom iz svibnja 2023. u Obrovcu dodatno utvrđuju korito Zrmanje.",
+  "image": "https://api.hrt.hr/media/05/e0/740x438-jesen-u-dalmaciji-frame-1625-20261120173938.jpg",
+  "source": "HRT",
+  "topics": [
+   "Zadar",
+   "Županija"
+  ],
+  "source_url": "https://vijesti.hrt.hr/",
+  "face": null,
+  "face_img": "https://api.hrt.hr/media/05/e0/740x438-jesen-u-dalmaciji-frame-1625-20261120173938.jpg"
  },
  {
   "title": "Zadar u Zaboku četvrti put ove sezone preko stotke, svi se upisali u strijelce",
@@ -4992,40 +5021,6 @@
    76.1
   ],
   "face_img": "https://cdn-ezadar.net.hr/wp-content/uploads/lhd_01_promo-08196014bd9e1a477bbfeb1b-1052x696.jpg"
- },
- {
-  "title": "Potresno svjedočanstvo Josipa Bilavera: Sjećam se svjetlećih metaka",
-  "link": "https://vijesti.hrt.hr/hrvatska/skabrnja-35-godina-nakon-rata-potraznja-za-kucama-i-povratak-mladih-13016664",
-  "date": "2026-11-18T18:55:29+00:00",
-  "summary": "Na stradanja u Škabrnji u Dnevniku HRT-a osvrnuo se i zadarski župan Josip Bilaver koji je istima osobno svjedočio kao petogodišnji dječak te poručio kako je u 35 godina nakon tragedije Škabrnja postala mladima primamljivo mjesto za život.",
-  "image": "https://api.hrt.hr/media/bc/f3/740x438-skabrnja123131ww2-20261118200620.jpg",
-  "source": "HRT",
-  "topics": [
-   "Zadar",
-   "Županija"
-  ],
-  "source_url": "https://vijesti.hrt.hr/",
-  "face": [
-   7.6,
-   57.9,
-   12.6,
-   27.6
-  ],
-  "face_img": "https://api.hrt.hr/media/bc/f3/740x438-skabrnja123131ww2-20261118200620.jpg"
- },
- {
-  "title": "Škabrnja pamti, pravda još čeka",
-  "link": "https://vijesti.hrt.hr/hrvatska/skabrnja-pamti-pravda-jos-ceka-13016563",
-  "date": "2026-11-18T18:54:00+00:00",
-  "summary": "Na dan pada Vukovara, na drugom kraju zemlje i ravnokotarsko mjesto Škabrnja doživjelo je najteži dan u svojoj povijesti. Pripadnici JNA i srpskih paravojnih postrojbi, pod zapovijedanjem ratnog zločinca Ratka Mladića, ušli su u Škabrnju i brutalno poubijali 43 civila i 15 hrvatskih branitelja.",
-  "image": "https://api.hrt.hr/media/aa/70/740x438-zd-tvd2-skabrnja-akolanovic-frame-4313-20261118155202.jpg",
-  "source": "HRT",
-  "topics": [
-   "Županija"
-  ],
-  "source_url": "https://vijesti.hrt.hr/",
-  "face": null,
-  "face_img": "https://api.hrt.hr/media/aa/70/740x438-zd-tvd2-skabrnja-akolanovic-frame-4313-20261118155202.jpg"
  },
  {
   "title": "HNS se oprostio od dugogodišnjeg nogometnog djelatnika, poginuo na putu prema Škabrnji",
