@@ -36,84 +36,43 @@
  ],
  "flights": [
   {
-   "dir": "odlazak",
-   "flight": "OU4674",
-   "airline": "Croatia Airlines",
-   "city": "Munich",
-   "via": "",
-   "time": "2026-11-20T06:30:00",
-   "est": "2026-11-20T06:30:00",
-   "act": "2026-11-20T06:26:00",
-   "status": "Departed",
-   "gate": "05"
-  },
-  {
    "dir": "dolazak",
-   "flight": "OU4675",
+   "flight": "OU634",
    "airline": "Croatia Airlines",
-   "city": "Munich",
-   "via": "",
-   "time": "2026-11-20T15:10:00",
-   "est": "2026-11-20T15:00:00",
-   "act": "2026-11-20T15:00:00",
-   "status": "Landed",
+   "city": "Zagreb",
+   "via": "Pula",
+   "time": "2026-11-22T15:50:00",
+   "est": "2026-11-22T15:50:00",
+   "act": "",
+   "status": "",
    "gate": ""
   },
   {
    "dir": "odlazak",
-   "flight": "OU674",
+   "flight": "OU634",
+   "airline": "Croatia Airlines",
+   "city": "Zagreb",
+   "via": "",
+   "time": "2026-11-22T16:20:00",
+   "est": "2026-11-22T16:20:00",
+   "act": "",
+   "status": "",
+   "gate": ""
+  },
+  {
+   "dir": "dolazak",
+   "flight": "OU675",
    "airline": "Croatia Airlines",
    "city": "Zagreb",
    "via": "Pula",
-   "time": "2026-11-20T15:40:00",
-   "est": "2026-11-20T15:40:00",
-   "act": "2026-11-20T15:38:00",
-   "status": "Departed",
-   "gate": "05"
+   "time": "2026-11-22T23:00:00",
+   "est": "2026-11-22T23:00:00",
+   "act": "",
+   "status": "",
+   "gate": ""
   }
  ],
- "power": [
-  {
-   "day": "20.11.2026",
-   "place": "Zadar",
-   "street": "",
-   "note": "predjeli Skročini, Vidikovac, Bokanjac i Novi Bokanjac - hitno isključenje trafostanice radi popravka kvara",
-   "time": "09:00 - 11:30",
-   "unplanned": true
-  },
-  {
-   "day": "20.11.2026",
-   "place": "Olib",
-   "street": "",
-   "note": "Isključena opskrba zbog hitnog popravka na dalekovodu",
-   "time": "09:30 - 11:30",
-   "unplanned": true
-  },
-  {
-   "day": "20.11.2026",
-   "place": "Briševo",
-   "street": "dio mjesta prema Donjoj Murvici",
-   "note": "",
-   "time": "08:30 - 13:00",
-   "unplanned": false
-  },
-  {
-   "day": "20.11.2026",
-   "place": "Donja Murvica",
-   "street": "dio mjesta od magistrale prema Briševu",
-   "note": "",
-   "time": "08:30 - 13:00",
-   "unplanned": false
-  },
-  {
-   "day": "20.11.2026",
-   "place": "Poljica",
-   "street": "Cjelo naselje",
-   "note": "Povremeni prekidi",
-   "time": "08:00 - 12:00",
-   "unplanned": false
-  }
- ],
+ "power": [],
  "water": [
   {
    "day": "2026-11-13",
@@ -418,7 +377,7 @@
  ],
  "videos": {
   "v": 2,
-  "fetched": "2026-11-20T22:02:31.963821+00:00",
+  "fetched": "2026-11-20T23:03:07.327627+00:00",
   "items": [
    {
     "id": "xWA3hHRMmXk",
