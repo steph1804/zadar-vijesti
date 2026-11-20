@@ -75,10 +75,18 @@
  "power": [
   {
    "day": "20.11.2026",
-   "place": "Poljica",
-   "street": "Cjelo naselje",
-   "note": "Povremeni prekidi",
-   "time": "08:00 - 12:00",
+   "place": "Zadar",
+   "street": "",
+   "note": "predjeli Skročini, Vidikovac, Bokanjac i Novi Bokanjac - hitno isključenje trafostanice radi popravka kvara",
+   "time": "09:00 - 11:30",
+   "unplanned": true
+  },
+  {
+   "day": "20.11.2026",
+   "place": "Donja Murvica",
+   "street": "dio mjesta od magistrale prema Briševu",
+   "note": "",
+   "time": "08:30 - 13:00",
    "unplanned": false
   },
   {
@@ -91,10 +99,10 @@
   },
   {
    "day": "20.11.2026",
-   "place": "Donja Murvica",
-   "street": "dio mjesta od magistrale prema Briševu",
-   "note": "",
-   "time": "08:30 - 13:00",
+   "place": "Poljica",
+   "street": "Cjelo naselje",
+   "note": "Povremeni prekidi",
+   "time": "08:00 - 12:00",
    "unplanned": false
   }
  ],
@@ -402,7 +410,7 @@
  ],
  "videos": {
   "v": 2,
-  "fetched": "2026-11-20T06:04:09.188449+00:00",
+  "fetched": "2026-11-20T07:03:39.455988+00:00",
   "items": [
    {
     "id": "xWA3hHRMmXk",
