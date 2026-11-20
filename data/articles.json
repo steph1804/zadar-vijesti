@@ -1,5 +1,39 @@
 [
  {
+  "title": "Predstavljena knjiga koja donosi umjetnički pogled na Zadar i njegovu okolicu",
+  "link": "https://radio.hrt.hr/radio-zadar/vijesti/predstavljena-knjiga-koja-donosi-umjetnicki-pogled-na-zadar-i-njegovu-okolicu-13019696",
+  "date": "2026-11-20T12:13:17+00:00",
+  "summary": "U Gradskoj loži u Zadru, u okviru obilježavanja Dana grada Zadra, predstavljena je knjiga „Oko Zadra – Poetska razglednica 2”, drugo izdanje biblioteke „Razglednica” Sveučilišta u Zadru, koja kroz poeziju i fotografiju donosi umjetnički pogled na Zadar i njegovu okolicu.",
+  "image": "https://api.hrt.hr/media/23/5b/poetska-razglednica-17-20261120121301.webp",
+  "source": "HRT Radio Zadar",
+  "topics": [
+   "Zadar"
+  ],
+  "source_url": "https://radio.hrt.hr/radio-zadar",
+  "face": [
+   39.6,
+   63.2,
+   11.0,
+   88.7
+  ],
+  "face_img": "https://api.hrt.hr/media/23/5b/poetska-razglednica-17-20261120121301.webp"
+ },
+ {
+  "title": "Koliko vaše plaće odlazi na ratu za stan? Zadarska županija u donjem dijelu ljestvice",
+  "link": "https://ezadar.net.hr/info/3591708/koliko-vase-place-odlazi-na-ratu-za-stan-zadarska-zupanija-u-donjem-dijelu-ljestvice/",
+  "date": "2026-11-20T12:02:44+00:00",
+  "summary": "​Nepriuštive cijene nekretnina u Hrvatskoj stalna su tema rasprave, a novi izračun pokazuje kako bi kupac s prosječnom neto plaćom za kredit stana od 60 kvadrata mjesečno izdvajao 664 eura, odnosno 42,8 posto plaće",
+  "image": "https://cdn-ezadar.net.hr/wp-content/uploads/stanovi_hrvatska-3253ccdd16f16f5cac7024b2-1052x696.jpg",
+  "source": "eZadar",
+  "topics": [
+   "Zadar",
+   "Županija"
+  ],
+  "source_url": "https://ezadar.net.hr/",
+  "face": null,
+  "face_img": "https://cdn-ezadar.net.hr/wp-content/uploads/stanovi_hrvatska-3253ccdd16f16f5cac7024b2-1052x696.jpg"
+ },
+ {
   "title": "Zadar Open Championship 2026. okupio 345 boraca iz tri države: Dva zadarska kluba osvojila čak 104 medalje!",
   "link": "https://slobodnadalmacija.hr/dalmacija/zadar/zadar-open-championship-2026-okupio-345-boraca-iz-tri-drzave-dva-zadarska-kluba-osvojila-cak-104-medalje-1591440",
   "date": "2026-11-20T11:49:00+00:00",
@@ -37,20 +71,27 @@
   "link": "https://sport023.hr/2026/11/20/vaterpoliste-zadra-ceka-mladost-franicevic-posluzit-ce-nam-kao-najbolji-trening/",
   "date": "2026-11-20T11:44:45+00:00",
   "summary": "Vaterpoliste Zadra 1952 sutra, 21. studenoga očekuje teško gostovanje kod zagrebačke Mladosti u sklopu 8. kola Prvenstva Hrvatske. Susret s... Objava Vaterpoliste Zadra čeka Mladost, Franičević: „Poslužit će nam kao najbolji trening” pojavila se prvi puta na Sport023.",
-  "image": null,
+  "image": "https://sport023.hr/wp-content/uploads/2026/11/VK-zadar-novo-1-e1793607049432.jpg",
   "source": "Sport023",
   "source_topic": "Sport",
   "topics": [
    "Zadar",
    "Sport"
   ],
-  "source_url": "https://sport023.hr/"
+  "source_url": "https://sport023.hr/",
+  "face": [
+   0.5,
+   65.6,
+   46.4,
+   92.5
+  ],
+  "face_img": "https://sport023.hr/wp-content/uploads/2026/11/VK-zadar-novo-1-e1793607049432.jpg"
  },
  {
   "title": "Nastava u srednjim školama redovita, uz manji broj učenika",
   "link": "https://vijesti.hrt.hr/hrvatska/za-danas-najavljen-medunarodni-strajk-mladih-13019342",
   "date": "2026-11-20T11:40:42+00:00",
-  "summary": "Učenici srednjih škola i studenti pozvani su na cjelodnevni bojkot nastave u sklopu Štrajka mladih. Prosvjedne aktivnosti održavaju se u Zagrebu, Rijeci, Puli, Zadru i Osijeku.",
+  "summary": "Učenici srednjih škola i studenti pozvani su na cjelodnevni bojkot nastave u sklopu \"Štrajka mladih\". Prosvjedne aktivnosti održavaju se u Zagrebu, Rijeci, Puli, Zadru i Osijeku.",
   "image": "https://api.hrt.hr/media/87/64/740x438-pxl-201126-162798451-20261120103717.jpg",
   "source": "HRT",
   "topics": [
@@ -479,7 +520,7 @@
  },
  {
   "title": "Osmero zadarskih boksača ide na pripreme reprezentacije, među njima i juniorska prvakinja Hrvatske!",
-  "link": "https://ezadar.net.hr/sport/3591651/osmero-zadarskih-boksaca-u-reprezentaciji-marketin-u-kratkom-vremenu-postavili-smo-temelje-za-buducnost-hrvatskog-boksa/",
+  "link": "https://ezadar.net.hr/sport/3591651/osmero-zadarskih-boksaca-ide-na-pripreme-reprezentacije-medu-njima-i-juniorska-prvakinja-hrvatske/",
   "date": "2026-11-20T09:09:17+00:00",
   "summary": "Hrvatska boksačka reprezentacija kadeta (U-15) od danas, 20. studenoga, do nedjelje, 22. studenoga, boravit će na trodnevnim pripremama u Istri, nastavljajući intenzivan program rada i razvoja najmlađe nacionalne selekcije.",
   "image": "https://cdn-ezadar.net.hr/wp-content/uploads/boks-reprezentacija-2-7ce9a5a0739f5a56f820f79f-scaled-63e5da19cf53eeaf0d057548-1052x696.jpg",
@@ -5014,40 +5055,6 @@
    83.1
   ],
   "face_img": "https://cdn-ezadar.net.hr/wp-content/uploads/pxl_181126_162711404-0129a527ce0493bb1220225f-1052x696.jpg"
- },
- {
-  "title": "Gotovina iz Škabrnje: Poseban je ovo dan u godini. Svake godine se s prijateljima prisjetim svih žrtava",
-  "link": "https://n1info.hr/vijesti/gotovina-iz-skabrnje-poseban-je-ovo-dan-u-godini-svake-godine-se-s-prijateljima-prisjetim-svih-zrtava/",
-  "date": "2026-11-18T12:42:02+00:00",
-  "summary": "General Ante Gotovina obilježava stradanje Škabrnje, gdje je došao osobno odati pijetet svim žrtvama.",
-  "image": "https://n1info.hr/media/images/2026/11/18/1795005605_Screenshot_30.width-1200.jpg",
-  "source": "N1",
-  "topics": [
-   "Županija"
-  ],
-  "source_url": "https://n1info.hr/",
-  "face": [
-   6.1,
-   80.5,
-   52.0,
-   74.4
-  ],
-  "face_img": "https://n1info.hr/media/images/2026/11/18/1795005605_Screenshot_30.width-1200.jpg"
- },
- {
-  "title": "Poginuli u prometnoj nesreći kod Slunja išli u Škabrnju odati počast, jedan od njih je nogometni trener",
-  "link": "https://slobodnadalmacija.hr/vijesti/crna-kronika/poginuli-u-strasnoj-prometnoj-nesreci-kod-slunja-isli-su-u-skabrnju-odati-pocast-zrtvama-domovinskog-rata-1591046",
-  "date": "2026-11-18T12:39:00+00:00",
-  "summary": "Troje ljudi poginulo je jutros u teškoj prometnoj nesreći na državnoj cesti D1 u Blagaju kod Slunja. Prema riječima gradonačelnice Slunja Mirjane Puškarić, poginuli su putovali prema Škabrnji, gdje su namjeravali odati počast žrtvama Domovinskog rata. \"Svaki izgubljeni život velika je tragedija, jak...",
-  "image": "https://static.slobodnadalmacija.hr/images/slike/2026/11/18/32880874.jpg",
-  "source": "Slobodna Dalmacija/Zadar",
-  "topics": [
-   "Županija",
-   "Sport"
-  ],
-  "source_url": "https://slobodnadalmacija.hr/dalmacija/zadar",
-  "face": null,
-  "face_img": "https://static.slobodnadalmacija.hr/images/slike/2026/11/18/32880874.jpg"
  },
  {
   "title": "Neka im je vječna slava i hvala!",
