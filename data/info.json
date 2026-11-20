@@ -83,16 +83,24 @@
   },
   {
    "day": "20.11.2026",
-   "place": "Donja Murvica",
-   "street": "dio mjesta od magistrale prema Briševu",
+   "place": "Olib",
+   "street": "",
+   "note": "Isključena opskrba zbog hitnog popravka na dalekovodu",
+   "time": "09:30 - 11:30",
+   "unplanned": true
+  },
+  {
+   "day": "20.11.2026",
+   "place": "Briševo",
+   "street": "dio mjesta prema Donjoj Murvici",
    "note": "",
    "time": "08:30 - 13:00",
    "unplanned": false
   },
   {
    "day": "20.11.2026",
-   "place": "Briševo",
-   "street": "dio mjesta prema Donjoj Murvici",
+   "place": "Donja Murvica",
+   "street": "dio mjesta od magistrale prema Briševu",
    "note": "",
    "time": "08:30 - 13:00",
    "unplanned": false
