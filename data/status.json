@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-20T08:15:42.246059+00:00",
+ "updated": "2026-11-20T08:30:57.964863+00:00",
  "sources": [
   {
    "name": "Antena Zadar",
@@ -194,15 +194,15 @@
   },
   {
    "name": "Novi list",
-   "count": 1,
+   "count": 2,
    "ok": true,
    "feed": null,
    "errors": []
   },
   {
    "name": "HRT",
-   "count": 0,
-   "ok": false,
+   "count": 1,
+   "ok": true,
    "feed": null,
    "errors": []
   },
