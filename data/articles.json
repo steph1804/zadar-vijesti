@@ -1,5 +1,39 @@
 [
  {
+  "title": "ZD : Uživajte danas u stabilnom vremenu jer opet stiže kiša",
+  "link": "https://radio.hrt.hr/radio-zadar/vijesti/zd-uzivajte-danas-u-stabilnom-vremenu-jer-opet-stize-kisa-13021051",
+  "date": "2026-11-21T07:33:23+00:00",
+  "summary": "Pretežno sunčano uz malu do umjerenu naoblaku. Puhat će slab do umjeren zapadni i sjeverozapadni vjetar koji će navečer okrenuti na jugo i jugozapadni vjetar.",
+  "image": "https://api.hrt.hr/media/c7/83/447357f6-8f20-496f-8a09-b85533770dc8-20261121073302.webp",
+  "source": "HRT Radio Zadar",
+  "topics": [
+   "Zadar"
+  ],
+  "source_url": "https://radio.hrt.hr/radio-zadar",
+  "face": null,
+  "face_img": "https://api.hrt.hr/media/c7/83/447357f6-8f20-496f-8a09-b85533770dc8-20261121073302.webp"
+ },
+ {
+  "title": "Čovjek iz Vrsi vodi remont morskog diva od 333 metra: “Amerikanci su izabrali mene, a mogli su bilo koga!”",
+  "link": "https://zadarskilist.novilist.hr/zadar-zupanija/covjek-iz-vrsi-vodi-remont-morskog-diva-od-333-metra-amerikanci-su-izabrali-mene-a-mogli-su-bilo-koga/",
+  "date": "2026-11-21T07:30:32+00:00",
+  "summary": "U portugalskom brodogradilištu Lisnave trenutačno je na remontu jedan od najvećih tankera za prijevoz sirove nafte na svijetu. Riječ je o VLCC tankeru »Salamis«, dugom čak 333 metra i širokom 60 metara, a čije je dokovanje i pripremu za buduće operacije preuzeo Emil Stošić, iskusni pomorski stručnjak iz Vrsi.",
+  "image": "https://zadarskilist.novilist.hr/wp-content/uploads/2026/11/12478014.jpeg",
+  "source": "Zadarski list",
+  "topics": [
+   "Zadar",
+   "Županija"
+  ],
+  "source_url": "https://zadarskilist.novilist.hr/",
+  "face": [
+   12.3,
+   29.2,
+   39.0,
+   69.7
+  ],
+  "face_img": "https://zadarskilist.novilist.hr/wp-content/uploads/2026/11/12478014.jpeg"
+ },
+ {
   "title": "Rekordnih 385 trkača na 43. Polumaratonu Nin – Zadar, ujedno i Prvenstvu Hrvatske u pojedinačnoj i ekipnoj konkurenciji",
   "link": "https://023.hr/2026/11/rekordnih-385-trkaca-na-43-polumaratonu-nin-zadar-ujedno-i-prvenstvu-hrvatske-u-pojedinacnoj-i-ekipnoj-konkurenciji/",
   "date": "2026-11-21T07:21:53+00:00",
@@ -55,7 +89,7 @@
   "title": "TURISTIČKA DESTINACIJA GODINE Grad Zadar osvojio titulu Šampiona turizma na Danima turizma u Poreču!",
   "link": "https://www.antenazadar.hr/clanak/2026/11/turisticka-destinacija-godine-grad-zadar-osvojio-titulu-sampiona-turizma-na-danima-turizma-u-porecu/",
   "date": "2026-11-21T07:16:07+00:00",
-  "summary": "U Poreču je održana završna svečana večer Dana hrvatskog turizma u sklopu koje su dodijeljene i Godišnje hrvatske turističke nagrade, odnosno nagrade za najbolje u turizmu Hrvatske u 2026. godini. Turističkom destinacijom godine, odnosno novim šampionom hrvatskog turizma proglašen je Zadar.",
+  "summary": "Sinoć je u Poreču održana završna svečana večer Dana hrvatskog turizma u sklopu koje su dodijeljene i Godišnje hrvatske turističke nagrade, odnosno nagrade za najbolje u turizmu Hrvatske u 2026. godini. Turističkom destinacijom godine, odnosno novim šampionom hrvatskog turizma proglašen je Zadar.",
   "image": "https://www.antenazadar.hr/wp-content/uploads/2026/11/40330.jpg",
   "source": "Antena Zadar",
   "topics": [
@@ -433,7 +467,7 @@
   "link": "https://www.jutarnji.hr/sportske/kosarka/hrvatska-liga/gnjidic-poveo-vukove-preko-rijecana-zadar-se-u-zagorju-ponovo-poigrao-s-omiljenom-musterijom-15767328",
   "date": "2026-11-20T20:15:38+00:00",
   "summary": "CIBONA - KVARNER 90:73 (20:26, 23:16, 26:17, 21:14) ZAGREB - KC Dražen Petrović. Gledatelja 300. Suci: Perlić, Mikulić i Hartman.",
-  "image": "https://media.jutarnji.hr/images/slike/2026/11/20/f_39782621_1280.jpg?1795245633",
+  "image": "https://media.jutarnji.hr/images/slike/2026/11/20/f_39782621_1280.jpg?1795246929",
   "source": "Sportske novosti",
   "source_topic": "Sport",
   "topics": [
@@ -447,7 +481,7 @@
    63.6,
    70.7
   ],
-  "face_img": "https://media.jutarnji.hr/images/slike/2026/11/20/f_39782621_1280.jpg?1795245633"
+  "face_img": "https://media.jutarnji.hr/images/slike/2026/11/20/f_39782621_1280.jpg?1795246929"
  },
  {
   "title": "Kišna jesen u Dalmaciji; nabujali potoci i rijeke, podiglo se more",
@@ -4985,36 +5019,6 @@
    76.9
   ],
   "face_img": "https://zadarskilist.novilist.hr/wp-content/uploads/2026/11/KRUG-14-1.png"
- },
- {
-  "title": "RJEŠENJE ŽUPANIJSKOG SUDA Majka dječaka (3) teško stradalog u požaru ostaje u pritvoru još mjesec dana",
-  "link": "https://www.antenazadar.hr/clanak/2026/11/rjesenje-zupanijskog-suda-majka-djecaka-3-tesko-stradalog-u-pozaru-ostaje-u-pritvoru-jos-mjesec-dana/",
-  "date": "2026-11-19T05:36:27+00:00",
-  "summary": "Županijski sud u Zadru donio je najnovije rješene o 36-godišnjoj Zadranci čiji je trogodišnji sin teško stradao u požaru stana na Bulevaru 14. rujna.",
-  "image": "https://www.antenazadar.hr/wp-content/uploads/2026/11/pozar-bulevar-dijete-FOTO-INDEX.webp",
-  "source": "Antena Zadar",
-  "topics": [
-   "Zadar"
-  ],
-  "source_url": "https://www.antenazadar.hr/",
-  "face": null,
-  "face_img": "https://www.antenazadar.hr/wp-content/uploads/2026/11/pozar-bulevar-dijete-FOTO-INDEX.webp"
- },
- {
-  "title": "Trajekt danas ne pristaje na Rivnju i Sestrunju, a dvije zadarske ulice do podneva ostaju bez struje",
-  "link": "https://023.hr/2026/11/trajekt-danas-ne-pristaje-na-rivnju-i-sestrunju-a-dvije-zadarske-ulice-do-podneva-ostaju-bez-struje/",
-  "date": "2026-11-19T04:42:00+00:00",
-  "summary": "Brodska ljekarna jutros obilazi Olib, Silbu i Premudu. Sutra bez struje ostaju Poljica te dijelovi Briševa i Donje Murvice. Na moru Trajektna linija Gaženica – Rivanj – Sestrunj – Zverinac – Molat danas plovi bez pristajanja u lukama Rivanj i Sestrunj.",
-  "image": "https://023.hr/wp-content/uploads/2025/03/20250313094958_427812.webp",
-  "source": "023 portal",
-  "topics": [
-   "Zadar",
-   "Županija",
-   "Otoci"
-  ],
-  "source_url": "https://023.hr/",
-  "face": null,
-  "face_img": "https://023.hr/wp-content/uploads/2025/03/20250313094958_427812.webp"
  },
  {
   "title": "BOLNE VIJESTI Bivši skupštinar HNS-a išao u Škabrnju i poginuo",
