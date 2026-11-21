@@ -94,9 +94,86 @@
    "act": "",
    "status": "",
    "gate": ""
+  },
+  {
+   "dir": "odlazak",
+   "flight": "OU4674",
+   "airline": "Croatia Airlines",
+   "city": "Munich",
+   "via": "",
+   "time": "2026-11-23T06:30:00",
+   "est": "2026-11-23T06:30:00",
+   "act": "",
+   "status": "",
+   "gate": ""
+  },
+  {
+   "dir": "dolazak",
+   "flight": "OU4675",
+   "airline": "Croatia Airlines",
+   "city": "Munich",
+   "via": "",
+   "time": "2026-11-23T15:10:00",
+   "est": "2026-11-23T15:10:00",
+   "act": "",
+   "status": "",
+   "gate": ""
+  },
+  {
+   "dir": "odlazak",
+   "flight": "OU674",
+   "airline": "Croatia Airlines",
+   "city": "Zagreb",
+   "via": "Pula",
+   "time": "2026-11-23T15:40:00",
+   "est": "2026-11-23T15:40:00",
+   "act": "",
+   "status": "",
+   "gate": ""
   }
  ],
- "power": [],
+ "power": [
+  {
+   "day": "23.11.2026",
+   "place": "Briševo",
+   "street": "dio mjesta prema Donjoj Murvici",
+   "note": "",
+   "time": "08:30 - 13:30",
+   "unplanned": false
+  },
+  {
+   "day": "23.11.2026",
+   "place": "Donja Murvica",
+   "street": "dio mjesta od magistrale prema Briševu",
+   "note": "",
+   "time": "08:30 - 13:30",
+   "unplanned": false
+  },
+  {
+   "day": "23.11.2026",
+   "place": "Privlaka",
+   "street": "Put Kandelica",
+   "note": "Povremeni prekidi",
+   "time": "08:00 - 14:00",
+   "unplanned": false
+  },
+  {
+   "day": "23.11.2026",
+   "place": "Zadar",
+   "street": "Celestina Medovića",
+   "note": "",
+   "time": "08:30 - 12:00",
+   "unplanned": false
+  },
+  {
+   "day": "23.11.2026",
+   "place": "Jasnice",
+   "street": "predjeli Šarlije, Zelenikovac, Vučipolje i centar mjesta",
+   "note": "",
+   "time": "08:30 - 13:30",
+   "unplanned": false
+  }
+ ],
  "water": [
   {
    "day": "2026-11-13",
@@ -401,8 +478,24 @@
  ],
  "videos": {
   "v": 2,
-  "fetched": "2026-11-21T22:03:34.129767+00:00",
+  "fetched": "2026-11-21T23:03:26.717150+00:00",
   "items": [
+   {
+    "id": "PX0Oent-lTk",
+    "title": "Zadar's old town from above | CroVenture",
+    "channel": "CroVenture",
+    "date": "2026-11-20T17:00:11+00:00",
+    "link": "https://www.youtube.com/watch?v=PX0Oent-lTk",
+    "image": "https://i.ytimg.com/vi/PX0Oent-lTk/mqdefault.jpg"
+   },
+   {
+    "id": "QQPhkqGDZ64",
+    "title": "Zadar: Predstavljena knjiga \"Stoljeće rušenja i građenja povijesnoga grada u Zadru\"",
+    "channel": "HINA multimedija",
+    "date": "2026-11-20T15:29:16+00:00",
+    "link": "https://www.youtube.com/watch?v=QQPhkqGDZ64",
+    "image": "https://i.ytimg.com/vi/QQPhkqGDZ64/mqdefault.jpg"
+   },
    {
     "id": "xWA3hHRMmXk",
     "title": "Zadarski župan prisjetio se stradanja u Škabrnji",
