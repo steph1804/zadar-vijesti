@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-21T12:01:09.453227+00:00",
+ "updated": "2026-11-21T12:04:00.287258+00:00",
  "sources": [
   {
    "name": "Antena Zadar",
@@ -32,6 +32,13 @@
   {
    "name": "eZadar",
    "count": 22,
+   "ok": true,
+   "feed": null,
+   "errors": []
+  },
+  {
+   "name": "BNM portal",
+   "count": 5,
    "ok": true,
    "feed": null,
    "errors": []
