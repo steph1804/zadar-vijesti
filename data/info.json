@@ -37,6 +37,30 @@
  "flights": [
   {
    "dir": "dolazak",
+   "flight": "T7BSG",
+   "airline": "Nepoznati Prijevoznik",
+   "city": "Palma de Mallorca",
+   "via": "",
+   "time": "2026-11-22T14:00:00",
+   "est": "2026-11-22T14:00:00",
+   "act": "",
+   "status": "",
+   "gate": ""
+  },
+  {
+   "dir": "odlazak",
+   "flight": "T7BSG",
+   "airline": "Nepoznati Prijevoznik",
+   "city": "Pula",
+   "via": "",
+   "time": "2026-11-22T15:00:00",
+   "est": "2026-11-22T15:00:00",
+   "act": "",
+   "status": "",
+   "gate": ""
+  },
+  {
+   "dir": "dolazak",
    "flight": "OU634",
    "airline": "Croatia Airlines",
    "city": "Zagreb",
@@ -377,8 +401,16 @@
  ],
  "videos": {
   "v": 2,
-  "fetched": "2026-11-21T17:03:02.039570+00:00",
+  "fetched": "2026-11-21T18:02:02.211328+00:00",
   "items": [
+   {
+    "id": "QQPhkqGDZ64",
+    "title": "Zadar: Predstavljena knjiga \"Stoljeće rušenja i građenja povijesnoga grada u Zadru\"",
+    "channel": "HINA multimedija",
+    "date": "2026-11-20T15:29:16+00:00",
+    "link": "https://www.youtube.com/watch?v=QQPhkqGDZ64",
+    "image": "https://i.ytimg.com/vi/QQPhkqGDZ64/mqdefault.jpg"
+   },
    {
     "id": "xWA3hHRMmXk",
     "title": "Zadarski župan prisjetio se stradanja u Škabrnji",
