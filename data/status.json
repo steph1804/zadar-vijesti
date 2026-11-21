@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-21T01:45:40.639538+00:00",
+ "updated": "2026-11-21T01:47:29.806614+00:00",
  "sources": [
   {
    "name": "Antena Zadar",
@@ -66,10 +66,12 @@
   },
   {
    "name": "Naši školji",
-   "count": 10,
-   "ok": true,
+   "count": 0,
+   "ok": false,
    "feed": null,
-   "errors": []
+   "errors": [
+    "https://www.nasiskolji.hr/feed/: <urlopen error timed out>"
+   ]
   },
   {
    "name": "Grad Zadar",
@@ -87,10 +89,12 @@
   },
   {
    "name": "HRT Radio Zadar",
-   "count": 14,
-   "ok": true,
+   "count": 0,
+   "ok": false,
    "feed": null,
-   "errors": []
+   "errors": [
+    "https://radio.hrt.hr/radio-zadar: HTTP Error 404: Not Found"
+   ]
   },
   {
    "name": "Sveučilište u Zadru",
