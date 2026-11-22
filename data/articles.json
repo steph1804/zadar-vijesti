@@ -1,5 +1,25 @@
 [
  {
+  "title": "PREGLED TJEDNA Od političkih preslagivanja do sudbine klizališta",
+  "link": "https://zadarskilist.novilist.hr/zadar-zupanija/pregled-tjedna-od-politickih-preslagivanja-do-sudbine-klizalista/",
+  "date": "2026-11-22T20:44:30+00:00",
+  "summary": "Donosimo pregled vijesti koje su obilježile tjedan u Zadru i županiji: HDZ-ova Matea Bakmaz iz Gradske knjižnice prelazi u Županiju, bit će zamjenica pročelnika Matea Bakmaz, dosadašnja djelatnica Gradske knjižnice Zadar, prelazi u Zadarsku županiju, gdje će obnašati dužnost zamjenice pročelnika Upravnog odjela za…",
+  "image": "https://zadarskilist.novilist.hr/wp-content/uploads/2026/11/KRUG-22-1.png",
+  "source": "Zadarski list",
+  "topics": [
+   "Zadar",
+   "Županija"
+  ],
+  "source_url": "https://zadarskilist.novilist.hr/",
+  "face": [
+   35.3,
+   64.6,
+   41.3,
+   52.5
+  ],
+  "face_img": "https://zadarskilist.novilist.hr/wp-content/uploads/2026/11/KRUG-22-1.png"
+ },
+ {
   "title": "Zadar iznenadio favorizirani Cluj i ostvario veliku gostujuću pobjedu u ABA ligi",
   "link": "https://www.telegram.hr/telesport/na-prvu/zadar-iznenadio-favorizirani-cluj-i-ostvario-veliku-gostujucu-pobjedu-u-aba-ligi/",
   "date": "2026-11-22T20:27:10+00:00",
@@ -18,6 +38,40 @@
    74.0
   ],
   "face_img": "https://www.telegram.hr/wp-content/uploads/2026/11/kk-zadar-1-150x150.png"
+ },
+ {
+  "title": "Zadar pod vodom nakon pljuska: Poplavila Vruljica, voda šikljala iz šahta na rotoru na Meladi",
+  "link": "https://zadarskilist.novilist.hr/zadar-zupanija/zadar/zadar-pod-vodom-nakon-pljuska-poplavila-vruljica-voda-sikljala-iz-sahta-na-rotoru-na-meladi/",
+  "date": "2026-11-22T20:22:15+00:00",
+  "summary": "Obilna kiša koja je danas pala u Zadru ponovno je izazvala probleme na gradskim prometnicama. Brojne ulice našle su se pod vodom, na što su Zadrani već imali prilike naviknuti s obzirom na to da se za svake obilnije kiše ponavljaju slični prizori.",
+  "image": "https://zadarskilist.novilist.hr/wp-content/uploads/2026/11/ipiccy_image-41-2.jpg",
+  "source": "Zadarski list",
+  "topics": [
+   "Zadar",
+   "Županija"
+  ],
+  "source_url": "https://zadarskilist.novilist.hr/",
+  "face": null,
+  "face_img": "https://zadarskilist.novilist.hr/wp-content/uploads/2026/11/ipiccy_image-41-2.jpg"
+ },
+ {
+  "title": "Nadbiskup Zgrablić u utorak predvodi proslavu sv. Krševana u obnovljenoj zadarskoj crkvi",
+  "link": "https://zadarskilist.novilist.hr/zadar-zupanija/zadar/nadbiskup-zgrablic-u-utorak-predvodi-proslavu-sv-krsevana-u-obnovljenoj-zadarskoj-crkvi/",
+  "date": "2026-11-22T20:01:04+00:00",
+  "summary": "Blagdan sv. Krševana, zaštitnika Grada Zadra, svečano se slavi u utorak, 24. studenog, kada svečano misno slavlje u crkvi sv. Krševana u Zadru s početkom u 18,00 sati predvodi zadarski nadbiskup Milan Zgrablić.",
+  "image": "https://zadarskilist.novilist.hr/wp-content/uploads/2026/11/sv.-Krsevan-Spojeno-1280x796-1.jpg",
+  "source": "Zadarski list",
+  "topics": [
+   "Zadar"
+  ],
+  "source_url": "https://zadarskilist.novilist.hr/",
+  "face": [
+   29.3,
+   58.9,
+   69.9,
+   81.7
+  ],
+  "face_img": "https://zadarskilist.novilist.hr/wp-content/uploads/2026/11/sv.-Krsevan-Spojeno-1280x796-1.jpg"
  },
  {
   "title": "[FOTO] Zadar proslavio plesnu umjetnost uz nastupe 200 izvođača",
@@ -243,7 +297,7 @@
   "link": "https://www.jutarnji.hr/sportske/kosarka/aba-liga/zadar-je-za-prvu-gostujucu-pobjedu-morao-prevaliti-preko-tisucu-kilometara-do-rumunjske-15767791",
   "date": "2026-11-22T17:32:55+00:00",
   "summary": "CLUJ - ZADAR 75:81 (15:24, 19:16, 14:21, 27:20) CLUJ - BT Arena. Gledatelja 2000. Suci: Senkesen, Šešević i Gacik.",
-  "image": "https://media.jutarnji.hr/images/slike/2026/11/22/f_40014711_1280.jpg?1795379082",
+  "image": "https://media.jutarnji.hr/images/slike/2026/11/22/f_40014711_1280.jpg?1795380157",
   "source": "Sportske novosti",
   "source_topic": "Sport",
   "topics": [
@@ -257,7 +311,7 @@
    36.4,
    41.5
   ],
-  "face_img": "https://media.jutarnji.hr/images/slike/2026/11/22/f_40014711_1280.jpg?1795379082"
+  "face_img": "https://media.jutarnji.hr/images/slike/2026/11/22/f_40014711_1280.jpg?1795380157"
  },
  {
   "title": "EKSPLOZIJA ZADRA U RUMUNJSKOJ Prva gostujuća pobjeda – Modrićevi junaci utišali Cluj i srušili Eurokup momčad!",
@@ -5065,59 +5119,6 @@
   "source_url": "https://radio.hrt.hr/radio-zadar",
   "face": null,
   "face_img": "https://api.hrt.hr/media/41/01/promet1-20261120091916.webp"
- },
- {
-  "title": "Drske krađe na Poluotoku, iz dva stana ukradeno zlato i novac",
-  "link": "https://radio.hrt.hr/radio-zadar/vijesti/drske-krade-na-poluotoku-iz-dva-stana-ukradeno-zlato-i-novac-13019421",
-  "date": "2026-11-20T09:15:45+00:00",
-  "summary": "Zadarska policija izvijestila je o dvije krađe iz stanova u Zadru.&nbsp;",
-  "image": "https://api.hrt.hr/media/2f/89/polauto4-20261120091459.webp",
-  "source": "HRT Radio Zadar",
-  "topics": [
-   "Zadar"
-  ],
-  "source_url": "https://radio.hrt.hr/radio-zadar",
-  "face": null,
-  "face_img": "https://api.hrt.hr/media/2f/89/polauto4-20261120091459.webp"
- },
- {
-  "title": "Osmero zadarskih boksača ide na pripreme reprezentacije, među njima i juniorska prvakinja Hrvatske!",
-  "link": "https://ezadar.net.hr/sport/3591651/osmero-zadarskih-boksaca-ide-na-pripreme-reprezentacije-medu-njima-i-juniorska-prvakinja-hrvatske/",
-  "date": "2026-11-20T09:09:17+00:00",
-  "summary": "Hrvatska boksačka reprezentacija kadeta (U-15) od danas, 20. studenoga, do nedjelje, 22. studenoga, boravit će na trodnevnim pripremama u Istri, nastavljajući intenzivan program rada i razvoja najmlađe nacionalne selekcije.",
-  "image": "https://cdn-ezadar.net.hr/wp-content/uploads/boks-reprezentacija-2-7ce9a5a0739f5a56f820f79f-scaled-63e5da19cf53eeaf0d057548-1052x696.jpg",
-  "source": "eZadar",
-  "topics": [
-   "Zadar",
-   "Sport"
-  ],
-  "source_url": "https://ezadar.net.hr/",
-  "face": [
-   9.1,
-   62.1,
-   14.8,
-   91.1
-  ],
-  "face_img": "https://cdn-ezadar.net.hr/wp-content/uploads/boks-reprezentacija-2-7ce9a5a0739f5a56f820f79f-scaled-63e5da19cf53eeaf0d057548-1052x696.jpg"
- },
- {
-  "title": "18. NOĆ KAZALIŠTA / U subotu u HNK Zadar “Feliks i Doris”",
-  "link": "https://www.znet.hr/2026/11/20/18-noc-kazalista-u-subotu-u-hnk-zadar-feliks-i-doris/",
-  "date": "2026-11-20T08:55:00+00:00",
-  "summary": "U subotu, 21. studenoga, HNK Zadar će se pridružiti 18. Noći kazališta, koja ove godine okuplja kazališta i druge sudionike u pedesetak gradova i mjesta diljem Hrvatske, na više od 80 lokacija. U HNK Zadar publiku očekuje predstava „Feliks i Doris”, autora Billa Manhoffa u režiji Roberta Boškovića.",
-  "image": "https://www.znet.hr/wp-content/uploads/2026/11/DSC_9140-1000x600.jpg",
-  "source": "Znet",
-  "topics": [
-   "Zadar"
-  ],
-  "source_url": "https://www.znet.hr/",
-  "face": [
-   14.7,
-   35.1,
-   40.4,
-   64.4
-  ],
-  "face_img": "https://www.znet.hr/wp-content/uploads/2026/11/DSC_9140-1000x600.jpg"
  },
  {
   "title": "Dječak teško opečen u požaru u Zadru izašao iz bolnice. Sestra otkrila kako je",
