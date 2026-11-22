@@ -37,30 +37,6 @@
  "flights": [
   {
    "dir": "dolazak",
-   "flight": "T7BSG",
-   "airline": "Nepoznati Prijevoznik",
-   "city": "Palma de Mallorca",
-   "via": "",
-   "time": "2026-11-22T14:00:00",
-   "est": "2026-11-22T14:00:00",
-   "act": "",
-   "status": "",
-   "gate": ""
-  },
-  {
-   "dir": "odlazak",
-   "flight": "T7BSG",
-   "airline": "Nepoznati Prijevoznik",
-   "city": "Pula",
-   "via": "",
-   "time": "2026-11-22T15:00:00",
-   "est": "2026-11-22T15:00:00",
-   "act": "",
-   "status": "",
-   "gate": ""
-  },
-  {
-   "dir": "dolazak",
    "flight": "OU634",
    "airline": "Croatia Airlines",
    "city": "Zagreb",
