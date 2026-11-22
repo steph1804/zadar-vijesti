@@ -468,8 +468,16 @@
  ],
  "videos": {
   "v": 2,
-  "fetched": "2026-11-22T21:03:27.412438+00:00",
+  "fetched": "2026-11-22T22:03:25.630212+00:00",
   "items": [
+   {
+    "id": "LK4a5Yhb0Pk",
+    "title": "Zadar novi šampion hrvatskog turizma",
+    "channel": "Hrvatska radiotelevizija",
+    "date": "2026-11-21T21:00:39+00:00",
+    "link": "https://www.youtube.com/watch?v=LK4a5Yhb0Pk",
+    "image": "https://i.ytimg.com/vi/LK4a5Yhb0Pk/mqdefault.jpg"
+   },
    {
     "id": "XJazM6Z9kbM",
     "title": "Zadar postao šampion hrvatskog turizma",
@@ -581,14 +589,6 @@
     "date": "2026-10-29T16:16:42+00:00",
     "link": "https://www.youtube.com/watch?v=4cToWBbnrr8",
     "image": "https://i.ytimg.com/vi/4cToWBbnrr8/mqdefault.jpg"
-   },
-   {
-    "id": "uUB0J2iVfa4",
-    "title": "Kadrovski slom u bolnici Zadar",
-    "channel": "HRT vijesti",
-    "date": "2026-10-25T18:54:59+00:00",
-    "link": "https://www.youtube.com/watch?v=uUB0J2iVfa4",
-    "image": "https://i.ytimg.com/vi/uUB0J2iVfa4/mqdefault.jpg"
    }
   ]
  }
