@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-22T20:15:47.286311+00:00",
+ "updated": "2026-11-22T20:31:08.088990+00:00",
  "sources": [
   {
    "name": "Antena Zadar",
@@ -101,12 +101,10 @@
   },
   {
    "name": "Sveučilište u Zadru",
-   "count": 0,
-   "ok": false,
+   "count": 8,
+   "ok": true,
    "feed": null,
-   "errors": [
-    "https://www.unizd.hr/obavijesti/novosti: The read operation timed out"
-   ]
+   "errors": []
   },
   {
    "name": "Čistoća Zadar",
@@ -194,8 +192,8 @@
   },
   {
    "name": "Telegram",
-   "count": 0,
-   "ok": false,
+   "count": 1,
+   "ok": true,
    "feed": null,
    "errors": []
   },
@@ -285,7 +283,7 @@
   },
   {
    "name": "Sportske novosti",
-   "count": 2,
+   "count": 1,
    "ok": true,
    "feed": null,
    "errors": []
