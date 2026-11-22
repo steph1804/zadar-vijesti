@@ -14,6 +14,40 @@
   "face_img": "https://api.hrt.hr/media/01/88/916897423-2305551446926631-5587217968355999925-n-20261122135114.webp"
  },
  {
+  "title": "Prometna nesreća kod Vodovoda: Vozilo sletjelo s ceste, na teren upućena hitna pomoć",
+  "link": "https://zadarskilist.novilist.hr/crna-kronika/prometna-nesreca-kod-vodovoda-vozilo-sletjelo-s-ceste-na-teren-upucena-hitna-pomoc/",
+  "date": "2026-11-22T14:05:44+00:00",
+  "summary": "Oko 15 sati dogodila se prometna nesreća u Ulici Put Vrela, na dionici od Vodovoda prema Maziji, gdje je jedno vozilo sletjelo s ceste. Kako su nam potvrdili iz Policijske uprave zadarske, dojavu o nesreći zaprimili su oko 15 sati, nakon čega je na mjesto događaja upućena hitna medicinske pomoći.",
+  "image": "https://zadarskilist.novilist.hr/wp-content/uploads/2026/10/IMG_6364.gif",
+  "source": "Zadarski list",
+  "topics": [
+   "Zadar"
+  ],
+  "source_url": "https://zadarskilist.novilist.hr/",
+  "face": null,
+  "face_img": "https://zadarskilist.novilist.hr/wp-content/uploads/2026/10/IMG_6364.gif"
+ },
+ {
+  "title": "Vrijedna pobjeda Donata: Zadranke porazile direktnog konkurenta za Ligu za prvaka",
+  "link": "https://ezadar.net.hr/sport/3591941/vrijedna-pobjeda-donata-zadranke-porazile-direktnog-konkurenta-za-ligu-za-prvaka/",
+  "date": "2026-11-22T14:03:55+00:00",
+  "summary": "U 13. kolu HNL za žene Donat je na Višnjiku porazio Međimurje rezultatom 3:1",
+  "image": "https://cdn-ezadar.net.hr/wp-content/uploads/znk-donat-znk-osijek-prva-liga-nogomet-26-10-2026-11-9938de6d683376ee2d64074d-1052x696.jpg",
+  "source": "eZadar",
+  "topics": [
+   "Zadar",
+   "Sport"
+  ],
+  "source_url": "https://ezadar.net.hr/",
+  "face": [
+   23.1,
+   37.6,
+   31.7,
+   54.6
+  ],
+  "face_img": "https://cdn-ezadar.net.hr/wp-content/uploads/znk-donat-znk-osijek-prva-liga-nogomet-26-10-2026-11-9938de6d683376ee2d64074d-1052x696.jpg"
+ },
+ {
   "title": "OPET POPLAVA! Između brda i mora: Zašto Novigrad kod Zadra redovito tone pod naletima bujica i ekstremnih plima?",
   "link": "https://www.morski.hr/opet-poplava-izmedu-brda-i-mora-zasto-novigrad-kod-zadra-redovito-tone-pod-naletima-bujica-i-ekstremnih-plima/",
   "date": "2026-11-22T13:57:21+00:00",
@@ -508,14 +542,14 @@
   "link": "https://www.jutarnji.hr/vijesti/hrvatska/zaduzuju-se-hrvatske-ceste-planiraju-kapitalne-projekte-vrijedne-milijune-eura-15767646",
   "date": "2026-11-22T08:31:02+00:00",
   "summary": "Uz suglasnost Vlade kod banaka će se zadužiti Grad Senj, općine Radoboj, Davor te Sveti Filip i Jakov, kao i Hrvatske ceste kako bi financirali svoje kapitalne projekte poput izgradnje centra za starije osobe, projekata komunalne i prometne infrastrukture te investicija u državne ceste. Vlada je dal...",
-  "image": "https://media.jutarnji.hr/images/slike/2026/11/22/f_38448390_1280.jpg?1795356463",
+  "image": "https://media.jutarnji.hr/images/slike/2026/11/22/f_38448390_1280.jpg?1795357759",
   "source": "Jutarnji list",
   "topics": [
    "Županija"
   ],
   "source_url": "https://www.jutarnji.hr/",
   "face": null,
-  "face_img": "https://media.jutarnji.hr/images/slike/2026/11/22/f_38448390_1280.jpg?1795356463"
+  "face_img": "https://media.jutarnji.hr/images/slike/2026/11/22/f_38448390_1280.jpg?1795357759"
  },
  {
   "title": "Austrijanci službeno potvrdili dolazak mladog zadarskog košarkaša",
@@ -868,7 +902,7 @@
   "link": "https://www.jutarnji.hr/sportske/kosarka/aba-liga/vukovi-u-pakao-pionira-zvezdu-su-u-posljednjih-12-godina-pobijedili-u-samo-jednoj-od-22-utakmice-15767622",
   "date": "2026-11-22T06:20:28+00:00",
   "summary": "U glavnom gradu Srbije, odnosno u neslužbenom središtu rumunjske pokrajine Transilvanije, košarkaši Cibone i Zadra će u nedjelju od ranog poslijepodneva - susret u Beogradu na rasporedu je u 13 sati, onaj u Cluju od 16.30 - odrađivati teške ispite na zahtjevnim regionalnim gostovanjima... Tako nam n...",
-  "image": "https://media.jutarnji.hr/images/slike/2026/11/21/f_39090607_1280.jpg?1795356953",
+  "image": "https://media.jutarnji.hr/images/slike/2026/11/21/f_39090607_1280.jpg?1795357807",
   "source": "Sportske novosti",
   "source_topic": "Sport",
   "topics": [
@@ -882,7 +916,7 @@
    52.6,
    87.4
   ],
-  "face_img": "https://media.jutarnji.hr/images/slike/2026/11/21/f_39090607_1280.jpg?1795356953"
+  "face_img": "https://media.jutarnji.hr/images/slike/2026/11/21/f_39090607_1280.jpg?1795357807"
  },
  {
   "title": "RIJEKA / Plivači zadarske Jadere nastupili na Torpedo Cupu 2026.",
@@ -5065,45 +5099,6 @@
   "source_url": "https://www.znet.hr/",
   "face": null,
   "face_img": "https://www.znet.hr/wp-content/uploads/2026/11/pozivnica-20-godina-2-1000x600.jpg"
- },
- {
-  "title": "Kadeti Zadra nakon penala srušili Šibenik i izborili finale Kupa Dalmacije, juniori ispali na isti način",
-  "link": "https://ezadar.net.hr/sport/3591638/kadeti-zadra-nakon-penala-srusili-sibenik-i-izborili-finale-kupa-dalmacije-juniori-ispali-na-isti-nacin/",
-  "date": "2026-11-20T07:00:00+00:00",
-  "summary": "Kadeti i juniori Zadra odigrali su utakmice polufinala Kupa Dalmacije",
-  "image": "https://cdn-ezadar.net.hr/wp-content/uploads/913265522_122119472769407468_6588053778452283720_n-92cd4478c6e0f2a5a957cebe-1052x696.jpg",
-  "source": "eZadar",
-  "topics": [
-   "Zadar",
-   "Sport"
-  ],
-  "source_url": "https://ezadar.net.hr/",
-  "face": [
-   17.6,
-   35.8,
-   40.6,
-   60.1
-  ],
-  "face_img": "https://cdn-ezadar.net.hr/wp-content/uploads/913265522_122119472769407468_6588053778452283720_n-92cd4478c6e0f2a5a957cebe-1052x696.jpg"
- },
- {
-  "title": "KINO ZONA / Večeras domaći film „Među nama“ i meta dokumentarac „Možeš vidjeti sve“",
-  "link": "https://www.znet.hr/2026/11/20/kino-zona-veceras-domaci-film-medu-nama-i-meta-dokumentarac-mozes-vidjeti-sve/",
-  "date": "2026-11-20T06:53:35+00:00",
-  "summary": "Dugometražni prvijenac „Među nama“ redateljice Laure Pascu svjetsku je premijeru imao ovoga ljeta na Pulskom filmskom festivalu, a sada ga napokon možete pogledati i u Zadru, u Polivaltentnoj dvorani Providurove palače od 18 h.",
-  "image": "https://www.znet.hr/wp-content/uploads/2026/11/Mozes-vidjeti-sve-2-1000x600.jpg",
-  "source": "Znet",
-  "topics": [
-   "Zadar"
-  ],
-  "source_url": "https://www.znet.hr/",
-  "face": [
-   0.0,
-   93.3,
-   44.0,
-   78.4
-  ],
-  "face_img": "https://www.znet.hr/wp-content/uploads/2026/11/Mozes-vidjeti-sve-2-1000x600.jpg"
  },
  {
   "title": "Falkensteiner u domaći turizam ulaže do 300 milijuna eura, najviše u Punta Skalu i Zadar",
