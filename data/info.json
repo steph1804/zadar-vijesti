@@ -1,12 +1,6 @@
 {
  "Jadrolinija": [
   {
-   "title": "Linije u prekidu 22.11.2026.",
-   "link": "https://www.jadrolinija.hr/news-single/linije-u-prekidu-22112026",
-   "date": "2026-11-22T08:55:00+00:00",
-   "summary": "Red plovidbe u nedjelju, 22.11.2026"
-  },
-  {
    "title": "Linije u prekidu 23.11.2026.",
    "link": "https://www.jadrolinija.hr/news-single/linije-u-prekidu-23112026",
    "date": "2026-11-22T09:02:00+00:00",
@@ -42,42 +36,6 @@
  ],
  "flights": [
   {
-   "dir": "dolazak",
-   "flight": "OU634",
-   "airline": "Croatia Airlines",
-   "city": "Zagreb",
-   "via": "Pula",
-   "time": "2026-11-22T15:50:00",
-   "est": "2026-11-22T15:50:00",
-   "act": "2026-11-22T15:49:00",
-   "status": "Landed",
-   "gate": ""
-  },
-  {
-   "dir": "odlazak",
-   "flight": "OU634",
-   "airline": "Croatia Airlines",
-   "city": "Zagreb",
-   "via": "",
-   "time": "2026-11-22T16:20:00",
-   "est": "2026-11-22T16:20:00",
-   "act": "2026-11-22T16:20:00",
-   "status": "Departed",
-   "gate": "05"
-  },
-  {
-   "dir": "dolazak",
-   "flight": "OU675",
-   "airline": "Croatia Airlines",
-   "city": "Zagreb",
-   "via": "Pula",
-   "time": "2026-11-22T23:00:00",
-   "est": "2026-11-22T22:35:00",
-   "act": "2026-11-22T22:40:00",
-   "status": "Landed",
-   "gate": ""
-  },
-  {
    "dir": "odlazak",
    "flight": "OU4674",
    "airline": "Croatia Airlines",
@@ -112,17 +70,33 @@
    "act": "",
    "status": "",
    "gate": ""
+  },
+  {
+   "dir": "dolazak",
+   "flight": "OU674",
+   "airline": "Croatia Airlines",
+   "city": "Zagreb",
+   "via": "",
+   "time": "2026-11-24T14:55:00",
+   "est": "2026-11-24T14:55:00",
+   "act": "",
+   "status": "",
+   "gate": ""
+  },
+  {
+   "dir": "odlazak",
+   "flight": "OU674",
+   "airline": "Croatia Airlines",
+   "city": "Zagreb",
+   "via": "Pula",
+   "time": "2026-11-24T15:20:00",
+   "est": "2026-11-24T15:20:00",
+   "act": "",
+   "status": "",
+   "gate": ""
   }
  ],
  "power": [
-  {
-   "day": "22.11.2026",
-   "place": "Zadar",
-   "street": "",
-   "note": "dio ulica: Mostarska, Ugljanska i Put Murvice",
-   "time": "20:00 - 21:30",
-   "unplanned": true
-  },
   {
    "day": "23.11.2026",
    "place": "Briševo",
@@ -161,6 +135,46 @@
    "street": "predjeli Šarlije, Zelenikovac, Vučipolje i centar mjesta",
    "note": "",
    "time": "08:30 - 13:30",
+   "unplanned": false
+  },
+  {
+   "day": "24.11.2026",
+   "place": "Jasnice",
+   "street": "predjeli Šarlije, Zelenikovac, Vučipolje i centar mjesta",
+   "note": "",
+   "time": "08:30 - 13:30",
+   "unplanned": false
+  },
+  {
+   "day": "24.11.2026",
+   "place": "Zadar",
+   "street": "Od Gaženičke ulice do rotora na Gaženičkoj cesti",
+   "note": "",
+   "time": "08:30 - 13:00",
+   "unplanned": false
+  },
+  {
+   "day": "24.11.2026",
+   "place": "Prkos",
+   "street": "predio Gravići",
+   "note": "",
+   "time": "08:30 - 12:00",
+   "unplanned": false
+  },
+  {
+   "day": "24.11.2026",
+   "place": "Vir",
+   "street": "Put škole",
+   "note": "",
+   "time": "12:00 - 14:00",
+   "unplanned": false
+  },
+  {
+   "day": "24.11.2026",
+   "place": "Vir",
+   "street": "Srid Kućica 18",
+   "note": "Povremeni prekidi",
+   "time": "08:00 - 12:00",
    "unplanned": false
   }
  ],
@@ -468,7 +482,7 @@
  ],
  "videos": {
   "v": 2,
-  "fetched": "2026-11-22T22:03:25.630212+00:00",
+  "fetched": "2026-11-22T23:03:29.305643+00:00",
   "items": [
    {
     "id": "LK4a5Yhb0Pk",
