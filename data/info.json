@@ -116,6 +116,14 @@
  ],
  "power": [
   {
+   "day": "22.11.2026",
+   "place": "Zadar",
+   "street": "",
+   "note": "dio ulica: Mostarska, Ugljanska i Put Murvice",
+   "time": "20:00 - 21:30",
+   "unplanned": true
+  },
+  {
    "day": "23.11.2026",
    "place": "Briševo",
    "street": "dio mjesta prema Donjoj Murvici",
