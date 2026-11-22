@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-22T16:45:39.401841+00:00",
+ "updated": "2026-11-22T17:01:24.187281+00:00",
  "sources": [
   {
    "name": "Antena Zadar",
@@ -255,12 +255,10 @@
   },
   {
    "name": "Dalmacija News",
-   "count": 0,
-   "ok": false,
+   "count": 5,
+   "ok": true,
    "feed": null,
-   "errors": [
-    "https://www.dalmacijanews.hr/?s=zadar&feed=rss2: HTTP Error 502: Bad Gateway"
-   ]
+   "errors": []
   },
   {
    "name": "Nacional",
