@@ -1,5 +1,19 @@
 [
  {
+  "title": "Panoramski kotač na rivi već \"zavrtio\" Zadrane na društvenim mrežama",
+  "link": "https://radio.hrt.hr/radio-zadar/vijesti/panoramski-kotac-na-rivi-vec-je-zavrtio-gradane-na-drustvenim-mrezama-13022726",
+  "date": "2026-11-22T14:08:57+00:00",
+  "summary": "Kao što je već poznato, Advent u Zadru donosi veliku blagdansku atrakciju – panoramski kotač koji je smješten na samoj rivi, u neposrednoj blizini Morskih orgulja i Pozdrava Suncu.&nbsp;",
+  "image": "https://api.hrt.hr/media/01/88/916897423-2305551446926631-5587217968355999925-n-20261122135114.webp",
+  "source": "HRT Radio Zadar",
+  "topics": [
+   "Zadar"
+  ],
+  "source_url": "https://radio.hrt.hr/radio-zadar",
+  "face": null,
+  "face_img": "https://api.hrt.hr/media/01/88/916897423-2305551446926631-5587217968355999925-n-20261122135114.webp"
+ },
+ {
   "title": "OPET POPLAVA! Između brda i mora: Zašto Novigrad kod Zadra redovito tone pod naletima bujica i ekstremnih plima?",
   "link": "https://www.morski.hr/opet-poplava-izmedu-brda-i-mora-zasto-novigrad-kod-zadra-redovito-tone-pod-naletima-bujica-i-ekstremnih-plima/",
   "date": "2026-11-22T13:57:21+00:00",
@@ -19,14 +33,16 @@
   "link": "https://sport023.hr/2026/11/22/znk-donat-medjimurje/",
   "date": "2026-11-22T13:50:05+00:00",
   "summary": "U 13. kolu 1. HNLŽ nogometašice Donata ostvarile su veliku pobjedu na domaćem terenu protiv Međimurja, nakon koje su zasjele... Objava SJAJNA PREDSTAVA ZADRANKI 17-godišnja Tea Blaić povukla Donat do četvrtog mjesta 1.",
-  "image": null,
+  "image": "https://sport023.hr/wp-content/uploads/2026/11/znk-donat-medjimurje-22-11-26.jpg",
   "source": "Sport023",
   "source_topic": "Sport",
   "topics": [
    "Zadar",
    "Sport"
   ],
-  "source_url": "https://sport023.hr/"
+  "source_url": "https://sport023.hr/",
+  "face": null,
+  "face_img": "https://sport023.hr/wp-content/uploads/2026/11/znk-donat-medjimurje-22-11-26.jpg"
  },
  {
   "title": "SERIJSKI PROVALNIK Uhićen 36-godišnjak osumnjičen za 16 kaznenih djela!",
@@ -492,14 +508,14 @@
   "link": "https://www.jutarnji.hr/vijesti/hrvatska/zaduzuju-se-hrvatske-ceste-planiraju-kapitalne-projekte-vrijedne-milijune-eura-15767646",
   "date": "2026-11-22T08:31:02+00:00",
   "summary": "Uz suglasnost Vlade kod banaka će se zadužiti Grad Senj, općine Radoboj, Davor te Sveti Filip i Jakov, kao i Hrvatske ceste kako bi financirali svoje kapitalne projekte poput izgradnje centra za starije osobe, projekata komunalne i prometne infrastrukture te investicija u državne ceste. Vlada je dal...",
-  "image": "https://media.jutarnji.hr/images/slike/2026/11/22/f_38448390_1280.jpg?1795355945",
+  "image": "https://media.jutarnji.hr/images/slike/2026/11/22/f_38448390_1280.jpg?1795356463",
   "source": "Jutarnji list",
   "topics": [
    "Županija"
   ],
   "source_url": "https://www.jutarnji.hr/",
   "face": null,
-  "face_img": "https://media.jutarnji.hr/images/slike/2026/11/22/f_38448390_1280.jpg?1795355945"
+  "face_img": "https://media.jutarnji.hr/images/slike/2026/11/22/f_38448390_1280.jpg?1795356463"
  },
  {
   "title": "Austrijanci službeno potvrdili dolazak mladog zadarskog košarkaša",
@@ -852,7 +868,7 @@
   "link": "https://www.jutarnji.hr/sportske/kosarka/aba-liga/vukovi-u-pakao-pionira-zvezdu-su-u-posljednjih-12-godina-pobijedili-u-samo-jednoj-od-22-utakmice-15767622",
   "date": "2026-11-22T06:20:28+00:00",
   "summary": "U glavnom gradu Srbije, odnosno u neslužbenom središtu rumunjske pokrajine Transilvanije, košarkaši Cibone i Zadra će u nedjelju od ranog poslijepodneva - susret u Beogradu na rasporedu je u 13 sati, onaj u Cluju od 16.30 - odrađivati teške ispite na zahtjevnim regionalnim gostovanjima... Tako nam n...",
-  "image": "https://media.jutarnji.hr/images/slike/2026/11/21/f_39090607_1280.jpg?1795354849",
+  "image": "https://media.jutarnji.hr/images/slike/2026/11/21/f_39090607_1280.jpg?1795356953",
   "source": "Sportske novosti",
   "source_topic": "Sport",
   "topics": [
@@ -866,7 +882,7 @@
    52.6,
    87.4
   ],
-  "face_img": "https://media.jutarnji.hr/images/slike/2026/11/21/f_39090607_1280.jpg?1795354849"
+  "face_img": "https://media.jutarnji.hr/images/slike/2026/11/21/f_39090607_1280.jpg?1795356953"
  },
  {
   "title": "RIJEKA / Plivači zadarske Jadere nastupili na Torpedo Cupu 2026.",
@@ -5088,21 +5104,6 @@
    78.4
   ],
   "face_img": "https://www.znet.hr/wp-content/uploads/2026/11/Mozes-vidjeti-sve-2-1000x600.jpg"
- },
- {
-  "title": "BELAFUŽA / Obilježavanje prve godišnjice Trajnog euharistijskog klanjanja u Zadarskoj nadbiskupiji",
-  "link": "https://www.znet.hr/2026/11/20/belafuza-obiljezavanje-prve-godisnjice-trajnog-euharistijskog-klanjanja-u-zadarskoj-nadbiskupiji/",
-  "date": "2026-11-20T06:49:06+00:00",
-  "summary": "Prva godišnjica Trajnog euharistijskog klanjanja (TEK) u Zadarskoj nadbiskupiji će se obilježiti u subotu, 21. studenog, u župnoj crkvi Uznesenja BDM na Belafuži u Zadru, susretom članova TEK-a iz Zadarske nadbiskupije. Prigodni duhovni nagovor s početkom u 17 sati će održati fra Pavle Ivić.",
-  "image": "https://www.znet.hr/wp-content/uploads/2026/11/TEK-1.-godisnjica-1000x600.jpg",
-  "source": "Znet",
-  "topics": [
-   "Zadar",
-   "Županija"
-  ],
-  "source_url": "https://www.znet.hr/",
-  "face": null,
-  "face_img": "https://www.znet.hr/wp-content/uploads/2026/11/TEK-1.-godisnjica-1000x600.jpg"
  },
  {
   "title": "Falkensteiner u domaći turizam ulaže do 300 milijuna eura, najviše u Punta Skalu i Zadar",
