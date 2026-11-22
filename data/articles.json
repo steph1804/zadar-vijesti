@@ -29,21 +29,7 @@
   "face_img": "https://net.hr/media/2026/11/22/1640251/H-d47acb33-daa2-4f94-a0dd-6382b114d8e5-1200.webp"
  },
  {
-  "title": "Nepalac nožem izbo cimera u kući",
-  "link": "https://www.tportal.hr/vijesti/clanak/nepalac-nozem-izbo-cimera-u-kuci-20261122",
-  "date": "2026-11-22T22:08:00+00:00",
-  "summary": "Državljanin Nepala osumnjičen je da je u nedjelju navečer nožem ozlijedio cimera u privatnoj kući u gradu Pagu.",
-  "image": "https://www.tportal.hr/media/thumbnail/500x300/2831550.jpeg?cropId=0",
-  "source": "tportal",
-  "topics": [
-   "Otoci"
-  ],
-  "source_url": "https://www.tportal.hr/",
-  "face": null,
-  "face_img": "https://www.tportal.hr/media/thumbnail/500x300/2831550.jpeg?cropId=0"
- },
- {
-  "title": "Nepalac nožem ozlijedio cimera na Pagu: Muškarac s dvije ubodne rane prevezen u bolnicu",
+  "title": "Nepalac nožem izbo cimera na Pagu, muškarac prevezen u bolnicu",
   "link": "https://www.vecernji.hr/vijesti/nepalac-nozem-ozlijedio-cimera-na-pagu-muskarac-s-dvije-ubodne-rane-prevezen-u-bolnicu-2015919",
   "date": "2026-11-22T22:01:00+00:00",
   "summary": "Incident se dogodio u privatnoj kući oko 19.39 sati",
@@ -69,6 +55,20 @@
   "source_url": "https://www.index.hr/",
   "face": null,
   "face_img": "https://ip.index.hr/remote/bucket.index.hr/b/index/24b0c35c-93d1-4ec6-82b2-ad0685d89e5e.jpg?fb_wtrmrk=vijesti.jpg&width=1200&height=630&mode=crop&format=png"
+ },
+ {
+  "title": "Nepalac nožem izbo cimera u kući",
+  "link": "https://www.tportal.hr/vijesti/clanak/nepalac-nozem-izbo-cimera-u-kuci-20261122",
+  "date": "2026-11-22T21:52:00+00:00",
+  "summary": "Državljanin Nepala osumnjičen je da je u nedjelju navečer nožem ozlijedio cimera u privatnoj kući u gradu Pagu.",
+  "image": "https://www.tportal.hr/media/thumbnail/500x300/2831550.jpeg?cropId=0",
+  "source": "tportal",
+  "topics": [
+   "Otoci"
+  ],
+  "source_url": "https://www.tportal.hr/",
+  "face": null,
+  "face_img": "https://www.tportal.hr/media/thumbnail/500x300/2831550.jpeg?cropId=0"
  },
  {
   "title": "Nepalac nožem izbo cimera na Pagu",
