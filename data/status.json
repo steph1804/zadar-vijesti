@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-22T14:32:51.704807+00:00",
+ "updated": "2026-11-22T14:45:45.029340+00:00",
  "sources": [
   {
    "name": "Antena Zadar",
@@ -45,7 +45,7 @@
   },
   {
    "name": "023 portal",
-   "count": 6,
+   "count": 5,
    "ok": true,
    "feed": null,
    "errors": []
