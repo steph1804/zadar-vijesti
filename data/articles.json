@@ -1,5 +1,61 @@
 [
  {
+  "title": "Strava na Pagu: Nepalac nožem izbo cimera, prevezen je u bolnicu",
+  "link": "https://net.hr/danas/vijesti/nepalac-nozem-izbo-cimera-na-pagu-fdb21566-e6c0-11f1-96ed-9600040c8f8e",
+  "date": "2026-11-22T22:08:50+00:00",
+  "summary": "Obojica su u Hrvatskoj radili na građevini",
+  "image": "https://net.hr/media/2026/11/22/1640251/H-d47acb33-daa2-4f94-a0dd-6382b114d8e5-1200.webp",
+  "source": "Net.hr",
+  "topics": [
+   "Otoci"
+  ],
+  "source_url": "https://net.hr/",
+  "face": null,
+  "face_img": "https://net.hr/media/2026/11/22/1640251/H-d47acb33-daa2-4f94-a0dd-6382b114d8e5-1200.webp"
+ },
+ {
+  "title": "Nepalac nožem izbo cimera u kući",
+  "link": "https://www.tportal.hr/vijesti/clanak/nepalac-nozem-izbo-cimera-u-kuci-20261122",
+  "date": "2026-11-22T22:08:00+00:00",
+  "summary": "Državljanin Nepala osumnjičen je da je u nedjelju navečer nožem ozlijedio cimera u privatnoj kući u gradu Pagu.",
+  "image": "https://www.tportal.hr/media/thumbnail/500x300/2831550.jpeg?cropId=0",
+  "source": "tportal",
+  "topics": [
+   "Otoci"
+  ],
+  "source_url": "https://www.tportal.hr/",
+  "face": null,
+  "face_img": "https://www.tportal.hr/media/thumbnail/500x300/2831550.jpeg?cropId=0"
+ },
+ {
+  "title": "Nepalac nožem ozlijedio cimera na Pagu: Muškarac s dvije ubodne rane prevezen u bolnicu",
+  "link": "https://www.vecernji.hr/vijesti/nepalac-nozem-ozlijedio-cimera-na-pagu-muskarac-s-dvije-ubodne-rane-prevezen-u-bolnicu-2015919",
+  "date": "2026-11-22T22:01:00+00:00",
+  "summary": "Incident se dogodio u privatnoj kući oko 19.39 sati",
+  "image": "https://www.vecernji.hr/media/img/14/60/05ad12d7501688bdae5a.jpeg",
+  "source": "Večernji list",
+  "topics": [
+   "Otoci"
+  ],
+  "source_url": "https://www.vecernji.hr/",
+  "face": null,
+  "face_img": "https://www.vecernji.hr/media/img/14/60/05ad12d7501688bdae5a.jpeg"
+ },
+ {
+  "title": "Nepalac na Pagu izbo cimera",
+  "link": "https://www.index.hr/vijesti/clanak/nepalac-na-pagu-izbo-cimera/2859671.aspx",
+  "date": "2026-11-22T21:54:00+00:00",
+  "summary": "DRŽAVLJANIN Nepala na Pagu nožem je napao i ozlijedio cimera.",
+  "image": "https://ip.index.hr/remote/bucket.index.hr/b/index/24b0c35c-93d1-4ec6-82b2-ad0685d89e5e.jpg?fb_wtrmrk=vijesti.jpg&width=1200&height=630&mode=crop&format=png",
+  "source": "Index.hr",
+  "topics": [
+   "Otoci"
+  ],
+  "source_url": "https://www.index.hr/",
+  "face": null,
+  "face_img": "https://ip.index.hr/remote/bucket.index.hr/b/index/24b0c35c-93d1-4ec6-82b2-ad0685d89e5e.jpg?fb_wtrmrk=vijesti.jpg&width=1200&height=630&mode=crop&format=png"
+ },
+ {
   "title": "Nepalac nožem izbo cimera na Pagu",
   "link": "https://zadarskilist.novilist.hr/crna-kronika/nepalac-nozem-izbo-cimera-na-pagu/",
   "date": "2026-11-22T21:37:02+00:00",
@@ -368,7 +424,7 @@
   "link": "https://www.jutarnji.hr/sportske/kosarka/aba-liga/zadar-je-za-prvu-gostujucu-pobjedu-morao-prevaliti-preko-tisucu-kilometara-do-rumunjske-15767791",
   "date": "2026-11-22T17:32:55+00:00",
   "summary": "CLUJ - ZADAR 75:81 (15:24, 19:16, 14:21, 27:20) CLUJ - BT Arena. Gledatelja 2000. Suci: Senkesen, Šešević i Gacik.",
-  "image": "https://media.jutarnji.hr/images/slike/2026/11/22/f_40014711_1280.jpg?1795384397",
+  "image": "https://media.jutarnji.hr/images/slike/2026/11/22/f_40014711_1280.jpg?1795385727",
   "source": "Sportske novosti",
   "source_topic": "Sport",
   "topics": [
@@ -382,7 +438,7 @@
    36.4,
    41.5
   ],
-  "face_img": "https://media.jutarnji.hr/images/slike/2026/11/22/f_40014711_1280.jpg?1795384397"
+  "face_img": "https://media.jutarnji.hr/images/slike/2026/11/22/f_40014711_1280.jpg?1795385727"
  },
  {
   "title": "EKSPLOZIJA ZADRA U RUMUNJSKOJ Prva gostujuća pobjeda – Modrićevi junaci utišali Cluj i srušili Eurokup momčad!",
@@ -5066,79 +5122,6 @@
   "source_url": "https://www.antenazadar.hr/",
   "face": null,
   "face_img": "https://www.antenazadar.hr/wp-content/uploads/2026/11/800_7271.jpg"
- },
- {
-  "title": "Rješavaju se prometna uska grla u Zadarskoj županiji, uskoro kreću radovi. Ulaže se gotovo 5 milijuna €, ovo su lokacije",
-  "link": "https://slobodnadalmacija.hr/dalmacija/s-mora-i-kraja/rjesavaju-se-prometna-uska-grla-u-zadarskoj-zupaniji-uskoro-krecu-radovi-ulaze-se-gotovo-5-milijuna-ovo-su-lokacije-1591407",
-  "date": "2026-11-20T10:03:00+00:00",
-  "summary": "U Zadarskoj županiji uskoro kreće realizacija niza građevinskih zahvata kojima će se riješiti problematične točke na lokalnoj prometnoj mreži. Gotovo 4,9 milijuna eura uložit će se u uklanjanje četiriju prometnih uskih grla, a postupak odabira izvođača radova u završnoj je fazi. Potpredsjednik Vlade...",
-  "image": "https://static.slobodnadalmacija.hr/images/slike/2026/11/20/32893406.jpg",
-  "source": "Slobodna Dalmacija/Zadar",
-  "topics": [
-   "Zadar",
-   "Županija"
-  ],
-  "source_url": "https://slobodnadalmacija.hr/dalmacija/zadar",
-  "face": null,
-  "face_img": "https://static.slobodnadalmacija.hr/images/slike/2026/11/20/32893406.jpg"
- },
- {
-  "title": "Koliki dio plaće odlazi na ratu za stan? Zadarska županija u među najnepriuštivijima u Hrvatskoj",
-  "link": "https://zadarskilist.novilist.hr/zadar-zupanija/zupanija/koliki-dio-place-odlazi-na-ratu-za-stan-zadarska-zupanija-u-medu-najnepriustivijima-u-hrvatskoj/",
-  "date": "2026-11-20T10:00:21+00:00",
-  "summary": "​Nepriuštive cijene nekretnina u Hrvatskoj stalna su tema rasprave, a novi izračun pokazuje kako bi kupac s prosječnom neto plaćom za kredit stana od 60 kvadrata mjesečno izdvajao 664 eura, odnosno 42,8 posto plaće.",
-  "image": "https://zadarskilist.novilist.hr/wp-content/uploads/2026/11/stanovi_hrvatska.jpg",
-  "source": "Zadarski list",
-  "topics": [
-   "Zadar",
-   "Županija"
-  ],
-  "source_url": "https://zadarskilist.novilist.hr/",
-  "face": null,
-  "face_img": "https://zadarskilist.novilist.hr/wp-content/uploads/2026/11/stanovi_hrvatska.jpg"
- },
- {
-  "title": "Muzej antičkog stakla otvara obljetničku izložbu, ulaz je besplatan!",
-  "link": "https://ezadar.net.hr/kultura/3591664/muzej-antickog-stakla-otvara-obljetnicku-izlozbu-ulaz-je-besplatan/",
-  "date": "2026-11-20T09:55:49+00:00",
-  "summary": "Muzej antičkog stakla u Zadru u utorak, 24. studenoga 2026. godine, u 12 sati otvara obljetničku izložbu „20 godina restauratorske radionice MAS-a“. Izložba se otvara u sklopu obilježavanja Dana grada",
-  "image": "https://cdn-ezadar.net.hr/wp-content/uploads/plakat-izlozbe-47d6d65e839f47f8db38a857-scaled-e1795168466350-1052x696.png",
-  "source": "eZadar",
-  "topics": [
-   "Zadar"
-  ],
-  "source_url": "https://ezadar.net.hr/",
-  "face": null,
-  "face_img": "https://cdn-ezadar.net.hr/wp-content/uploads/plakat-izlozbe-47d6d65e839f47f8db38a857-scaled-e1795168466350-1052x696.png"
- },
- {
-  "title": "Rata za prosječan stan u Zadarskoj županiji uzima 45,1% plaće, lošije stoje samo četiri županije u Hrvatskoj",
-  "link": "https://023.hr/2026/11/rata-za-prosjecan-stan-u-zadarskoj-zupaniji-uzima-451-place-losije-stoje-samo-cetiri-zupanije-u-hrvatskoj/",
-  "date": "2026-11-20T09:52:26+00:00",
-  "summary": "Zadarska županija peta je najnedostupnija u Hrvatskoj kad se cijene stanova usporede s plaćama. Na ratu stambenog kredita ondje bi odlazilo 45,1% prosječne neto plaće. Lošije stoje samo Splitsko-dalmatinska, Istarska, Dubrovačko-neretvanska i Primorsko-goranska županija.",
-  "image": "https://023.hr/wp-content/uploads/2026/09/20260930082011_406271.avif",
-  "source": "023 portal",
-  "topics": [
-   "Zadar",
-   "Županija"
-  ],
-  "source_url": "https://023.hr/",
-  "face": null,
-  "face_img": "https://023.hr/wp-content/uploads/2026/09/20260930082011_406271.avif"
- },
- {
-  "title": "Dječak teško opečen u požaru u Zadru izašao iz bolnice. Sestra otkrila kako je",
-  "link": "https://www.index.hr/vijesti/clanak/djecak-tesko-opecen-u-pozaru-u-zadru-izasao-iz-bolnice-sestra-otkrila-kako-je/2858872.aspx",
-  "date": "2026-11-20T07:39:00+00:00",
-  "summary": "DJEČAK teško ozlijeđen u požaru u Zadru napustio je bolnicu i uspješno se oporavlja u Zagrebu, dok je njegova majka još uvijek u istražnom zatvoru.",
-  "image": "https://ip.index.hr/remote/bucket.index.hr/b/index/3d3fa27d-8664-48b8-8a5f-e4f5847fad38.jpg?fb_wtrmrk=vijesti.jpg&width=1200&height=630&mode=crop&format=png",
-  "source": "Index.hr",
-  "topics": [
-   "Zadar"
-  ],
-  "source_url": "https://www.index.hr/",
-  "face": null,
-  "face_img": "https://ip.index.hr/remote/bucket.index.hr/b/index/3d3fa27d-8664-48b8-8a5f-e4f5847fad38.jpg?fb_wtrmrk=vijesti.jpg&width=1200&height=630&mode=crop&format=png"
  },
  {
   "title": "VIKEND NA VIŠNJIKU –  Košarka, nogomet, odbojka…",
