@@ -139,11 +139,11 @@
   },
   {
    "day": "24.11.2026",
-   "place": "Petrčane",
-   "street": "",
-   "note": "Punta Radman 23 i 24 ulica",
-   "time": "08:00 - 12:00",
-   "unplanned": true
+   "place": "Jasnice",
+   "street": "predjeli Šarlije, Zelenikovac, Vučipolje i centar mjesta",
+   "note": "",
+   "time": "08:30 - 13:30",
+   "unplanned": false
   },
   {
    "day": "24.11.2026",
@@ -164,14 +164,6 @@
   {
    "day": "24.11.2026",
    "place": "Vir",
-   "street": "Srid Kućica 18",
-   "note": "Povremeni prekidi",
-   "time": "08:00 - 12:00",
-   "unplanned": false
-  },
-  {
-   "day": "24.11.2026",
-   "place": "Vir",
    "street": "Put škole",
    "note": "",
    "time": "12:00 - 14:00",
@@ -179,10 +171,10 @@
   },
   {
    "day": "24.11.2026",
-   "place": "Jasnice",
-   "street": "predjeli Šarlije, Zelenikovac, Vučipolje i centar mjesta",
-   "note": "",
-   "time": "08:30 - 13:30",
+   "place": "Vir",
+   "street": "Srid Kućica 18",
+   "note": "Povremeni prekidi",
+   "time": "08:00 - 12:00",
    "unplanned": false
   }
  ],
