@@ -55,6 +55,26 @@
   "face_img": "https://www.vecernji.hr/media/img/18/43/c1710fb85d13103785a7.jpeg"
  },
  {
+  "title": "Novi detalji krvavog napada na Pagu; 24-godišnji Indijac uboden je nožem u srce, napado ga je cimer Nepalac",
+  "link": "https://slobodnadalmacija.hr/dalmacija/s-mora-i-kraja/novi-detalji-krvavog-napada-na-pagu-24-godisnji-indijac-uboden-je-nozem-u-srce-napado-ga-je-cimer-nepalac-1591831",
+  "date": "2026-11-23T09:08:00+00:00",
+  "summary": "Jučer, 22. studenog policija je zaprimila dojavu da je oko 19.30 sati u kući u Pagu muškarac oštrim predmetom ozlijedio 24-godišnjeg državljanina Indije. Muškarac je 24-godišnjaku zadao mu dvije ubodne rane od kojih se jedna nalazila u području srca. Mladić je hitno prevezen u Opću bolnicu Zadar, gd...",
+  "image": "https://static.slobodnadalmacija.hr/images/slike/2026/11/23/32912380.jpg",
+  "source": "Slobodna Dalmacija/Zadar",
+  "topics": [
+   "Zadar",
+   "Otoci"
+  ],
+  "source_url": "https://slobodnadalmacija.hr/dalmacija/zadar",
+  "face": [
+   12.3,
+   24.0,
+   40.4,
+   45.3
+  ],
+  "face_img": "https://static.slobodnadalmacija.hr/images/slike/2026/11/23/32912380.jpg"
+ },
+ {
   "title": "SV. KRŠEVAN Najave misnih slavlja",
   "link": "https://www.antenazadar.hr/clanak/2026/11/sv-krsevan-najave-misnih-slavlja/",
   "date": "2026-11-23T09:02:45+00:00",
@@ -122,6 +142,59 @@
   "source_url": "https://www.grad-zadar.hr/",
   "face": null,
   "face_img": "https://www.grad-zadar.hr/data/images/image/grad550x325/35665/SIZ_6923%255B1%255D.jpg"
+ },
+ {
+  "title": "Radionice, podcast, predavanja…Što donosi tjedan u Gradskoj knjižnici Zadar?",
+  "link": "https://ezadar.net.hr/kultura/3591740/radionice-podcast-predavanja-sto-se-iduceg-tjedna-dogada-u-gradskoj-knjiznici-zadar/",
+  "date": "2026-11-23T09:00:00+00:00",
+  "summary": "Gradska knjižnica Zadar i njezini ogranci i idućeg tjedna donose raznovrstan program za različite generacije i interese. Od 23. do 28. studenoga posjetitelje očekuju zdravstvene aktivnosti, predavanja, glazbeni sadržaji, kreativne",
+  "image": "https://cdn-ezadar.net.hr/wp-content/uploads/ce00cc256edb86b08b6534921d1aac1f-view_article_new.jpg",
+  "source": "eZadar",
+  "topics": [
+   "Zadar"
+  ],
+  "source_url": "https://ezadar.net.hr/",
+  "face": [
+   60.2,
+   99.3,
+   16.5,
+   85.0
+  ],
+  "face_img": "https://cdn-ezadar.net.hr/wp-content/uploads/ce00cc256edb86b08b6534921d1aac1f-view_article_new.jpg"
+ },
+ {
+  "title": "Više od 450 zadarskih umirovljenika na Svečanom balu: večer uz glazbu, ples i druženje",
+  "link": "https://ezadar.net.hr/zabava/3591929/vise-od-450-zadarskih-umirovljenika-na-svecanom-balu-vecer-uz-glazbu-ples-i-druzenje/",
+  "date": "2026-11-23T09:00:00+00:00",
+  "summary": "Više od 450 umirovljenika, Zaratino bend i večer u kojoj su najvažniji prijatelji, uspomene i plesni podij. Arsenal u ponedjeljak postaje mjesto susreta i slavlja života – bez obzira na",
+  "image": "https://cdn-ezadar.net.hr/wp-content/uploads/666079147_122210146886321448_2263440485326595912_n-1052x696.jpg",
+  "source": "eZadar",
+  "topics": [
+   "Zadar"
+  ],
+  "source_url": "https://ezadar.net.hr/",
+  "face": null,
+  "face_img": "https://cdn-ezadar.net.hr/wp-content/uploads/666079147_122210146886321448_2263440485326595912_n-1052x696.jpg"
+ },
+ {
+  "title": "Osam mladih Zadrana trenira s najboljima: Nikola Marketin o novoj generaciji boksača",
+  "link": "https://ezadar.net.hr/sport/3591991/osam-mladih-zadrana-trenira-s-najboljima-nikola-marketin-o-novoj-generaciji-boksaca/",
+  "date": "2026-11-23T08:45:00+00:00",
+  "summary": "Hrvatska kadetska boksačka reprezentacija uspješno je zaključila trodnevne pripreme u Puli i Poreču, a iza najmlađe nacionalne selekcije još je jedno vrijedno okupljanje koje potvrđuje ozbiljan kontinuitet rada uspostavljen tijekom",
+  "image": "https://cdn-ezadar.net.hr/wp-content/uploads/136386-6eff3fb264065b2522870321-1052x696.jpg",
+  "source": "eZadar",
+  "topics": [
+   "Zadar",
+   "Sport"
+  ],
+  "source_url": "https://ezadar.net.hr/",
+  "face": [
+   25.1,
+   59.7,
+   16.9,
+   68.1
+  ],
+  "face_img": "https://cdn-ezadar.net.hr/wp-content/uploads/136386-6eff3fb264065b2522870321-1052x696.jpg"
  },
  {
   "title": "Krvavi obračun u Pagu: Nepalac izbo svog cimera Indijca, više puta mu zario nož u prsa",
@@ -1188,7 +1261,7 @@
   "link": "https://www.jutarnji.hr/sportske/kosarka/aba-liga/zadar-je-za-prvu-gostujucu-pobjedu-morao-prevaliti-preko-tisucu-kilometara-do-rumunjske-15767791",
   "date": "2026-11-22T17:32:55+00:00",
   "summary": "CLUJ - ZADAR 75:81 (15:24, 19:16, 14:21, 27:20) CLUJ - BT Arena. Gledatelja 2000. Suci: Senkesen, Šešević i Gacik.",
-  "image": "https://media.jutarnji.hr/images/slike/2026/11/22/f_40014711_1280.jpg?1795424854",
+  "image": "https://media.jutarnji.hr/images/slike/2026/11/22/f_40014711_1280.jpg?1795425424",
   "source": "Sportske novosti",
   "source_topic": "Sport",
   "topics": [
@@ -1202,7 +1275,7 @@
    36.4,
    41.5
   ],
-  "face_img": "https://media.jutarnji.hr/images/slike/2026/11/22/f_40014711_1280.jpg?1795424854"
+  "face_img": "https://media.jutarnji.hr/images/slike/2026/11/22/f_40014711_1280.jpg?1795425424"
  },
  {
   "title": "EKSPLOZIJA ZADRA U RUMUNJSKOJ Prva gostujuća pobjeda – Modrićevi junaci utišali Cluj i srušili Eurokup momčad!",
@@ -5013,79 +5086,6 @@
   "source_url": "https://www.morski.hr/",
   "face": null,
   "face_img": "https://storage.ghost.io/c/8c/e6/8ce68df1-b8bf-474a-a3e0-701a018ef40d/content/images/2026/11/91688801fdsfdssd4_1036048966225729_1925364516479955971_n.jpg"
- },
- {
-  "title": "Nova web stranica Adventa u Zadru vodi posjetitelje kroz blagdanski program i četiri glavne lokacije",
-  "link": "https://zadarskilist.novilist.hr/zadar-zupanija/zadar/nova-web-stranica-adventa-u-zadru-vodi-posjetitelje-kroz-blagdanski-program-i-cetiri-glavne-lokacije/",
-  "date": "2026-11-20T15:15:24+00:00",
-  "summary": "Advent u Zadru ove će se godine odvijati na četiri glavne lokacije na Poluotoku, a sve informacije o programu, događanjima i sadržajima od sada su dostupne i na novoj službenoj web stranici. Ovogodišnji Advent otvara se u utorak, 24. studenoga.",
-  "image": "https://zadarskilist.novilist.hr/wp-content/uploads/2026/11/Advent-u-Zadru-website-and-3D-map.png",
-  "source": "Zadarski list",
-  "topics": [
-   "Zadar"
-  ],
-  "source_url": "https://zadarskilist.novilist.hr/",
-  "face": [
-   27.0,
-   34.5,
-   29.1,
-   31.6
-  ],
-  "face_img": "https://zadarskilist.novilist.hr/wp-content/uploads/2026/11/Advent-u-Zadru-website-and-3D-map.png"
- },
- {
-  "title": "Prevencija spašava zdravlje i sustav; Zadarski stručnjaci u Medicinskoj školi govorili o izazovima i liječenju dekubitusa",
-  "link": "https://023.hr/2026/11/prevencija-spasava-zdravlje-i-sustav-zadarski-strucnjaci-u-medicinskoj-skoli-govorili-o-izazovima-i-lijecenju-dekubitusa/",
-  "date": "2026-11-20T15:15:17+00:00",
-  "summary": "U Medicinskoj školi Ante Kuzmanića Zadar 19. studenoga 2026. održano je obilježavanje Svjetskog dana prevencije dekubitusa pod nazivom „Znanjem do zdrave kože”.",
-  "image": "https://023.hr/wp-content/uploads/2026/11/20261120125757_090905.avif",
-  "source": "023 portal",
-  "topics": [
-   "Zadar",
-   "Županija"
-  ],
-  "source_url": "https://023.hr/",
-  "face": null,
-  "face_img": "https://023.hr/wp-content/uploads/2026/11/20261120125757_090905.avif"
- },
- {
-  "title": "TZ Grada Zadra pohvalila se novom web stranicom, a za Advent stiže i Panoramski kotač",
-  "link": "https://ezadar.net.hr/zabava/3591771/tz-grada-zadra-pohvalila-se-novom-web-stranicom-a-za-advent-stize-i-panoramski-kotac/",
-  "date": "2026-11-20T14:58:32+00:00",
-  "summary": "Panoramski kotač stiže u Zadar! Gdje će biti postavljen i što nas još očekuje na ovogodišnjem Adventu? Gdje se ove zime u Zadru kliže, gdje se vrti Božićni gramofon, a",
-  "image": "https://cdn-ezadar.net.hr/wp-content/uploads/advent-u-zadru-website-and-3d-map-30a60a34dfff9bb90acbce23-1052x696.png",
-  "source": "eZadar",
-  "topics": [
-   "Zadar"
-  ],
-  "source_url": "https://ezadar.net.hr/",
-  "face": [
-   27.2,
-   34.1,
-   25.4,
-   28.4
-  ],
-  "face_img": "https://cdn-ezadar.net.hr/wp-content/uploads/advent-u-zadru-website-and-3d-map-30a60a34dfff9bb90acbce23-1052x696.png"
- },
- {
-  "title": "Što komunalni redari mogu učiniti za napuštene životinje? U Zadru učili kako provoditi zakon",
-  "link": "https://zadarskilist.novilist.hr/zadar-zupanija/sto-komunalni-redari-mogu-uciniti-za-napustene-zivotinje-u-zadru-ucili-kako-provoditi-zakon/",
-  "date": "2026-11-20T14:45:13+00:00",
-  "summary": "Komunalni redari važna su karika u zaštiti životinja na lokalnoj razini, a njihovo postupanje u slučajevima napuštanja i neodgovornog držanja životinja bilo je u središtu edukacije koju je u petak u Domu Zadarske županije organizirala Koordinacijska radna skupina za zaštitu životinja Zadarske županije (KOORA).",
-  "image": "https://zadarskilist.novilist.hr/wp-content/uploads/2026/11/3A0A6750.jpg",
-  "source": "Zadarski list",
-  "topics": [
-   "Zadar",
-   "Županija"
-  ],
-  "source_url": "https://zadarskilist.novilist.hr/",
-  "face": [
-   41.3,
-   53.2,
-   9.2,
-   80.1
-  ],
-  "face_img": "https://zadarskilist.novilist.hr/wp-content/uploads/2026/11/3A0A6750.jpg"
  },
  {
   "title": "VIKEND NA VIŠNJIKU –  Košarka, nogomet, odbojka…",
