@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-23T20:01:12.539129+00:00",
+ "updated": "2026-11-23T20:15:44.529613+00:00",
  "sources": [
   {
    "name": "Antena Zadar",
@@ -45,10 +45,12 @@
   },
   {
    "name": "023 portal",
-   "count": 5,
-   "ok": true,
+   "count": 0,
+   "ok": false,
    "feed": null,
-   "errors": []
+   "errors": [
+    "https://023.hr/feed/: IncompleteRead(24576 bytes read)"
+   ]
   },
   {
    "name": "Sport023",
