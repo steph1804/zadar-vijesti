@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-23T04:48:36.735351+00:00",
+ "updated": "2026-11-23T05:01:13.953765+00:00",
  "sources": [
   {
    "name": "Antena Zadar",
@@ -52,12 +52,10 @@
   },
   {
    "name": "Sport023",
-   "count": 0,
-   "ok": false,
+   "count": 9,
+   "ok": true,
    "feed": null,
-   "errors": [
-    "https://sport023.hr/feed/: HTTP Error 500: Internal Server Error"
-   ]
+   "errors": []
   },
   {
    "name": "KK Zadar",
@@ -119,12 +117,10 @@
   },
   {
    "name": "Opća bolnica Zadar",
-   "count": 0,
-   "ok": false,
+   "count": 5,
+   "ok": true,
    "feed": null,
-   "errors": [
-    "https://www.bolnica-zadar.hr/feed/: The read operation timed out"
-   ]
+   "errors": []
   },
   {
    "name": "Liburnija Zadar",
