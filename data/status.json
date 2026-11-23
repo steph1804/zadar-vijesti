@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-23T05:01:13.953765+00:00",
+ "updated": "2026-11-23T05:15:42.449148+00:00",
  "sources": [
   {
    "name": "Antena Zadar",
@@ -10,7 +10,7 @@
   },
   {
    "name": "Zadarski list",
-   "count": 6,
+   "count": 7,
    "ok": true,
    "feed": null,
    "errors": []
@@ -73,12 +73,10 @@
   },
   {
    "name": "Naši školji",
-   "count": 0,
-   "ok": false,
+   "count": 10,
+   "ok": true,
    "feed": null,
-   "errors": [
-    "https://www.nasiskolji.hr/feed/: <urlopen error timed out>"
-   ]
+   "errors": []
   },
   {
    "name": "Grad Zadar",
@@ -173,7 +171,7 @@
   },
   {
    "name": "tportal",
-   "count": 2,
+   "count": 1,
    "ok": true,
    "feed": null,
    "errors": []
