@@ -1,5 +1,68 @@
 [
  {
+  "title": "Nakon Partizana Zadar u gostima nadigrao rumunjski Cluj!",
+  "link": "https://radio.hrt.hr/radio-zadar/sport/nakon-partizana-zadar-u-gostima-nadigrao-rumunjski-cluj--13023800",
+  "date": "2026-11-23T07:43:34+00:00",
+  "summary": "Velika pobjeda košarkaša Zadra u 9. kolu AdmiralBet ABA lige: na gostovanju kod U-BT Cluj-Napoce pobijedili su 75:81 (15:24, 19:16, 14:21, 27:20).",
+  "image": "https://api.hrt.hr/media/c1/2c/ogden-20261123074326.webp",
+  "source": "HRT Radio Zadar",
+  "topics": [
+   "Zadar",
+   "Sport"
+  ],
+  "source_url": "https://radio.hrt.hr/radio-zadar",
+  "face": [
+   66.9,
+   100.0,
+   6.3,
+   93.9
+  ],
+  "face_img": "https://api.hrt.hr/media/c1/2c/ogden-20261123074326.webp"
+ },
+ {
+  "title": "Policija objavila detalje krvavog obračuna na Pagu, nožem je napadnut 24-godišnji Indijac",
+  "link": "https://zadarskilist.novilist.hr/crna-kronika/policija-objavila-detalje-krvavog-obracuna-na-pagu-nozem-je-napadnut-24-godisnji-indijac/",
+  "date": "2026-11-23T07:39:24+00:00",
+  "summary": "U nedjelju, 22. studenog policija je zaprimila dojavu da je oko 19.30 sati u kući u Pagu muškarac oštrim predmetom ozlijedio 24-godišnjeg državljanina Indije.",
+  "image": "https://zadarskilist.novilist.hr/wp-content/uploads/2026/07/11325769.jpg",
+  "source": "Zadarski list",
+  "topics": [
+   "Zadar",
+   "Otoci"
+  ],
+  "source_url": "https://zadarskilist.novilist.hr/",
+  "face": null,
+  "face_img": "https://zadarskilist.novilist.hr/wp-content/uploads/2026/07/11325769.jpg"
+ },
+ {
+  "title": "Iz Neviđana na svjetsku scenu; Pete Radovich dobio prestižnu titulu ambasadora hrvatskog turizma",
+  "link": "https://023.hr/2026/11/iz-nevidana-na-svjetsku-scenu-pete-radovich-dobio-prestiznu-titulu-ambasadora-hrvatskog-turizma/",
+  "date": "2026-11-23T07:37:18+00:00",
+  "summary": "Dani hrvatskog turizma, tradicionalni susret turističkih djelatnika te svih sudionika u turističkom sustavu Republike Hrvatske, održani su 19. i 20. studenog u Poreču. Organizatori su Ministarstvo turizma i sporta, Hrvatska gospodarska komora, Hrvatska turistička zajednica i Hrvatska radiotelevizija.",
+  "image": "https://023.hr/wp-content/uploads/2026/11/20261123083653_553727.avif",
+  "source": "023 portal",
+  "topics": [
+   "Otoci"
+  ],
+  "source_url": "https://023.hr/",
+  "face": null,
+  "face_img": "https://023.hr/wp-content/uploads/2026/11/20261123083653_553727.avif"
+ },
+ {
+  "title": "DAR GRADU Pjesmom i tradicijom u čast Zadru; HPGD “Zoranić” priprema svečanu večer u crkvi sv. Nikole",
+  "link": "https://023.hr/2026/11/dar-gradu-pjesmom-i-tradicijom-u-cast-zadru-hpgd-zoranic-priprema-svecanu-vecer-u-crkvi-sv-nikole/",
+  "date": "2026-11-23T07:32:23+00:00",
+  "summary": "Hrvatsko pjevačko glazbeno društvo „Zoranić“ već tradicionalno svojim sugrađanima daruje svečanu glazbenu večer posvećenu svome gradu.",
+  "image": "https://023.hr/wp-content/uploads/2026/11/20261123083018_156760.avif",
+  "source": "023 portal",
+  "topics": [
+   "Zadar"
+  ],
+  "source_url": "https://023.hr/",
+  "face": null,
+  "face_img": "https://023.hr/wp-content/uploads/2026/11/20261123083018_156760.avif"
+ },
+ {
   "title": "Pag: Informacija o događaju",
   "link": "https://zadarska-policija.gov.hr/vijesti/pag-informacija-o-dogadjaju-18892/18892",
   "date": "2026-11-23T07:31:04.508982+00:00",
@@ -834,7 +897,7 @@
   "link": "https://www.jutarnji.hr/sportske/kosarka/aba-liga/zadar-je-za-prvu-gostujucu-pobjedu-morao-prevaliti-preko-tisucu-kilometara-do-rumunjske-15767791",
   "date": "2026-11-22T17:32:55+00:00",
   "summary": "CLUJ - ZADAR 75:81 (15:24, 19:16, 14:21, 27:20) CLUJ - BT Arena. Gledatelja 2000. Suci: Senkesen, Šešević i Gacik.",
-  "image": "https://media.jutarnji.hr/images/slike/2026/11/22/f_40014711_1280.jpg?1795418784",
+  "image": "https://media.jutarnji.hr/images/slike/2026/11/22/f_40014711_1280.jpg?1795419947",
   "source": "Sportske novosti",
   "source_topic": "Sport",
   "topics": [
@@ -848,7 +911,7 @@
    36.4,
    41.5
   ],
-  "face_img": "https://media.jutarnji.hr/images/slike/2026/11/22/f_40014711_1280.jpg?1795418784"
+  "face_img": "https://media.jutarnji.hr/images/slike/2026/11/22/f_40014711_1280.jpg?1795419947"
  },
  {
   "title": "EKSPLOZIJA ZADRA U RUMUNJSKOJ Prva gostujuća pobjeda – Modrićevi junaci utišali Cluj i srušili Eurokup momčad!",
@@ -5058,78 +5121,6 @@
    95.4
   ],
   "face_img": "https://www.zadarska-zupanija.hr/media/k2/items/cache/1d58ce84814beff1d9935f22ea7b4e47_M.jpg"
- },
- {
-  "title": "Plesne minijature osvojile Dvije palače: Evo kako je izgledala prva večer!",
-  "link": "https://ezadar.net.hr/galerije/3591707/plesne-minijature-osvojile-dvije-palace-evo-kako-je-izgledala-prva-vecer/",
-  "date": "2026-11-20T12:18:52+00:00",
-  "summary": "Prva večer 13. Večeri plesne minijature okupila je zadarsku plesnu scenu u prostoru Dviju palača, gdje su posjetitelji imali priliku uživati u raznolikim izvedbama suvremenog plesa. Program je otvorio Zadarski",
-  "image": "https://cdn-ezadar.net.hr/wp-content/uploads/916117237_2691949234589503_5552611196862921297_n-06fb6b27b073d049a46613a0-1052x696.jpg",
-  "source": "eZadar",
-  "topics": [
-   "Zadar"
-  ],
-  "source_url": "https://ezadar.net.hr/",
-  "face": [
-   9.3,
-   30.5,
-   21.5,
-   28.2
-  ],
-  "face_img": "https://cdn-ezadar.net.hr/wp-content/uploads/916117237_2691949234589503_5552611196862921297_n-06fb6b27b073d049a46613a0-1052x696.jpg"
- },
- {
-  "title": "Predstavljena knjiga koja donosi umjetnički pogled na Zadar i njegovu okolicu",
-  "link": "https://radio.hrt.hr/radio-zadar/vijesti/predstavljena-knjiga-koja-donosi-umjetnicki-pogled-na-zadar-i-njegovu-okolicu-13019696",
-  "date": "2026-11-20T12:13:17+00:00",
-  "summary": "U Gradskoj loži u Zadru, u okviru obilježavanja Dana grada Zadra, predstavljena je knjiga „Oko Zadra – Poetska razglednica 2”, drugo izdanje biblioteke „Razglednica” Sveučilišta u Zadru, koja kroz poeziju i fotografiju donosi umjetnički pogled na Zadar i njegovu okolicu.",
-  "image": "https://api.hrt.hr/media/23/5b/poetska-razglednica-17-20261120121301.webp",
-  "source": "HRT Radio Zadar",
-  "topics": [
-   "Zadar"
-  ],
-  "source_url": "https://radio.hrt.hr/radio-zadar",
-  "face": [
-   39.6,
-   63.2,
-   11.0,
-   88.7
-  ],
-  "face_img": "https://api.hrt.hr/media/23/5b/poetska-razglednica-17-20261120121301.webp"
- },
- {
-  "title": "Predstavljena knjiga koja otkriva drukčije lice našeg kraja: ‘Ako je Zadar uopće moguće objasniti’",
-  "link": "https://zadarskilist.novilist.hr/zadar-zupanija/zadar/predstavljena-knjiga-koja-otkriva-drukcije-lice-naseg-kraja-ako-je-zadar-uopce-moguce-objasniti/",
-  "date": "2026-11-20T12:05:56+00:00",
-  "summary": "U Gradskoj loži u Zadru, u okviru obilježavanja Dana grada Zadra, predstavljena je knjiga „Oko Zadra – Poetska razglednica 2”, drugo izdanje biblioteke „Razglednica” Sveučilišta u Zadru, koja kroz poeziju i fotografiju donosi umjetnički pogled na Zadar i njegovu okolicu.",
-  "image": "https://zadarskilist.novilist.hr/wp-content/uploads/2026/11/poetska-razglednica-17.jpg",
-  "source": "Zadarski list",
-  "topics": [
-   "Zadar"
-  ],
-  "source_url": "https://zadarskilist.novilist.hr/",
-  "face": [
-   39.6,
-   63.2,
-   11.0,
-   88.7
-  ],
-  "face_img": "https://zadarskilist.novilist.hr/wp-content/uploads/2026/11/poetska-razglednica-17.jpg"
- },
- {
-  "title": "Koliko vaše plaće odlazi na ratu za stan? Zadarska županija u donjem dijelu ljestvice",
-  "link": "https://ezadar.net.hr/info/3591708/koliko-vase-place-odlazi-na-ratu-za-stan-zadarska-zupanija-u-donjem-dijelu-ljestvice/",
-  "date": "2026-11-20T12:02:44+00:00",
-  "summary": "​Nepriuštive cijene nekretnina u Hrvatskoj stalna su tema rasprave, a novi izračun pokazuje kako bi kupac s prosječnom neto plaćom za kredit stana od 60 kvadrata mjesečno izdvajao 664 eura, odnosno 42,8 posto plaće",
-  "image": "https://cdn-ezadar.net.hr/wp-content/uploads/stanovi_hrvatska-3253ccdd16f16f5cac7024b2-1052x696.jpg",
-  "source": "eZadar",
-  "topics": [
-   "Zadar",
-   "Županija"
-  ],
-  "source_url": "https://ezadar.net.hr/",
-  "face": null,
-  "face_img": "https://cdn-ezadar.net.hr/wp-content/uploads/stanovi_hrvatska-3253ccdd16f16f5cac7024b2-1052x696.jpg"
  },
  {
   "title": "Noć kazalište u HNK Zadar- Feliks i Doris",
