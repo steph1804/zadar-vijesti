@@ -1,5 +1,72 @@
 [
  {
+  "title": "(FOTOGALERIJA) AJMO! NA URBOFON LIVE / LHD i Kriptidi u Providurovoj palači: večer autentičnog zvuka, eksperimenta i retro elegancije",
+  "link": "https://www.znet.hr/2026/11/23/fotogalerija-ajmo-na-urbofon-live-lhd-i-kriptidi-u-providurovoj-palaci-vecer-autenticnog-zvuka-eksperimenta-i-retro-elegancije/",
+  "date": "2026-11-23T08:15:45+00:00",
+  "summary": "U subotu, 21. studenog održan je posljednji ovogodišnji koncert u sklopu programa AJMO! na Urbofon Live kojeg je brojna zadarska publika dočekala s velikim oduševljenjem. Večer su otvorili zadarski Kriptidi, jedinstvena pojava na domaćoj underground sceni.",
+  "image": "https://www.znet.hr/wp-content/uploads/2026/11/10_AJMO-na-Urbofon-Live-LHD-Kriptidi_AleksandarBonacic-1000x600.jpg",
+  "source": "Znet",
+  "topics": [
+   "Zadar"
+  ],
+  "source_url": "https://www.znet.hr/",
+  "face": null,
+  "face_img": "https://www.znet.hr/wp-content/uploads/2026/11/10_AJMO-na-Urbofon-Live-LHD-Kriptidi_AleksandarBonacic-1000x600.jpg"
+ },
+ {
+  "title": "Božićnice za umirovljenike u Dalmaciji: Zadar povećao iznose, Split proširio krug korisnika, Dubrovnik još čeka odluku",
+  "link": "https://www.dalmacijanews.hr/clanak/bozicnice-za-umirovljenike-u-dalmaciji-zadar-povecao-iznose-split-prosirio-krug-korisnika-dubrovnik-jos-ceka-odluku/",
+  "date": "2026-11-23T08:14:54+00:00",
+  "summary": "Blagdani su sve bliže, a s njima i isplate božićnica za umirovljenike. RTL Danas je provjerio kolike iznose ove godine pripremaju četiri najveća dalmatinska grada i tko će na njih imati pravo.",
+  "image": "https://www.dalmacijanews.hr/wp-content/uploads/2026/05/ChatGPT-Image-28.-svi-2026.-18_13_20-1024x683.png",
+  "source": "Dalmacija News",
+  "topics": [
+   "Zadar"
+  ],
+  "source_url": "https://www.dalmacijanews.hr/",
+  "face": null,
+  "face_img": "https://www.dalmacijanews.hr/wp-content/uploads/2026/05/ChatGPT-Image-28.-svi-2026.-18_13_20-1024x683.png"
+ },
+ {
+  "title": "TRENUTAK ZA PAMĆENJE Lea Šimurina donijela Badminton klubu Zadar povijesnu medalju!",
+  "link": "https://www.antenazadar.hr/clanak/2026/11/trenutak-za-pamcenje-lea-simurina-donijela-badminton-klubu-zadar-povijesnu-medalju/",
+  "date": "2026-11-23T08:03:14+00:00",
+  "summary": "Mlada zadarska badmintonašica Lea Šimurina ostvarila je povijesni uspjeh za Badminton klub Zadar osvojivši srebrnu medalju u konkurenciji ženskih parova na Prvenstvu Hrvatske za uzrast do 13 godina.",
+  "image": "https://www.antenazadar.hr/wp-content/uploads/2026/11/KRUG-24-1.png",
+  "source": "Antena Zadar",
+  "topics": [
+   "Zadar",
+   "Sport"
+  ],
+  "source_url": "https://www.antenazadar.hr/",
+  "face": [
+   16.2,
+   38.2,
+   19.5,
+   84.8
+  ],
+  "face_img": "https://www.antenazadar.hr/wp-content/uploads/2026/11/KRUG-24-1.png"
+ },
+ {
+  "title": "Teatar EXIT stiže u Zadar s hit tragikomedijom Armagedonci",
+  "link": "https://zadarskilist.novilist.hr/ostalo/kultura/teatar-exit-stize-u-zadar-s-hit-tragikomedijom-armagedonci/",
+  "date": "2026-11-23T08:01:24+00:00",
+  "summary": "Zagrebački Teatar EXIT sutra gostuje na Večernjoj sceni Kazališta lutaka Zadar s predstavom pod naslovom »Armagedonci«, koja će se održati s početkom u 20 sati. Radnja ove tragikomedije s glazbenim elementima prati troje ljudi koji propadnu kroz zemlju i ostanu zatočeni u kazališnom fundusu.",
+  "image": "https://zadarskilist.novilist.hr/wp-content/uploads/2026/11/12479544.jpg",
+  "source": "Zadarski list",
+  "topics": [
+   "Zadar"
+  ],
+  "source_url": "https://zadarskilist.novilist.hr/",
+  "face": [
+   25.4,
+   35.4,
+   36.9,
+   63.1
+  ],
+  "face_img": "https://zadarskilist.novilist.hr/wp-content/uploads/2026/11/12479544.jpg"
+ },
+ {
   "title": "Nije se još ni zavrtio, a već je izazvao raspravu: što Zadrani pišu o panoramskom kotaču?",
   "link": "https://ezadar.net.hr/lifestyle/3591989/nije-se-jos-ni-zavrtio-a-vec-je-izazvao-raspravu-sto-zadrani-pisu-o-panoramskom-kotacu/",
   "date": "2026-11-23T07:55:25+00:00",
@@ -927,7 +994,7 @@
   "link": "https://www.jutarnji.hr/sportske/kosarka/aba-liga/zadar-je-za-prvu-gostujucu-pobjedu-morao-prevaliti-preko-tisucu-kilometara-do-rumunjske-15767791",
   "date": "2026-11-22T17:32:55+00:00",
   "summary": "CLUJ - ZADAR 75:81 (15:24, 19:16, 14:21, 27:20) CLUJ - BT Arena. Gledatelja 2000. Suci: Senkesen, Šešević i Gacik.",
-  "image": "https://media.jutarnji.hr/images/slike/2026/11/22/f_40014711_1280.jpg?1795420359",
+  "image": "https://media.jutarnji.hr/images/slike/2026/11/22/f_40014711_1280.jpg?1795421542",
   "source": "Sportske novosti",
   "source_topic": "Sport",
   "topics": [
@@ -941,7 +1008,7 @@
    36.4,
    41.5
   ],
-  "face_img": "https://media.jutarnji.hr/images/slike/2026/11/22/f_40014711_1280.jpg?1795420359"
+  "face_img": "https://media.jutarnji.hr/images/slike/2026/11/22/f_40014711_1280.jpg?1795421542"
  },
  {
   "title": "EKSPLOZIJA ZADRA U RUMUNJSKOJ Prva gostujuća pobjeda – Modrićevi junaci utišali Cluj i srušili Eurokup momčad!",
@@ -5043,81 +5110,6 @@
   "face_img": "https://cdn-ezadar.net.hr/wp-content/uploads/916579483_10234136200254118_2860763609050357584_n-31d6defe9ee550e75ef8e7e5-1052x696.jpg"
  },
  {
-  "title": "OKO ZADRA Pjesnički pogled na grad i njegovu okolicu",
-  "link": "https://www.antenazadar.hr/clanak/2026/11/oko-zadra-pjesnicki-pogled-na-grad-i-njegovu-okolicu/",
-  "date": "2026-11-20T13:07:40+00:00",
-  "summary": "U Gradskoj loži u Zadru, u okviru obilježavanja Dana grada Zadra, predstavljena je knjiga „Oko Zadra – Poetska razglednica 2”, drugo izdanje biblioteke „Razglednica” Sveučilišta u Zadru, koja kroz poeziju i fotografiju donosi umjetnički pogled na Zadar i njegovu okolicu.",
-  "image": "https://www.antenazadar.hr/wp-content/uploads/2026/11/poetska-razglednica-12.jpg",
-  "source": "Antena Zadar",
-  "topics": [
-   "Zadar"
-  ],
-  "source_url": "https://www.antenazadar.hr/",
-  "face": [
-   17.9,
-   51.7,
-   22.3,
-   91.8
-  ],
-  "face_img": "https://www.antenazadar.hr/wp-content/uploads/2026/11/poetska-razglednica-12.jpg"
- },
- {
-  "title": "Vrući parket Mocira donosi priliku za povratak na pobjedničke staze",
-  "link": "https://ezadar.net.hr/sport/3591685/vruci-parket-mocira-donosi-priliku-za-povratak-na-pobjednicke-staze/",
-  "date": "2026-11-20T13:00:00+00:00",
-  "summary": "Nakon novog nesretnog gostujućeg vikenda zadarski rukometaši vraćaju se u Mocire gdje će se nastojati vratiti na pobjedničke staze. Zadar 1954 bit će domaćin Vodicama. Ova dva rivala nedavno su",
-  "image": "https://cdn-ezadar.net.hr/wp-content/uploads/RK-Zadar-1954-Edin-Basic-1052x696.jpg",
-  "source": "eZadar",
-  "topics": [
-   "Zadar",
-   "Sport"
-  ],
-  "source_url": "https://ezadar.net.hr/",
-  "face": [
-   10.9,
-   31.0,
-   25.1,
-   55.8
-  ],
-  "face_img": "https://cdn-ezadar.net.hr/wp-content/uploads/RK-Zadar-1954-Edin-Basic-1052x696.jpg"
- },
- {
-  "title": "Gradonačelnik angažirao tvrtku rođaka da za grad kopa kanale, dobio već 100.000 €? ‘Ja ne komentiram naručene članke‘",
-  "link": "https://slobodnadalmacija.hr/dalmacija/zadar/gradonacelnik-angazirao-tvrtku-rodaka-da-za-grad-kopa-kanale-za-slobodnu-kaze-da-nece-komentirati-narucene-clanke-1591446",
-  "date": "2026-11-20T12:45:00+00:00",
-  "summary": "Gradonačelnik Benkovca Tomislav Bulić (HDZ) kazao je da Grad Benkovac radi po zakonu, a ako netko smatra da ne radi, neka postupi po zakonu. - Neću komentirati naručene članke - ustvrdio je na pisanje portala Telegram koji je otkrio poslovanje njegovog bratića Martina Bulića s Gradom. Prema javno do...",
-  "image": "https://static.slobodnadalmacija.hr/images/slike/2026/11/20/32894265.jpg",
-  "source": "Slobodna Dalmacija/Zadar",
-  "topics": [
-   "Zadar",
-   "Županija"
-  ],
-  "source_url": "https://slobodnadalmacija.hr/dalmacija/zadar",
-  "face": [
-   15.6,
-   49.3,
-   61.7,
-   76.2
-  ],
-  "face_img": "https://static.slobodnadalmacija.hr/images/slike/2026/11/20/32894265.jpg"
- },
- {
-  "title": "ZADAR GOST ZABOKA Niko Šare: “Moramo ući maksimalno”",
-  "link": "https://sport023.hr/2026/11/20/zabok-zadar-najava/",
-  "date": "2026-11-20T12:33:38+00:00",
-  "summary": "Košarkaši Zadra u petak nastavljaju natjecanje u SuperSport Premijer ligi. U susretu 9. kola gostovat će kod Zaboka, gdje će... Objava ZADAR GOST ZABOKA Niko Šare: “Moramo ući maksimalno” pojavila se prvi puta na Sport023.",
-  "image": "https://sport023.hr/wp-content/uploads/2026/11/niko-sare-kk-zadar-kvarner-09-11-26.jpg",
-  "source": "Sport023",
-  "source_topic": "Sport",
-  "topics": [
-   "Zadar",
-   "Sport"
-  ],
-  "source_url": "https://sport023.hr/",
-  "face": null,
-  "face_img": "https://sport023.hr/wp-content/uploads/2026/11/niko-sare-kk-zadar-kvarner-09-11-26.jpg"
- },
- {
   "title": "Noć kazalište u HNK Zadar- Feliks i Doris",
   "link": "https://bnm-portal.com/noc-kazaliste-u-hnk-zadar-feliks-i-doris/",
   "date": "2026-11-20T10:37:45+00:00",
@@ -5196,20 +5188,6 @@
    43.1
   ],
   "face_img": "https://www.poslovni.hr/wp-content/uploads/2026/11/5falken-800x500.jpg"
- },
- {
-  "title": "Svečana večera, glazba uživo i poseban doček za djecu: Evo što priprema Family Hotel Adria u Biogradu",
-  "link": "https://www.dalmacijanews.hr/clanak/svecana-vecera-glazba-uzivo-i-poseban-docek-za-djecu-evo-sto-priprema-family-hotel-adria-u-biogradu/",
-  "date": "2026-11-19T13:11:32+00:00",
-  "summary": "Zašto posljednje dane godine ne biste proveli na moru, uz dobru hranu, glazbu i nekoliko dana odmora? Family Hotel Adria u Biogradu na Moru pripremio je novogodišnji program koji donosi svečani doček, all inclusive uslugu i bogat izbor sadržaja za djecu i odrasle.",
-  "image": "https://www.dalmacijanews.hr/wp-content/uploads/2026/11/MixCollage-10-Nov-2026-09-28-AM-9565-1024x576.jpg",
-  "source": "Dalmacija News",
-  "topics": [
-   "Županija"
-  ],
-  "source_url": "https://www.dalmacijanews.hr/",
-  "face": null,
-  "face_img": "https://www.dalmacijanews.hr/wp-content/uploads/2026/11/MixCollage-10-Nov-2026-09-28-AM-9565-1024x576.jpg"
  },
  {
   "title": "Predstavljena monografija „Jadranska maritimna hodočašća“",
@@ -5305,45 +5283,6 @@
    41.2
   ],
   "face_img": "https://hrvatska-danas.com/wp-content/uploads/2026/11/Screenshot-2026-11-18-at-18.46.24-png.webp"
- },
- {
-  "title": "Što otkrivaju brojke nakon košarkaškog derbija?",
-  "link": "https://www.dalmacijanews.hr/clanak/sto-otkrivaju-brojke-nakon-kosarkaskog-derbija/",
-  "date": "2026-11-18T11:16:10+00:00",
-  "summary": "Split je 18. listopada 2026. protiv Zadra vodio 43:34 na poluvremenu, a utakmicu izgubio 73:84. U posljednjih dvadeset minuta Zadrani su zabili 50 poena. Splićani su ostali na 30.",
-  "image": "https://www.dalmacijanews.hr/wp-content/uploads/2026/11/image-4-1024x682.png",
-  "source": "Dalmacija News",
-  "topics": [
-   "Zadar",
-   "Sport"
-  ],
-  "source_url": "https://www.dalmacijanews.hr/",
-  "face": [
-   48.5,
-   83.1,
-   37.6,
-   85.3
-  ],
-  "face_img": "https://www.dalmacijanews.hr/wp-content/uploads/2026/11/image-4-1024x682.png"
- },
- {
-  "title": "Četnici su Gospi i Isusu odsjekli glave i udove, a kipove bacili na smetlište! Krvava sjekira i danas svjedoči stravi u Škabrnji",
-  "link": "https://www.dalmacijanews.hr/clanak/cetnici-su-gospi-i-isusu-odsjekli-glave-i-udove-a-kipove-bacili-na-smetliste-krvava-sjekira-i-danas-svjedoci-stravi-u-skabrnji/",
-  "date": "2026-11-18T09:52:36+00:00",
-  "summary": "– Od svih mjeseci u godini, najteži mi je i najgori studeni. Sve se tada vrati. Bolni osjećaji, prizori koje nikad nisam mogao zaboraviti.",
-  "image": "https://www.dalmacijanews.hr/wp-content/uploads/2026/11/MixCollage-18-Nov-2026-10-49-AM-3749-1024x576.jpg",
-  "source": "Dalmacija News",
-  "topics": [
-   "Županija"
-  ],
-  "source_url": "https://www.dalmacijanews.hr/",
-  "face": [
-   20.8,
-   59.6,
-   10.7,
-   25.7
-  ],
-  "face_img": "https://www.dalmacijanews.hr/wp-content/uploads/2026/11/MixCollage-18-Nov-2026-10-49-AM-3749-1024x576.jpg"
  },
  {
   "title": "Neka im je vječna slava i hvala!",
