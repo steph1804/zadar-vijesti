@@ -1,5 +1,55 @@
 [
  {
+  "title": "BK SV. KRŠEVAN / Boksački turnir za Dan Grada Zadra okupio preko 60 boksača iz 20 klubova!",
+  "link": "https://www.znet.hr/2026/11/23/bk-sv-krsevan-boksacki-turnir-za-dan-grada-zadra-okupio-preko-60-boksaca-iz-20-klubova/",
+  "date": "2026-11-23T08:20:44+00:00",
+  "summary": "Zadarski derbi i prekid nakon 20 sekundi pred 300 gledatelja u Ravnicama Boksački turnir Sv. Krševan 2026., koji je Boksački klub Sv. Krševan Zadar organizirao povodom Dana Grada Zadra, okupio je u subotu, 21. studenoga, u Športskom centru Ravnice preko 60 boksača i boksačica iz 20 klubova.",
+  "image": "https://www.znet.hr/wp-content/uploads/2026/11/MixCollage-23-Nov-2026-09-20-AM-8608-1000x600.jpg",
+  "source": "Znet",
+  "topics": [
+   "Zadar",
+   "Sport"
+  ],
+  "source_url": "https://www.znet.hr/",
+  "face": [
+   60.6,
+   86.0,
+   34.9,
+   82.5
+  ],
+  "face_img": "https://www.znet.hr/wp-content/uploads/2026/11/MixCollage-23-Nov-2026-09-20-AM-8608-1000x600.jpg"
+ },
+ {
+  "title": "Svečano obilježavanje 220. obljetnice osnutka prvoga liceja u Zadru",
+  "link": "https://www.znet.hr/2026/11/23/svecano-obiljezavanje-220-obljetnice-osnutka-prvoga-liceja-u-zadru/",
+  "date": "2026-11-23T08:17:41+00:00",
+  "summary": "U povodu Dana grada Zadra i blagdana njegova zaštitnika sv. Krševana, u Zadru će se 25. studenoga 2026. obilježiti 220. obljetnica osnutka Liceja u Zadru, osnovanog 24. listopada 1806. godine. Svečani program održat će se u Svečanoj dvorani Sveučilišta u Zadru.",
+  "image": "https://www.znet.hr/wp-content/uploads/2026/11/220-573x600.jpg",
+  "source": "Znet",
+  "topics": [
+   "Zadar",
+   "Županija"
+  ],
+  "source_url": "https://www.znet.hr/",
+  "face": null,
+  "face_img": "https://www.znet.hr/wp-content/uploads/2026/11/220-573x600.jpg"
+ },
+ {
+  "title": "Snijeg i jaka bura otežavaju promet. Na A1 i Paškom mostu mogu voziti samo osobna vozila",
+  "link": "https://www.novilist.hr/novosti/hrvatska/snijeg-i-jaka-bura-otezavaju-promet-na-a1-i-paskom-mostu-mogu-voziti-samo-osobna-vozila/",
+  "date": "2026-11-23T08:16:25+00:00",
+  "summary": "Zbog snijega na pojedinim cestama u Lici na snazi su zimski uvjeti, a zbog jakog vjetra promet je ograničen na cestama u priobalju, izvijestio je u ponedjeljak Hrvatski autoklub (HAK). Kolnici su mokri i skliski u većem dijelu  Objava Snijeg i jaka bura otežavaju promet.",
+  "image": "https://www.novilist.hr/wp-content/uploads/2026/11/944-717x478.jpg",
+  "source": "Novi list",
+  "topics": [
+   "Zadar",
+   "Županija"
+  ],
+  "source_url": "https://www.novilist.hr/",
+  "face": null,
+  "face_img": "https://www.novilist.hr/wp-content/uploads/2026/11/944-717x478.jpg"
+ },
+ {
   "title": "(FOTOGALERIJA) AJMO! NA URBOFON LIVE / LHD i Kriptidi u Providurovoj palači: večer autentičnog zvuka, eksperimenta i retro elegancije",
   "link": "https://www.znet.hr/2026/11/23/fotogalerija-ajmo-na-urbofon-live-lhd-i-kriptidi-u-providurovoj-palaci-vecer-autenticnog-zvuka-eksperimenta-i-retro-elegancije/",
   "date": "2026-11-23T08:15:45+00:00",
@@ -117,10 +167,10 @@
   "face_img": "https://api.hrt.hr/media/c1/2c/ogden-20261123074326.webp"
  },
  {
-  "title": "Policija objavila detalje krvavog obračuna na Pagu, nožem je napadnut 24-godišnji Indijac",
-  "link": "https://zadarskilist.novilist.hr/crna-kronika/policija-objavila-detalje-krvavog-obracuna-na-pagu-nozem-je-napadnut-24-godisnji-indijac/",
+  "title": "Objavljeni detalji krvavog obračuna na Pagu, 24-godišnji Indijac uboden nožem u srce",
+  "link": "https://zadarskilist.novilist.hr/crna-kronika/objavljeni-detalji-krvavog-obracuna-na-pagu-24-godisnji-indijac-uboden-nozem-u-srce/",
   "date": "2026-11-23T07:39:24+00:00",
-  "summary": "U nedjelju, 22. studenog policija je zaprimila dojavu da je oko 19.30 sati u kući u Pagu muškarac oštrim predmetom ozlijedio 24-godišnjeg državljanina Indije.",
+  "summary": "U incidentu koji se u nedjelju navečer dogodio u privatnoj kući u gradu Pagu, 24-godišnji državljanin Indije zadobio je teške tjelesne ozljede nakon što ga je muškarac ozlijedio oštrim predmetom i zadao mu dvije ubodne rane od kojih se jedna nalazila u području srca.",
   "image": "https://zadarskilist.novilist.hr/wp-content/uploads/2026/07/11325769.jpg",
   "source": "Zadarski list",
   "topics": [
@@ -5058,56 +5108,6 @@
   "source_url": "https://slobodnadalmacija.hr/dalmacija/zadar",
   "face": null,
   "face_img": "https://static.slobodnadalmacija.hr/images/slike/2026/11/20/32660252.jpg"
- },
- {
-  "title": "Mladi vozač zaustavljen kod Benkovca, odbio test na droge, pa dobio paprenu kaznu",
-  "link": "https://zadarskilist.novilist.hr/crna-kronika/mladi-vozac-zaustavljen-kod-benkovca-odbio-test-na-droge-pa-dobio-paprenu-kaznu/",
-  "date": "2026-11-20T13:15:07+00:00",
-  "summary": "U srijedu, 18. studenog u 14.35 sati u Šopotu policijski službenici Policijske postaje Benkovac – Obrovac u kontroli prometa zaustavili su automobil zadarskih registarskih oznaka. Kontrolom je utvrđeno da vozilom upravlja 23-godišnji hrvatski državljanin.",
-  "image": "https://zadarskilist.novilist.hr/wp-content/uploads/2026/09/11397610.jpg",
-  "source": "Zadarski list",
-  "topics": [
-   "Zadar",
-   "Županija"
-  ],
-  "source_url": "https://zadarskilist.novilist.hr/",
-  "face": null,
-  "face_img": "https://zadarskilist.novilist.hr/wp-content/uploads/2026/09/11397610.jpg"
- },
- {
-  "title": "Osam zadarskih boksačkih nada na pripremama hrvatske kadetske reprezentacije u Istri!",
-  "link": "https://sport023.hr/2026/11/20/osam-zadarskih-boksackih-nada-na-pripremama-hrvatske-kadetske-reprezentacije-u-istri/",
-  "date": "2026-11-20T13:14:32+00:00",
-  "summary": "Hrvatska boksačka reprezentacija kadeta (U-15) od 20. do 22. studenoga odrađuje trodnevne pripreme u Istri, pod vodstvom izbornika Nikole Marketina.... Objava Osam zadarskih boksačkih nada na pripremama hrvatske kadetske reprezentacije u Istri! pojavila se prvi puta na Sport023.",
-  "image": "https://sport023.hr/wp-content/uploads/2026/11/IMG-20261120-WA0000.jpg",
-  "source": "Sport023",
-  "source_topic": "Sport",
-  "topics": [
-   "Zadar",
-   "Sport"
-  ],
-  "source_url": "https://sport023.hr/",
-  "face": [
-   31.1,
-   44.7,
-   16.4,
-   90.7
-  ],
-  "face_img": "https://sport023.hr/wp-content/uploads/2026/11/IMG-20261120-WA0000.jpg"
- },
- {
-  "title": "Crveni kauč osvanuo na Puntamici: Zadrani su već odradili svoje u komentarima",
-  "link": "https://ezadar.net.hr/info/3591716/crveni-kauc-osvanuo-na-puntamici-zadrani-su-vec-odradili-svoje-u-komentarima/",
-  "date": "2026-11-20T13:13:04+00:00",
-  "summary": "Crveni kauč osvanuo na Puntamici: Zadrani se pitaju je li riječ o umjetničkoj instalaciji Netko je odlučio da stari kauč više ne pripada dnevnom boravku, ali je pritom zaboravio da",
-  "image": "https://cdn-ezadar.net.hr/wp-content/uploads/916579483_10234136200254118_2860763609050357584_n-31d6defe9ee550e75ef8e7e5-1052x696.jpg",
-  "source": "eZadar",
-  "topics": [
-   "Zadar"
-  ],
-  "source_url": "https://ezadar.net.hr/",
-  "face": null,
-  "face_img": "https://cdn-ezadar.net.hr/wp-content/uploads/916579483_10234136200254118_2860763609050357584_n-31d6defe9ee550e75ef8e7e5-1052x696.jpg"
  },
  {
   "title": "Noć kazalište u HNK Zadar- Feliks i Doris",
