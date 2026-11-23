@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-23T13:01:18.129679+00:00",
+ "updated": "2026-11-23T13:15:48.403598+00:00",
  "sources": [
   {
    "name": "Antena Zadar",
@@ -31,14 +31,14 @@
   },
   {
    "name": "eZadar",
-   "count": 23,
+   "count": 22,
    "ok": true,
    "feed": null,
    "errors": []
   },
   {
    "name": "BNM portal",
-   "count": 6,
+   "count": 7,
    "ok": true,
    "feed": null,
    "errors": []
@@ -166,8 +166,8 @@
   },
   {
    "name": "Večernji list",
-   "count": 0,
-   "ok": false,
+   "count": 1,
+   "ok": true,
    "feed": null,
    "errors": []
   },
@@ -285,8 +285,8 @@
   },
   {
    "name": "Sportske novosti",
-   "count": 1,
-   "ok": true,
+   "count": 0,
+   "ok": false,
    "feed": null,
    "errors": []
   },
