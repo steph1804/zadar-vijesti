@@ -748,32 +748,6 @@
   "face_img": "https://api.hrt.hr/media/c1/9e/740x438-pxl-231126-163020912-20261124143217.jpg"
  },
  {
-  "title": "U Preku kod dvojice vozača utvrđeni prometni prekršaji",
-  "link": "https://zadarska-policija.gov.hr/vijesti/u-preku-kod-dvojice-vozaca-utvrdjeni-prometni-prekrsaji/18902",
-  "date": "2026-11-24T14:30:59.108399+00:00",
-  "summary": "Policija je neodgovorne vozače isključila iz prometa",
-  "image": "https://zadarska-policija.gov.hr/UserDocsImages//2024/POLICIJA/12.jpg",
-  "source": "Policija Zadar",
-  "topics": [
-   "Otoci"
-  ],
-  "source_url": "https://zadarska-policija.gov.hr/vijesti/8",
-  "face": null,
-  "face_img": "https://zadarska-policija.gov.hr/UserDocsImages//2024/POLICIJA/12.jpg"
- },
- {
-  "title": "Prijavljen zbog krađe",
-  "link": "https://zadarska-policija.gov.hr/vijesti/prijavljen-zbog-kradje-18901/18901",
-  "date": "2026-11-24T14:30:59.108399+00:00",
-  "summary": "",
-  "image": "https://zadarska-policija.gov.hr/UserDocsImages//2024/POLICIJA/369.jpg",
-  "source": "Policija Zadar",
-  "topics": [],
-  "source_url": "https://zadarska-policija.gov.hr/vijesti/8",
-  "face": null,
-  "face_img": "https://zadarska-policija.gov.hr/UserDocsImages//2024/POLICIJA/369.jpg"
- },
- {
   "title": "Luka Božić o povratku u Zadar: Mislim da to u ovom trenutku nije realno",
   "link": "https://ezadar.net.hr/sport/3592134/luka-bozic-o-povratku-u-zadar-mislim-da-to-u-ovom-trenutku-nije-realno/",
   "date": "2026-11-24T14:27:00+00:00",
@@ -1480,6 +1454,89 @@
   "face_img": "https://www.antenazadar.hr/wp-content/uploads/2026/11/WhatsApp-Image-2026-11-23-at-14.34.02-1.jpeg"
  },
  {
+  "title": "U Preku kod dvojice vozača utvrđeni prometni prekršaji",
+  "link": "https://zadarska-policija.gov.hr/vijesti/u-preku-kod-dvojice-vozaca-utvrdjeni-prometni-prekrsaji/18902",
+  "date": "2026-11-24T11:00:00+00:00",
+  "summary": "Policija je neodgovorne vozače isključila iz prometa",
+  "image": "https://zadarska-policija.gov.hr/UserDocsImages//2024/POLICIJA/12.jpg",
+  "source": "Policija Zadar",
+  "topics": [
+   "Otoci"
+  ],
+  "source_url": "https://zadarska-policija.gov.hr/vijesti/8",
+  "face": null,
+  "face_img": "https://zadarska-policija.gov.hr/UserDocsImages//2024/POLICIJA/12.jpg"
+ },
+ {
+  "title": "Prijavljen zbog krađe",
+  "link": "https://zadarska-policija.gov.hr/vijesti/prijavljen-zbog-kradje-18901/18901",
+  "date": "2026-11-24T11:00:00+00:00",
+  "summary": "",
+  "image": "https://zadarska-policija.gov.hr/UserDocsImages//2024/POLICIJA/369.jpg",
+  "source": "Policija Zadar",
+  "topics": [],
+  "source_url": "https://zadarska-policija.gov.hr/vijesti/8",
+  "face": null,
+  "face_img": "https://zadarska-policija.gov.hr/UserDocsImages//2024/POLICIJA/369.jpg"
+ },
+ {
+  "title": "Računalne prijevare: Ne otvarajte sumnjive poveznice",
+  "link": "https://zadarska-policija.gov.hr/vijesti/racunalne-prijevare-ne-otvarajte-sumnjive-poveznice-18900/18900",
+  "date": "2026-11-24T11:00:00+00:00",
+  "summary": "Zadarska policija je jučer zaprimila dvije prijave građana koji su postali žrtve računalne prijevare",
+  "image": "https://zadarska-policija.gov.hr/UserDocsImages//2024/internet.jpg",
+  "source": "Policija Zadar",
+  "topics": [
+   "Zadar"
+  ],
+  "source_url": "https://zadarska-policija.gov.hr/vijesti/8",
+  "face": null,
+  "face_img": "https://zadarska-policija.gov.hr/UserDocsImages//2024/internet.jpg"
+ },
+ {
+  "title": "Sažetak dnevnih događanja PU zadarske, 24. 11.",
+  "link": "https://zadarska-policija.gov.hr/vijesti/sazetak-dnevnih-dogadjanja-18899/18899",
+  "date": "2026-11-24T11:00:00+00:00",
+  "summary": "",
+  "image": "https://zadarska-policija.gov.hr/UserDocsImages//2023/POLICIJA/200.jpg",
+  "source": "Policija Zadar",
+  "topics": [
+   "Zadar"
+  ],
+  "source_url": "https://zadarska-policija.gov.hr/vijesti/8",
+  "face": null,
+  "face_img": "https://zadarska-policija.gov.hr/UserDocsImages//2023/POLICIJA/200.jpg"
+ },
+ {
+  "title": "Pag: Muškarac osumnjičen za ubojstvo u pokušaju",
+  "link": "https://zadarska-policija.gov.hr/vijesti/pag-muskarac-osumnjicen-za-ubojstvo-u-pokusaju/18898",
+  "date": "2026-11-24T11:00:00+00:00",
+  "summary": "Osumnjičeni 38-godišnjak je predan pritvorskom nadzorniku Policijske uprave zadarske",
+  "image": "https://zadarska-policija.gov.hr/UserDocsImages//2023/POLICIJA/krim%202.jpg",
+  "source": "Policija Zadar",
+  "topics": [
+   "Zadar",
+   "Otoci"
+  ],
+  "source_url": "https://zadarska-policija.gov.hr/vijesti/8",
+  "face": null,
+  "face_img": "https://zadarska-policija.gov.hr/UserDocsImages//2023/POLICIJA/krim%202.jpg"
+ },
+ {
+  "title": "Rezultati pojačanih aktivnosti u prometu tijekom vikenda",
+  "link": "https://zadarska-policija.gov.hr/vijesti/rezultati-pojacanih-aktivnosti-u-prometu-tijekom-vikenda-18897/18897",
+  "date": "2026-11-24T11:00:00+00:00",
+  "summary": "Zadarska policija utvrdila 268 prometnih prekršaja, dok je kontrolom obuhvaćeno ukupno 1014 vozača",
+  "image": "https://zadarska-policija.gov.hr/UserDocsImages//2023/POLICIJA/policija%2055.jpg",
+  "source": "Policija Zadar",
+  "topics": [
+   "Zadar"
+  ],
+  "source_url": "https://zadarska-policija.gov.hr/vijesti/8",
+  "face": null,
+  "face_img": "https://zadarska-policija.gov.hr/UserDocsImages//2023/POLICIJA/policija%2055.jpg"
+ },
+ {
   "title": "Gledajte uživo Svečanu sjednicu Grada Zadra povodom Dana grada i blagdana sv. Krševana",
   "link": "https://023.hr/2026/11/gledajte-uzivo-svecanu-sjednicu-grada-zadra-povodom-dana-grada-i-blagdana-sv-krsevana/",
   "date": "2026-11-24T10:57:36+00:00",
@@ -2103,34 +2160,6 @@
   "face_img": "https://023.hr/wp-content/uploads/2026/11/20261124100028_297166-scaled.avif"
  },
  {
-  "title": "Računalne prijevare: Ne otvarajte sumnjive poveznice",
-  "link": "https://zadarska-policija.gov.hr/vijesti/racunalne-prijevare-ne-otvarajte-sumnjive-poveznice-18900/18900",
-  "date": "2026-11-24T09:01:28.428187+00:00",
-  "summary": "Zadarska policija je jučer zaprimila dvije prijave građana koji su postali žrtve računalne prijevare",
-  "image": "https://zadarska-policija.gov.hr/UserDocsImages//2024/internet.jpg",
-  "source": "Policija Zadar",
-  "topics": [
-   "Zadar"
-  ],
-  "source_url": "https://zadarska-policija.gov.hr/vijesti/8",
-  "face": null,
-  "face_img": "https://zadarska-policija.gov.hr/UserDocsImages//2024/internet.jpg"
- },
- {
-  "title": "Sažetak dnevnih događanja PU zadarske, 24. 11.",
-  "link": "https://zadarska-policija.gov.hr/vijesti/sazetak-dnevnih-dogadjanja-18899/18899",
-  "date": "2026-11-24T09:01:28.428187+00:00",
-  "summary": "",
-  "image": "https://zadarska-policija.gov.hr/UserDocsImages//2023/POLICIJA/200.jpg",
-  "source": "Policija Zadar",
-  "topics": [
-   "Zadar"
-  ],
-  "source_url": "https://zadarska-policija.gov.hr/vijesti/8",
-  "face": null,
-  "face_img": "https://zadarska-policija.gov.hr/UserDocsImages//2023/POLICIJA/200.jpg"
- },
- {
   "title": "Koncertni Advent u Zadru otvara Mladen Grdović",
   "link": "https://ezadar.net.hr/zabava/3587926/koncertni-advent-u-zadru-otvara-mladen-grdovic/",
   "date": "2026-11-24T09:00:00+00:00",
@@ -2216,21 +2245,6 @@
   "source_url": "https://net.hr/",
   "face": null,
   "face_img": "https://net.hr/media/2026/11/23/1640955/H-7c1c0c23-0d26-4f48-940b-bebece94676f-1200.webp"
- },
- {
-  "title": "Pag: Muškarac osumnjičen za ubojstvo u pokušaju",
-  "link": "https://zadarska-policija.gov.hr/vijesti/pag-muskarac-osumnjicen-za-ubojstvo-u-pokusaju/18898",
-  "date": "2026-11-24T08:45:46.558524+00:00",
-  "summary": "Osumnjičeni 38-godišnjak je predan pritvorskom nadzorniku Policijske uprave zadarske",
-  "image": "https://zadarska-policija.gov.hr/UserDocsImages//2023/POLICIJA/krim%202.jpg",
-  "source": "Policija Zadar",
-  "topics": [
-   "Zadar",
-   "Otoci"
-  ],
-  "source_url": "https://zadarska-policija.gov.hr/vijesti/8",
-  "face": null,
-  "face_img": "https://zadarska-policija.gov.hr/UserDocsImages//2023/POLICIJA/krim%202.jpg"
  },
  {
   "title": "U Transilvaniji se konačno našli na pravoj strani šume",
@@ -2539,20 +2553,6 @@
   "source_url": "https://www.dalmacijadanas.hr/",
   "face": null,
   "face_img": "https://www.dalmacijadanas.hr/wp-content/uploads/2026/11/Naslovna.webp"
- },
- {
-  "title": "Rezultati pojačanih aktivnosti u prometu tijekom vikenda",
-  "link": "https://zadarska-policija.gov.hr/vijesti/rezultati-pojacanih-aktivnosti-u-prometu-tijekom-vikenda-18897/18897",
-  "date": "2026-11-24T07:45:40.784468+00:00",
-  "summary": "Zadarska policija utvrdila 268 prometnih prekršaja, dok je kontrolom obuhvaćeno ukupno 1014 vozača",
-  "image": "https://zadarska-policija.gov.hr/UserDocsImages//2023/POLICIJA/policija%2055.jpg",
-  "source": "Policija Zadar",
-  "topics": [
-   "Zadar"
-  ],
-  "source_url": "https://zadarska-policija.gov.hr/vijesti/8",
-  "face": null,
-  "face_img": "https://zadarska-policija.gov.hr/UserDocsImages//2023/POLICIJA/policija%2055.jpg"
  },
  {
   "title": "Grad Biograd na Moru uz potporu Ministarstva demografije i useljeništva uređuje dječja igrališta",
