@@ -1,5 +1,57 @@
 [
  {
+  "title": "Bačić najavio nove projekte za priuštivo stanovanje, evo gdje se grade stotine stanova",
+  "link": "https://n1info.hr/vijesti/novi-projekti-stanogradnje-u-zadru-220-stanova-do-2026/",
+  "date": "2026-11-24T14:37:05+00:00",
+  "summary": "U sklopu programa priuštivog stanovanja u Zadru bi iduće godine trebala početi realizacija projekata na tri lokacije, najavio je u utorak na sjednici",
+  "image": "https://n1info.hr/media/images/2026/10/13/1791881023_Naselje_A._Hebranga_BLOK_8_Sl._Brod.width-1200.jpg",
+  "source": "N1",
+  "topics": [
+   "Zadar"
+  ],
+  "source_url": "https://n1info.hr/",
+  "face": null,
+  "face_img": "https://n1info.hr/media/images/2026/10/13/1791881023_Naselje_A._Hebranga_BLOK_8_Sl._Brod.width-1200.jpg"
+ },
+ {
+  "title": "Zadar kreće u projekte priuštivog stanovanja, evo gdje bi se trebali graditi novi stanovi",
+  "link": "https://www.tportal.hr/vijesti/clanak/zadar-krece-u-projekte-priustivog-stanovanja-evo-gdje-bi-se-trebali-graditi-novi-stanovi-20261124",
+  "date": "2026-11-24T14:36:00+00:00",
+  "summary": "U sklopu programa priuštivog stanovanja u Zadru bi iduće godine trebala početi realizacija projekata na tri lokacije, najavio je u utorak na sjednici Gradskog vijeća u povodu Dana Grada Zadra i blagdana sv. Krševana ministar prostornog uređenja i graditeljstva Branko Bačić",
+  "image": "https://www.tportal.hr/media/thumbnail/500x300/2831958.jpeg?cropId=0",
+  "source": "tportal",
+  "topics": [
+   "Zadar"
+  ],
+  "source_url": "https://www.tportal.hr/",
+  "face": [
+   9.1,
+   41.7,
+   40.2,
+   51.5
+  ],
+  "face_img": "https://www.tportal.hr/media/thumbnail/500x300/2831958.jpeg?cropId=0"
+ },
+ {
+  "title": "Ministar Bačić u Zadru najavio projekte za priuštivo stanovanje",
+  "link": "https://vijesti.hrt.hr/hrvatska/ministar-bacic-u-zadru-najavio-projekte-za-priustivo-stanovanje-13025955",
+  "date": "2026-11-24T14:32:39+00:00",
+  "summary": "U sklopu programa priuštivog stanovanja u Zadru bi iduće godine trebala početi realizacija projekata na tri lokacije, najavio je u utorak na sjednici Gradskog vijeća u povodu Dana Grada Zadra i blagdana sv. Krševana ministar prostornog uređenja i graditeljstva Branko Bačić.",
+  "image": "https://api.hrt.hr/media/c1/9e/740x438-pxl-231126-163020912-20261124143217.jpg",
+  "source": "HRT",
+  "topics": [
+   "Zadar"
+  ],
+  "source_url": "https://vijesti.hrt.hr/",
+  "face": [
+   4.8,
+   63.3,
+   38.9,
+   59.8
+  ],
+  "face_img": "https://api.hrt.hr/media/c1/9e/740x438-pxl-231126-163020912-20261124143217.jpg"
+ },
+ {
   "title": "U Preku kod dvojice vozača utvrđeni prometni prekršaji",
   "link": "https://zadarska-policija.gov.hr/vijesti/u-preku-kod-dvojice-vozaca-utvrdjeni-prometni-prekrsaji/18902",
   "date": "2026-11-24T14:30:59.108399+00:00",
@@ -578,25 +630,6 @@
    59.3
   ],
   "face_img": "https://www.antenazadar.hr/wp-content/uploads/2026/11/grad_02.jpg"
- },
- {
-  "title": "Dalmatinska fešta za početak Adventa: Zadar pripremio bogat blagdanski program",
-  "link": "https://www.tportal.hr/lifestyle/clanak/dalmatinska-festa-za-pocetak-adventa-zadar-pripremio-bogat-blagdanski-program-20261124",
-  "date": "2026-11-24T11:52:00+00:00",
-  "summary": "Koncertom Mladena Grdovića večeras, 24. studenoga, na Trgu Petra Zoranića počinje ovogodišnji Advent u Zadru, koji će trajati sve do 2. siječnja 2027. godine.",
-  "image": "https://www.tportal.hr/media/thumbnail/500x300/2826561.jpeg?cropId=0",
-  "source": "tportal",
-  "topics": [
-   "Zadar"
-  ],
-  "source_url": "https://www.tportal.hr/",
-  "face": [
-   20.9,
-   50.6,
-   39.2,
-   49.3
-  ],
-  "face_img": "https://www.tportal.hr/media/thumbnail/500x300/2826561.jpeg?cropId=0"
  },
  {
   "title": "Ubio majku i baku, policija bila u kući par sati prije zločina! Otac od države tražio 80.000 €, Vrhovni sud okončao spor",
@@ -4959,36 +4992,6 @@
   "face_img": "https://www.antenazadar.hr/wp-content/uploads/2026/11/WhatsApp-Image-2026-11-20-at-13.27.19.jpeg"
  },
  {
-  "title": "Od Svetog Roka do Posedarja i preko Paškog mosta samo osobni automobili, a Iž, Rava, Molat i Olib bez brodova",
-  "link": "https://023.hr/2026/11/od-svetog-roka-do-posedarja-i-preko-paskog-mosta-samo-osobni-automobili-a-iz-rava-molat-i-olib-bez-brodova/",
-  "date": "2026-11-23T05:19:58+00:00",
-  "summary": "Ne vozi ni trajekt Prizna – Žigljen, a brod za Preko vratio se na liniju polaskom iz Preka u 5.45. Struju jutros gube Briševo, Donja Murvica, Jasenice, Put Kandelica u Privlaci i Ulica Celestina Medovića u Zadru.",
-  "image": "https://023.hr/wp-content/uploads/2025/03/20250313095003_129332.webp",
-  "source": "023 portal",
-  "topics": [
-   "Zadar",
-   "Županija",
-   "Otoci"
-  ],
-  "source_url": "https://023.hr/",
-  "face": null,
-  "face_img": "https://023.hr/wp-content/uploads/2025/03/20250313095003_129332.webp"
- },
- {
-  "title": "Bura danas rastjeruje oblake, a u srijedu nad Zadar stiže obilna kiša s grmljavinom",
-  "link": "https://023.hr/2026/11/bura-danas-rastjeruje-oblake-a-u-srijedu-nad-zadar-stize-obilna-kisa-s-grmljavinom/",
-  "date": "2026-11-23T04:01:17+00:00",
-  "summary": "Nakon kišne noći dan se razvedrava i donosi malo sunca. Utorak će biti najljepši dan u tjednu, a zatim se vrijeme brzo kvari. Ponedjeljak je počeo oblačno, uz slabu kišu u noćnim satima.",
-  "image": "https://023.hr/wp-content/uploads/2024/07/20240724101857_427963-jpg.webp",
-  "source": "023 portal",
-  "topics": [
-   "Zadar"
-  ],
-  "source_url": "https://023.hr/",
-  "face": null,
-  "face_img": "https://023.hr/wp-content/uploads/2024/07/20240724101857_427963-jpg.webp"
- },
- {
   "title": "Zadar slavio na gostovanju u Rumunjskoj i stigao do važne pobjede u ABA ligi",
   "link": "https://sportklub.hr/kosarka/aba-league/zadar-slavio-na-gostovanju-u-rumunjskoj-i-stigao-do-vazne-pobjede-u-aba-ligi/",
   "date": "2026-11-22T19:02:51+00:00",
@@ -5029,20 +5032,6 @@
    41.5
   ],
   "face_img": "https://media.jutarnji.hr/images/slike/2026/11/22/f_40014711_1280.jpg?1795438873"
- },
- {
-  "title": "Vlada dala zeleno svjetlo za nova zaduženja: Poznato za što i o kojim je iznosima riječ",
-  "link": "https://n1info.hr/biznis/zaduuju-se-hrvatske-ceste-senj-te-opine-radoboj-davor-te-sveti-filip-i-jakov/",
-  "date": "2026-11-22T08:21:26+00:00",
-  "summary": "Uz suglasnost Vlade kod banaka će se zadužiti Grad Senj, općine Radoboj, Davor te Sveti Filip i Jakov, kao i Hrvatske ceste kako bi financirali svoje",
-  "image": "https://n1info.hr/media/images/2026/11/22/1795335620_PXL_070426_149666508.width-1200.jpg",
-  "source": "N1",
-  "topics": [
-   "Županija"
-  ],
-  "source_url": "https://n1info.hr/",
-  "face": null,
-  "face_img": "https://n1info.hr/media/images/2026/11/22/1795335620_PXL_070426_149666508.width-1200.jpg"
  },
  {
   "title": "VIKEND NA VIŠNJIKU –  Košarka, nogomet, odbojka…",
