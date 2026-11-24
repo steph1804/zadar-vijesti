@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-24T06:15:45.304838+00:00",
+ "updated": "2026-11-24T06:31:04.297781+00:00",
  "sources": [
   {
    "name": "Antena Zadar",
@@ -38,7 +38,7 @@
   },
   {
    "name": "BNM portal",
-   "count": 8,
+   "count": 9,
    "ok": true,
    "feed": null,
    "errors": []
@@ -208,8 +208,8 @@
   },
   {
    "name": "HRT",
-   "count": 1,
-   "ok": true,
+   "count": 0,
+   "ok": false,
    "feed": null,
    "errors": []
   },
