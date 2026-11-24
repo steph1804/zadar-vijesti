@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-24T12:01:20.247889+00:00",
+ "updated": "2026-11-24T12:15:43.567660+00:00",
  "sources": [
   {
    "name": "Antena Zadar",
@@ -107,7 +107,7 @@
    "ok": false,
    "feed": null,
    "errors": [
-    "https://www.unizd.hr/obavijesti/novosti: <urlopen error [Errno 104] Connection reset by peer>"
+    "https://www.unizd.hr/obavijesti/novosti: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1011)>"
    ]
   },
   {
