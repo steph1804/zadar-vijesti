@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-24T02:45:51.851781+00:00",
+ "updated": "2026-11-24T03:01:14.605632+00:00",
  "sources": [
   {
    "name": "Antena Zadar",
@@ -73,17 +73,21 @@
   },
   {
    "name": "Naši školji",
-   "count": 10,
-   "ok": true,
+   "count": 0,
+   "ok": false,
    "feed": null,
-   "errors": []
+   "errors": [
+    "https://www.nasiskolji.hr/feed/: <urlopen error timed out>"
+   ]
   },
   {
    "name": "Grad Zadar",
-   "count": 10,
-   "ok": true,
+   "count": 0,
+   "ok": false,
    "feed": null,
-   "errors": []
+   "errors": [
+    "https://www.grad-zadar.hr/rss/vijesti-s-pocetne-stranice-0.xml: <urlopen error _ssl.c:994: The handshake operation timed out>"
+   ]
   },
   {
    "name": "Zadarska županija",
@@ -110,10 +114,12 @@
   },
   {
    "name": "Čistoća Zadar",
-   "count": 10,
-   "ok": true,
+   "count": 0,
+   "ok": false,
    "feed": null,
-   "errors": []
+   "errors": [
+    "https://www.cistoca-zadar.hr/novosti/novosti-1/: <urlopen error _ssl.c:994: The handshake operation timed out>"
+   ]
   },
   {
    "name": "Opća bolnica Zadar",
