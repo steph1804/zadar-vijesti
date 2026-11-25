@@ -147,18 +147,18 @@
   },
   {
    "day": "26.11.2026",
-   "place": "Vir",
-   "street": "Miljkovica XIV",
-   "note": "Povremeni prekidi",
-   "time": "08:00 - 11:00",
-   "unplanned": false
-  },
-  {
-   "day": "26.11.2026",
    "place": "Obrovac, Žegar, Muškovci, Zaton Obrovački, Golubić, Krupa, Bilišane, Medviđa i Zelengrad",
    "street": "cijela mjesta",
    "note": "",
    "time": "09:00 - 12:00",
+   "unplanned": false
+  },
+  {
+   "day": "26.11.2026",
+   "place": "Ljubač",
+   "street": "Dio mjesta oko uljare(Oseka)",
+   "note": "",
+   "time": "08:00 - 13:00",
    "unplanned": false
   },
   {
@@ -179,18 +179,10 @@
   },
   {
    "day": "26.11.2026",
-   "place": "Olib",
-   "street": "cijelo mjesto",
-   "note": "",
-   "time": "10:00 - 15:00",
-   "unplanned": false
-  },
-  {
-   "day": "26.11.2026",
-   "place": "Ljubač",
-   "street": "Dio mjesta oko uljare(Oseka)",
-   "note": "",
-   "time": "08:00 - 13:00",
+   "place": "Vir",
+   "street": "Miljkovica XIV",
+   "note": "Povremeni prekidi",
+   "time": "08:00 - 11:00",
    "unplanned": false
   }
  ],
