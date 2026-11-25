@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-25T09:01:18.323232+00:00",
+ "updated": "2026-11-25T09:15:45.930494+00:00",
  "sources": [
   {
    "name": "Antena Zadar",
@@ -45,7 +45,7 @@
   },
   {
    "name": "023 portal",
-   "count": 7,
+   "count": 8,
    "ok": true,
    "feed": null,
    "errors": []
@@ -145,7 +145,7 @@
   },
   {
    "name": "Jadrolinija",
-   "count": 1,
+   "count": 2,
    "ok": true,
    "feed": null,
    "errors": []
@@ -201,8 +201,8 @@
   },
   {
    "name": "Novi list",
-   "count": 0,
-   "ok": false,
+   "count": 1,
+   "ok": true,
    "feed": null,
    "errors": []
   },
