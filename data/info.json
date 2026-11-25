@@ -1,16 +1,16 @@
 {
  "Jadrolinija": [
   {
-   "title": "Linije u prekidu 25.11.2026.",
-   "link": "https://www.jadrolinija.hr/news-single/linije-u-prekidu-25112026",
-   "date": "2026-11-24T18:32:00+00:00",
-   "summary": "Red plovidbe u srijedu, 25.11.2026"
-  },
-  {
    "title": "Linije u prekidu 26.11.2026.",
    "link": "https://www.jadrolinija.hr/news-single/linije-u-prekidu-26112026",
    "date": "2026-11-25T10:03:00+00:00",
    "summary": "Red plovidbe za četvrtak 26.11.2026."
+  },
+  {
+   "title": "Linije u prekidu 25.11.2026.",
+   "link": "https://www.jadrolinija.hr/news-single/linije-u-prekidu-25112026",
+   "date": "2026-11-24T18:32:00+00:00",
+   "summary": "Red plovidbe u srijedu, 25.11.2026"
   }
  ],
  "buses": [
@@ -105,11 +105,11 @@
  "power": [
   {
    "day": "25.11.2026",
-   "place": "Vir",
-   "street": "Put Žitne",
-   "note": "Povremeni prekidi",
-   "time": "08:00 - 10:00",
-   "unplanned": false
+   "place": "Vrana i Radašinovci",
+   "street": "",
+   "note": "Vrana predio Oton i cijelo mjesto Radašinovci. - kvar na dalekovodu",
+   "time": "13:00 - 16:00",
+   "unplanned": true
   },
   {
    "day": "25.11.2026",
@@ -117,6 +117,14 @@
    "street": "Žitna 53",
    "note": "Povremeni prekidi",
    "time": "10:00 - 13:00",
+   "unplanned": false
+  },
+  {
+   "day": "25.11.2026",
+   "place": "Vir",
+   "street": "Put Žitne",
+   "note": "Povremeni prekidi",
+   "time": "08:00 - 10:00",
    "unplanned": false
   },
   {
