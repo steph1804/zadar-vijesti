@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-25T04:49:28.886169+00:00",
+ "updated": "2026-11-25T05:01:10.434464+00:00",
  "sources": [
   {
    "name": "Antena Zadar",
@@ -59,12 +59,10 @@
   },
   {
    "name": "KK Zadar",
-   "count": 0,
-   "ok": false,
-   "feed": "https://kkzadar.hr/feed/",
-   "errors": [
-    "https://kkzadar.hr/feed/: HTTP Error 503: Service Unavailable"
-   ]
+   "count": 10,
+   "ok": true,
+   "feed": null,
+   "errors": []
   },
   {
    "name": "SC Višnjik",
@@ -75,12 +73,10 @@
   },
   {
    "name": "Naši školji",
-   "count": 0,
-   "ok": false,
+   "count": 10,
+   "ok": true,
    "feed": null,
-   "errors": [
-    "https://www.nasiskolji.hr/feed/: <urlopen error timed out>"
-   ]
+   "errors": []
   },
   {
    "name": "Grad Zadar",
@@ -149,7 +145,7 @@
   },
   {
    "name": "Jadrolinija",
-   "count": 2,
+   "count": 1,
    "ok": true,
    "feed": null,
    "errors": []
