@@ -5,12 +5,6 @@
    "link": "https://www.jadrolinija.hr/news-single/linije-u-prekidu-26112026",
    "date": "2026-11-25T10:03:00+00:00",
    "summary": "Red plovidbe za četvrtak 26.11.2026."
-  },
-  {
-   "title": "Linije u prekidu 25.11.2026.",
-   "link": "https://www.jadrolinija.hr/news-single/linije-u-prekidu-25112026",
-   "date": "2026-11-24T18:32:00+00:00",
-   "summary": "Red plovidbe u srijedu, 25.11.2026"
   }
  ],
  "buses": [
@@ -41,30 +35,6 @@
   }
  ],
  "flights": [
-  {
-   "dir": "dolazak",
-   "flight": "OU675",
-   "airline": "Croatia Airlines",
-   "city": "Zagreb",
-   "via": "Pula",
-   "time": "2026-11-25T15:50:00",
-   "est": "2026-11-25T15:57:00",
-   "act": "2026-11-25T15:59:00",
-   "status": "Landed",
-   "gate": ""
-  },
-  {
-   "dir": "odlazak",
-   "flight": "OU675",
-   "airline": "Croatia Airlines",
-   "city": "Zagreb",
-   "via": "",
-   "time": "2026-11-25T16:20:00",
-   "est": "2026-11-25T16:20:00",
-   "act": "2026-11-25T16:20:00",
-   "status": "Departed",
-   "gate": "07"
-  },
   {
    "dir": "dolazak",
    "flight": "OU674",
@@ -100,41 +70,45 @@
    "act": "",
    "status": "",
    "gate": ""
+  },
+  {
+   "dir": "odlazak",
+   "flight": "OU4674",
+   "airline": "Croatia Airlines",
+   "city": "Munich",
+   "via": "",
+   "time": "2026-11-27T06:30:00",
+   "est": "2026-11-27T06:30:00",
+   "act": "",
+   "status": "",
+   "gate": ""
+  },
+  {
+   "dir": "dolazak",
+   "flight": "OU4675",
+   "airline": "Croatia Airlines",
+   "city": "Munich",
+   "via": "",
+   "time": "2026-11-27T15:10:00",
+   "est": "2026-11-27T15:10:00",
+   "act": "",
+   "status": "",
+   "gate": ""
+  },
+  {
+   "dir": "odlazak",
+   "flight": "OU674",
+   "airline": "Croatia Airlines",
+   "city": "Zagreb",
+   "via": "Pula",
+   "time": "2026-11-27T15:40:00",
+   "est": "2026-11-27T15:40:00",
+   "act": "",
+   "status": "",
+   "gate": ""
   }
  ],
  "power": [
-  {
-   "day": "25.11.2026",
-   "place": "Vrana i Radašinovci",
-   "street": "",
-   "note": "Vrana predio Oton i cijelo mjesto Radašinovci. - kvar na dalekovodu",
-   "time": "13:00 - 16:00",
-   "unplanned": true
-  },
-  {
-   "day": "25.11.2026",
-   "place": "Vir",
-   "street": "Žitna 53",
-   "note": "Povremeni prekidi",
-   "time": "10:00 - 13:00",
-   "unplanned": false
-  },
-  {
-   "day": "25.11.2026",
-   "place": "Vir",
-   "street": "Put Žitne",
-   "note": "Povremeni prekidi",
-   "time": "08:00 - 10:00",
-   "unplanned": false
-  },
-  {
-   "day": "25.11.2026",
-   "place": "Zadar",
-   "street": "Celestina Medovića",
-   "note": "",
-   "time": "08:30 - 12:30",
-   "unplanned": false
-  },
   {
    "day": "26.11.2026",
    "place": "Sukošan",
@@ -197,6 +171,22 @@
    "street": "Miljkovica XIV",
    "note": "Povremeni prekidi",
    "time": "08:00 - 11:00",
+   "unplanned": false
+  },
+  {
+   "day": "27.11.2026",
+   "place": "Galovac",
+   "street": "Južni dio naselja Jošani",
+   "note": "",
+   "time": "08:30 - 12:00",
+   "unplanned": false
+  },
+  {
+   "day": "27.11.2026",
+   "place": "Zadar",
+   "street": "Rampada",
+   "note": "",
+   "time": "08:30 - 12:00",
    "unplanned": false
   }
  ],
@@ -504,7 +494,7 @@
  ],
  "videos": {
   "v": 2,
-  "fetched": "2026-11-25T22:02:33.855505+00:00",
+  "fetched": "2026-11-25T23:02:31.948676+00:00",
   "items": [
    {
     "id": "OMAY2muUcaQ",

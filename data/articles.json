@@ -4,7 +4,7 @@
   "link": "https://www.jutarnji.hr/sportske/kosarka/aba-liga/zadar-trijumfom-protiv-partizana-preokrenuo-momentum-sezone-ali-i-otvorio-neka-stara-pitanja-15768874",
   "date": "2026-11-25T21:23:58+00:00",
   "summary": "\"Možda se probudi neka iskra, dišpet pa Modrićeve trupe, u utakmici u kojoj nemaju što izgubiti, preokrenu momentum sezone”, bile su ovo riječi iz posljednjeg teksta pred utakmicu s Partizanom. I bijaše taj tekst nešto oštrije nabrušen. S kritikama prema onome što smo vidjeli od Zadra na početku sez...",
-  "image": "https://media.jutarnji.hr/images/slike/2026/11/25/f_39966462_1280.jpg?1795646643",
+  "image": "https://media.jutarnji.hr/images/slike/2026/11/25/f_39966462_1280.jpg?1795647385",
   "source": "Sportske novosti",
   "source_topic": "Sport",
   "topics": [
@@ -18,7 +18,7 @@
    23.4,
    88.9
   ],
-  "face_img": "https://media.jutarnji.hr/images/slike/2026/11/25/f_39966462_1280.jpg?1795646643"
+  "face_img": "https://media.jutarnji.hr/images/slike/2026/11/25/f_39966462_1280.jpg?1795647385"
  },
  {
   "title": "PREGLED DANA Načelnik Pakoštana natječaj potpisao bez čitanja, na Ugljanu novi problemi s divljači, Zadar dobio 13-metarsku jelku",
@@ -870,25 +870,6 @@
   "face_img": "https://api.hrt.hr/media/fb/a7/img20240724134827-20261125135226.webp"
  },
  {
-  "title": "Zajedničke aktivnosti povodom obilježavanja Međunarodnog dana borbe protiv nasilja nad ženama u srednjim školama u Zadru",
-  "link": "https://zadarska-policija.gov.hr/vijesti/zajednicke-aktivnosti-povodom-obiljezavanja-medjunarodnog-dana-borbe-protiv-nasilja-nad-zenama-u-srednjim-skolama-u-zadru/18908",
-  "date": "2026-11-25T13:52:05.981067+00:00",
-  "summary": "Tijekom predavanja učenici su educirani o mitovima o nasilju u našem društvu i o stvarnim činjenicama koje prate ovaj problem te na koji način nasilje prijaviti policiji",
-  "image": "https://zadarska-policija.gov.hr/UserDocsImages//2026/PREVENCIJA/nasilje%20EBT%20nasl.jpg",
-  "source": "Policija Zadar",
-  "topics": [
-   "Zadar"
-  ],
-  "source_url": "https://zadarska-policija.gov.hr/vijesti/8",
-  "face": [
-   32.8,
-   40.9,
-   60.7,
-   82.2
-  ],
-  "face_img": "https://zadarska-policija.gov.hr/UserDocsImages//2026/PREVENCIJA/nasilje%20EBT%20nasl.jpg"
- },
- {
   "title": "Dvojica na ulici u Zadru prebila poznanika, teško ozlijeđen završio u bolnici. Bili su pijani, sve je krenulo svađom...",
   "link": "https://slobodnadalmacija.hr/dalmacija/zadar/dvojica-na-ulici-u-zadru-prebila-poznanika-tesko-ozlijeden-zavrsio-u-bolnici-bili-su-pijani-sve-je-krenulo-svadom-1592327",
   "date": "2026-11-25T13:31:00+00:00",
@@ -1313,34 +1294,6 @@
   "source_url": "https://ezadar.net.hr/",
   "face": null,
   "face_img": "https://cdn-ezadar.net.hr/wp-content/uploads/whatsapp-image-2026-11-25-at-13-08-58-7cc51681253de91237940d66-1052x696.jpeg"
- },
- {
-  "title": "Vozač izazvao prometnu nesreću i udaljio se s mjesta događaja, vozio pod utjecajem alkohola - doveden na sud",
-  "link": "https://zadarska-policija.gov.hr/vijesti/vozac-izazvao-prometnu-nesrecu-i-udaljio-se-s-mjesta-dogadjaja-vozio-pod-utjecajem-alkohola-doveden-na-sud/18907",
-  "date": "2026-11-25T12:15:47.891626+00:00",
-  "summary": "Vozaču je određena mjera zadržavanja u zatvoru u trajanju od 10 dana nakon čega je predan u Zatvor u Zadru",
-  "image": "https://zadarska-policija.gov.hr/UserDocsImages//2023/POLICIJA/policija%205.jpg",
-  "source": "Policija Zadar",
-  "topics": [
-   "Zadar"
-  ],
-  "source_url": "https://zadarska-policija.gov.hr/vijesti/8",
-  "face": null,
-  "face_img": "https://zadarska-policija.gov.hr/UserDocsImages//2023/POLICIJA/policija%205.jpg"
- },
- {
-  "title": "Dvojica muškaraca osumnjičena za kazneno djelo teška tjelesna ozljeda",
-  "link": "https://zadarska-policija.gov.hr/vijesti/dvojica-muskaraca-osumnjicena-za-kazneno-djelo-teska-tjelesna-ozljeda/18906",
-  "date": "2026-11-25T12:15:47.891626+00:00",
-  "summary": "Nakon provedenog kriminalističkog istraživanja predana su pritvorskom nadzorniku Policijske uprave zadarske",
-  "image": "https://zadarska-policija.gov.hr/UserDocsImages//2023/POLICIJA/policija%20natpis4.jpg",
-  "source": "Policija Zadar",
-  "topics": [
-   "Zadar"
-  ],
-  "source_url": "https://zadarska-policija.gov.hr/vijesti/8",
-  "face": null,
-  "face_img": "https://zadarska-policija.gov.hr/UserDocsImages//2023/POLICIJA/policija%20natpis4.jpg"
  },
  {
   "title": "U Područnoj školi Turanj održana velika vježba civilne zaštite: Učenici pokazali zavidnu spremnost",
@@ -1797,6 +1750,91 @@
   "source_url": "https://zadarskilist.novilist.hr/",
   "face": null,
   "face_img": "https://zadarskilist.novilist.hr/wp-content/uploads/2023/06/PAG-paska-cipka-na-kusinu_v0001.jpg"
+ },
+ {
+  "title": "Zajedničke aktivnosti povodom obilježavanja Međunarodnog dana borbe protiv nasilja nad ženama u srednjim školama u Zadru",
+  "link": "https://zadarska-policija.gov.hr/vijesti/zajednicke-aktivnosti-povodom-obiljezavanja-medjunarodnog-dana-borbe-protiv-nasilja-nad-zenama-u-srednjim-skolama-u-zadru/18908",
+  "date": "2026-11-25T11:00:00+00:00",
+  "summary": "Tijekom predavanja učenici su educirani o mitovima o nasilju u našem društvu i o stvarnim činjenicama koje prate ovaj problem te na koji način nasilje prijaviti policiji",
+  "image": "https://zadarska-policija.gov.hr/UserDocsImages//2026/PREVENCIJA/nasilje%20EBT%20nasl.jpg",
+  "source": "Policija Zadar",
+  "topics": [
+   "Zadar"
+  ],
+  "source_url": "https://zadarska-policija.gov.hr/vijesti/8",
+  "face": [
+   32.8,
+   40.9,
+   60.7,
+   82.2
+  ],
+  "face_img": "https://zadarska-policija.gov.hr/UserDocsImages//2026/PREVENCIJA/nasilje%20EBT%20nasl.jpg"
+ },
+ {
+  "title": "Vozač izazvao prometnu nesreću i udaljio se s mjesta događaja, vozio pod utjecajem alkohola - doveden na sud",
+  "link": "https://zadarska-policija.gov.hr/vijesti/vozac-izazvao-prometnu-nesrecu-i-udaljio-se-s-mjesta-dogadjaja-vozio-pod-utjecajem-alkohola-doveden-na-sud/18907",
+  "date": "2026-11-25T11:00:00+00:00",
+  "summary": "Vozaču je određena mjera zadržavanja u zatvoru u trajanju od 10 dana nakon čega je predan u Zatvor u Zadru",
+  "image": "https://zadarska-policija.gov.hr/UserDocsImages//2023/POLICIJA/policija%205.jpg",
+  "source": "Policija Zadar",
+  "topics": [
+   "Zadar"
+  ],
+  "source_url": "https://zadarska-policija.gov.hr/vijesti/8",
+  "face": null,
+  "face_img": "https://zadarska-policija.gov.hr/UserDocsImages//2023/POLICIJA/policija%205.jpg"
+ },
+ {
+  "title": "Dvojica muškaraca osumnjičena za kazneno djelo teška tjelesna ozljeda",
+  "link": "https://zadarska-policija.gov.hr/vijesti/dvojica-muskaraca-osumnjicena-za-kazneno-djelo-teska-tjelesna-ozljeda/18906",
+  "date": "2026-11-25T11:00:00+00:00",
+  "summary": "Nakon provedenog kriminalističkog istraživanja predana su pritvorskom nadzorniku Policijske uprave zadarske",
+  "image": "https://zadarska-policija.gov.hr/UserDocsImages//2023/POLICIJA/policija%20natpis4.jpg",
+  "source": "Policija Zadar",
+  "topics": [
+   "Zadar"
+  ],
+  "source_url": "https://zadarska-policija.gov.hr/vijesti/8",
+  "face": null,
+  "face_img": "https://zadarska-policija.gov.hr/UserDocsImages//2023/POLICIJA/policija%20natpis4.jpg"
+ },
+ {
+  "title": "Upravljao kroz naselje brzinom od 209 km/h",
+  "link": "https://zadarska-policija.gov.hr/vijesti/upravljao-kroz-naselje-brzinom-od-209-km-h/18904",
+  "date": "2026-11-25T11:00:00+00:00",
+  "summary": "Vozaču je izrečena novčana kaznu od 1.320 eura te zaštitna mjera zabrane upravljanja motornim vozilom",
+  "image": "https://zadarska-policija.gov.hr/UserDocsImages//2026/POLICIJA/Brzinomjer.jpg",
+  "source": "Policija Zadar",
+  "topics": [],
+  "source_url": "https://zadarska-policija.gov.hr/vijesti/8",
+  "face": null,
+  "face_img": "https://zadarska-policija.gov.hr/UserDocsImages//2026/POLICIJA/Brzinomjer.jpg"
+ },
+ {
+  "title": "Osumnjičen za pronevjeru",
+  "link": "https://zadarska-policija.gov.hr/vijesti/osumnjicen-za-pronevjeru-18903/18903",
+  "date": "2026-11-25T11:00:00+00:00",
+  "summary": "Otuđio povjereni mu alat vrijednosti preko tisuću eura te je kazneno prijavljen",
+  "image": "https://zadarska-policija.gov.hr/UserDocsImages//2023/POLICIJA/krim%202.jpg",
+  "source": "Policija Zadar",
+  "topics": [],
+  "source_url": "https://zadarska-policija.gov.hr/vijesti/8",
+  "face": null,
+  "face_img": "https://zadarska-policija.gov.hr/UserDocsImages//2023/POLICIJA/krim%202.jpg"
+ },
+ {
+  "title": "Sažetak dnevnih događanja PU zadarske, 25. 11.",
+  "link": "https://zadarska-policija.gov.hr/vijesti/sazetak-dnevnih-dogadjanja-18905/18905",
+  "date": "2026-11-25T11:00:00+00:00",
+  "summary": "",
+  "image": "https://zadarska-policija.gov.hr/UserDocsImages//2026/POLICIJA/policija%201.jpg",
+  "source": "Policija Zadar",
+  "topics": [
+   "Zadar"
+  ],
+  "source_url": "https://zadarska-policija.gov.hr/vijesti/8",
+  "face": null,
+  "face_img": "https://zadarska-policija.gov.hr/UserDocsImages//2026/POLICIJA/policija%201.jpg"
  },
  {
   "title": "U Zadru pregledana 54 muškarca, dr. Vidić: „Cilj preventivnih uroloških pregleda jest otkrivanje bolesti prije pojave simptoma“",
@@ -2316,44 +2354,6 @@
   "source_url": "https://www.antenazadar.hr/",
   "face": null,
   "face_img": "https://www.antenazadar.hr/wp-content/uploads/2026/11/11-005-Dron-otvorenje-Adventa-u-Zadru-24.11.2026-Foto-Matija-Lipar.jpg"
- },
- {
-  "title": "Upravljao kroz naselje brzinom od 209 km/h",
-  "link": "https://zadarska-policija.gov.hr/vijesti/upravljao-kroz-naselje-brzinom-od-209-km-h/18904",
-  "date": "2026-11-25T09:15:45.930494+00:00",
-  "summary": "Vozaču je izrečena novčana kaznu od 1.320 eura te zaštitna mjera zabrane upravljanja motornim vozilom",
-  "image": "https://zadarska-policija.gov.hr/UserDocsImages//2026/POLICIJA/Brzinomjer.jpg",
-  "source": "Policija Zadar",
-  "topics": [],
-  "source_url": "https://zadarska-policija.gov.hr/vijesti/8",
-  "face": null,
-  "face_img": "https://zadarska-policija.gov.hr/UserDocsImages//2026/POLICIJA/Brzinomjer.jpg"
- },
- {
-  "title": "Osumnjičen za pronevjeru",
-  "link": "https://zadarska-policija.gov.hr/vijesti/osumnjicen-za-pronevjeru-18903/18903",
-  "date": "2026-11-25T09:15:45.930494+00:00",
-  "summary": "Otuđio povjereni mu alat vrijednosti preko tisuću eura te je kazneno prijavljen",
-  "image": "https://zadarska-policija.gov.hr/UserDocsImages//2023/POLICIJA/krim%202.jpg",
-  "source": "Policija Zadar",
-  "topics": [],
-  "source_url": "https://zadarska-policija.gov.hr/vijesti/8",
-  "face": null,
-  "face_img": "https://zadarska-policija.gov.hr/UserDocsImages//2023/POLICIJA/krim%202.jpg"
- },
- {
-  "title": "Sažetak dnevnih događanja PU zadarske, 25. 11.",
-  "link": "https://zadarska-policija.gov.hr/vijesti/sazetak-dnevnih-dogadjanja-18905/18905",
-  "date": "2026-11-25T09:15:45.930494+00:00",
-  "summary": "",
-  "image": "https://zadarska-policija.gov.hr/UserDocsImages//2026/POLICIJA/policija%201.jpg",
-  "source": "Policija Zadar",
-  "topics": [
-   "Zadar"
-  ],
-  "source_url": "https://zadarska-policija.gov.hr/vijesti/8",
-  "face": null,
-  "face_img": "https://zadarska-policija.gov.hr/UserDocsImages//2026/POLICIJA/policija%201.jpg"
  },
  {
   "title": "IZVRSNA VIJEST Raste cenzus – zadarski umirovljenici dobit će još veće naknade!",
