@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-26T13:15:46.658805+00:00",
+ "updated": "2026-11-26T13:31:01.907693+00:00",
  "sources": [
   {
    "name": "Antena Zadar",
@@ -140,12 +140,10 @@
   },
   {
    "name": "Lučka uprava Zadar",
-   "count": 0,
-   "ok": false,
-   "feed": "https://www.port-authority-zadar.hr/feed/",
-   "errors": [
-    "https://www.port-authority-zadar.hr/feed/: The read operation timed out"
-   ]
+   "count": 6,
+   "ok": true,
+   "feed": null,
+   "errors": []
   },
   {
    "name": "Jadrolinija",
@@ -261,10 +259,12 @@
   },
   {
    "name": "Dalmacija News",
-   "count": 5,
-   "ok": true,
+   "count": 0,
+   "ok": false,
    "feed": null,
-   "errors": []
+   "errors": [
+    "https://www.dalmacijanews.hr/?s=zadar&feed=rss2: The read operation timed out"
+   ]
   },
   {
    "name": "Nacional",
