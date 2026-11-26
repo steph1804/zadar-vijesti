@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-26T01:50:30.532278+00:00",
+ "updated": "2026-11-26T02:01:15.815847+00:00",
  "sources": [
   {
    "name": "Antena Zadar",
@@ -215,9 +215,7 @@
    "count": 0,
    "ok": false,
    "feed": null,
-   "errors": [
-    "https://feed.hrt.hr/vijesti/page.xml: <urlopen error [Errno 111] Connection refused>"
-   ]
+   "errors": []
   },
   {
    "name": "Dnevnik.hr",
