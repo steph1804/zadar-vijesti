@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-26T02:01:15.815847+00:00",
+ "updated": "2026-11-26T02:15:54.353166+00:00",
  "sources": [
   {
    "name": "Antena Zadar",
@@ -73,12 +73,10 @@
   },
   {
    "name": "Naši školji",
-   "count": 0,
-   "ok": false,
+   "count": 10,
+   "ok": true,
    "feed": null,
-   "errors": [
-    "https://www.nasiskolji.hr/feed/: <urlopen error timed out>"
-   ]
+   "errors": []
   },
   {
    "name": "Grad Zadar",
@@ -96,12 +94,10 @@
   },
   {
    "name": "HRT Radio Zadar",
-   "count": 0,
-   "ok": false,
+   "count": 14,
+   "ok": true,
    "feed": null,
-   "errors": [
-    "https://radio.hrt.hr/radio-zadar: HTTP Error 502: Bad Gateway"
-   ]
+   "errors": []
   },
   {
    "name": "Sveučilište u Zadru",
