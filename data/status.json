@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-25T23:45:42.785492+00:00",
+ "updated": "2026-11-26T00:01:13.035711+00:00",
  "sources": [
   {
    "name": "Antena Zadar",
@@ -73,12 +73,10 @@
   },
   {
    "name": "Naši školji",
-   "count": 0,
-   "ok": false,
+   "count": 10,
+   "ok": true,
    "feed": null,
-   "errors": [
-    "https://www.nasiskolji.hr/feed/: <urlopen error timed out>"
-   ]
+   "errors": []
   },
   {
    "name": "Grad Zadar",
@@ -96,10 +94,12 @@
   },
   {
    "name": "HRT Radio Zadar",
-   "count": 14,
-   "ok": true,
+   "count": 0,
+   "ok": false,
    "feed": null,
-   "errors": []
+   "errors": [
+    "https://radio.hrt.hr/radio-zadar: <urlopen error [Errno -3] Temporary failure in name resolution>"
+   ]
   },
   {
    "name": "Sveučilište u Zadru",
@@ -213,7 +213,9 @@
    "count": 0,
    "ok": false,
    "feed": null,
-   "errors": []
+   "errors": [
+    "https://feed.hrt.hr/vijesti/page.xml: <urlopen error [Errno -3] Temporary failure in name resolution>"
+   ]
   },
   {
    "name": "Dnevnik.hr",
