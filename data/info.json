@@ -494,7 +494,7 @@
  ],
  "videos": {
   "v": 2,
-  "fetched": "2026-11-26T05:01:39.806405+00:00",
+  "fetched": "2026-11-26T06:01:41.418853+00:00",
   "items": [
    {
     "id": "EgiNrElGgH0",
@@ -503,6 +503,14 @@
     "date": "2026-11-24T18:19:54+00:00",
     "link": "https://www.youtube.com/watch?v=EgiNrElGgH0",
     "image": "https://i.ytimg.com/vi/EgiNrElGgH0/mqdefault.jpg"
+   },
+   {
+    "id": "Iu3bvCfbGMc",
+    "title": "Zadar postavlja uređaje za oživljavanje",
+    "channel": "HRT vijesti",
+    "date": "2026-11-24T16:18:20+00:00",
+    "link": "https://www.youtube.com/watch?v=Iu3bvCfbGMc",
+    "image": "https://i.ytimg.com/vi/Iu3bvCfbGMc/mqdefault.jpg"
    },
    {
     "id": "OMAY2muUcaQ",
@@ -607,14 +615,6 @@
     "date": "2026-11-15T14:20:22+00:00",
     "link": "https://www.youtube.com/watch?v=ljcAgGjlUzo",
     "image": "https://i.ytimg.com/vi/ljcAgGjlUzo/mqdefault.jpg"
-   },
-   {
-    "id": "tR5k84XrdFs",
-    "title": "KRONIKE ZADARSKE ŽUPANIJE 96  - 07.11.2026.",
-    "channel": "Diadora TV",
-    "date": "2026-11-08T17:30:27+00:00",
-    "link": "https://www.youtube.com/watch?v=tR5k84XrdFs",
-    "image": "https://i.ytimg.com/vi/tR5k84XrdFs/mqdefault.jpg"
    }
   ]
  }
