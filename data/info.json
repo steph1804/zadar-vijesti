@@ -1,12 +1,5 @@
 {
- "Jadrolinija": [
-  {
-   "title": "Linije u prekidu 26.11.2026.",
-   "link": "https://www.jadrolinija.hr/news-single/linije-u-prekidu-26112026",
-   "date": "2026-11-25T10:03:00+00:00",
-   "summary": "Red plovidbe za četvrtak 26.11.2026."
-  }
- ],
+ "Jadrolinija": [],
  "buses": [
   {
    "title": "Obavijest za liniju Dračevac",
@@ -175,16 +168,24 @@
   },
   {
    "day": "27.11.2026",
-   "place": "Galovac",
-   "street": "Južni dio naselja Jošani",
+   "place": "Zadar",
+   "street": "Rampada",
    "note": "",
    "time": "08:30 - 12:00",
    "unplanned": false
   },
   {
    "day": "27.11.2026",
-   "place": "Zadar",
-   "street": "Rampada",
+   "place": "Ždrelac",
+   "street": "Predio Matlovac",
+   "note": "",
+   "time": "08:30 - 13:30",
+   "unplanned": false
+  },
+  {
+   "day": "27.11.2026",
+   "place": "Galovac",
+   "street": "Južni dio naselja Jošani",
    "note": "",
    "time": "08:30 - 12:00",
    "unplanned": false
