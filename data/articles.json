@@ -1,5 +1,20 @@
 [
  {
+  "title": "Pogledajte što je osvanulo na zadarskoj plaži! Prizor razbjesnio mnoge, no javili se i oni koji ga opravdavaju: \"Prijevoz je 150 eura...\"",
+  "link": "https://www.morski.hr/pogledajte-sto-je-osvanulo-na-zadarskoj-plazi-prizor-razbjesnio-mnoge-no-javili-se-i-oni-koji-ga-opravdavaju-prijevoz-je-150-eura/",
+  "date": "2026-11-26T08:07:37+00:00",
+  "summary": "ZADAR - \"Pogledajte među kakvim ljudima živimo?\", žale se Zadrani koji su na jednoj plaži prije nekoliko dana zatekli, ni više, ni manje, nego odbačenu kutnu garnituru! U grupi \"Trn u oku... Zadar\", korisnica je objavila: \"",
+  "image": "https://storage.ghost.io/c/8c/e6/8ce68df1-b8bf-474a-a3e0-701a018ef40d/content/images/2026/11/fadfffff.jpg",
+  "source": "Morski.hr",
+  "topics": [
+   "Zadar",
+   "Županija"
+  ],
+  "source_url": "https://www.morski.hr/",
+  "face": null,
+  "face_img": "https://storage.ghost.io/c/8c/e6/8ce68df1-b8bf-474a-a3e0-701a018ef40d/content/images/2026/11/fadfffff.jpg"
+ },
+ {
   "title": "Vozač odbio testiranje na droge, izrečena novčana kazna i zaštitna mjera",
   "link": "https://zadarska-policija.gov.hr/vijesti/vozac-odbio-testiranje-na-droge-izrecena-novcana-kazna-i-zastitna-mjera-18911/18911",
   "date": "2026-11-26T08:01:17.986510+00:00",
@@ -59,13 +74,34 @@
   "face_img": "https://www.antenazadar.hr/wp-content/uploads/2026/11/untitled-design-1_OeibJxg.webp"
  },
  {
-  "title": "Javni poziv - terenska nastava",
-  "link": "https://www.grad-zadar.hr/vijest/natjecaji-35/javni-poziv--terenska-nastava-10173.html",
+  "title": "Zadar ipak bez klizališta: DKOM poništio odabir, Grad Zadar mora ponovno odlučivati",
+  "link": "https://ezadar.net.hr/info/3592377/zadar-ipak-bez-klizalista-dkom-ponistio-odabir-grad-zadar-mora-ponovno-odlucivati/",
+  "date": "2026-11-26T07:58:13+00:00",
+  "summary": "Planirano klizalište trebalo je biti jedna od glavnih atrakcija ovogodišnjeg Adventa, no postupak javne nabave dobio je novi dio priče. Državna komisija prihvatila je žalbu riječke tvrtke Arctic i poništila",
+  "image": "https://cdn-ezadar.net.hr/wp-content/uploads/9b829c74e06fb9a76429ae7226156167-view_article_new.jpg",
+  "source": "eZadar",
+  "topics": [
+   "Zadar"
+  ],
+  "source_url": "https://ezadar.net.hr/",
+  "face": [
+   17.6,
+   32.1,
+   38.5,
+   42.6
+  ],
+  "face_img": "https://cdn-ezadar.net.hr/wp-content/uploads/9b829c74e06fb9a76429ae7226156167-view_article_new.jpg"
+ },
+ {
+  "title": "Terenom razvijamo aktivne građane: Grad Zadar poziva osnovnoškolce na terensku nastavu",
+  "link": "https://www.grad-zadar.hr/vijest/natjecaji-35/terenom-razvijamo-aktivne-gradane-grad-zadar-poziva-osnovnoskolce-na-terensku-nastavu-10173.html",
   "date": "2026-11-26T07:54:00+00:00",
-  "summary": "JAVNI POZIV OSNOVNIM ŠKOLAMA za iskaz interesa za sudjelovanje u programu izvanučionične/terenske nastave",
+  "summary": "Javni poziv ta osnovne škole, za iskaz interesa za sudjelovanje u programu izvanučionične/terenske nastave.",
   "image": "https://www.grad-zadar.hr/data/images/image/grad550x325/36074/images%255B10%255D.jpg",
   "source": "Grad Zadar",
-  "topics": [],
+  "topics": [
+   "Zadar"
+  ],
   "source_url": "https://www.grad-zadar.hr/",
   "face": null,
   "face_img": "https://www.grad-zadar.hr/data/images/image/grad550x325/36074/images%255B10%255D.jpg"
@@ -112,6 +148,20 @@
   "source_url": "https://www.antenazadar.hr/",
   "face": null,
   "face_img": "https://www.antenazadar.hr/wp-content/uploads/2026/11/pas-operiran-citatelj-foto.jpg"
+ },
+ {
+  "title": "Pokrenuta javna nabava: Više od milijun eura za igrališta i vježbališta u pet zadarskih mjesnih odbora",
+  "link": "https://www.grad-zadar.hr/vijest/opce-vijesti-28/pokrenuta-javna-nabava-vise-od-milijun-eura-za-igralista-i-vjezbalista-u-pet-zadarskih-mjesnih-odbora-10172.html",
+  "date": "2026-11-26T07:46:00+00:00",
+  "summary": "Crno dobiva dva malonogometna terena, Puntamika teren za košarku 3 na 3, a još tri mjesna odbora obnovljena igrališta.",
+  "image": "https://www.grad-zadar.hr/data/images/image/grad550x325/36072/Arbanasi_nogometno_igraliste.jpg",
+  "source": "Grad Zadar",
+  "topics": [
+   "Zadar"
+  ],
+  "source_url": "https://www.grad-zadar.hr/",
+  "face": null,
+  "face_img": "https://www.grad-zadar.hr/data/images/image/grad550x325/36072/Arbanasi_nogometno_igraliste.jpg"
  },
  {
   "title": "MOVEMBER / 54 muškarca na besplatnom urološkom pregledu u OB Zadar",
@@ -406,7 +456,7 @@
   "link": "https://www.jutarnji.hr/sportske/kosarka/aba-liga/zadar-trijumfom-protiv-partizana-preokrenuo-momentum-sezone-ali-i-otvorio-neka-stara-pitanja-15768874",
   "date": "2026-11-25T21:23:58+00:00",
   "summary": "\"Možda se probudi neka iskra, dišpet pa Modrićeve trupe, u utakmici u kojoj nemaju što izgubiti, preokrenu momentum sezone”, bile su ovo riječi iz posljednjeg teksta pred utakmicu s Partizanom. I bijaše taj tekst nešto oštrije nabrušen. S kritikama prema onome što smo vidjeli od Zadra na početku sez...",
-  "image": "https://media.jutarnji.hr/images/slike/2026/11/25/f_39966462_1280.jpg?1795679653",
+  "image": "https://media.jutarnji.hr/images/slike/2026/11/25/f_39966462_1280.jpg?1795680753",
   "source": "Sportske novosti",
   "source_topic": "Sport",
   "topics": [
@@ -420,7 +470,7 @@
    23.4,
    88.9
   ],
-  "face_img": "https://media.jutarnji.hr/images/slike/2026/11/25/f_39966462_1280.jpg?1795679653"
+  "face_img": "https://media.jutarnji.hr/images/slike/2026/11/25/f_39966462_1280.jpg?1795680753"
  },
  {
   "title": "PREGLED DANA Načelnik Pakoštana natječaj potpisao bez čitanja, na Ugljanu novi problemi s divljači, Zadar dobio 13-metarsku jelku",
@@ -4962,53 +5012,6 @@
   "source_url": "https://zadarska-policija.gov.hr/vijesti/8",
   "face": null,
   "face_img": "https://zadarska-policija.gov.hr/UserDocsImages//2023/POLICIJA/policija%2055.jpg"
- },
- {
-  "title": "Gledajte uživo Svečanu sjednicu Grada Zadra povodom Dana grada i blagdana sv. Krševana",
-  "link": "https://023.hr/2026/11/gledajte-uzivo-svecanu-sjednicu-grada-zadra-povodom-dana-grada-i-blagdana-sv-krsevana/",
-  "date": "2026-11-24T10:57:36+00:00",
-  "summary": "Ovdje možete pratiti Svečanu sjednicu Grada Zadra povodom Dana grada i blagdana sv. Krševana izravno iz HNK Zadar. Objava Gledajte uživo Svečanu sjednicu Grada Zadra povodom Dana grada i blagdana sv.",
-  "image": "https://www.youtube.com/embed/OMAY2muUcaQ",
-  "source": "023 portal",
-  "topics": [
-   "Zadar"
-  ],
-  "source_url": "https://023.hr/",
-  "face": null,
-  "face_img": "https://www.youtube.com/embed/OMAY2muUcaQ"
- },
- {
-  "title": "Višnjik: Ne parkirajte na prilaznim cestama, dostupno je 200 mjesta!",
-  "link": "https://radio.hrt.hr/radio-zadar/vijesti/vozacima-vazna-obavijest-s-visnjika-ne-parkirajte-na-prilaznim-cestama-dostupno-je-200-mjesta--13025741",
-  "date": "2026-11-24T10:50:30+00:00",
-  "summary": "Športski centar Višnjik i ove će godine biti dio zadarskog adventskog ugođaja. Uz tradicionalni Lunapark, koji će najmlađima otvoriti svoja vrata 26. studenoga, tijekom prosinca najavljen je i dolazak kamiona Djeda Mraza s prigodnom predstavom za djecu.",
-  "image": "https://api.hrt.hr/media/75/71/zimski-park-klizaliste-luna-park-kamion-djeda-mraza-13-12-2024-11-20261124105017.webp",
-  "source": "HRT Radio Zadar",
-  "topics": [
-   "Zadar"
-  ],
-  "source_url": "https://radio.hrt.hr/radio-zadar",
-  "face": null,
-  "face_img": "https://api.hrt.hr/media/75/71/zimski-park-klizaliste-luna-park-kamion-djeda-mraza-13-12-2024-11-20261124105017.webp"
- },
- {
-  "title": "Zadar nagrađuje znanstvenicu koja je istražila 1740 najstarijih hrvatskih knjiga",
-  "link": "https://ezadar.net.hr/info/3591443/zadar-nagraduje-znanstvenicu-koja-je-istrazila-1740-najstarijih-hrvatskih-knjiga/",
-  "date": "2026-11-24T10:45:51+00:00",
-  "summary": "Od zadarskih rukopisa do monumentalnog djela o inkunabulama: Marijana Tomić dobiva gradsku nagradu Profesorica Sveučilišta u Zadru Marijana Tomić svojim je znanstvenim radom povezala informacijske znanosti, digitalne tehnologije i istraživanje",
-  "image": "https://cdn-ezadar.net.hr/wp-content/uploads/914528013_1795256572606132_3417144182898418364_n-86cd0f8119e84089e1311254-1052x696.jpg",
-  "source": "eZadar",
-  "topics": [
-   "Zadar"
-  ],
-  "source_url": "https://ezadar.net.hr/",
-  "face": [
-   6.5,
-   52.9,
-   42.0,
-   59.6
-  ],
-  "face_img": "https://cdn-ezadar.net.hr/wp-content/uploads/914528013_1795256572606132_3417144182898418364_n-86cd0f8119e84089e1311254-1052x696.jpg"
  },
  {
   "title": "Barbara Dabo, najbolja domaćica Hrvatske: Gost ne dolazi samo u kuću, nego postaje dio njezine priče",
