@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-26T01:01:11.462960+00:00",
+ "updated": "2026-11-26T01:15:42.687934+00:00",
  "sources": [
   {
    "name": "Antena Zadar",
@@ -100,7 +100,7 @@
    "ok": false,
    "feed": null,
    "errors": [
-    "https://radio.hrt.hr/radio-zadar: <urlopen error [Errno -3] Temporary failure in name resolution>"
+    "https://radio.hrt.hr/radio-zadar: <urlopen error timed out>"
    ]
   },
   {
@@ -216,7 +216,7 @@
    "ok": false,
    "feed": null,
    "errors": [
-    "https://feed.hrt.hr/vijesti/page.xml: <urlopen error [Errno -3] Temporary failure in name resolution>"
+    "https://feed.hrt.hr/vijesti/page.xml: <urlopen error timed out>"
    ]
   },
   {
