@@ -828,25 +828,6 @@
   "face_img": "https://www.antenazadar.hr/wp-content/uploads/2026/11/WhatsApp-Image-2026-11-26-at-14.14.20.jpeg"
  },
  {
-  "title": "Preventivne aktivnosti policije uz potporu Vijeća za prevenciju Općine Poličnik",
-  "link": "https://zadarska-policija.gov.hr/vijesti/preventivne-aktivnosti-policije-uz-potporu-vijeca-za-prevenciju-opcine-policnik/18912",
-  "date": "2026-11-26T13:45:45.661347+00:00",
-  "summary": "Aktivnosti policije i lokalne zajednice",
-  "image": "https://zadarska-policija.gov.hr/UserDocsImages//2026/PREVENCIJA/policnik1.jpg",
-  "source": "Policija Zadar",
-  "topics": [
-   "Županija"
-  ],
-  "source_url": "https://zadarska-policija.gov.hr/vijesti/8",
-  "face": [
-   3.2,
-   16.8,
-   50.7,
-   57.8
-  ],
-  "face_img": "https://zadarska-policija.gov.hr/UserDocsImages//2026/PREVENCIJA/policnik1.jpg"
- },
- {
   "title": "4,34 MILIJUNA KUBIKA OTPADA Zadar mijenja plan sanacije Dikla, donosimo detalje velikog zahvata",
   "link": "https://zadarskilist.novilist.hr/zadar-zupanija/zadar/434-milijuna-kubika-otpada-zadar-mijenja-plan-sanacije-dikla-donosimo-detalje-velikog-zahvata/",
   "date": "2026-11-26T13:45:25+00:00",
@@ -1325,6 +1306,63 @@
   "source_url": "https://023.hr/",
   "face": null,
   "face_img": "https://023.hr/wp-content/uploads/2026/11/20261126120553_194831.avif"
+ },
+ {
+  "title": "Preventivne aktivnosti policije uz potporu Vijeća za prevenciju Općine Poličnik",
+  "link": "https://zadarska-policija.gov.hr/vijesti/preventivne-aktivnosti-policije-uz-potporu-vijeca-za-prevenciju-opcine-policnik/18912",
+  "date": "2026-11-26T11:00:00+00:00",
+  "summary": "Aktivnosti policije i lokalne zajednice",
+  "image": "https://zadarska-policija.gov.hr/UserDocsImages//2026/PREVENCIJA/policnik1.jpg",
+  "source": "Policija Zadar",
+  "topics": [
+   "Županija"
+  ],
+  "source_url": "https://zadarska-policija.gov.hr/vijesti/8",
+  "face": [
+   3.2,
+   16.8,
+   50.7,
+   57.8
+  ],
+  "face_img": "https://zadarska-policija.gov.hr/UserDocsImages//2026/PREVENCIJA/policnik1.jpg"
+ },
+ {
+  "title": "Vozač odbio testiranje na droge, izrečena novčana kazna i zaštitna mjera",
+  "link": "https://zadarska-policija.gov.hr/vijesti/vozac-odbio-testiranje-na-droge-izrecena-novcana-kazna-i-zastitna-mjera-18911/18911",
+  "date": "2026-11-26T11:00:00+00:00",
+  "summary": "Zbog počinjenih prekršaja vozaču je izdana novčana kazna od 1.350 eura",
+  "image": "https://zadarska-policija.gov.hr/UserDocsImages//2023/POLICIJA/pol.biograd.jpg",
+  "source": "Policija Zadar",
+  "topics": [],
+  "source_url": "https://zadarska-policija.gov.hr/vijesti/8",
+  "face": null,
+  "face_img": "https://zadarska-policija.gov.hr/UserDocsImages//2023/POLICIJA/pol.biograd.jpg"
+ },
+ {
+  "title": "Kazneno prijavljeni zbog krađe iz trgovine",
+  "link": "https://zadarska-policija.gov.hr/vijesti/kazneno-prijavljeni-zbog-kradje-iz-trgovine/18910",
+  "date": "2026-11-26T11:00:00+00:00",
+  "summary": "Policija protiv obojice muškaraca podnosi kaznenu prijavu Općinskom državnom odvjetništvu",
+  "image": "https://zadarska-policija.gov.hr/UserDocsImages//2024/POLICIJA/369.jpg",
+  "source": "Policija Zadar",
+  "topics": [],
+  "source_url": "https://zadarska-policija.gov.hr/vijesti/8",
+  "face": null,
+  "face_img": "https://zadarska-policija.gov.hr/UserDocsImages//2024/POLICIJA/369.jpg"
+ },
+ {
+  "title": "Sažetak dnevnih događanja PU zadarske, 26. 11.",
+  "link": "https://zadarska-policija.gov.hr/vijesti/sazetak-dnevnih-dogadjanja-18909/18909",
+  "date": "2026-11-26T11:00:00+00:00",
+  "summary": "",
+  "image": "https://zadarska-policija.gov.hr/UserDocsImages//2024/POLICIJA/pol.auto.jpg",
+  "source": "Policija Zadar",
+  "topics": [
+   "Zadar"
+  ],
+  "source_url": "https://zadarska-policija.gov.hr/vijesti/8",
+  "face": null,
+  "face_img": "https://zadarska-policija.gov.hr/UserDocsImages//2024/POLICIJA/pol.auto.jpg"
  },
  {
   "title": "IVICA KLANAC Hrvatski vitez najavio velike planove – nova teretana i svlačionice, a u subotu stiže važan prvenstveni ispit",
@@ -1992,44 +2030,6 @@
   "source_url": "https://www.morski.hr/",
   "face": null,
   "face_img": "https://storage.ghost.io/c/8c/e6/8ce68df1-b8bf-474a-a3e0-701a018ef40d/content/images/2026/11/fadfffff.jpg"
- },
- {
-  "title": "Vozač odbio testiranje na droge, izrečena novčana kazna i zaštitna mjera",
-  "link": "https://zadarska-policija.gov.hr/vijesti/vozac-odbio-testiranje-na-droge-izrecena-novcana-kazna-i-zastitna-mjera-18911/18911",
-  "date": "2026-11-26T08:01:17.986510+00:00",
-  "summary": "Zbog počinjenih prekršaja vozaču je izdana novčana kazna od 1.350 eura",
-  "image": "https://zadarska-policija.gov.hr/UserDocsImages//2023/POLICIJA/pol.biograd.jpg",
-  "source": "Policija Zadar",
-  "topics": [],
-  "source_url": "https://zadarska-policija.gov.hr/vijesti/8",
-  "face": null,
-  "face_img": "https://zadarska-policija.gov.hr/UserDocsImages//2023/POLICIJA/pol.biograd.jpg"
- },
- {
-  "title": "Kazneno prijavljeni zbog krađe iz trgovine",
-  "link": "https://zadarska-policija.gov.hr/vijesti/kazneno-prijavljeni-zbog-kradje-iz-trgovine/18910",
-  "date": "2026-11-26T08:01:17.986510+00:00",
-  "summary": "Policija protiv obojice muškaraca podnosi kaznenu prijavu Općinskom državnom odvjetništvu",
-  "image": "https://zadarska-policija.gov.hr/UserDocsImages//2024/POLICIJA/369.jpg",
-  "source": "Policija Zadar",
-  "topics": [],
-  "source_url": "https://zadarska-policija.gov.hr/vijesti/8",
-  "face": null,
-  "face_img": "https://zadarska-policija.gov.hr/UserDocsImages//2024/POLICIJA/369.jpg"
- },
- {
-  "title": "Sažetak dnevnih događanja PU zadarske, 26. 11.",
-  "link": "https://zadarska-policija.gov.hr/vijesti/sazetak-dnevnih-dogadjanja-18909/18909",
-  "date": "2026-11-26T08:01:17.986510+00:00",
-  "summary": "",
-  "image": "https://zadarska-policija.gov.hr/UserDocsImages//2024/POLICIJA/pol.auto.jpg",
-  "source": "Policija Zadar",
-  "topics": [
-   "Zadar"
-  ],
-  "source_url": "https://zadarska-policija.gov.hr/vijesti/8",
-  "face": null,
-  "face_img": "https://zadarska-policija.gov.hr/UserDocsImages//2024/POLICIJA/pol.auto.jpg"
  },
  {
   "title": "IGRAJ, VJERUJ, ŽIVI Krešo, Zadar te nije zaboravio – na današnji dan rođen je čovjek koji je postao besmrtna košarkaška legenda",

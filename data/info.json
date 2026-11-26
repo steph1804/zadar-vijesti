@@ -1,10 +1,10 @@
 {
  "Jadrolinija": [
   {
-   "title": "Linije u prekidu 26.11.2026.",
-   "link": "https://www.jadrolinija.hr/news-single/linije-u-prekidu-26112026",
-   "date": "2026-11-25T10:03:00+00:00",
-   "summary": "Red plovidbe za četvrtak 26.11.2026."
+   "title": "Svi Jadrolinijini brodovi plove prema redu plovidbe",
+   "link": "https://www.jadrolinija.hr/news-single/stanje-u-pomorskom-prometu",
+   "date": "2026-11-26T23:50:02+00:00",
+   "summary": "U pomorskom prometu nema poteškoća, svi Jadrolinijini brodovi plove prema redu plovidbe."
   }
  ],
  "buses": [
@@ -35,42 +35,6 @@
   }
  ],
  "flights": [
-  {
-   "dir": "dolazak",
-   "flight": "OU674",
-   "airline": "Croatia Airlines",
-   "city": "Zagreb",
-   "via": "",
-   "time": "2026-11-26T14:55:00",
-   "est": "2026-11-26T14:55:00",
-   "act": "",
-   "status": "",
-   "gate": ""
-  },
-  {
-   "dir": "odlazak",
-   "flight": "OU674",
-   "airline": "Croatia Airlines",
-   "city": "Zagreb",
-   "via": "Pula",
-   "time": "2026-11-26T15:20:00",
-   "est": "2026-11-26T15:20:00",
-   "act": "",
-   "status": "",
-   "gate": "05"
-  },
-  {
-   "dir": "dolazak",
-   "flight": "OU675",
-   "airline": "Croatia Airlines",
-   "city": "Zagreb",
-   "via": "Pula",
-   "time": "2026-11-26T23:00:00",
-   "est": "2026-11-26T23:00:00",
-   "act": "",
-   "status": "",
-   "gate": ""
-  },
   {
    "dir": "odlazak",
    "flight": "OU4674",
@@ -109,62 +73,6 @@
   }
  ],
  "power": [
-  {
-   "day": "26.11.2026",
-   "place": "Sukošan",
-   "street": "Put Jankovca,Put Dijanovih",
-   "note": "",
-   "time": "08:30 - 12:00",
-   "unplanned": false
-  },
-  {
-   "day": "26.11.2026",
-   "place": "Zadar",
-   "street": "Celestine Medovića",
-   "note": "",
-   "time": "08:30 - 12:30",
-   "unplanned": false
-  },
-  {
-   "day": "26.11.2026",
-   "place": "Vir",
-   "street": "Žitna XL VII",
-   "note": "Povremeni prekidi",
-   "time": "11:00 - 14:00",
-   "unplanned": false
-  },
-  {
-   "day": "26.11.2026",
-   "place": "Obrovac, Žegar, Muškovci, Zaton Obrovački, Golubić, Krupa, Bilišane, Medviđa i Zelengrad",
-   "street": "cijela mjesta",
-   "note": "",
-   "time": "09:00 - 12:00",
-   "unplanned": false
-  },
-  {
-   "day": "26.11.2026",
-   "place": "Ljubač",
-   "street": "Dio mjesta oko uljare(Oseka)",
-   "note": "",
-   "time": "08:00 - 13:00",
-   "unplanned": false
-  },
-  {
-   "day": "26.11.2026",
-   "place": "Biograd",
-   "street": "predio Filipovići i oko Elektre",
-   "note": "",
-   "time": "08:30 - 14:00",
-   "unplanned": false
-  },
-  {
-   "day": "26.11.2026",
-   "place": "Vir",
-   "street": "Miljkovica XIV",
-   "note": "Povremeni prekidi",
-   "time": "08:00 - 11:00",
-   "unplanned": false
-  },
   {
    "day": "27.11.2026",
    "place": "Zadar",
@@ -494,7 +402,7 @@
  ],
  "videos": {
   "v": 2,
-  "fetched": "2026-11-26T22:03:27.906090+00:00",
+  "fetched": "2026-11-26T23:03:34.099601+00:00",
   "items": [
    {
     "id": "yx7nwVJKzlo",
