@@ -159,14 +159,6 @@
   },
   {
    "day": "26.11.2026",
-   "place": "Jasenice",
-   "street": "cijelo mjesto",
-   "note": "",
-   "time": "08:30 - 13:30",
-   "unplanned": false
-  },
-  {
-   "day": "26.11.2026",
    "place": "Vir",
    "street": "Miljkovica XIV",
    "note": "Povremeni prekidi",
@@ -502,7 +494,7 @@
  ],
  "videos": {
   "v": 2,
-  "fetched": "2026-11-26T07:02:34.210381+00:00",
+  "fetched": "2026-11-26T08:03:33.505206+00:00",
   "items": [
    {
     "id": "EgiNrElGgH0",
