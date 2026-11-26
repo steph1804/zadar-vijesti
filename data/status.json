@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-26T21:30:57.118845+00:00",
+ "updated": "2026-11-26T21:45:42.680488+00:00",
  "sources": [
   {
    "name": "Antena Zadar",
@@ -73,10 +73,12 @@
   },
   {
    "name": "Naši školji",
-   "count": 10,
-   "ok": true,
+   "count": 0,
+   "ok": false,
    "feed": null,
-   "errors": []
+   "errors": [
+    "https://www.nasiskolji.hr/feed/: <urlopen error timed out>"
+   ]
   },
   {
    "name": "Grad Zadar",
@@ -131,12 +133,10 @@
   },
   {
    "name": "Policija Zadar",
-   "count": 0,
-   "ok": false,
+   "count": 10,
+   "ok": true,
    "feed": null,
-   "errors": [
-    "https://zadarska-policija.gov.hr/vijesti/8: <urlopen error timed out>"
-   ]
+   "errors": []
   },
   {
    "name": "Lučka uprava Zadar",
