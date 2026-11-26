@@ -1,5 +1,12 @@
 {
- "Jadrolinija": [],
+ "Jadrolinija": [
+  {
+   "title": "Linije u prekidu 26.11.2026.",
+   "link": "https://www.jadrolinija.hr/news-single/linije-u-prekidu-26112026",
+   "date": "2026-11-25T10:03:00+00:00",
+   "summary": "Red plovidbe za četvrtak 26.11.2026."
+  }
+ ],
  "buses": [
   {
    "title": "Obavijest za liniju Dračevac",
@@ -487,8 +494,16 @@
  ],
  "videos": {
   "v": 2,
-  "fetched": "2026-11-26T08:03:33.505206+00:00",
+  "fetched": "2026-11-26T09:02:40.309688+00:00",
   "items": [
+   {
+    "id": "280M-00Z0i0",
+    "title": "Filmske lokacije Zadarske županije | Filmski ured Zadar",
+    "channel": "Kalelarga info Zadar",
+    "date": "2026-11-26T08:46:53+00:00",
+    "link": "https://www.youtube.com/watch?v=280M-00Z0i0",
+    "image": "https://i.ytimg.com/vi/280M-00Z0i0/mqdefault.jpg"
+   },
    {
     "id": "EgiNrElGgH0",
     "title": "🎡 Adventni kolo u Zadru ✨️ Panoramski kotač Zadar 🎡 #zadar #adventnikolo #panoramskikotač #advent",
@@ -600,14 +615,6 @@
     "date": "2026-11-15T17:00:29+00:00",
     "link": "https://www.youtube.com/watch?v=Er1sWNusAFs",
     "image": "https://i.ytimg.com/vi/Er1sWNusAFs/mqdefault.jpg"
-   },
-   {
-    "id": "ljcAgGjlUzo",
-    "title": "More: Zadar, 15. studenoga 2026.",
-    "channel": "Hrvatska radiotelevizija",
-    "date": "2026-11-15T14:20:22+00:00",
-    "link": "https://www.youtube.com/watch?v=ljcAgGjlUzo",
-    "image": "https://i.ytimg.com/vi/ljcAgGjlUzo/mqdefault.jpg"
    }
   ]
  }
