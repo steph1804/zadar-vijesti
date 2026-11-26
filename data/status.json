@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-26T00:31:04.360362+00:00",
+ "updated": "2026-11-26T00:45:45.272037+00:00",
  "sources": [
   {
    "name": "Antena Zadar",
@@ -242,13 +242,10 @@
   },
   {
    "name": "Dalmacija Danas",
-   "count": 0,
-   "ok": false,
+   "count": 10,
+   "ok": true,
    "feed": null,
-   "errors": [
-    "https://www.dalmacijadanas.hr/feed/: <urlopen error [Errno -3] Temporary failure in name resolution>",
-    "https://www.dalmacijadanas.hr/?s=zadar&feed=rss2: <urlopen error [Errno -3] Temporary failure in name resolution>"
-   ]
+   "errors": []
   },
   {
    "name": "Poslovni dnevnik",
