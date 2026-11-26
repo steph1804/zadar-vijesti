@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-26T01:31:11.070619+00:00",
+ "updated": "2026-11-26T01:45:44.004552+00:00",
  "sources": [
   {
    "name": "Antena Zadar",
@@ -100,7 +100,7 @@
    "ok": false,
    "feed": null,
    "errors": [
-    "https://radio.hrt.hr/radio-zadar: <urlopen error [Errno 113] No route to host>"
+    "https://radio.hrt.hr/radio-zadar: HTTP Error 502: Bad Gateway"
    ]
   },
   {
@@ -216,7 +216,7 @@
    "ok": false,
    "feed": null,
    "errors": [
-    "https://feed.hrt.hr/vijesti/page.xml: <urlopen error timed out>"
+    "https://feed.hrt.hr/vijesti/page.xml: <urlopen error [Errno 111] Connection refused>"
    ]
   },
   {
