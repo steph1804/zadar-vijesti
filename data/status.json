@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-26T01:15:42.687934+00:00",
+ "updated": "2026-11-26T01:31:11.070619+00:00",
  "sources": [
   {
    "name": "Antena Zadar",
@@ -100,7 +100,7 @@
    "ok": false,
    "feed": null,
    "errors": [
-    "https://radio.hrt.hr/radio-zadar: <urlopen error timed out>"
+    "https://radio.hrt.hr/radio-zadar: <urlopen error [Errno 113] No route to host>"
    ]
   },
   {
