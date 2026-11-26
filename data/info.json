@@ -494,7 +494,7 @@
  ],
  "videos": {
   "v": 2,
-  "fetched": "2026-11-26T10:02:32.155262+00:00",
+  "fetched": "2026-11-26T11:03:37.073650+00:00",
   "items": [
    {
     "id": "QAy5uR3f1dc",
@@ -503,6 +503,22 @@
     "date": "2026-11-26T09:14:16+00:00",
     "link": "https://www.youtube.com/watch?v=QAy5uR3f1dc",
     "image": "https://i.ytimg.com/vi/QAy5uR3f1dc/mqdefault.jpg"
+   },
+   {
+    "id": "hMOM2Eu2Rj0",
+    "title": "Filmske lokacije Zadarske županije - cjeloviti promotivni video | Filmski ured Zadar",
+    "channel": "Kalelarga info Zadar",
+    "date": "2026-11-26T09:10:57+00:00",
+    "link": "https://www.youtube.com/watch?v=hMOM2Eu2Rj0",
+    "image": "https://i.ytimg.com/vi/hMOM2Eu2Rj0/mqdefault.jpg"
+   },
+   {
+    "id": "280M-00Z0i0",
+    "title": "Filmske lokacije Zadarske županije | Filmski ured Zadar",
+    "channel": "Kalelarga info Zadar",
+    "date": "2026-11-26T08:46:53+00:00",
+    "link": "https://www.youtube.com/watch?v=280M-00Z0i0",
+    "image": "https://i.ytimg.com/vi/280M-00Z0i0/mqdefault.jpg"
    },
    {
     "id": "EgiNrElGgH0",
@@ -599,22 +615,6 @@
     "date": "2026-11-17T11:30:04+00:00",
     "link": "https://www.youtube.com/watch?v=CjxvDS15YeI",
     "image": "https://i.ytimg.com/vi/CjxvDS15YeI/mqdefault.jpg"
-   },
-   {
-    "id": "ar2AUoCTzPs",
-    "title": "Zadar: Butković potpisao ugovor o sufinanciranju projekata prometne infrastrukture",
-    "channel": "HINA multimedija",
-    "date": "2026-11-17T11:06:29+00:00",
-    "link": "https://www.youtube.com/watch?v=ar2AUoCTzPs",
-    "image": "https://i.ytimg.com/vi/ar2AUoCTzPs/mqdefault.jpg"
-   },
-   {
-    "id": "Er1sWNusAFs",
-    "title": "KRONIKE ZADARSKE ŽUPANIJE 97 - 14.11.2026.",
-    "channel": "Diadora TV",
-    "date": "2026-11-15T17:00:29+00:00",
-    "link": "https://www.youtube.com/watch?v=Er1sWNusAFs",
-    "image": "https://i.ytimg.com/vi/Er1sWNusAFs/mqdefault.jpg"
    }
   ]
  }
