@@ -494,7 +494,7 @@
  ],
  "videos": {
   "v": 2,
-  "fetched": "2026-11-26T21:03:31.112459+00:00",
+  "fetched": "2026-11-26T22:03:27.906090+00:00",
   "items": [
    {
     "id": "yx7nwVJKzlo",
@@ -519,14 +519,6 @@
     "date": "2026-11-26T09:14:16+00:00",
     "link": "https://www.youtube.com/watch?v=QAy5uR3f1dc",
     "image": "https://i.ytimg.com/vi/QAy5uR3f1dc/mqdefault.jpg"
-   },
-   {
-    "id": "hMOM2Eu2Rj0",
-    "title": "Filmske lokacije Zadarske županije - cjeloviti promotivni video | Filmski ured Zadar",
-    "channel": "Kalelarga info Zadar",
-    "date": "2026-11-26T09:10:57+00:00",
-    "link": "https://www.youtube.com/watch?v=hMOM2Eu2Rj0",
-    "image": "https://i.ytimg.com/vi/hMOM2Eu2Rj0/mqdefault.jpg"
    },
    {
     "id": "280M-00Z0i0",
@@ -615,6 +607,14 @@
     "date": "2026-11-18T20:30:26+00:00",
     "link": "https://www.youtube.com/watch?v=xWA3hHRMmXk",
     "image": "https://i.ytimg.com/vi/xWA3hHRMmXk/mqdefault.jpg"
+   },
+   {
+    "id": "77WYoRm2jgk",
+    "title": "ZADARSKA ZUPANIJA IZBLIZA 11 - 16.11.2026.",
+    "channel": "Diadora TV",
+    "date": "2026-11-17T19:00:07+00:00",
+    "link": "https://www.youtube.com/watch?v=77WYoRm2jgk",
+    "image": "https://i.ytimg.com/vi/77WYoRm2jgk/mqdefault.jpg"
    }
   ]
  }
