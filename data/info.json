@@ -494,8 +494,24 @@
  ],
  "videos": {
   "v": 2,
-  "fetched": "2026-11-26T13:01:45.350816+00:00",
+  "fetched": "2026-11-26T14:03:25.422006+00:00",
   "items": [
+   {
+    "id": "yx7nwVJKzlo",
+    "title": "Filmski ured Zadar jača prepoznatljivost Zadarske županije kao filmske destinacije_INOVAcija",
+    "channel": "INOVAcija",
+    "date": "2026-11-26T13:55:27+00:00",
+    "link": "https://www.youtube.com/watch?v=yx7nwVJKzlo",
+    "image": "https://i.ytimg.com/vi/yx7nwVJKzlo/mqdefault.jpg"
+   },
+   {
+    "id": "I_OQyCfzvjs",
+    "title": "Filmski ured Zadar nastavlja jačati prepoznatljivost Zadarske županije kao filmske destinacije",
+    "channel": "INOVAcija",
+    "date": "2026-11-26T13:42:53+00:00",
+    "link": "https://www.youtube.com/watch?v=I_OQyCfzvjs",
+    "image": "https://i.ytimg.com/vi/I_OQyCfzvjs/mqdefault.jpg"
+   },
    {
     "id": "QAy5uR3f1dc",
     "title": "Zadarska županija kroz filmski objektiv",
@@ -599,22 +615,6 @@
     "date": "2026-11-18T20:30:26+00:00",
     "link": "https://www.youtube.com/watch?v=xWA3hHRMmXk",
     "image": "https://i.ytimg.com/vi/xWA3hHRMmXk/mqdefault.jpg"
-   },
-   {
-    "id": "77WYoRm2jgk",
-    "title": "ZADARSKA ZUPANIJA IZBLIZA 11 - 16.11.2026.",
-    "channel": "Diadora TV",
-    "date": "2026-11-17T19:00:07+00:00",
-    "link": "https://www.youtube.com/watch?v=77WYoRm2jgk",
-    "image": "https://i.ytimg.com/vi/77WYoRm2jgk/mqdefault.jpg"
-   },
-   {
-    "id": "CjxvDS15YeI",
-    "title": "ROBIN 🎤 Glazba uživo Zadar | Svadbe, rođendani i sve vrste proslava 🎹",
-    "channel": "Robin Cakarun",
-    "date": "2026-11-17T11:30:04+00:00",
-    "link": "https://www.youtube.com/watch?v=CjxvDS15YeI",
-    "image": "https://i.ytimg.com/vi/CjxvDS15YeI/mqdefault.jpg"
    }
   ]
  }
