@@ -44,6 +44,10 @@ content:
         label: Promo (oglas ili promotivni tekst, dobiva oznaku "Promo")
         type: boolean
         default: false
+      - name: pinned
+        label: Na vrh naslovnice (članak stoji prvi dok ovo ne isključiš)
+        type: boolean
+        default: false
       - name: draft
         label: Skica (ne objavljuj još)
         type: boolean

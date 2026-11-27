@@ -1216,7 +1216,8 @@ def load_posts():
         posts.append({"title": title, "date": when.isoformat(), "summary": summary.strip(), "slug": _slug(slug),
                       "cover": cover, "gallery": [_post_image(g) for g in gallery if _post_image(g)],
                       "author": meta.get("author") if isinstance(meta.get("author"), str) else "", "body": body,
-                      "promo": str(meta.get("promo", "")).lower() in ("true", "da", "yes")})
+                      "promo": str(meta.get("promo", "")).lower() in ("true", "da", "yes"),
+                      "pinned": str(meta.get("pinned", "")).lower() in ("true", "da", "yes")})
     return posts
 
 
@@ -1402,6 +1403,7 @@ def post_articles(posts, site_url):
         a = {"title": p["title"], "link": f"{site_url}clanak/{p['slug']}/", "date": p["date"],
              "summary": re.sub(r"\s+", " ", p["summary"]).strip(), "source": POST_SOURCE, "own": True,
              **({"promo": True} if p.get("promo") else {}),
+             **({"pinned": True} if p.get("pinned") else {}),
              "image": f"{site_url}clanak/slike/{urllib.parse.quote(p['cover'])}" if p["cover"] else ""}
         a["topics"] = current_topics(dict(a, text=p["body"]))
         out.append(a)
@@ -1419,7 +1421,7 @@ def render(articles, sources, status, now, info=None):
     site_url = settings.get("url", "")
     posts = load_posts()
     own = post_articles(posts, site_url)
-    articles = sorted(own + [a for a in articles if a.get("source") != POST_SOURCE], key=lambda a: a["date"], reverse=True)
+    articles = sorted(own + [a for a in articles if a.get("source") != POST_SOURCE], key=lambda a: (bool(a.get("pinned")), a["date"]), reverse=True)  # "Na vrh" uvijek prvi
     grouped = group_duplicates(articles)
     payload = json.dumps({"articles": grouped, "topics": TOPICS,
                           "pages": PAGE_SLUGS,
