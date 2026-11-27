@@ -1242,16 +1242,35 @@ article img{max-width:100%;height:auto;border-radius:10px}
 figure{margin:18px 0}figcaption{color:var(--muted);font-size:14px;margin-top:4px}
 blockquote{margin:16px 0;padding:4px 0 4px 16px;border-left:4px solid var(--dot);color:var(--muted)}
 a{color:var(--blue)}
-.gallery{display:grid;grid-template-columns:repeat(auto-fill,minmax(130px,1fr));gap:8px;margin-top:22px}
-.gallery a{display:block;aspect-ratio:4/3;overflow:hidden;border-radius:10px}
-.gallery img{width:100%;height:100%;object-fit:cover;border-radius:0;transition:transform .2s}
-.gallery a:hover img{transform:scale(1.04)}
+.gal{margin:30px -20px 0;background:#0e1726;color:#fff;padding:18px 0 14px;border-radius:0}
+.gal-head{display:flex;align-items:baseline;justify-content:space-between;padding:0 20px 12px}
+.gal-head b{font-size:13px;letter-spacing:.14em;text-transform:uppercase;color:#f5b301}
+.gal-head span{font-size:14px;color:#aab4c3;font-variant-numeric:tabular-nums}
+.stage{position:relative}
+.track{display:flex;overflow-x:auto;scroll-snap-type:x mandatory;scrollbar-width:none;scroll-behavior:smooth}
+.track::-webkit-scrollbar{display:none}
+.slide{flex:0 0 100%;scroll-snap-align:center;height:min(62vh,540px);display:flex;align-items:center;justify-content:center;padding:0 12px;cursor:zoom-in}
+.slide img{max-width:100%;max-height:100%;width:auto;height:auto;object-fit:contain;border-radius:8px;box-shadow:0 10px 40px rgba(0,0,0,.45)}
+.nav{position:absolute;top:50%;transform:translateY(-50%);width:44px;height:44px;border-radius:50%;border:0;background:rgba(255,255,255,.92);color:#0e1726;font-size:22px;line-height:44px;cursor:pointer;box-shadow:0 4px 14px rgba(0,0,0,.35);transition:opacity .2s}
+.nav.prev{left:10px}.nav.next{right:10px}.nav[disabled]{opacity:0;pointer-events:none}
+.thumbs{display:flex;gap:8px;overflow-x:auto;padding:14px 20px 4px;scrollbar-width:none}
+.thumbs::-webkit-scrollbar{display:none}
+.thumbs button{flex:0 0 76px;height:56px;padding:0;border:2px solid transparent;border-radius:8px;overflow:hidden;background:#1d2a3d;cursor:pointer;opacity:.55;transition:opacity .2s,border-color .2s}
+.thumbs button.on{opacity:1;border-color:#f5b301}
+.thumbs img{width:100%;height:100%;object-fit:cover;border-radius:0;display:block}
+@media(min-width:760px){.gal{margin:30px 0 0;border-radius:14px}}
 .share{margin-top:22px;display:flex;gap:10px;flex-wrap:wrap}
 .share a,.share button{font:inherit;font-size:15px;border:1px solid var(--line);background:var(--bg);color:var(--ink);padding:8px 14px;border-radius:999px;text-decoration:none;cursor:pointer}
 footer{text-align:center;color:var(--muted);font-size:14px;padding:0 16px 32px}
-#lb{position:fixed;inset:0;background:rgba(0,0,0,.92);display:none;align-items:center;justify-content:center;z-index:9;padding:16px}
-#lb.on{display:flex}#lb img{max-width:100%;max-height:100%;border-radius:6px}
-#lb button{position:absolute;top:12px;right:16px;font-size:34px;background:none;border:0;color:#fff;cursor:pointer}
+#lb{position:fixed;inset:0;background:#060a12;display:none;z-index:9}
+#lb.on{display:block}
+#lb .track{height:100%}
+#lb .slide{height:100%;padding:56px 8px;cursor:default}
+#lb .slide img{border-radius:4px;box-shadow:none}
+#lb .x{position:absolute;top:8px;right:12px;font-size:36px;background:none;border:0;color:#fff;cursor:pointer;z-index:2}
+#lb .cnt{position:absolute;top:18px;left:18px;color:#cfd6e0;font-size:15px;font-variant-numeric:tabular-nums}
+#lb .nav{z-index:2}
+@media(max-width:600px){.nav{width:38px;height:38px;line-height:38px;font-size:19px}}
 """
 
 
@@ -1304,8 +1323,18 @@ def write_posts(posts, site_url, settings):
         cover_url = f"{site_url}clanak/slike/{urllib.parse.quote(p['cover'])}" if p["cover"] else f"{site_url}share.png"
         when = datetime.fromisoformat(p["date"]).astimezone(ZAGREB)
         body = markdown_html(p["body"], img_url)
-        gallery = "".join(f'<a href="../slike/{urllib.parse.quote(g)}"><img src="../slike/{urllib.parse.quote(g)}" '
-                          f'alt="Fotografija {i + 1}" loading="lazy"></a>' for i, g in enumerate(p["gallery"]))
+        gsrc = ["../slike/" + urllib.parse.quote(g) for g in p["gallery"]]
+        gallery = ""
+        if gsrc:
+            slides = "".join(f'<div class="slide"><img src="{u}" alt="Fotografija {i + 1}" loading="{"eager" if i == 0 else "lazy"}"></div>'
+                             for i, u in enumerate(gsrc))
+            thumbs = "".join(f'<button type="button" aria-label="Fotografija {i + 1}"><img src="{u}" alt="" loading="lazy"></button>'
+                             for i, u in enumerate(gsrc))
+            gallery = (f'<section class="gal" aria-label="Fotogalerija"><div class="gal-head"><b>Fotogalerija</b>'
+                       f'<span class="pos">1 / {len(gsrc)}</span></div><div class="stage"><div class="track">{slides}</div>'
+                       f'<button type="button" class="nav prev" aria-label="Prethodna">‹</button>'
+                       f'<button type="button" class="nav next" aria-label="Sljedeća">›</button></div>'
+                       f'<div class="thumbs">{thumbs}</div></section>')
         ld = json.dumps({"@context": "https://schema.org", "@type": "NewsArticle", "headline": p["title"],
                          "datePublished": p["date"], "image": [cover_url], "url": url,
                          "author": {"@type": "Person", "name": p["author"]} if p["author"] else {"@type": "Organization", "name": "idassa.click"},
@@ -1331,15 +1360,31 @@ def write_posts(posts, site_url, settings):
 {f'<img class="cover" src="../slike/{urllib.parse.quote(p["cover"])}" alt="">' if p['cover'] else ''}
 {"".join(f'<p class="lead">{esc(x)}</p>' for x in p["summary"].split("\n\n") if x.strip()) if p['summary'] and not p['body'].strip().startswith(p['summary'][:40]) else ''}
 {body}
-{f'<div class="gallery">{gallery}</div>' if gallery else ''}
+{gallery}
 <div class="share"><button type="button" id="sh">Podijeli</button><a href="https://www.facebook.com/sharer/sharer.php?u={urllib.parse.quote(url)}" target="_blank" rel="noopener">Facebook</a><a href="https://wa.me/?text={urllib.parse.quote(p['title'] + ' ' + url)}" target="_blank" rel="noopener">WhatsApp</a></div>
 </article></main>
 <footer>© idassa.click · vijesti iz Zadra i županije · <a href="../../">naslovnica</a></footer>
-<div id="lb"><button type="button" aria-label="Zatvori">×</button><img alt=""></div>
+<div id="lb" role="dialog" aria-label="Fotografije"><span class="cnt"></span><button type="button" class="x" aria-label="Zatvori">×</button><div class="track"></div><button type="button" class="nav prev" aria-label="Prethodna">‹</button><button type="button" class="nav next" aria-label="Sljedeća">›</button></div>
 <script>
-const lb=document.getElementById("lb"),li=lb.querySelector("img");
-document.querySelectorAll(".gallery a, article p img, article figure img, .cover").forEach(a=>a.addEventListener("click",e=>{{e.preventDefault();li.src=a.href||a.src;lb.classList.add("on")}}));
-lb.addEventListener("click",()=>lb.classList.remove("on"));
+function slider(root,onMove){{const t=root.querySelector(".track"),n=t.children.length,pv=root.querySelector(".prev"),nx=root.querySelector(".next");let i=0;
+const go=k=>{{k=Math.max(0,Math.min(n-1,k));t.scrollTo({{left:k*t.clientWidth,behavior:"smooth"}})}};
+const upd=()=>{{const k=Math.round(t.scrollLeft/Math.max(1,t.clientWidth));if(k!==i||!upd.d){{i=k;upd.d=1;pv.disabled=i<=0;nx.disabled=i>=n-1;onMove&&onMove(i,n)}}}};
+pv.onclick=e=>{{e.stopPropagation();go(i-1)}};nx.onclick=e=>{{e.stopPropagation();go(i+1)}};t.addEventListener("scroll",()=>requestAnimationFrame(upd));upd();
+return {{go,jump:k=>{{t.style.scrollBehavior="auto";t.scrollLeft=k*t.clientWidth;t.style.scrollBehavior="";upd()}},get i(){{return i}}}}}}
+const lb=document.getElementById("lb"),lt=lb.querySelector(".track"),cnt=lb.querySelector(".cnt");
+const pics=[...document.querySelectorAll(".cover, article p img, article figure img, .gal .slide img")];
+pics.forEach(im=>{{const d=document.createElement("div");d.className="slide";d.innerHTML='<img alt="">';d.firstChild.dataset.src=im.currentSrc||im.src;lt.appendChild(d)}});
+const load=k=>[k-1,k,k+1].forEach(j=>{{const im=lt.children[j]&&lt.children[j].firstChild;if(im&&!im.src)im.src=im.dataset.src}});
+const big=slider(lb,(k,n)=>{{cnt.textContent=(k+1)+" / "+n;load(k)}});
+const open=k=>{{lb.classList.add("on");document.body.style.overflow="hidden";load(k);big.jump(k)}};
+const close=()=>{{lb.classList.remove("on");document.body.style.overflow=""}};
+pics.forEach((im,k)=>{{im.style.cursor="zoom-in";(im.closest(".slide")||im).addEventListener("click",()=>open(k))}});
+lb.querySelector(".x").onclick=close;lt.addEventListener("click",e=>{{if(e.target.tagName!=="IMG")close()}});
+document.addEventListener("keydown",e=>{{if(!lb.classList.contains("on"))return;if(e.key==="Escape")close();if(e.key==="ArrowRight"){{e.preventDefault();big.go(big.i+1)}}if(e.key==="ArrowLeft"){{e.preventDefault();big.go(big.i-1)}}}});
+const g=document.querySelector(".gal");
+if(g){{const th=[...g.querySelectorAll(".thumbs button")],pos=g.querySelector(".pos");
+const sm=slider(g.querySelector(".stage"),(k,n)=>{{pos.textContent=(k+1)+" / "+n;th.forEach((b,j)=>b.classList.toggle("on",j===k));const b=th[k],c=b&&b.parentNode;c&&c.scrollTo({{left:b.offsetLeft-c.clientWidth/2+b.offsetWidth/2,behavior:"smooth"}})}});
+th.forEach((b,k)=>b.onclick=()=>sm.go(k))}}
 document.getElementById("sh").addEventListener("click",()=>{{const d={{title:document.title,url:location.href}};navigator.share?navigator.share(d).catch(()=>{{}}):navigator.clipboard.writeText(location.href).then(()=>alert("Link je kopiran"))}});
 </script>
 </body></html>
