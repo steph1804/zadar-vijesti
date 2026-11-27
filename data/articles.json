@@ -817,18 +817,6 @@
   "face_img": "https://023.hr/wp-content/uploads/2026/11/20261127085122_169541.avif"
  },
  {
-  "title": "Javni natječaj za prijam u državnu službu",
-  "link": "https://zadarska-policija.gov.hr/vijesti/javni-natjecaj-za-prijam-u-drzavnu-sluzbu-18915/18915",
-  "date": "2026-11-27T14:45:49.944710+00:00",
-  "summary": "Objavljuje se Javni natječaj za prijam u državnu službu na određeno vrijeme",
-  "image": "https://zadarska-policija.gov.hr/UserDocsImages//2022/banner%20novi.jpg",
-  "source": "Policija Zadar",
-  "topics": [],
-  "source_url": "https://zadarska-policija.gov.hr/vijesti/8",
-  "face": null,
-  "face_img": "https://zadarska-policija.gov.hr/UserDocsImages//2022/banner%20novi.jpg"
- },
- {
   "title": "Zadar je šampion hrvatskog turizma, a priznanja stižu diljem županije! Među nagrađenima i Pažani, Virani i Starigrad",
   "link": "https://zadarskilist.novilist.hr/zadar-zupanija/zadar-je-sampion-hrvatskog-turizma-a-priznanja-stizu-diljem-zupanije-medu-nagradenima-i-pazani-virani-i-starigrad/",
   "date": "2026-11-27T14:45:39+00:00",
@@ -985,25 +973,6 @@
   "face_img": "https://www.grad-zadar.hr/data/images/image/grad550x325/36094/DJI_20260917073747_0038_D.jpg"
  },
  {
-  "title": "Zadar: Vozač zatečen u prometu unatoč izrečene zaštitne mjere zabrane upravljanja",
-  "link": "https://zadarska-policija.gov.hr/vijesti/zadar-vozac-zatecen-u-prometu-unatoc-izrecene-zastitne-mjere-zabrane-upravljanja/18920",
-  "date": "2026-11-27T14:01:17.231264+00:00",
-  "summary": "Policija je vozača isključila iz prometa",
-  "image": "https://zadarska-policija.gov.hr/UserDocsImages//2022/POLICIJA/bri%c5%a1evo.jpg",
-  "source": "Policija Zadar",
-  "topics": [
-   "Zadar"
-  ],
-  "source_url": "https://zadarska-policija.gov.hr/vijesti/8",
-  "face": [
-   26.5,
-   36.9,
-   33.6,
-   40.7
-  ],
-  "face_img": "https://zadarska-policija.gov.hr/UserDocsImages//2022/POLICIJA/bri%c5%a1evo.jpg"
- },
- {
   "title": "Gradski derbi u Jazinama: Zeleni i Žuti bore se bodove i prestiž",
   "link": "https://ezadar.net.hr/sport/3592567/gradski-derbi-u-jazinama-zeleni-i-zuti-bore-se-bodove-i-prestiz/",
   "date": "2026-11-27T14:00:00+00:00",
@@ -1073,18 +1042,6 @@
    57.2
   ],
   "face_img": "https://www.antenazadar.hr/wp-content/uploads/2026/11/Marin-Masnic-FOTO-Valentino-Matesic-.png"
- },
- {
-  "title": "Uhićen po Europskom uhidbenom nalogu",
-  "link": "https://zadarska-policija.gov.hr/vijesti/uhicen-po-europskom-uhidbenom-nalogu/18918",
-  "date": "2026-11-27T13:45:45.791255+00:00",
-  "summary": "Uhićeni 52-godišnjak je predan pritvorskom nadzorniku",
-  "image": "https://zadarska-policija.gov.hr/UserDocsImages//2022/lisice.jpg",
-  "source": "Policija Zadar",
-  "topics": [],
-  "source_url": "https://zadarska-policija.gov.hr/vijesti/8",
-  "face": null,
-  "face_img": "https://zadarska-policija.gov.hr/UserDocsImages//2022/lisice.jpg"
  },
  {
   "title": "Zadarski turistički laureati otkrivaju tajne svog uspjeha: ‘Moramo srušiti mit da spašavamo samo turiste’",
@@ -1652,6 +1609,99 @@
   "face_img": "https://cdn-ezadar.net.hr/wp-content/uploads/645299457_927447640013675_3873470036996263424_n-1052x696.jpg"
  },
  {
+  "title": "Javni natječaj za prijam u državnu službu",
+  "link": "https://zadarska-policija.gov.hr/vijesti/javni-natjecaj-za-prijam-u-drzavnu-sluzbu-18915/18915",
+  "date": "2026-11-27T11:00:00+00:00",
+  "summary": "Objavljuje se Javni natječaj za prijam u državnu službu na određeno vrijeme",
+  "image": "https://zadarska-policija.gov.hr/UserDocsImages//2022/banner%20novi.jpg",
+  "source": "Policija Zadar",
+  "topics": [],
+  "source_url": "https://zadarska-policija.gov.hr/vijesti/8",
+  "face": null,
+  "face_img": "https://zadarska-policija.gov.hr/UserDocsImages//2022/banner%20novi.jpg"
+ },
+ {
+  "title": "Zadar: Vozač zatečen u prometu unatoč izrečene zaštitne mjere zabrane upravljanja",
+  "link": "https://zadarska-policija.gov.hr/vijesti/zadar-vozac-zatecen-u-prometu-unatoc-izrecene-zastitne-mjere-zabrane-upravljanja/18920",
+  "date": "2026-11-27T11:00:00+00:00",
+  "summary": "Policija je vozača isključila iz prometa",
+  "image": "https://zadarska-policija.gov.hr/UserDocsImages//2022/POLICIJA/bri%c5%a1evo.jpg",
+  "source": "Policija Zadar",
+  "topics": [
+   "Zadar"
+  ],
+  "source_url": "https://zadarska-policija.gov.hr/vijesti/8",
+  "face": [
+   26.5,
+   36.9,
+   33.6,
+   40.7
+  ],
+  "face_img": "https://zadarska-policija.gov.hr/UserDocsImages//2022/POLICIJA/bri%c5%a1evo.jpg"
+ },
+ {
+  "title": "Uhićen po Europskom uhidbenom nalogu",
+  "link": "https://zadarska-policija.gov.hr/vijesti/uhicen-po-europskom-uhidbenom-nalogu/18918",
+  "date": "2026-11-27T11:00:00+00:00",
+  "summary": "Uhićeni 52-godišnjak je predan pritvorskom nadzorniku",
+  "image": "https://zadarska-policija.gov.hr/UserDocsImages//2022/lisice.jpg",
+  "source": "Policija Zadar",
+  "topics": [],
+  "source_url": "https://zadarska-policija.gov.hr/vijesti/8",
+  "face": null,
+  "face_img": "https://zadarska-policija.gov.hr/UserDocsImages//2022/lisice.jpg"
+ },
+ {
+  "title": "Za vrijeme dok mu je vozačka dozvola ukinuta upravljao neregistriranim i neosiguranim vozilom - novčana kazna 2 240 eura",
+  "link": "https://zadarska-policija.gov.hr/vijesti/za-vrijeme-dok-mu-je-vozacka-dozvola-ukinuta-upravljao-neregistriranim-i-neosiguranim-vozilom-novcana-kazna-2-240-eura/18917",
+  "date": "2026-11-27T11:00:00+00:00",
+  "summary": "Policija je iz prometa isključila vozilo i vozača",
+  "image": "https://zadarska-policija.gov.hr/UserDocsImages//2024/POLICIJA/A11bljeskalica.jpg",
+  "source": "Policija Zadar",
+  "topics": [],
+  "source_url": "https://zadarska-policija.gov.hr/vijesti/8",
+  "face": null,
+  "face_img": "https://zadarska-policija.gov.hr/UserDocsImages//2024/POLICIJA/A11bljeskalica.jpg"
+ },
+ {
+  "title": "Osumnjičena za krađu iz trgovine",
+  "link": "https://zadarska-policija.gov.hr/vijesti/osumnjicena-za-kradju-iz-trgovine/18914",
+  "date": "2026-11-27T11:00:00+00:00",
+  "summary": "Protiv 27-godišnjakinje policija podnosi kaznenu prijavu",
+  "image": "https://zadarska-policija.gov.hr/UserDocsImages//2024/POLICIJA/policija300.jpg",
+  "source": "Policija Zadar",
+  "topics": [],
+  "source_url": "https://zadarska-policija.gov.hr/vijesti/8",
+  "face": null,
+  "face_img": "https://zadarska-policija.gov.hr/UserDocsImages//2024/POLICIJA/policija300.jpg"
+ },
+ {
+  "title": "Sažetak dnevnih događanja PU zadarske, 27. 11.",
+  "link": "https://zadarska-policija.gov.hr/vijesti/sazetak-dnevnih-dogadjanja-18913/18913",
+  "date": "2026-11-27T11:00:00+00:00",
+  "summary": "",
+  "image": "https://zadarska-policija.gov.hr/UserDocsImages//2024/POLICIJA/policija%201.jpg",
+  "source": "Policija Zadar",
+  "topics": [
+   "Zadar"
+  ],
+  "source_url": "https://zadarska-policija.gov.hr/vijesti/8",
+  "face": null,
+  "face_img": "https://zadarska-policija.gov.hr/UserDocsImages//2024/POLICIJA/policija%201.jpg"
+ },
+ {
+  "title": "Crni petak: Velika sniženja, ali i velik rizik od online prijevara",
+  "link": "https://zadarska-policija.gov.hr/vijesti/crni-petak-velika-snizenja-ali-i-velik-rizik-od-online-prijevara/18916",
+  "date": "2026-11-27T11:00:00+00:00",
+  "summary": "Kako bi izbjegli da se kupovina iz snova pretvori u financijski gubitak, građanima upućujemo savjete za sigurniju internetsku kupovinu",
+  "image": "https://zadarska-policija.gov.hr/UserDocsImages//2026/Prijevare-kod-online-kupovine.png",
+  "source": "Policija Zadar",
+  "topics": [],
+  "source_url": "https://zadarska-policija.gov.hr/vijesti/8",
+  "face": null,
+  "face_img": "https://zadarska-policija.gov.hr/UserDocsImages//2026/Prijevare-kod-online-kupovine.png"
+ },
+ {
   "title": "Počinju radovi na sustavu oborinske odvodnje uz Zatvoreno plivalište",
   "link": "https://visnjik.hr/novosti/pocinju-radovi-na-sustavu-oborinske-odvodnje-uz-zatvoreno-plivaliste-27-11-2026/",
   "date": "2026-11-27T10:59:24+00:00",
@@ -1963,18 +2013,6 @@
   "face_img": "https://api.hrt.hr/media/51/25/whatsapp-image-2026-11-27-at-104553-20261127094651.webp"
  },
  {
-  "title": "Za vrijeme dok mu je vozačka dozvola ukinuta upravljao neregistriranim i neosiguranim vozilom - novčana kazna 2 240 eura",
-  "link": "https://zadarska-policija.gov.hr/vijesti/za-vrijeme-dok-mu-je-vozacka-dozvola-ukinuta-upravljao-neregistriranim-i-neosiguranim-vozilom-novcana-kazna-2-240-eura/18917",
-  "date": "2026-11-27T09:45:43.821545+00:00",
-  "summary": "Policija je iz prometa isključila vozilo i vozača",
-  "image": "https://zadarska-policija.gov.hr/UserDocsImages//2024/POLICIJA/A11bljeskalica.jpg",
-  "source": "Policija Zadar",
-  "topics": [],
-  "source_url": "https://zadarska-policija.gov.hr/vijesti/8",
-  "face": null,
-  "face_img": "https://zadarska-policija.gov.hr/UserDocsImages//2024/POLICIJA/A11bljeskalica.jpg"
- },
- {
   "title": "VELIKE PROMJENE U ZADARSKOJ BOLNICI Obnavljaju se odjeli i operacijske sale, a najveći projekt tek slijedi",
   "link": "https://zadarskilist.novilist.hr/zadar-zupanija/zadar/velike-promjene-u-zadarskoj-bolnici-obnavljaju-se-odjeli-i-operacijske-sale-a-najveci-projekt-tek-slijedi/",
   "date": "2026-11-27T09:45:01+00:00",
@@ -2217,32 +2255,6 @@
   "face_img": "https://cdn-ezadar.net.hr/wp-content/uploads/liburnija-autobusi-u-sumrak-8754bbea485db36e22f8ea0e.jpg"
  },
  {
-  "title": "Osumnjičena za krađu iz trgovine",
-  "link": "https://zadarska-policija.gov.hr/vijesti/osumnjicena-za-kradju-iz-trgovine/18914",
-  "date": "2026-11-27T08:31:09.885261+00:00",
-  "summary": "Protiv 27-godišnjakinje policija podnosi kaznenu prijavu",
-  "image": "https://zadarska-policija.gov.hr/UserDocsImages//2024/POLICIJA/policija300.jpg",
-  "source": "Policija Zadar",
-  "topics": [],
-  "source_url": "https://zadarska-policija.gov.hr/vijesti/8",
-  "face": null,
-  "face_img": "https://zadarska-policija.gov.hr/UserDocsImages//2024/POLICIJA/policija300.jpg"
- },
- {
-  "title": "Sažetak dnevnih događanja PU zadarske, 27. 11.",
-  "link": "https://zadarska-policija.gov.hr/vijesti/sazetak-dnevnih-dogadjanja-18913/18913",
-  "date": "2026-11-27T08:31:09.885261+00:00",
-  "summary": "",
-  "image": "https://zadarska-policija.gov.hr/UserDocsImages//2024/POLICIJA/policija%201.jpg",
-  "source": "Policija Zadar",
-  "topics": [
-   "Zadar"
-  ],
-  "source_url": "https://zadarska-policija.gov.hr/vijesti/8",
-  "face": null,
-  "face_img": "https://zadarska-policija.gov.hr/UserDocsImages//2024/POLICIJA/policija%201.jpg"
- },
- {
   "title": "Grad Zadar uvodi dvije noćne autobusne linije tijekom Adventa – Linije 12 i 13 te voze kući!",
   "link": "https://www.grad-zadar.hr/vijest/opce-vijesti-28/grad-zadar-uvodi-dvije-nocne-autobusne-linije-tijekom-adventa--linije-12-i-13-te-voze-kuci-10179.html",
   "date": "2026-11-27T08:29:00+00:00",
@@ -2310,18 +2322,6 @@
    80.9
   ],
   "face_img": "https://visnjik.hr/wp-content/uploads/2026/11/kosarka-liga-srednje-skole-finale-04-11-2026-13.jpg"
- },
- {
-  "title": "Crni petak: Velika sniženja, ali i velik rizik od online prijevara",
-  "link": "https://zadarska-policija.gov.hr/vijesti/crni-petak-velika-snizenja-ali-i-velik-rizik-od-online-prijevara/18916",
-  "date": "2026-11-27T08:15:44.825632+00:00",
-  "summary": "Kako bi izbjegli da se kupovina iz snova pretvori u financijski gubitak, građanima upućujemo savjete za sigurniju internetsku kupovinu",
-  "image": "https://zadarska-policija.gov.hr/UserDocsImages//2026/Prijevare-kod-online-kupovine.png",
-  "source": "Policija Zadar",
-  "topics": [],
-  "source_url": "https://zadarska-policija.gov.hr/vijesti/8",
-  "face": null,
-  "face_img": "https://zadarska-policija.gov.hr/UserDocsImages//2026/Prijevare-kod-online-kupovine.png"
  },
  {
   "title": "Veliki infrastrukturni zahvati u Općini Stankovci, evo što se sve radi u trima naseljima",

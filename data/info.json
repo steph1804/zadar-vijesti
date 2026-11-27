@@ -5,12 +5,6 @@
    "link": "https://www.jadrolinija.hr/news-single/linije-u-prekidu--28112026",
    "date": "2026-11-27T12:44:00+00:00",
    "summary": "Red plovidbe u subotu , 28.11."
-  },
-  {
-   "title": "Linije u prekidu u petak 27.11.2026.",
-   "link": "https://www.jadrolinija.hr/news-single/linije-u-prekidu-u-petak-27112026_2",
-   "date": "2026-11-27T10:14:00+00:00",
-   "summary": "Red plovidbe u petak , 27.11."
   }
  ],
  "buses": [
@@ -42,76 +36,43 @@
  ],
  "flights": [
   {
-   "dir": "odlazak",
-   "flight": "OU4674",
-   "airline": "Croatia Airlines",
-   "city": "Munich",
-   "via": "",
-   "time": "2026-11-27T06:30:00",
-   "est": "2026-11-27T08:24:00",
-   "act": "2026-11-27T08:32:00",
-   "status": "Departed",
-   "gate": "05"
-  },
-  {
    "dir": "dolazak",
-   "flight": "OU4675",
-   "airline": "Croatia Airlines",
-   "city": "Munich",
-   "via": "",
-   "time": "2026-11-27T15:10:00",
-   "est": "2026-11-27T16:40:00",
-   "act": "",
-   "status": "Delay",
-   "gate": ""
-  },
-  {
-   "dir": "odlazak",
-   "flight": "OU674",
+   "flight": "OU634",
    "airline": "Croatia Airlines",
    "city": "Zagreb",
    "via": "Pula",
-   "time": "2026-11-27T15:40:00",
-   "est": "2026-11-27T17:10:00",
+   "time": "2026-11-29T15:50:00",
+   "est": "2026-11-29T15:50:00",
    "act": "",
-   "status": "Delay",
+   "status": "",
+   "gate": ""
+  },
+  {
+   "dir": "odlazak",
+   "flight": "OU634",
+   "airline": "Croatia Airlines",
+   "city": "Zagreb",
+   "via": "",
+   "time": "2026-11-29T16:20:00",
+   "est": "2026-11-29T16:20:00",
+   "act": "",
+   "status": "",
+   "gate": ""
+  },
+  {
+   "dir": "dolazak",
+   "flight": "OU675",
+   "airline": "Croatia Airlines",
+   "city": "Zagreb",
+   "via": "Pula",
+   "time": "2026-11-29T23:00:00",
+   "est": "2026-11-29T23:00:00",
+   "act": "",
+   "status": "",
    "gate": ""
   }
  ],
- "power": [
-  {
-   "day": "27.11.2026",
-   "place": "Petrčane",
-   "street": "",
-   "note": "Punta Radman 23 i 24 ulica",
-   "time": "08:30 - 12:30",
-   "unplanned": true
-  },
-  {
-   "day": "27.11.2026",
-   "place": "Ždrelac",
-   "street": "Predio Matlovac",
-   "note": "",
-   "time": "08:30 - 13:30",
-   "unplanned": false
-  },
-  {
-   "day": "27.11.2026",
-   "place": "Zadar",
-   "street": "Rampada",
-   "note": "",
-   "time": "08:30 - 12:00",
-   "unplanned": false
-  },
-  {
-   "day": "27.11.2026",
-   "place": "Galovac",
-   "street": "Južni dio naselja Jošani",
-   "note": "",
-   "time": "08:30 - 12:00",
-   "unplanned": false
-  }
- ],
+ "power": [],
  "water": [
   {
    "day": "2026-11-26",
@@ -416,8 +377,16 @@
  ],
  "videos": {
   "v": 2,
-  "fetched": "2026-11-27T22:03:22.405228+00:00",
+  "fetched": "2026-11-27T23:02:34.088932+00:00",
   "items": [
+   {
+    "id": "II9RtkDLXvk",
+    "title": "Kako se gradio Zadar: 3000 godina u 3D 🗺️",
+    "channel": "Horizont",
+    "date": "2026-11-27T06:00:06+00:00",
+    "link": "https://www.youtube.com/watch?v=II9RtkDLXvk",
+    "image": "https://i.ytimg.com/vi/II9RtkDLXvk/mqdefault.jpg"
+   },
    {
     "id": "yx7nwVJKzlo",
     "title": "Filmski ured Zadar jača prepoznatljivost Zadarske županije kao filmske destinacije_INOVAcija",
@@ -529,14 +498,6 @@
     "date": "2026-11-20T15:29:16+00:00",
     "link": "https://www.youtube.com/watch?v=QQPhkqGDZ64",
     "image": "https://i.ytimg.com/vi/QQPhkqGDZ64/mqdefault.jpg"
-   },
-   {
-    "id": "xWA3hHRMmXk",
-    "title": "Zadarski župan prisjetio se stradanja u Škabrnji",
-    "channel": "Hrvatska radiotelevizija",
-    "date": "2026-11-18T20:30:26+00:00",
-    "link": "https://www.youtube.com/watch?v=xWA3hHRMmXk",
-    "image": "https://i.ytimg.com/vi/xWA3hHRMmXk/mqdefault.jpg"
    }
   ]
  }
