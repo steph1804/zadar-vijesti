@@ -316,6 +316,12 @@
   }
   @media (prefers-reduced-motion: reduce) { .tr { animation: none; } .tk { overflow-x: auto; } .feed > article, .hero article { animation: none; }
     article, article img { transition: none; } article:hover, article:hover img { transform: none; } }
+.totop { position: fixed; left: 50%; bottom: 18px; z-index: 40; transform: translate(-50%, 20px); opacity: 0; pointer-events: none;
+  display: inline-flex; align-items: center; gap: 6px; border: 0; border-radius: 999px; padding: 11px 18px; cursor: pointer;
+  background: #f5b301; color: #1d1d1d; font: inherit; font-weight: 700; font-size: .92rem; box-shadow: 0 6px 20px rgba(0,0,0,.28);
+  transition: opacity .25s, transform .25s; }
+.totop.on { opacity: 1; transform: translate(-50%, 0); pointer-events: auto; }
+.totop svg { width: 18px; height: 18px; fill: none; stroke: currentColor; stroke-width: 2.4; stroke-linecap: round; stroke-linejoin: round; }
 .tip { position: fixed; right: 18px; bottom: 18px; z-index: 40; display: inline-flex; align-items: center; gap: 8px;
        background: #1968b3; color: #fff; font-weight: 700; font-size: .9rem; padding: 12px 18px; border-radius: 999px;
        text-decoration: none; box-shadow: 0 8px 24px rgba(0,0,0,.25); transition: transform .15s; }
@@ -1046,6 +1052,17 @@ function appMode() {
   });
 }
 
+// Gumb "Na vrh" kad se dođe do podnožja
+function toTop() {
+  const f = document.querySelector("footer");
+  if (!f || !("IntersectionObserver" in window)) return;
+  const b = el("button", { type: "button", class: "totop", "aria-label": "Natrag na vrh stranice" }, "Na vrh");
+  b.insertAdjacentHTML("afterbegin", '<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 19V5M5 12l7-7 7 7"/></svg>');
+  b.addEventListener("click", () => scrollTo({ top: 0, behavior: "smooth" }));
+  document.body.append(b);
+  new IntersectionObserver(es => b.classList.toggle("on", es[0].isIntersecting)).observe(f);
+}
+
 // Kontakt za dojave (site.json "email"): gumb u kutu i adresa u podnožju
 function contact() {
   const m = DATA.settings && DATA.settings.email;
@@ -1093,6 +1110,7 @@ analytics();
 googleAnalytics();
 whatsapp();
 contact();
+toTop();
 if ("serviceWorker" in navigator) navigator.serviceWorker.register(BASE + "sw.js").catch(() => {});
 
 // Stranica uvijek pokazuje najnovije izdanje: pri svakom otvaranju, povratku na karticu (npr. Chrome
