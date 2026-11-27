@@ -1189,6 +1189,17 @@ def _post_date(v, fallback):
         return fallback
 
 
+def _position(meta):
+    """Stalna pozicija na naslovnici (1 = prvi). Staro polje pinned: true znači 1."""
+    try:
+        n = int(str(meta.get("position", "")).strip() or 0)
+    except ValueError:
+        n = 0
+    if n <= 0 and str(meta.get("pinned", "")).lower() in ("true", "da", "yes"):
+        n = 1
+    return max(0, n)
+
+
 def load_posts():
     posts = []
     if not os.path.isdir(POSTS_DIR):
@@ -1217,7 +1228,7 @@ def load_posts():
                       "cover": cover, "gallery": [_post_image(g) for g in gallery if _post_image(g)],
                       "author": meta.get("author") if isinstance(meta.get("author"), str) else "", "body": body,
                       "promo": str(meta.get("promo", "")).lower() in ("true", "da", "yes"),
-                      "pinned": str(meta.get("pinned", "")).lower() in ("true", "da", "yes")})
+                      "position": _position(meta)})
     return posts
 
 
@@ -1403,7 +1414,7 @@ def post_articles(posts, site_url):
         a = {"title": p["title"], "link": f"{site_url}clanak/{p['slug']}/", "date": p["date"],
              "summary": re.sub(r"\s+", " ", p["summary"]).strip(), "source": POST_SOURCE, "own": True,
              **({"promo": True} if p.get("promo") else {}),
-             **({"pinned": True} if p.get("pinned") else {}),
+             **({"position": p["position"]} if p.get("position") else {}),
              "image": f"{site_url}clanak/slike/{urllib.parse.quote(p['cover'])}" if p["cover"] else ""}
         a["topics"] = current_topics(dict(a, text=p["body"]))
         out.append(a)
@@ -1421,7 +1432,7 @@ def render(articles, sources, status, now, info=None):
     site_url = settings.get("url", "")
     posts = load_posts()
     own = post_articles(posts, site_url)
-    articles = sorted(own + [a for a in articles if a.get("source") != POST_SOURCE], key=lambda a: (bool(a.get("pinned")), a["date"]), reverse=True)  # "Na vrh" uvijek prvi
+    articles = sorted(own + [a for a in articles if a.get("source") != POST_SOURCE], key=lambda a: a["date"], reverse=True)
     grouped = group_duplicates(articles)
     payload = json.dumps({"articles": grouped, "topics": TOPICS,
                           "pages": PAGE_SLUGS,

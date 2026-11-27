@@ -595,8 +595,19 @@ function list() {
   const items = visible().filter(a => matches(a));
   if (!items.length) { main.append(el("div", { class: "empty" }, "Nema vijesti za odabrane filtre.")); return; }
   // Naslovne priče: do tri najnovije vijesti s fotografijom (među prvih osam).
-  const hero = state.q ? [] : items.slice(0, 8).filter(a => a.image).slice(0, 3);
-  const order = items.filter(a => !hero.includes(a));
+  // Vlastiti članci sa stalnom pozicijom ("position" u uređivaču) ne idu po datumu.
+  const fixed = state.q ? [] : items.filter(a => a.position > 0).sort((a, b) => a.position - b.position);
+  const rest = items.filter(a => !fixed.includes(a));
+  let hero = state.q ? [] : rest.slice(0, 8).filter(a => a.image).slice(0, 3);
+  let order = rest.filter(a => !hero.includes(a));
+  if (fixed.length) {
+    const all = [...hero, ...order];
+    fixed.forEach(a => all.splice(Math.min(a.position - 1, all.length), 0, a));
+    const n = hero.length;
+    hero = all.slice(0, n);
+    order = all.slice(n);
+    if (hero.some(a => !a.image)) { order = [...hero.filter(a => !a.image), ...order]; hero = hero.filter(a => a.image); }
+  }
   if (hero.length) {
     const box = el("section", { class: "hero" + (hero.length === 1 ? " one" : hero.length === 2 ? " two" : ""), "aria-label": "Izdvojeno" });
     hero.forEach((a, i) => box.append(card(a, i ? "small" : "big")));
