@@ -1060,6 +1060,273 @@ def jsonld(site_url, topic, url):
     return json.dumps(data, ensure_ascii=False).replace("</", "<\\/")
 
 
+# --- Vlastiti članci (Stipe, 2026-11-27) ---
+# Svaki članak je datoteka clanci/GGGG-MM-DD-naslov.md: zaglavlje (title, date, summary, cover, gallery)
+# između redaka "---", pa tekst u Markdownu. Fotografije su u clanci/slike/. Isti oblik koristi Pages CMS.
+POSTS_DIR = os.path.join(ROOT, "clanci")
+POST_SOURCE = "idassa.click"
+
+
+def _front_matter(text):
+    meta, body = {}, text
+    m = re.match(r"﻿?---\s*\n(.*?)\n---\s*\n?(.*)", text, re.S)
+    if not m:
+        return meta, body
+    body, key = m.group(2), None
+    for line in m.group(1).splitlines():
+        item = re.match(r"\s+-\s+(.*)", line)
+        if item and key:
+            if not isinstance(meta.get(key), list):
+                meta[key] = []
+            meta[key].append(_yaml_value(item.group(1)))
+            continue
+        kv = re.match(r"([A-Za-z_]\w*)\s*:\s*(.*)", line)
+        if kv:
+            key = kv.group(1)
+            meta[key] = _yaml_value(kv.group(2)) if kv.group(2).strip() else []
+    return meta, body
+
+
+def _yaml_value(v):
+    v = v.strip()
+    if len(v) >= 2 and v[0] == v[-1] and v[0] in "\"'":
+        v = v[1:-1]
+        if v and v[0] == '"':
+            pass
+    return v.replace('\\"', '"')
+
+
+def _post_image(path):
+    """Ime datoteke fotografije, bez obzira je li zapisana kao clanci/slike/x.jpg ili /clanak/slike/x.jpg."""
+    return os.path.basename(path.strip()) if path and isinstance(path, str) else ""
+
+
+def _inline_md(t, img_url=None):
+    t = html.escape(t, quote=False)
+    if img_url:
+        t = re.sub(r"!\[([^\]]*)\]\(([^)\s]+)[^)]*\)",
+                   lambda m: f'<img src="{img_url(html.unescape(m.group(2)))}" alt="{m.group(1)}" loading="lazy">', t)
+    t = re.sub(r"\*\*(.+?)\*\*", r"<strong>\1</strong>", t)
+    t = re.sub(r"(?<![\w*])\*(?!\s)(.+?)(?<!\s)\*(?![\w*])", r"<em>\1</em>", t)
+    t = re.sub(r"(?<!\w)_(?!\s)(.+?)(?<!\s)_(?!\w)", r"<em>\1</em>", t)
+    t = re.sub(r"\[([^\]]+)\]\((https?://[^)\s]+)\)",
+               lambda m: f'<a href="{m.group(2)}" target="_blank" rel="noopener">{m.group(1)}</a>', t)
+    return t
+
+
+def markdown_html(md, img_url):
+    """Mali pretvarač Markdowna: odlomci, podnaslovi (##), popisi (-), citati (>), fotografije ![opis](put)."""
+    out = []
+    for block in re.split(r"\n\s*\n", md.replace("\r\n", "\n").strip()):
+        b = block.strip()
+        if not b:
+            continue
+        img = re.fullmatch(r"!\[([^\]]*)\]\(([^)\s]+)[^)]*\)", b)
+        if img:
+            alt = html.escape(img.group(1))
+            cap = f"<figcaption>{alt}</figcaption>" if alt else ""
+            out.append(f'<figure><img src="{img_url(img.group(2))}" alt="{alt}" loading="lazy">{cap}</figure>')
+        elif re.match(r"#{1,6}\s", b):
+            out.append(f"<h2>{_inline_md(re.sub(r'^#+\s*', '', b), img_url)}</h2>")
+        elif all(re.match(r"[-*]\s", l) for l in b.splitlines()):
+            out.append("<ul>" + "".join(f"<li>{_inline_md(l[2:].strip(), img_url)}</li>" for l in b.splitlines()) + "</ul>")
+        elif b.startswith(">"):
+            out.append("<blockquote>" + _inline_md(" ".join(l.lstrip("> ").strip() for l in b.splitlines()), img_url) + "</blockquote>")
+        else:
+            out.append("<p>" + "<br>".join(_inline_md(l.strip(), img_url) for l in b.splitlines()) + "</p>")
+    return "\n".join(out)
+
+
+def _slug(text):
+    t = text.lower()
+    for a, b in (("č", "c"), ("ć", "c"), ("š", "s"), ("ž", "z"), ("đ", "d")):
+        t = t.replace(a, b)
+    return re.sub(r"[^a-z0-9]+", "-", t).strip("-")[:80] or "clanak"
+
+
+def _post_date(v, fallback):
+    v = (v or "").strip()
+    for fmt in ("%Y-%m-%dT%H:%M:%S", "%Y-%m-%dT%H:%M", "%Y-%m-%d %H:%M", "%Y-%m-%d"):
+        try:
+            return datetime.strptime(v[:19], fmt).replace(tzinfo=ZAGREB)
+        except ValueError:
+            pass
+    try:
+        d = datetime.fromisoformat(v)
+        return d if d.tzinfo else d.replace(tzinfo=ZAGREB)
+    except ValueError:
+        return fallback
+
+
+def load_posts():
+    posts = []
+    if not os.path.isdir(POSTS_DIR):
+        return posts
+    for name in sorted(os.listdir(POSTS_DIR)):
+        if not name.endswith(".md"):
+            continue
+        meta, body = _front_matter(open(os.path.join(POSTS_DIR, name), encoding="utf-8").read())
+        title = (meta.get("title") or "").strip() if isinstance(meta.get("title"), str) else ""
+        if not title or str(meta.get("draft", "")).lower() in ("true", "da", "yes"):
+            continue
+        m = re.match(r"(\d{4}-\d{2}-\d{2})", name)
+        fallback = _post_date(m.group(1), datetime.now(ZAGREB)) if m else datetime.now(ZAGREB)
+        when = _post_date(meta.get("date") if isinstance(meta.get("date"), str) else "", fallback)
+        gallery = meta.get("gallery") if isinstance(meta.get("gallery"), list) else []
+        cover = _post_image(meta.get("cover")) or (_post_image(gallery[0]) if gallery else "")
+        if not cover:
+            first = re.search(r"!\[[^\]]*\]\(([^)\s]+)", body)
+            cover = _post_image(first.group(1)) if first else ""
+        summary = meta.get("summary") if isinstance(meta.get("summary"), str) else ""
+        if not summary:
+            plain = re.sub(r"!\[[^\]]*\]\([^)]*\)|[#>*_]|\[([^\]]+)\]\([^)]*\)", r"\1", body).strip()
+            summary = re.sub(r"\s+", " ", plain)[:220]
+        slug = re.sub(r"^\d{4}-\d{2}-\d{2}-", "", name[:-3]) or _slug(title)
+        posts.append({"title": title, "date": when.isoformat(), "summary": summary.strip(), "slug": _slug(slug),
+                      "cover": cover, "gallery": [_post_image(g) for g in gallery if _post_image(g)],
+                      "author": meta.get("author") if isinstance(meta.get("author"), str) else "", "body": body})
+    return posts
+
+
+POST_CSS = """
+:root{--bg:#f4f6f9;--card:#fff;--ink:#17202a;--muted:#5e6c78;--blue:#3466ad;--dot:#ee6636;--line:#e3e8ee}
+@media (prefers-color-scheme:dark){:root{--bg:#0f1620;--card:#17212d;--ink:#e8edf2;--muted:#9aa8b5;--blue:#7aa7e6;--line:#26323f}}
+*{box-sizing:border-box}body{margin:0;background:var(--bg);color:var(--ink);font:17px/1.65 Inter,system-ui,-apple-system,"Segoe UI",Roboto,sans-serif}
+header{background:var(--card);border-bottom:1px solid var(--line)}
+.bar{max-width:760px;margin:0 auto;padding:12px 16px;display:flex;align-items:center;justify-content:space-between;gap:12px}
+.logo{font-weight:800;font-size:22px;color:var(--blue);text-decoration:none;letter-spacing:-.02em}.logo span{color:var(--muted);font-weight:600}
+.back{color:var(--blue);text-decoration:none;font-weight:600;font-size:15px}
+main{max-width:760px;margin:0 auto;padding:20px 16px 48px}
+article{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:22px 20px;overflow:hidden}
+.kick{font-size:13px;font-weight:700;color:var(--dot);text-transform:uppercase;letter-spacing:.06em}
+h1{font-size:clamp(26px,5vw,36px);line-height:1.2;margin:6px 0 8px;letter-spacing:-.01em}
+.meta{color:var(--muted);font-size:14px;margin-bottom:16px}
+.lead{font-size:19px;font-weight:500}
+.cover{margin:0 -20px 18px;width:calc(100% + 40px);max-width:none;display:block;max-height:520px;object-fit:cover;border-radius:0}
+article h2{font-size:22px;margin:26px 0 6px}
+article img{max-width:100%;height:auto;border-radius:10px}
+figure{margin:18px 0}figcaption{color:var(--muted);font-size:14px;margin-top:4px}
+blockquote{margin:16px 0;padding:4px 0 4px 16px;border-left:4px solid var(--dot);color:var(--muted)}
+a{color:var(--blue)}
+.gallery{display:grid;grid-template-columns:repeat(auto-fill,minmax(130px,1fr));gap:8px;margin-top:22px}
+.gallery a{display:block;aspect-ratio:4/3;overflow:hidden;border-radius:10px}
+.gallery img{width:100%;height:100%;object-fit:cover;border-radius:0;transition:transform .2s}
+.gallery a:hover img{transform:scale(1.04)}
+.share{margin-top:22px;display:flex;gap:10px;flex-wrap:wrap}
+.share a,.share button{font:inherit;font-size:15px;border:1px solid var(--line);background:var(--bg);color:var(--ink);padding:8px 14px;border-radius:999px;text-decoration:none;cursor:pointer}
+footer{text-align:center;color:var(--muted);font-size:14px;padding:0 16px 32px}
+#lb{position:fixed;inset:0;background:rgba(0,0,0,.92);display:none;align-items:center;justify-content:center;z-index:9;padding:16px}
+#lb.on{display:flex}#lb img{max-width:100%;max-height:100%;border-radius:6px}
+#lb button{position:absolute;top:12px;right:16px;font-size:34px;background:none;border:0;color:#fff;cursor:pointer}
+"""
+
+
+def write_posts(posts, site_url, settings):
+    """Stranica za svaki vlastiti članak (site/clanak/<slug>/) i smanjene fotografije (site/clanak/slike/)."""
+    if not posts:
+        return
+    esc = html.escape
+    img_dir = os.path.join(OUT_DIR, "clanak", "slike")
+    os.makedirs(img_dir, exist_ok=True)
+    src_dir = os.path.join(POSTS_DIR, "slike")
+    done = set()
+
+    def copy_image(name):
+        if not name or name in done:
+            return
+        done.add(name)
+        src = os.path.join(src_dir, name)
+        if not os.path.isfile(src):
+            print(f"Vlastiti članak: nema fotografije {name}", file=sys.stderr)
+            return
+        dst = os.path.join(img_dir, name)
+        try:
+            import cv2
+            img = cv2.imread(src)
+            if img is not None and re.search(r"\.(jpe?g|png|webp)$", name, re.I):
+                h, w = img.shape[:2]
+                scale = 1600 / max(h, w)
+                if scale < 1:
+                    img = cv2.resize(img, (int(w * scale), int(h * scale)), interpolation=cv2.INTER_AREA)
+                ext = name.rsplit(".", 1)[1].lower()
+                params = [cv2.IMWRITE_JPEG_QUALITY, 82] if ext in ("jpg", "jpeg") else []
+                if cv2.imwrite(dst, img, params):
+                    return
+        except Exception:
+            pass
+        shutil.copyfile(src, dst)
+
+    def img_url(path):
+        name = _post_image(path)
+        if re.match(r"https?://", path):
+            return esc(path)
+        copy_image(name)
+        return "../slike/" + urllib.parse.quote(name)
+
+    for p in posts:
+        for n in [p["cover"], *p["gallery"]]:
+            copy_image(n)
+        url = f"{site_url}clanak/{p['slug']}/"
+        cover_url = f"{site_url}clanak/slike/{urllib.parse.quote(p['cover'])}" if p["cover"] else f"{site_url}share.png"
+        when = datetime.fromisoformat(p["date"]).astimezone(ZAGREB)
+        body = markdown_html(p["body"], img_url)
+        gallery = "".join(f'<a href="../slike/{urllib.parse.quote(g)}"><img src="../slike/{urllib.parse.quote(g)}" '
+                          f'alt="Fotografija {i + 1}" loading="lazy"></a>' for i, g in enumerate(p["gallery"]))
+        ld = json.dumps({"@context": "https://schema.org", "@type": "NewsArticle", "headline": p["title"],
+                         "datePublished": p["date"], "image": [cover_url], "url": url,
+                         "author": {"@type": "Person", "name": p["author"]} if p["author"] else {"@type": "Organization", "name": "idassa.click"},
+                         "publisher": {"@type": "Organization", "name": "idassa.click", "url": site_url}},
+                        ensure_ascii=False).replace("</", "<\\/")
+        ga = settings.get("google_analytics", "")
+        page = f"""<!doctype html>
+<html lang="hr"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>{esc(p['title'])} – idassa.click</title>
+<meta name="description" content="{esc(p['summary'])}">
+<link rel="canonical" href="{esc(url)}"><link rel="icon" href="../../favicon.png">
+<meta property="og:type" content="article"><meta property="og:title" content="{esc(p['title'])}">
+<meta property="og:description" content="{esc(p['summary'])}"><meta property="og:url" content="{esc(url)}">
+<meta property="og:image" content="{esc(cover_url)}"><meta name="twitter:card" content="summary_large_image">
+<script type="application/ld+json">{ld}</script>
+<style>{POST_CSS}</style></head><body>
+<header><div class="bar"><a class="logo" href="../../">idassa<span>.click</span></a><a class="back" href="../../">← Sve vijesti</a></div></header>
+<main><article>
+<div class="kick">idassa.click</div>
+<h1>{esc(p['title'])}</h1>
+<div class="meta">{esc(p['author'] + ' · ') if p['author'] else ''}<time datetime="{esc(p['date'])}">{when.day}. {when.month}. {when.year}. u {when:%H:%M}</time></div>
+{f'<img class="cover" src="../slike/{urllib.parse.quote(p["cover"])}" alt="">' if p['cover'] else ''}
+{f'<p class="lead">{esc(p["summary"])}</p>' if p['summary'] and not p['body'].strip().startswith(p['summary'][:40]) else ''}
+{body}
+{f'<div class="gallery">{gallery}</div>' if gallery else ''}
+<div class="share"><button type="button" id="sh">Podijeli</button><a href="https://www.facebook.com/sharer/sharer.php?u={urllib.parse.quote(url)}" target="_blank" rel="noopener">Facebook</a><a href="https://wa.me/?text={urllib.parse.quote(p['title'] + ' ' + url)}" target="_blank" rel="noopener">WhatsApp</a></div>
+</article></main>
+<footer>© idassa.click · vijesti iz Zadra i županije · <a href="../../">naslovnica</a></footer>
+<div id="lb"><button type="button" aria-label="Zatvori">×</button><img alt=""></div>
+<script>
+const lb=document.getElementById("lb"),li=lb.querySelector("img");
+document.querySelectorAll(".gallery a, article p img, article figure img, .cover").forEach(a=>a.addEventListener("click",e=>{{e.preventDefault();li.src=a.href||a.src;lb.classList.add("on")}}));
+lb.addEventListener("click",()=>lb.classList.remove("on"));
+document.getElementById("sh").addEventListener("click",()=>{{const d={{title:document.title,url:location.href}};navigator.share?navigator.share(d).catch(()=>{{}}):navigator.clipboard.writeText(location.href).then(()=>alert("Link je kopiran"))}});
+</script>
+</body></html>
+"""
+        out = os.path.join(OUT_DIR, "clanak", p["slug"])
+        os.makedirs(out, exist_ok=True)
+        with open(os.path.join(out, "index.html"), "w", encoding="utf-8") as f:
+            f.write(page)
+
+
+def post_articles(posts, site_url):
+    """Vlastiti članci kao kartice na naslovnici (izvor "idassa.click")."""
+    out = []
+    for p in posts:
+        a = {"title": p["title"], "link": f"{site_url}clanak/{p['slug']}/", "date": p["date"],
+             "summary": p["summary"], "source": POST_SOURCE, "own": True,
+             "image": f"{site_url}clanak/slike/{urllib.parse.quote(p['cover'])}" if p["cover"] else ""}
+        a["topics"] = current_topics(dict(a, text=p["body"]))
+        out.append(a)
+    return out
+
+
 def render(articles, sources, status, now, info=None):
     with open(TEMPLATE, encoding="utf-8") as f:
         tpl = f.read()
@@ -1068,15 +1335,19 @@ def render(articles, sources, status, now, info=None):
             settings = json.load(f)
     except FileNotFoundError:
         settings = {}
+    site_url = settings.get("url", "")
+    posts = load_posts()
+    own = post_articles(posts, site_url)
+    articles = sorted(own + [a for a in articles if a.get("source") != POST_SOURCE], key=lambda a: a["date"], reverse=True)
     grouped = group_duplicates(articles)
     payload = json.dumps({"articles": grouped, "topics": TOPICS,
                           "pages": PAGE_SLUGS,
-                          "sources": [s["name"] for s in sources if s.get("kind") != "info"],
-                          "sites": {s["name"]: s.get("site", "") for s in sources if s.get("kind") != "info"},
+                          "sources": ([POST_SOURCE] if own else []) + [s["name"] for s in sources if s.get("kind") != "info"],
+                          "sites": dict({s["name"]: s.get("site", "") for s in sources if s.get("kind") != "info"},
+                                        **({POST_SOURCE: site_url} if own else {})),
                           "info": info or {}, "settings": settings,
                           "status": status, "updated": now}, ensure_ascii=False)
     payload = payload.replace("</", "<\\/")
-    site_url = settings.get("url", "")
     if os.path.isdir(OUT_DIR):
         shutil.rmtree(OUT_DIR)
     shutil.copytree(os.path.join(ROOT, "static"), OUT_DIR)
@@ -1096,6 +1367,7 @@ def render(articles, sources, status, now, info=None):
         os.makedirs(out, exist_ok=True)
         with open(os.path.join(out, "index.html"), "w", encoding="utf-8") as f:
             f.write(page)
+    write_posts(posts, site_url, settings)
     write_whatsapp(grouped, site_url)
     write_instagram(grouped)
     if settings.get("private"):

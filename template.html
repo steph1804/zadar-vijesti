@@ -549,7 +549,8 @@ function favicon(link) {
 const topicOf = a => (a.topics || []).find(t => t !== "Zadar") || null;
 
 function card(a, kind) {
-  const link = { href: a.link, target: "_blank", rel: "noopener" };
+  // Vlastiti članci (izvor idassa.click) otvaraju se u istom prozoru, ostali na portalu u novom.
+  const link = a.own ? { href: a.link } : { href: a.link, target: "_blank", rel: "noopener" };
   const t = topicOf(a);
   const c = el("article", { class: kind ? "ov " + kind : (a.image ? null : "noimg"), "data-t": t });
   if (a.image) {

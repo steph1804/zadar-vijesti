@@ -1,0 +1,49 @@
+# Uređivač za vlastite članke: https://app.pagescms.org (prijava GitHubom, repozitorij steph1804/zadar-vijesti).
+# Spremljen članak odmah pokreće objavu na idassa.click (1-2 minute).
+media:
+  input: clanci/slike
+  output: /clanak/slike
+content:
+  - name: clanci
+    label: Moji članci
+    type: collection
+    path: clanci
+    filename: "{year}-{month}-{day}-{primary}.md"
+    view:
+      fields: [title, date, draft]
+      sort: [date]
+      default:
+        sort: date
+        order: desc
+    fields:
+      - name: title
+        label: Naslov
+        type: string
+        required: true
+      - name: date
+        label: Datum i vrijeme objave
+        type: date
+        required: true
+        options:
+          time: true
+      - name: summary
+        label: Uvod (kratko, vidi se na kartici na naslovnici)
+        type: text
+      - name: author
+        label: Autor
+        type: string
+        default: Stipe
+      - name: cover
+        label: Naslovna fotografija
+        type: image
+      - name: gallery
+        label: Galerija fotografija
+        type: image
+        list: true
+      - name: draft
+        label: Skica (ne objavljuj još)
+        type: boolean
+        default: false
+      - name: body
+        label: Tekst članka
+        type: rich-text
