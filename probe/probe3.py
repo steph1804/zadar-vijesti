@@ -1,6 +1,6 @@
 import json, re, urllib.request
 UA = "Mozilla/5.0 (compatible; LokalniAgregator/1.0; +https://idassa.click)"
-urls = ['https://bnm-portal.com/wp-content/uploads/2026/11/3.jpg.webp', 'https://bnm-portal.com/wp-content/uploads/2026/11/FELIKS-I-DORIS-plakat.jpg', 'https://bnm-portal.com/wp-content/uploads/2026/11/Photo-by-Arhiva-Croatia-Airlinesa_0.jpg.webp']
+urls = ['https://057info.hr/', 'https://057info.hr/feed/', 'https://057info.hr/robots.txt', 'https://www.057info.hr/rss']
 out = {}
 for u in urls:
     try:
