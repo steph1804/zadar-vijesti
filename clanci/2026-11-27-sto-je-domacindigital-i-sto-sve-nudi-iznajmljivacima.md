@@ -14,6 +14,13 @@ summary: >-
   U članku smo objasnili što gost vidi, kako vodič uređujete i koliko košta.
 author: D.D.
 cover: /clanak/slike/blog-sto-je-domacin-digital.jpg
+gallery:
+  - /clanak/slike/instagram-1-top.png
+  - /clanak/slike/instagram-2-wifi.png
+  - /clanak/slike/instagram-3-stay.png
+  - /clanak/slike/vodic-ekrani-1.png
+  - /clanak/slike/vodic-ekrani-2.png
+  - /clanak/slike/vodic-ekrani-3.png
 draft: true
 ---
 [domacin.digital](http://domacin.digital) je digitalni vodič za goste u privatnom smještaju. Gost skenira QR kod u apartmanu ili otvori link koji ste mu poslali i na mobitelu, na svom jeziku, vidi sve što treba znati: Wi-Fi, dolazak i ključeve, kućni red, kako radi klima, gdje je najbliža plaža i trgovina. Bez aplikacije, bez prijave i bez papira koji se izgubi u ladici.
