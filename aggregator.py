@@ -1215,7 +1215,8 @@ def load_posts():
         slug = re.sub(r"^\d{4}-\d{2}-\d{2}-", "", name[:-3]) or _slug(title)
         posts.append({"title": title, "date": when.isoformat(), "summary": summary.strip(), "slug": _slug(slug),
                       "cover": cover, "gallery": [_post_image(g) for g in gallery if _post_image(g)],
-                      "author": meta.get("author") if isinstance(meta.get("author"), str) else "", "body": body})
+                      "author": meta.get("author") if isinstance(meta.get("author"), str) else "", "body": body,
+                      "promo": str(meta.get("promo", "")).lower() in ("true", "da", "yes")})
     return posts
 
 
@@ -1229,6 +1230,8 @@ header{background:var(--card);border-bottom:1px solid var(--line)}
 .back{color:var(--blue);text-decoration:none;font-weight:600;font-size:15px}
 main{max-width:760px;margin:0 auto;padding:20px 16px 48px}
 article{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:22px 20px;overflow:hidden}
+.promo{background:#f5b301;color:#1d1d1d;padding:2px 8px;border-radius:999px;margin-right:6px}
+.promo-note{margin:0 0 8px;font-size:13px;color:var(--muted)}
 .kick{font-size:13px;font-weight:700;color:var(--dot);text-transform:uppercase;letter-spacing:.06em}
 h1{font-size:clamp(26px,5vw,36px);line-height:1.2;margin:6px 0 8px;letter-spacing:-.01em}
 .meta{color:var(--muted);font-size:14px;margin-bottom:16px}
@@ -1321,7 +1324,8 @@ def write_posts(posts, site_url, settings):
 <style>{POST_CSS}</style></head><body>
 <header><div class="bar"><a class="logo" href="../../">idassa<span>.click</span></a><a class="back" href="../../">← Sve vijesti</a></div></header>
 <main><article>
-<div class="kick">idassa.click</div>
+<div class="kick">{'<span class="promo">Promo</span> ' if p.get('promo') else ''}idassa.click</div>
+{'<p class="promo-note">Promotivni sadržaj</p>' if p.get('promo') else ''}
 <h1>{esc(p['title'])}</h1>
 <div class="meta">{esc(p['author'] + ' · ') if p['author'] else ''}<time datetime="{esc(p['date'])}">{when.day}. {when.month}. {when.year}. u {when:%H:%M}</time></div>
 {f'<img class="cover" src="../slike/{urllib.parse.quote(p["cover"])}" alt="">' if p['cover'] else ''}
@@ -1352,6 +1356,7 @@ def post_articles(posts, site_url):
     for p in posts:
         a = {"title": p["title"], "link": f"{site_url}clanak/{p['slug']}/", "date": p["date"],
              "summary": re.sub(r"\s+", " ", p["summary"]).strip(), "source": POST_SOURCE, "own": True,
+             **({"promo": True} if p.get("promo") else {}),
              "image": f"{site_url}clanak/slike/{urllib.parse.quote(p['cover'])}" if p["cover"] else ""}
         a["topics"] = current_topics(dict(a, text=p["body"]))
         out.append(a)

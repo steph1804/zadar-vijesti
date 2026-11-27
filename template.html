@@ -193,6 +193,8 @@
   article.noimg { border-top: 4px solid var(--t); }
   .body { padding: 13px 16px 15px; display: flex; flex-direction: column; gap: 7px; flex: 1; }
   .meta { color: var(--muted); font-size: .76rem; display: flex; gap: 8px; flex-wrap: wrap; align-items: center; }
+  .meta .promo { background: #f5b301; color: #1d1d1d; font-weight: 800; font-size: .66rem; letter-spacing: .08em;
+    text-transform: uppercase; padding: 2px 8px; border-radius: 999px; }
   .meta b { color: var(--text); font-weight: 700; letter-spacing: .01em; }
   .tag { --t: var(--accent); background: color-mix(in srgb, var(--t) 14%, transparent); color: var(--t); border-radius: 999px;
          padding: 1px 9px; font-weight: 700; font-size: .7rem; text-transform: uppercase; letter-spacing: .05em; }
@@ -572,11 +574,12 @@ function card(a, kind) {
   c.append(el("div", { class: "body" },
     el("div", { class: "meta" }, el("span", { class: "src" }, favicon(a.link), el("b", {}, a.source)),
       el("time", { datetime: a.date, title: fmt.format(new Date(a.date)) }, ago(a.date)),
-      topic ? el("span", { class: "tag", "data-t": topic }, topic) : null),
+      a.promo ? el("span", { class: "promo", title: "Promotivni sadržaj" }, "Promo") : null,
+      topic && !a.promo ? el("span", { class: "tag", "data-t": topic }, topic) : null),
     el("h2", {}, el("a", link, a.title)),
     a.summary && !fold(a.summary).startsWith(fold(a.title)) ? el("p", {}, a.summary) : null,
     also,
-    el("a", { ...link, class: "more" }, `Pročitaj na ${a.source} →`)));
+    el("a", { ...link, class: "more" }, a.own ? "Pročitaj članak →" : `Pročitaj na ${a.source} →`)));
   return c;
 }
 

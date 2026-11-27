@@ -40,6 +40,10 @@ content:
         label: Galerija fotografija
         type: image
         list: true
+      - name: promo
+        label: Promo (oglas ili promotivni tekst, dobiva oznaku "Promo")
+        type: boolean
+        default: false
       - name: draft
         label: Skica (ne objavljuj još)
         type: boolean
