@@ -37,7 +37,7 @@ Napravili smo ga za domaćine s jednim do petnaest apartmana, soba ili kuća za 
 - **Preporuke u blizini:** plaže, konobe, trgovine, ljekarna, izleti, s poveznicom na karte.
 - **Ponuda domaćina:** domaće ulje, vino, najam bicikla ili SUP-a, transfer. Gost vam se javlja gumbom koji otvara WhatsApp.
 - **Prije odlaska:** kratak popis, na primjer gdje ostaviti ključ i što napraviti sa smećem.
-- **Kontakt i hitni brojevi:** gumb za Google recenziju i gumb za izravnu rezervaciju idući put.
+- **Kontakt i hitni brojevi**, gumb za Google recenziju i gumb za izravnu rezervaciju idući put.
 
 ## **Na 15 jezika, bez prevođenja ručno**
 
