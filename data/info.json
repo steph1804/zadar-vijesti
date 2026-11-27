@@ -1,6 +1,39 @@
 {
- "Jadrolinija": [],
- "buses": null,
+ "Jadrolinija": [
+  {
+   "title": "Svi Jadrolinijini brodovi plove prema redu plovidbe",
+   "link": "https://www.jadrolinija.hr/news-single/stanje-u-pomorskom-prometu",
+   "date": "2026-11-26T23:50:02+00:00",
+   "summary": "U pomorskom prometu nema poteškoća, svi Jadrolinijini brodovi plove prema redu plovidbe."
+  }
+ ],
+ "buses": [
+  {
+   "title": "Obavijest za autobusnu liniju Kolodvor – Crvene kuće – Supernova",
+   "link": "https://liburnija-zadar.hr/obavijest-za-autobusnu-liniju-kolodvor-crvene-kuce-supernova/",
+   "date": "2026-11-26T11:39:39+00:00"
+  },
+  {
+   "title": "Obavijest za liniju Dračevac",
+   "link": "https://liburnija-zadar.hr/obavijest-za-liniju-dracevac-2/",
+   "date": "2026-11-23T09:39:31+00:00"
+  },
+  {
+   "title": "Obavijest za autobusne linije Belafuža,Puntamika,Diklo te prigradske linije iz smjera Nina i Ražanca prema kolodvoru",
+   "link": "https://liburnija-zadar.hr/obavijest-za-autobusne-linije-belafuzapuntamikadiklo-te-prigradske-linije-iz-smjera-nina-i-razanca-prema-kolodvoru/",
+   "date": "2026-11-06T18:33:23+00:00"
+  },
+  {
+   "title": "Obavijest o linijama koje prometuju Ulicom Put Nina",
+   "link": "https://liburnija-zadar.hr/obavijest-o-linijama-koje-prometuju-ulicom-put-nina/",
+   "date": "2026-10-28T10:42:41+00:00"
+  },
+  {
+   "title": "Obavijest Bibinje (marina)",
+   "link": "https://liburnija-zadar.hr/obavijest-bibinje-marina/",
+   "date": "2026-10-28T10:40:55+00:00"
+  }
+ ],
  "flights": [
   {
    "dir": "odlazak",
