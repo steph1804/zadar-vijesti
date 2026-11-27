@@ -1,5 +1,71 @@
 [
  {
+  "title": "Uhićen po Europskom uhidbenom nalogu",
+  "link": "https://zadarska-policija.gov.hr/vijesti/uhicen-po-europskom-uhidbenom-nalogu/18918",
+  "date": "2026-11-27T13:45:45.791255+00:00",
+  "summary": "Uhićeni 52-godišnjak je predan pritvorskom nadzorniku",
+  "image": "https://zadarska-policija.gov.hr/UserDocsImages//2022/lisice.jpg",
+  "source": "Policija Zadar",
+  "topics": [],
+  "source_url": "https://zadarska-policija.gov.hr/vijesti/8",
+  "face": null,
+  "face_img": "https://zadarska-policija.gov.hr/UserDocsImages//2022/lisice.jpg"
+ },
+ {
+  "title": "Zadarski turistički laureati otkrivaju tajne svog uspjeha: ‘Moramo srušiti mit da spašavamo samo turiste’",
+  "link": "https://zadarskilist.novilist.hr/zadar-zupanija/zadar/zadarski-turisticki-laureati-otkrivaju-tajne-svog-uspjeha-moramo-srusiti-mit-da-spasavamo-samo-turiste/",
+  "date": "2026-11-27T13:45:38+00:00",
+  "summary": "Dok jedni spašavaju živote na nepristupačnim velebitskim terenima, drugi oživljavaju gotovo zaboravljenu kulturnu baštinu, okupljaju domaće proizvođače ili svojim manifestacijama privlače tisuće ljudi u Zadarsku županiju.",
+  "image": "https://zadarskilist.novilist.hr/wp-content/uploads/2026/11/12481829.jpg",
+  "source": "Zadarski list",
+  "topics": [
+   "Zadar",
+   "Županija",
+   "Otoci"
+  ],
+  "source_url": "https://zadarskilist.novilist.hr/",
+  "face": [
+   35.7,
+   45.7,
+   30.5,
+   70.8
+  ],
+  "face_img": "https://zadarskilist.novilist.hr/wp-content/uploads/2026/11/12481829.jpg"
+ },
+ {
+  "title": "Želimir Periš studentima: Pisanje je lomljenje vlastitog ega",
+  "link": "https://www.tportal.hr/kultura/clanak/zelimir-peris-studentima-pisanje-je-lomljenje-vlastitog-ega-foto-20261127",
+  "date": "2026-11-27T13:33:00+00:00",
+  "summary": "Od interaktivnih romana i digitalnih čitateljskih zajednica do društvenih igara i budućnosti tržišta rada, nagrađivani hrvatski pisac Želimir Periš na gostovanju u sklopu projekta BookHub & UNIZD Reads na Sveučilištu u Zadru govorio je o književnosti koja izlazi izvan okvira knjige, ali i o važnosti znatiželje, širine…",
+  "image": "https://www.tportal.hr/media/thumbnail/500x300/2834267.jpeg?cropId=0",
+  "source": "tportal",
+  "topics": [
+   "Zadar"
+  ],
+  "source_url": "https://www.tportal.hr/",
+  "face": [
+   2.8,
+   54.8,
+   10.1,
+   79.7
+  ],
+  "face_img": "https://www.tportal.hr/media/thumbnail/500x300/2834267.jpeg?cropId=0"
+ },
+ {
+  "title": "Crni petak: Velika sniženja, ali i velik rizik od online prijevara",
+  "link": "https://radio.hrt.hr/radio-zadar/vijesti/crni-petak-velika-snizenja-ali-i-velik-rizik-od-online-prijevara-13031449",
+  "date": "2026-11-27T13:31:38+00:00",
+  "summary": "Kako bi izbjegli da se kupovina iz snova pretvori u financijski gubitak, građanima policija upućuje savjete za sigurniju internetsku kupovinu.",
+  "image": "https://api.hrt.hr/media/d5/7f/prijevare-kod-online-kupovine-20261127133121.webp",
+  "source": "HRT Radio Zadar",
+  "topics": [
+   "Zadar"
+  ],
+  "source_url": "https://radio.hrt.hr/radio-zadar",
+  "face": null,
+  "face_img": "https://api.hrt.hr/media/d5/7f/prijevare-kod-online-kupovine-20261127133121.webp"
+ },
+ {
   "title": "[VIDEO] Radio je s najvećim svjetskim zvijezdama, a sada i sa zadarskom pjevačicom. Poslušajte njezin novi singl",
   "link": "https://zadarskilist.novilist.hr/ostalo/scena/video-radio-je-s-najvecim-svjetskim-zvijezdama-a-sada-i-sa-zadarskom-pjevacicom-poslusajte-njezin-novi-singl/",
   "date": "2026-11-27T13:15:35+00:00",
@@ -143,10 +209,10 @@
   "face_img": "https://zadarskilist.novilist.hr/wp-content/uploads/2026/11/12445870.jpg"
  },
  {
-  "title": "Zadarska županija u deset godina: gotovo 38 posto više osiguranika, nezaposlenost pala za 62 posto",
+  "title": "Zadarska županija u deset godina: gotovo 38 posto više zaposlenih, nezaposlenost pala za 62 posto",
   "link": "https://www.zadarska-zupanija.hr/novosti-arhiva/item/4633-zadarska-zupanija-u-deset-godina-gotovo-38-posto-vise-osiguranika,-nezaposlenost-pala-za-62-posto",
   "date": "2026-11-27T12:30:53+00:00",
-  "summary": "Zadarska županija nastavlja bilježiti godišnji rast broja zaposlenih osoba, uz istodobno smanjenje nezaposlenosti.",
+  "summary": "Zadarska županija nastavlja bilježiti snažan godišnji rast broja zaposlenih osoba, uz istodobno značajno smanjenje nezaposlenosti.",
   "image": "https://www.zadarska-zupanija.hr/media/k2/items/cache/8856ce8049f74736b2ba8519cb79868e_M.jpg",
   "source": "Zadarska županija",
   "source_topic": "Županija",
@@ -4961,73 +5027,6 @@
    51.6
   ],
   "face_img": "https://www.dalmacijadanas.hr/wp-content/uploads/2026/11/beba.webp"
- },
- {
-  "title": "[FOTO] 13-metarska božićna jelka stigla na Narodni trg iz Požege, uskoro će biti okićena",
-  "link": "https://zadarskilist.novilist.hr/zadar-zupanija/zadar/13-metarska-bozicna-jelka-stigla-na-narodni-trg-iz-pozege-uskoro-ce-biti-okicena/",
-  "date": "2026-11-25T14:20:42+00:00",
-  "summary": "Advent u Zadru službeno je otvoren sinoć koncertom Mladena Grdovića na Trgu Petra Zoranića, a danas poslijepodne na obližnjem Narodnom trgu počelo je postavljanje božićne jelke. Riječ je o nordijskoj jeli visokoj oko 13 metara, koja je na trg stigla oko 14 sati iz Vetova, naselja u okolici Požege.",
-  "image": "https://zadarskilist.novilist.hr/wp-content/uploads/2026/11/926852146_1156500870441683_4603077768662642481_n.jpg",
-  "source": "Zadarski list",
-  "topics": [
-   "Zadar"
-  ],
-  "source_url": "https://zadarskilist.novilist.hr/",
-  "face": null,
-  "face_img": "https://zadarskilist.novilist.hr/wp-content/uploads/2026/11/926852146_1156500870441683_4603077768662642481_n.jpg"
- },
- {
-  "title": "Stanovnici zadarskog poluotoka ostali bez vode, sve ekipe su na terenu: ‘Pukla je glavna cijev. Radovi će potrajati...‘",
-  "link": "https://slobodnadalmacija.hr/dalmacija/zadar/stanovnici-zadarskog-poluotoka-ostali-bez-vode-sve-ekipe-su-na-terenu-pukla-je-glavna-cijev-radovi-ce-potrajati-1592336",
-  "date": "2026-11-25T14:08:00+00:00",
-  "summary": "Stanovnici zadarskog poluotoka ostali su danas bez vode. Prema prvim procjenama radovi će danas potrajati, a sve raspoložive ekipe su na terenu, javlja HRT. - Došlo je do puknuća cijevi i to glavne dovodne za Poluotok, trenutno se radi na sanaciji, a sve naše ekipe su na terenu, informaciju kad će d...",
-  "image": "https://static.slobodnadalmacija.hr/images/slike/2026/11/25/32922658.jpg",
-  "source": "Slobodna Dalmacija/Zadar",
-  "topics": [
-   "Zadar"
-  ],
-  "source_url": "https://slobodnadalmacija.hr/dalmacija/zadar",
-  "face": null,
-  "face_img": "https://static.slobodnadalmacija.hr/images/slike/2026/11/25/32922658.jpg"
- },
- {
-  "title": "‘Čovjek vlada i snuje, a bura odlučuje’: Fascinantna izložba o vjetru koji oblikuje život na Jadranu",
-  "link": "https://zadarskilist.novilist.hr/ostalo/kultura/covjek-vlada-i-snuje-a-bura-odlucuje-fascinantna-izlozba-o-vjetru-koji-oblikuje-zivot-na-jadranu/",
-  "date": "2026-11-25T14:01:30+00:00",
-  "summary": "Čovjek vlada i snuje, a bura odlučuje, kaže stara paška izreka. I doista, malo je prirodnih pojava na Jadranu koje toliko snažno određuju život uz more kao bura.",
-  "image": "https://zadarskilist.novilist.hr/wp-content/uploads/2026/11/12476364.jpg",
-  "source": "Zadarski list",
-  "topics": [
-   "Zadar",
-   "Županija"
-  ],
-  "source_url": "https://zadarskilist.novilist.hr/",
-  "face": [
-   22.0,
-   59.7,
-   44.2,
-   58.2
-  ],
-  "face_img": "https://zadarskilist.novilist.hr/wp-content/uploads/2026/11/12476364.jpg"
- },
- {
-  "title": "Bačić napao Tomaševića zbog obnove: ‘Niti jedan euro nije potrošio iz gradskog proračuna’",
-  "link": "https://www.telegram.hr/politika-kriminal/bacic-napao-tomasevica-zbog-obnove-niti-jedan-euro-nije-potrosio-iz-gradskog-proracuna/",
-  "date": "2026-11-25T14:01:07+00:00",
-  "summary": "Došlo je vrijeme da od 2027. građani Iloka, Drniša i Zadra ne financiraju obnovu na području Zagreba, kaže ministar",
-  "image": "https://www.telegram.hr/wp-content/uploads/2026/11/pxl-251126-163115294-150x150.jpg",
-  "source": "Telegram",
-  "topics": [
-   "Zadar"
-  ],
-  "source_url": "https://www.telegram.hr/",
-  "face": [
-   15.3,
-   54.2,
-   30.1,
-   54.8
-  ],
-  "face_img": "https://www.telegram.hr/wp-content/uploads/2026/11/pxl-251126-163115294-150x150.jpg"
  },
  {
   "title": "Barbara Dabo, najbolja domaćica Hrvatske: Gost ne dolazi samo u kuću, nego postaje dio njezine priče",
