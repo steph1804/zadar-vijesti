@@ -75,11 +75,11 @@
  "power": [
   {
    "day": "27.11.2026",
-   "place": "Zadar",
-   "street": "Rampada",
-   "note": "",
-   "time": "08:30 - 12:00",
-   "unplanned": false
+   "place": "Petrčane",
+   "street": "",
+   "note": "Punta Radman 23 i 24 ulica",
+   "time": "08:30 - 12:30",
+   "unplanned": true
   },
   {
    "day": "27.11.2026",
@@ -87,6 +87,14 @@
    "street": "Predio Matlovac",
    "note": "",
    "time": "08:30 - 13:30",
+   "unplanned": false
+  },
+  {
+   "day": "27.11.2026",
+   "place": "Zadar",
+   "street": "Rampada",
+   "note": "",
+   "time": "08:30 - 12:00",
    "unplanned": false
   },
   {
