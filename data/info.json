@@ -9,6 +9,11 @@
  ],
  "buses": [
   {
+   "title": "Obavijest za gradske autobusne linije",
+   "link": "https://liburnija-zadar.hr/obavijest-za-gradske-autobusne-linije/",
+   "date": "2026-11-27T09:00:38+00:00"
+  },
+  {
    "title": "Obavijest za autobusnu liniju Kolodvor – Crvene kuće – Supernova",
    "link": "https://liburnija-zadar.hr/obavijest-za-autobusnu-liniju-kolodvor-crvene-kuce-supernova/",
    "date": "2026-11-26T11:39:39+00:00"
@@ -27,11 +32,6 @@
    "title": "Obavijest o linijama koje prometuju Ulicom Put Nina",
    "link": "https://liburnija-zadar.hr/obavijest-o-linijama-koje-prometuju-ulicom-put-nina/",
    "date": "2026-10-28T10:42:41+00:00"
-  },
-  {
-   "title": "Obavijest Bibinje (marina)",
-   "link": "https://liburnija-zadar.hr/obavijest-bibinje-marina/",
-   "date": "2026-10-28T10:40:55+00:00"
   }
  ],
  "flights": [
@@ -410,7 +410,7 @@
  ],
  "videos": {
   "v": 2,
-  "fetched": "2026-11-27T08:05:24.190148+00:00",
+  "fetched": "2026-11-27T09:03:34.298357+00:00",
   "items": [
    {
     "id": "yx7nwVJKzlo",
