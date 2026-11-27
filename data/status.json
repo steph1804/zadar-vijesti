@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-27T21:01:14.086687+00:00",
+ "updated": "2026-11-27T21:15:44.013058+00:00",
  "sources": [
   {
    "name": "Antena Zadar",
@@ -10,7 +10,7 @@
   },
   {
    "name": "Zadarski list",
-   "count": 9,
+   "count": 8,
    "ok": true,
    "feed": null,
    "errors": []
