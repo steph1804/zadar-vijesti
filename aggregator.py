@@ -1072,8 +1072,15 @@ def _front_matter(text):
     m = re.match(r"﻿?---\s*\n(.*?)\n---\s*\n?(.*)", text, re.S)
     if not m:
         return meta, body
-    body, key = m.group(2), None
+    body, key, block = m.group(2), None, None
     for line in m.group(1).splitlines():
+        if block is not None:
+            # YAML višeredni tekst (summary: >- / |): uvučeni retci pripadaju istoj vrijednosti
+            if not line.strip() or line[:1] in " \t":
+                block.append(line.strip())
+                continue
+            meta[key] = _join_block(block, style)
+            block = None
         item = re.match(r"\s+-\s+(.*)", line)
         if item and key:
             if not isinstance(meta.get(key), list):
@@ -1083,8 +1090,32 @@ def _front_matter(text):
         kv = re.match(r"([A-Za-z_]\w*)\s*:\s*(.*)", line)
         if kv:
             key = kv.group(1)
-            meta[key] = _yaml_value(kv.group(2)) if kv.group(2).strip() else []
+            v = kv.group(2).strip()
+            if re.fullmatch(r"[>|][+-]?", v):
+                block, style = [], v[0]
+                continue
+            meta[key] = _yaml_value(v) if v else []
+    if block is not None:
+        meta[key] = _join_block(block, style)
     return meta, body
+
+
+def _join_block(lines, style):
+    """Spaja retke YAML višerednog teksta: '>' spaja retke u odlomke, '|' čuva retke."""
+    while lines and not lines[-1]:
+        lines.pop()
+    if style == "|":
+        return "\n".join(lines)
+    paras, cur = [], []
+    for l in lines:
+        if l:
+            cur.append(l)
+        elif cur:
+            paras.append(" ".join(cur))
+            cur = []
+    if cur:
+        paras.append(" ".join(cur))
+    return "\n\n".join(paras)
 
 
 def _yaml_value(v):
@@ -1109,7 +1140,7 @@ def _inline_md(t, img_url=None):
     t = re.sub(r"\*\*(.+?)\*\*", r"<strong>\1</strong>", t)
     t = re.sub(r"(?<![\w*])\*(?!\s)(.+?)(?<!\s)\*(?![\w*])", r"<em>\1</em>", t)
     t = re.sub(r"(?<!\w)_(?!\s)(.+?)(?<!\s)_(?!\w)", r"<em>\1</em>", t)
-    t = re.sub(r"\[([^\]]+)\]\((https?://[^)\s]+)\)",
+    t = re.sub(r"\[([^\]]+)\]\(((?:https?://|mailto:)[^)\s]+)\)",
                lambda m: f'<a href="{m.group(2)}" target="_blank" rel="noopener">{m.group(1)}</a>', t)
     return t
 
@@ -1281,10 +1312,10 @@ def write_posts(posts, site_url, settings):
         page = f"""<!doctype html>
 <html lang="hr"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
 <title>{esc(p['title'])} – idassa.click</title>
-<meta name="description" content="{esc(p['summary'])}">
+<meta name="description" content="{esc(re.sub(r'\s+', ' ', p['summary']))}">
 <link rel="canonical" href="{esc(url)}"><link rel="icon" href="../../favicon.png">
 <meta property="og:type" content="article"><meta property="og:title" content="{esc(p['title'])}">
-<meta property="og:description" content="{esc(p['summary'])}"><meta property="og:url" content="{esc(url)}">
+<meta property="og:description" content="{esc(re.sub(r'\s+', ' ', p['summary']))}"><meta property="og:url" content="{esc(url)}">
 <meta property="og:image" content="{esc(cover_url)}"><meta name="twitter:card" content="summary_large_image">
 <script type="application/ld+json">{ld}</script>
 <style>{POST_CSS}</style></head><body>
@@ -1294,7 +1325,7 @@ def write_posts(posts, site_url, settings):
 <h1>{esc(p['title'])}</h1>
 <div class="meta">{esc(p['author'] + ' · ') if p['author'] else ''}<time datetime="{esc(p['date'])}">{when.day}. {when.month}. {when.year}. u {when:%H:%M}</time></div>
 {f'<img class="cover" src="../slike/{urllib.parse.quote(p["cover"])}" alt="">' if p['cover'] else ''}
-{f'<p class="lead">{esc(p["summary"])}</p>' if p['summary'] and not p['body'].strip().startswith(p['summary'][:40]) else ''}
+{"".join(f'<p class="lead">{esc(x)}</p>' for x in p["summary"].split("\n\n") if x.strip()) if p['summary'] and not p['body'].strip().startswith(p['summary'][:40]) else ''}
 {body}
 {f'<div class="gallery">{gallery}</div>' if gallery else ''}
 <div class="share"><button type="button" id="sh">Podijeli</button><a href="https://www.facebook.com/sharer/sharer.php?u={urllib.parse.quote(url)}" target="_blank" rel="noopener">Facebook</a><a href="https://wa.me/?text={urllib.parse.quote(p['title'] + ' ' + url)}" target="_blank" rel="noopener">WhatsApp</a></div>
@@ -1320,7 +1351,7 @@ def post_articles(posts, site_url):
     out = []
     for p in posts:
         a = {"title": p["title"], "link": f"{site_url}clanak/{p['slug']}/", "date": p["date"],
-             "summary": p["summary"], "source": POST_SOURCE, "own": True,
+             "summary": re.sub(r"\s+", " ", p["summary"]).strip(), "source": POST_SOURCE, "own": True,
              "image": f"{site_url}clanak/slike/{urllib.parse.quote(p['cover'])}" if p["cover"] else ""}
         a["topics"] = current_topics(dict(a, text=p["body"]))
         out.append(a)
