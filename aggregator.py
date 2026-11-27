@@ -1228,7 +1228,8 @@ def load_posts():
                       "cover": cover, "gallery": [_post_image(g) for g in gallery if _post_image(g)],
                       "author": meta.get("author") if isinstance(meta.get("author"), str) else "", "body": body,
                       "promo": str(meta.get("promo", "")).lower() in ("true", "da", "yes"),
-                      "position": _position(meta)})
+                      "position": _position(meta),
+                      **{k: str(meta.get(k) or "").strip() for k in ("cta_link", "cta_title", "cta_text")}})
     return posts
 
 
@@ -1236,20 +1237,29 @@ POST_CSS = """
 :root{--bg:#f4f6f9;--card:#fff;--ink:#17202a;--muted:#5e6c78;--blue:#3466ad;--dot:#ee6636;--line:#e3e8ee}
 @media (prefers-color-scheme:dark){:root{--bg:#0f1620;--card:#17212d;--ink:#e8edf2;--muted:#9aa8b5;--blue:#7aa7e6;--line:#26323f}}
 *{box-sizing:border-box}body{margin:0;background:var(--bg);color:var(--ink);font:17px/1.65 Inter,system-ui,-apple-system,"Segoe UI",Roboto,sans-serif}
-header{background:var(--card);border-bottom:1px solid var(--line)}
-.bar{max-width:760px;margin:0 auto;padding:12px 16px;display:flex;align-items:center;justify-content:space-between;gap:12px}
-.logo{font-weight:800;font-size:22px;color:var(--blue);text-decoration:none;letter-spacing:-.02em}.logo span{color:var(--muted);font-weight:600}
-.back{color:var(--blue);text-decoration:none;font-weight:600;font-size:15px}
+header{background:color-mix(in srgb,var(--card) 88%,transparent);border-bottom:1px solid var(--line);position:sticky;top:0;z-index:5;backdrop-filter:blur(12px);-webkit-backdrop-filter:blur(12px)}
+.bar{max-width:760px;margin:0 auto;padding:0 16px;height:60px;display:flex;align-items:center;justify-content:space-between;gap:12px}
+.logo{line-height:0;text-decoration:none;font-weight:800;font-size:22px;color:var(--blue)}.logo span{color:var(--muted)}
+.wordmark{height:28px;width:auto;display:block}.wordmark .w{fill:#1968b3}.wordmark .dot{fill:#ff5a1f}.wordmark .c{fill:var(--muted)}
+@media (prefers-color-scheme:dark){.wordmark .w{fill:#63bdf0}.wordmark .dot{fill:#ff8a65}}
+.back{color:var(--blue);text-decoration:none;font-weight:700;font-size:14px;border:1px solid var(--line);padding:7px 14px;border-radius:999px;background:var(--card)}
+.prog{height:3px;background:transparent}.prog i{display:block;height:100%;width:0;background:linear-gradient(90deg,#ff5a1f,#f5b301)}
 main{max-width:760px;margin:0 auto;padding:20px 16px 48px}
 article{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:22px 20px;overflow:hidden}
 .promo{background:#f5b301;color:#1d1d1d;padding:2px 8px;border-radius:999px;margin-right:6px}
 .promo-note{margin:0 0 8px;font-size:13px;color:var(--muted)}
 .kick{font-size:13px;font-weight:700;color:var(--dot);text-transform:uppercase;letter-spacing:.06em}
 h1{font-size:clamp(26px,5vw,36px);line-height:1.2;margin:6px 0 8px;letter-spacing:-.01em}
-.meta{color:var(--muted);font-size:14px;margin-bottom:16px}
+.meta{color:var(--muted);font-size:14px;margin:12px 0 18px;display:flex;align-items:center;gap:10px}
+.meta b{display:block;color:var(--ink);font-size:15px}
+.av{flex:none;width:40px;height:40px;border-radius:50%;background:linear-gradient(135deg,#1968b3,#63bdf0);color:#fff;display:flex;align-items:center;justify-content:center;font-weight:800;font-size:14px}
 .lead{font-size:19px;font-weight:500}
 .cover{margin:0 -20px 18px;width:calc(100% + 40px);max-width:none;display:block;max-height:520px;object-fit:cover;border-radius:0}
-article h2{font-size:22px;margin:26px 0 6px}
+article h2{font-size:23px;line-height:1.3;margin:34px 0 10px;padding-left:14px;border-left:4px solid var(--dot)}
+article ul{list-style:none;padding:0;margin:14px 0}
+article ul li{position:relative;padding:10px 12px 10px 42px;margin:8px 0;background:var(--bg);border-radius:12px}
+article ul li::before{content:"";position:absolute;left:12px;top:14px;width:20px;height:20px;border-radius:50%;background:#1968b3 url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='white' stroke-width='3.5' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='m6 12 4 4 8-8'/%3E%3C/svg%3E") center/12px no-repeat}
+blockquote{font-size:19px}
 article img{max-width:100%;height:auto;border-radius:10px}
 figure{margin:18px 0}figcaption{color:var(--muted);font-size:14px;margin-top:4px}
 blockquote{margin:16px 0;padding:4px 0 4px 16px;border-left:4px solid var(--dot);color:var(--muted)}
@@ -1271,9 +1281,30 @@ a{color:var(--blue)}
 .thumbs button.on{opacity:1;border-color:#f5b301}
 .thumbs img{width:100%;height:100%;object-fit:cover;border-radius:0;display:block}
 @media(min-width:760px){.gal{margin:30px 0 0;border-radius:14px}}
-.share{margin-top:22px;display:flex;gap:10px;flex-wrap:wrap}
-.share a,.share button{font:inherit;font-size:15px;border:1px solid var(--line);background:var(--bg);color:var(--ink);padding:8px 14px;border-radius:999px;text-decoration:none;cursor:pointer}
-footer{text-align:center;color:var(--muted);font-size:14px;padding:0 16px 32px}
+.cta{margin:30px 0 4px;padding:22px;border-radius:16px;background:linear-gradient(135deg,#1968b3,#0e4a86);color:#fff;display:flex;gap:16px;align-items:center;justify-content:space-between;flex-wrap:wrap}
+.cta b{display:block;font-size:20px;margin-bottom:2px}.cta span{opacity:.88;font-size:15px}
+.cta a{background:#f5b301;color:#1d1d1d;font-weight:800;text-decoration:none;padding:12px 20px;border-radius:999px;white-space:nowrap}
+.share{margin-top:26px;padding-top:18px;border-top:1px solid var(--line);display:flex;gap:10px;flex-wrap:wrap;align-items:center}
+.share>span{width:100%;font-size:13px;font-weight:700;text-transform:uppercase;letter-spacing:.08em;color:var(--muted)}
+.share a,.share button{display:inline-flex;align-items:center;gap:7px;font:inherit;font-size:15px;font-weight:600;border:0;background:var(--bg);color:var(--ink);padding:9px 16px;border-radius:999px;text-decoration:none;cursor:pointer}
+.share svg{width:17px;height:17px;fill:none;stroke:currentColor;stroke-width:2;stroke-linecap:round;stroke-linejoin:round}
+.share .fb{background:#1877f2;color:#fff}.share .wa{background:#25d366;color:#fff}
+.more{max-width:760px;margin:0 auto;padding:0 16px 40px}
+.more h2{display:flex;align-items:center;gap:10px;font-size:14px;text-transform:uppercase;letter-spacing:.1em;color:var(--muted);margin:0 0 14px}
+.more h2 span{width:9px;height:9px;border-radius:50%;background:#ff5a1f}
+.ng{display:grid;grid-template-columns:repeat(auto-fill,minmax(220px,1fr));gap:12px}
+.nc{display:flex;flex-direction:column;background:var(--card);border:1px solid var(--line);border-radius:14px;overflow:hidden;text-decoration:none;color:var(--ink);transition:transform .15s}
+.nc:hover{transform:translateY(-2px)}
+.nc img{width:100%;aspect-ratio:16/9;object-fit:cover;display:block;background:var(--line)}
+@media(max-width:600px){.ng{grid-template-columns:1fr;gap:10px}.nc{flex-direction:row}.nc img{width:110px;aspect-ratio:1;flex:none}.nc span{font-size:14px;padding:10px 12px}}
+.nc span{padding:10px 12px 14px;font-weight:700;font-size:15px;line-height:1.35}
+.nc small{display:block;color:var(--dot);font-size:12px;font-weight:800;text-transform:uppercase;letter-spacing:.05em;margin-bottom:3px}
+.all{display:inline-block;margin-top:16px;font-weight:700;text-decoration:none}
+footer{background:#0b1622;color:#aab4c3;font-size:14px;padding:34px 16px 40px}
+.fin{max-width:760px;margin:0 auto}
+.flogo{display:inline-block;line-height:0}footer .wordmark{height:30px}footer .wordmark .w{fill:#fff}footer .wordmark .c{fill:#63bdf0}
+footer p{max-width:46ch;margin:12px 0 16px;color:#d6dde6}
+footer nav{display:flex;flex-wrap:wrap;gap:8px 16px;margin-bottom:16px}footer nav a{color:#fff;text-decoration:none;font-weight:600}
 #lb{position:fixed;inset:0;background:#060a12;display:none;z-index:9}
 #lb.on{display:block}
 #lb .track{height:100%}
@@ -1286,7 +1317,7 @@ footer{text-align:center;color:var(--muted);font-size:14px;padding:0 16px 32px}
 """
 
 
-def write_posts(posts, site_url, settings):
+def write_posts(posts, site_url, settings, news=(), wordmark=""):
     """Stranica za svaki vlastiti članak (site/clanak/<slug>/) i smanjene fotografije (site/clanak/slike/)."""
     if not posts:
         return
@@ -1352,6 +1383,25 @@ def write_posts(posts, site_url, settings):
                          "author": {"@type": "Person", "name": p["author"]} if p["author"] else {"@type": "Organization", "name": "idassa.click"},
                          "publisher": {"@type": "Organization", "name": "idassa.click", "url": site_url}},
                         ensure_ascii=False).replace("</", "<\\/")
+        words = len(re.findall(r"\w+", p["body"] + " " + p["summary"]))
+        mins = max(1, round(words / 200))
+        initials = "".join(w[0] for w in re.findall(r"[^\W\d_]+", p["author"])[:2]).upper() or "i"
+        cta_link = p.get("cta_link") or ""
+        if not cta_link and p.get("promo"):
+            m = re.search(r"\]\((https?://[^)\s]+)\)", p["body"])
+            cta_link = m.group(1) if m else ""
+        cta = ""
+        if cta_link:
+            host = re.sub(r"^www\.", "", urllib.parse.urlparse(cta_link).netloc)
+            cta = (f'<aside class="cta"><div><b>{esc(p.get("cta_title") or "Zanima vas više?")}</b>'
+                   f'<span>{esc(p.get("cta_text") or "Pogledajte detalje i isprobajte na službenoj stranici.")}</span></div>'
+                   f'<a href="{esc(cta_link)}" target="_blank" rel="noopener">Posjetite {esc(host)} →</a></aside>')
+        more = ""
+        if news:
+            cards = "".join(
+                f'<a class="nc" href="{esc(a["link"])}" target="_blank" rel="noopener"><img src="{esc(a["image"])}" alt="" loading="lazy">'
+                f'<span><small>{esc(a["source"])}</small>{esc(a["title"])}</span></a>' for a in news)
+            more = f'<section class="more"><h2><span></span>Najnovije iz Zadra i županije</h2><div class="ng">{cards}</div><a class="all" href="../../">Sve vijesti na naslovnici →</a></section>'
         ga = settings.get("google_analytics", "")
         page = f"""<!doctype html>
 <html lang="hr"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
@@ -1363,19 +1413,21 @@ def write_posts(posts, site_url, settings):
 <meta property="og:image" content="{esc(cover_url)}"><meta name="twitter:card" content="summary_large_image">
 <script type="application/ld+json">{ld}</script>
 <style>{POST_CSS}</style></head><body>
-<header><div class="bar"><a class="logo" href="../../">idassa<span>.click</span></a><a class="back" href="../../">← Sve vijesti</a></div></header>
+<header><div class="bar"><a class="logo" href="../../" aria-label="idassa.click – naslovnica">{wordmark or 'idassa<span>.click</span>'}</a><a class="back" href="../../">← Sve vijesti</a></div><div class="prog"><i id="pr"></i></div></header>
 <main><article>
 <div class="kick">{'<span class="promo">Promo</span> ' if p.get('promo') else ''}idassa.click</div>
 {'<p class="promo-note">Promotivni sadržaj</p>' if p.get('promo') else ''}
 <h1>{esc(p['title'])}</h1>
-<div class="meta">{esc(p['author'] + ' · ') if p['author'] else ''}<time datetime="{esc(p['date'])}">{when.day}. {when.month}. {when.year}. u {when:%H:%M}</time></div>
+<div class="meta">{f'<span class="av">{esc(initials)}</span>' if p['author'] else ''}<div>{f'<b>{esc(p["author"])}</b>' if p['author'] else ''}<span><time datetime="{esc(p['date'])}">{when.day}. {when.month}. {when.year}. u {when:%H:%M}</time> · {mins} min čitanja</span></div></div>
 {f'<img class="cover" src="../slike/{urllib.parse.quote(p["cover"])}" alt="">' if p['cover'] else ''}
 {"".join(f'<p class="lead">{esc(x)}</p>' for x in p["summary"].split("\n\n") if x.strip()) if p['summary'] and not p['body'].strip().startswith(p['summary'][:40]) else ''}
 {body}
 {gallery}
-<div class="share"><button type="button" id="sh">Podijeli</button><a href="https://www.facebook.com/sharer/sharer.php?u={urllib.parse.quote(url)}" target="_blank" rel="noopener">Facebook</a><a href="https://wa.me/?text={urllib.parse.quote(p['title'] + ' ' + url)}" target="_blank" rel="noopener">WhatsApp</a></div>
+{cta}
+<div class="share"><span>Podijeli članak</span><button type="button" id="sh"><svg viewBox="0 0 24 24"><path d="M4 12v7a1 1 0 0 0 1 1h14a1 1 0 0 0 1-1v-7M16 6l-4-4-4 4M12 2v13"/></svg>Podijeli</button><a class="fb" href="https://www.facebook.com/sharer/sharer.php?u={urllib.parse.quote(url)}" target="_blank" rel="noopener"><svg viewBox="0 0 24 24"><path d="M14 8h3V4h-3a4 4 0 0 0-4 4v2H8v4h2v8h4v-8h3l1-4h-4V8z"/></svg>Facebook</a><a class="wa" href="https://wa.me/?text={urllib.parse.quote(p['title'] + ' ' + url)}" target="_blank" rel="noopener"><svg viewBox="0 0 24 24"><path d="M20 12a8 8 0 0 1-11.8 7L4 20l1.1-4A8 8 0 1 1 20 12z"/></svg>WhatsApp</a></div>
 </article></main>
-<footer>© idassa.click · vijesti iz Zadra i županije · <a href="../../">naslovnica</a></footer>
+{more}
+<footer><div class="fin"><a href="../../" class="flogo" aria-label="idassa.click">{wordmark or 'idassa.click'}</a><p>Sve vijesti iz Zadra i Zadarske županije s internetskih portala i stranica, na jednom mjestu. Osvježavanje svakih 15 minuta.</p><nav><a href="../../">Naslovnica</a><a href="../../zadar/">Zadar</a><a href="../../zupanija/">Županija</a><a href="../../otoci/">Otoci</a><a href="../../sport/">Sport</a>{f'<a href="mailto:{esc(settings["email"])}">Kontakt</a>' if settings.get("email") else ''}</nav><small>© {when.year} idassa.click</small></div></footer>
 <div id="lb" role="dialog" aria-label="Fotografije"><span class="cnt"></span><button type="button" class="x" aria-label="Zatvori">×</button><div class="track"></div><button type="button" class="nav prev" aria-label="Prethodna">‹</button><button type="button" class="nav next" aria-label="Sljedeća">›</button></div>
 <script>
 function slider(root,onMove){{const t=root.querySelector(".track"),n=t.children.length,pv=root.querySelector(".prev"),nx=root.querySelector(".next");let i=0;
@@ -1383,6 +1435,7 @@ const go=k=>{{k=Math.max(0,Math.min(n-1,k));t.scrollTo({{left:k*t.clientWidth,be
 const upd=()=>{{const k=Math.round(t.scrollLeft/Math.max(1,t.clientWidth));if(k!==i||!upd.d){{i=k;upd.d=1;pv.disabled=i<=0;nx.disabled=i>=n-1;onMove&&onMove(i,n)}}}};
 pv.onclick=e=>{{e.stopPropagation();go(i-1)}};nx.onclick=e=>{{e.stopPropagation();go(i+1)}};t.addEventListener("scroll",()=>requestAnimationFrame(upd));upd();
 return {{go,jump:k=>{{t.style.scrollBehavior="auto";t.scrollLeft=k*t.clientWidth;t.style.scrollBehavior="";upd()}},get i(){{return i}}}}}}
+const pr=document.getElementById("pr");addEventListener("scroll",()=>{{const h=document.documentElement;pr.style.width=Math.min(100,100*scrollY/Math.max(1,h.scrollHeight-innerHeight))+"%"}},{{passive:true}});
 const lb=document.getElementById("lb"),lt=lb.querySelector(".track"),cnt=lb.querySelector(".cnt");
 const pics=[...document.querySelectorAll(".cover, article p img, article figure img, .gal .slide img")];
 pics.forEach(im=>{{const d=document.createElement("div");d.className="slide";d.innerHTML='<img alt="">';d.firstChild.dataset.src=im.currentSrc||im.src;lt.appendChild(d)}});
@@ -1461,7 +1514,8 @@ def render(articles, sources, status, now, info=None):
         os.makedirs(out, exist_ok=True)
         with open(os.path.join(out, "index.html"), "w", encoding="utf-8") as f:
             f.write(page)
-    write_posts(posts, site_url, settings)
+    m = re.search(r'<svg viewBox="0 -2 229 56" class="wordmark".*?</svg>', tpl, re.S)
+    write_posts(posts, site_url, settings, [a for a in grouped if not a.get("own") and a.get("image")][:6], m.group(0) if m else "")
     write_whatsapp(grouped, site_url)
     write_instagram(grouped)
     if settings.get("private"):
