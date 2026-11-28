@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-28T05:15:52.010385+00:00",
+ "updated": "2026-11-28T05:31:01.675787+00:00",
  "sources": [
   {
    "name": "Antena Zadar",
@@ -38,53 +38,47 @@
   },
   {
    "name": "BNM portal",
-   "count": 0,
-   "ok": false,
+   "count": 10,
+   "ok": true,
    "feed": null,
-   "errors": [
-    "https://bnm-portal.com/feed/: mismatched tag: line 93, column 2"
-   ]
+   "errors": []
   },
   {
    "name": "023 portal",
-   "count": 7,
+   "count": 8,
    "ok": true,
    "feed": null,
    "errors": []
   },
   {
    "name": "Sport023",
-   "count": 0,
-   "ok": false,
+   "count": 8,
+   "ok": true,
    "feed": null,
-   "errors": [
-    "https://sport023.hr/feed/: mismatched tag: line 93, column 2"
-   ]
+   "errors": []
   },
   {
    "name": "KK Zadar",
-   "count": 0,
-   "ok": false,
-   "feed": null,
-   "errors": [
-    "https://kkzadar.hr/feed/: mismatched tag: line 93, column 2"
-   ]
-  },
-  {
-   "name": "SC Višnjik",
-   "count": 0,
-   "ok": false,
-   "feed": null,
-   "errors": [
-    "https://visnjik.hr/feed/: mismatched tag: line 93, column 2"
-   ]
-  },
-  {
-   "name": "Naši školji",
    "count": 10,
    "ok": true,
    "feed": null,
    "errors": []
+  },
+  {
+   "name": "SC Višnjik",
+   "count": 8,
+   "ok": true,
+   "feed": null,
+   "errors": []
+  },
+  {
+   "name": "Naši školji",
+   "count": 0,
+   "ok": false,
+   "feed": null,
+   "errors": [
+    "https://www.nasiskolji.hr/feed/: <urlopen error timed out>"
+   ]
   },
   {
    "name": "Grad Zadar",
@@ -95,16 +89,14 @@
   },
   {
    "name": "Zadarska županija",
-   "count": 0,
-   "ok": false,
+   "count": 10,
+   "ok": true,
    "feed": null,
-   "errors": [
-    "https://www.zadarska-zupanija.hr/novosti-arhiva?format=feed&type=rss: mismatched tag: line 93, column 2"
-   ]
+   "errors": []
   },
   {
    "name": "HRT Radio Zadar",
-   "count": 12,
+   "count": 11,
    "ok": true,
    "feed": null,
    "errors": []
@@ -127,12 +119,10 @@
   },
   {
    "name": "Opća bolnica Zadar",
-   "count": 0,
-   "ok": false,
+   "count": 8,
+   "ok": true,
    "feed": null,
-   "errors": [
-    "https://www.bolnica-zadar.hr/feed/: mismatched tag: line 93, column 2"
-   ]
+   "errors": []
   },
   {
    "name": "Liburnija Zadar",
@@ -288,9 +278,7 @@
    "count": 0,
    "ok": false,
    "feed": null,
-   "errors": [
-    "https://hrvatska-danas.com/feed/: mismatched tag: line 93, column 2"
-   ]
+   "errors": []
   },
   {
    "name": "HRTurizam",
