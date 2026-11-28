@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-28T11:45:48.806681+00:00",
+ "updated": "2026-11-28T11:48:40.562545+00:00",
  "sources": [
   {
    "name": "Antena Zadar",
@@ -38,10 +38,12 @@
   },
   {
    "name": "BNM portal",
-   "count": 10,
-   "ok": true,
+   "count": 0,
+   "ok": false,
    "feed": null,
-   "errors": []
+   "errors": [
+    "https://bnm-portal.com/feed/: mismatched tag: line 93, column 2"
+   ]
   },
   {
    "name": "023 portal",
@@ -52,24 +54,30 @@
   },
   {
    "name": "Sport023",
-   "count": 8,
-   "ok": true,
+   "count": 0,
+   "ok": false,
    "feed": null,
-   "errors": []
+   "errors": [
+    "https://sport023.hr/feed/: mismatched tag: line 93, column 2"
+   ]
   },
   {
    "name": "KK Zadar",
-   "count": 10,
-   "ok": true,
+   "count": 0,
+   "ok": false,
    "feed": null,
-   "errors": []
+   "errors": [
+    "https://kkzadar.hr/feed/: mismatched tag: line 93, column 2"
+   ]
   },
   {
    "name": "SC Višnjik",
-   "count": 8,
-   "ok": true,
+   "count": 0,
+   "ok": false,
    "feed": null,
-   "errors": []
+   "errors": [
+    "https://visnjik.hr/feed/: mismatched tag: line 93, column 2"
+   ]
   },
   {
    "name": "Naši školji",
@@ -87,14 +95,16 @@
   },
   {
    "name": "Zadarska županija",
-   "count": 10,
-   "ok": true,
+   "count": 0,
+   "ok": false,
    "feed": null,
-   "errors": []
+   "errors": [
+    "https://www.zadarska-zupanija.hr/novosti-arhiva?format=feed&type=rss: mismatched tag: line 93, column 2"
+   ]
   },
   {
    "name": "HRT Radio Zadar",
-   "count": 13,
+   "count": 14,
    "ok": true,
    "feed": null,
    "errors": []
@@ -117,10 +127,12 @@
   },
   {
    "name": "Opća bolnica Zadar",
-   "count": 8,
-   "ok": true,
+   "count": 0,
+   "ok": false,
    "feed": null,
-   "errors": []
+   "errors": [
+    "https://www.bolnica-zadar.hr/feed/: mismatched tag: line 93, column 2"
+   ]
   },
   {
    "name": "Liburnija Zadar",
@@ -274,7 +286,9 @@
    "count": 0,
    "ok": false,
    "feed": null,
-   "errors": []
+   "errors": [
+    "https://hrvatska-danas.com/feed/: mismatched tag: line 93, column 2"
+   ]
   },
   {
    "name": "HRTurizam",
