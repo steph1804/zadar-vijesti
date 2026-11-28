@@ -1,77 +1,73 @@
 {
- "https://057info.hr/": {
-  "err": "<HTTPError 403: 'Forbidden'>",
-  "hdr": {
-   "Date": "Sat, 28 Nov 2026 06:54:36 GMT",
-   "Content-Type": "text/html; charset=UTF-8",
-   "Content-Length": "5517",
-   "Connection": "close",
-   "Accept-Ch": "Sec-CH-UA-Bitness, Sec-CH-UA-Arch, Sec-CH-UA-Full-Version, Sec-CH-UA-Mobile, Sec-CH-UA-Model, Sec-CH-UA-Platform-Version, Sec-CH-UA-Full-Version-List, Sec-CH-UA-Platform, Sec-CH-UA, UA-Bitness, UA-Arch, UA-Full-Version, UA-Mobile, UA-Model, UA-Platform-Version, UA-Platform, UA",
-   "Cf-Mitigated": "challenge",
-   "Content-Security-Policy": "default-src 'none'; script-src 'nonce-EW2YG8LcFSRE3oRZVFm2Tx' 'unsafe-eval' https://challenges.cloudflare.com; script-src-attr 'none'; style-src 'unsafe-inline'; img-src 'self' https://challenges.cloudflare.com; connect-src 'self' https://challenges.cloudflare.com; frame-src 'self' https://challenges.cloudflare.com blob:; child-src 'self' https://challenges.cloudflare.com blob:; worker-src blob:; form-action http: https:; base-uri 'self'",
-   "Server": "cloudflare",
-   "Critical-Ch": "Sec-CH-UA-Bitness, Sec-CH-UA-Arch, Sec-CH-UA-Full-Version, Sec-CH-UA-Mobile, Sec-CH-UA-Model, Sec-CH-UA-Platform-Version, Sec-CH-UA-Full-Version-List, Sec-CH-UA-Platform, Sec-CH-UA, UA-Bitness, UA-Arch, UA-Full-Version, UA-Mobile, UA-Model, UA-Platform-Version, UA-Platform, UA",
-   "Cross-Origin-Embedder-Policy": "require-corp",
-   "Cross-Origin-Opener-Policy": "same-origin",
-   "Cross-Origin-Resource-Policy": "same-origin",
-   "Origin-Agent-Cluster": "?1",
-   "Permissions-Policy": "accelerometer=(),camera=(),clipboard-read=(),clipboard-write=(),geolocation=(),gyroscope=(),hid=(),magnetometer=(),microphone=(),payment=(),publickey-credentials-get=(),screen-wake-lock=(),serial=(),sync-xhr=(),usb=(),xr-spatial-tracking=*",
-   "Referrer-Policy": "same-origin",
-   "Server-Timing": "chlray;desc=\"a6177654ea3db84e\"",
-   "X-Content-Type-Options": "nosniff",
-   "X-Frame-Options": "SAMEORIGIN",
-   "Speculation-Rules": "\"/cdn-cgi/speculation\"",
-   "Vary": "accept-encoding",
-   "Report-To": "{\"group\":\"cf-nel\",\"max_age\":604800,\"endpoints\":[{\"url\":\"https://a.nel.cloudflare.com/report/v4?s=%2BuOO2z44a%2BEz%2BKRnjM9EA9zPaVBTd12TM5ODGPv5uNFDEDhpfftmXMkBwAehAM7gQ2TVBO%2F8OvS3Qmj3v1mcam8zxCWGby9hNNt57EzEF13imNQ1Dt%2Bu46WZIHU%3D\"}]}",
-   "Nel": "{\"report_to\":\"cf-nel\",\"success_fraction\":0.0,\"max_age\":604800}",
-   "CF-RAY": "a6177654ea3db84e-LAX",
-   "alt-svc": "h3=\":443\"; ma=86400"
-  },
-  "body": "<!DOCTYPE html><html lang=\"en-US\"><head><title>Just a moment...</title><meta http-equiv=\"Content-Type\" content=\"text/html; charset=UTF-8\"><meta http-equiv=\"X-UA-Compatible\" content=\"IE=Edge\"><meta name=\"robots\" content=\"noindex,nofollow\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><meta http-equiv=\"content-security-policy\" content=\"default-src &#39;none&#39;; script-src &#39"
+ "https://idassa.digital/": {
+  "status": 200,
+  "final": "https://idassa.digital/",
+  "len": 26326,
+  "ctype": "text/html",
+  "alt": [
+   "<link rel=\"alternate\" type=\"application/rss+xml\" title=\"idassa.digital blog\" href=\"/blog/rss.xml\">"
+  ],
+  "links": [
+   "/hero/zadar-2000.webp",
+   "/portfolio/domacin.webp",
+   "/portfolio/idassa-click.webp",
+   "/portfolio/sole.webp",
+   "https://idassa.digital/assets/og-image.png"
+  ],
+  "api": [],
+  "next": false,
+  "head": "<!DOCTYPE html><html lang=\"hr\"><head><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width, initial-scale=1, viewport-fit=cover\"><title>Izrada web stranica, SEO i AI optimizacija | idassa.digital</title><meta name=\"description\" content=\"Izrađujemo brze web stranice za apartmane, ob",
+  "items": 0,
+  "chan": "",
+  "title": "Izrada web stranica, SEO i AI optimizacija | idassa.digital",
+  "osm": []
  },
- "https://057info.hr/feed/": {
-  "err": "<HTTPError 403: 'Forbidden'>",
-  "hdr": {
-   "Date": "Sat, 28 Nov 2026 06:54:36 GMT",
-   "Content-Type": "text/html; charset=UTF-8",
-   "Content-Length": "5532",
-   "Connection": "close",
-   "Accept-Ch": "Sec-CH-UA-Bitness, Sec-CH-UA-Arch, Sec-CH-UA-Full-Version, Sec-CH-UA-Mobile, Sec-CH-UA-Model, Sec-CH-UA-Platform-Version, Sec-CH-UA-Full-Version-List, Sec-CH-UA-Platform, Sec-CH-UA, UA-Bitness, UA-Arch, UA-Full-Version, UA-Mobile, UA-Model, UA-Platform-Version, UA-Platform, UA",
-   "Cf-Mitigated": "challenge",
-   "Content-Security-Policy": "default-src 'none'; script-src 'nonce-438Ls5zKkBSPfHKPO7WThL' 'unsafe-eval' https://challenges.cloudflare.com; script-src-attr 'none'; style-src 'unsafe-inline'; img-src 'self' https://challenges.cloudflare.com; connect-src 'self' https://challenges.cloudflare.com; frame-src 'self' https://challenges.cloudflare.com blob:; child-src 'self' https://challenges.cloudflare.com blob:; worker-src blob:; form-action http: https:; base-uri 'self'",
-   "Server": "cloudflare",
-   "Critical-Ch": "Sec-CH-UA-Bitness, Sec-CH-UA-Arch, Sec-CH-UA-Full-Version, Sec-CH-UA-Mobile, Sec-CH-UA-Model, Sec-CH-UA-Platform-Version, Sec-CH-UA-Full-Version-List, Sec-CH-UA-Platform, Sec-CH-UA, UA-Bitness, UA-Arch, UA-Full-Version, UA-Mobile, UA-Model, UA-Platform-Version, UA-Platform, UA",
-   "Cross-Origin-Embedder-Policy": "require-corp",
-   "Cross-Origin-Opener-Policy": "same-origin",
-   "Cross-Origin-Resource-Policy": "same-origin",
-   "Origin-Agent-Cluster": "?1",
-   "Permissions-Policy": "accelerometer=(),camera=(),clipboard-read=(),clipboard-write=(),geolocation=(),gyroscope=(),hid=(),magnetometer=(),microphone=(),payment=(),publickey-credentials-get=(),screen-wake-lock=(),serial=(),sync-xhr=(),usb=(),xr-spatial-tracking=*",
-   "Referrer-Policy": "same-origin",
-   "Server-Timing": "chlray;desc=\"a617765539acd864\"",
-   "X-Content-Type-Options": "nosniff",
-   "X-Frame-Options": "SAMEORIGIN",
-   "Speculation-Rules": "\"/cdn-cgi/speculation\"",
-   "Vary": "accept-encoding",
-   "Report-To": "{\"group\":\"cf-nel\",\"max_age\":604800,\"endpoints\":[{\"url\":\"https://a.nel.cloudflare.com/report/v4?s=Wr6IpD9UkKC5Wcv5mrKAHCb37Xb%2BB0l7o1LXPfrdPjHxC1SaQErmUy41Wu6aHYuQuvp7iWZrls6GzCb2JX%2FJPamjtBcgziBnKUem7lTYUuyUDECeyzJMy6VyO4Q%3D\"}]}",
-   "Nel": "{\"report_to\":\"cf-nel\",\"success_fraction\":0.0,\"max_age\":604800}",
-   "CF-RAY": "a617765539acd864-LAX",
-   "alt-svc": "h3=\":443\"; ma=86400"
-  },
-  "body": "<!DOCTYPE html><html lang=\"en-US\"><head><title>Just a moment...</title><meta http-equiv=\"Content-Type\" content=\"text/html; charset=UTF-8\"><meta http-equiv=\"X-UA-Compatible\" content=\"IE=Edge\"><meta name=\"robots\" content=\"noindex,nofollow\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><meta http-equiv=\"content-security-policy\" content=\"default-src &#39;none&#39;; script-src &#39"
+ "https://sole.rentals/": {
+  "status": 200,
+  "final": "https://sole.rentals/",
+  "len": 80023,
+  "ctype": "text/html; charset=UTF-8",
+  "alt": [],
+  "links": [
+   "/photos/area/galesnjak.webp",
+   "/photos/sole-1/garden-path-sm.webp",
+   "/photos/sole-1/house-from-beach-sm.webp",
+   "/photos/sole-1/living-room-sm.webp",
+   "/photos/sole-1/sea-view-sm.webp",
+   "/photos/sole-1/sea-view.webp",
+   "/photos/sole-1/terrace-sm.webp",
+   "/photos/sole-2/balcony-sea-sm.webp",
+   "/photos/sole-2/double-bedroom-sm.webp",
+   "/photos/sole-2/sofa-sm.webp",
+   "/photos/sole-4/dining-sea-view-sm.webp",
+   "/photos/sole-4/sea-view-sm.webp",
+   "https://sole.rentals/photos/sole-1/sea-view.jpg"
+  ],
+  "api": [],
+  "next": false,
+  "head": "<!DOCTYPE html><html lang=\"en\"><head><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width, initial-scale=1, viewport-fit=cover\"><script>(function(){const locales = [\"en\",\"hr\",\"de\",\"it\",\"fr\",\"pl\",\"hu\",\"cs\",\"sk\",\"ro\",\"sl\",\"sv\"];\n\n        // First visit to the English home page: swit",
+  "items": 0,
+  "chan": "",
+  "title": "Sole Apartments, Turanj near Biograd | First row to the sea",
+  "osm": []
  },
- "https://noviradio.hr/": {
-  "err": "URLError(TimeoutError('timed out'))",
-  "hdr": {},
-  "body": ""
- },
- "https://noviradio.hr/feed/": {
-  "err": "URLError(TimeoutError('timed out'))",
-  "hdr": {},
-  "body": ""
- },
- "https://www.noviradio.hr/feed/": {
-  "err": "URLError(TimeoutError('timed out'))",
-  "hdr": {},
-  "body": ""
+ "https://idassa.click/": {
+  "status": 200,
+  "final": "https://idassa.click/",
+  "len": 394905,
+  "ctype": "text/html; charset=utf-8",
+  "alt": [
+   "<link rel=\"alternate\" type=\"application/rss+xml\" title=\"idassa.click – vijesti iz Zadra\" href=\"./feed.xml\">"
+  ],
+  "links": [
+   "https://idassa.click/share.png"
+  ],
+  "api": [],
+  "next": false,
+  "head": "<!doctype html>\n<html lang=\"hr\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1, viewport-fit=cover\">\n<title>idassa.click – vijesti iz Zadra</title>\n<meta name=\"description\" content=\"Najnovije vijesti iz Zadra i Zadarske županije s lokalnih portala n",
+  "items": 0,
+  "chan": "",
+  "title": "idassa.click – vijesti iz Zadra",
+  "osm": []
  }
 }
