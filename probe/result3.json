@@ -1,37 +1,8 @@
 {
- "https://sole.rentals/?cb=12496": {
+ "https://idassa.click/?cb=28412": {
   "status": 200,
-  "final": "https://sole.rentals/?cb=12496",
-  "len": 80245,
-  "ctype": "text/html; charset=UTF-8",
-  "alt": [],
-  "links": [
-   "/photos/area/galesnjak.webp",
-   "/photos/sole-1/garden-path-sm.webp",
-   "/photos/sole-1/house-from-beach-sm.webp",
-   "/photos/sole-1/living-room-sm.webp",
-   "/photos/sole-1/sea-view-sm.webp",
-   "/photos/sole-1/sea-view.webp",
-   "/photos/sole-1/terrace-sm.webp",
-   "/photos/sole-2/balcony-sea-sm.webp",
-   "/photos/sole-2/double-bedroom-sm.webp",
-   "/photos/sole-2/sofa-sm.webp",
-   "/photos/sole-4/dining-sea-view-sm.webp",
-   "/photos/sole-4/sea-view-sm.webp",
-   "https://sole.rentals/photos/sole-1/sea-view.jpg"
-  ],
-  "api": [],
-  "next": false,
-  "head": "<!DOCTYPE html><html lang=\"en\"><head><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width, initial-scale=1, viewport-fit=cover\"><script>(function(){const locales = [\"en\",\"hr\",\"de\",\"it\",\"fr\",\"pl\",\"hu\",\"cs\",\"sk\",\"ro\",\"sl\",\"sv\"];\n\n        // First visit to the English home page: swit",
-  "items": 0,
-  "chan": "",
-  "title": "Sole Apartments, Turanj near Biograd | First row to the sea",
-  "osm": []
- },
- "https://idassa.click/?cb=3926": {
-  "status": 200,
-  "final": "https://idassa.click/?cb=3926",
-  "len": 394905,
+  "final": "https://idassa.click/?cb=28412",
+  "len": 395798,
   "ctype": "text/html; charset=utf-8",
   "alt": [
    "<link rel=\"alternate\" type=\"application/rss+xml\" title=\"idassa.click – vijesti iz Zadra\" href=\"./feed.xml\">"
