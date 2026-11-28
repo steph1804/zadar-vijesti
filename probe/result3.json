@@ -1,31 +1,8 @@
 {
- "https://idassa.digital/": {
+ "https://sole.rentals/?cb=12496": {
   "status": 200,
-  "final": "https://idassa.digital/",
-  "len": 26326,
-  "ctype": "text/html",
-  "alt": [
-   "<link rel=\"alternate\" type=\"application/rss+xml\" title=\"idassa.digital blog\" href=\"/blog/rss.xml\">"
-  ],
-  "links": [
-   "/hero/zadar-2000.webp",
-   "/portfolio/domacin.webp",
-   "/portfolio/idassa-click.webp",
-   "/portfolio/sole.webp",
-   "https://idassa.digital/assets/og-image.png"
-  ],
-  "api": [],
-  "next": false,
-  "head": "<!DOCTYPE html><html lang=\"hr\"><head><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width, initial-scale=1, viewport-fit=cover\"><title>Izrada web stranica, SEO i AI optimizacija | idassa.digital</title><meta name=\"description\" content=\"Izrađujemo brze web stranice za apartmane, ob",
-  "items": 0,
-  "chan": "",
-  "title": "Izrada web stranica, SEO i AI optimizacija | idassa.digital",
-  "osm": []
- },
- "https://sole.rentals/": {
-  "status": 200,
-  "final": "https://sole.rentals/",
-  "len": 80023,
+  "final": "https://sole.rentals/?cb=12496",
+  "len": 80245,
   "ctype": "text/html; charset=UTF-8",
   "alt": [],
   "links": [
@@ -51,9 +28,9 @@
   "title": "Sole Apartments, Turanj near Biograd | First row to the sea",
   "osm": []
  },
- "https://idassa.click/": {
+ "https://idassa.click/?cb=3926": {
   "status": 200,
-  "final": "https://idassa.click/",
+  "final": "https://idassa.click/?cb=3926",
   "len": 394905,
   "ctype": "text/html; charset=utf-8",
   "alt": [
