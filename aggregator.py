@@ -1317,6 +1317,15 @@ footer nav{display:flex;flex-wrap:wrap;gap:8px 16px;margin-bottom:16px}footer na
 """
 
 
+def cf_beacon(settings):
+    """Cloudflare Web Analytics (bez kolačića, ne treba pristanak): site.json "cloudflare_analytics" = token."""
+    tok = re.sub(r"[^0-9a-fA-F]", "", str(settings.get("cloudflare_analytics") or ""))
+    if not tok:
+        return ""
+    return ("<script defer src=\"https://static.cloudflareinsights.com/beacon.min.js\" "
+            f"data-cf-beacon='{{\"token\": \"{tok}\"}}'></script>")
+
+
 def write_posts(posts, site_url, settings, news=(), wordmark=""):
     """Stranica za svaki vlastiti članak (site/clanak/<slug>/) i smanjene fotografije (site/clanak/slike/)."""
     if not posts:
@@ -1454,6 +1463,7 @@ document.getElementById("sh").addEventListener("click",()=>{{const d={{title:doc
 </script>
 </body></html>
 """
+        page = page.replace("</body></html>", cf_beacon(settings) + "</body></html>", 1)
         out = os.path.join(OUT_DIR, "clanak", p["slug"])
         os.makedirs(out, exist_ok=True)
         with open(os.path.join(out, "index.html"), "w", encoding="utf-8") as f:
@@ -1510,6 +1520,7 @@ def render(articles, sources, status, now, info=None):
                 .replace("{{JSONLD}}", jsonld(site_url, topic, site_url + (slug + "/" if slug else "")))
                 .replace("{{PRERENDER}}", prerender(grouped, topic))
                 .replace("{{SITE}}", site_url))
+        page = page.replace("</body>", cf_beacon(settings) + "</body>", 1)
         out = os.path.join(OUT_DIR, slug) if slug else OUT_DIR
         os.makedirs(out, exist_ok=True)
         with open(os.path.join(out, "index.html"), "w", encoding="utf-8") as f:
