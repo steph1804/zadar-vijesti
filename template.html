@@ -206,7 +206,12 @@
   .body p { margin: 0; color: var(--muted); font-size: .89rem; display: -webkit-box; -webkit-line-clamp: 3;
             -webkit-box-orient: vertical; overflow: hidden; }
   .also { position: relative; z-index: 1; font-size: .78rem; color: var(--muted); }
-  .more { position: relative; z-index: 1; margin-top: auto; padding-top: 4px; font-size: .8rem; font-weight: 700; text-decoration: none; }
+  .foot { margin-top: auto; padding-top: 4px; display: flex; align-items: center; justify-content: space-between; gap: 8px; }
+  .more { position: relative; z-index: 1; font-size: .8rem; font-weight: 700; text-decoration: none; }
+  .shr { position: relative; z-index: 1; flex: none; width: 34px; height: 34px; border-radius: 50%; border: 0; cursor: pointer;
+         display: inline-flex; align-items: center; justify-content: center; background: var(--chip); color: var(--accent); }
+  .shr:hover { background: var(--accent); color: #fff; }
+  .shr svg { width: 16px; height: 16px; fill: none; stroke: currentColor; stroke-width: 2.2; stroke-linecap: round; stroke-linejoin: round; }
 
   /* Vrpca rubrike: vodoravni niz manjih kartica */
   .strip { grid-column: 1 / -1; --t: var(--accent); background: color-mix(in srgb, var(--t) 7%, var(--card));
@@ -252,7 +257,7 @@
   article.ov .tag { background: var(--t); color: #fff; }
   article.ov.big h2 { font-size: clamp(1.45rem, 2.9vw, 2.15rem); line-height: 1.15; letter-spacing: -.025em; }
   article.ov.big .body p { color: rgba(255,255,255,.85); font-size: 1rem; -webkit-line-clamp: 2; max-width: 62ch; }
-  article.ov:not(.big) .body p, article.ov .more { display: none; }
+  article.ov:not(.big) .body p, article.ov .foot { display: none; }
   article.ov:not(.big) h2 { display: -webkit-box; -webkit-line-clamp: 4; -webkit-box-orient: vertical; overflow: hidden; }
   .sec { grid-column: 1 / -1; display: flex; align-items: center; gap: 12px; margin: 10px 0 -4px;
          font-size: .78rem; font-weight: 800; text-transform: uppercase; letter-spacing: .12em; color: var(--muted); }
@@ -322,6 +327,16 @@
   transition: opacity .25s, transform .25s; }
 .totop.on { opacity: 1; transform: translate(-50%, 0); pointer-events: auto; }
 .totop svg { width: 18px; height: 18px; fill: none; stroke: currentColor; stroke-width: 2.4; stroke-linecap: round; stroke-linejoin: round; }
+.toast { position: fixed; left: 50%; bottom: 84px; transform: translateX(-50%); z-index: 60; background: #0f1d2b; color: #fff;
+  padding: 10px 18px; border-radius: 999px; font-size: .9rem; font-weight: 600; box-shadow: 0 6px 20px rgba(0,0,0,.3); }
+.install { position: fixed; left: 12px; right: 12px; bottom: 12px; z-index: 45; max-width: 520px; margin: 0 auto; display: flex; align-items: center; gap: 12px;
+  background: var(--card); color: var(--text); border: 1px solid var(--line); border-radius: 18px; padding: 12px 12px 12px 14px;
+  box-shadow: 0 12px 36px rgba(0,0,0,.25); animation: rise .35s both; }
+.install img { width: 44px; height: 44px; border-radius: 11px; flex: none; }
+.install div { flex: 1 1 auto; min-width: 0; font-size: .86rem; line-height: 1.35; }
+.install b { display: block; font-size: .95rem; }
+.install .add { flex: none; border: 0; border-radius: 999px; padding: 9px 16px; background: var(--accent); color: #fff; font: inherit; font-weight: 800; cursor: pointer; }
+.install .x { flex: none; border: 0; background: none; color: var(--muted); font-size: 24px; line-height: 1; cursor: pointer; padding: 4px; }
 .tip { position: fixed; right: 18px; bottom: 18px; z-index: 40; display: inline-flex; align-items: center; gap: 8px;
        background: #1968b3; color: #fff; font-weight: 700; font-size: .9rem; padding: 12px 18px; border-radius: 999px;
        text-decoration: none; box-shadow: 0 8px 24px rgba(0,0,0,.25); transition: transform .15s; }
@@ -585,7 +600,9 @@ function card(a, kind) {
     el("h2", {}, el("a", link, a.title)),
     a.summary && !fold(a.summary).startsWith(fold(a.title)) ? el("p", {}, a.summary) : null,
     also,
-    el("a", { ...link, class: "more" }, a.own ? "Pročitaj članak →" : `Pročitaj na ${a.source} →`)));
+    el("div", { class: "foot" },
+      el("a", { ...link, class: "more" }, a.own ? "Pročitaj članak →" : `Pročitaj na ${a.source} →`),
+      shareBtn(a))));
   return c;
 }
 
@@ -1063,6 +1080,61 @@ function appMode() {
   });
 }
 
+// Gumb za dijeljenje na kartici: na mobitelu otvara izbornik za dijeljenje, inače kopira link.
+const SHARE_SVG = '<svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="18" cy="5" r="3"/><circle cx="6" cy="12" r="3"/><circle cx="18" cy="19" r="3"/><path d="m8.6 13.5 6.8 4M15.4 6.5l-6.8 4"/></svg>';
+function toast(t) {
+  document.querySelectorAll(".toast").forEach(x => x.remove());
+  const e = el("div", { class: "toast", role: "status" }, t);
+  document.body.append(e);
+  setTimeout(() => e.remove(), 2200);
+}
+function shareBtn(a) {
+  const b = el("button", { type: "button", class: "shr", "aria-label": "Podijeli vijest", title: "Podijeli" });
+  b.innerHTML = SHARE_SVG;
+  b.addEventListener("click", async e => {
+    e.preventDefault(); e.stopPropagation();
+    const text = `${a.title}\n\nViše vijesti iz Zadra: idassa.click`;
+    if (navigator.share) { try { await navigator.share({ title: a.title, text, url: a.link }); } catch (err) {} return; }
+    try { await navigator.clipboard.writeText(`${a.title}\n${a.link}\n\nViše vijesti iz Zadra: https://idassa.click`); toast("Link je kopiran"); }
+    catch (err) { window.open(`https://wa.me/?text=${encodeURIComponent(a.title + " " + a.link)}`, "_blank", "noopener"); }
+  });
+  return b;
+}
+
+// Traka "Dodaj na početni zaslon" (samo mobitel, ne u instaliranoj aplikaciji, najviše jednom u 14 dana).
+let installEvt = null;
+addEventListener("beforeinstallprompt", e => { e.preventDefault(); installEvt = e; });
+addEventListener("appinstalled", () => { try { localStorage.setItem("installHide", "9999999999999"); } catch (e) {} document.querySelector(".install")?.remove(); });
+function installBar() {
+  const app = matchMedia("(display-mode: standalone)").matches || navigator.standalone;
+  if (app || !matchMedia("(max-width: 820px)").matches) return;
+  let hide = 0;
+  try { hide = +localStorage.getItem("installHide") || 0; } catch (e) {}
+  if (Date.now() < hide) return;
+  const ios = /iphone|ipad|ipod/i.test(navigator.userAgent);
+  let shown = false;
+  const show = () => {
+    if (shown || document.querySelector(".cookies")) return;
+    shown = true;
+    removeEventListener("scroll", onScroll);
+    const close = () => { try { localStorage.setItem("installHide", String(Date.now() + 14 * 864e5)); } catch (e) {} bar.remove(); };
+    const x = el("button", { type: "button", class: "x", "aria-label": "Zatvori" }, "×");
+    x.onclick = close;
+    const tip = installEvt ? "Vijesti iz Zadra jednim dodirom, kao aplikacija."
+      : ios ? "Stisni ikonu Dijeli (kvadrat sa strelicom), pa „Dodaj na početni zaslon“."
+      : "U izborniku preglednika (⋮) odaberi „Dodaj na početni zaslon“.";
+    const add = installEvt ? el("button", { type: "button", class: "add" }, "Dodaj") : null;
+    if (add) add.onclick = async () => { installEvt.prompt(); try { const r = await installEvt.userChoice; if (r.outcome === "accepted") close(); } catch (e) {} };
+    const bar = el("div", { class: "install", role: "dialog", "aria-label": "Dodaj na početni zaslon" },
+      el("img", { src: BASE + "icon-192.png", alt: "" }),
+      el("div", {}, el("b", {}, "Dodaj idassa.click na početni zaslon"), tip), add, x);
+    document.body.append(bar);
+  };
+  const onScroll = () => { if (scrollY > 1400) show(); };
+  addEventListener("scroll", onScroll, { passive: true });
+  setTimeout(show, 25e3);
+}
+
 // Gumb "Na vrh" kad se dođe do podnožja
 function toTop() {
   const f = document.querySelector("footer");
@@ -1122,6 +1194,7 @@ googleAnalytics();
 whatsapp();
 contact();
 toTop();
+installBar();
 if ("serviceWorker" in navigator) navigator.serviceWorker.register(BASE + "sw.js").catch(() => {});
 
 // Stranica uvijek pokazuje najnovije izdanje: pri svakom otvaranju, povratku na karticu (npr. Chrome
