@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-28T06:15:51.613585+00:00",
+ "updated": "2026-11-28T06:31:08.812768+00:00",
  "sources": [
   {
    "name": "Antena Zadar",
@@ -24,7 +24,7 @@
   },
   {
    "name": "Znet",
-   "count": 8,
+   "count": 7,
    "ok": true,
    "feed": null,
    "errors": []
@@ -217,7 +217,7 @@
    "ok": false,
    "feed": "https://www.novilist.hr/feed/",
    "errors": [
-    "https://www.novilist.hr/feed/: not well-formed (invalid token): line 189, column 17"
+    "https://www.novilist.hr/feed/: not well-formed (invalid token): line 298, column 26"
    ]
   },
   {
